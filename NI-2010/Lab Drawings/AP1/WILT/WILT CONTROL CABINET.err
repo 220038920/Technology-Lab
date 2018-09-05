@@ -1,0 +1,220 @@
+
+Started importing sheet: Model
+
+Entity not imported, type , Handle: C0D9
+Entity not imported, type , Handle: DC60
+Entity not imported, type , Handle: C0EB
+Entity not imported, type , Handle: 28DA0
+Entity not imported, type , Handle: 315F1
+Entity not imported, type , Handle: 315F1
+Entity not imported, type , Handle: 315F1
+Entity not imported, type , Handle: 315F1
+Entity not imported, type , Handle: 315F1
+Entity not imported, type , Handle: 3EAFF
+Entity not imported, type , Handle: 4238F
+Entity not imported, type , Handle: 42390
+Entity not imported, type , Handle: 458F9
+Entity not imported, type , Handle: 4598F
+Entity not imported, type , Handle: 459AD
+Entity not imported, type , Handle: 459B2
+Entity not imported, type , Handle: 4A2C4
+Entity not imported, type , Handle: 50844
+Entity not imported, type , Handle: 50855
+Entity not imported, type , Handle: 52953
+Entity not imported, type , Handle: 52954
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB2D, Displayed Value: 27.000000, Actual Value: 0.048006
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB35, Displayed Value: 4.000000, Actual Value: 0.007113
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB38, Displayed Value: 2.060000, Actual Value: 0.003663
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB3F, Displayed Value: 3.000000, Actual Value: 0.005328
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB45, Displayed Value: 2.750000, Actual Value: 0.004886
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB48, Displayed Value: 7.500000, Actual Value: 0.013331
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB5B, Displayed Value: 11.090000, Actual Value: 0.019722
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB5E, Displayed Value: 14.750000, Actual Value: 0.026224
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB61, Displayed Value: 19.500000, Actual Value: 0.034670
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB64, Displayed Value: 22.170000, Actual Value: 0.039418
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB67, Displayed Value: 20.500000, Actual Value: 0.036449
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB7A, Displayed Value: 1.500000, Actual Value: 0.002667
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB8A, Displayed Value: 1.500000, Actual Value: 0.002667
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 1CB8B, Displayed Value: 32.750000, Actual Value: 0.058231
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 202E7, Displayed Value: 7.750000, Actual Value: 0.013779
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 20301, Displayed Value: 11.250000, Actual Value: 0.020002
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2031B, Displayed Value: 13.750000, Actual Value: 0.024447
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 20335, Displayed Value: 17.250000, Actual Value: 0.030670
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2034F, Displayed Value: 19.750000, Actual Value: 0.035115
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 20369, Displayed Value: 23.250000, Actual Value: 0.041338
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2053C, Displayed Value: 3.000000, Actual Value: 0.005334
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 20556, Displayed Value: 7.120000, Actual Value: 0.012659
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2058A, Displayed Value: 15.000000, Actual Value: 0.026670
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2079B, Displayed Value: 30.750000, Actual Value: 0.054674
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 21910, Displayed Value: 34.170000, Actual Value: 0.060754
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 27734, Displayed Value: 25.750000, Actual Value: 0.045783
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2774E, Displayed Value: 29.250000, Actual Value: 0.052006
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2A4E4, Displayed Value: 4.000000, Actual Value: 0.007112
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 40768, Displayed Value: 4.000000, Actual Value: 0.007103
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 420FA, Displayed Value: 8.620000, Actual Value: 0.015324
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 42114, Displayed Value: 13.500000, Actual Value: 0.024006
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51AEF, Displayed Value: 2.500000, Actual Value: 0.004446
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51AF2, Displayed Value: 2.010000, Actual Value: 0.003574
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 62312, Displayed Value: 7.000000, Actual Value: 0.012446
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 62320, Displayed Value: 2.000000, Actual Value: 0.003556
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6232F, Displayed Value: 2.000000, Actual Value: 0.042672
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6233D, Displayed Value: 1.000000, Actual Value: 0.032004
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6234B, Displayed Value: 2.000000, Actual Value: 0.003556
+Dimension's value differs from actual measurement:
+Type: Radial , Handle: 6284B, Displayed Value: 0.000000, Actual Value: 0.000889
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 685F3, Displayed Value: 1.000000, Actual Value: 0.028448
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6860D, Displayed Value: 1.000000, Actual Value: 0.021336
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 68627, Displayed Value: 9.000000, Actual Value: 0.016002
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 68641, Displayed Value: 1.000000, Actual Value: 0.023114
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6865B, Displayed Value: 10.000000, Actual Value: 0.018669
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 707A8, Displayed Value: 3.000000, Actual Value: 0.006667
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 707C2, Displayed Value: 2.000000, Actual Value: 0.003556
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 707DE, Displayed Value: 0.000000, Actual Value: 0.001333
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 70815, Displayed Value: 9.000000, Actual Value: 0.016446
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7082F, Displayed Value: 5.000000, Actual Value: 0.010223
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 70849, Displayed Value: 0.000000, Actual Value: 0.001333
+Dimension's value differs from actual measurement:
+Type: Diametrical , Handle: 70869, Displayed Value: 1.000000, Actual Value: 0.001778
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7547C, Displayed Value: 3.000000, Actual Value: 0.006668
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7547F, Displayed Value: 2.000000, Actual Value: 0.004223
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75482, Displayed Value: 0.000000, Actual Value: 0.001333
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75497, Displayed Value: 6.000000, Actual Value: 0.010668
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CB0, Displayed Value: 2.000000, Actual Value: 0.003556
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CBE, Displayed Value: 1.000000, Actual Value: 0.002445
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CCC, Displayed Value: 0.000000, Actual Value: 0.001556
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CDB, Displayed Value: 0.000000, Actual Value: 0.000667
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CEA, Displayed Value: 0.000000, Actual Value: 0.000445
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 764CB, Displayed Value: 5.000000, Actual Value: 0.009335
+Dimension's value differs from actual measurement:
+Type: Diametrical , Handle: 764E6, Displayed Value: 0.000000, Actual Value: 0.000500
+Dimension's value differs from actual measurement:
+Type: Diametrical , Handle: 7776F, Displayed Value: 1.000000, Actual Value: 0.002223
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 78F9A, Displayed Value: 6.000000, Actual Value: 0.010668
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 78FA9, Displayed Value: 5.000000, Actual Value: 0.009335
+Dimension's value differs from actual measurement:
+Type: Diametrical , Handle: 78FB0, Displayed Value: 1.000000, Actual Value: 0.002223
+Dimension's value differs from actual measurement:
+Type: Diametrical , Handle: 797D1, Displayed Value: 0.000000, Actual Value: 0.001334
+
+Finished importing sheet: Model
+
+Started importing sheet: Layout1
+
+Entity not imported, type Hatch, Handle: 1C82D
+Entity not imported, type Hatch, Handle: 1C82F
+Entity not imported, type Hatch, Handle: 1CAF1
+Entity not imported, type Hatch, Handle: 1CAF3
+Entity not imported, type Hatch, Handle: 1FFE3
+Entity not imported, type Hatch, Handle: 20035
+Entity not imported, type Hatch, Handle: 23E44
+Entity not imported, type Hatch, Handle: 298F8
+Entity not imported, type Hatch, Handle: 57FC0
+Entity not imported, type Hatch, Handle: 57FC2
+Entity not imported, type Hatch, Handle: 57FC8
+Entity not imported, type Hatch, Handle: 57FCA
+Entity not imported, type Hatch, Handle: 58006
+Entity not imported, type Hatch, Handle: 58008
+Entity not imported, type Hatch, Handle: 6E006
+Entity not imported, type Hatch, Handle: 6E00B
+Entity not imported, type Hatch, Handle: 6E010
+Entity not imported, type Hatch, Handle: 6E015
+Entity not imported, type Hatch, Handle: 6E02C
+Entity not imported, type , Handle: 459AD
+Entity not imported, type , Handle: 459B2
+Entity not imported, type , Handle: 52953
+Entity not imported, type , Handle: 52954
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6232F, Displayed Value: 2.000000, Actual Value: 0.609600
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6233D, Displayed Value: 1.000000, Actual Value: 0.457200
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 685F3, Displayed Value: 1.000000, Actual Value: 0.406400
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 6860D, Displayed Value: 1.000000, Actual Value: 0.304800
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 68641, Displayed Value: 1.000000, Actual Value: 0.330200
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 707A8, Displayed Value: 3.000000, Actual Value: 0.095250
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 707DE, Displayed Value: 0.000000, Actual Value: 0.019050
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7082F, Displayed Value: 5.000000, Actual Value: 0.146050
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 70849, Displayed Value: 0.000000, Actual Value: 0.019050
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7547C, Displayed Value: 3.000000, Actual Value: 0.095250
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 7547F, Displayed Value: 2.000000, Actual Value: 0.060325
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75482, Displayed Value: 0.000000, Actual Value: 0.019050
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CBE, Displayed Value: 1.000000, Actual Value: 0.034925
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CCC, Displayed Value: 0.000000, Actual Value: 0.022225
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CDB, Displayed Value: 0.000000, Actual Value: 0.009525
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 75CEA, Displayed Value: 0.000000, Actual Value: 0.006350
+
+Finished importing sheet: Layout1

@@ -1,0 +1,10 @@
+Corey,
+ 
+Attached are some screenshots. One has all of the individual “console” screens of the RTS processes being managed by AlwaysUp, another with just the Chamber 1 process, which appears to have all of the measurement/control for that chamber. The 3rd one is simply the AlwaysUp Management App.
+ 
+I don’t recall opening specific ports, etc, but Hooks has admin rights on the server, so they might have tweaked a few things like that.
+ 
+Mike
+ 
+Robert “Mike” McGuire
+GE Appliances, a Haier Company

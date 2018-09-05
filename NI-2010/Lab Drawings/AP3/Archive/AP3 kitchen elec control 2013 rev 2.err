@@ -1,0 +1,66 @@
+
+Started importing sheet: Model
+
+Entity not imported, type Polyline, Handle: C84
+Entity not imported, type Polyline, Handle: C84
+Entity not imported, type Polyline, Handle: 2187
+Entity not imported, type Polyline, Handle: 2187
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2245, Displayed Value: 16.000000, Actual Value: 0.040640
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 2246, Displayed Value: 20.000000, Actual Value: 0.050800
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 509B, Displayed Value: 3.000000, Actual Value: 0.001905
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50A9, Displayed Value: 3.250000, Actual Value: 0.008255
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50B7, Displayed Value: 2.125000, Actual Value: 0.005398
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50C5, Displayed Value: 4.125000, Actual Value: 0.010462
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50D3, Displayed Value: 5.250000, Actual Value: 0.013411
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50E1, Displayed Value: 1.875000, Actual Value: 0.004763
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50EF, Displayed Value: 2.000000, Actual Value: 0.005080
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 50FD, Displayed Value: 3.375000, Actual Value: 0.008573
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 510B, Displayed Value: 1.750000, Actual Value: 0.004565
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5119, Displayed Value: 6.375000, Actual Value: 0.016192
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 513B, Displayed Value: 6.000000, Actual Value: 0.015240
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5149, Displayed Value: 9.375000, Actual Value: 0.023812
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5157, Displayed Value: 5.375000, Actual Value: 0.013653
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5165, Displayed Value: 1.750000, Actual Value: 0.004445
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5173, Displayed Value: 2.125000, Actual Value: 0.005397
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 5181, Displayed Value: 2.250000, Actual Value: 0.005563
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 518F, Displayed Value: 4.375000, Actual Value: 0.010960
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51A6, Displayed Value: 2.375000, Actual Value: 0.006032
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51B4, Displayed Value: 3.000000, Actual Value: 0.001914
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51C2, Displayed Value: 2.750000, Actual Value: 0.006910
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51D0, Displayed Value: 1.125000, Actual Value: 0.003006
+
+Finished importing sheet: Model
+
+Started importing sheet: Layout1
+
+Entity not imported, type Polyline, Handle: C84
+Entity not imported, type Polyline, Handle: 2187
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 509B, Displayed Value: 3.000000, Actual Value: 0.019050
+Dimension's value differs from actual measurement:
+Type: Linear , Handle: 51B4, Displayed Value: 3.000000, Actual Value: 0.019137
+
+Finished importing sheet: Layout1
