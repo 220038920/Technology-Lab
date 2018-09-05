@@ -1,0 +1,12 @@
+# Libraries
+
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+
+
+# Metadata
