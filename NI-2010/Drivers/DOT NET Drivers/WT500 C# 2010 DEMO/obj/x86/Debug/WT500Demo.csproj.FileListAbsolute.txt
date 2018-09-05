@@ -1,0 +1,10 @@
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\bin\x86\Debug\WT500Demo.exe.config
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\bin\x86\Debug\WT500Demo.exe
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\bin\x86\Debug\WT500Demo.pdb
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\bin\x86\Debug\TmctlAPINet.dll
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\WT500Demo.csprojResolveAssemblyReference.cache
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\Yokogawa.Tm.WT500CommSample.cs.CommDialog.resources
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\Yokogawa.Tm.WT500CommSample.cs.MainDialog.resources
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\WT500Demo.csproj.GenerateResource.Cache
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\WT500Demo.exe
+C:\Technology Lab\NI-2010\Drivers\DOT NET Drivers\WT500 C# 2010 DEMO\obj\x86\Debug\WT500Demo.pdb

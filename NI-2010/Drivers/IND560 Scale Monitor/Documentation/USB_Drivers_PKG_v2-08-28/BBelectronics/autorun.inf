@@ -1,0 +1,22 @@
+; Package Version: 2.08.28 
+; Build Label: 20130925-2215 
+; Build Result ID: _XC45ASYnEeOCe8qfzFoHpw 
+ 
+[autorun] 
+open=Windows\dpinst32.exe 
+icon=Windows\dpinst32.exe 
+label=USB_Drivers 2.08 
+ 
+[autorun.amd64] 
+open=Windows\dpinst64.exe 
+icon=Windows\dpinst64.exe 
+label=USB_Drivers 2.08 
+ 
+[DeviceInstall] 
+DriverPath=Windows\Drivers 
+ 
+[Content] 
+MusicFiles=no 
+PictureFiles=no 
+VideoFiles=no 
+ 

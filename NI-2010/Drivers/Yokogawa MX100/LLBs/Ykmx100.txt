@@ -1,0 +1,164 @@
+NAME
+	YKMX100 - LabVIEW driver for YOKOGAWA MX100
+		Using the Ethernet Interface.
+
+SYNOPSIS
+	VIs have a prefix 'YKMX100'.
+
+DESCRIPTION
+	The instrument outputs measurement data by FIFO.
+	And there are two kinds, FIFO and channel, on the instrument.
+
+FILES
+	YKMX100.TXT
+		this file
+	YKMX100.llb
+		Library of VIs
+	YKMX100U.llb
+		Library of VIs that the end user should not access directly.
+	dir.mnu
+		Top Menu
+	config.mnu
+		Menu of Configure VIs
+	acstat.mnu
+		Menu of Status or Action VIs
+	applic.mnu
+		Menu of Getting Started and Applications VIs
+	data.mnu
+		Menu of Data
+	util.mnu
+		Menu of Utility VIs
+
+VIS
+	YKMX100 VI Tree.vi
+
+	[Getting Started]
+	YKMX100 Getting Started.vi
+
+	[Application Example]
+	YKMX100 App Example Measurement FIFO Data.vi
+	YKMX100 App Example Measurement Channel Data.vi
+	YKMX100 App Example Config Range.vi
+
+	[Initialize]
+	YKMX100 Initialize.vi
+
+	[Close]
+	YKMX100 Close.vi
+
+	[Configuration]
+	YKMX100 Change Config Range Skip.vi
+	YKMX100 Change Config Range VOLT.vi	
+	YKMX100 Change Config Range DI.vi
+	YKMX100 Change Config Range TC.vi
+	YKMX100 Change Config Range RTD.vi
+	YKMX100 Change Config Range RES.vi
+	YKMX100 Change Config Range DELTA.vi
+	YKMX100 Change Config Range PULSE.vi
+	YKMX100 Change Config Range RRJC.vi
+	YKMX100 Change Config Range STRAIN.vi
+	YKMX100 Change Config Range AO.vi
+	YKMX100 Change Config Range PWM.vi
+	YKMX100 Change Config Range CANbus.vi
+	YKMX100 Change Config Channel Type.vi
+	YKMX100 Change Config Channel Identify.vi
+	YKMX100 Change Config Alarm.vi
+	YKMX100 Change Config Filter.vi
+	YKMX100 Change Config Chat Filter.vi
+	YKMX100 Change Config Burnout.vi
+	YKMX100 Change Config RJC Type.vi
+	YKMX100 Change Config Hold.vi
+	YKMX100 Change Config Deenergize.vi
+	YKMX100 Change Config Reference Alarm.vi
+	YKMX100 Change Config Output.vi
+	YKMX100 Change Config Unit.vi
+	YKMX100 Change Config Interval.vi
+	YKMX100 Change DO Status.vi
+	YKMX100 Change Balance Status.vi
+	YKMX100 Change AOPWM Status.vi
+	YKMX100 Change Transmit Status.vi
+	YKMX100 Config Backup.vi
+	YKMX100 Config Date Time.vi
+
+	Change Config VIs are changed a configure information data.
+	"YKMX100 Get Config Info Data.vi" is used for getting a configure information data.
+	"YKMX100 Set Config Info Data.vi" is used for setting a configure information data.
+
+	[Action/Status]
+	YKMX100 Get Status Data.vi
+	YKMX100 Set Alarm ACK.vi
+	YKMX100 Control FIFO.vi
+	YKMX100 Set Segment.vi
+	YKMX100 Control Balance.vi
+
+	[Data]
+	YKMX100 Get System Config Data.vi
+	YKMX100 Get Channel Info Data.vi
+	YKMX100 Get Measurement FIFO Data.vi
+	YKMX100 Get Measurement Channel Data.vi
+	YKMX100 Get Config Info Data.vi
+	YKMX100 Set Config Info Data.vi
+	YKMX100 Get DO Data.vi
+	YKMX100 Set DO Data.vi
+	YKMX100 Get Balance.vi
+	YKMX100 Set Balance.vi
+	YKMX100 Get AOPWM.vi
+	YKMX100 Set AOPWM.vi
+	YKMX100 Get Transmit.vi
+	YKMX100 Set Transmit.vi
+
+	[Utility]
+	YKMX100 Self-Test.vi
+	YKMX100 Revision Query.vi
+	YKMX100 Reset.vi
+	YKMX100 Error Message.vi
+	YKMX100 Error Query.vi
+	YKMX100 Send Packet.vi
+	YKMX100 Receive Packet.vi
+	YKMX100 Error Response Check.vi
+	YKMX100 Reconstruct.vi
+	YKMX100 Format CF.vi
+	YKMX100 Get Data Number.vi
+	YKMX100 Get Base Time.vi
+
+	[Data Analyze Utility]
+	YKMX100 Convert Channel Info Data.vi
+	YKMX100 Convert Channel Identify.vi
+	YKMX100 Convert Channel Display.vi
+	YKMX100 Convert Config Info Data.vi
+	YKMX100 Convert Config Unit.vi
+	YKMX100 Convert Config Channel.vi
+	YKMX100 Convert Config Module.vi
+	YKMX100 Convert Config Ethernet.vi
+	YKMX100 Convert Config Channel Identify.vi
+	YKMX100 Convert Config Channel AI DI.vi
+	YKMX100 Convert Config Channel AI.vi
+	YKMX100 Convert Config Channel CI.vi
+	YKMX100 Convert Config Channel PI.vi
+	YKMX100 Convert Config Channel DO.vi
+	YKMX100 Convert Config Channel AO PWM.vi
+	YKMX100 Convert Config Channel Output.vi
+	YKMX100 Convert DO Data.vi
+	YKMX100 Convert Balance Data.vi
+	YKMX100 Convert AOPWM Data.vi
+	YKMX100 Convert Transmit Data.vi
+	YKMX100 Convert Status CF.vi
+	YKMX100 Convert Status FIFO.vi
+	YKMX100 Convert System Unit.vi
+	YKMX100 Convert System Module.vi
+	YKMX100 Convert Measurement Status.vi
+	YKMX100 Convert Channel Range.vi
+	YKMX100 Convert Channel Alarm.vi
+	YKMX100 Integer with Decimal Point To Float.vi
+	YKMX100 To AOPWM Actual Value.vi
+	YKMX100 To AOPWM Value.vi
+
+SEE ALSO
+	http://www.yokogawa.com/
+
+NOTES
+	This driver which use VISA was created on LabVIEW 7.0/J,
+	WindowsXP Japanese Edition.
+
+-----------------------------------------------------------------------	-
+(c)2003-2009 Yokogawa Electric Corporation

@@ -1,0 +1,70 @@
+﻿PURCHASE AND LICENSE AGREEMENT OF CUSTOM SOFTWARE PROGRAM
+
+This Agreement is entered into prior to this installation (the "Execution Date") between B&B Electronics (herein referred to as "B&B"), with its principal business office at 707 Dayton Road, Ottawa, IL 61350 and User of Software (herein referred to as “USER”).
+
+1. CERTAIN DEFINITIONS:
+
+Unless the context otherwise requires, as used herein the following terms have the meaning specified below:
+
+(a) "Product" means that certain custom software program and related materials developed and to be further developed under this Agreement, the data base design for which is more fully set forth on Schedule I hereto, including, without limitation, all existing and hereafter developed Software, Documentation, Ancillary Materials, Work Product, and Derivatives.
+
+(b) "Software" means the source code and object code developed for the Product, including any corrections and Derivatives, whether prepared by B&B or third parties, including, but not limited to the specifications for the Product, including functional capabilities, operating system and language specifications, hardware platforms, data structures, memory requirements, program designs, computer processes and algorithms and related code and code libraries, graphics specifications, user control and interface features, and expansion characteristics relating to the Product.
+
+(c) "Documentation" means all written materials developed in connection with the design of the Product, including, without limitation, specifications, programmers' notes, documentation, and other materials incorporated in or related to the Product.
+
+(d) "Ancillary Materials" means other materials designed to be packaged with the Product, including, without limitation, user manuals and any copy describing the Product.
+
+(e) "Intellectual Property Rights" means all copyrights (including, without limitation, the exclusive right to reproduce, distribute copies of the copyrighted work and to prepare derivative works), copyright registrations and applications, trademark rights (including, without limitation, registrations and applications), patent rights, trade names, mask-work rights, trade secrets, moral rights, author's rights, algorithms, rights in packaging, goodwill and other intellectual property rights, and all renewals and extensions thereof, regardless of whether any of such rights arise under the laws of the United States or any other state, country or jurisdiction, and all Derivatives of any of the forgoing.
+
+(f) "Work Product" means any and all existing or to‑be‑developed parts, components or aspects of the Product that are designed, created or contributed to by B&B.
+
+(g) "Derivative" means: (i) any Software, work, product, service, improvement, modification, alteration, enhancement, new version, sequel, translation, adaptation, design, concept, visual display, materials and documentation, in any medium, format or form whatsoever that is derived in any manner, directly or indirectly, from the Product or any part or aspect thereof or that uses or incorporates the Product or any part or aspect thereof; (ii) all "derivative works" of the Product as defined in the Copyright Law of the United States, Title 17 U.S.C. § 101 et. seq. ("Copyright Law"); and (iii) all materials and documentation related to each of the foregoing.
+
+(h) “PRAD Code” means the Proprietary Rapid Application Development Code used by B&B as a general framework to develop the Product Software and which is incorporated into and made a part of the Product Software.
+
+2. GRANT OF RIGHTS:
+
+(a) PRAD Code. In accordance with the terms of this Agreement, B&B hereby grants a worldwide, fully paid-up, perpetual, royalty-free, non-exclusive license to USER to use, reproduce, or copy the PRAD Code.
+
+(b) Derivative Works. B&B hereby grants USER a worldwide, fully paid-up, perpetual, royalty-free, non-exclusive license to create derivative works based on the PRAD Code which shall be the sole and exclusive property of B&B, with B&B owning all rights, title, and interest therein and thereto.
+
+(c) With the exception of the PRAD Code, as defined herein, B&B hereby sells, grants, conveys and assigns to USER, its successors, licensees and assigns exclusively and forever, all rights (including all Intellectual Property Rights and Derivative rights) and any and all allied and ancillary rights, throughout the universe, in and to the Product Software and in and to the copyright and patent thereof and all renewals and extensions of copyright and patent. With the exception of the PRAD Code, as defined herein, all right, title and interest in and to the Product Software, as well as all Intellectual Property Rights embodied in or pertaining in any way to any of the foregoing, shall be the sole and exclusive property of B&B free and clear of any and all rights and claims whatsoever by USER or any other person, firm or corporation. Accordingly, B&B shall have the sole and exclusive right to do and authorize any and all of the acts set forth in Section 106 of the Copyright Law, including, without limitation, to copyright the Product Software in its name, as the owner and author thereof, and to secure any and all renewals and extensions of such copyrights.
+(d) EXPORT RESTRICTIONS. You acknowledge that the SOFTWARE licensed hereunder is subject to the export control laws and regulations of the U.S.A., and any amendments thereof. You confirm that with respect to the SOFTWARE PRODUCT, you will not export or re-export it, directly or indirectly, to any countries that are subject to U.S.A. export restrictions. You further acknowledge that the SOFTWARE PRODUCT may include technical data subject to export and re-export restrictions imposed by U.S.A. law.
+
+3. INDEMNIFICATION:
+
+(a) Copyright and Patent Infringement. USER hereby agrees to defend, indemnify and hold B&B harmless against any and all liability, claims, penalties, damages, costs, attorney's fees or other expenses of any nature whatsoever paid or incurred in connection with claims by any person (including claims of copyright or patent infringement, trade secret misappropriation) arising from USER's exercise of the rights granted in paragraph 2 of this Agreement or otherwise relating to Product Software. If any demand, claim, or suit is asserted or instituted with respect to which USER may be entitled to indemnification under this section, then USER shall promptly notify B&B of the full details to the extent then known. B&B shall be entitled, at its own expense, to employ counsel to defend such demand, claim, or suit or to participate in the defense of such asserted demand, claim, or suit. Any proposed settlement of any such demand, claim, or suit must be approved by both B&B and USER with such approval not to be unreasonably withheld. The parties agree to cooperate in good faith in the defense of settlement of any such demand, claim, or suit.
+
+4. REPRESENTATIONS, WARRANTIES AND LIMITATIONS:
+
+(a) USER Warranties: B&B represents and warrants that:
+
+(i) He has all necessary rights and authorization to enter into and perform this Agreement, to provide the scheduled Deliverables and to grant to USER all rights purported to be granted herein, and nothing contained in this Agreement or in the performance of the Agreement will place B&B in breach of any other contract or obligation;
+
+(ii) Nothing that B&B provides that is or will be contained in the Product Software does or will violate or infringe any intellectual property right of any third party;
+
+(iii) There is no demand, claim, suit, action, arbitration or other proceeding pending or threatened which questions or challenges the ability or right of B&B to enter into this Agreement or to perform any of his obligations hereunder, nor does there exist any reasonable basis for any such demand, claim, suit, action, arbitration or other proceeding;
+
+(iv) The Product Software and Deliverables are free of viruses and other harmful code; and
+
+(b) NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY SPECIAL, PUNITIVE, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY LOSS OF PROFITS OR BUSINESS, ARISING OUT OF THIS AGREEMENT. IN NO EVENT SHALL EITHER PARTY'S LIABILITY EXCEED THE VALUE OF THE COMPENSATION PAID AND PAYABLE BY USER TO B&B UNDER THIS AGREEMENT.
+
+5. MISCELLANEOUS
+
+(a) Force Majeure. Neither party shall be liable in damages or have the right to terminate the Agreement for any delay or default in performing this Agreement if such delay or default is caused by conditions beyond its control, including, but not limited to, acts of God, government restrictions, wars, insurrections, strikes, fire, floods or work stoppages; provided, however, that if such delay or default shall exceed six months, then the party not delaying or defaulting may, so long as the delay or default continues, suspend its performance under this Agreement and the party affected by the conditions beyond its control shall keep the other party fully informed on an on-going basis concerning the matters causing the delay or default, and the prospects of their ending.
+
+(b) Survival. Notwithstanding any termination of this Agreement, the terms of paragraphs 2, 7, 8, 9, 10 and 11 shall survive such termination and remain in full force and effect.
+
+(c) Entire Agreement. This Agreement contains the entire agreement of the parties and shall not be varied, amended, or supplemented except in writing of subsequent or even date executed by the parties.
+
+(d) Enforceability. If any part of this Agreement shall be held unenforceable, the remainder of this Agreement will nevertheless remain in full force and effect.
+
+(e) Counterparts. This Agreement may be executed in counterparts which - taken together shall constitute one agreement, and either party may execute this Agreement by signing such counterpart.
+
+(f) No Agency. Nothing in this Agreement shall be construed to constitute or appoint either party as the agent or representative of the other party for any purpose whatsoever, or to grant to either party any rights or authority to assume or create any obligation or responsibility, express or implied, for or on behalf of or in the name of the other, or to bind the other in any way or manner whatsoever.
+
+(g) Governing Law. This agreement shall be governed by the laws of the State of Illinois, and both parties consent to jurisdiction and venue in the state and federal courts sitting in the State of Illinois. In any action or suit to enforce any right or remedy under this Agreement or to interpret any provision of this Agreement, the prevailing party shall be entitled to recover its costs, including reasonable attorney's fees.
+
+(h) Independent Contractors. The parties are independent contractors, and nothing in this Agreement will be deemed to place the parties in the relationship of employer-employee, principal-agent, or partners or joint venturers. Neither party will under any circumstances be liable for any withholding taxes, payroll taxes, disability insurance payments, unemployment taxes, and other similar taxes or charges on the payments made by the other party to such other party's personnel.
+
+(i) Facsimile. This contract can be executed and is binding upon the parties when executed by facsimile machine.

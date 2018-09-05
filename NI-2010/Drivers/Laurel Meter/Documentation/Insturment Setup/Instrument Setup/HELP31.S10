@@ -1,0 +1,475 @@
+                                                $FILE$
+
+  The $File$ capability allows Counter Setup data to be saved in
+  computer memory for easy recall.  By using different file names,
+  various sets of Setup data may be saved and re-loaded into the
+  Counter as desired.
+
+  $Default Setup$ - This loads Default Setup data into the 3-Page Setup 
+                form.  Using this form, changes may be made to the data
+                as desired and the result saved either to a file or 
+                directly in the non-volatile memory of the Counter.
+
+  $Open Setup$ - This brings up the File Location menu and allows you 
+                to select the name of the desired Setup file that was 
+                previously saved, and loads it into the 3-Page Setup 
+                form.
+
+  $Save Setup$ - This saves the current data in the 3-Page Setup form 
+                to the current file name in use.  It replaces the data 
+                that was previously in that file.
+
+  $Save Setup As$ - This brings up the File Location menu and allows
+                you to save the current data in the 3-Page Setup form 
+                to any new or existing file name.  
+
+                
+                                                  $COUNTER$
+
+  This transfers data directly between the 3-Page form and the 
+  actual hardware Counter where it is stored in, or retrieved from,
+  the non-volatile memory.  The Setup data stored in the non-
+  volatile memory determines the operating characteristics of the
+  Counter each time it is powered-up or given a Meter Reset from
+  the front panel switches or via Serial Communications.
+
+  $Get Setup$ - Data stored in the Counter's non-volatile memory
+                is transferred to the 3-Page form where it may be
+                viewed and changes made, if desired, for transferring 
+                back to the Counter or storing in a file for future
+                use.
+  $Put Setup$ - Current data from the 3-Page Setup form is 
+                transferred to the Counter and stored in it's non-
+                volatile memory.  
+
+  It is possible to transfer Setup data between a file and the Counter
+      without Viewing the 3-Page Setup form. 
+  File-to-Counter: 
+            Select the file with $File/Open Setup$, then 
+            Select $Counter/Put Setup$.
+  Counter-to-File: 
+            Select $Counter/Get Setup$, then
+            Select the file with $File/Save Setup$ or $Save Setup As$. 
+              
+                                                  $VIEW$
+  $View$ may only be selected from the Menu after data has been 
+            loaded into the 3-Page Setup form.
+  $Setup$ - This brings up the first page of the 3-Page Setup
+            form.  Each page allows the next page or the previous
+            page to be viewed.  Changes to the Setup data may be
+            made from these pages.  For a give Counter Mode and
+            Function, some of the data items may not apply and
+            these will be disabled so that no changes can be made.
+            They are identified by the faded grey type.  The data may
+            be selected for a Counter having more capability than the 
+            actual Counter that the program is communicating with.  For
+            instance, option boards can be selected on the 3-Page form 
+            that are not present in the actual Counter, or Extended 
+            Counter functions may be selected for a Basic Counter. 
+            However, this data is ignored by the actual Counter and it 
+            operates only with the data that applies to it's installed 
+            hardware.
+  $Menu$ -  This is a special form that lists the Setup data in the same
+            format that it appears on the Front Panel Menu of the Counter. 
+            It derives it's data from the 3-Page Setup form and the data 
+            cannot be changed on this Menu form.  It's purpose is to 
+            allow a user without Serial Communications to use the ease of
+            the 3-Page Setup form to select the data and then use this 
+            Menu form as a guide in setting up the Front Panel Menu.
+
+            
+            
+                                                 $COMMANDS$
+
+  Certain Commands, available with Serial Communications, may be
+  used with this program.
+  $Resets$ - The following $Reset$ commands may be selected.
+             $Meter Reset$ - Performs a Power-On Reset of the Counter.
+             $Function Reset$ - Resets the Peak value and any Total Values.
+             $Latched Alarms Reset$ - Resets any latched alarms.
+             $Peak, Valley Reset$ - Resets the Peak and Valley values only.
+             $Remote Display Reset$ - Removes the Remote Display value
+                    and returns the Counter display to it's normal reading.
+                    It also zero's the Remote Display value in Item 3, if
+                    present.
+  $Get Reading$ - Obtains the latest reading from the Counter each time
+                    it is clicked on.
+  $Remote Display$ - Sends a Remote Display value to the Counter.             
+                    The value may be sent to the Display only, or to
+                    Item 3 only (If not an Arithmetic or Batch function
+                    selected) or both the Display and Item 3.  By
+                    putting the value in Item 3, the Setup data may
+                    be configured to allow the Alarm Relays or the
+                    Analog output to function with the Remote Data.
+                                                   $READINGS$
+
+  This accepts Continuous readings from the Counter and provides
+  a choice of:
+    1. $Listing$ the readings
+    2. $Plotting$ the readings
+    3. $Creating$ a histogram of the readings
+ 
+                                                 $JUMPERS$
+
+  This provides a jumper layout of the Signal Conditioner option 
+  boards showing the jumper locations and describing the jumper
+  functions.  It includes the following boards:
+     $Dual Signal Conditioner$
+     $V-F Converter$
+     $Quadrature$
+
+ 
+                                                $FILE$
+
+  The $File$ capability allows DPM Setup data to be saved in
+  computer memory for easy recall.  By using different file names,
+  various sets of Setup data may be saved and re-loaded into the
+  DPM (/Transmitter) as desired.
+
+  $Default Setup$ - This loads Default Setup data into the tabbed Setup 
+                form.  Using this form, changes may be made to the data
+                as desired and the result saved either to a file or 
+                directly in the non-volatile memory of the DPM.
+
+  $Open Setup$ - This brings up the File Location menu and allows you 
+                to select the name of the desired Setup file that was 
+                previously saved, and loads it into the tabbed Setup 
+                form.
+
+  $Save Setup$ - This saves the current data in the tabbed Setup form 
+                to the current file name in use.  It replaces the data 
+                that was previously in that file.
+
+  $Save Setup As$ - This brings up the File Location menu and allows
+                you to save the current data in the tabbed Setup form 
+                to any new or existing file name.  
+
+                
+                                                  $DPM$
+
+  This transfers data directly between the tabbed Setup form 
+  and the actual hardware DPM where it is stored in, or retrieved
+  from, the non-volatile memory.  The Setup data stored in the 
+  non-volatile memory determines the operating characteristics of
+  the DPM each time it is powered-up or given a Meter Reset from
+  the front panel switches or via Serial Communications.
+
+  $Get Setup$ - Data stored in the DPM's non-volatile memory is 
+                transferred to the tabbed Setup form where it may be
+                viewed and changes made, if desired, for transferring 
+                back to the DPM or storing in a file for future
+                use.
+  $Put Setup$ - Current data from the tabbed Setup form is 
+                transferred to the DPM and stored in it's non-
+                volatile memory.  
+
+  It is possible to transfer Setup data between a file and the DPM
+      without Viewing the tabbed Setup form. 
+  File-to-DPM: 
+            Select the file with $File/Open Setup$, then 
+            Select $DPM/Put Setup$.
+  DPM-to-File: 
+            Select $DPM/Get Setup$, then
+            Select the file with $File/Save Setup$ or $Save Setup As$. 
+              
+                                                  $VIEW$
+  $View$ may only be selected from the Menu after data has been 
+            loaded into the tabbed Setup form.
+  $Setup$ - This brings up the the tabbed Setup form.  Each tab
+            represents certain DPM setup items and allows changes
+            to be made to these items.  For a given DPM Mode and
+            Function, some of the data items may not apply and
+            these will be disabled so that no changes can be made.
+            They are identified by the faded grey type.  If the
+            data source is a file instead of a DPM, some of the
+            active and disabled data items will change when the
+            signal conditioner type is changed.
+
+  $Menu$ -  This is a special form that lists the Setup data in the 
+            same format that it appears on the Front Panel Menu of 
+            the DPM.  It derives it's data from the tabbed Setup form
+            and the data cannot be changed on this Menu form.  It's 
+            purpose is to allow a user without Serial Communications
+            to use the ease of the tabbed Setup form to select the 
+            data and then use this Menu form as a guide in setting 
+            up the Front Panel Menu.  This Menu does not appear with
+            a DPM Transmitter because it has no front panel.
+
+
+                                                 $COMMANDS$
+
+  Certain Commands, available with Serial Communications, may be
+  used with this program.
+  $Resets$ - The following $Reset$ commands may be selected.
+             $Meter Reset$ - Performs a Power-On Reset of the DPM.
+             $Function Reset$ - Resets the Peak and Valley values.
+             $Latched Alarms Reset$ - Resets any latched alarms.
+             $Peak Reset$ - Resets the Peak value only.
+             $Valley Reset$ - Resets the Valley value only.
+             $Tare$ - Resets the Tare value.
+             $Remote Display Reset$ - Removes the Remote Display value
+                    and returns the DPM display to it's normal reading.
+  $Remote Display$ - Sends a Remote Display value to the DPM.             
+  $Reading$ - Obtains the following readings from the DPM each time
+                    it is clicked on.
+             $Latest$ - The current reading
+             $Peak$ - The Peak reading.
+             $Valley$ - The Valley reading.
+                                                   $READINGS$
+
+  This accepts Continuous readings from the DPM and provides
+  a choice of:
+    1. $Listing$ the readings in columns and rows
+    2. $Plotting$ the readings in real time
+    3. $Graphing$ a histogram of the readings
+ 
+                                                 $JUMPERS$
+
+  This provides a jumper layout of the Signal Conditioner option 
+  boards showing the jumper locations and describing the jumper
+  functions.  It includes the following boards:
+     $Temperature$
+     $DC Signal Conditioner$
+     $True RMS$
+     $Load Cell$
+     $Power Supply$
+     $RS-232$
+     $RS-485$
+     $Modbus$
+
+ 
+                                               $CALIBRATION$
+
+  This procedure provides prompts for the manual calibration of
+  the meter.  It requires an accurate signal source for each of
+  the ranges to be calibrated.  The range is selected by a drop-
+  down menu.  The corresponding jumper positions for the range
+  selected are shown in the diagram on the screen and must be 
+  properly placed by the user.  The program automatically sets 
+  the meter to the selected range. 
+
+  The procedure is to place the jumpers and then apply the designated
+  input signal.  When the meter reading has settled, click on
+  $Ready$.  If it is a bipolar range, this will be repeated for
+  the other polarity and then back to the original polarity as
+  prompted.  When the calibration is complete, the final reading
+  is shown and, if not satisfactory, the calibration can be 
+  repeated by clicking on $Repeat$.  This can be repeated as many
+  times as desired and then the best calibration selected by 
+  clicking the desired right-hand row number in the $Accept$ column.
+
+  If the wrong signal polarity is applied, the message $Input
+  Signal Error$ will appear.  Correct the input signal and click
+  on $Ready$ again.  This message will also appear if the input
+  signal level is the correct polarity but considerably off from
+  the proper level.
+  The procedure can be stopped at any time, by clicking on $Stop$
+  and the procedure can be ended by clicking on $End$.
+
+ 
+                                                $FILE$
+
+  The $File$ capability allows Counter Setup data to be saved in
+  computer memory for easy recall.  By using different file names,
+  various sets of Setup data may be saved and re-loaded into the
+  Counter as desired.
+
+  $Default Setup$ - This loads Default Setup data into the Setup 
+                form.  Using this form, changes may be made to the data
+                as desired and the result saved either to a file or 
+                directly in the non-volatile memory of the Counter.
+
+  $Open Setup$ - This brings up the File Location menu and allows you 
+                to select the name of the desired Setup file that was 
+                previously saved, and loads it into the Setup form.
+
+  $Save Setup$ - This saves the current data in the Setup form to the 
+                current file name in use.  It replaces the data that 
+                was previously in that file.
+
+  $Save Setup As$ - This brings up the File Location menu and allows
+                you to save the current data in the Setup form to any 
+                new or existing file name.  
+
+                
+                                                  $COUNTER$
+
+  This transfers data directly between the Setup form and the 
+  actual hardware Counter where it is stored in, or retrieved from,
+  the non-volatile memory.  The Setup data stored in the non-
+  volatile memory determines the operating characteristics of the
+  Counter each time it is powered-up or given a Meter Reset from
+  the front panel switches or via Serial Communications.
+
+  $Get Setup$ - Data stored in the Counter's non-volatile memory
+                is transferred to the Setup form where it may be
+                viewed and changes made, if desired, for transferring 
+                back to the Counter or storing in a file for future
+                use.
+  $Put Setup$ - Current data from the Setup form is transferred to 
+                the Counter and stored in it's non-volatile memory.  
+
+  It is possible to transfer Setup data between a file and the Counter
+      without Viewing the Setup form. 
+  File-to-Counter: 
+            Select the file with $File/Open Setup$, then 
+            Select $Counter/Put Setup$.
+  Counter-to-File: 
+            Select $Counter/Get Setup$, then
+            Select the file with $File/Save Setup$ or $Save Setup As$. 
+              
+                                                  $VIEW$
+  $View$ may only be selected from the Menu after data has been 
+            loaded into the Setup form.
+  $Setup$ - This displays the Setup form in a tabbed format.  The 
+            tabs group Setup items by functionality.  Changes to the 
+            Setup data may be made on each of the tabbed forms.  For
+            a give Counter Mode and Function, some of the data items 
+            may not apply and these will be disabled so that no 
+            changes can be made.  They are identified by the faded 
+            grey type.  The data may be selected for a Counter having 
+            more capability than the actual Counter that the program 
+            is communicating with.  For instance, option boards can be
+            selected on the Setup form that are not present in the 
+            actual Counter, or Extended Counter functions may be 
+            selected for a Basic Counter.  However, this data is 
+            ignored by the actual Counter and it operates only with the
+            data that applies to it's installed hardware.
+  $Menu$ -  This is a special form that lists the Setup data in the same
+            format that it appears on the Front Panel Menu of the Counter. 
+            It derives it's data from the Setup form and the data 
+            cannot be changed on this Menu form.  It's purpose is to 
+            allow a user without Serial Communications to use the ease of
+            the Setup form to select the data and then use this 
+            Menu form as a guide in setting up the Front Panel Menu.
+
+            
+            
+                                                 $JUMPERS$
+
+  This provides a jumper layout of the Signal Conditioner option 
+  boards showing the jumper locations and describing the jumper
+  functions.  It includes the following boards:
+     $Dual Signal Conditioner$
+     $V-F Converter$
+     $Quadrature$
+     $Communications$
+
+ 
+                                                $FILE$
+
+  The $File$ capability allows Weight Meter Setup data to be saved
+  in computer memory for easy recall.  By using different file 
+  names, various sets of Setup data may be saved and re-loaded into
+  the Meter (or Transmitter) as desired.
+
+  $Default Setup$ - This loads Default Setup data into the Setup 
+                pages.  Using these pages, changes may be made to the
+                data as desired and the result saved either to a file
+                or directly in the non-volatile memory of the Meter.
+
+  $Open Setup$ - This brings up the File Location menu and allows you 
+                to select the name of the desired Setup file that was 
+                previously saved, and loads it into the Setup pages.
+
+  $Save Setup$ - This saves the current data in the Setup pages 
+                to the current file name in use.  It replaces the data 
+                that was previously in that file.
+
+  $Save Setup As$ - This brings up the File Location menu and allows
+                you to save the current data in the Setup pages to 
+                any new or existing file name.  
+
+                
+                                              $METER$
+
+  This transfers data directly between the Setup pages and the 
+  actual hardware Meter where it is either stored in, or retrieved
+  from, the non-volatile memory.  The Setup data stored in the 
+  non-volatile memory determines the operating characteristics of
+  the Meter each time it is powered-up or given a Meter Reset from
+  the front panel switches or via Serial Communications.
+
+  $Get Setup$ - Data stored in the Meter's non-volatile memory is 
+                transferred to the Setup pages where it may be
+                viewed and changes made, if desired, for transferring 
+                back to the Meter or storing in a file for future
+                use.
+  $Put Setup$ - Current data from the Setup pages is transferred
+                to the Meter and stored in it's non-volatile memory.  
+
+  It is possible to transfer Setup data between a file and the Meter
+      without Viewing the tabbed Setup form. 
+  File-to-Meter: 
+            Select the file with $File/Open Setup$, then 
+            Select $Meter/Put Setup$.
+  Meter-to-File: 
+            Select $Meter/Get Setup$, then
+            Select the file with $File/Save Setup$ or $Save Setup As$. 
+              
+                                                  $VIEW$
+  $View$ can only be selected from the Menu after data has been 
+            loaded into the tabbed Setup form, either from the
+            meter or from a file.
+
+  $Setup$ - This brings up the the Setup pages.  Each page
+            represents certain Meter setup items and allows changes
+            to be made to these items.  For a given Meter Mode and
+            Function, some of the data items may not apply and
+            these will be disabled so that no changes can be made.
+            They are identified by the faded grey type.  If the
+            data source is a file instead of a Meter, some of the
+            active and disabled data items will change when the
+            signal conditioner type is changed.
+
+  $Menu$ -  This is a special form that lists the Setup data in the 
+            same format that it appears on the Front Panel Menu of 
+            the Meter.  It derives it's data from Setup pages and
+            and the data cannot be changed on this Menu form.  It's 
+            purpose is to allow a user without Serial Communications
+            to use the ease of the Setup pages to select the data and
+            then use this Menu form as a guide in setting up the Front
+            Panel Menu.  This Menu does not appear with a Weight Meter 
+            Transmitter because it has no front panel.
+
+
+                                                 $COMMANDS$
+
+  Certain Commands, available with Serial Communications, may be
+  used with this program.
+
+  $Resets$ - The following $Reset$ commands may be selected.
+             $Meter Reset$ - Performs a Power-On Reset of the Meter.
+             $Function Reset$ - Resets the Peak value and latched 
+                                                     alarms.
+             $Latched Alarms Reset$ - Resets any latched alarms.
+             $Peak Reset$ - Resets the Peak value only.
+             $Tare$ - Resets the Tare value.
+
+  $Reading$ - Obtains the following readings from the Meter each 
+                    time it is clicked on.
+             $Net$ - The (Gross - Tare) reading
+             $Gross$ - The Gross reading.
+             $Peak$ - The Peak reading of either the $Net$ or $Gross$ 
+                             value depending on the Peak Source selection.
+
+                                                   $READINGS$
+
+  This accepts Continuous readings from the Meter and provides
+  a choice of:
+    1. $Listing$ the readings in columns and rows
+    2. $Plotting$ the readings in real time
+    3. $Graphing$ a histogram of the readings
+ 
+                                                 $JUMPERS$
+
+  This provides a jumper layout of the Signal Conditioner option 
+  boards showing the jumper locations and describing the jumper
+  functions.  It includes the following boards:
+     $DC Signal Conditioner$
+     $Load Cell$
+     $Power Supply$
+     $RS-232$
+     $RS-485$
+
+ 

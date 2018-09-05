@@ -1,0 +1,30 @@
+
+Created: 6/9/2016
+
+1. Go to Gmail.com
+2. Create email.  (Added gmail to existing Google account for this test).
+3. Obtained IP address that will make the controller available to the outside world.
+
+{Email Configuration in Cscape}
+
+4. Use 8.8.4.4 for DNS Server IP.  (assuming 8.8.8.8 will work too).
+5. Use smtp.gmail.com for SMTP Server Name:
+6. Use Port: 587
+7. Enable SMTP Authentication.
+8. Use the Gmail email address as the User Name:
+9. Use Gmail password for Password:
+
+10. While signed in to Google:  https://accounts.google.com/DisplayUnlockCaptcha
+
+There is also a link you can use to tell gmail that the account will be accessed by the PLC:
+
+“Google have to allow your app to use your own account, to allow this google provided an easy way, 
+just go to https://accounts.google.com/DisplayUnlockCaptcha, then click continue, then with 10 min, 
+use your application to try to send email again, and google will remember the application/service 
+and allow your application to access your account as long as you don't change your password.”
+
+
+11. While signed in to Google, link to make it less secure:
+    https://www.google.com/settings/security/lesssecureapps
+
+Once I did either step 10 and/or step 11 emails started going through.

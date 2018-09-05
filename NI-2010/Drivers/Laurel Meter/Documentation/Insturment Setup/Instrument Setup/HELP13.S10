@@ -1,0 +1,1460 @@
+                                   $BASIC VS EXTENDED$
+
+  If a Meter is purchased as a $BASIC$ meter, it cannot be used
+  in the $EXTENDED$ format, but a Meter purchased as an $EXTENDED$
+  Meter may be used as either a $BASIC$ or an $EXTENDED$ Meter.
+  This application program will allow either to be selected, even 
+  though Communications has been established with a $BASIC$ Meter.  
+  However, if the Setup data is transferred to the $BASIC$ Meter, 
+  it will ignore all data that pertains to the $EXTENDED$ operation 
+  and will continue to function only as a $BASIC$ Meter.
+
+  The difference between these two formats is that the $EXTENDED$
+  Meter has all of the capabilities designed into the Meter while
+  the $BASIC$ Meter $excludes$ the following $FUNCTIONS$:
+      1. Custom Curve capability
+      2. Rate-of-Change display
+                              $SIGNAL CONDITIONER OPTION$
+  There are 4 input signal conditioner option boards that may be used 
+  with the meter.
+    $Temperature$ - Makes temperature measurements from these sources:
+                              $Thermocouples$  Type J, K, N, E, T, S, R
+                              $RTD$  4-Wire, 3-Wire and 2-Wire
+    $DC$ - Makes the following measurements:
+                              $DC Voltage$  0.2V to 660V Full Scale Ranges
+                              $DC Current$  2mA to 5A Full Scale Ranges
+                              $Ratio$             0.2V to 20V Full Scale Ranges  
+    $True RMS$ -  Makes the following true RMS measurements:
+                              $AC Voltage$  0.2V to 660V Full Scale Ranges
+                              $AC Current$  2mA to 5A Full Scale Ranges
+    $Load Cell$ - Makes the following low level measurements:
+                              $Strain$         20mV to 500mV Full Scale Ranges
+                              $DC mV$        20mV to 500mV Full Scale Ranges
+
+  If communication has been established with a Meter, this $Input 
+  Option$ parameter should not be changed. It should reflect the actual
+  hardware installed.  If working only with Setup Files, it is 
+  selectable.
+
+                                      $INPUT CONNECTIONS$
+
+  This selection is made to agree with the $RTD$ and $OHMS$ connection 
+      type.
+  With a $4-Wire$ connection to the Sensor, there is no lead resistance
+      effect. 
+  With a $3-Wire$ connection, there is lead resistance compensation.
+  With a $2-Wire$ connection, the following Instrument Setup method is
+      available for cancelling the effect of the lead resistance. 
+      (Refer to the owners manual for the front panel method.)
+      1. Select the desired $Mode$ and $Function$ and place the jumper.
+      2. Select $2-Wire Short$ under $Input Connections$.
+      3. Select a $Control Input$ having a $Peak Display$ option.
+      4. Click on $DPM/Put Setup$ to put these selections to the meter.
+      5. Short the Sensor.
+      6. Click on the $Control Input Command$ that momentarily activates
+            the $Peak Display$.  The lead resistance effect is stored.
+      7. Remove the short from across the Sensor.  
+  Since the result of this procedure is stored, the procedure does not 
+      have to be repeated unless changes are made to either the leads, 
+      the $Mode$ or the $Function$. 
+
+  $3-,4-Wire$    - Select if using 3 or 4 wire connections to the Sensor.
+                       There is no need for the above procedure.
+  $2-Wire Read$  - This selection is automatically made at the end of the
+                       above procedure.  It may also be selected at any
+                       time.
+  $2-Wire Short$ - This is selected to begin the above procedure.
+    
+
+ 
+                          $CONTROL INPUT COMMANDS$
+
+  There are two $Control Input Commands$, $Control Input 1$ and
+  $Control Input 2$.  These commands are located beneath their 
+  respective $Control Inputs$ functions to which they apply.  
+
+  If the Command is labelled $Click True$, it causes the program to 
+  first send an external Control Input True command followed immediately
+  by an external Control Input False command.  This applies to all 
+  $Control Input$ selections except for the $Decimal Points$ (6, 7) and
+  the $Peak$, $Valley$ (12) selections which require maintained True and 
+  False levels.
+
+  For the exception selections mentioned, the Command is labelled 
+  $Set True$ and clicking on it sends an external Control Input True 
+  command and changes the label to $Set False$.  The external Control 
+  Input remains True until the $Set False$ command is clicked.  The 
+  external Control Input then remains false.
+                                           $MODE$
+
+  The choice of $Modes$ to be selected depends on which $Signal 
+  Conditioner$ board is installed or, if communications is not 
+  established, which $Signal Conditioner$ has been selected.  Since 
+  the choice of $Modes$ depends on the Signal Conditioner Option, 
+  always select the $Signal Conditioner$ BEFORE selecting the $Mode$.
+  Select the $Mode$ BEFORE selecting the $Function$.
+
+  The $Temperature$ Signal Conditioner operates in one of 2 modes.
+    1. $TC (Thermocouple)$ displays measurements in degrees $F$ or $C$
+       for the following thermocouple types:
+         $J$, $K$, $N$, $E$, $T$, $S$, $R$ 
+    2. $RTD$ displays measurements in degrees $F$ or $C$ for the 
+       following Pt100 RTD connections:
+         $4-wire$, $3-wire$ and $2-wire$
+       Special compensation is provided for the $2-wire$ connection by
+       measuring the lead resistance and subtracting its effect.
+
+       
+
+  
+                                           $MODE$
+
+  The choice of $Modes$ to be selected depends on which $Signal 
+  Conditioner$ board is installed or, if communications is not 
+  established, which $Signal Conditioner$ has been selected.  Since 
+  the choice of $Modes$ depends on the Signal Conditioner Option, 
+  always select the $Signal Conditioner$ BEFORE selecting the $Mode$.
+  Select the $Mode$ BEFORE selecting the $Function$.
+
+  The $DC$ Signal Conditioner operates in one of 3 modes.
+    1. $DC Voltage$ makes DC voltage measurements.
+    2. $DC Current$ makes DC current measurements.
+    3. $Ratio$ makes measurements of the Ratio of the bridge output
+       to the bridge input, where the bridge input can be either the
+       meter's 10 Volt DC internal excitation source or an external 
+       source of a similar magnitude.  The $Ratio$ mode can be also
+       used to make a potentiometer type of measurement.
+
+  
+                                           $MODE$
+
+  The choice of $Modes$ to be selected depends on which $Signal 
+  Conditioner$ board is installed or, if communications is not 
+  established, which $Signal Conditioner$ has been selected.  Since 
+  the choice of $Modes$ depends on the Signal Conditioner Option, 
+  always select the $Signal Conditioner$ BEFORE selecting the $Mode$.
+  Select the $Mode$ BEFORE selecting the $Function$.
+
+  The $True RMS$ Signal Conditioner operates in one of 2 modes.
+    1. $AC Voltage$ makes AC true RMS voltage measurements.
+    2. $AC Current$ makes AC true RMS current measurements.
+
+  
+                                           $MODE$
+
+  The choice of $Modes$ to be selected depends on which $Signal 
+  Conditioner$ board is installed or, if communications is not 
+  established, which $Signal Conditioner$ has been selected.  Since 
+  the choice of $Modes$ depends on the Signal Conditioner Option, 
+  always select the $Signal Conditioner$ BEFORE selecting the $Mode$.
+  Select the $Mode$ BEFORE selecting the $Range$.
+
+  The $Load Cell$ Signal Conditioner operates in one of 2 modes.
+    1. $Strain$ makes low level DC voltage measurements of the ratio
+       of a strain gauge output to its 5 to 10 Volt excitation input.
+    2. $DC Millivolts$ makes direct low level DC voltage measurements.
+    Both modes are capable of measurements with a one microvolt 
+    resolution.
+
+  
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  The $Range$ list for the $TC$ (Thermocouple) mode consists of 
+  a Thermocouple type J, K, N, E, T, R or S and the units of measure
+  displayed, either degrees F or degrees C.
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $RTD$ (Pt100 RTD) mode 
+  consists of three parameters:
+    1. An RTD connection method.
+       The first digit is a $4$, $3$, or $2$.
+         $4$ - a 4-wire RTD connection
+         $3$ - a 3-wire RTD connection 
+         $2$ - a 2-wire RTD connection
+    2. The RTD table used for linearization.
+       The second character is a $d$ or an $A$.
+         $d$ - the DIN tables with an alpha    = 0.0385
+         $A$ - the ANSI tables with an alpha = 0.03902 
+    3. The units of measurement displayed
+       The last parameter is an $F$ or $C$.
+         $F$ - degrees Fahrenheit
+         $C$ - degrees Celsius
+    
+    There is a special last item on the list named $Short$ that is 
+    selected to measure the lead resistance in the 2-wire 
+    RTD connection.  The value appears in the box called $Lead$ which
+    overlays $Low In$.  
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $DC V$ mode consists
+  of the Full Scale DC voltage range.  The appropriate jumpers must
+  be positioned on the board for the range selected.
+    1.      0.2U - 200 millivolt DC full scale range.
+    2.      2.0U - 2 Volt DC full scale range
+    3.    20.0U - 20 Volt DC full scale range
+    4. 200.0U - 200 Volt DC full scale range
+    5. 660.0U - 660 Volt DC full scale range
+
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $DC A$ mode consists
+  of the Full Scale DC Current range.  The appropriate jumpers must
+  be positioned on the board for the range selected.
+    1.      2.0a - 2 milliamps DC full scale range.
+    2.    20.0a - 20 milliamps DC full scale range
+    3. 200.0a - 200 milliamps DC full scale range
+    4.      5.0A - 5 amperes DC full scale range
+
+
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $AC V$ mode consists
+  of the Full Scale True RMS AC voltage range.  The appropriate 
+  jumpers must be positioned on the board for the range selected.
+    1.      0.2U - 200 millivolt AC full scale range.
+    2.      2.0U - 2 Volt AC full scale range
+    3.    20.0U - 20 Volt AC full scale range
+    4. 200.0U - 200 Volt AC full scale range
+    5. 660.0U - 660 Volt AC full scale range
+
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $AC A$ mode consists
+  of the Full Scale True RMS AC Current range.  The appropriate 
+  jumpers must be positioned on the board for the range selected.
+    1.      2.0a - 2 milliamps AC full scale range.
+    2.    20.0a - 20 milliamps AC full scale range
+    3. 200.0a - 200 milliamps AC full scale range
+    4.      5.0A - 5 amperes AC full scale range
+
+
+
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $Ratio$ mode consists
+  of the Full Scale DC voltage range of the DC voltage output of a
+  bridge or potentiometer.  The appropriate jumpers must be 
+  positioned on the board for the range selected.  The actual
+  measurement is the Ratio of the bridge or potentiometer $output$
+  to the bridge or potentiometer $input$.  The $input$ can be either
+  the meter's 10 Volt DC internal excitation source or an external
+  source of similar magnitude.
+    1.      0.2U - 200 millivolt DC full scale range.
+    2.      2.0U - 2 Volt DC full scale range
+    3.    20.0U - 20 Volt DC full scale range
+    4. 200.0U - 200 Volt DC full scale range
+    5. 660.0U - 660 Volt DC full scale range
+
+  
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $Strain$ mode consists
+  of the Full Scale DC voltage range of the DC voltage output of a 
+  Strain Gauge bridge.  The appropriate jumpers must be positioned 
+  on the board for the range selected.  The actual measurement is 
+  the Ratio of the low level bridge $output$ to the bridge $input$.  
+  The $input$ can be either the meter's 5 or 10 Volt DC internal 
+  excitation source or an external source of similar magnitude.
+    1.   20.0 - 20 millivolt DC full scale range
+    2.   50.0 - 50 millivolt DC full scale range
+    3. 100.0 - 100 millivolt DC full scale range
+    4. 250.0 - 250 millivolt DC full scale range
+    5. 500.0 - 500 millivolt DC full scale range
+
+
+
+  
+
+
+                                            $RANGE$
+  The $Range$ list depends on the $Mode$ selected which depends 
+  on the $Signal Conditioner$ option board installed or, if 
+  communications is not established, which $Signal Conditioner$ is 
+  selected from a file.  Always select the $Signal Conditioner$ and 
+  $Mode$ BEFORE selecting the $Range$.
+  
+  Each selection of the $Range$ list for the $DC mV$ mode consists
+  of the low level Full Scale DC millivolt range.  The appropriate 
+  jumpers must be positioned on the board for the range selected.  
+  The lowest two ranges have a one microvolt resolution. 
+    1.   20.0 - 20 millivolt DC full scale range
+    2.   50.0 - 50 millivolt DC full scale range
+    3. 100.0 - 100 millivolt DC full scale range
+    4. 250.0 - 250 millivolt DC full scale range
+    5. 500.0 - 500 millivolt DC full scale range
+
+
+
+  
+
+
+                                   $CUSTOM CURVE$
+
+  A $Custom Curve$ capability is made available to the user by
+  storing custom parameters in non-volatile memory.  These 
+  parameters are calculated by a special program on the PC computer
+  and transmitted over serial communications to the Meter's non-
+  volatile memory.  Once stored, the PC computer is no longer
+  required and the Meter uses the stored parameters to calculate
+  the desired readings according to the user's input-output curve.
+
+  $Disabled$ - The Meter functions in its normal linear manner.
+  $Enabled$   - The readings correspond to the Custom Curve.
+
+                                     $RATE$
+
+  A $Rate$ capability provides means for displaying the 
+  difference between the current measurement and the previous
+  measurement divided by the time between measurements.  
+  If the input signal is increasing in magnitude, this 
+  becomes a positive rate, and if decreasing becomes a
+  negative rate.  Six $Rate$ scale factors are available.
+  $ConFig$, Digit 5 represents these scale factors.
+    0 - Not Rate, normal measurement
+    1 - Rate X 0.1
+    2 - Rate X 1
+    3 - Rate X 10
+    4 - Rate X 100
+    5 - Rate X 1000
+    6 - Rate X 10,000
+
+                                     $50/60 Hz$
+
+  In order to reduce the effects of line frequency pickup noise,
+  the Meter integrates the input signal over one full cycle of
+  the line frequency.  For a 60 Hz line frequency, this is
+  16.67 mS and for a 50 Hz line frequency, this is 20 mS.  The
+  line frequency must be selected to match the line frequency
+  of the applied power if AC-powered or of the environment if
+  DC-powered.
+
+                                     $RESOLUTION$
+
+  $Resolution$ provides a choice of displayed resolution for
+  the measurements.  It also provides a Remote Display
+  selection that allows the Meter to serve as a Remote Display
+  $Slave$ to another Meter serving as the $Master$ with a
+  serial communications cable between them.  The selection
+  choices are:
+  
+  $DC$, $True RMS$ and $Load Cell$ Signal Conditioners
+    0 - 4 1/2 digits
+    1 - Remote Display
+    2 - 4 1/2 digits with a dummy zero (Count by 10's)
+    3 - 3 1/2 digits
+
+  $Temperature$ Signal Conditioner
+    0 - 0.1 degrees resolution
+    1 - Remote Display
+    2 - 0.01 degrees resolution
+    3 - 1 degree resolution
+
+                                        $DISPLAY FILTER$
+
+  The reading value displayed may be either the average of 16
+  consecutive readings or the moving-average filter value.
+  $Batch 16 Avg$ - This is the average of 16 consecutive readings.
+  $Filtered$            - This is the moving-average filtered value.
+                              The amount of filtering is determined by the $Filter$
+                              $Time Constant$ selection.
+ 
+
+                                       $DECIMAL POINT$
+
+  There are six decimal point positions that may be selected with
+  $Decimal Point$.  They are indicated as follows:
+         XXXXX$.$  
+         XXXX$.$X 
+         XXX$.$XX 
+         XX$.$XXX 
+         X$.$XXXX 
+         $.$XXXXX 
+  When the first (right-hand) decimal point position is selected,
+  the reading does not display the decimal point but only implies it
+  from its absence.
+
+
+     
+                                           $PEAK BUTTON$
+
+  This selection determines the effect of pressing the front panel
+       $Peak$ key.
+
+  $Peak$       - Pressing the $Peak$ key causes the peak value to
+                               be displayed.  It flashes to indicate that it
+                               is the peak value.
+  $Valley$      - Pressing the $Peak$ key causes the valley value to
+                               be displayed.  It flashes to indicate that it
+                               is the valley value.
+  $Alt Peak/Valley$ - Pressing the $Peak$ key causes the peak value to
+                               be displayed.  Pressing the $Peak$ key again
+                               causes the $Valley$ value to be displayed.
+                               Pushing it again returns to a normal display.
+
+  $Tare$       - Pressing the $Peak$ key causes the displayed reading
+                                    to be tared to zero. 
+
+ 
+                              $SCALE,OFFSET, COORDINATES$
+  There are three methods for entering Scale and Offset data for
+  the Meter.  
+  (1) The first is to enter the Scale and Offset data directly
+      by selecting the $Scale, Offset$ option.
+  (2) The second is to enter the coordinates of two points by
+      selecting the $Coordinates$ option.  The slope of the 
+      straight line between these two points becomes the Scale and
+      the Y-intercept becomes the Offset.  The values for one point
+      are entered as Lo In (Low Input) and the corresponding 
+      desired reading Lo rd (Low Reading ) and the values for the
+      second point are entered as Hi In (High Input) and the
+      corresponding desired reading Hi rd (High Reading).
+      The Meter then calculates the Scale and Offset values.  
+  (3) The third method is similar to the second except that instead
+      of entering the theoretical values for Lo In and Hi In, the
+      actual input values are applied and the resulting measurements
+      are automatically entered as the Lo In and Hi In values.  The
+      desired values for Lo Rd and Hi Rd are entered manually as
+      before.  This is the $Reading Coord$ option.  
+      When operating the Meter, this sequence begins when the Menu
+      button is pushed.  The display shows $Lo In$. Pushing the Peak
+      button causes the display to blank for a few seconds and then
+      display the actual readings.  When the Reset button is pushed,
+      the currently displayed value is stored as $Lo In$.  The display
+      advances to $Lo Rd$ which is manually entered.  The method is
+      repeated for $Hi In$ and $Hi Rd$.
+                                        $SCALE$
+
+  The $Scale$ entry is the complete Scale Factor.  It consists of 
+  a five-digit number with a selectable decimal point. 
+
+  For example, to enter a Scale factor of 14$.$85, enter the following:
+    $Scale$      =    14$.$85
+  
+  OR to enter a Scale factor of 0$.$83192, enter the following:
+    $Scale$      = $.$83192
+                                       $OFFSET$
+
+  The $Offset$ is the desired reading when the input value is zero.
+  The $Offset$ value is entered directly and the decimal point is 
+  the system decimal point.  The $Offset$ value is bipolar and the
+  sign is entered as part of the most significant digit.  The range
+  of $Offset$ values is -99999 to 99999 with the decimal point 
+  determined by the system decimal point.
+
+  
+  
+                              $Lo In, Lo rd, Hi In, Hi rd$
+
+  These are the four values that are entered in the Coordinates
+  method and from which the Meter calculates the corresponding
+  Scale and Offset from the straight line passing through the
+  two points, Low and High.  When the Reading Coordinates method
+  is selected, only the Low Read and High Read can be entered
+  because Low In and High In are determined from the actual 
+  inputs to the Meter.
+  $Lo In$ = the input value that produces the desired $Lo rd$ reading.
+            It's decimal point is automatically set to correspond to
+            the input units of measurement.  For example, in the 
+            $DC V$ mode, if the $Range$ is selected to be $0.2V$,
+            the $.$XXXXX decimal point is set and provides a full scale
+            reading of $.$20000.  
+  $Lo rd$ = the desired reading when $Lo In$ is applied.  It's decimal
+            point corresponds to the system $Decimal Point$ selection.
+  $Hi In$ = the input value that produces the desired $Hi rd$ reading.
+            It functions in a similar manner to $Lo In$ above.
+  $Hi rd$ = the desired reading when $Hi In$ is applied.  It 
+            functions in a similar manner to $Lo rd$ above.
+
+                                  $FILTER TIME CONSTANT$
+
+  The Filter $Time Constant$ provides a selection of different 
+  time constants from 80 mSec to 9.6 Sec for the Meter's digital 
+  Moving Average filter.  This time constant is equivalent to that
+  of a one pole filter.  By choosing $Automatic$, the Meter 
+  selects the appropriate time constant for the noise level of the
+  readings.  The filter has an Adaptive feature that allows it to 
+  react rapidly to step changes in the input signal level that 
+  exceed a certain threshold level.  This threshold level is 
+  selectable between Low and High.  
+  The $Batch 16$ selection provides the average of 16 consecutive
+  measurements.
+  The $No Filter$ selection provides a display of every measurement
+  but the Display $Value$ must be set to $Filtered$.
+  The choices are:
+    $Automatic$
+    $Batch 16$ 
+    $  75 mSec$
+    $ 150 mSec$
+    $ 300 mSec$
+    $ 600 mSec$
+    $ 1.2 Sec$
+    $ 2.4 Sec$
+    $ 4.8 Sec$
+    $ 9.6 Sec$
+    $No Filter$
+  Revision 11 and up of the Scale Meter has 5 additional time constants 
+  to 308 seconds.  
+
+   
+                                $FILTER PEAK VALUE$
+
+  The $Peak Value$ may be maintained using either the $Unfiltered$
+  or the $Filtered$ value but not both.  
+  The selections are:
+    $Unfiltered$ - Maintain the $Peak Value$ of the $unfiltered$ readings.
+    $Filtered$      - Maintain the $Peak Value$ of the $filtered$ readings.
+
+  For Series 2 meters, this setting also applies to the $Valley$ value.
+
+ 
+                                     $EXTERNAL INPUTS$
+
+  There are two external inputs and six functions for them to control
+  so the functions are divided into pairs that may be selected by the
+  user.  The functions are:
+    $Meter Reset$    - Performs a power-on Reset of the Meter.
+    $Function Reset$ - Resets the auxiliary functions such as 
+                       Peak Value and Relay Latching.
+    $Meter Hold$     - Prevents the display and outputs from updating 
+                       but allows the Meter to continue making
+                       measurements. 
+    $Peak Display$   - Causes the Peak Value to be displayed.  The
+                       Display value does not blink.  It does blink when
+                       the Peak Display is initiated by the front panel.
+    $Tare$           - When activated, causes the Meter to read zero
+                       by subtracting the current reading from the
+                       offset to create a new offset.
+    $Decimal Points$ - The displayed decimal point may be selected
+                       from the external inputs.  One of two possible
+                       sets may be selected as follows:
+                       Neither A or B     A only     B only     Both A & B
+                       -------------------    ---------    ----------    -------------
+                           XXXXX$.$            XXXX$.$X    XXX$.$XX      XX$.$XXX
+                           XXXX$.$X            XXX$.$XX    XX$.$XXX      X$.$XXXX
+
+  Both external inputs are active when grounded and are inactive when
+  left open.
+                                     $SETPOINT$
+  The $Setpoint$ is the numeric value, to which the appropriate 
+  reading is compared, to determine if the Alarm should be made 
+  active.  There are two Setpoints, 1 and 2, that are compared
+  with a common reading $Alarm Source$ consisting of either the
+  $Unfiltered$ or $Filtered$ measurement value.  The $Setpoint$
+  value uses the $Decimal Point$ selection.  A comparison of the
+  reading to the $Setpoints$ is made each measurement.  If the 
+  reading is equal to or above the $Setpoints$ for an active high
+  alarm, or equal to or below the $Setpoints$ for an active low 
+  alarm, that reading is considered to be an Alarm reading.  This
+  assumes that the $Deviation$ value is zero (See $Deviation$ 
+  Help for the effect of non-zero $Deviation$ values).  When 
+  there has been a number of consecutive Alarm readings equal to
+  or greater than the $No. Rdgs to Alarm$ selection, the Alarm is
+  made active and the associated Relay is either energized or 
+  de-energized depending on the $Relay Alarm State$ selection.  
+  The sign of the respective values is considered when comparing
+  the reading to the $Setpoint$.  A value of -10 is above (or 
+  greater) than -20.
+                                  $RELAY ALARM STATE$
+
+  When an Alarm becomes Active, the associated Relay becomes either
+  $Energized$ (On) or $De-energized$ (Off), depending on the $Relay 
+  Alarm State$ selection.  This choice is made available to accommodate
+  the desired Relay circuit when the Meter power is off.  For example,
+  if the Normally-Open Relay contacts are in series with the power
+  to a pump controlling fluid flow and the power to the Meter is 
+  lost, the pump will turn off.  If the Alarm Setpoint is compared
+  to the flowmeter rate, and the rate exceeds the Setpoint, the pump
+  is to be turned off.  Therefore, it is desirable to make the $Relay
+  Alarm State$ be $De-energized$ (Off) to satisfy both of these 
+  requirements.  Another way would be to make the $Alarm State$ be 
+  $Active Low$ and the $Relay Alarm State$ be $Energized$ (On).
+
+  The $Relay Alarm State$ selections are:
+    $Energized$ (On)     - The Relay energizes when the Alarm becomes 
+                               Active.
+    $De-energized$ (Off) - The Relay de-energizes when the Alarm 
+                               becomes Active.
+                                  $ALARM SOURCE$
+
+  The $Setpoint$ is the numeric value, to which the appropriate 
+  reading is compared, to determine if the Alarm should be made 
+  active.  There are two Setpoints, 1 and 2, that are compared
+  with a common reading $Alarm Source$ consisting of either the
+  $Unfiltered$ or $Filtered$ measurement value.  
+
+
+                                  $MENU DEVIATION$
+
+  The Front Panel Menu contains two items, Deviation 1 and
+  Deviation 2 that can be eliminated from the Menu by setting 
+  the $Menu Deviation$ to $Excluded$.  This shortens the Menu
+  by two items for easier Setup and makes the Deviation values
+  inaccessible to accidental changes in value.  When $Menu
+  Deviation$ is set to $Included$, the Deviation values appear
+  in the Menu.
+
+
+                                       $BAUD RATE$
+
+  There are six $Baud Rates$ from which to choose.  The $Baud Rate$ 
+  selected must match the $Baud Rate$ of the Computer or other 
+  device communicating with the Meter.  Normally, it is best to
+  use a high $Baud Rate$ to minimize the communication time.  A
+  good choice to start with is 9600 Baud.  The choices are:
+      $  300 Baud$
+      $  600$
+      $ 1200$
+      $ 2400$
+      $ 4800$
+      $ 9600$
+      $19200$
+                                      $ADDRESS$
+
+  When the Meter contains an RS-485 Serial Communication option
+  board, it may be used in a Multi-drop configuration where multiple
+  Meters are connected in parallel on the RS-485 Communications 
+  bus.  When operating in the Multi-drop configuration, the Meters
+  must be configured for the Command mode as opposed to the 
+  Continuous mode which would result in bus contention.  In the 
+  Command mode, each Meter is Commanded, one at a time, to send 
+  data.  This way, there is no bus contention.  In order to Command
+  a particular Meter, it is assigned a unique address, to which
+  only that Meter responds.  That address is part of the Command
+  sequence that is sent to all of the Meters in parallel.  Only
+  the Meter that recognizes the address as its own, responds. 
+  In order to limit the Communication protocols, the same addressed
+  command is used in a point-to-point configuration where there is
+  only one Meter, either RS-485 or RS-232 (where only one is 
+  allowed).  A special significance is given to Address 0.  All
+  Meters respond to a command with that address even though their
+  assigned address may be different.  However, they do not send any
+  data on the bus because that would result in contention.  
+  Including Address 0, there are 32 Addresses available.  They are
+  coded as follows:
+    $Address  0-15$ = 0-9,A,b,C,d,E,F
+    $Address 16-31$ = 0$.$-9$.$,A$.$,b$.$,C$.$,d$.$,E$.$,F$.$
+
+     
+                                     $OUTPUT VALUE$
+
+  The $Output Value$ selects whether the $Unfiltered$ or $Filtered$
+  measurement value is sent by the Meter over the Serial
+  Communications line.
+ 
+                                      $OUTPUT RATE$
+
+    
+  When a Meter, with Serial Communications installed, is in the
+  Continuous Mode, it can send the selected output string of data
+  at the selected $Output Rate$ if the Baud Rate is high enough.  
+  The fastest $Output Rate$ is the $Line Rate$ which is the line
+  frequency rate of 50 or 60 measurements per second.  This rate
+  is reduced by 16/17 to accommodate the system calibration cycles
+  so the $Line Rate$ is slightly less than the line frequency.
+  The next fastest rate is the $Read Rate$ (Display Rate) which 
+  results from averaging 16 line frequency measurements and 
+  calibrating for one line frequency cycle.  Therefore, the 
+  $Read Rate$ is the line frequency divided by 17.  Slower $Output
+  Rate$'s are achieved by skipping readings.  Readings are also 
+  skipped if the Baud Rate is too slow to keep up with the selected
+  $Output Rate$.
+  The selections are:
+    $Line Rate$
+    $Reading Rate$
+    $Reading Rate/2$
+       Decreasing in Rate in binary steps to
+    $Reading Rate/256$
+ 
+                                       $OUTPUT MODE$
+
+  One of the common applications for Serial Communications is for
+  the Meter to send the values of its readings to a Computer
+  for analysis or control.  In the Continuous Mode, the Meter
+  sends these values without interruption, while in the Command Mode, 
+  they are sent when requested.  
+  
+  The $Output Mode$ selection is:
+    $Continuous$ - Output values are sent continuously. Commands
+                              cannot be received by the Meter.
+    $Command$    - Output values are sent on Command.  Any Commands
+                              can be received in this Mode.
+
+  If it is desired to send Commands to a Meter that is currently in
+  the Continuous mode, it is necessary to first change the Meter to
+  the Command mode.  This is done with the $A1$ Command which is the
+  only Command that is reliably received by a Meter in the Continuous 
+  mode.  The $A1$ Command should also be sent if the $Output Mode$ is 
+  unknown.  To return the Meter to the Continuous mode, use the $A0$ 
+  Command.
+
+
+                                     $INCL ALARM DATA$
+
+  The output values sent by the Meter over Serial Communications 
+  may contain a single character added to the end of the string 
+  (before the Carriage Return) to convey Alarm and Overload 
+  information.  The following table identifies the ASCII Alarm 
+  character associated with each combination.
+             
+                               No overload   Overload    
+                             ----------------    ------------- 
+  Neither Alarm set           A                E               
+  Alarm 1 set only             B                F              
+  Alarm 2 set only             C                G              
+  Both Alarms set              D               H               
+
+  For example, a coded character "G" indicates Alarm 2 only is set and
+  the Meter is in the overload condition.
+
+  The selection is:
+    $Unchecked$           - The coded Alarm character is omitted.
+    $Incl Alarm Data$    - The coded Alarm character is included.
+                                                     $RTS TYPE$
+
+  When using Serial Communications with an RS-232 option board,
+  handshaking can be accomplished with either the XON, XOFF method
+  or the RTS line.  If the RTS line is used, it may use $Unlatched$ 
+  or $Latched$ RTS detection.  The choice of $RTS Type$ is made here 
+  and the selection is:
+  
+  $Unlatched$ - Data is transmitted only while the RTS line is high.
+     If it goes from high to low, any byte being transmitted is
+     completed, but no new bytes are transmitted.  When the RTS line
+     goes high again, the message is completed.  No new measurements
+     are transmitted until the message is complete.  Some measurements
+     could be missed in the process.
+    
+  $Latched$  -  With Latched control, the RTS input is polled every 
+     3.3 mS and when a high level is detected, RTS is latched true, 
+     even though the RTS line might go low immediately.  At the end 
+     of each measurement, the Latched RTS value is checked and if it 
+     is true, the complete message is transmitted, regardless of the 
+     current state of the RTS line.  At the conclusion of the 
+     transmission, the latched RTS value is reset false.  Thus, a 
+     positive pulse > 3.3 mS may serve as a print command.
+
+  For both Latched and Unlatched RTS, measurements are only available
+  for transmission at the rate selected by $Output Rate$.
+
+                                    $FULL/HALF DUPLEX$
+
+  An $RS-485$ option board can be operated in either the $Full Duplex$
+  mode or the $Half Duplex$ mode.  The $RS-485$ board is normally 
+  shipped in the $Full Duplex$ configuration.  To convert to the 
+  $Half Duplex$ configuration, refer to the manual shipped with the 
+  board.  Half Duplex allows communication in both directions over 
+  one pair of wires instead of two pairs of wires.  In addition, set
+  the Meter to $Half-Duplex$.  This adds a 30 mS delay between the 
+  receipt of a Command from the Host Computer and the transmission 
+  of a Response to the Host Computer.  This delay provides time for
+  the Host Computer to switch between Transmit and Receive.
+
+  $Half-Duplex$ operation is not available for the $RS-232$ option.
+                                      $INCLUDE LF$
+
+  The output values sent by the Meter over the Serial Communications 
+  may contain an optional coded Alarm character followed by a $Carriage
+  Return$.  If $Include LF$ is selected, the $Carriage Return$ is
+  followed by a $Line Feed$ character.
+  
+  The selection is:
+    $Unchecked$ - No $Line Feed$ character is included.  The 
+                          $Carriage Return$ is the last character 
+                          in the string.
+    $Include LF$   - A $Line Feed$ character is added to the end
+                          of the data string following the $Carriage
+                          Return$.
+SPARE
+                                $ANALOG OUTPUT SOURCE$
+
+  The $Analog Output$ Scale and Offset is determined by the 
+  $Lo Range Reading$ measurement value to produce the low end of 
+  the Analog Output range and the $Hi Range Reading$ measurement
+  value to produce the high end of the Analog Output range.  The 
+  $Analog Output Source$ dictates which measurement value, 
+  unfiltered or filtered, will be Scaled and applied to the 
+  $Analog Output$.
+
+  The $Analog Output Source$ selections are:
+     $Unfiltered$
+     $Filtered$
+
+  
+SPARE
+                                    $INPUT TYPE LOCKOUT$
+
+  If the $Input Type$ checkbox is checked, no changes can be made
+  to the selected Mode and Range.
+                                  $SETUP,CONFIG LOCKOUT$
+
+  The following Front Panel Menu Setup items are combined and locked 
+  out as a group. 
+    $SEtuP$
+    $ConFiG$
+    $DecPt$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                         $FILTER$
+
+  If this checkbox is checked, the $Filter$ parameters are locked
+  out from being changed.  The Front Panel Menu item is $FiLtEr$.
+                                 $SCALE, LO_IN, HI_IN$
+
+  Due to the large number of Setup parameters in the Meter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+     $SCALE$
+     $Lo_In$
+     $Hi_In$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                $OFFSET, LO_RD, HI_RD$
+
+  Due to the large number of Setup parameters in the Counter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+     $OFFSt$
+     $Lo_rd$
+     $Hi_rd$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                            $ALARM CONFIGURATION, DEVIATION$
+
+  If this checkbox is checked, the $Alarm Configuration$ parameters
+  are locked out from being changed.  The Front Panel Menu items are 
+  $AL_SEt$, $DEV1x$, $DEV2x$.
+
+  The $Alarm Configuration$ parameters affected are:
+    $Deviation$
+    $Alarm State$
+    $Relay Alarm State$
+    $Alarm Type$
+    $No. Rdgs to Alarm$
+  The $Alarm Source$ is determined from its $Filter$ selection and is
+  locked according to the $Filter$ lockout.
+                                     $ALARM SETPOINTS$
+
+  If this checkbox is checked, the $Alarm Setpoint$ values are
+  locked out from being changed.  However, the $Setpoints$
+  still can be viewed by pressing the Front Panel Alarm button.
+
+  The parameters affected are:
+    $Setpoint 1$
+    $Setpoint 2$
+                                       $ANALOG OUTPUT$
+
+  If this checkbox is checked, the $Analog Output$ parameters are
+  locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $An_SEt$ = $Analog Circuit$, $Analog Source$
+    $_An_Lo$ 
+    $_An_Hi$
+
+                                  $SERIAL COMMUNICATIONS$
+
+  If this checkbox is checked, the $Serial Communication$ parameters
+  are locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $_SEr_1$ = $Output Rate$, $Baud Rate$, $Output Value$
+    $_SEr_2$ = $Address$, $Output Mode$, $Incl Alarm Data$, $Incl LF$
+    $_SEr_3$ = $Full/Half Duplex$, $Special Start/Stop$, $Latching RTS$
+               $Termination Chars$, $Output Items$
+    $_SEr_4$ = $Modbus ASCII Timeout$, $Serial Protocol$, $Parity$
+
+
+                                     $TARE, VIEW PEAK$
+
+  If this checkbox is checked, the $Tare$ menu item is locked
+  out and the $Peak Value$ cannot be viewed.
+                                      $VIEW SETPOINTS$
+
+  If this checkbox is checked, the $Setpoints$ cannot be viewed.
+  This prevents the $Setpoints$ from being mistaken for a
+  measurement value.  If the $Setpoints$ cannot be viewed, they 
+  cannot be changed either.  This lockout forces the $Alarm 
+  Setpoints$ lockout.
+
+
+                             $FRONT PANEL FUNCION RESETS$
+
+  If the checkbox is checked, the following Front Panel Resets
+  are inoperative:
+    $Peak Value$
+    $Latched Alarms$
+                           $FRONT PANEL METER RESET$
+
+  If the checkbox is checked, the main $Front Panel Meter Reset$ that
+  corresponds to the Power-On Reset is made inoperative.
+
+                                   $TEDS SERIAL NUMBER$
+
+  If this checkbox is checked, the read-only $TEDS Serial Number$
+  menu item is locked out and does not appear on the menu.
+
+                               $TEDS UNITS OF MEASURE$
+
+  If this checkbox is checked, the read-only 
+  $TEDS Units of Measure$ menu item is locked out and does 
+  not appear on the menu.
+
+
+                               $TEDS CALIBRATION DATE$
+
+  If this checkbox is checked, the read-only 
+  $TEDS Calibration Date$ menu item is locked out and does not 
+  appear on the menu.
+
+
+                              $TEDS CAL INITIALS, MEASURE ID$
+
+  If this checkbox is checked, the read-only 
+  $TEDS Calibrator's Initials and Measure ID$ menu items are
+  locked out and do not appear on the menu.
+
+
+                               $TEDS CALIBRATION PERIOD$
+
+  If this checkbox is checked, the read-only 
+  $TEDS Calibration Period$ menu item is locked out and does 
+  not appear on the menu.
+
+
+                                $LOCKOUT JUMPER$
+
+  The $Lockout Jumper$, when installed on the Power Supply board, 
+  prevents all Menu lockouts from being changed.  With the
+  $Lockout Jumper$ removed, set the lockout status of each Menu 
+  item with the front panel Menu lockouts, Loc 1 to Loc 3.
+  Then install the $Lockout Jumper$ on the Power Supply board.
+  This prevents the operator from obtaining access to those Menu
+  items that have been locked out without first removing the 
+  $Lockout Jumper$ from the Power Supply board.
+
+                                  $FILTER THRESHOLD$
+
+  When the $Filter Time Constant$ selection is neither $Batch 16$
+  nor $No Filter$, a change in input value may cause it 
+  to automatically reduce its time constant temporarily to settle
+  more rapidly to its new value.  The amount the input value must 
+  change before the time constant is reduced is determined by the 
+  $Filter Threshold$ selection.  These selections are labeled:
+ 
+    $Low Adaptive$     - Small change to trigger time constant reduction 
+    $High Adaptive$     - Large change to trigger time constant reduction
+
+  These are relative terms and must be selected on an empirical basis.
+
+
+  
+                              $DRIBBLE FACTOR, SP1/2 DIFF$ 
+
+In a material delivery (or similar) system, the Setpoint control 
+action can be set to occur with a fixed offset called a 
+$Dribble Factor$ to account for the amount of material delivered
+following shut-off.  Separate fixed offsets, $SP1 Diff$ and 
+$SP2 Diff$ are available for Setpoints 1 and 2 respectively.
+For example, if bags are to be filled to 100 pounds and the 
+material delivery spout is known to hold and dispense an 
+additional 2.5 pounds following shut-off, an offset ($SP1 Diff$
+or $SP2 Diff$) of -2.5 pounds can be programmed.  The Setpoint
+is set to 100 pounds and the filling valve will be automatically
+shut off when the measured weight reaches 97.5 pounds.  If
+a later order requires 80 pound bags to be filled, the Setpoint
+can be changed to 80 pounds and the filling valve will shut
+off at 77.5 pounds.
+The $Dribble Factor$ can be enabled or disabled.  When disabled,
+the $SP1 Diff$ and $SP2 Diff$ values are ignored.
+ 
+                                     $ANALOG SOURCE$
+
+The $Analog Source$ can be selected to be the $Net$ or $Gross$
+measurement value.  In addition, the $Analog Value$ selection
+determines whether the filtered or unfiltered value is used.
+ 
+                                     $ALARM SOURCE$
+
+The $Alm1 Source$ and $Alm2 Source$ can be individually
+selected to be the $Net$ or $Gross$ measurement values.  
+In addition, the common $Alarm Value$ selection determines 
+whether the filtered or unfiltered value for each is used.
+
+ 
+                      Voltage                                          Current
+          --------------------------------------------         --------------------------------------------
+          Input Range  Jumper Positions          Input Range  Jumper Positions
+          -----------------  -------------------------         ------------------  ------------------------
+            200 mV       E, b                               2 mA             D, h, b
+            2 V             E, a                               20 mA           C, h, b
+            20 V           F, g, b                            200 mA         B, h, b
+            200 V         F, g, a                            5 A               A, h, b
+            660 V         F, h, a
+
+Notes: 1. Click on Jumpers/Power Supply to select jumpers for 5, 10 or 24V Excitation.
+           2. Upper case letter positions require 5mm(.2in) jumpers, lower case 2.5mm(0.1in) jumpers.
+           3. Store spare jumpers on single unused jumper posts $NOT$ associated with upper case letters.
+             
+
+                           
+                  Thermocouples                                              RTD's
+          -------------------------------------------                   -------------------------------------------------
+            Type         Jumper Positions                      Connection      Jumper Positions
+          ---------------   ------------------------                    --------------------    ------------------------
+         Rev H and Prior  
+           J, K, E, N          f                                     2-wire, 4-wire          b, f
+           T, R, S             e                                     3-wire                     a, f
+         Rev J and Up
+           J, K, E, N          e                                     2-wire, 4-wire          b, e
+           T, R, S              f                                     3-wire                     a, e
+
+          Open Thermocouple                                    
+            Indication               Jumper Positions               
+          ----------------------------   ------------------------
+           Upscale                        c
+           Downscale                    d
+
+                           
+                      Voltage                                          Current
+          --------------------------------------------         --------------------------------------------
+          Input Range  Jumper Positions          Input Range  Jumper Positions
+          -----------------  -------------------------         ------------------  ------------------------
+            200 mV             g, k                           2 mA                e, f, k
+            2 V                     g, j                        20 mA                d, f, k
+            20 V                   h, k                       200 mA             c, f, k
+            200 V                 h, j                        5 A                  a, b, f, m
+            660 V                 f, j
+
+Notes: 1. Store spare 2.5mm(0.1in) jumpers on single unused jumper posts.
+             
+
+                           
+
+          Input Range  Jumper Positions   Full Scale Display 
+          ------------------  -----------------------   --------------------------   
+            20 mV                e                       20000                
+            50 mV                a                       50000                 
+            100 mV              b                        10000              
+            250 mV              c                        25000               
+            500 mV              d                        50000
+
+Notes: 1. Click on Jumpers/Power Supply to select jumpers for 5, 10 or 24V Excitation.
+           2. All positions require 2.5mm(0.1in) jumpers.
+             
+
+                           
+
+          Excitation Voltage   Jumper Positions
+          --------------------------   ------------------------
+                5 V DC                b, d, e                
+                10 V DC              b, d, f             
+                24 V DC              c           
+
+          Jumper "a"  =  Front Panel menu lockout, locked when installed
+
+          Jumper "g"  =  Provides +5 V power output at P1 Pin 4 when installed
+          Jumper "h"  =  Connects "Digital Input B" to P1 Pin 4 when installed
+             
+
+                           
+
+  $RS-232 Jumper Connections$  -  Shipped with jumpers "a" and "c" installed.
+    Jumper "a" installed for normal operation.
+    Jumper "b" installed when used as a $Slave$ display.
+    Jumper "c" provides a pullup resistor for the RTS line.
+
+  $RS-485 Jumper Connections$ - Shipped with jumper "d" installed.
+    Jumpers "a" and "c" provide 121 ohm terminating resistors for long cable use. 
+                                  Only the last meter in the line should be jumpered.
+    Jumper "d" installed for full duplex operation
+    Jumper "e" installed for half duplex operation
+                                      $DUMMY ZERO$
+
+The display value can be shifted to the left to allow a
+fixed $Dummy Zero$ to be displayed to the right of the 
+value.  This allows values up to +-99999 to be displayed
+as +-999990.
+ 
+                                     $PEAK SOURCE$
+
+The $Peak Source$ can be selected to be the $Net$ or $Gross$
+measurement value.  The $Peak Value$ selection determines 
+whether the filtered or unfiltered value is used.
+
+
+ 
+                                     $CONTROL INPUTS$
+
+  There are two control inputs and eight functions for them to control
+  so the functions are divided into pairs that may be selected by the
+  user.  The functions are:
+    $Meter Reset$    - Performs a power-on Reset of the Meter.
+    $Function Reset$ - Resets the auxiliary functions such as 
+                       Peak Value and Relay Latching.
+    $Meter Hold$     - Prevents the display and outputs from updating 
+                       but allows the Meter to continue making
+                       measurements. 
+    $Peak Display$   - Causes the Peak Value to be displayed.  The
+                       Display value does not blink.  It does blink when
+                       the Peak Display is initiated by the front panel.
+    $Tare$           - When activated, causes the Meter to read zero
+                       by setting $Tare$ to the current reading and 
+                       subtracting $Tare$ from the current reading.
+    $Tare Reset$     - Resets the $Tare$ value to zero.
+    $Display Blank$  - Blanks the Meter's front panel display.
+    $Display Item$   - The normal display is the $Net$ value. When this
+                       input is grounded, the $Gross$ value is displayed.
+
+  Control inputs are active when grounded and are inactive when
+  left open.  Both active at the same time causes either a Meter
+  Reset, a Function Reset or a positioning of the decimal points
+  depending upon the Control Input selection.
+
+
+  $RS-232 Jumper Connections$  -  Shipped with jumpers "g" and "j" installed.
+    Jumper "g" installed for normal operation.
+    Jumper "h" installed when used as a $Slave$ display (RTS always false).
+    Jumper "j" provides a pullup resistor for the RTS line.
+
+  $RS-485 Jumper Connections$ - Shipped with jumpers "d" and "f" installed.
+    Jumpers "g" and "j" provide 121 ohm terminating resistors for long cable use. 
+                                  Only the last meter in the line should be jumpered.
+                                  For full duplex, "g" terminates the receiver line
+                                                  and "j" terminates the driver line.
+                                  For half duplex, use "j" to terminate the line.
+    Jumper "d" and "f" installed for full duplex operation.
+    Jumper "c" and "e" installed for half duplex operation.
+
+                                $TRANSMISSION CHARACTERS$
+
+  Readings are transmitted continuously by the DPM in the 
+  Continuous Mode or when requested by the "B" command in the 
+  Command Mode.  If desired, special Start and Stop characters
+  can be sent with the Continuous readings.  
+  If $Transmission Characters$ is set to $Normal$, there is no $Start$ 
+  character and the $Stop$ character is a $CR$ (Carriage Return) or, 
+  if selected elsewhere to be included, a $LF$ (Line Feed).  
+  As an alternative, Custom $Start$ and $Stop$ characters may be 
+  individually selected by entering the Decimal values for the 
+  ASCII characters shown in the ASCII Character Table.
+    $Transmission Chars$
+       $Normal$  -  No $Start$ character, $Stop$ character = CR or CR/LF
+       $Start/StopChars$ - $Cust Start Char$, $Cust Stop Char$
+ 
+  Examples:
+    $Normal$    -123.45<CR>
+    $Start/StopChars$   *-123.45#  where $Start$ = * and $Stop$ = #
+
+                                $TRANSMISSION CHARACTERS$
+
+  Readings are transmitted continuously by the Weight Meter in the 
+  Continuous Mode or when requested by the "B" command in the 
+  Command Mode.  For Meters of Version WT4K or higher, a choice is
+  available for the Start and Stop characters sent with the 
+  Continuous readings.
+  If $Transmission Characters$ is set to $Normal$, there is no $Start$ 
+  character and the $Stop$ character is a $CR$ (Carriage Return) or, 
+  if selected elsewhere to be included, a $LF$ (Line Feed).  Only 
+  these $Normal$ characters appear in Meter versions prior to 
+  WT4K.  Starting with WT4K, Custom $Start$ and $Stop$ 
+  characters may be individually selected by entering the Decimal 
+  values for the ASCII characters shown in the ASCII Character Table.
+    $Transmission Chars$
+       $Normal$  -  No $Start$ character, $Stop$ character = CR or CR/LF
+       $Start/StopChars$ - $Cust Start Char$, $Cust Stop Char$
+ 
+  Examples:
+    $Normal$    -123.45<CR>
+    $Start/StopChars$   *-123.45#  where $Start$ = * and $Stop$ = #
+
+
+  $RS-232 Jumper Connections$  -  Shipped with jumpers "g" and "j" installed.
+    Jumper "g" installed for normal operation.
+    Jumper "h" installed when used as a $Slave$ display with the RS232
+               output of another meter of the series.
+    Jumper "j" provides a pullup resistor for the RTS line.
+
+
+  $RS-485 Jumper Connections$ 
+    Note: Bias jumpers "b" and "e" must be installed on the board for proper operation.  
+    If the outputs of more than 1 RS485 board are connected together, then one 
+    (AND ONLY ONE) RS485 board must have the jumpers installed.
+    $Full Duplex$
+    Jumpers "b" and "e" - bias jumpers installed on one board only
+    Jumpers "a" and "d" provide 121 ohm terminating resistors for long cable use. 
+                        Only the last meter in the line should be jumpered.
+    $Half Duplex$
+    Jumpers "b" and "e" - bias jumpers installed on one board only
+    Jumpers "c" and "f" - installed for half duplex operation
+    Jumper "a" provides a 121 ohm terminating resistors for long cable use. 
+                        Only the last meter in the line should be jumpered.
+                          $SERIAL PROTOCOL$
+  
+  $Custom ASCII$ is the proprietary protocol using a special
+      command language.  It uses 8 Data Bits, No Parity and
+      1 or more stop bits.
+  $Modbus RTU$ is the standard Modbus RTU protocol using 
+      8 Data Bits, No Parity with 2 or more stop bits or
+      Odd or Even Parity with 1 or more stop bits.
+  $Modbus ASCII$ is the standard Modbus ASCII protocal
+      using 7 Data Bits, No Parity with 2 or more stop bits
+      or Odd or Even Parity with 1 or more stop bits.
+
+
+
+                  $PARITY$
+
+  Selects either No, Odd or Even parity for the serial communications
+  associated with the two Modbus protocols.  The Custom ASCII protocol
+  is always No Parity.
+                       $MODBUS TIMEOUT$
+
+  For $Modbus ASCII$ only, a Timeout value of 1, 2, 5 or 10 seconds
+  may be selected as the longest interval to be allowed between 
+  characters without an error response being generated.
+                      $MODBUS ADDRESS$ 
+
+  The Modbus Address is an integer from $1 to 247$
+
+  When the Meter is operated in the Modbus mode and contains an RS-485
+  Serial Communication option board, it may be used in a Multi-drop 
+  configuration where multiple Meters are connected in parallel on the
+  RS-485 Communications bus.  When operating in the Modbus mode, the
+  Meter is assigned a unique address from 1 to 247, to which only that
+  Meter responds.  That address is part of the Command sequence that is 
+  sent to all of the Meters in parallel.  Only the Meter that 
+  recognizes the address as its own, responds.  
+  A special significance is given to the Address 0 (Broadcast address).  
+  All Meters respond to a command with that address even though their
+  assigned address may be different.  However, they do not send any
+  data on the bus because that would result in contention.  
+  The Modbus address is also used in a point-to-point configuration 
+  where there is only one DPM, either RS-485 or RS-232.
+
+
+     
+                             $OUTPUT ITEMS$
+
+  When the meter is operating in the $Continuous$ mode and sending
+  out data at the selected $Output Rate$, the data being sent can
+  be selected to be the Reading, the Peak Value or the Valley
+  Value.  It can also be selected to be any combination of Peak
+  and/or Valley with the Reading.   
+                              $FILTERED ALARM SOURCE$
+
+  The $Setpoint$ is the numeric value to which the appropriate 
+  reading is compared to determine if the Alarm should be made 
+  active.  There are two Setpoints, 1 and 2, and the $Source$
+  that is compared to them may be either the $Unfiltered$ or the
+  $Filtered$ reading.  If the $FILTERED ALARM SOURCE$ checkbox
+  is:
+      $Unchecked$ then the $Unfiltered$ source is used for comparison
+      $Checked$   then the $Filtered$ source is used for comparison
+
+                                           $CR(LF)$
+
+  The output values sent by the Counter over Serial Communications 
+  may contain only one $Item$ or up to three $Items$. These values
+  are followed by an optional coded Alarm character and then by a 
+  $Carriage Return$ and an optional $Line Feed$.  If the data goes 
+  to a printer with this format, all of the $Item$ values print in
+  a continuous line across the page.  As an alternative, $CR(LF)$ 
+  may be selected to be added after each $Item$ value, where there
+  is more than one, and the printout will contain only one $Item$
+  value per line.  If the coded $Alarm$ character is included, it 
+  appears only once with the final $Item$ value in the string.
+ 
+  The selection is:
+    $End of All$  - All $Item$ values print in a line.
+    $End of Each$ - Add a $CR(LF)$ after each value so there is
+                         only one Value per line printed.
+
+                                           $AUTO TARE$
+
+  This selection provides automatic $TARE$ action immediately following
+  Meter Reset.  The normal reading is TARED out and the display reads 
+  zero. 
+
+ 
+
+  $MODBUS RS-485 Jumper Connections$ 
+    Note: Bias jumpers "b" and "e" must be installed on the board for proper operation.  
+    If the outputs of more than 1 MODBUS RS485 board are connected together, 
+    then one (AND ONLY ONE) MODBUS RS485 board must have the jumpers installed.
+    $Full Duplex$
+    Jumpers "b" and "e" - bias jumpers installed on one board only
+    Jumpers "a" and "d" provide 121 ohm terminating resistors for long cable use. 
+                        Only the last meter in the line should be jumpered.
+    $Half Duplex$
+    Jumpers "b" and "e" - bias jumpers installed on one board only
+    Jumpers "c" and "f" - installed for half duplex operation
+    Jumper "a" provides a 121 ohm terminating resistors for long cable use. 
+                        Only the last meter in the line should be jumpered.
+            Voltage                       Current
+-----------         ---------  -----------       -----------
+Input Range  Jumper Positions  Input Range  Jumper Positions
+----------- -----------------  -----------  ----------------
+             E1  E2  E3                      E1   E2   E3
+  200 mV      A   f   b            2 mA       A   e,g   b
+    2 V       A   f   a           20 mA       A   d,g   b
+   20 V       B   h   b          200 mA       A   c,g   b
+  200 V       B   h   a            5 A        A  a,b,g  b
+  660 V       B   g   a
+Notes: 
+1. Click on Jumpers/Power Supply to select jumpers for 5,
+   10 or 24V Excitation.
+2. Upper case letter positions require 5mm(.2in) jumpers, 
+   lower case 2.5mm(0.1in) jumpers.
+3. Store spare jumpers on single unused jumper posts $NOT$ 
+   associated with upper case letters.
+             
+
+                           
+                                        $SIGNAL POLARITY$
+
+  This selection allows the input signal polarity to the meter to 
+  be reversed for those applications where the sensor wiring 
+  is reversed or where the load direction (compression vs tension)
+  makes it desirable.  
+                 
+
+                                       $DECIMAL POINT$
+
+  There are six decimal point positions that may be selected with
+  $Decimal Point$.  They are indicated as follows:
+         ddddd$.$  
+         dddd$.$d 
+         ddd$.$dd 
+         dd$.$ddd 
+         d$.$dddd 
+         $.$ddddd 
+  When the first (right-hand) decimal point position is selected,
+  the reading does not display the decimal point but only implies it
+  from its absence.
+
+  For a $TEDS$ Plug & Play sensor, the decimal point is stored in the
+  $TEDS$ memory and becomes the displayed decimal point provided
+  Plug & Play is enabled in the Meter.  Otherwise, the decimal point
+  stored in the $Meter$ becomes the displayed decimal point.  This is
+  true for Meter Revisions 43 and above.  For Revisions < 43, the 
+  decimal point is stored in the Meter only.
+
+  For a $Non-TEDS$ sensor or a $TEDS$ sensor where Plug & Play is
+  disabled, the decimal point location is independent of the 
+  displayed digits.  For a $TEDS$ sensor where Plug & Play is enabled, 
+  the displayed digits will shift with a change in decimal point 
+  location to maintain the same decimal value.  
+
+  
+  
+ 
+     
+                                   $TARE$
+
+ $Front Panel Tare$ is enabled when checked and allows Tare to be
+    executed by pressing the front panel $Reset$ key.
+ $Auto-Tare$ is enabled when checked and Tare is executed whenever
+    the Meter is powered up or Reset.
+ $TEDS LED Indicator$ is enabled when checked, allowing the Meter 
+    front panel TEDS LED indicator to light when a TEDS sensor is 
+    connected to the Meter and the Meter is set for Plug and Play.
+ $TEDS Plug and Play$ is enabled when checked, providing the Meter
+    gain and offset to be determined by the factory calibration
+    parameters stored in the TEDS sensor.  When $TEDS Plug and Play$
+    is disabled, the gain and offset of the Meter is determined by
+    the Coordinates stored in the Meter, either by the 2-Coordinate
+    method or the Reading Coordinate method.
+                         $TEDS Data (Read Only)$
+
+ These $Plug and Play$ items are set by the factory and stored in the 
+ $TEDS$ memory of the sensor.  They are $Read Only$ items because they
+ are subject to change only with calibrated equipment and special
+ software.
+
+ $Min Electrical Value$ corresponds to Lo_In in the 2-Coordinate method.
+ $Min Physical Value$ corresponds to Lo_Rd in the 2-Coordinate method.
+ $Max Electrical Value$ corresponds to Hi_In in the 2-Coordinate method.
+ $Max Physical Value$ corresponds to Hi_Rd in the 2-Coordinate method.
+
+ $Serial Number$ is the Serial Number assigned to the TEDS sensor by
+   the factory.
+ $Measure Units$ is the Units of Measure chosen for factory calibration.
+ $Calib Date$ is the date that the sensor was factory calibrated.
+ $Calib Initials$ are the initials of factory person that calibrated
+   the sensor.
+ $Calib Period$ is the number of days after the Calibration Date that
+   re-calibration is recommended.
+ $Measure ID$ is pre-assigned as A, B, or C to identify multiple sensors
+   when known at the time of calibration.
+                                           $PEAK BUTTON$
+
+  This selection determines the effect of pressing the front panel
+       $Peak$ key.
+
+  $Peak$       - Pressing the $Peak$ key causes the peak value to
+                               be displayed.  It flashes to indicate that it
+                               is the peak value.
+  $Valley$      - Pressing the $Peak$ key causes the valley value to
+                               be displayed.  It flashes to indicate that it
+                               is the valley value.
+  $Alt Peak/Valley$ - Pressing the $Peak$ key causes the peak value to
+                               be displayed.  Pressing the $Peak$ key again
+                               causes the $Valley$ value to be displayed.
+                               Pushing it again returns to a normal display.
+
+
+ 

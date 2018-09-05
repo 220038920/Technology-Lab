@@ -1,0 +1,99 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: QF3WRXXgUMZFK45RU3RNfvRH4L2pc
+ ALPdhlt/+hzx3g=
+SHA-256-Digest-Manifest: MyvHuxEQYFZTiSD2+UHeZN42CxQYCvrXMzWFdGXe7lU=
+Created-By: 1.7.0_25 (Oracle Corporation)
+
+Name: BBelectronics/Windows/Drivers/i386/ftd2xx.lib
+SHA-256-Digest: T+8g689awrQyL3+lcGOEfYMxzHeTvmplP6bigGCFB0E=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftlang.dll
+SHA-256-Digest: GJcxKq8VDvMKajho2dvERoXB8OlIdmI2l0MDDtFccPc=
+
+Name: BBelectronics/Windows/Drivers/ftdiport.cat
+SHA-256-Digest: tSt6jCV3BACtzrCTk5Z4ErlOCEklaHtzSdyFteZw8/w=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftd2xx.lib
+SHA-256-Digest: qoAgam9w3f5Z9nTdn5NlklgDANRIWWkWz1YVftQHiq0=
+
+Name: BBelectronics/Windows/Drivers/ftd2xx.h
+SHA-256-Digest: gdDTDr4eOC4NSh5ty0S5f5DZujT2jUHi27dlolDWkEA=
+
+Name: BBelectronics/Windows/dpinst64.exe
+SHA-256-Digest: CQzUTDPMC78UvmpLOVoq3lHdVhnceXodk77OETPRXU4=
+
+Name: BBelectronics/Windows/Drivers/ftdibus.inf
+SHA-256-Digest: 7ryDN0dgkTSDEJW400n33Tqywp18i/3ffwtsojvNIX8=
+
+Name: BBelectronics/Windows/Data/eula0409.txt
+SHA-256-Digest: g1Fg0+5DfhSGbbTvVGWm+MZJNfXgvMO4NhvzTAiQuf0=
+
+Name: BBelectronics/Windows/Drivers/ftdiport.inf
+SHA-256-Digest: HOhM2qE8HWv145hQ5/eDy2P4Lj/g2rNO+SjoPVvYwHI=
+
+Name: BBelectronics/Docs/README.rtf
+SHA-256-Digest: dNl500a85kccBALDNmFfDwIrPRGT8Hgpc5D0PELSK2k=
+
+Name: BBelectronics/Windows/Drivers/i386/ftcserco.dll
+SHA-256-Digest: aRobCX1exnR9QYBBoobwjliBxxW7EXKp1ttKDOGxCso=
+
+Name: BBelectronics/Windows/Data/TopImage.bmp
+SHA-256-Digest: jGcoKmTi7nq/6EM4W5ENZBBGwN9Hd/s0Ms8sC/LPkAE=
+
+Name: BBelectronics/Windows/Data/SideImage.bmp
+SHA-256-Digest: E4ITTMtmtX8RrNt9ZXFN7x4bLywlXDDtpcM6atlE3Zw=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftd2xx64.dll
+SHA-256-Digest: 83ptbTMBjZEyTRa1FLIJfr8fhWNqjJrcKWzTKK36luI=
+
+Name: BBelectronics/Windows/Drivers/i386/ftd2xx.dll
+SHA-256-Digest: oWItLc7rm7RlJo6+NyYnk6lTd4Mf1jBYg+zrQNJYd64=
+
+Name: BBelectronics/Windows/Drivers/i386/ftdibus.sys
+SHA-256-Digest: 0E738fL8HcvugJREZ1o+Km/FgmiDFpXhcQ/5JZHQ6NE=
+
+Name: BBelectronics/Windows/Drivers/i386/ftbusui.dll
+SHA-256-Digest: K8OU6HGCxAgTDBdN/EVT/HvcfdCdK+mmIXNtY0ndtuY=
+
+Name: BBelectronics/Windows/Drivers/Static/i386/ftd2xx.lib
+SHA-256-Digest: qiYv+GKGwDPuKoG31mEbktG1sVelu0IE7zpDBkUMDdw=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftcserco.dll
+SHA-256-Digest: /0t+VIdtF9k4qBDcFDN/DMlhT2Ya7zyI2+WySZcivXQ=
+
+Name: BBelectronics/Windows/dpinst32.exe
+SHA-256-Digest: aa5PC55IImLhNklpvrJhMd64EW+USqST5cJ+LzpBou8=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftser2k.sys
+SHA-256-Digest: klkUCncI4nNpzrxCkXYwRTAF3Jdc0TTjQzHpLLdDxZQ=
+
+Name: BBelectronics/Windows/Drivers/Static/amd64/ftd2xx.lib
+SHA-256-Digest: Eg4UoX3qaqhylGOeywYMyovvKiT5dNhamZ0tP+sCDHg=
+
+Name: BBelectronics/Windows/Drivers/i386/ftser2k.sys
+SHA-256-Digest: AEYyScCgnYvpuBVExOFb4grQcgkZQcVk1LsS78yLbus=
+
+Name: BBelectronics/Windows/Drivers/i386/ftlang.dll
+SHA-256-Digest: a1RZZwsQeAQqWBYbfdoW4M3mX6KEezAzjuMpf9EpcC0=
+
+Name: BBelectronics/Windows/Drivers/ftdibus.cat
+SHA-256-Digest: V1PmKfMm050Q8yDQBWq1ntswNFmoUoz4LsD0A/dWmNo=
+
+Name: BBelectronics/Windows/Drivers/i386/ftserui2.dll
+SHA-256-Digest: R/evIZ+samhknEwUHIDJoiykLui56DuwgMXHmwWf4fs=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftdibus.sys
+SHA-256-Digest: GQoKfYuZD9NHA3qmcpxe3ouRl+kBtNfY0A5EmJ3ASQY=
+
+Name: BBelectronics/Windows/DPinst.xml
+SHA-256-Digest: 4RlAGxRLqq3Z4ZBMGgJel4jgAddO/Lc5UO234jdN1M4=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftserui2.dll
+SHA-256-Digest: TTafN+j8eKeVLMlVhgRw/7xJrXnqjXdJoNDFZt+yPks=
+
+Name: BBelectronics/autorun.inf
+SHA-256-Digest: 9G+JxP6SAZAVuKn4SnK28KGYxn8FtryWu1eGfC1j5uo=
+
+Name: BBelectronics/Windows/Drivers/amd64/ftbusui.dll
+SHA-256-Digest: OBOVhmxemsWlRyKoLjPs1pHgUSWBGiCKMWoFJq7/g+o=
+

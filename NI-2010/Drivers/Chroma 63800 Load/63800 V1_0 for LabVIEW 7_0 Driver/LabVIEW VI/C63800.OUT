@@ -1,0 +1,124 @@
+CVI Function Panel File C:\Program Files\National Instruments\LabVIEW 7.0\instr.lib\C63800\C63800.fp
+Converted on 2010年04月28日 上午 11:41:25
+
+Creating "C63800 Initialize.vi" from "init" [6 control(s)]
+Creating "C63800 Initialize With RS232.vi" from "initWithRs232" [11 control(s)]
+   Warning: Control "ID String": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Initialize With Options.vi" from "InitWithOptions" [7 control(s)]
+Creating "C63800 Set RMS Current.vi" from "Set_RMS_Current" [3 control(s)]
+Creating "C63800 Set Maximum RMS Current.vi" from "Set_Max_RMS_Current" [3 control(s)]
+Creating "C63800 Set DC Current.vi" from "Set_DC_Current" [3 control(s)]
+Creating "C63800 Set Fall Slew Rate of CC.vi" from "SetFallSlewRateofCC" [3 control(s)]
+Creating "C63800 Set Rise Slew Rate of CC.vi" from "SetRiseSlewRateofCC" [3 control(s)]
+Creating "C63800 Set Irms(max) In AC CR.vi" from "SetImaxInAC_CR" [3 control(s)]
+Creating "C63800 Set Ip(max) of DC.vi" from "Set_Imax_of_DC" [3 control(s)]
+Creating "C63800 Set Ip(max) of AC.vi" from "Set_Current_Peak_Max_of_AC" [3 control(s)]
+Creating "C63800 Get Current Programmable Range.vi" from "GetCurrentProgrammableRange" [4 control(s)]
+Creating "C63800 Get Parallel State.vi" from "Get_Parallel_State" [3 control(s)]
+Creating "C63800 Phase Select.vi" from "Phase_Select" [3 control(s)]
+Creating "C63800 CLS.vi" from "CLS" [2 control(s)]
+Creating "C63800 Set ESE.vi" from "Set_ESE" [3 control(s)]
+Creating "C63800 Get ESR.vi" from "Get_ESR" [3 control(s)]
+Creating "C63800 Get Identification String.vi" from "GetIdentificationString" [3 control(s)]
+   Warning: Control "Get Identification String": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Set SRE.vi" from "Set_SRE" [3 control(s)]
+Creating "C63800 Get STB.vi" from "GetSTB" [4 control(s)]
+Creating "C63800 Set Maximum AC Power Loading.vi" from "SetMaxACPowerLoading" [3 control(s)]
+Creating "C63800 Set AC Power Loading.vi" from "SetACPowerLoading" [3 control(s)]
+Creating "C63800 Set DC Power Loading.vi" from "SetDCPowerLoading" [3 control(s)]
+Creating "C63800 Get Power Programmable Range.vi" from "GetPowerProgrammableRange" [4 control(s)]
+Creating "C63800 Set Resistance Loading.vi" from "SetResistanceLoading" [3 control(s)]
+Creating "C63800 Set DC Resistance Loading.vi" from "SetDCResistanceLoading" [3 control(s)]
+Creating "C63800 Set Rise Slew Rate of CR.vi" from "SetRiseSlewRateofCR" [3 control(s)]
+Creating "C63800 Set Fall Slew Rate of CR.vi" from "SetFallSlewRateofCR" [3 control(s)]
+Creating "C63800 Get RL Programmable Range.vi" from "GetResistanceProgrammableRange" [4 control(s)]
+Creating "C63800 Set DC Voltage of CV.vi" from "SetDCVoltageofCV" [3 control(s)]
+Creating "C63800 Set CF of AC.vi" from "SetCFofAC" [3 control(s)]
+Creating "C63800 Set CF of DC.vi" from "SetCFofDC" [3 control(s)]
+Creating "C63800 Set PF of AC.vi" from "SetPFofAC" [3 control(s)]
+Creating "C63800 Get CF Programmable Range.vi" from "GetCFProgrammableRange" [4 control(s)]
+Creating "C63800 Get PF Programmable Range.vi" from "GetPFProgrammableRange" [4 control(s)]
+Creating "C63800 Set C of AC RLC.vi" from "Set_C_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set Ls of AC RLC.vi" from "Set_Ls_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set RL of AC RLC.vi" from "Set_RL_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set RS of AC RLC.vi" from "Set_RS_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set PF of AC RLC.vi" from "Set_PF_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set Power of AC RLC.vi" from "Set_Power_of_AC_RLC" [3 control(s)]
+Creating "C63800 Set C of AC Inrush.vi" from "Set_C_of_AC_Inrush" [3 control(s)]
+Creating "C63800 Set LS of AC Inrush.vi" from "Set_LS_of_AC_Inrush" [3 control(s)]
+Creating "C63800 Set RL of AC Inrush.vi" from "Set_RL_of_AC_Inrush" [3 control(s)]
+Creating "C63800 Set RS of AC Inrush.vi" from "Set_RS_of_AC_Inrush" [3 control(s)]
+Creating "C63800 Set Phase of AC Inrush.vi" from "Set_Phase_of_AC_Inrush" [3 control(s)]
+Creating "C63800 Set SYNC State of DC Rectified.vi" from "SetSYNC_StateofDCRectified" [3 control(s)]
+Creating "C63800 Set Frequency of DC Rectified.vi" from "SetFrequencyOfDCRectified" [3 control(s)]
+Creating "C63800 Set Load State.vi" from "SetLoadState" [3 control(s)]
+Creating "C63800 Set Load Mode.vi" from "SetLoadMode" [3 control(s)]
+Creating "C63800 Set Load Short Circuited.vi" from "SetLoadStateCircuited" [3 control(s)]
+Creating "C63800 Set Load Protect Clear.vi" from "SetLoadProtectClear" [3 control(s)]
+Creating "C63800 Get Load Mode.vi" from "GetLoadMode" [3 control(s)]
+Creating "C63800 Get Protect Status.vi" from "GetProtectStatus" [3 control(s)]
+Creating "C63800 Recall Default Setting.vi" from "RecallDefaultSetting" [3 control(s)]
+Creating "C63800 Set GPIB Address.vi" from "SetGPIBAddress" [3 control(s)]
+Creating "C63800 Set RS232 Baud Rate Parameters.vi" from "SetRS232BaudRateParameters" [5 control(s)]
+Creating "C63800 Set AC or DC Mode.vi" from "SetAcOrDcMode" [3 control(s)]
+Creating "C63800 Set CF PF Mode.vi" from "SetCFPFMode" [3 control(s)]
+Creating "C63800 Set CF PF Priority.vi" from "SetCFPFPriority" [3 control(s)]
+Creating "C63800 Get Status Operation Event.vi" from "GetStatusOperationEvent" [3 control(s)]
+Creating "C63800 Get Status Operation Condition.vi" from "GetStatusOperationCondition" [3 control(s)]
+Creating "C63800 Set Status Operation Enable.vi" from "SetStatusOperationEnable" [3 control(s)]
+Creating "C63800 Questionable Event Register.vi" from "QuestionableEventRegister" [3 control(s)]
+Creating "C63800 Questionable Condition Register.vi" from "QuestionableConditionRegister" [3 control(s)]
+Creating "C63800 Set Status Questionable Enable.vi" from "SetStatusQuestionableEnable" [3 control(s)]
+Creating "C63800 Measure Or Fetch Current.vi" from "MeasureOrFetchCurrent" [4 control(s)]
+Creating "C63800 Measure Or Fetch Peak Current.vi" from "MeasureOrFetchPeakCurrent" [4 control(s)]
+Creating "C63800 M/F Negative Peak Current.vi" from "M_F_NegativePeakCurrent" [4 control(s)]
+Creating "C63800 M/F Positive Peak Current.vi" from "M_F_PositivePeakCurrent" [4 control(s)]
+Creating "C63800 Set Peak Current Meas Hold.vi" from "SetPeakCurrentMeasHold" [3 control(s)]
+Creating "C63800 Measure Or Fetch CF of Current.vi" from "MeasureOrFetchCFofCurrent" [4 control(s)]
+Creating "C63800 Measure Or Fetch Frequency.vi" from "MeasureOrFetchFrequency" [4 control(s)]
+Creating "C63800 Measure Or Fetch Peak Power.vi" from "MeasureOrFetchPeakPower" [4 control(s)]
+Creating "C63800 Measure Or Fetch Power.vi" from "MeasureOrFetchPower" [4 control(s)]
+Creating "C63800 M/F Apparent Power.vi" from "MeasureOrFetchApparentPower" [4 control(s)]
+Creating "C63800 M/F Power Factor.vi" from "MeasureOrFetchPF" [4 control(s)]
+Creating "C63800 M/F Power Reactive.vi" from "MeasureOrFetchPowerReactive" [4 control(s)]
+Creating "C63800 Measure Or Fetch Resistance.vi" from "MeasureOrFetchResistance" [4 control(s)]
+Creating "C63800 Measure Or Fetch Peak Voltage.vi" from "MeasureOrFetchPeakVoltage" [4 control(s)]
+Creating "C63800 Measure Or Fetch Voltage.vi" from "MeasureOrFetchVoltage" [4 control(s)]
+Creating "C63800 Measure Or Fetch Voltage THD.vi" from "MeasureOrFetchVoltageTHD" [4 control(s)]
+Creating "C63800 M/F Overshoot Voltage.vi" from "MeasureOrFetchOvershootVoltage" [4 control(s)]
+Creating "C63800 M/F Undershoot Voltage.vi" from "MeasureOrFetchUndershootVoltage" [4 control(s)]
+Creating "C63800 Reset.vi" from "reset" [2 control(s)]
+Creating "C63800 Revision Query.vi" from "revision_query" [4 control(s)]
+   Warning: Control "Instrument Driver Revision": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+   Warning: Control "Firmware Revision": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Error Message.vi" from "error_message" [4 control(s)]
+   Warning: Control "Error Message": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Get Next Coercion Record.vi" from "GetNextCoercionRecord" [4 control(s)]
+   Warning: Control "Coercion Record": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Write Instrument Data.vi" from "WriteInstrData" [3 control(s)]
+Creating "C63800 Read Instrument Data.vi" from "ReadInstrData" [5 control(s)]
+   Warning: Control "Read Buffer": Using an Initialize Array of 256
+   elements as the initial value of an output array parameter.  You may wish to
+   change this constant on the diagram or rewire the size input to an
+   appropriate front panel terminal.
+Creating "C63800 Close.vi" from "close" [2 control(s)]
+
+Conversion complete

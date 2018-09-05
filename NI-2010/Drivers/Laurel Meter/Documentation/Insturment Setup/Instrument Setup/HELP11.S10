@@ -1,0 +1,1200 @@
+                                  $INPUT OPTION$
+  There are 3 input option boards that may be used with the counter.
+    $Dual Signal Conditioner$ - Contains channels A and B and measures
+                              $Rate$ (Frequency) in Hertz
+                              $Period$              in Microseconds
+                              $Total$                in Counts
+                              $Time Interval$    in Microseconds
+                              $Stopwatch$       in uS, Secs, or Hrs,Mins,Secs
+                              $Phase$                in Degrees 
+                              $Duty Cycle$         in Percent			     
+    $Voltage-to-Frequency(V-F)$ - A single Channel A measures
+                              $Rate$, $Reciprical Rate$, $Total$, $Batch$
+                                by converting the input as follows:
+                              $4-20 mA$ to  0 - 100 kHz             
+                              $0- 1 mA$   to  0 - 100 kHz
+                              $0-10 V$      to  0 - 100 kHz 
+    $Quadrature$              -   Displays quadrature result
+                              $Total$  Accumulated counts with sign
+                                       using X1, X2 or X4 counting
+                                       selected by jumpers on board. 
+                              $Rate$  Change in Quadrature total/sec
+  With no signal conditioner board installed, the Counter may serve as
+  a Remote Display.  It may also be configured as a Remote Display 
+  with a signal conditioner board installed.
+
+  If communication has been established with a Counter, this $Input 
+  Option$ parameter should not be changed. It should reflect the actual
+  hardware installed.  If working only with Setup Files, it is 
+  selectable.
+
+                                         $RELAY OPTION$
+
+  The Relay Option board provides Form C (NO,NC) contacts for each 
+  of the two Alarm outputs determined by a comparison of the reading 
+  to Setpoint 1 and Setpoint 2 and the configuration of the Alarm
+  Setup.  Without the Relay Option board, the Alarm parameters are
+  are not accessible.
+
+ 
+                                  $COMMUNICATIONS OPTION$
+
+  The Communications Option consists of a choice of 4 option boards.
+    $RS-232$       - This board interfaces to a single RS-232 device, 
+                   such as a computer, and will operate in either a 
+                   full-duplex (preferred) or a half-duplex mode.
+                   It may use either RTS or XON/XOFF handshaking.
+    $RS-485$       - This board interfaces to either a single RS-485
+                   device, such as a computer, OR to a multi-drop
+                   configuration containing a number of RS-485 
+                   devices, each with a unique address from 1-31. The
+                   multi-drop configuration usually connects to a 
+                   computer controller.
+    $MODBUS$. This is an RS-485 board with dual RJ-45 connectors 
+                   wired in parallel to simplify  daisy-chaining 
+                   multiple meters.
+    $Parallel BCD$ - This board provides parallel BCD outputs that 
+                   are stored between reading updates and are tri-
+                   stated to allow multi-drop operation.
+
+  If communication has been established with a Counter, this 
+  $Communications Option$ parameter should not be changed. It should
+  reflect the actual hardware installed.  If working only with Setup 
+  Files, any of the four option boards may be selected. 
+
+  See the COMMUNICATION tab for more information on Communication 
+  parameters.
+
+
+
+                  
+
+
+
+
+                  
+                                 $ANALOG OUTPUT OPTION$
+
+  The Analog Output option board provides either a 0-20 mA or 
+  4-20mA current output or a 0-10 V or -10 V to +10 V voltage
+  output and each output is a function of the reading and the
+  output scaling.  
+  The $Source$ of the reading is either  
+    (1) the filtered Item (if any)
+    (2) Item 1
+    (3) Item 2 (if any)
+    (4) Item 3 (if any)
+  The output scaling is accomplished by 
+    (1) entering a value into $AnLow$ that corresponds to the 
+        desired reading when the Analog output is at the low end of
+        its range, $and$
+    (2) entering a value into $AnHigh$ that corresponds to the 
+        desired reading when the Analog output is at its full scale.
+
+  See also the Analog Out tab parameters.
+
+ 
+1105
+                                           $MODE$
+  The choice of $Modes$ to be selected depends on which $Input Option$
+  board is installed or, if communications is not established, which
+  $Input Option$ has been selected.  Since the choice of $Modes$ 
+  depends on the Input Option, always select the $Input Option$ BEFORE
+  selecting the $Mode$.
+
+  Since the $Input Option$ is currently $None$ (i.e. no Input Option 
+  board), there are no choices of $Mode$.  The instrument may still
+  be used as a Remote Display to receive data over the RS-232 or
+  RS-485 Serial Communications option interface.  Data may be 
+  supplied by a Computer or another Laurel Counter.  If from another
+  Laurel counter, each data string may contain 1, 2, 3 or 4 data
+  items for each reading transmitted (e.g. Item 1, Item 2, Item 3
+  and Peak).  The Remote Display counter can be set up to display
+  any one of these data items in the string by selection of the
+  $Display Type$ in the $Display$ block. 
+
+  $IMPORTANT:$  
+       Always select the $Input Option$ BEFORE selecting the $Mode$ 
+                              $AND$
+       Always select the $Mode$ BEFORE selecting the $Function$.
+  
+                                            $MODE$
+  The choice of $Modes$ to be selected depends on the $Input Option$
+  selected or board installed.  Aways select the $Input Option$ 
+  $before$ selecting the $Mode$.
+
+  The Dual Signal Conditioner operates in one of 6 modes.
+    1. $Rate$ (Frequency) measures the average number of counts
+       per second that occur during the time base.  The display
+       is in Hertz.
+    2. $Period$ measures the average time in microseconds of 
+       each cycle that occurs during the time base.
+    3. $Total$ displays the continuous accumulation of counts.
+    4. $Time Interval$ displays the average time in microseconds
+       between the start of cycles on Channel A and the start of 
+       cycles on Channel B during the time base.
+    5. $Stopwatch$ displays the continuous time in either microseconds
+       or seconds from a Start pulse to a Stop pulse.  It may also 
+       display time as a Real Time Clock in hrs,mins,secs.
+    6. $Phase$ is the average number of degrees between the 
+       selected transitions of Channel A and Channel B that 
+       occur during the time base.
+    7. $Duty Cycle$ is the ratio expressed in percent of the time 
+       between Trigger Slope A and Trigger Slope B and the time between 
+       the first Trigger Slope A and the second Trigger Slope A.
+
+ 
+                                           $MODE$
+  The choice of $Modes$ to be selected depends on the $Input Option$
+  selected or board installed.  Aways select the $Input Option$ 
+  $before$ selecting the $Mode$.  The V-F Input Option has been
+  selected.
+
+  The $Voltage-to-Frequency Converter$ operates in one of 3 modes.
+  These modes represent a choice of current or voltage input 
+  signals and for current input, a choice of two ranges.  The mode
+  selection must correspond to the hardware jumpers placed on the
+  board.
+   
+    1. $VF 4-20 mA$ - This is the normal process range for a current
+         transmitter.  The board generates a frequency from 
+         approximately 20 kHz to 100 kHz, but transparent to the
+         user, it is calibrated and offset in software to convert 
+         the 4-20 mA input range to a reading range of exactly
+         0 - 100,000.  The user can then apply Scale and Offset
+         factors to create the desired reading in engineering units.           
+    2. $VF 0-1 mA$ - This input range is also calibrated to
+         generate a reading range of 0 - 100,000.
+    3. $VF 0-10 V$ - This input range is also calibrated to 
+         generate a reading range of 0 - 100,000.
+                                          $QUADRATURE$
+  There are two operating $Modes$ for the quadrature $Input
+  Option$.  $Total$ provides bi-directional counting of a 
+  transducer output containing two signals, A & B, 90 degrees out of
+  phase with one another.  The $Total$ Function displays the signed
+  (i.e. plus and minus) accumulation of counts.  Hardware jumpers on
+  the board may be placed for X1, X2 and X4 counting.
+    X1 = positive transitions of the A signal
+    X2 = both transitions of the A signal
+    X4 = both transitions of both the A and B signals
+  $Rate$ provides the rate or frequencey of the Channel A input
+  signals.
+  The following selections are available to complete the setup
+  configuration:
+    1. $Zero Index$ may be enabled or disabled by a jumper on the
+       board.  It is enabled to provide a correction to the Total once 
+       every revolution of the transducer to compensate for any noise 
+       errors that might have been introduced.
+    2. $Pulses$ must be set to the number of counts per revolution 
+       of the transducer, after scaling, if $Zero Index$ is enabled.
+    3. Normal Scale & Offset and Alarm Setpoints apply.
+
+1110
+                                           $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+    
+  Since the current $Input Option$ selection is $None$ there is no
+  $Function$ list from which to choose.
+
+1112
+                                            $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Rate$ mode selected:
+
+  $A__b__$   is   Rate A and Rate B, 2 channels.
+  $A OnLy$    is   Rate A only, Channel B ignored.
+  $_bAtCH$    is   Batch control using Ch. A only.
+  $A_Atot$     is   Rate A and Total A (Sum of Rate A X Time).
+  $A_btot$     is   Rate A and Total B.
+  $A_+_b_$   is   Rate A plus Rate B.
+  $A_-_b_$   is   Rate A minus Rate B.
+  $A_._b_$   is   Rate A times Rate B.
+  $A_/_b_$   is   Rate A divided by Rate B.
+  $A/b-1_$   is   Draw or Rate A/Rate B - 1.
+ 
+  For information on Rate Batch, see $RBATCH.DOC$
+  For information on V-F Batch, see $VFBATCH.DOC$
+
+
+                                            $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Period$ mode selected:
+
+  $A__b__$   is   Period A and Period B, 2 channels.
+  $A OnLy$    is   Period A only, Channel B ignored.
+  $A_+_b_$   is   Period A plus Period B.
+  $A_-_b_$   is   Period A minus Period B.
+  $A_._b_$   is   Period A times Period B.
+  $A_/_b_$   is   Period A divided by Period B.
+
+                                          $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Total$ mode selected:
+  $A__b__$   is   Total A and Total B, 2 channels.
+  $A OnLy$    is   Total A only, Channel B ignored.
+  $A-b Ud$    is   Total A minus B for Up/Down counting
+  $_burSt$   is   Total number of Bursts A, Burst frequency A
+  $b_ArAt$   is   Total B, Rate A
+  $A_bU/d$   is   Total A where A direction under Up/Down Control of B
+  $A_bInh$   is   Total A where A is enabled or inhibited by B
+  $A_+_b_$   is   Total A plus Total B.
+  $A_-_b_$   is   Total A minus Total B.
+  $A_._b_$   is   Total A times Total B.
+  $A_/_b_$   is   Total A divided by Total B.
+ 
+  Note: Use $A-b Ud$ where A is Up input signal and B is Down input 
+        signal if Up/Down counting is desired using separate Up and 
+        Down input channels.  Neither A nor b is separately scaled
+        or offset, only the difference.  Whereas, $A_-_b_$ has both
+        A and b separately scaled and offset with the result that for
+        individual values of A & b greater than full scale there may
+        be some truncation and rounding which could reduce the accuracy
+        of the difference.
+
+                                        $TIME INTERVAL$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Time Interval$ mode
+  selected:
+
+  $A_to_b$   is   Time interval from the Trigger Slope of A to the
+                        Trigger Slope of B in microseconds (with a scale
+                        factor of 1).
+  $_1/AB_$   is   The reciprocal of the time interval in 1/seconds
+                        (with a scale factor of 1).
+
+                  This is the average of measured intervals over 
+                  the length of the Time Base.
+
+  
+                            $STOPWATCH$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Stopwatch$ mode
+  selected:
+  $A_to_A$   is   The time in microseconds from the first Trigger
+                       Slope of A until the second Trigger Slope of A.
+  $A_to_b$   is   The time in microseconds from the Trigger Slope 
+                       of A to the Trigger Slope of B.
+                  Both of the above are for a Scale Factor of 1
+  As an alternative to the time in microseconds, time in seconds or
+  a Real Time Clock display may be selected.  
+
+  If $Display Type$ is set  to $Time in Secs$, the time is displayed 
+  in Seconds.
+
+  If $Display Type$ is set to $Clock hhmmss$, the time is displayed 
+  in hrs., mins, & secs. using decimal point separation (hh.mm.ss).
+
+  Note: Item 1 displays the time for each interval while Item 2
+        displays the total of the interval times.
+ 
+  $_1/AA_$   is   The inverse of the measured time in 1/Seconds (for
+                       a Scale Factor of 1).
+  $_1/Ab_$   is   The inverse of the measured time in 1/Seconds (for
+                       a Scale Factor of 1).
+
+    
+                                          $PHASE$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Phase$ mode selected:
+
+  $A_to_b (0-360)$     
+        The Phase in degrees between the Trigger Slope of A and the 
+        Trigger Slope of B.  This is the preferred selection when
+        $not$ making Phase measurements near 0 or 360 degrees.
+
+  $A_to_b (+-180)$
+        The Phase in degrees between the Trigger Slope of A and the 
+        Trigger Slope of B.  This is the preferred selection when
+        making Phase measurements near 0 or 360 degrees.
+
+        The displayed result is the average of individual phase 
+        measurement intervals over the length of the Time Base.
+ 
+  
+                                        $DUTY CYCLE$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Duty Cycle$ mode selected:
+
+  $(A_to_b)/A$    
+       This is the Time between the Trigger Slope of A and the Trigger 
+       Slope of B divided by the Time between the first Trigger Slope
+       of A and the second Trigger Slope of A expressed in percent.  If 
+       it is desired to measure the Duty Cyle of the pulses from a single 
+       input signal, connect that signal to both the A and B inputs and 
+       choose opposite Trigger Slopes.  To measure the percent Duty Cycle
+       of a positive pulse, choose Trigger Slope A to be positive and 
+       Trigger Slope B to be negative. To measure the Duty Cycle of a
+       negative pulse, reverse the Slopes.
+
+       The result is the average of individual duty cycles over the 
+       length of the Time Base.
+
+ 
+  
+                                          $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $V-F Converter$ Input
+  Option.  It applies to each of the Modes, $4-20 mA$, $0-1 mA$ and
+  $0-10 V$.
+
+  $A OnLy$    is   Rate A only.
+  $_bAtCH$    is   Batch control.  See individual Batch Help items.
+  $A_Atot$     is   Rate A and Total A (Rate A sample X time).
+  $Atot_A$     is   Total A (Rate A sample X time) and Rate A.
+  $__1/A_$    is   Reciprocal of Rate A.
+
+  Note: Rate A is calculated using calibration constants for the 
+        V-F board installed.  The Total A cannot be obtained by
+        counting the A cycles but must be calculated by multiplying 
+        the Rate A calculation by the time interval between the
+        previous reading and the current reading.  The Total A is
+        the accumulation of these products.
+ 
+       
+        
+1121
+                         $DISPLAY TYPES 6 - C$
+  $Remote Display (Addressable Command)$ - A value can be sent to the 
+                 Counter for display using the H, K or L commands.
+  $Remote Display (Single Value)$ - Using Serial Communications, a
+                 single value may be sent to a Counter without an
+                 input Signal Conditioner for display 
+                 (e.g. +123.456 to display +123.456)
+  $The following apply to the Slave Remote Display Mode:$ 
+  $1st Value in String$ - Displays the 1st measurement in a string.
+  $2nd Value in String$ - Displays the 2nd in a string of 2 or more.
+  $3rd Value in String$ - Displays the 3rd in a string of 3 or more.
+  $4th Value in String$ - Displays the 4th in a string of 4.
+  $Remote Display C$ - The Counter has special Remote Display capability
+                 using the following four items relating to the Remote 
+                 Display string of data.
+     $Start Char$ - The character designating the beginning of the string.
+     $Stop Char$  - The character designating the end of the string.  
+     $Skip No.$     - The number of characters following the $Start Char$ to
+                             be ignored.
+     $Show No.$     - The number of characters immediately following the 
+                          ignored characters to be displayed.
+  Example: 
+         * A B C D - 1 2 3 . 4 5 E F G # H I J K * etc.
+   Start     Skip        Show              Stop
+      =*        = 4           = 7                   = #
+  The Remote Display value remains on the length of time set in 
+  $TimeOut$ and then $ti-Out$ is displayed.  The value will be displayed
+  indefinitely if $TimeOut$ is set to 0.
+ 
+                                         $FUNCTION$
+  The $Function$ list depends on the $Mode$ selected which depends 
+  on the $Input Option$ board installed or, if communications is not
+  established, which $Input Option$ is selected from a file.  Always
+  select the $Input Option$ and $Mode$ BEFORE selecting the $Function$.
+  
+  The following is the $Function$ list for the $Quadrature$ Input
+  Option.  There is only one Mode so it also is designated 
+  $Quadrature$.
+
+  $_totAL$    is   Bi-directional Total of Channel A and B signals.
+  $_rAtE_$    is   Net rate of Channel A and B signals.
+
+  Note:  Total uses the X1, X2 or X4 signals as they are generated 
+         by the Quadrature input board according to its hardware jumper 
+         placement.  Use $Scale1$ to produce the desired readings, 
+         taking into account the jumper selection.
+
+ 
+       
+        
+                                        $GATETIME$
+  The $GateTime$ is the approximate length of time of the measurement.
+  During this time, input cycles are accepted and counted and the 
+  time for the integral number of these input cycles is accurately
+  measured.  When the $GateTime$ concludes, no new cycles are accepted
+  and the counter calculates the $Period$ as an average for the input 
+  cycles that were accepted during the $GateTime$.  $Rate$ is displayed
+  as the reciprocal of the $Period$ measurement.  If the $GateTime$ is 
+  short, the average is calculated over fewer input cycles than if it
+  is long, and the number of readings per second is greater.  If 
+  there is noticeable variation in the period of the input cycles, a 
+  short $GateTime$ could result in readings where the last digit, or 
+  digits, change too fast to distinguish.  A longer $GateTime$ would 
+  allow them to be distinguished and would average them over a longer 
+  period of time so there would be less variation in the readings.  
+  As an alternative to increasing the $GateTime$, filtering may be 
+  applied to the input and the filtered result selected for display.
+  The $GateTime$ selection is in $seconds$ with two decimal places, 
+  or a resolution of 10 milliseconds.  The minimum $GateTime$ is
+  10 milliseconds and the maximum is 199.99 seconds.  If 000.00 is
+  selected, 10 milliseconds is used.  A good starting value for the 
+  $GateTime$ is 000.30 seconds which results in about 3 readings per
+  second.  It can then be adjusted from there to produce the desired
+  results.
+  The selected $GateTime$ is only approximate.  The actual Gate Time
+  is always an integral number of cycles and is never less than the 
+  period of one cycle.
+                                           $TIMEOUT$
+
+  When the input signal becomes disconnected and is missing, the 
+  Counter displays $"0"$ (no input).  The length of time that the
+  Counter waits after a valid reading (or after Power On) before 
+  deciding that there is no input signal is determined by the 
+  selected $TimeOut$ value.  This value is in $seconds$ with two 
+  decimal places, or a resolution of 10 milliseconds.  The minimum
+  $TimeOut$ is 10 milliseconds and the maximum is 199.99 
+  seconds.  If 000.00 is selected, 10 milliseconds is used.
+
+  A fair starting value for $TimeOut$ might be 003.00 seconds.  The
+  input Rate (frequency) must be considered and the $TimeOut$ value
+  made longer than the maximum period of the input signal.
+
+  $TimeOut$ applies mainly to $Rate$ and $Period$ measurements and 
+  is not active for $Total$-only or $Stopwatch$ measurements.  It is 
+  not active for V-F measurements because the V-F board always 
+  generates a signal regardless of the DC input current or voltage.
+  The only exception being an input signal that is fairly negative.
+  It is not active for Quadrature operation.
+
+  $TimeOut$ also provides the length of time that a Remote Display 
+  value remains on the Display before changing to "ti-Out".  A 
+  $TimeOut$ setting of 0 allows a Remote Display value to remain on 
+  the display indefinitely.
+                           $DISPLAY TYPE$
+  The $Display Type$ refers to the nature of the displayed data.  
+  $Normal,Expnt$ - This is Rate in Hertz, Time in microseconds or Total
+            in Counts.  Overload values are displayed with an exponent.
+  $Normal,999999$- Same as above except overload flashes 999999.
+                   For Counter Revision 36 and up, $Total A Only$ and
+                   $Total A, bInH$ will overflow to 0 and continue to
+                   total.  The number of overflows is displayed as
+                   Display Item 2.
+  $1 Right-hand Dummy Zero$ - The reading is rounded for a least 
+                              significant digit of zero.
+  $2 Right-hand Dummy Zeros$- The reading is rounded for two least
+                              significant digits of zero.
+  $Time in Secs$ - Applies only to $Stopwatch$ and displays time
+                   in $Seconds$.
+  $Clock hhmmss$ - Valid only for $Stopwatch$ and displays time in 
+                   hrs, mins and secs. It is also valid for $Total A$
+                   and $Total A, B$ for Counter Revision 35 and up.
+                   The display uses decimal points for separation.
+                   HH.MM.SS     HH=Hours   MM=Minutes   SS=Seconds 
+  $Rmt Dsply A$ -  Addressable Remote Display with H, K, L commands
+  $Rmt Dsply S$ -  Single-value Remote Display
+                 $1$ - Show 1st string value slaved to another meter
+                 $2$ - Show 2nd string value slaved to another meter
+                 $3$ - Show 3rd string value slaved to another meter
+                 $4$ - Show 4th string value slaved to another meter
+  $Rmt Dsply C$ -  This allows extracting a value string from a longer
+                   string with miscellaneous characters by identifying
+                   $Start$ and $Stop$ characters and using the number
+                   of characters to $Skip$ and $Show$.
+             
+
+                                        $DISPLAY VALUE$
+
+  The reading value displayed may be either unfiltered or filtered.
+  $Unfiltered$ - This is the measurement without filtering.
+  $Filtered$   - This is the filtered measurement value. If there is
+                 more than one $Item$ that may be displayed, this
+                 applies only to the one $Item$, if any, that  
+                 is filtered.  It is usually Item 1 if it is not a 
+                 Total item. 
+                 $Total$ and $Stopwatch$ $Item's$ are never filtered.
+
+                                             $LEADING ZEROS$
+
+  All numeric values displayed are right-justified and filled to 
+  the left with either zeros or blanks.  
+  $Blank Zeros$   - Any leading zeros are blanked except the first
+                    zero, if any, to the left of the decimal point.
+                    The minus sign, if any, is shifted right to the
+                    first position left of the value.
+  $Display Zeros$ - If the displayed value is less than 6 
+                    significant digits, left-hand zeros are added 
+                    to fill the 6-digit display.  The minus sign,
+                    if any, is always to the left of the 6 digits.
+ 
+                                      $NEGATIVE SAMPLES$
+
+  There are three Mode/Functions that measure the input rate and
+  multiply that measurement by the time between measurements in 
+  seconds to obtain a total quantity (Rate X Time).  
+  These are:
+    1. $Rate        A Atot$
+    2. $VFxxxx   A Atot$
+    3. $VFxxxx   Atot A$   where VFxxxx is VF4-20, VF 0-1, or VF0-10  
+
+  In these Mode/Function selections, the product of Rate and Time is not
+  continuous, but instead, is a sample of the Rate determined by the
+  reading, multiplied by the time between readings.  If the $Rate$  
+  measurement can go negative, a decision must be made whether to 
+  ignore that particular negative quantity of Rate X Time, or to include 
+  it in the Total, which would reduce the Total for that negative sample.
+  This $Negative Sample$ selection provides that choice.
+
+  Choose:  $Exclude$  to exclude or ignore negative Rate sample
+                                     quantities in the Total
+                     $Include$  to include negative Rate sample quantities in the
+                                       Total.
+
+  The effect of SCALE2 and OFFSET2 on the Total are independent of 
+  this selection.
+                                    $POWER-ON TOTAL$
+
+  When power is lost while accumulating Totals, the Counter stores
+  the Total in non-volatile memory just before the power falls below
+  its operating value.  When power is restored, the accumulated 
+  Total may be restored from non-volatile memory and continue to 
+  accumulate from the stored value.  However, this might not be
+  desirable if the Power was purposely turned off to end a session
+  and then turned on to start another session.  In this case, it
+  would be desirable to start from a zero value.  This would be no
+  problem for manual operation because the saved Total could be reset
+  to zero from the front panel.  However, for automatic operation it
+  would be preferable to have a choice of action for the Power-On 
+  sequence.  That is the purpose of this selection.
+  $Zero Total$    - The saved Total is zeroed during the Power-On
+                    sequence.
+  $Restore Total$ - The saved Total is restored during the Power-On
+                    sequence and the Total accumulates from the
+                    value it had when the power was lost.
+                                       $DECIMAL POINT$
+
+  There are six decimal point positions that may be selected for
+  $Decimal Pt 1$ and $Decimal Pt 2$.  They are indicated as 
+  follows:
+     $Decimal Pt 1$      $Decimal Pt 2$
+        111111.            222222.
+        11111.1            22222.2
+        1111.11            2222.22
+        111.111            222.222
+        11.1111            22.2222
+        1.11111            2.22222
+  When the first (right-hand) decimal point position is selected,
+  the reading does not display the decimal point but only implies it
+  from its absence.
+
+  Whether $Decimal Pt 1$ or $Decimal Pt 2$ applies to $Item 1, 2 or 3$
+  depends on the $Mode$ and $Function$ selected.  When Viewing the
+  $Setup$ in this program, the correct $Decimal Point$ selection is 
+  shown with the proper $Item$.  
+
+     
+                                      $TRIGGER SLOPE$
+
+  The $Trigger Slope$ refers to the edge of the input signal that
+  is made active for the purpose of counting, designating the 
+  beginning of a cycle or for referencing time interval 
+  measurements.  This $Trigger Slope$ may be independently selected
+  for Channel A and Channel B.
+  $Positive$  - The positive-going transition of the input signal 
+                is the active transition.
+  $Negative$  - The negative-going transition of the input signal
+                is the active transition.  
+                                     $RESOLUTION$
+
+  The $Resolution$ factor is made available for the arithmetic
+  functions, Add, Subtract, Multiply, Division and Draw 
+  (Division - 1).  This allows Channel's A and B to each use
+  their respective Scale factors 1 and 2 to provide the desired
+  individual Channel readings while providing essentially a third
+  scale factor, although in powers of 10 only, for the arithmetic
+  function of the two Channels.  For an example of why this might 
+  be necessary, consider the Divide function with Channel A = 10543
+  and Channel B = 9754. Without a $Resolution$ factor the display
+  would read 000001 but with a $Resolution$ factor = 100000 and 
+  $Decimal Pt 2$ = 2.22222 it reads 1.08089.  The $Resolution$ 
+  factors are:
+    0.00001
+    0.00010
+    0.00100
+    0.01000
+    0.10000
+    1.00000
+    10.0000
+    100.000
+    1000.00
+    10000.0
+    100000.
+
+
+
+   
+                                   $CUSTOM CURVE$
+
+  A $Custom Curve$ capability is made available to the user by
+  storing custom parameters in non-volatile memory.  These 
+  parameters are calculated by a special program on the PC computer
+  and transmitted over serial communications to the Counter's non-
+  volatile memory.  Once stored, the PC computer is no longer
+  required and the Counter uses the stored parameters to calculate
+  the readings according to the user's input-output curve.
+
+  $None$     - If this is selected, the Counter will function in its
+               normal linear manner.
+  $Curve #1$ - This select's the first of a possible two Custom 
+               Curves.
+  $Curve #2$ - This select's the second of a possible two Custom
+               Curves but is only available with the V_F Converter
+               option board because that board contains an additional
+               non-volatile memory device.
+
+                              $SCALE,OFFSET,  COORDINATES$
+
+  There are two methods for entering Scale and Offset data for
+  Scale 1, Offset 1 and Scale 2, Offset 2.  The first is to enter
+  the Scale and Offset data directly and the second is to enter
+  the coordinates of two points.  The slope of the straight line
+  between these two points becomes the Scale and the Y-intercept
+  becomes the Offset.  The values for one point are entered as 
+  Lo In1 (Low Input 1) and it's desired reading Lo rd1 (Low 
+  Reading 1) and the values for the second point are entered as
+  Hi In1 (High Input 1) and it's desired reading Hi rd1(High
+  Reading 1).  The Counter then calculates the Scale 1 and Offset 1
+  values.  The method selected for determining Scale 2, Offset 2 
+  may be different than that selected for Scale 1, Offset 1 since 
+  they function independently. 
+  $Scale,Offset$ - This method provides direct entry of the Scale
+                   and Offset values.
+  $Coordinates$  - This method provides indirect entry of the Scale
+                   and Offset values by entering the coordinates of
+                   two points (Low & High) using Lo In, Lo rd,
+                   Hi In, and Hi rd and allowing the Counter to
+                   calculate the resulting Scale and Offset.
+                                 $DISPLAY ITEM NO.$
+
+  The $Display Item No.$ is the Item Number that the Display
+  shows at the end of Counter Reset.  It is normally Item 1,
+  but it can be selected to be Item 2 or Item 3 if those are
+  valid displayable items for the selected Mode and Function.
+  For example, if Rate A, Rate B is selected then Item 1 is
+  Rate A and Item 2 is Rate B.  If it is desired to display
+  Rate B when the Counter is Reset, then $Display Item No.$ is
+  set to $Item 2$. 
+                                  $SCALE$, $MULTIPLIER$
+
+  The $Scale$ entry is one of two parts of the complete Scale Factor.
+  It consists of a one-digit integer and a five-digit decimal 
+  fraction.  The decimal point is fixed at X.XXXXX and cannot be 
+  altered.  The other part of the complete Scale Factor is the 
+  decimal $Multiplier$.  It ranges from 0.00001 to 100000. in decimal
+  steps.  
+
+  For example, to enter a Scale factor of 14.85, enter the following:
+    $Scale$      = 1.48500
+    $Multiplier$ = 10.0000 
+  
+  OR to enter a Scale factor of 0.83192, enter the following:
+    $Scale$      = 8.31920
+    $Multiplier$ = 0.10000
+                   ASCII CHARACTER TABLE
+
+  This table lists the ASCII characters and their decimal 
+  equivalents. Dec values < 33 are non-printing chars.
+
+  Chr Dec   Chr Dec Chr Dec Chr Dec Chr Dec  Chr Dec
+  --- ---   --- --- --- --- --- --- --- ---  --- ---
+  nul 00    nak 21    * 42    ? 63    T  84    i 105 
+  soh 01    syn 22    + 43    @ 64    U  85    j 106 
+  stx 02    etb 23    , 44    A 65    V  86    k 107 
+  etx 03    can 24    - 45    B 66    W  87    l 108 
+  eot 04    em  25    . 46    C 67    X  88    m 109 
+  enq 05    sub 26    / 47    D 68    Y  89    n 110 
+  ack 06    esc 27    0 48    E 69    Z  90    o 111 
+  bel 07    fs  28    1 49    F 70    [  91    p 112  
+  bs  08    gs  29    2 50    G 71    \  92    q 113
+  ht  09    rs  30    3 51    H 72    ]  93    r 114    
+  lf  10    us  31    4 52    I 73    ^  94    s 115    
+  vt  11    sp  32    5 53    J 74    _  95    t 116    
+  np  12     !  33    6 54    K 75    `  96    u 117
+  cr  13     "  34    7 55    L 76    a  97    v 118
+  so  14     #  35    8 56    M 77    b  98    w 119
+  si  15     $  36    9 57    N 78    c  99    x 120
+  dle 16     %  37    : 58    O 79    d 100    y 121 
+  dc1 17     &  38    ; 59    P 80    e 101    z 122
+  dc2 18     '  39    < 60    Q 81    f 102    { 123
+  dc3 19     (  40    = 61    R 82    g 103    | 124
+  dc4 20     )  41    > 62    S 83   h 104    
+                                              
+             } 125    ~ 126  DEL 127           
+                                       $OFFSET$
+
+  The $Offset$ is the desired reading when the input value is zero.
+  With a Counter, this may be a theoretical zero since the input 
+  cannot be zero except for an open input, an input period longer
+  than the Timeout setting or the Total and Stopwatch modes.  The 
+  $Offset$ value is entered directly and the decimal point is the 
+  system decimal point, either Decimal Pt 1 or Decimal Pt 2 depending
+  on the $Mode$ and $Function$ selected and the $Item$ of interest.  
+  The $Offset$ value is bipolar and the sign is entered as part of 
+  the most significant digit.  This digit steps through the values 
+  from 0 to 9 then -0 to -9 and repeats.
+
+  The range of $Offset$ values is -999999 to 999999 with the decimal
+  point determined by either Decimal Pt 1 or Decimal Pt 2, whichever
+  applies.
+
+  
+                              $Lo In, Lo rd, Hi In, Hi rd$
+
+  These are the four values that are entered in the Coordinates
+  method and from which the Counter calculates the corresponding
+  Scale and Offset from the straight line passing through the
+  two points, Low and High.
+  $Lo In$ = the input value that produces the desired $Lo rd$ reading.
+            It's decimal point can be set to correspond to the 
+            input units of measurement.  For example, if a 10 kHz 
+            input is to read 20000, it's decimal point can be set to
+            10.000 with the units of measurement being kHz.  However,
+            when $Hi In$ is entered, the same units of measurement 
+            must be used to determine it's decimal point.  The 
+            decimal point is set by advancing the flashing digit, that
+            identifies the current digit being changed, past the least
+            signifcant digit.  This causes the decimal point to flash
+            and it may then be changed with the stepping pushbutton.
+  $Lo rd$ = the desired reading when $Lo In$ is applied.  It's decimal
+            point corresponds to either Decimal Pt 1 or Decimal Pt 2,
+            depending on the $Mode$ or $Function$ selected and the
+            $Item$ of interest.
+  $Hi In$ = the input value that produces the desired $Hi rd$ reading.
+            It functions in a similar manner to $Lo In$ above.
+  $Hi rd$ = the desired reading when $Hi In$ is applied.  It 
+            functions in a similar manner to $Lo rd$ above.
+
+1141
+1142
+1143
+                                  $FILTER TIME CONSTANT$
+
+  The $Filter$ is a Digital Moving Average type.  It can be configured
+  as an adaptive filter to make quick adjustments to large step 
+  changes of input values.  The $Time Constants$ for small changes or
+  for conventional filtering may be selected in binary steps between 
+  0.1 seconds and 6.4 seconds. 
+  The choices are:
+    $No Filter$ 
+    $ 0.1 Sec$
+    $ 0.2 Sec$
+    $ 0.4 Sec$
+    $ 0.8 Sec$
+    $ 1.6 Sec$
+    $ 3.2 Sec$
+    $ 6.4 Sec$
+  The Time Constant of a Moving Average filter is a function of the 
+  sample rate, which, for the Counter, is the reading rate.  Since
+  the reading rate depends on the choice of $GateTime$, the Counter
+  re-calculates the internal filter constants when the $GateTime$ is
+  changed, to maintain the actual Time Constant as close as possible
+  to the selected $Time Constant$.
+
+  Batch filtering may be accomplished by lengthening the $GateTime$.
+
+
+
+   
+   
+                                       $FILTER TYPE$
+
+  There are two types of filters to choose from, $Adaptive$ or 
+  $Conventional$.  
+  $Adaptive$  - When a relatively large change in input value occurs,
+                this filter temporarily, and automatically, reduces 
+                it's time constant.  This allows the filtered value
+                to approach it's final reading more quickly.  When 
+                the new value is reached, the filter reverts to its 
+                selected $Time Constant$.  The amount of change 
+                required to initiate the decrease in time constant
+                may be selected under $Threshold$ to be either $Low$
+                or $High$.
+  $Conventional$- The $Adaptive$ feature is disabled and the filter
+                behaves as a conventional single-pole filter with
+                the selected $Time Constant$.  Large changes in input
+                value take a long time to settle, but the actual
+                time constant is predictable because it is never
+                reduced by changes of the input value. 
+                                  $FILTER THRESHOLD$
+
+  When the type of filter is $Adaptive$, a change in input value
+  causes it to reduce its time constant temporarily, and 
+  automatically, to settle more rapidly to its new value.  The
+  amount the input value must change before the time constant is
+  reduced is determined by the $Filter Threshold$ selection.  These
+  selections are labeled, 
+    $Low Adaptive$   and 
+    $High Adaptive$ 
+  which are relative terms and must be selected on an empirical basis.
+
+  
+                                     $FILTER PEAK VALUE$
+
+  The Counter maintains a $Peak Value$ for all modes except $Total$
+  and $Stopwatch$.  For a given $Mode$ and $Function$, the $Peak Value$
+  is available only for the one $Item$ for which filtering is
+  available.  For this $Item$, the $Peak Value$ may be maintained for
+  either the $Unfiltered$ or the $Filtered$ value but not both.
+    $Unfiltered$ - Maintain the $Peak Value$ of the $unfiltered$ readings.
+    $Filtered$   - Maintain the $Peak Value$ of the $filtered$ readings.
+ 
+  For Series 2 meters, this setting also applies to the $Valley Value$.
+                                    $BATCH TOTAL RESET$
+
+  When the $Batch Total$ reaches its Preset value while counting up
+  (or 0 when counting down), the Batch Process turns off and waits 
+  until the $Batch Total Reset$ occurs.  If the $Internal$ reset is
+  selected, this occurs at the end of $Gatetime$ for Rate Batch or
+  at the end of $Timeout$ for VF Batch.  If the $External$ reset is
+  selected, the $Batch Total Reset$ occurs when a low true reset 
+  pulse is applied to the selected External Gate input.
+
+  This selection is:
+    $Internal$ - Resets at the end of $Gatetime$ for Rate Batch or
+                 at the end of $Timeout$ for VF Batch.
+    $External$ - Resets when a low true reset pulse is applied to
+                 the selected External Gate input.
+
+  For more information on Batch operation, select $Help$ from the 
+  Main Menu and click on either $Rate Batch$ or $V-F Batch$.
+
+  
+                                     $BATCH  ITEM 2$
+  A Batch cycle is initiated when Relay #1 activates.  The $Batch
+  Total$ starts accumulating and when the End-of-Batch Total is
+  reached, Relay #1 de-activates for a period of time equal to the 
+  $GateTime$ setting.  At the end of $GateTime$, the $Batch Total 
+  Reset$ occurs, Relay #1 activates and the cycle repeats.
+
+  The $Batch Total$ is displayed as $Item 1$ and may be configured
+  to:
+    Count Up from 0 to the Preset value, or
+    Count Down from the Preset value to 0
+  where the Preset value is entered in $Offset 1$ for Rate Batch or
+  $Setpt1$ for VF Batch.
+
+  $Item 2$ is the $Grand Total$ or the sum of the previous $Batch
+  Totals$ plus the current $Batch Total$.  For Rate Batch, $Scale 1$ 
+  and $Decimal Pt 1$ apply to both the $Batch Total$ and the $Grand 
+  Total$ and $Resolution$ to the $Grand Total$ which always increases 
+  even though the $Batch Total$ may be counting down.  For VF Batch, 
+  $Scale2$ and $Offset2$ apply instead of $Scale1$ and $Offset1$.
+  As an alternative, $Item 2$ can be selected to be the $Number of
+  Batches$ instead of the $Grand Total$.  
+
+  The selection is:
+    $Grand Total$ - $Item 2$ is the $Grand Total$
+    $# Batches$   - $Item 2$ displays the number of completed Batches.
+
+  For more information on Batch operation, select $Help$ from the 
+  Main Menu and click on either $Rate Batch$ or $V-F Batch$.
+                                        $BATCH  START$
+
+  When the Counter is Reset in the $Batch$ Mode, it performs it's
+  Reset procedure and then displays $"rEAdy"$.  It waits until the
+  Reset button is pushed and then immediately activates Relay #1
+  and starts displaying the $Batch Total$.  This is the beginning
+  of the first Batch cycle.
+
+  As an alternative, a $Batch Start$ selection can cause the first 
+  Batch cycle to begin immediately at the conclusion of the Counter
+  Reset procedure without displaying "rEAdy" and waiting for the
+  Reset button to be pushed.
+    $"rEAdy"$ - When the Counter is Reset in $Batch$ Mode, "rEAdy" is
+                displayed and the Reset button must be pushed to start
+                the Batch cycles.
+    $Start Immed.$ - When the Counter is Reset, the Batch cycles start
+                     immediately.
+  
+  For more information on Batch operation, select $Help$ from the 
+  Main Menu and click on either $Rate Batch$ or $V-F Batch$.
+
+                                              $BATCH COUNT$
+  
+  This selection is only available for $Rate Batch$.  It combines the
+  Digit 5 and 6 selections for the $bAtCH$ menu item of the Counter
+  Front Panel.  This selection provides any combination of the following 
+  three choices:
+     1. $Up$ or $Down$ counting of the Batch Total.
+     2. Stopping the Batch Total when it reaches its $Preset$ value or
+          allowing $All$ input to be accumulated in the Batch Total,
+          even when the Batch is Off.
+     3. Including only the $Preset$ value in the Grand Total, each 
+          Batch, or allowing $All$ input accumulated in the Batch Total
+          to be included in the Grand Total.
+  
+  The choices are listed in the same order as above.
+     Count Direction   Batch Total   Grand Total
+     ---------------------    ---------------    ----------------  
+          $Up/Down           Preset/All     Preset/All$
+  
+  For example, the choice $Dn,All,Preset$ would provide Counting Down,
+  using All input for the Batch Total but only the Preset value for the
+  Grand Total.
+
+  In $Rate Batch$, the $Preset$ value is entered in $Offset 1$ and Batch
+  Total either counts $Up$ from 0 to the $Preset$ value or $Down$ from
+  the $Preset$ value to 0.
+
+  For more information on Batch operation, select $Help$ from the 
+  Main Menu and click on either $Rate Batch$ or $V-F Batch$.
+     
+                                  $EXTERNAL BATCH RESET$
+
+  When the Counter is Reset in the $Batch$ Mode, it performs it's
+  Reset procedure and then either,
+    (1) displays $"rEAdy"$ and waits until the Reset button is 
+        pushed to start the $Batch$ process, or
+    (2) starts the $Batch$ process immediately.
+  Relay #1 activates to start the $Batch$ process and the display
+  of the $Batch Total$.  When the End-of-Batch Total is reached, 
+  Relay #1 de-activates, either
+    (1) for a period of time equal to the $GateTime$ setting, or
+    (2) until the $External Batch Reset$ is applied by grounding
+        the external input named $External Gate$.
+  Then Relay #1 again activates and the cycle repeats.
+
+  For this selection, 
+    If the checkbox $is not$ checked:
+       Relay #1 is de-activated for a period of time equel to the
+       $GateTime$ setting.
+    If the checkbox $is$ checked:
+       Relay #1 is de-activated until the $External Batch Reset$
+       is applied by grounding the $External Gate$ input.
+  
+                                     $SQUARE ROOT$
+
+  When the $Square Root$ checkbox is checked, the $Item$ that 
+  contains the checkbox, has the square root of its value displayed
+  instead of a linear representation.  For example, if the value
+  displayed $without$ the checkbox selected is 10,000, then the 
+  value $with$ the checkbox selected is 100.
+
+  If the Custom Curve is selected, the Square Root is disabled.
+
+  For the Arithmetic items A+b, A-b, A.b, A/b, A/b-1, the square
+  root applies to both A and b separately, but not to the result.
+  For example, if the square root box is checked and the function
+  is A+b, then Item 1 is the square root of A plus the square root
+  of b and Item 2 is the square root of A and Item 3 is the square
+  root of b.
+
+  If the function is A,b the square root applies to both A and b.
+
+  If the function is A_Atot or Atot_A, the square root applies to A 
+  and the total is the square root of A multiplied by time in seconds.
+ 
+                                         $PULSES$
+
+  Most Quadrature Encoders have an output called the $Zero Index$
+  that provides an output pulse, once per revolution.  This signal
+  may be used to provide a correction to the Quadrature Total if
+  an error has been introduced by noise.  When a Quadrature board 
+  is installed as the Signal Conditioner, this feature may be 
+  enabled or disabled by the placement of a jumper on the board.
+
+  If the $Zero Index$ is enabled, then each time this signal is 
+  created, the Quadrature Total should be an exact multiple of the 
+  number of counts generated per revolution of the encoder.  If it 
+  isn't, the Counter changes the Total to closest multiple.  The
+  counts per revolution are entered into the Counter via the Setup
+  item, $Pulses$.  From 0 to 59,999 may be entered.  If X2 or X4
+  counting is enabled by jumpers on the Quadrature board, then the
+  value entered into $Pulses$ should be the counts (or cycles) per
+  revolution of the encoder multiplied by this factor of X2 or X4.
+  Also, if $SCALE1$ is a factor other than 1, include it as a
+  multiplying factor when determining the value of $Pulses$ to
+  enter.  DO NOT include the value of $OFFSET1$.
+
+  For example, if the encoder produces 256 cycles per revolution
+  and X2 counting is selected with SCALE1 = 3 and OFFSET1 = 100, 
+  then $Pulses$ = 256 * 2 * 3 = 1536. 
+                                  $TIME UNITS, TOTAL$
+  
+  The following is the $Function$ list for the $V-F Converter$ Input
+  Option.  It applies to each of the Modes, $4-20 mA$, $0-1 mA$ and
+  $0-10 V$.
+
+  $A OnLy$    is   Rate A only.
+  $_bAtCH$    is   Batch control.  (Batch Total = Rate A sample X time).
+  $A_Atot$     is   Rate A and Total A (Rate A sample X time).
+  $Atot_A$     is   Total A (Rate A sample X time) and Rate A.
+  $__1/A_$    is   Reciprocal of Rate A.
+
+  $Rate A$ is calculated using calibration constants for the V-F board 
+  installed.  The 2nd to 4th $Functions$ above contain a $Total$ value.
+  The $Total A$ cannot be obtained by counting the A cycles but must be
+  calculated by multiplying the $Rate A$ calculation by the time 
+  interval between the previous reading and the subsequent reading.  
+  The $Total A$ is the accumulation, or sum, of these products.  The
+  resolution of the $Total$ can be selected by choosing the $time units$
+  used in the $Total$ calculation.  The choices are $Seconds$, $Minutes$
+  or $Hours$.  For example, if a transducer connected to the V-F Option
+  board converts pounds of force to current, then $Rate A$ can be 
+  scaled to represent $Pounds$ and then $Total A$ would represent
+  $Pound-Seconds$ if the $Time Units$ selected were $Seconds$.
+
+ 
+       
+        
+                                   $BASIC VS EXTENDED$
+
+  If a Counter is purchased as a $BASIC$ counter, it cannot be used
+  in the $EXTENDED$ format, but a Counter purchased as an $EXTENDED$
+  Counter may be used as either a $BASIC$ or an $EXTENDED$ Counter.
+  This application program will allow either to be selected, even 
+  though Communications has been established with a $BASIC$ counter.  
+  However, if the Setup data is transferred to the $BASIC$ Counter, 
+  it will ignore all data that pertains to the $EXTENDED$ operation 
+  and will continue to function only as a $BASIC$ counter.
+
+  The difference between these two formats is that the $EXTENDED$
+  Counter has all of the capabilities designed into the Counter while
+  the $BASIC$ Counter is limited to the following $MODES$ and 
+  $FUNCTIONS$.
+                       $BASIC COUNTER$
+
+     $SIGNAL CONDITIONER$      $MODE$       $FUNCTION$
+      ------------------------------   ----------------    ----------------
+      Dual Channel                  Rate                 A, B
+                                                                 A Only
+                                          Period              A, B
+                                                                 A Only
+                                          Total                A, B
+                                                                 A Only
+                                          Time Interval     A to B 
+                                          Stopwatch         A to A
+                                                                    A to B        
+      VF Converter                     VF 4-20 mA     A Only
+                                             VF  0-1 mA      A Only
+                                             VF 0-10 V        A Only
+      Quadrature                        Quadrature     Total
+
+
+  In the $Rate Batch$ mode, the use of
+           $Scale$ and $Offset$
+           $Setpoints 1, 2$
+           $Gatetime$, $Timeout$
+  requires additional space for documentation.
+
+  Select $Help$ from the Main Menu and click on $Rate Batch$.
+
+
+
+  In the $V-F Batch$ mode, the use of
+           $Scale$ and $Offset$
+           $Setpoints 1, 2$
+           $Gatetime$, $Timeout$
+  requires additional space for documentation.
+
+  Refer to $VFBATCH.DOC$ for a complete explanation of these parameters.
+
+                   $PRESET$
+
+  $PRESET$ is a signed 6-digit value with the System Decimal Point 
+  assigned to it.  It is available in three Input modes:
+      $Total A_b Ud$
+      $Total A-B Ud$
+      $Quadrature Total$
+  For all non-zero values of Preset, the readings will rise to one
+  less than the Preset value and then, on the next count, will read
+  zero and start over.  The Preset value may be either positive or
+  negative.  If the Preset value is 0, this feature is disabled
+  and the count continues without going to 0 and starting over.
+  The Preset value is stored in the meter in place of Offset 2.
+
+  
+                                  $PEAK BUTTON ACTION$
+
+  The $PEAK$ button can be configured to display, as a flashing
+  value, one of the following selections when it is pushed in the
+  normal $RUN$ display mode.
+
+    $DISPLAYS PEAK$ 
+           Pushed once, the meter displays the most positive value 
+           received since the Meter or the Peak value was last Reset.  
+           It will update if a more positive value is received while 
+           it is displaying the Peak.
+           Pushed again, the meter reverts to the normal $RUN$ mode.
+
+    $DISPLAYS VALLEY$ 
+           Same as above only it displays the most negative value.
+   
+    $PEAK THEN VALLEY$ 
+           Pushed once, the meter displays the $PEAK$ value.
+           Pushed again, the meter displays the $VALLEY$ value.
+           Pushed again, the meter reverts to the normal $RUN$ mode.
+                  $"rd0 In"  Read Zero Input$
+
+  This is a signed 6-digit value with a fixed
+  Decimal Point to reflect the input range.
+  It is available only when using Square Root or 
+  the Custom Curve.  It is used as an offset
+  to the curve for calibrating the output of a 
+  transducer at the low end of the range.
+ 
+
+                                           $PRESET$
+
+  In certain applications, like determining the position of a
+  rotating drum, it is desirable to reset the counter to zero
+  and start over after reaching a $Preset$ number.  That 
+  capability is available in the following modes:
+    Dual Signal Conditioner - Total A-B ud and Total A Bu/d
+    Quadrature Signal Conditioner - Total
+  In these modes the Counter will count up to the user-entered
+  $Preset$ value and then reset to zero and continue counting up,
+  never exceeding the $Preset$ value.
+
+  This $Preset$ feature may be disabled by setting the $Preset$
+  value to 0.
+                                           $CUTOFF$
+
+  The $Cutoff$ parameter is only available with the $Voltage-
+  to-Frequency$ signal conditioner operating on any of its
+  ranges in the $Batch$ or $A_Atot$ modes.  The purpose is to
+  ensure that the measured Rate is 0 for any readings below
+  (more negative than) the user-entered $Cutoff$ value so 
+  that no counts are added to the Total while the input is 
+  near zero but drifting around slightly.  The $Cutoff$ 
+  parameter is always a positive or zero value with Decimal
+  Point 1.
+
+  This feature can be disabled, and the measured Rate always
+  accepted for applying to the Total, by either setting 
+  $Cutoff Enable$ to $Disable$ and $Put$ting the Setup data
+  back to the Counter OR setting $ConFiG$, Digit 6 to a "1" 
+  using the Front Panel Menu of the Counter.  A "0" enables
+  the feature.
+
+

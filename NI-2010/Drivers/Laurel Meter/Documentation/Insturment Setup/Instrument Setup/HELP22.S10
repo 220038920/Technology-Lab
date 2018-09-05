@@ -1,0 +1,1598 @@
+                   $"InPut"  Input Type$
+  The Input Type is determined by the selection of
+  Mode & Function.  The available selection depends
+  on the Input option board installed.
+
+ 
+                   $" SEtuP"  Setup$
+  $Digit 2    "Power-On Total"$
+    0 = Zero Totals with Meter or Power-on Reset
+    1 = Restore saved Totals with Meter or Power-on Reset
+  $Digit 3    "Leading Zeros"$
+    0 = Blank all leading zeros
+    1 = Display all leading zeros
+  $Digit 4    "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+  $Digit 5    "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 2, Offset 2 for scaling
+    1 = Enter Lo In 2, Lo Rd 2, Hi In 2, Hi Rd 2 for scaling
+  $Digit 6   Control Inputs$
+   Control Input A       B                 Control Input A             B         
+    0 =Meter Reset  Funct Reset    A =Meter Reset     Display Blank        
+    1 =Meter Reset  Hold                 B =Funct Reset     Display Blank   
+    2 =Meter Reset  Peak Dsplay   C =Hold                  Display Blank      
+    3 =Meter Reset  Extrnl Gate      D =Peak                 Display Blank 
+    4 =Funct Reset  Hold                 E =Display Blank  Ext. Gate
+    5 =Funct Reset  Peak Dsplay   F =Dsply Item2     Dsply Item3
+    6 =Funct Reset  Extrnl Gate          (neither is Display Item 1)   
+    7 =Hold               Peak Dsplay   
+    8 =Hold               Extrnl Gate   
+    9 =Peak Dsply   Extrnl Gate       
+                  $"ConFiG"  Configuration$
+  $Digit 3    "Type"$
+    0 = Normal Display, exponential overload
+    1 = Normal Display, flashing 999999 overload
+    2 = 1 Right-hand dummy zero
+    3 = 2 Right-hand dummy zeros
+    4 = Multi-format Clock Time
+    5 = Fixed format Clock Time  hh.mm,ss
+    6 = Remote Display (Uses Addressable Command)
+    7 = Remote Display (Single Item value)
+    8 = Slave Remote Display - 1st Item in string
+    9 = Slave Remote Display - 2nd Item in string
+    A = Slave Remote Display - 3rd Item in string
+    B = Slave Remote Display - 4th Item in string
+    C = Remote Display custom format (Start, Stop, Skip, Show)
+  $Digit 4    "Basic/Extended"$
+    0 = Basic Counter
+    1 = Extended Counter (1-3 selectable only for extended counter)
+    2 = Extended, Custom Curve #1
+    3 = Extended, Custom Curve #2 (Only available with VF Sig Cond)
+  $Digit 5     "Square Root"$ 
+    0 = Linear Display of Item value
+    1 = Square Root of Item value, if available  
+  $Digit 6     "Neg Samples"$
+    0 = Negative samples are excluded from sample-time totals.
+    1 = Negative samples are included in sample-time totals.
+
+  
+      $"dSPyno"    Display Item No.$
+
+  $Digit 6     "Display Item #"$
+  The $Display Item No.$ is the Item Number that the Display
+  shows at the end of Counter Reset.  It is normally Item 1,
+  but it can be selected to be Item 2 or Item 3 if those are
+  valid displayable items for the selected Mode and Function.
+    0 = Not valid
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+  $Digit 5     "Peak Button Action"$
+  The $PEAK$ button can be configured to display, as a flashing
+  value, one of the following selections when it is pushed in the
+  normal $RUN$ display mode.
+    0 = $DISPLAYS PEAK$ 
+           Pushed once, the meter displays the most positive value 
+           received since the Meter or the Peak value was last Reset.  
+           It will update if a more positive value is received while 
+           it is displaying the Peak.
+           Pushed again, the meter reverts to the normal $RUN$ mode.
+    1 = $DISPLAYS VALLEY$ 
+           Same as above only it displays the most negative value.
+    2 = $PEAK THEN VALLEY$ 
+           Pushed once, the meter displays the $PEAK$ value.
+           Pushed again, the meter displays the $VALLEY$ value.
+           Pushed again, the meter reverts to the normal $RUN$ mode.
+  This Item may be Pulses per Rev or Cutoff
+
+  $"PULSES"    Pulses per Rev$
+  Pulses per revolution of Quadrature encoder
+  Value always positive with no decimal point.
+  Minimum value = 00000
+  Maximum value = 59999
+
+  $"CutoFF"   Cutoff$ 
+  The selected Mode & Function create a Total value
+  based on the input signal either by totalizing the
+  input pulses (Mode = Rate) or by multiplying the
+  input signal by elapsed time (Mode = V to F).
+  In either case, it may be desirable to not increase
+  the total for input signals below a "Cutoff" value
+  that might be due to noise or offset.  This Cutoff
+  value is the meter's Rate reading below which the
+  Total is not affected.  The value is always 
+  positive and if it is 0, there is no Cutoff value
+  in effect.
+                   $"GAtE t"  Gate Time$
+  Gate Time is 5 digits with Decimal Point 3  XXX.XX
+  Gate Time is in seconds (resolution is 10 mS)
+  Value is always positive
+  Minimum value is 000.01 secs
+  Maximum value is 199.99 secs
+                   $"ti Out"  Timeout$
+  Timeout is 5 digits with Decimal Point 3  XXX.XX
+  Timeout is in seconds (resolution is 10 mS)
+  Value is always positive
+  Minimum value is 000.01 secs
+  Maximum value is 199.99 secs
+  Timeout is normally set to the length of time the user 
+    would like to wait for the input signal to appear
+    before displaying a "0" value to signify no input.
+
+                    $"bAtCH"   Batch$
+  $Digits 2 & 3$ apply to $Rate Batch$ only.  Although $Digits 2 & 3$
+    are selectable from the front panel in $V-F Batch$, they are
+    disregarded by the Meter program.  Regardless of these settings,
+    $V-F Batch$ uses Batch Total All, Grand Total All and the count
+    direction is determined by the sign of $SCALE2$.
+  $Digit 2    "Batch Count"$
+    0 = Batch Total Preset, Grand Total Preset
+    1 = Batch Total All, Grand Total Preset
+    2 = Batch Total Preset, Grand Total All
+    3 = Batch Total All, Grand Total All
+  $Digit 3    "Batch Count"$
+    0 = Reset to zero and count up to OFFSET 1
+    1 = Reset to OFFSET 1 and count down to zero
+  $Digit 4    "Batch Reset"$
+    0 = Use Gate Time (Timeout for VF) to reset
+    1 = Use External Function reset
+  $Digit 5    "Batch Item 2"$
+    0 = Item #2 is Grand Total of Batch totals
+    1 = Item #2 is Total number of Batches completed
+  $Digit 6    "Batch Start"$
+    0 = Display "rEAdy" after Reset until Reset pressed
+    1 = Start Batch immediately after Reset
+    
+                  $"FILtEr"   Filter$
+  $Digit 2    "Type"$
+    0 = Adaptive Filter
+    1 = Conventional Filter
+  $Digit 3    "Peak Value"$
+    0 = Peak, Valley value of unfiltered signal maintained
+    1 = Peak, Valley value of filtered signal maintained
+  $Digit 4    "Value"$
+    0 = Display value of unfiltered signal
+    1 = Display value of filtered signal
+  $Digit 5    "Threshold"$
+    0 = Low adaptive threshold
+    1 = High adaptive threshold
+  $Digit 6    "Time Constant"$
+    0 = No Filter
+    1 = 0.1 secs
+    2 = 0.2 secs
+    3 = 0.4 secs
+    4 = 0.8 secs
+    5 = 1.6 secs
+    6 = 3.2 secs
+    7 = 6.4 secs
+
+                 $"SLOPE"   Trigger Slope$
+  $Digit 5    "Trigger Slope A"$
+    0 = Positive Trigger Slope A
+    1 = Negative Trigger Slope A
+  $Digit 6    "Trigger Slope B"$
+    0 = Positive Trigger Slope B
+    1 = Negative Trigger Slope B
+              $"dEC.Pt1"   Decimal Point 1$
+    111111.
+    11111.1
+    1111.11
+    111.111
+    11.1111
+    1.11111
+
+ 
+              $"dEC.Pt2"   Decimal Point 2$
+    222222.
+    22222.2
+    2222.22
+    222.222
+    22.2222
+    2.22222
+
+ 
+                   $"SCALE1"    Scale 1$ 
+
+  The Scale factor consists of a value between
+  0.00000 and 9.99999 plus a multiplier between 
+  0.00001 and 100000 in decade steps as shown in the
+  grid box to the right of the value on the same row.  
+
+  On the menu of the counter itself, the multiplier 
+  is displayed when attempting to select a digit 
+  to the right of the most right-hand digit.
+                   $"OFFSt1"   OFFSET 1$
+
+  The Offset is a signed 6-digit value with the correct
+  System Decimal Point assigned to it, usually Decimal
+  Point #1.
+                  $"Lo In1"  Low Input 1$
+
+  This is a signed 6-digit value with a selectable
+  Decimal Point to reflect the input units of
+  measurement.
+
+                 $"Lo rd1"   Low Read 1$
+
+  The Low Read 1 is a signed 6-digit value with the 
+  correct System Decimal Point assigned to it, usually 
+  Decimal Point #1.
+
+                  $"Hi In1"  High Input 1$
+
+  This is a signed 6-digit value with a selectable
+  Decimal Point to reflect the input units of
+  measurement.
+
+                 $"Hi rd1"   High Read 1$
+
+  The High Read 1 is a signed 6-digit value with the 
+  correct System Decimal Point assigned to it, usually 
+  Decimal Point #1.
+
+                   $"SCALE2"    Scale 2$ 
+
+  The Scale factor consists of a value between
+  0.00000 and 9.99999 plus a multiplier between 
+  0.00001 and 100000 in decade steps as shown in the
+  grid box to the right of the value on the same row.  
+
+  On the menu of the counter itself, the multiplier 
+  is displayed when attempting to select a digit 
+  to the right of the most right-hand digit.
+                   $"OFFSt2"   OFFSET 2$
+
+  The Offset 2 is a signed 6-digit value with the 
+  correct System Decimal Point assigned to it, usually 
+  Decimal Point #2.
+                  $"Lo In2"  Low Input 2$
+
+  This is a signed 6-digit value with a selectable
+  Decimal Point to reflect the input units of
+  measurement.
+
+                 $"Lo rd2"   Low Read 2$
+
+  The Low Read 2 is a signed 6-digit value with the 
+  correct System Decimal Point assigned to it, usually 
+  Decimal Point #2.
+
+                  $"Hi In2"  High Input 2$
+
+  This is a signed 6-digit value with a selectable
+  Decimal Point to reflect the input units of
+  measurement.
+
+                 $"Hi rd2"   High Read 2$
+
+  The High Read 2 is a signed 6-digit value with the 
+  correct System Decimal Point assigned to it, usually 
+  Decimal Point #2.
+
+                  $"rd0 In"  Read Zero Input$
+
+  This is a signed 6-digit value with a fixed
+  Decimal Point to reflect the input range.
+  It is available only when using Square Root or 
+  the Custom Curve.  It is used as an offset
+  to the curve for calibrating the output of a 
+  transducer at the low end of the range.
+ 
+
+
+                   $"rESoLn"  Resolution$  
+       For the Dual Signal Conditioner, the Resolution is the 
+       multiplier applied to the result of the arithmetic functions
+       A+B, A-B, A*B, A/B and A/B-1.  The Resolution is the 
+       multiplier applied to the Grand Total in both the Rate
+       and V-F Batch functions.
+
+       The choice of values are:
+
+          0.00001
+          0.00010
+          0.00100
+          0.01000
+          0.10000
+          1.00000
+          10.0000
+          100.000
+          1000.00
+          10000.0
+          100000.
+
+  
+                     $"SourcE"   Source$
+
+  The following are the Source Items for comparison with 
+  Setpoint X to determine the Alarm X state.
+  $Digit 3    "Source 1"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+
+  $Digit 4    "Source 2"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+
+  The following two Sources only appear when a 4-Relay
+  Board is installed.
+
+  $Digit 5   "Source 3"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+
+  $Digit 6   "Source 4"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+                  $"AL SEt"  ALARM SETUP$
+  $Digit 2    "Relay 1 Alrm State" "Relay 2 Alrm State"$
+    0 = Relay 1 Energized, Relay 2 Energized  in Alarm state
+    1 = Relay 1 De-Energized, Relay 2 Energized   in Alarm state
+    2 = Relay 1 Energized, Relay 2 De-Energized   in Alarm state
+    3 = Relay 1 De-Energized, Relay 2 De-Energized   in Alarm state
+  $Digit 3    "Alarm1Type" "Alarm2Type"$
+    0 = Relay 1 Non-Latching, Relay 2 Non-Latching
+    1 = Relay 1 Latching, Relay 2 Non-Latching
+    2 = Relay 1 Non-Latching, Relay 2 Latching
+    3 = Relay 1 Latching, Relay 2 Latching
+  $Digit 4    "State1" "State2"$
+    0 = Alarm 1 High Active,   Alarm 2 High Active
+    1 = Alarm 1 Low Active,    Alarm 2 High Active
+    2 = Alarm 1 Disabled,      Alarm 2 High Active
+    3 = Alarm 1 High Active,   Alarm 2 Low Active
+    4 = Alarm 1 Low Active,    Alarm 2 Low Active
+    5 = Alarm 1 Disabled,       Alarm 2 Low Active
+    6 = Alarm 1 High Active,   Alarm 2 Disabled
+    7 = Alarm 1 Low Active,    Alarm 2 Disabled
+    8 = Alarm 1 Disabled,       Alarm 2 Disabled
+  $Digit 5    "Deviation 1 Type 1","2 Type"$
+    0 = Deviation 1 Type  Band, Deviation 2 Type Band
+    1 = Deviation 1 Type  Hysteresis, Deviation 2 Type Band
+    2 = Deviation 1 Type Band, Deviation 2 Type Hysteresis
+    3 = Deviation 1 Type Hysteresis, Deviation 2 Type Hysteresis
+    4 = No Deviation or Hysteresis Menu Items
+  $Digit 6   "No. Rdgs to Alarm"$
+    0 =1  1 =2  3 =8  4 =16  5 =32  6 =64  7 =128 readings
+
+
+                  $"AL S34"  ALARM SETUP$
+  $Digit 2    "Relay 3 Alrm State" "Relay 4 Alrm State"$
+    0 = Relay 3 Energized, Relay 4 Energized  in Alarm state
+    1 = Relay 3 De-Energized, Relay 4 Energized   in Alarm state
+    2 = Relay 3 Energized, Relay 4 De-Energized   in Alarm state
+    3 = Relay 3 De-Energized, Relay 4 De-Energized   in Alarm state
+  $Digit 3    "Alarm3Type" "Alarm4Type"$
+    0 = Relay 3 Non-Latching, Relay 4 Non-Latching
+    1 = Relay 3 Latching, Relay 4 Non-Latching
+    2 = Relay 3 Non-Latching, Relay 4 Latching
+    3 = Relay 3 Latching, Relay 4 Latching
+  $Digit 4    "State3" "State4"$
+    0 = Alarm 3 High Active,   Alarm 4 High Active
+    1 = Alarm 3 Low Active,    Alarm 4 High Active
+    2 = Alarm 3 Disabled,      Alarm 4 High Active
+    3 = Alarm 3 High Active,   Alarm 4 Low Active
+    4 = Alarm 3 Low Active,    Alarm 4 Low Active
+    5 = Alarm 3 Disabled,       Alarm 4 Low Active
+    6 = Alarm 3 High Active,   Alarm 4 Disabled
+    7 = Alarm 3 Low Active,    Alarm 4 Disabled
+    8 = Alarm 3 Disabled,       Alarm 4 Disabled
+  $Digit 5    "Deviation 3 Type","4 Type"$
+    0 = Deviation 3 Type  Band, Deviation 4 Type Band
+    1 = Deviation 3 Type  Hysteresis, Deviation 4 Type Band
+    2 = Deviation 3 Type Band, Deviation 4 Type Hysteresis
+    3 = Deviation 3 Type Hysteresis, Deviation 4 Type Hysteresis
+  $Digit 6    "No. Rdgs to Alarm 3,4"$
+    0 =1  1 =2  3 =8  4 =16  5 =32  6 =64  7 =128 readings
+
+
+                 $"dEUn1x"   DEVIATION 1$
+
+  The Deviation 1 is a positive 6-digit value with the System 
+  Decimal Point assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+    an alarm band is created that is equal to the Setpoint #1 value 
+    plus and minus the deviation value.  
+    If an Active High Alarm #1 is selected, the Alarm will
+    be active for readings outside the alarm band, that is, 
+    readings above Setpoint #1 + Deviation or below Setpoint #1 -
+    Deviation.  The alarm will not be active for readings within
+    the alarm band.  
+    If an Active Low Alarm #1 is selected, the Alarm will be active
+    for readings within the alarm band, that is, readings below
+    Setpoint #1 + Deviation and above Setpoint #1 - Deviation.  The
+    alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+    the Setpoint + the Deviation creates the high threshold, and the
+    Setpoint - the Deviation creates the low threshold.  
+    If an Active High Alarm #1 is selected, the Alarm will be active
+    for readings above the high threshold and will remain active
+    until the readings fall below the low threshold.
+    If an Active Low Alarm #1 is selected, the Alarm will be active
+    for readings below the low threshold and will remain active
+    until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"dEUn2x"   DEVIATION 2$
+
+  The Deviation 2 is a positive 6-digit value with the System 
+  Decimal Point assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+    an alarm band is created that is equal to the Setpoint #2 value 
+    plus and minus the deviation value.  
+    If an Active High Alarm #2 is selected, the Alarm will
+    be active for readings outside the alarm band, that is, 
+    readings above Setpoint #2 + Deviation or below Setpoint #2 -
+    Deviation.  The alarm will not be active for readings within
+    the alarm band.  
+    If an Active Low Alarm #2 is selected, the Alarm will be active
+    for readings within the alarm band, that is, readings below
+    Setpoint #2 + Deviation and above Setpoint #2 - Deviation.  The
+    alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+    the Setpoint + the Deviation creates the high threshold, and the
+    Setpoint - the Deviation creates the low threshold.  
+    If an Active High Alarm #2 is selected, the Alarm will be active
+    for readings above the high threshold and will remain active
+    until the readings fall below the low threshold.
+    If an Active Low Alarm #2 is selected, the Alarm will be active
+    for readings below the low threshold and will remain active
+    until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"dEUnx"   DEVIATION 3$
+
+  The Deviation 3 is a positive 6-digit value with the System 
+  Decimal Point assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+    an alarm band is created that is equal to the Setpoint #3 value 
+    plus and minus the deviation value.  
+    If an Active High Alarm #3 is selected, the Alarm will
+    be active for readings outside the alarm band, that is, 
+    readings above Setpoint #3 + Deviation or below Setpoint #3 -
+    Deviation.  The alarm will not be active for readings within
+    the alarm band.  
+    If an Active Low Alarm #3 is selected, the Alarm will be active
+    for readings within the alarm band, that is, readings below
+    Setpoint #3 + Deviation and above Setpoint #3 - Deviation.  The
+    alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+    the Setpoint + the Deviation creates the high threshold, and the
+    Setpoint - the Deviation creates the low threshold.  
+    If an Active High Alarm #3 is selected, the Alarm will be active
+    for readings above the high threshold and will remain active
+    until the readings fall below the low threshold.
+    If an Active Low Alarm #3 is selected, the Alarm will be active
+    for readings below the low threshold and will remain active
+    until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"dEUn4x"   DEVIATION 4$
+
+  The Deviation 4 is a positive 6-digit value with the System 
+  Decimal Point assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+    an alarm band is created that is equal to the Setpoint #4 value 
+    plus and minus the deviation value.  
+    If an Active High Alarm #4 is selected, the Alarm will
+    be active for readings outside the alarm band, that is, 
+    readings above Setpoint #4 + Deviation or below Setpoint #4 -
+    Deviation.  The alarm will not be active for readings within
+    the alarm band.  
+    If an Active Low Alarm #4 is selected, the Alarm will be active
+    for readings within the alarm band, that is, readings below
+    Setpoint #4 + Deviation and above Setpoint #4 - Deviation.  The
+    alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+    the Setpoint + the Deviation creates the high threshold, and the
+    Setpoint - the Deviation creates the low threshold.  
+    If an Active High Alarm #4 is selected, the Alarm will be active
+    for readings above the high threshold and will remain active
+    until the readings fall below the low threshold.
+    If an Active Low Alarm #4 is selected, the Alarm will be active
+    for readings below the low threshold and will remain active
+    until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"An SEt"   ANALOG SETUP$
+
+  This is for the $Single Analog Output$
+  $Digit 5  ANALOG CIRCUIT "Analog Circuit"$
+    0 = Analog $current$ 0-20 mA output
+    1 = Analog $voltage$ 0-10 V output
+    2 = Analog $current$ 4-20 mA output
+    3 = Analog $voltage$ -10 V to +10 V
+  The following is the Source Item for the Analog Output 
+  $Digit 6  ANALOG SOURCE "Analog Source"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+  
+  For the $Dual Analog Output$ option, the above applies
+  to $Analog Output #1$ except value 3 (bipolar voltage) is
+  not available.  The following applies to $Analog Output #2$. 
+  $Digit 3  ANALOG CIRCUIT "Analog Circuit"$
+    0 = Analog $current$ 0-20 mA output
+    1 = Analog $voltage$ 0-10 V output
+    2 = Analog $current$ 4-20 mA output
+  The following is the Source Item for the Analog Output 
+  $Digit 4  ANALOG SOURCE "Analog Source"$
+    0 = Filtered Item
+    1 = Item 1
+    2 = Item 2
+    3 = Item 3
+                  $"An Lo"   ANALOG LOW$
+
+  Analog Low is the display reading that corresponds to
+  the low end of the Analog output range, 0 mA, 4 mA, 
+  0 V or -10V.  It is a signed 6-digit value with the correct 
+  System Decimal Point assigned to it that corresponds 
+  to the System Decimal Point for the selected Source Item.
+
+                  $"An Hi"   ANALOG HIGH$
+
+  Analog High is the display reading that corresponds to
+  the high end of the Analog output range, 20 mA or 10 V. 
+  It is a signed 6-digit value with the correct System 
+  Decimal Point assigned to it that corresponds to the
+  System Decimal Point for the selected Source Item.
+
+
+                  $"An Lo 2"   ANALOG LOW 2$
+
+  Analog Low 2 is the display reading that corresponds to
+  the low end of the Analog output range, 0 mA, 4 mA or 
+  0 V.  It is a signed 6-digit value with the correct 
+  System Decimal Point assigned to it that corresponds 
+  to the System Decimal Point for the selected Source Item.
+
+                  $"An Hi 2"   ANALOG HIGH 2$
+
+  Analog High 2 is the display reading that corresponds to
+  the high end of the Analog output range, 20 mA or 10 V. 
+  It is a signed 6-digit value with the correct System 
+  Decimal Point assigned to it that corresponds to the
+  System Decimal Point for the selected Source Item.
+
+
+             $"Ser 1"  SERIAL CONFIGURATION 1$
+  $Digit 4   "Output Value"$
+    0 = Output source is unfiltered Item
+    1 = Output source is filtered Item
+  $Digit 5  SETUP Page 3  SERIAL COMM "Baud Rate"$
+    0 =   300 Baud
+    1 =   600 Baud
+    2 =  1200 Baud
+    3 =  2400 Baud
+    4 =  4800 Baud
+    5 =  9600 Baud
+    6 = 19200 Baud
+  $Digit 6   "Output Rate"$
+    0 = Reading Rate
+    1 = Reading Rate/2
+    2 = Reading Rate/4
+    3 = Reading Rate/8
+    4 = Reading Rate/16
+    5 = Reading Rate/32
+    6 = Reading Rate/64
+    7 = Reading Rate/128
+    8 = Reading Rate/256
+
+             $"Ser 2"  SERIAL CONFIGURATION 2$
+  $Digit 3   "Include LF"$
+    0 = No Line Feed character
+    1 = Line Feed character following CR
+  $Digit 4   "Incl Alarm Data"$
+    0 = No alarm data provided with output transmission
+    1 = Alarm data provided with output transmission
+  $Digit 5   "Mode"$
+    0 = Continuous output transmission Mode
+    1 = Command Mode
+  $Digit 6   "Address"$ (Custom ASCII)
+    0 = Address  0    B = Address 11    6.= Address 22
+    1 = Address  1    C = Address 12    7.= Address 23
+    2 = Address  2    D = Address 13    8.= Address 24
+    3 = Address  3    E = Address 14    9.= Address 25
+    4 = Address  4    F = Address 15    A.= Address 26
+    5 = Address  5    0.= Address 16    B.= Address 27
+    6 = Address  6    1.= Address 17    C.= Address 28
+    7 = Address  7    2.= Address 18    D.= Address 29
+    8 = Address  8    3.= Address 19    E.= Address 30
+    9 = Address  9    4.= Address 20    F.= Address 31
+    A = Address 10   5.= Address 21
+
+
+
+             $"Ser 3"  SERIAL CONFIGURATION 3$
+  $Digit 2   "Duplex"$
+    0 = Full duplex
+    1 = Half duplex (30 mS delay before Response to Command)
+  $Digit 3   "Recog Char"$
+    0 = "*" Recog Char,       No Special Transmission Chars
+    1 = Custom Recog Char,  "        "              "                     "
+    2 = "*" Recog Char,      Special Transmission Chars
+    3 = Custom Recog Char,   "                "                    "
+  $Digit 4   "RTS Type"$
+    0 = Non-latching RTS
+    1 = Latching RTS
+  $Digit 5   "CR(LF)"$
+    0 = Termination characters only at end of all items
+    1 = Termination characters at end of each item
+        (Alarm character, if included, appears only at 
+           end of all items)
+  $Digit 6   "Output Items"$
+    0 = All active Items
+    1 = Item 1 only
+    2 = Item 2 only (if Active)
+    3 = Item 3 only (if Active)
+    4 = Peak value only
+    5 = Item being displayed
+    6 = Valley value only
+    7 = All Active Items + Peak + Valley
+
+
+
+             $"Ser 4"  SERIAL CONFIGURATION 4$
+  $Digit 4   "Modbus ASCII Timeout"$
+    0 =  1 Sec
+    1 =  3 Sec
+    2 =  5 Sec
+    3 = 10 Sec
+  $Digit 5   "Serial Protocol"$
+    0 = Custom ASCII
+    1 = Modbus RTU
+    2 = Modbus ASCII
+  $Digit 6   "Modbus Parity"$
+    0 = No Parity
+    1 = Odd Parity
+    2 = Even Parity
+
+
+                        $" Addr"  MODBUS ADDRESS$
+
+  $Digits 4, 5, 6     ADDR$
+     This is the MODBUS Address and it is set to a 
+     decimal value from 1 to 247.
+
+
+                   $"CALib"  CALIBRATION$
+  Calibration is a signed 5-digit value with DecPt 1  XXXXX.
+  Calibration is a correction factor in parts per million
+  Minimum value is -29999 ppm
+  Maximum value is +29999 ppm
+  The Calibration is set at the factory to compensate 
+  for the deviation in the actual crystal frequency
+  from its marked, center value.  It should not be
+  changed except by a competent technician with a very
+  accurate frequency standard.
+
+                    $"Loc 1"  LOCKOUT 1$
+  $Digit 3   "Input Type"$
+    0 = Input Type changes allowed
+    1 = Input Type changes locked out
+  $Digit 4   "Setup,Config,Dspyno"$
+    0 = Setup, Config changes allowed
+    1 = Setup, Config changes locked out
+  $Digit 5   "Pulses,GateTime,Timeout,Batch,Pulses,Cutoff"$
+    0 = Pulses,GateTime,Timeout,Batch,Pulses,Cutoff changes allowed
+    1 = Pulses,GateTime,Timeout,Batch,Pulses,Cutoff changes locked out
+  $Digit 6   "Filter"$
+    0 = Filter setup changes allowed
+    1 = Filter setup changes locked out
+                    $"Loc 2"  LOCKOUT 2$
+  $Digit 3   "Slope,DP"$
+    0 = Slope, Decimal Points changes allowed
+    1 = Slope, Decimal Points changes locked out
+  $Digit 4   "Scale,Offset,Coords,Resoln"$
+    0 = Scale,Offset,2-Coords,Resolution changes allowed
+    1 = Scale,Offset,2-Coords,Resolution changes locked out
+  $Digit 5   "Alarm Source,Setup,Devn"$
+    0 = Alarm Source, Setup, Deviation changes allowed
+    1 = Alarm Source, Setup, Deviation changes locked out
+  $Digit 6   "Alarm Setpoints"$
+    0 = Alarm Setpoint changes allowed if View Alarm Setpoints 
+                 enabled
+    1 = Alarm Setpoint changes locked out
+  
+                    $"Loc 3"  LOCKOUT 3$
+  $Digit 3   "Analog Output"$
+    0 = Analog Output setup and scaling allowed
+    1 = Analog Output setup and scaling locked out
+  $Digit 4   "Serial Communications"$
+    0 = Serial Communications setup changes allowed
+    1 = Serial Communications setup changes locked out
+  $Digit 5   "Calibration"$
+    0 = Calibration changes allowed
+    1 = Calibration changes locked out
+  $Digit 6   "Change Display Item #"$
+    0 = Change Display Item # allowed
+    1 = Change Display Item # locked out
+
+                    $"Loc 4"  LOCKOUT 4$
+  $Digit 3  "View Peak"$
+    0 = View Peak value allowed
+    1 = View Peak value locked out
+  $Digit 4  "View Setpoints"$
+    0 = View Setpoint values allowed
+    1 = View Setpoint values locked out
+  $Digit 5  "Front Panel Aux Resets"$
+    0 = Front panel auxiliary resets allowed
+    1 = Front panel auxiliary resets locked out
+  $Digit 6  "Front Panel Ctr Reset"$
+    0 = Front panel Counter reset allowed
+    1 = Front panel Counter reset locked out
+
+                      $SetPoint 3$ 
+
+  $Setpoint 3$ consists of a numeric value between 0 and
+  plus and minus 999999 with the same decimal point as the Item 
+  selected as the Source for Alarm comparison.  It cannot be
+  set with or compared to an exponential value.
+
+                      $SetPoint 4$ 
+
+  $Setpoint 4$ consists of a numeric value between 0 and
+  plus and minus 999999 with the same decimal point as the Item 
+  selected as the Source for Alarm comparison.  It cannot be
+  set with or compared to an exponential value.
+
+                   $"InPut"  Input Type$
+  $SETUP Page 1  INPUTS$
+  The Input Type is determined by the selection of
+  Mode & Function.  The available selection depends
+  on the Input option board installed.
+
+ 
+                   $" SEtuP"  Setup$
+  $Digit 1   SETUP Page 1, DISPLAY, "Resolution"$
+    0 = 4 1/2 Digits, 0.1 degrees
+    1 = Remote Display (Slave)
+    2 = 4 1/2 Digits with dummy zero (cnt/10), 0.01 degrees
+    3 = 3 1/2 Digits, 1 degree
+  $Digit 2   SETUP Page 1, DISPLAY, "50/60 Hz"$
+    0 = 60 Hz Power line environment
+    1 = 50 Hz Power line environment
+  $Digit 3   SETUP Page 1, DISPLAY, "Leading Zeros"$
+    0 = Blank all leading zeros
+    1 = Display all leading zeros
+  $Digit 4   SETUP Pages 1, 2 "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+  $Digit 5   SETUP Page 3, EXTERNAL INPUTS$
+             Ext A                      Ext B              
+    0 =Meter Reset          Meter Hold        
+    1 =Function Reset     Peak Display   
+    2 =Meter Hold             Peak Dsplay        
+    3 =Meter Hold            Tare 
+    4 =Peak Display        Tare
+    5 =Tare                        Reset
+    6 =XXXX$.$X                    XXX$.$XX  (XXXXX$.$ neither) (XX$.$XXX both)
+    7 =XXX$.$XX                    XX$.$XXX  (XXXX$.$X neither) (X$.$XXXX both)   
+                  $"ConFiG"  Configuration$
+  $Digit 1   SETUP Page 1   DISPLAY  "Rate"$
+    0 = Not Rate, Normal measurement 
+    1 = Rate X 0.1
+    2 = Rate X 1
+    3 = Rate X 10
+    4 = Rate X 100
+    5 = Rate X 1000
+    6 = Rate X 10,000
+  $Digit 2   SETUP Page 1  SCALE/OFFSET  "Reading Coord"$
+    0 = Setup Scale Method - Either Scale/Offset or Coordinates
+    1 = Reading Coordinate Method
+  $Digit 3   SETUP Page 3  SERIAL COMMUNICATIONS  "Latched RTS"$ 
+    0 = Unlatched RTS
+    1 = Latched RTS  
+  $Digit 4   SETUP Page 3  SERIAL COMMUNICATIONS  "Duplex"$
+    0 = Full Duplex
+    1 = Half Duplex
+  $Digit 5   SETUP Page 1   DISPLAY  "Custom Curve"$
+    0 = Linear Curve (Normal Measurement)
+    1 = Custom Curve
+
+
+  
+                  $"FILtEr"   Filter$
+  $Digit 1   SETUP Pages 2  FILTER  "Alarm Value"$
+    0 = Alarm Value is Unfiltered
+    1 = Alarm Value is Filtered
+  $Digit 2   SETUP Pages 2  FILTER  "Peak Value"$
+    0 = Peak value of Unfiltered signal maintained
+    1 = Peak value of Filtered signal maintained
+  $Digit 3   SETUP Pages 2  FILTER  "Value"$
+    0 = Display value of Batch 16 average signal
+    1 = Display value of Filtered signal
+  $Digit 4   SETUP Pages 2  FILTER  "Threshold"$
+    0 = Low adaptive threshold
+    1 = High adaptive threshold
+  $Digit 5   SETUP Pages 2  FILTER  "Time Constant"$
+    0 = Automatic Filter time constant selection
+    1 = Batch 16 average filter
+    2 = 75 milliseconds 
+    3 = 150 milliseconds
+    4 = 300 milliseconds
+    5 = 600 milliseconds
+    6 = 1.2 seconds
+    7 = 2.4 seconds
+    8 = 4.8 seconds
+    9 = 9.6 seconds
+    A = No Filter (Set Digit 3 to a 1)
+                      $"dEC.Pt"   Decimal Point$
+  $SETUP Page 1  DISPLAY  "Decimal Point"$
+    XXXXX $.$
+    XXXX $.$ X
+    XXX $.$ XX
+    XX $.$ XXX
+    X $.$ XXXX
+     $.$ XXXXX
+
+
+ 
+                   $"SCALE"    Scale $ 
+  $SETUP Page 1  SCALE/OFFSET "Scale"$
+
+  The $Scale$ factor consists of a value between
+  -99999 and +99999 with any decimal point. 
+  The normal value of 1 can be selected as
+  either 1, 1.0, 1.00, 1.000 or 1.0000, all with
+  the same effect.
+                   $"OFFSt"   OFFSET$
+  $SETUP Page 1   SCALE/OFFSET "Offset"$
+
+  The $Offset$ is a signed 5-digit value with the 
+  $Decimal Point$ selection assigned to it.  It
+  has a range of -99999 to +99999.
+
+                  $"Lo In"  Low Input$
+  $SETUP Page 1  SCALE/OFFSET "Low Input"$
+
+  The $Low Input$ is a signed 5-digit value with an 
+  assigned $Decimal Point$ that reflects the input 
+  units of measurement.  For example, if the Range 
+  is 0.2V DC, the Decimal Point would appear as 
+  $.$XXXXX on the display.
+
+
+                 $"Lo rd"   Low Read$
+  $SETUP Page 1  SCALE/OFFSET "Low Read"$
+
+  The $Low Read$ is a signed 5-digit value with the 
+  $Decimal Point$ selection assigned to it. It
+  has a range of -99999 to +99999.
+
+                  $"Hi In"  High Input$
+  $SETUP Page 1  SCALE/OFFSET "High Input"$
+
+  The $High Input$ is a signed 5-digit value with an 
+  assigned $Decimal Point$ that reflects the input 
+  units of measurement.  For example, if the Range 
+  is 0.2V DC, the Decimal Point would appear as 
+  $.$XXXXX on the display.
+
+
+                 $"Hi rd"   High Read$
+  $SETUP Page 1  SCALE/OFFSET "High Read"$
+
+  The $High Read$ is a signed 5-digit value with the 
+  $Decimal Point$ selection assigned to it. It
+  has a range of -99999 to +99999.
+
+                  $"AL SEt"  ALARM SETUP$
+  $Digit 1   SETUP Pg 2  "Relay 1 Alrm State" "Relay 2 Alrm State"$
+    0 = Relay 1 Energized, Relay 2 Energized  in Alarm state
+    1 = Relay 1 De-Energized, Relay 2 Energized   in Alarm state
+    2 = Relay 1 Energized, Relay 2 De-Energized   in Alarm state
+    3 = Relay 1 De-Energized, Relay 2 De-Energized   in Alarm state
+  $Digit 2   SETUP Pg 2  ALARM1,2 "Alarm1Type" "Alarm2Type"$
+    0 = Relay 1 Non-Latching, Relay 2 Non-Latching
+    1 = Relay 1 Latching, Relay 2 Non-Latching
+    2 = Relay 1 Non-Latching, Relay 2 Latching
+    3 = Relay 1 Latching, Relay 2 Latching
+  $Digit 3   SETUP Pg 2  ALARM1,2 "Alarm State1" "Alarm State2"$
+    0 = Alarm 1 High Active,   Alarm 2 High Active
+    1 = Alarm 1 Low Active,    Alarm 2 High Active
+    2 = Alarm 1 Disabled,      Alarm 2 High Active
+    3 = Alarm 1 High Active,   Alarm 2 Low Active
+    4 = Alarm 1 Low Active,    Alarm 2 Low Active
+    5 = Alarm 1 Disabled,       Alarm 2 Low Active
+    6 = Alarm 1 High Active,   Alarm 2 Disabled
+    7 = Alarm 1 Low Active,    Alarm 2 Disabled
+    8 = Alarm 1 Disabled,       Alarm 2 Disabled
+  $Digit 4   SETUP Pg 2  ALARMS  "Deviation 1 Type","2 Type"$
+    0 = Deviation 1 Type Band,            Deviation 2 Type Band
+    1 = Deviation 1 Type Hysteresis,  Deviation 2 Type Band
+    2 = Deviation 1 Type Band,            Deviation 2 Type Hysteresis
+    3 = Deviation 1 Type Hysteresis,  Deviation 2 Type Hysteresis
+    4 = No Deviation in Menu
+  $Digit 5   SETUP Pg 2  ALARMS "No. Rdgs to Alarm"$
+    0 =1 reading    2 =4 readings   4 =16 readings   6 =64 readings 
+    1 =2 readings  3 =8 readings   5 =32 readings   7 =128 readings
+
+                 $"dEUn1x"   DEVIATION 1$
+  $SETUP Page 2   ALARM1  "Deviation 1"$
+
+  The Deviation 1 is a positive 5-digit value with the System 
+  $Decimal Point$ assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+     an alarm band is created that is equal to the Setpoint #1 value 
+     plus and minus the deviation value.  
+     If an Active High Alarm #1 is selected, the Alarm will
+     be active for readings outside the alarm band, that is, 
+     readings above Setpoint #1 + Deviation or below Setpoint #1 -
+     Deviation.  The alarm will not be active for readings within
+     the alarm band.  
+     If an Active Low Alarm #1 is selected, the Alarm will be active
+     for readings within the alarm band, that is, readings below
+     Setpoint #1 + Deviation and above Setpoint #1 - Deviation.  The
+     alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+     the Setpoint + the Deviation creates the high threshold, and the
+     Setpoint - the Deviation creates the low threshold.  
+     If an Active High Alarm #1 is selected, the Alarm will be active
+     for readings above the high threshold and will remain active
+     until the readings fall below the low threshold.
+     If an Active Low Alarm #1 is selected, the Alarm will be active
+     for readings below the low threshold and will remain active
+     until the readings exceed the upper threshold.
+
+  
+                 $"dEUn2x"   DEVIATION 2$
+  $SETUP Page 2   ALARM2  "Deviation 2"$
+
+  The Deviation 2 is a positive 5-digit value with the System 
+  $Decimal Point$ assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+     an alarm band is created that is equal to the Setpoint #2 value 
+     plus and minus the deviation value.  
+     If an Active High Alarm #2 is selected, the Alarm will
+     be active for readings outside the alarm band, that is, 
+     readings above Setpoint #2 + Deviation or below Setpoint #2 -
+     Deviation.  The alarm will not be active for readings within
+     the alarm band.  
+     If an Active Low Alarm #2 is selected, the Alarm will be active
+     for readings within the alarm band, that is, readings below
+     Setpoint #2 + Deviation and above Setpoint #2 - Deviation.  The
+     alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+     the Setpoint + the Deviation creates the high threshold, and the
+     Setpoint - the Deviation creates the low threshold.  
+     If an Active High Alarm #2 is selected, the Alarm will be active
+     for readings above the high threshold and will remain active
+     until the readings fall below the low threshold.
+     If an Active Low Alarm #2 is selected, the Alarm will be active
+     for readings below the low threshold and will remain active
+     until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"An SEt"   ANALOG SETUP$
+  $Digit 4  SETUP Page 3  ANALOG OUTPUT "Analog Circuit"$
+    0 = Analog $current$ output
+    1 = Analog $voltage$ output
+
+  $Digit 5  SETUP Page 3  ANALOG OUTPUT "Analog  Value"$
+    0 = Unfiltered Value
+    1 = Filtered Value
+
+
+                  $"An Lo"   ANALOG LOW$
+  $SETUP Page 3   "Analog Low"$
+
+  $Analog Low$ is the display reading that corresponds to
+  the low end of the Analog output range, 0 mA or 0 V. 
+  It is a signed 5-digit value with the System $Decimal 
+  Point$ assigned to it.
+
+                  $"An Hi"   ANALOG HIGH$
+  $SETUP Page 3   "Analog High"$
+
+  $Analog High$ is the display reading that corresponds to
+  the high end of the Analog output range, 20 mA or 10 V. 
+  It is a signed 5-digit value with the System $Decimal 
+  Point$ assigned to it.
+
+
+             $"Ser 1"  SERIAL CONFIGURATION 1$
+  $Digit 3  SETUP Page 3  SERIAL COMM "Output Value"$
+    0 = Serial Output value is unfiltered
+    1 = Serial Output value is filtered
+  $Digit 4  SETUP Page 3  SERIAL COMM "Baud Rate"$
+    0 =   300 Baud
+    1 =   600 Baud
+    2 =  1200 Baud
+    3 =  2400 Baud
+    4 =  4800 Baud
+    5 =  9600 Baud
+    6 = 19200 Baud
+  $Digit 5  SETUP Page 3  SERIAL COMM "Output Rate"$
+    BDR = Batch Display Rate = Line Frequency / (16+1)
+                                       60Hz          50Hz
+                                       ------       ------
+    0 = Line Freq Rate  .017 Sec  .020 Sec
+    1 = BDR                    .28              .34
+    2 = BDR/2                 .57              .68
+    3 = BDR/4                 1.1              1.4
+    4 = BDR/8                 2.3              2.7
+    5 = BDR/16               4.5              5.4
+    6 = BDR/32               9.1            10.9
+    7 = BDR/64             18.1            21.8
+    8 = BDR/128           36.3            43.5
+    9 = BDR/255           72.3            86.7
+
+
+             $"Ser 2"  SERIAL CONFIGURATION 2$
+  $Digit 2  SETUP Page 3  SERIAL COMM "Include LF"$
+    0 = No Line Feed character following CR
+    1 = Line Feed character following CR
+  $Digit 3 SETUP Page 3 SERIAL COMM "Incl Alarm Data"$
+    0 = No alarm data provided with output transmission
+    1 = Alarm data provided with output transmission
+  $Digit 4  SETUP Page 3  SERIAL COMM "Mode"$
+    0 = Continuous output transmission Mode
+    1 = Command Mode
+  $Digit 5  SETUP Page 3  SERIAL COMMUNICATIONS "Address"$
+    0 = Address  0    B = Address 11    6.= Address 22
+    1 = Address  1    C = Address 12    7.= Address 23
+    2 = Address  2    D = Address 13    8.= Address 24
+    3 = Address  3    E = Address 14    9.= Address 25
+    4 = Address  4    F = Address 15    A.= Address 26
+    5 = Address  5    0.= Address 16    B.= Address 27
+    6 = Address  6    1.= Address 17    C.= Address 28
+    7 = Address  7    2.= Address 18    D.= Address 29
+    8 = Address  8    3.= Address 19    E.= Address 30
+    9 = Address  9    4.= Address 20    F.= Address 31
+    A = Address 10   5.= Address 21
+
+
+                    $"Loc 1"  LOCKOUT 1$
+  $Digit 1  SETUP Page 3  LOCKOUTS "Input Type"$
+    0 = Input Type changes allowed
+    1 = Input Type changes locked out
+  $Digit 2  SETUP Page 3  LOCKOUTS "Setup,Config,DP"$
+    0 = Setup, Config and Decimal Point changes allowed
+    1 = Setup, Config and Decimal Point changes locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "Filter"$
+    0 = Filter setup changes allowed
+    1 = Filter setup changes locked out
+  $Digit 4  SETUP Page 3  LOCKOUTS "Scale, Low, High In"$
+    0 = Scale, Low In, High In changes allowed
+    1 = Scale, Low In, High In changes locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Offset, Low, High Rd"$
+    0 = Offset, Low Rd, High Rd changes allowed
+    1 = Offset, Low Rd, High Rd changes locked out
+                    $"Loc 2"  LOCKOUT 2$
+  $Digit 2  SETUP Page 3  LOCKOUTS "Alarm Configuration,Devn"$
+    0 = Alarm Source, Setup, Deviation changes allowed
+    1 = Alarm Source, Setup, Deviation changes locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "Change Alarm Setpoints"$
+    0 = Alarm Setpoint changes allowed if View Alarm Setpoints 
+                 enabled
+    1 = Alarm Setpoint changes locked out
+  $Digit 4  SETUP Page 3  LOCKOUTS "Analog Output Scaling"$
+    0 = Analog Output Scaling changes allowed
+    1 = Analog Output Scaling changes locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Serial Communication"$
+    0 = Serial Communication Configuration changes allowed
+    1 = Serial Communication Configuration changes locked out
+  
+                    $"Loc 3"  LOCKOUT 3$
+  $Digit 2  SETUP Page 3  LOCKOUTS "View Peak"$
+    0 = View Peak value allowed
+    1 = View Peak value locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "View Alarm Setpoints"$
+    0 = View Alarm Setpoint values allowed
+    1 = View Alarm Setpoint values locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Front Panel Function Resets"$
+    0 = Front panel Function resets allowed
+    1 = Front panel Function resets locked out
+  $Digit 6  SETUP Page 3  LOCKOUTS "Front Panel Meter Reset"$
+    0 = Front panel Meter reset allowed
+    1 = Front panel Meter reset locked out
+
+                      $SetPoint 1$ 
+  $SETUP Page 2  "Setpoint 1"$
+
+  $Setpoint 1$ consists of a numeric value between -99999 
+  and +99999 with the system $Decimal Point$ assigned. 
+
+                      $SetPoint 2$ 
+  $SETUP Page 2  "Setpoint 2"$
+
+  $Setpoint 2$ consists of a numeric value between -99999 
+  and +99999 with the system $Decimal Point$ assigned. 
+
+                  $"rd0"  RD0$
+  $SETUP Page 1  "rd0"$
+
+  This is a signed 5-digit value with an assigned
+  $Decimal Point$ that reflects the zero offset trim
+  for the custom curve measurement.  The complete curve
+  is shifted by the rd0 value to make the reading
+  correct at some desired point, usually zero.
+
+
+
+                   $" SEtuP"  Setup$
+  $Digit 1   SETUP Page 1, DISPLAY, "DummyZ"$
+    0 = No Dummy Zero, Normal Display
+    1 = Include Right Hand Dummy Zero
+  $Digit 2   SETUP Page 1, DISPLAY, "50/60 Hz"$
+    0 = 60 Hz Power line environment
+    1 = 50 Hz Power line environment
+  $Digit 3   SETUP Page 1, DISPLAY, "Leading Zeros"$
+    0 = Blank all leading zeros  1 = Display all leading zeros
+  $Digit 4   SETUP Pages 1, 2 "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+  $Digit 5   SETUP Page 3, EXTERNAL INPUTS$
+             Ext A                      Ext B              
+    0 =Meter Reset          Meter Hold        
+    1 =Function Reset     Peak Display   
+    2 =Meter Hold             Peak Dsplay        
+    3 =Meter Hold            Tare 
+    4 =Peak Display        Tare
+    5 =Meter Reset          Tare
+    6 =Function Reset     Tare
+    7 =Tare Reset            Tare
+    8 =Display Blank       Tare
+    9 =Meter Reset          Display Blank
+    A =Function Reset     Display Blank
+    B =Display Item         Tare
+    C =Display Item         Display Blank
+    D =Meter Reset          Display Item
+    E =Function Reset     Display Item
+    F =Meter Hold             Display Item
+                  $"ConFiG"  Configuration$
+  $Digit 1   SETUP Page 1   DISPLAY  "Rate"$
+    0 = Not Rate, Normal measurement 
+    1 = Rate X 0.1
+    2 = Rate X 1
+    3 = Rate X 10
+    4 = Rate X 100
+    5 = Rate X 1000
+    6 = Rate X 10,000
+  $Digit 2   SETUP Page 1  SCALE/OFFSET  "Reading Coord"$
+    0 = Setup Scale Method - Either Scale/Offset or Coordinates
+    1 = Reading Coordinate Method
+  $Digit 3   SETUP Page 3  ALARMS  "Dribble Factor"$ 
+    0 = Enabled
+    1 = Disabled  
+  $Digit 4   SETUP Page 3  FILTER  "Peak Source"$
+    0 = Net
+    1 = Gross
+  $Digit 5   SETUP Page 1   DISPLAY  "Custom Curve"$
+    0 = Linear Curve (Normal Measurement)
+    1 = Custom Curve
+
+
+  
+                  $"Count"  Count$
+  $Digit 4   SETUP Page 1  DISPLAY  "Count By"$
+    0 = 1
+    1 = 2
+    2 = 5
+    3 = 10
+    4 = 20
+    5 = 50
+    6 = 100
+  $Digit 5   SETUP Page 1   DISPLAY  "Auto Zero"$
+    0 = 0  (No Auto-Zero)
+    1 = +-1
+    2 = +-2
+    3 = +-3
+    4 = +-4
+    5 = +-5
+    6 = +-6
+    7 = +-7
+    8 = +-8
+    9 = +-9
+
+
+
+  
+                                  $"TArE"   TARE$
+  $SETUP Page 1   SCALE/OFFSET "Tare"$
+
+  $Tare$ is a signed 5-digit value with the 
+  $Decimal Point$ selection assigned to it.  
+  It has a range of -99999 to +99999.
+
+
+                  $"AL SEt"  ALARM SETUP$
+  $Digit 1   SETUP Pg 2  "Relay 1 Alrm State" "Relay 2 Alrm State"$
+    0 = Relay 1 Energized, Relay 2 Energized  in Alarm state
+    1 = Relay 1 De-Energized, Relay 2 Energized   in Alarm state
+    2 = Relay 1 Energized, Relay 2 De-Energized   in Alarm state
+    3 = Relay 1 De-Energized, Relay 2 De-Energized   in Alarm state
+  $Digit 2   SETUP Pg 2  ALARM1,2 "Alarm1Type" "Alarm2Type"$
+    0 = Relay 1 Non-Latching, Relay 2 Non-Latching
+    1 = Relay 1 Latching, Relay 2 Non-Latching
+    2 = Relay 1 Non-Latching, Relay 2 Latching
+    3 = Relay 1 Latching, Relay 2 Latching
+  $Digit 3   SETUP Pg 2  ALARM1,2 "Alarm State1" "Alarm State2"$
+    0 = Alarm 1 High Active,   Alarm 2 High Active
+    1 = Alarm 1 Low Active,    Alarm 2 High Active
+    2 = Alarm 1 Disabled,      Alarm 2 High Active
+    3 = Alarm 1 High Active,   Alarm 2 Low Active
+    4 = Alarm 1 Low Active,    Alarm 2 Low Active
+    5 = Alarm 1 Disabled,       Alarm 2 Low Active
+    6 = Alarm 1 High Active,   Alarm 2 Disabled
+    7 = Alarm 1 Low Active,    Alarm 2 Disabled
+    8 = Alarm 1 Disabled,       Alarm 2 Disabled
+  $Digit 4   SETUP Pg 2  ALARMS  "Alarm 1 Source","2 Source"$
+    0 = Net,          Gross
+    1 = Gross,    Gross
+    2 = Net,          Net
+    3 = Gross,    Net
+  $Digit 5   SETUP Pg 2  ALARMS "No. Rdgs to Alarm"$
+    0 =1 reading    2 =4 readings   4 =16 readings    
+    1 =2 readings  3 =8 readings   5 =32 readings   
+    6 =64 readings  7=128 readings
+                 $"SP1 d"   SP1 DIFF$
+  $SETUP Page 2   ALARM1  "SP1 Difference"$
+
+  The $SP1 Difference$ is a bipolar 5-digit value with the System 
+  $Decimal Point$ assigned to it.  It ranges from -99999 to 99999.
+  If the $Dribble Factor$ is enabled, the $SP1 Difference$ value
+  is added to the $Setpoint 1$ value to determine the Alarm 1
+  Point.
+
+
+  
+                 $"SP2 d"   SP2 DIFF$
+  $SETUP Page 2   ALARM2  "SP2 Difference"$
+
+  The $SP2 Difference$ is a bipolar 5-digit value with the System 
+  $Decimal Point$ assigned to it.  It ranges from -99999 to 99999.
+  If the $Dribble Factor$ is enabled, the $SP2 Difference$ value
+  is added to the $Setpoint 2$ value to determine the Alarm 2 
+  Point.
+
+
+  
+             $"Ser 3"  SERIAL CONFIGURATION 3$
+  $Digit 1  SETUP Page 3  SERIAL COMM "Full/Half Duplex"$
+    0 = Full Duplex
+    1 = Half Duplex
+  $Digit 2  SPARE$ for versions prior to WT4K
+     (For WT4K and up)
+  $Digit 2  SETUP Page 3 SERIAL COMM "Transmission Chars"$
+    0 = Normal Chars
+    1 = Custom Start/Stop Chars
+  $Digit 3 SETUP Page 3 SERIAL COMM "RTS Type"$
+    0 = Non-Latching RTS
+    1 = Latching RTS
+  $Digit 4  SETUP Page 3  SERIAL COMM "CR(LF)"$
+    0 = Termination characters CR(LF) at end of all items
+    1 = Termination characters CR(LF) at end of each item
+  $Digit 5  SETUP Page 3  SERIAL COMM "Output Items"$
+    0 = Net + Gross
+    1 = Net Only
+    2 = Gross Only
+    3 = Peak Only (Net or Gross selected by Peak Source)
+    4 = Net + Gross + Peak
+
+
+                    $"Loc 1"  LOCKOUT 1$
+  $Digit 2  SETUP Page 3  LOCKOUTS "Change Display Item"$
+    0 = Change Display Item # allowed
+    1 = Change Display Item # locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "Input Type"$
+    0 = Input Type changes allowed
+    1 = Input Type changes locked out
+  $Digit 4  SETUP Page 3  LOCKOUTS "Setup,Config,DP"$
+    0 = Setup, Config and Decimal Point changes allowed
+    1 = Setup, Config and Decimal Point changes locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Count"$
+    0 = Count-By, Auto-Zero enabled
+    1 = Count-By, Auto-Zero disabled
+                    $"Loc 2"  LOCKOUT 2$
+  $Digit 2  SETUP Page 3  LOCKOUTS "Filter"$
+    0 = Filter enabled
+    1 = Filter locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "Scale, Lo/Hi In"$
+    0 = Scale, Lo/Hi In enabled
+    1 = Scale, Lo/Hi In disabled
+  $Digit 4  SETUP Page 3  LOCKOUTS "Offset, Lo/Hi Rd"$
+    0 = Offset, Lo/Hi Read enabled
+    1 = Offset, Lo/Hi Read disabled
+  $Digit 5  SETUP Page 3  LOCKOUTS "Tare"$
+    0 = Tare enabled
+    1 = Tare disabled
+                    $"Loc 3"  LOCKOUT 3$
+  $Digit 2  SETUP Page 3  LOCKOUTS "Alarm Configuration,Devn"$
+    0 = Alarm Source, Setup, Deviation changes allowed
+    1 = Alarm Source, Setup, Deviation changes locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "Change Alarm Setpoints"$
+    0 = Alarm Setpoint changes allowed if View Alarm Setpoints 
+                 enabled
+    1 = Alarm Setpoint changes locked out
+  $Digit 4  SETUP Page 3  LOCKOUTS "Analog Output Scaling"$
+    0 = Analog Output Scaling changes allowed
+    1 = Analog Output Scaling changes locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Serial Communication"$
+    0 = Serial Communication Configuration changes allowed
+    1 = Serial Communication Configuration changes locked out
+  
+                    $"Loc 4"  LOCKOUT 4$
+  $Digit 2  SETUP Page 3  LOCKOUTS "View Peak"$
+    0 = View Peak value allowed
+    1 = View Peak value locked out
+  $Digit 3  SETUP Page 3  LOCKOUTS "View Alarm Setpoints"$
+    0 = View Alarm Setpoint values allowed
+    1 = View Alarm Setpoint values locked out
+  $Digit 5  SETUP Page 3  LOCKOUTS "Front Panel Function Resets"$
+    0 = Front panel Function resets allowed
+    1 = Front panel Function resets locked out
+  $Digit 6  SETUP Page 3  LOCKOUTS "Front Panel Meter Reset"$
+    0 = Front panel Meter reset allowed
+    1 = Front panel Meter reset locked out
+
+                 $"An SEt"   ANALOG SETUP$
+  $Digit 3  SETUP Page 3  ANALOG OUTPUT "Analog Source"$
+    0 = Analog output source is Net value
+    1 = Analog output source is Gross Value
+  $Digit 4  SETUP Page 3  ANALOG OUTPUT "Analog Circuit"$
+    0 = Analog $current$ output
+    1 = Analog $voltage$ output
+  $Digit 5  SETUP Page 3  ANALOG OUTPUT "Analog  Value"$
+    0 = Unfiltered Value
+    1 = Filtered Value
+
+
+                   $" SEtuP"  Setup$
+  $Digit 1   SETUP Page 1, DISPLAY, "Resolution"$
+    0 = 4 1/2 Digits, 0.1 degrees
+    1 = Remote Display (Slave)
+    2 = 4 1/2 Digits with dummy zero (cnt/10), 0.01 degrees
+    3 = 3 1/2 Digits, 1 degree
+  $Digit 2   SETUP Page 1, DISPLAY, "50/60 Hz"$
+    0 = 60 Hz Power line environment
+    1 = 50 Hz Power line environment
+  $Digit 3   SETUP Page 1, DISPLAY, "Transmission Chars"$
+    0 = Normal
+    1 = Custom Start/Stop Characters
+  $Digit 4   SETUP Pages 1, 2 "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+  $Digit 5   SETUP Page 3, EXTERNAL INPUTS$
+             Ext A                      Ext B              
+    0 =Meter Reset          Meter Hold        
+    1 =Function Reset     Peak Display   
+    2 =Meter Hold             Peak Dsplay        
+    3 =Meter Hold            Tare 
+    4 =Peak Display        Tare
+    5 =Tare                        Reset
+    6 =XXXX$.$X                    XXX$.$XX  (XXXXX$.$ neither) (XX$.$XXX both)
+    7 =XXX$.$XX                    XX$.$XXX  (XXXX$.$X neither) (X$.$XXXX both)   
+                   $" SEtuP"  Setup$
+  $Digit 1   SETUP Page 1, DISPLAY, "Resolution"$
+    0 = 4 1/2 Digits, 0.1 degrees
+    1 = Remote Display (Slave)
+    2 = 4 1/2 Digits with dummy zero (cnt/10), 0.01 degrees
+    3 = 3 1/2 Digits, 1 degree
+  $Digit 2   SETUP Page 1, DISPLAY, "50/60 Hz"$
+    0 = 60 Hz Power line environment
+    1 = 50 Hz Power line environment
+  $Digit 4   SETUP Pages 1, 2 "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+    2 = Scale using Reading Coordinates
+  $Digit 5   SETUP Page 3, EXTERNAL INPUTS$
+             Ext A                      Ext B                            Both     
+    0 =Meter Reset          Meter Hold                   Cold
+    1 =Function Reset     Peak or Valley             Cold
+    2 =Meter Hold             Peak or Valley             Func
+    3 =Meter Hold             Tare                              Cold
+    4 =Peak or Valley       Tare                               Func
+    5 =Tare                         Meter Reset                Cold
+    6 =XXXX$.$X                     XXX$.$XX      (XXXXX$.$ neither) (XX$.$XXX both)
+    7 =XXX$.$XX                     XX$.$XXX      (XXXX$.$X neither) (X$.$XXXX both)   
+    8 =Function Reset      Display Blank             Cold
+    9 =Meter Hold              Display Blank             Cold
+    A =Peak or Valley        Display Blank             Func
+    B =Tare                         Display Blank             Cold
+    C =Valley                      Peak                             Func
+   
+                  $"ConFiG"  Configuration$
+  $Digit 1   SETUP Page 1   DISPLAY  "Rate"$
+    0 = Not Rate, Normal measurement 
+    1 = Rate X 0.1
+    2 = Rate X 1
+    3 = Rate X 10
+    4 = Rate X 100
+    5 = Rate X 1000
+    6 = Rate X 10,000
+  $Digit 2   SETUP Page 1  PEAK BUTTON "Peak Action"$
+    0 = Peak Display
+    1 = Valley Display
+    2 = Peak and Valley Display alternating
+    3 = Tare action
+  $Digit 5   SETUP Page 1   DISPLAY  "Custom Curve"$
+    0 = Linear Curve (Normal Measurement)
+    1 = Custom Curve
+
+
+  
+                  $"AL S34"  ALARM SETUP$
+  $Digit 1   SETUP Pg 2  "Relay 3 Alrm State" "Relay 4 Alrm State"$
+    0 = Relay 3 Energized, Relay 4 Energized  in Alarm state
+    1 = Relay 3 De-Energized, Relay 4 Energized   in Alarm state
+    2 = Relay 3 Energized, Relay 4 De-Energized   in Alarm state
+    3 = Relay 3 De-Energized, Relay 4 De-Energized   in Alarm state
+  $Digit 2   SETUP Pg 2  ALARM1,4 "Alarm1Type" "Alarm2Type"$
+    0 = Relay 3 Non-Latching, Relay 4 Non-Latching
+    1 = Relay 3 Latching, Relay 4 Non-Latching
+    2 = Relay 3 Non-Latching, Relay 2 Latching
+    3 = Relay 3 Latching, Relay 4 Latching
+  $Digit 3   SETUP Pg 2  ALARM3,4 "Alarm State3" "Alarm State4"$
+    0 = Alarm 3 High Active,   Alarm 4 High Active
+    1 = Alarm 3 Low Active,    Alarm 4 High Active
+    2 = Alarm 3 Disabled,      Alarm 4 High Active
+    3 = Alarm 3 High Active,   Alarm 4 Low Active
+    4 = Alarm 3 Low Active,    Alarm 4 Low Active
+    5 = Alarm 3 Disabled,       Alarm 4 Low Active
+    6 = Alarm 3 High Active,   Alarm 4 Disabled
+    7 = Alarm 3 Low Active,    Alarm 4 Disabled
+    8 = Alarm 3 Disabled,       Alarm 4 Disabled
+  $Digit 4   SETUP Pg 2  ALARMS  "Deviation 3 Type","4 Type"$
+    0 = Deviation 3 Type Band,            Deviation 4 Type Band
+    1 = Deviation 3 Type Hysteresis,  Deviation 4 Type Band
+    2 = Deviation 3 Type Band,            Deviation 4 Type Hysteresis
+    3 = Deviation 3 Type Hysteresis,  Deviation 4 Type Hysteresis
+    4 = No Deviation in Menu
+  $Digit 5   SETUP Pg 2  ALARMS "No. Rdgs to Alarm"$
+    0 =1 reading    2 =4 readings   4 =16 readings   6 =64 readings 
+    1 =2 readings  3 =8 readings   5 =32 readings   7 =128 readings
+
+                 $"dEUn3x"   DEVIATION 3$
+  $SETUP Page 2   ALARM3  "Deviation 3"$
+
+  The Deviation 3 is a positive 5-digit value with the System 
+  $Decimal Point$ assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+     an alarm band is created that is equal to the Setpoint #3 value 
+     plus and minus the deviation value.  
+     If an Active High Alarm #3 is selected, the Alarm will
+     be active for readings outside the alarm band, that is, 
+     readings above Setpoint #3 + Deviation or below Setpoint #3 -
+     Deviation.  The alarm will not be active for readings within
+     the alarm band.  
+     If an Active Low Alarm #3 is selected, the Alarm will be active
+     for readings within the alarm band, that is, readings below
+     Setpoint #3 + Deviation and above Setpoint #3 - Deviation.  The
+     alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+     the Setpoint + the Deviation creates the high threshold, and the
+     Setpoint - the Deviation creates the low threshold.  
+     If an Active High Alarm #3 is selected, the Alarm will be active
+     for readings above the high threshold and will remain active
+     until the readings fall below the low threshold.
+     If an Active Low Alarm #3 is selected, the Alarm will be active
+     for readings below the low threshold and will remain active
+     until the readings exceed the upper threshold.
+
+  
+
+  
+                 $"dEUn4x"   DEVIATION 4$
+  $SETUP Page 2   ALARM4  "Deviation 4"$
+
+  The Deviation 4 is a positive 5-digit value with the System 
+  $Decimal Point$ assigned to it.  
+  If the Deviation Type is $Band$, "b" suffix,
+     an alarm band is created that is equal to the Setpoint #4 value 
+     plus and minus the deviation value.  
+     If an Active High Alarm #4 is selected, the Alarm will
+     be active for readings outside the alarm band, that is, 
+     readings above Setpoint #4 + Deviation or below Setpoint #4 -
+     Deviation.  The alarm will not be active for readings within
+     the alarm band.  
+     If an Active Low Alarm #4 is selected, the Alarm will be active
+     for readings within the alarm band, that is, readings below
+     Setpoint #4 + Deviation and above Setpoint #4 - Deviation.  The
+     alarm will not be active for readings outside the alarm band.
+ If the Deviation Type is $Hysteresis$, "H" suffix,
+     the Setpoint + the Deviation creates the high threshold, and the
+     Setpoint - the Deviation creates the low threshold.  
+     If an Active High Alarm #4 is selected, the Alarm will be active
+     for readings above the high threshold and will remain active
+     until the readings fall below the low threshold.
+     If an Active Low Alarm #4 is selected, the Alarm will be active
+     for readings below the low threshold and will remain active
+     until the readings exceed the upper threshold.
+
+  
+
+  
+             $"Ser 3"  SERIAL CONFIGURATION 3$
+  $Digit 1  SETUP Page 3 SERIAL COMM "Duplex"$
+    0 = Full duplex
+    1 = Half duplex (30 mS delay before Response to Command)
+  $Digit 2  SETUP Page 3 SERIAL COMM "Recog Char"$
+    0 =  No Special Start, Stop Chars in Continuous Transmission
+    1 =  Special Start, Stop Chars in Continuous Transmission
+  $Digit 3  SETUP Page 3  SERIAL COMM "RTS Type"$
+    0 = Non-latching RTS
+    1 = Latching RTS
+  $Digit 4  SETUP Page 3  SERIAL COMM "CR(LF)"$
+    0 = Termination characters only at end of all items
+    1 = Termination characters at end of each item
+        (Alarm character, if included, appears only at 
+           end of all items)
+  $Digit 5  SETUP Page 3  SERIAL COMM "Output Items"$
+    0 = Reading
+    1 = Peak
+    2 = Valley
+    3 = Reading + Peak
+    4 = Reading + Valley
+    5 = Reading + Peak + Valley
+
+
+
+             $"Ser 4"  SERIAL CONFIGURATION 3$
+  $Digit 3  SETUP Page 3  SERIAL COMM "MB ASCII Timeout"$
+    0 = 1 Sec
+    1 = 3 Sec
+    2 = 5 Sec
+    3 = 10 sec
+  $Digit 4  SETUP Page 3  SERIAL COMM "Serial Format"$
+    0 = Custom ASCII (8 Data Bits, No Parity)
+    1 = Modbus RTU (8 Data Bits)
+    2 = Modbus ASCII (7 Data Bits) 
+  $Digit 5  SETUP Page 3  SERIAL COMM "Parity"$
+    Modbus only
+    0 = No Parity
+    1 = Odd Parity
+    2 = Even Parity
+
+
+
+                      $SetPoint X$ 
+  $SETUP Page 2  "Setpoint X"$
+      where X = 3 or 4
+
+  $Setpoint X$ consists of a numeric value between -99999 
+  and +99999 with the system $Decimal Point$ assigned. 
+
+                      $MODBUS ADDRESS$ 
+  $SETUP Page 4  "Modbus Address"$
+
+  The Modbus Address is an integer from $1 to 255$
+
+  When the DPM is operated in the Modbus mode and contains an RS-485
+  Serial Communication option board, it may be used in a Multi-drop 
+  configuration where multiple DPM's are connected in parallel on the
+  RS-485 Communications bus.  When operating in the Modbus mode, the
+  DPM is assigned a unique address from 1 to 255, to which only that
+  DPM responds.  That address is part of the Command sequence that is 
+  sent to all of the DPM's in parallel.  Only the DPM that recognizes
+  the address as its own, responds.  
+  A special significance is given to the Address 0 (Broadcast address).  
+  All DPM's respond to a command with that address even though their
+  assigned address may be different.  However, they do not send any
+  data on the bus because that would result in contention.  
+  The Modbus address is also used in a point-to-point configuration 
+  where there is only one DPM, either RS-485 or RS-232 (where only 
+  one DPM is allowed).  
+
+
+     

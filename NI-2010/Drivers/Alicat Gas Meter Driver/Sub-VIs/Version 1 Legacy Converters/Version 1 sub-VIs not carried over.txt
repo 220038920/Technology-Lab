@@ -1,0 +1,24 @@
+Quick Test Interface.vi - This can be accomplished with other utilities in the new version.
+
+Read Communication Settings.vi - This was superfluous, in order to read the baud rate and unit ID, you needed an established connection to the device, which needs knowledge of the baud rate and unit ID.
+
+Read Gas List - Version 2 has the same outputs as version 1 had, no legacy conversion sub-VI required.
+
+Read Manufacturer Data - Version 2 has the same outputs as version 1 had, no legacy conversion sub-VI required.
+
+Reset Totalizer - Version 2 has same inputs, no outputs. No legacy conversion sub-VI required.
+
+Send Command - A slightly more configurable version of this exists in the version 2 VI library, no legacy conversion sub-VI required.
+
+Tare Flow - Version 2 has same inputs, no outputs. No legacy conversion sub-VI required.
+
+Tare Pressure- Version 2 has same inputs, no outputs. No legacy conversion sub-VI required.
+
+Write Gas Selection - Version 2 has the same inputs, no outputs. No legacy conversion sub-VI required.
+
+Write Register - A version of this exists in the version 2 VI library that has hte same input locations but sports a check to see if the register write was successful, no legacy conversion sub-VI required.
+
+Write Totalizer Options - This is to be configured at the time of order.
+
+
+NOTE: The Version 1_Read Measurement Format and Version 1_Read Measurements VI's do not operate with full compatibility when connecting to newer devices. The measurement format availabilities had been increased late in revision 4 of the firmware and further in both revision 5 and revision 6. Without full knowledge of the data frame sent by the device, the Version 1_Read Measurements VI will fail to properly parse the extra data.

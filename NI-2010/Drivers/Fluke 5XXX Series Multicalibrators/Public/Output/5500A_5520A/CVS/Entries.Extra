@@ -1,0 +1,23 @@
+/Get Calculated Power Output.vi////*////
+/Get DC Voltage Offset.vi////*////
+/Get Duty Cycle.vi////*////
+/Get Function Type.vi////*////
+/Get Harmonic.vi////*////
+/Get Inductive Compensation.vi////*////
+/Get Optimal Frequency Stimulus.vi////*////
+/Get Phase Angle.vi////*////
+/Get Ref Clock Source.vi////*////
+/Get Ref Phase Value.vi////*////
+/Get Waveform Type.vi////*////
+/Get dBm Impedance.vi////*////
+/Output 5500A_5520A.mnu////*////
+/Send Sync Pulse.vi////*////
+/Set DC Voltage Offset.vi////*////
+/Set Duty Cycle.vi////*////
+/Set Harmonic.vi////*////
+/Set Inductive Compensation.vi////*////
+/Set Phase Angle.vi////*////
+/Set Ref Clock Source.vi////*////
+/Set Ref Phase Value.vi////*////
+/Set Waveform Type.vi////*////
+/Set dBm Impedance.vi////*////

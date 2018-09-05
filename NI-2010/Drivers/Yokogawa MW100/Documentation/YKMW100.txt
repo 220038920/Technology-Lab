@@ -1,0 +1,129 @@
+NAME
+	YKMW100 - LabVIEW driver for YOKAGAWA MW100
+		Using the Ethernet and Serial Interface.
+
+SYNOPSIS
+	VIs have a prefix 'YKMW100'.
+
+DESCRIPTION
+	The MW100 is a scalable, high performance data acquisition/data-logging
+      platform designed for both PC-controlled and stand-alone operation under
+      harsh operating conditions.  
+	There are two operation modes on the instrument.
+	There are two level, administrator and user, on the instrument.
+	And there are two methods, FIFO and channel, to acquire the data from 
+      the instrument.
+
+FILES
+	YKMW100.TXT
+		This file
+	YKMW100.llb
+		Library of VIs
+	YKMW100U.llb
+		Library of VIs that the end user should not access directly.
+	dir.mnu
+		Top Menu
+	config.mnu
+		Menu of Configure VIs
+	acstat.mnu
+		Menu of Action or Status VIs
+	applic.mnu
+		Menu of Getting Started and Applications VIs
+	data.mnu
+		Menu of Data
+	util.mnu
+		Menu of Utility VIs
+
+VIS
+	YKMW100 VI Tree.vi
+
+	[Getting Started]
+	YKMW100 Getting Started.vi
+
+	[Application Example]
+        YKMW100 App Example Config Range.vi
+	YKMW100 App Example Config Interval.vi
+	YKMW100 App Example Measurement Channel Data.vi
+	YKMW100 App Example Measurement FIFO Data.vi
+
+	[Initialize]
+	YKMW100 Initialize.vi
+
+	[Close]
+	YKMW100 Close.vi
+
+	[Configuration]
+	YKMW100 Config Range SKIP.vi
+	YKMW100 Config Range VOLT.vi
+	YKMW100 Config Range TC.vi
+	YKMW100 Config Range RTD.vi
+	YKMW100 Config Range DI.vi
+	YKMW100 Config Range OHM.vi
+	YKMW100 Config Range STRAIN.vi
+	YKMW100 Config Range DELTA.vi
+	YKMW100 Config Range RRJC.vi
+	YKMW100 Config Range AO.vi
+	YKMW100 Config Range PWM.vi
+	YKMW100 Config Burnout.vi
+	YKMW100 Config Filter.vi
+	YKMW100 Config RJC Type.vi
+	YKMW100 Config Alarm.vi
+	YKMW100 Config Computing.vi
+	YKMW100 Config Constant.vi
+	YKMW100 Config Interval.vi
+	YKMW100 Config Computing Interval.vi
+	YKMW100 Config Initial Balance.vi
+	YKMW100 Config Unit Number.vi
+	YKMW100 Config Message.vi
+	YKMW100 Config Date Time.vi
+	YKMW100 Config PULSE Filter.vi
+	YKMW100 Config Report Type.vi
+	YKMW100 Config Report Channel.vi
+	YKMW100 Config Range PULSE.vi
+
+	Config VIs are used to change configuration information data.
+
+	[Action/Status]
+	YKMW100 Measurement.vi
+	YKMW100 Computing .vi
+	YKMW100 Record.vi
+	YKMW100 Message.vi
+	YKMW100 Initial Balance.vi
+	YKMW100 Output AO.vi
+	YKMW100 Output Relay.vi
+	YKMW100 Alarm Status.vi
+
+	[Data]
+	YKMW100 Measurement Binary Data.vi
+	YKMW100 Measurement ASCII Data.vi
+	YKMW100 Measurement FIFO Data.vi
+	YKMW100 Output Binary Data.vi
+	YKMW100 Output ASCII Data.vi
+	YKMW100 Unit Decimal Point.vi
+
+	[Utility]
+	YKMW100 Self-Test.vi
+	YKMW100 Error Message.vi
+	YKMW100 Error Query.vi
+	YKMW100 Reset.vi
+	YKMW100 Revision Query.vi
+	YKMW100 Send Message.vi
+	YKMW100 Receive String.vi
+	YKMW100 Response Check.vi
+	YKMW100 Get ASCII.vi
+	YKMW100 Get Binary.vi
+	YKMW100 Make Data.vi
+
+SEE ALSO
+	http://www.yokogawa.com/
+
+NOTES
+	This driver which use VISA was created on LabVIEW 7.0/J,
+	Windows2000 Japanese Edition.
+	The revision of VIs are changed in following rules.
+	  The revision of new VI is 0.
+	  The reviosin of unmodified VI has be resetted to 0.
+	  The revision of modified VI is 1.
+	This changings are only for R3.01.
+-----------------------------------------------------------------------	-
+(c)2006-2007 Yokogawa Electric Corporation

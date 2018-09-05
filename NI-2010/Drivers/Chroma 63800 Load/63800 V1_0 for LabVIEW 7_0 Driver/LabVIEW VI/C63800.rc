@@ -1,0 +1,776 @@
+library: C63800.dll
+
+class: "C63800"
+implements: ivi, iviResourceMgr
+attribute: "Range Check"
+	"Inherent IVI Attributes:User Options:Range Check"
+	bool readwrite local 00100592
+"Specifies whether to validate property values and function parameters.  If enabled, the instrument driver validates the parameter values that you pass to driver functions.  Range checking parameters is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable range checking and maximize performance.
+    The default value is TRUE.   Use the C63800_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Query Instrument Status"
+	"Inherent IVI Attributes:User Options:Query Instrument Status"
+	bool readwrite local 00100593
+"Specifies whether the instrument driver queries the instrument status after each operation.  Querying the instrument status is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable status checking and maximize performance
+    The instrument driver can choose to ignore status checking for particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the C63800_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Cache"
+	"Inherent IVI Attributes:User Options:Cache"
+	bool readwrite local 00100594
+"Specifies whether to cache the value of properties.  When caching is enabled, the instrument driver keeps track of the current instrument settings and avoids sending redundant commands to the instrument.  Thus, you can significantly increase execution speed.
+    The instrument driver can choose always to cache or never to cache particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the C63800_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Simulate"
+	"Inherent IVI Attributes:User Options:Simulate"
+	bool readwrite local 00100595
+"Specifies whether or not to simulate instrument driver I/O operations.  If simulation is enabled, instrument driver functions perform range checking and call Ivi_GetAttribute and Ivi_SetAttribute functions, but they do not perform instrument I/O.  For output parameters that represent instrument data, the instrument driver functions return calculated values.
+    The default value is FALSE.   Use the C63800_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Record Value Coercions"
+	"Inherent IVI Attributes:User Options:Record Value Coercions"
+	bool readwrite local 00100596
+"Specifies whether the IVI engine keeps a list of the value coercions it makes for ViInt32 and ViReal64 properties.  You call C63800_GetNextCoercionRecord to extract and delete the oldest coercion record from the list.
+    The default value is FALSE.   Use the C63800_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Description"
+	"Inherent IVI Attributes:Driver Identification:Description"
+	string readonly local 00100792
+"A string that contains a brief description of the specific driver
+    "
+attribute: "Driver Prefix"
+	"Inherent IVI Attributes:Driver Identification:Driver Prefix"
+	string readonly local 001006BE
+"A string that contains the prefix for the instrument driver.  The name of each user-callable function in this driver starts with this prefix.
+    "
+attribute: "Driver Vendor"
+	"Inherent IVI Attributes:Driver Identification:Driver Vendor"
+	string readonly local 00100791
+"A string that contains the name of the vendor that supplies this driver.
+    "
+attribute: "Major Version"
+	"Inherent IVI Attributes:Driver Identification:Major Version"
+	iL readonly local 00100787
+"The major version number of this instrument driver.
+    "
+attribute: "Minor Version"
+	"Inherent IVI Attributes:Driver Identification:Minor Version"
+	iL readonly local 00100788
+"The minor version number of this instrument driver.
+    "
+attribute: "Revision"
+	"Inherent IVI Attributes:Driver Identification:Revision"
+	string readonly local 001007B7
+"A string that contains additional version information about this instrument driver.
+    "
+attribute: "Class Specification Major Version"
+	"Inherent IVI Attributes:Driver Identification:Class Specification Major Version"
+	iL readonly local 00100793
+"The major version number of the class specification with which this driver is compliant.
+    "
+attribute: "Class Specification Minor Version"
+	"Inherent IVI Attributes:Driver Identification:Class Specification Minor Version"
+	iL readonly local 00100794
+"The minor version number of the class specification with which this driver is compliant.
+    "
+attribute: "Supported Instrument Models"
+	"Inherent IVI Attributes:Driver Capabilities:Supported Instrument Models"
+	string readonly local 001006D7
+"Contains a model code of the instrument. For drivers that support more than one device, this property contains a comma-separated list of supported instrument models.
+    "
+attribute: "Class Group Capabilities"
+	"Inherent IVI Attributes:Driver Capabilities:Class Group Capabilities"
+	string readonly local 00100721
+"A string that contains a comma-separated list of class-extention groups that this driver implements.
+    "
+attribute: "Number of Channels"
+	"Inherent IVI Attributes:Driver Capabilities:Number of Channels"
+	iL readonly local 0010065B
+"Indicates the number of channels that the specific instrument driver supports.  
+    For each property for which the IVI_VAL_MULTI_CHANNEL flag property is set, the IVI engine maintains a separate cache value for each channel.
+    "
+attribute: "Manufacturer"
+	"Inherent IVI Attributes:Instrument Identification:Manufacturer"
+	string readonly local 0010078F
+"A string that contains the name of the instrument manufacturer you are currently using.
+    "
+attribute: "Model"
+	"Inherent IVI Attributes:Instrument Identification:Model"
+	string readonly local 00100790
+"A string that contains the model number or name of the instrument that you are currently using.
+    "
+attribute: "Firmware Revision"
+	"Inherent IVI Attributes:Instrument Identification:Firmware Revision"
+	string readonly local 0010078E
+"A string that contains the firmware revision information for the instrument you are currently using.
+    "
+attribute: "Primary Error"
+	"Inherent IVI Attributes:Error Info:Primary Error"
+	iL readwrite local 001005F5
+"A code that describes the first error that occurred since the last call to C63800_GetErrorInfo on the session.  The value follows the VXIplug&play completion code conventions.  A negative value describes an error condition.  A positive value describes a warning condition and indicates that no error occurred.  A zero indicates that no error or warning occurred. The error and warning values can be status codes defined by IVI, VISA, class drivers, or specific drivers.
+    "
+attribute: "Secondary Error"
+	"Inherent IVI Attributes:Error Info:Secondary Error"
+	iL readwrite local 001005F6
+"An optional code that provides additional information concerning the primary error condition.  The error and warning values can be status codes defined by IVI, VISA, class drivers, or specific drivers.  Zero indicates no additional information.
+    "
+attribute: "Error Elaboration"
+	"Inherent IVI Attributes:Error Info:Error Elaboration"
+	string readwrite local 001005F7
+"An optional string that contains additional information concerning the primary error condition.
+    "
+attribute: "Logical Name"
+	"Inherent IVI Attributes:Advanced Session Information:Logical Name"
+	string readonly local 001006C1
+"A string containing the logical name you specified when opening the current IVI session.
+     You may pass a logical name to the C63800_init or C63800_InitWithOptions functions.  The IVI Configuration utility must contain an entry for the logical name.  The logical name entry refers to a virtual instrument section in the IVI Configuration file.  The virtual instrument section specifies a physical device and initial user options.
+    "
+attribute: "Resource Descriptor"
+	"Inherent IVI Attributes:Advanced Session Information:Resource Descriptor"
+	string readonly local 001006C0
+"Indicates the resource descriptor the driver uses to identify the physical device.
+    If you initialize the driver with a logical name, this property contains the resource descriptor that corresponds to the entry in the IVI Configuration utility.  
+    If you initialize the instrument driver with the resource descriptor, this property contains that value.
+    "
+attribute: "I/O Session Type"
+	"Inherent IVI Attributes:Advanced Session Information:I/O Session Type"
+	string readonly local 001006D4
+"Contains the type of the I/O session that this driver uses to communicate with the instrument.     "
+attribute: "ID Query Response"
+	"Miscellaneous Attributes:ID Query Response"
+	string readonly local 00118C31
+"Returns the ID Query response string.  The instrument driver gets the value of this property when you pass TRUE for the ID Query parameter to the C63800_init or C63800_InitWithOptions function.
+    "
+attribute: "C63800_ATTR_PARALLEL_STATE"
+	"LOAD:C63800_ATTR_PARALLEL_STATE"
+	iL readwrite local 00118C6E
+"It returns the status of the current parallel mode.
+
+0:It indicates parallel mode error.
+1:It indicates single phase parallel.
+2:It indicates three phases parallel."
+attribute: "C63800_ATTR_LOAD_MODE"
+	"LOAD:C63800_ATTR_LOAD_MODE"
+	iL enum { C63800_VAL_LOAD_MODE_CC=0, C63800_VAL_LOAD_MODE_CP=1, C63800_VAL_LOAD_MODE_CV=2, C63800_VAL_LOAD_MODE_CR_AC=3, C63800_VAL_LOAD_MODE_CR_DC=3, C63800_VAL_LOAD_MODE_RLC=4, C63800_VAL_LOAD_MODE_RLCP=5, C63800_VAL_LOAD_MODE_INRUSH=6, C63800_VAL_LOAD_MODE_RECT=7} readwrite local 00118C34
+"This command selects the operating mode for AC/DC voltage input.  The electronic load can be programmed to operate for constant current, constant power, constant resistance, constant voltage(DC mode only), RLC(AC mode only), RLC constant power(AC mode only), RLC inrush current(AC mode only), Rectified(DC mode only).  The query form returns the load operating mode for AC voltage input mode.
+
+Setting Parameter   : 0 | CURR, 1 | POW, 2 | VOLT, 3 | RES 
+ 4 | RLC, 5 | RLCP, 6 | INRUSH, 7 | RECT
+
+C63800_VAL_LOAD_MODE_CC 0
+Constant current mode.
+
+C63800_VAL_LOAD_MODE_CP 1
+Constant power mode.
+
+C63800_VAL_LOAD_MODE_CV 2
+Constant voltage mode.
+
+C63800_VAL_LOAD_MODE_CR_AC 3
+Constant resistance mode.
+
+C63800_VAL_LOAD_MODE_CR_DC 3
+Constant resistance mode.
+
+C63800_VAL_LOAD_MODE_RLC 4
+RLC (AC mode only).
+
+C63800_VAL_LOAD_MODE_RLCP 5
+RLC constant power (AC mode only).
+
+C63800_VAL_LOAD_MODE_INRUSH 6
+RLC constant power (AC mode only).
+
+C63800_VAL_LOAD_MODE_RECT 7
+Rectified(DC mode only)."
+attribute: "C63800_ATTR_LOAD_SHORT_CIRCUITED_STATE"
+	"LOAD:C63800_ATTR_LOAD_SHORT_CIRCUITED_STATE"
+	bool readwrite local 00118C35
+"VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_PROTECT_STATUS"
+	"LOAD:C63800_ATTR_PROTECT_STATUS"
+	iL readwrite local 00118C36
+attribute: "C63800_ATTR_LOAD_SET_PROTECT_CLEAR"
+	"LOAD:C63800_ATTR_LOAD_SET_PROTECT_CLEAR"
+	bool readwrite local 00118C37
+"This command resets status of electronic load.
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_LOAD_STATE"
+	"LOAD:C63800_ATTR_LOAD_STATE"
+	bool readwrite local 00118C33
+"The LOAD command makes the electronic load active/on or inactive/off.
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_PROGRAMMABLE_RESISTANCE_LOADING"
+	"RESISTANCE:C63800_ATTR_PROGRAMMABLE_RESISTANCE_LOADING"
+	fD readwrite local 00118C69
+"This query only command defines the range of values that the load resistance can be programmed to."
+attribute: "C63800_ATTR_DC_RESISTANCE_LOADING"
+	"RESISTANCE:C63800_ATTR_DC_RESISTANCE_LOADING"
+	fD readwrite local 00118C48
+"Sets resistance of the electronic load in Ohms. The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_DC_FALL_SLEW_RATE_IN_CR_MODE"
+	"RESISTANCE:C63800_ATTR_DC_FALL_SLEW_RATE_IN_CR_MODE"
+	iL readwrite local 00118C4A
+attribute: "C63800_ATTR_DC_RISE_SLEW_RATE_IN_CR_MODE"
+	"RESISTANCE:C63800_ATTR_DC_RISE_SLEW_RATE_IN_CR_MODE"
+	iL readwrite local 00118C49
+"This command sets current rise slew rate of constant resistance mode."
+attribute: "C63800_ATTR_RESISTANCE_LOADING_C"
+	"RESISTANCE:C63800_ATTR_RESISTANCE_LOADING_C"
+	fD readwrite local 00118C7F
+"Sets resistance of the electronic load in Ohms.  The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_RESISTANCE_LOADING_B"
+	"RESISTANCE:C63800_ATTR_RESISTANCE_LOADING_B"
+	fD readwrite local 00118C80
+"Sets resistance of the electronic load in Ohms.  The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_RESISTANCE_LOADING_A"
+	"RESISTANCE:C63800_ATTR_RESISTANCE_LOADING_A"
+	fD readwrite local 00118C81
+"Sets resistance of the electronic load in Ohms.  The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_RESISTANCE_LOADING_ALL"
+	"RESISTANCE:C63800_ATTR_RESISTANCE_LOADING_ALL"
+	fD readwrite local 00118C82
+"Sets resistance of the electronic load in Ohms.  The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_RESISTANCE_LOADING"
+	"RESISTANCE:C63800_ATTR_RESISTANCE_LOADING"
+	fD readwrite local 00118C47
+"Sets resistance of the electronic load in Ohms.  The electronic load insures that the load resistance stays constant at the set value."
+attribute: "C63800_ATTR_SYNC_STATE_IN_DC_RECTIFIED"
+	"DC RECTIFIED:C63800_ATTR_SYNC_STATE_IN_DC_RECTIFIED"
+	bool readwrite local 00118C5B
+" It sets SYNC mode.  When SYNC sets as 1, it indicates the system uses line sync to do synchronization.  When SYNC sets as 0, it indicates the system uses the frequency users set to do synchronization.  This command is only operating in DC Rectified Mode.
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_FREQ_IN_DC_RECTIFIED"
+	"DC RECTIFIED:C63800_ATTR_FREQ_IN_DC_RECTIFIED"
+	fD readwrite local 00118C5A
+"When SYNC sets as 0, it indicates the system uses the frequency users set to do synchronization.  This command is only operating in DC Rectified Mode."
+attribute: "C63800_ATTR_LS_IN_AC_INRUSH_C"
+	"INRUSH:C63800_ATTR_LS_IN_AC_INRUSH_C"
+	iL readwrite local 00118CA7
+"It sets the value LS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_LS_IN_AC_INRUSH_B"
+	"INRUSH:C63800_ATTR_LS_IN_AC_INRUSH_B"
+	iL readwrite local 00118CA8
+"It sets the value LS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_LS_IN_AC_INRUSH_A"
+	"INRUSH:C63800_ATTR_LS_IN_AC_INRUSH_A"
+	iL readwrite local 00118CA9
+"It sets the value LS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_LS_IN_AC_INRUSH_ALL"
+	"INRUSH:C63800_ATTR_LS_IN_AC_INRUSH_ALL"
+	iL readwrite local 00118CAA
+"It sets the value LS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_LS_IN_AC_INRUSH"
+	"INRUSH:C63800_ATTR_LS_IN_AC_INRUSH"
+	iL readwrite local 00118C56
+"It sets the value LS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_RL_IN_AC_INRUSH_C"
+	"INRUSH:C63800_ATTR_RL_IN_AC_INRUSH_C"
+	fD readwrite local 00118CAB
+" It sets the value RL, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_INRUSH_B"
+	"INRUSH:C63800_ATTR_RL_IN_AC_INRUSH_B"
+	fD readwrite local 00118CAC
+" It sets the value RL, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_INRUSH_A"
+	"INRUSH:C63800_ATTR_RL_IN_AC_INRUSH_A"
+	fD readwrite local 00118CAD
+" It sets the value RL, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_INRUSH_ALL"
+	"INRUSH:C63800_ATTR_RL_IN_AC_INRUSH_ALL"
+	fD readwrite local 00118CAE
+" It sets the value RL, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_INRUSH"
+	"INRUSH:C63800_ATTR_RL_IN_AC_INRUSH"
+	fD readwrite local 00118C57
+" It sets the value RL, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_RS_IN_AC_INRUSH_C"
+	"INRUSH:C63800_ATTR_RS_IN_AC_INRUSH_C"
+	fD readwrite local 00118CAF
+"It sets the value RS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_RS_IN_AC_INRUSH_B"
+	"INRUSH:C63800_ATTR_RS_IN_AC_INRUSH_B"
+	fD readwrite local 00118CB0
+"It sets the value RS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_RS_IN_AC_INRUSH_A"
+	"INRUSH:C63800_ATTR_RS_IN_AC_INRUSH_A"
+	fD readwrite local 00118CB1
+"It sets the value RS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_RS_IN_AC_INRUSH_ALL"
+	"INRUSH:C63800_ATTR_RS_IN_AC_INRUSH_ALL"
+	fD readwrite local 00118CB2
+"It sets the value RS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_RS_IN_AC_INRUSH"
+	"INRUSH:C63800_ATTR_RS_IN_AC_INRUSH"
+	fD readwrite local 00118C58
+"It sets the value RS, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_PHASE_IN_AC_INRUSH_C"
+	"INRUSH:C63800_ATTR_PHASE_IN_AC_INRUSH_C"
+	iL readwrite local 00118CB3
+"It sets the value phase, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_PHASE_IN_AC_INRUSH_B"
+	"INRUSH:C63800_ATTR_PHASE_IN_AC_INRUSH_B"
+	iL readwrite local 00118CB4
+"It sets the value phase, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_PHASE_IN_AC_INRUSH_A"
+	"INRUSH:C63800_ATTR_PHASE_IN_AC_INRUSH_A"
+	iL readwrite local 00118CB5
+"It sets the value phase, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_PHASE_IN_AC_INRUSH_ALL"
+	"INRUSH:C63800_ATTR_PHASE_IN_AC_INRUSH_ALL"
+	iL readwrite local 00118CB6
+"It sets the value phase, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_PHASE_IN_AC_INRUSH"
+	"INRUSH:C63800_ATTR_PHASE_IN_AC_INRUSH"
+	iL readwrite local 00118C59
+"It sets the value phase, this command is only operating in AC Inrush Current Mode."
+attribute: "C63800_ATTR_C_IN_AC_INRUSH_C"
+	"INRUSH:C63800_ATTR_C_IN_AC_INRUSH_C"
+	iL readwrite local 00118CA3
+" It sets the value C, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_C_IN_AC_INRUSH_B"
+	"INRUSH:C63800_ATTR_C_IN_AC_INRUSH_B"
+	iL readwrite local 00118CA4
+" It sets the value C, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_C_IN_AC_INRUSH_A"
+	"INRUSH:C63800_ATTR_C_IN_AC_INRUSH_A"
+	iL readwrite local 00118CA5
+" It sets the value C, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_C_IN_AC_INRUSH_ALL"
+	"INRUSH:C63800_ATTR_C_IN_AC_INRUSH_ALL"
+	iL readwrite local 00118CA6
+" It sets the value C, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_C_IN_AC_INRUSH"
+	"INRUSH:C63800_ATTR_C_IN_AC_INRUSH"
+	iL readwrite local 00118C55
+" It sets the value C, this command is only operating in AC Inrush Current Mode. "
+attribute: "C63800_ATTR_LS_IN_AC_RLC_C"
+	"LC:C63800_ATTR_LS_IN_AC_RLC_C"
+	iL readwrite local 00118C8F
+"It sets the value Ls, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_LS_IN_AC_RLC_B"
+	"LC:C63800_ATTR_LS_IN_AC_RLC_B"
+	iL readwrite local 00118C90
+"It sets the value Ls, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_LS_IN_AC_RLC_A"
+	"LC:C63800_ATTR_LS_IN_AC_RLC_A"
+	iL readwrite local 00118C91
+"It sets the value Ls, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_LS_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_LS_IN_AC_RLC_ALL"
+	iL readwrite local 00118C92
+"It sets the value Ls, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_LS_IN_AC_RLC"
+	"LC:C63800_ATTR_LS_IN_AC_RLC"
+	iL readwrite local 00118C50
+"It sets the value Ls, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_RLC_C"
+	"LC:C63800_ATTR_RL_IN_AC_RLC_C"
+	fD readwrite local 00118C93
+"It sets the value RL, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_RLC_B"
+	"LC:C63800_ATTR_RL_IN_AC_RLC_B"
+	fD readwrite local 00118C94
+"It sets the value RL, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_RLC_A"
+	"LC:C63800_ATTR_RL_IN_AC_RLC_A"
+	fD readwrite local 00118C95
+"It sets the value RL, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_RL_IN_AC_RLC_ALL"
+	fD readwrite local 00118C96
+"It sets the value RL, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RL_IN_AC_RLC"
+	"LC:C63800_ATTR_RL_IN_AC_RLC"
+	fD readwrite local 00118C51
+"It sets the value RL, this command is only operating in AC RLC Mode. "
+attribute: "C63800_ATTR_RS_IN_AC_RLC_C"
+	"LC:C63800_ATTR_RS_IN_AC_RLC_C"
+	fD readwrite local 00118C97
+"It sets the value RS, this command is only operating in AC RLC Mode."
+attribute: "C63800_ATTR_RS_IN_AC_RLC_B"
+	"LC:C63800_ATTR_RS_IN_AC_RLC_B"
+	fD readwrite local 00118C98
+"It sets the value RS, this command is only operating in AC RLC Mode."
+attribute: "C63800_ATTR_RS_IN_AC_RLC_A"
+	"LC:C63800_ATTR_RS_IN_AC_RLC_A"
+	fD readwrite local 00118C99
+"It sets the value RS, this command is only operating in AC RLC Mode."
+attribute: "C63800_ATTR_RS_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_RS_IN_AC_RLC_ALL"
+	fD readwrite local 00118C9A
+"It sets the value RS, this command is only operating in AC RLC Mode."
+attribute: "C63800_ATTR_RS_IN_AC_RLC"
+	"LC:C63800_ATTR_RS_IN_AC_RLC"
+	fD readwrite local 00118C52
+"It sets the value RS, this command is only operating in AC RLC Mode."
+attribute: "C63800_ATTR_PF_IN_AC_RLC_C"
+	"LC:C63800_ATTR_PF_IN_AC_RLC_C"
+	fD readwrite local 00118C9B
+"It sets the value PF, this command is only operating in AC RLC CP Mode."
+attribute: "C63800_ATTR_PF_IN_AC_RLC_B"
+	"LC:C63800_ATTR_PF_IN_AC_RLC_B"
+	fD readwrite local 00118C9C
+"It sets the value PF, this command is only operating in AC RLC CP Mode."
+attribute: "C63800_ATTR_PF_IN_AC_RLC_A"
+	"LC:C63800_ATTR_PF_IN_AC_RLC_A"
+	fD readwrite local 00118C9D
+"It sets the value PF, this command is only operating in AC RLC CP Mode."
+attribute: "C63800_ATTR_PF_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_PF_IN_AC_RLC_ALL"
+	fD readwrite local 00118C9E
+"It sets the value PF, this command is only operating in AC RLC CP Mode."
+attribute: "C63800_ATTR_PF_IN_AC_RLC"
+	"LC:C63800_ATTR_PF_IN_AC_RLC"
+	fD readwrite local 00118C54
+"It sets the value PF, this command is only operating in AC RLC CP Mode."
+attribute: "C63800_ATTR_POWER_IN_AC_RLC_C"
+	"LC:C63800_ATTR_POWER_IN_AC_RLC_C"
+	fD readwrite local 00118C9F
+"It sets the value C, this command is only operating in AC RLC CP Mode.
+
+Range : 100~ 4500.0 W"
+attribute: "C63800_ATTR_POWER_IN_AC_RLC_B"
+	"LC:C63800_ATTR_POWER_IN_AC_RLC_B"
+	fD readwrite local 00118CA0
+"It sets the value C, this command is only operating in AC RLC CP Mode.
+
+Range : 100~ 4500.0 W"
+attribute: "C63800_ATTR_POWER_IN_AC_RLC_A"
+	"LC:C63800_ATTR_POWER_IN_AC_RLC_A"
+	fD readwrite local 00118CA1
+"It sets the value C, this command is only operating in AC RLC CP Mode.
+
+Range : 100~ 4500.0 W"
+attribute: "C63800_ATTR_POWER_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_POWER_IN_AC_RLC_ALL"
+	fD readwrite local 00118CA2
+"It sets the value C, this command is only operating in AC RLC CP Mode.
+
+Range : 100~ 4500.0 W"
+attribute: "C63800_ATTR_POWER_IN_AC_RLC"
+	"LC:C63800_ATTR_POWER_IN_AC_RLC"
+	fD readwrite local 00118C53
+"It sets the value C, this command is only operating in AC RLC CP Mode.
+
+Range : 100~ 4500.0 W"
+attribute: "C63800_ATTR_THE_VALUE_C_IN_AC_RLC_C"
+	"LC:C63800_ATTR_THE_VALUE_C_IN_AC_RLC_C"
+	iL readwrite local 00118C8B
+attribute: "C63800_ATTR_THE_VALUE_C_IN_AC_RLC_B"
+	"LC:C63800_ATTR_THE_VALUE_C_IN_AC_RLC_B"
+	iL readwrite local 00118C8C
+attribute: "C63800_ATTR_THE_VALUE_C_IN_AC_RLC_A"
+	"LC:C63800_ATTR_THE_VALUE_C_IN_AC_RLC_A"
+	iL readwrite local 00118C8D
+attribute: "C63800_ATTR_THE_VALUE_C_IN_AC_RLC_ALL"
+	"LC:C63800_ATTR_THE_VALUE_C_IN_AC_RLC_ALL"
+	iL readwrite local 00118C8E
+attribute: "C63800_ATTR_THE_VALUE_C_IN_AC_RLC"
+	"LC:C63800_ATTR_THE_VALUE_C_IN_AC_RLC"
+	iL readwrite local 00118C4F
+attribute: "C63800_ATTR_PROGRAMMABLE_PF_RANGE"
+	"CF:C63800_ATTR_PROGRAMMABLE_PF_RANGE"
+	fD readwrite local 00118C6B
+"This query only commands defines the range of data the load power factor can be programmed to."
+attribute: "C63800_ATTR_PROGRAMMABLE_CF_RANGE"
+	"CF:C63800_ATTR_PROGRAMMABLE_CF_RANGE"
+	fD readwrite local 00118C6A
+"This query only commands defines the range of data the load crest factor can be programmed to."
+attribute: "C63800_ATTR_CF_OF_DC"
+	"CF:C63800_ATTR_CF_OF_DC"
+	fD readwrite local 00118C4D
+" It sets the value CF, this command is only operating in DC Rectified Mode. "
+attribute: "C63800_ATTR_PF_OF_AC_C"
+	"CF:C63800_ATTR_PF_OF_AC_C"
+	fD readwrite local 00118C87
+"This command sets the power factor of the electronic load. The electronic load will attempt to set the power factor to the set value. The power factor set range is coupled to the crest factor set value. For a crest factor of 1.414, unity power factor is the only valid value."
+attribute: "C63800_ATTR_PF_OF_AC"
+	"CF:C63800_ATTR_PF_OF_AC"
+	fD readwrite local 00118C88
+"This command sets the power factor of the electronic load. The electronic load will attempt to set the power factor to the set value. The power factor set range is coupled to the crest factor set value. For a crest factor of 1.414, unity power factor is the only valid value."
+attribute: "C63800_ATTR_PF_OF_AC_A"
+	"CF:C63800_ATTR_PF_OF_AC_A"
+	fD readwrite local 00118C89
+"This command sets the power factor of the electronic load. The electronic load will attempt to set the power factor to the set value. The power factor set range is coupled to the crest factor set value. For a crest factor of 1.414, unity power factor is the only valid value."
+attribute: "C63800_ATTR_PF_OF_AC_ALL"
+	"CF:C63800_ATTR_PF_OF_AC_ALL"
+	fD readwrite local 00118C8A
+"This command sets the power factor of the electronic load. The electronic load will attempt to set the power factor to the set value. The power factor set range is coupled to the crest factor set value. For a crest factor of 1.414, unity power factor is the only valid value."
+attribute: "C63800_ATTR_PF_OF_AC"
+	"CF:C63800_ATTR_PF_OF_AC"
+	fD readwrite local 00118C4E
+"This command sets the power factor of the electronic load. The electronic load will attempt to set the power factor to the set value. The power factor set range is coupled to the crest factor set value. For a crest factor of 1.414, unity power factor is the only valid value."
+attribute: "C63800_ATTR_CF_OF_AC"
+	"CF:C63800_ATTR_CF_OF_AC"
+	fD readwrite local 00118C83
+attribute: "C63800_ATTR_CF_OF_AC_B"
+	"CF:C63800_ATTR_CF_OF_AC_B"
+	fD readwrite local 00118C84
+attribute: "C63800_ATTR_CF_OF_AC_A"
+	"CF:C63800_ATTR_CF_OF_AC_A"
+	fD readwrite local 00118C85
+attribute: "C63800_ATTR_CF_OF_AC_ALL"
+	"CF:C63800_ATTR_CF_OF_AC_ALL"
+	fD readwrite local 00118C86
+attribute: "C63800_ATTR_CF_OF_AC"
+	"CF:C63800_ATTR_CF_OF_AC"
+	fD readwrite local 00118C4C
+attribute: "C63800_ATTR_DC_VOLT_OF_CV_MODE"
+	"VOLTAGE:C63800_ATTR_DC_VOLT_OF_CV_MODE"
+	fD readwrite local 00118C4B
+attribute: "C63800_ATTR_PROGRAMMABLE_POWER_LOADING"
+	"POWER:C63800_ATTR_PROGRAMMABLE_POWER_LOADING"
+	fD readwrite local 00118C68
+"This query only command defines the range of values that the power 
+can be programmed to."
+attribute: "C63800_ATTR_MAXIMUM_POWER_LOADING"
+	"POWER:C63800_ATTR_MAXIMUM_POWER_LOADING"
+	fD readwrite local 00118C67
+"This command sets the maximum power value the AC load will accept in Watts."
+attribute: "C63800_ATTR_DC_POWER_LOADING"
+	"POWER:C63800_ATTR_DC_POWER_LOADING"
+	fD readwrite local 00118C46
+"Sets the DC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_POWER_LOADING_C"
+	"POWER:C63800_ATTR_POWER_LOADING_C"
+	fD readwrite local 00118C7B
+"Sets the AC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_POWER_LOADING_B"
+	"POWER:C63800_ATTR_POWER_LOADING_B"
+	fD readwrite local 00118C7C
+"Sets the AC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_POWER_LOADING_A"
+	"POWER:C63800_ATTR_POWER_LOADING_A"
+	fD readwrite local 00118C7D
+"Sets the AC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_POWER_LOADING_ALL"
+	"POWER:C63800_ATTR_POWER_LOADING_ALL"
+	fD readwrite local 00118C7E
+"Sets the AC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_POWER_LOADING"
+	"POWER:C63800_ATTR_POWER_LOADING"
+	fD readwrite local 00118C45
+"Sets the AC power of the electronic load in Watts.  The electronic load insures that the load power stays constant at the set value."
+attribute: "C63800_ATTR_CURRENT_PROGRAMMABLE_RANGE"
+	"CURRENT:C63800_ATTR_CURRENT_PROGRAMMABLE_RANGE"
+	fD readwrite local 00118C66
+"This query only command reports the range of values for the load current that can be programmed."
+attribute: "C63800_ATTR_MAX_RMS_CURRENT"
+	"CURRENT:C63800_ATTR_MAX_RMS_CURRENT"
+	fD readwrite local 00118C65
+" This command sets the maximum RMS current value the AC load will accept. "
+attribute: "C63800_ATTR_RMS_CURRENT_C"
+	"CURRENT:C63800_ATTR_RMS_CURRENT_C"
+	fD readwrite local 00118C71
+"This command sets the RMS current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_RMS_CURRENT_B"
+	"CURRENT:C63800_ATTR_RMS_CURRENT_B"
+	fD readwrite local 00118C6F
+"This command sets the RMS current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_RMS_CURRENT_A"
+	"CURRENT:C63800_ATTR_RMS_CURRENT_A"
+	fD readwrite local 00118C70
+"This command sets the RMS current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_RMS_CURRENT_ALL"
+	"CURRENT:C63800_ATTR_RMS_CURRENT_ALL"
+	fD readwrite local 00118C72
+"This command sets the RMS current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_RMS_CURRENT"
+	"CURRENT:C63800_ATTR_RMS_CURRENT"
+	fD readwrite local 00118C32
+"This command sets the RMS current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_DC_CURRENT"
+	"CURRENT:C63800_ATTR_DC_CURRENT"
+	fD readwrite local 00118C38
+"This command sets the DC current of the electronic load.  The electronic load insures that the load current stays constant at the set value."
+attribute: "C63800_ATTR_FALL_SLEW_RATE_OF_CC"
+	"CURRENT:C63800_ATTR_FALL_SLEW_RATE_OF_CC"
+	iL readwrite local 00118C39
+"This command sets current fall slew rate of constant current mode."
+attribute: "C63800_ATTR_RISE_SLEW_RATE_OF_CC"
+	"CURRENT:C63800_ATTR_RISE_SLEW_RATE_OF_CC"
+	iL readwrite local 00118C3A
+"This command sets current rise slew rate of constant current mode."
+attribute: "C63800_ATTR_PEAK_CURRENT_MEAS_HOLD_STATE"
+	"CURRENT:C63800_ATTR_PEAK_CURRENT_MEAS_HOLD_STATE"
+	bool readwrite local 00118C64
+"This command will define the peak current measurement mode. If the hold command is set to ON,the peak current measurement is updated only when the value measured exceed the last measured value. This mode may be used to capture peak inrush current conditions.
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_I_MAX_IN_AC_CR_C"
+	"CURRENT:C63800_ATTR_I_MAX_IN_AC_CR_C"
+	fD readwrite local 00118C73
+"Irms(max) setting, this command is only operating in AC CR Mode."
+attribute: "C63800_ATTR_I_MAX_IN_AC_CR_B"
+	"CURRENT:C63800_ATTR_I_MAX_IN_AC_CR_B"
+	fD readwrite local 00118C74
+"Irms(max) setting, this command is only operating in AC CR Mode."
+attribute: "C63800_ATTR_I_MAX_IN_AC_CR_A"
+	"CURRENT:C63800_ATTR_I_MAX_IN_AC_CR_A"
+	fD readwrite local 00118C75
+"Irms(max) setting, this command is only operating in AC CR Mode."
+attribute: "C63800_ATTR_I_MAX_IN_AC_CR_ALL"
+	"CURRENT:C63800_ATTR_I_MAX_IN_AC_CR_ALL"
+	fD readwrite local 00118C76
+"Irms(max) setting, this command is only operating in AC CR Mode."
+attribute: "C63800_ATTR_I_MAX_IN_AC_CR"
+	"CURRENT:C63800_ATTR_I_MAX_IN_AC_CR"
+	fD readwrite local 00118C3B
+"Irms(max) setting, this command is only operating in AC CR Mode."
+attribute: "C63800_ATTR_I_MAX_DC"
+	"CURRENT:C63800_ATTR_I_MAX_DC"
+	fD readwrite local 00118C3C
+attribute: "C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_C"
+	"CURRENT:C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_C"
+	fD readwrite local 00118C77
+attribute: "C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_B"
+	"CURRENT:C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_B"
+	fD readwrite local 00118C78
+attribute: "C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_A"
+	"CURRENT:C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_A"
+	fD readwrite local 00118C79
+attribute: "C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_ALL"
+	"CURRENT:C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE_ALL"
+	fD readwrite local 00118C7A
+attribute: "C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE"
+	"CURRENT:C63800_ATTR_CURR_PEAK_MAX_IN_AC_SPECIFIC_MODE"
+	fD readwrite local 00118C63
+attribute: "C63800_ATTR_PHASE_SELECT"
+	"SETUP:C63800_ATTR_PHASE_SELECT"
+	iL enum { C63800_VAL_PHASE_ALL=0, C63800_VAL_PHASE_A=1, C63800_VAL_PHASE_B=2, C63800_VAL_PHASE_C=3} readwrite local 00118C6D
+"It decides LOAD, MEAS and FETC subsystem commands are belong to three phases balance (A+B+C) or three phases unbalance (phase A, B, C) setting. (This command is only for three phases parallel used.)
+
+0:Phase A+B+C
+1:Phase A
+2:Phase B
+3:Phase C
+C63800_VAL_PHASE_ALL 0
+
+C63800_VAL_PHASE_A 1
+
+C63800_VAL_PHASE_B 2
+
+C63800_VAL_PHASE_C 3"
+attribute: "C63800_ATTR_SELECT_AC_DC_MODE"
+	"SETUP:C63800_ATTR_SELECT_AC_DC_MODE"
+	bool readwrite local 00118C3D
+"Sets mode of electronic load as AC load mode or DC load mode.
+AC:0
+DC:1
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_SET_CF_PF_MODE"
+	"SETUP:C63800_ATTR_SET_CF_PF_MODE"
+	iL readwrite local 00118C3E
+"It sets the modes of CF/PF/ALL.  This command is only operating in AC CC/CP modes.  When this command sets as 0, it indicates the system enter to CF only mode.  When this command sets as 1, it indicates the system enter to PF only mode.  When this command sets as 2, the system decides the margin setting value of CF PF according to the setting of priority. "
+attribute: "C63800_ATTR_CF_PF_PRIORITY"
+	"SETUP:C63800_ATTR_CF_PF_PRIORITY"
+	bool readwrite local 00118C3F
+"It sets the priority of CF PF.  This command is only operating in AC CC/CP modes.  When this command sets as 0, it indicates CF is high priority.  When this command sets as 1, it indicates PF is high priority. 
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_RECALL_DEFAULT_SETTING"
+	"SETUP:C63800_ATTR_RECALL_DEFAULT_SETTING"
+	bool readwrite local 00118C40
+"VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "C63800_ATTR_SET_GPIB_ADDRESS"
+	"REMOTE:C63800_ATTR_SET_GPIB_ADDRESS"
+	iL readwrite local 00118C41
+"This command sets the GPIB address of the electronic load."
+attribute: "C63800_ATTR_RS232_BAUD_RATE"
+	"REMOTE:C63800_ATTR_RS232_BAUD_RATE"
+	iL readwrite local 00118C42
+attribute: "C63800_ATTR_RS232_DATA_BIT"
+	"REMOTE:C63800_ATTR_RS232_DATA_BIT"
+	iL readwrite local 00118C43
+attribute: "C63800_ATTR_RS232_STOP_BIT"
+	"REMOTE:C63800_ATTR_RS232_STOP_BIT"
+	iL readwrite local 00118C44
+attribute: "C63800_ATTR_STATUS_QUESTIONABLE_ENABLE"
+	"STATUS:C63800_ATTR_STATUS_QUESTIONABLE_ENABLE"
+	iL readwrite local 00118C5C
+"This command set and read the value of the Questionable Enable register.  The register is a mask for enabling specific bits from the Questionable Enable register to set the Questionable summary bit (QUES) of the Status Byte register (STB). The Questionable summary bit is the logical OR of all enabled Questionable Event register bit."
+attribute: "C63800_ATTR_STANDARD_EVENT_STATUS_ENABLE"
+	"COMMON COMMAND:C63800_ATTR_STANDARD_EVENT_STATUS_ENABLE"
+	iL readwrite local 00118C5F
+attribute: "C63800_ATTR_STANDARD_EVENT_STATUS_REGISTER"
+	"COMMON COMMAND:C63800_ATTR_STANDARD_EVENT_STATUS_REGISTER"
+	iL readwrite local 00118C60
+"The query reads the Standard Event Status Register. Reading the Standard Event Status Register clears it."
+attribute: "C63800_ATTR_STATUS_BYTE_REGISTER"
+	"COMMON COMMAND:C63800_ATTR_STATUS_BYTE_REGISTER"
+	iL readwrite local 00118C61
+"This Command queries the status byte register.     
+
+Bits configuration of Status Byte Register
+Bit Position   7       6       5       4       3       2       1       0
+Condition     - -     MSS     ESB    MAV     QUES     - -     - -     - -
+
+ESB     = event status byte summary 
+RQS     = request for service
+MSS = master status summary
+MAV = message available
+"
+attribute: "C63800_ATTR_SERVICE_REQUEST_ENABLE_REGISTER"
+	"COMMON COMMAND:C63800_ATTR_SERVICE_REQUEST_ENABLE_REGISTER"
+	iL readwrite local 00118C62
+attribute: "C63800_ATTR_STATUS_OPERATION_ENABLE"
+	"COMMON COMMAND:C63800_ATTR_STATUS_OPERATION_ENABLE"
+	iL readwrite local 00118C6C
+"This command set and read the value of the Operation Enable register.  The register is a mask for enabling specific bits from the Operation Enable register to set the Operation summary bit (OPER) of the Status Byte register (STB). The Operation summary bit is the logical OR of all enabled Operation Event register bit."

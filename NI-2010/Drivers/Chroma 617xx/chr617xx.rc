@@ -1,0 +1,964 @@
+library: chr617xx.dll
+
+class: "chr617xx"
+implements: ivi, iviResourceMgr
+attribute: "Range Check"
+	"Inherent IVI Attributes:User Options:Range Check"
+	bool readwrite local 00100592
+"Specifies whether to validate property values and function parameters.  If enabled, the instrument driver validates the parameter values that you pass to driver functions.  Range checking parameters is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable range checking and maximize performance.
+    The default value is TRUE.   Use the chr617xx_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Query Instrument Status"
+	"Inherent IVI Attributes:User Options:Query Instrument Status"
+	bool readwrite local 00100593
+"Specifies whether the instrument driver queries the instrument status after each operation.  Querying the instrument status is very useful for debugging.  After you validate your program, you can set this property to FALSE to disable status checking and maximize performance
+    The instrument driver can choose to ignore status checking for particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the chr617xx_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Cache"
+	"Inherent IVI Attributes:User Options:Cache"
+	bool readwrite local 00100594
+"Specifies whether to cache the value of properties.  When caching is enabled, the instrument driver keeps track of the current instrument settings and avoids sending redundant commands to the instrument.  Thus, you can significantly increase execution speed.
+    The instrument driver can choose always to cache or never to cache particular properties regardless of the setting of this property.
+    The default value is TRUE.   Use the chr617xx_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Simulate"
+	"Inherent IVI Attributes:User Options:Simulate"
+	bool readwrite local 00100595
+"Specifies whether or not to simulate instrument driver I/O operations.  If simulation is enabled, instrument driver functions perform range checking and call Ivi_GetAttribute and Ivi_SetAttribute functions, but they do not perform instrument I/O.  For output parameters that represent instrument data, the instrument driver functions return calculated values.
+    The default value is FALSE.   Use the chr617xx_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Record Value Coercions"
+	"Inherent IVI Attributes:User Options:Record Value Coercions"
+	bool readwrite local 00100596
+"Specifies whether the IVI engine keeps a list of the value coercions it makes for ViInt32 and ViReal64 properties.  You call chr617xx_GetNextCoercionRecord to extract and delete the oldest coercion record from the list.
+    The default value is FALSE.   Use the chr617xx_InitWithOptions function to override this value.
+    
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Description"
+	"Inherent IVI Attributes:Driver Identification:Description"
+	string readonly local 00100792
+"A string that contains a brief description of the specific driver
+    "
+attribute: "Driver Prefix"
+	"Inherent IVI Attributes:Driver Identification:Driver Prefix"
+	string readonly local 001006BE
+"A string that contains the prefix for the instrument driver.  The name of each user-callable function in this driver starts with this prefix.
+    "
+attribute: "Driver Vendor"
+	"Inherent IVI Attributes:Driver Identification:Driver Vendor"
+	string readonly local 00100791
+"A string that contains the name of the vendor that supplies this driver.
+    "
+attribute: "Major Version"
+	"Inherent IVI Attributes:Driver Identification:Major Version"
+	iL readonly local 00100787
+"The major version number of this instrument driver.
+    "
+attribute: "Minor Version"
+	"Inherent IVI Attributes:Driver Identification:Minor Version"
+	iL readonly local 00100788
+"The minor version number of this instrument driver.
+    "
+attribute: "Revision"
+	"Inherent IVI Attributes:Driver Identification:Revision"
+	string readonly local 001007B7
+"A string that contains additional version information about this instrument driver.
+    "
+attribute: "Class Specification Major Version"
+	"Inherent IVI Attributes:Driver Identification:Class Specification Major Version"
+	iL readonly local 00100793
+"The major version number of the class specification with which this driver is compliant.
+    "
+attribute: "Class Specification Minor Version"
+	"Inherent IVI Attributes:Driver Identification:Class Specification Minor Version"
+	iL readonly local 00100794
+"The minor version number of the class specification with which this driver is compliant.
+    "
+attribute: "Supported Instrument Models"
+	"Inherent IVI Attributes:Driver Capabilities:Supported Instrument Models"
+	string readonly local 001006D7
+"Contains a model code of the instrument. For drivers that support more than one device, this property contains a comma-separated list of supported instrument models.
+    "
+attribute: "Class Group Capabilities"
+	"Inherent IVI Attributes:Driver Capabilities:Class Group Capabilities"
+	string readonly local 00100721
+"A string that contains a comma-separated list of class-extention groups that this driver implements.
+    "
+attribute: "Number of Channels"
+	"Inherent IVI Attributes:Driver Capabilities:Number of Channels"
+	iL readonly local 0010065B
+"Indicates the number of channels that the specific instrument driver supports.  
+    For each property for which the IVI_VAL_MULTI_CHANNEL flag property is set, the IVI engine maintains a separate cache value for each channel.
+    "
+attribute: "Manufacturer"
+	"Inherent IVI Attributes:Instrument Identification:Manufacturer"
+	string readonly local 0010078F
+"A string that contains the name of the instrument manufacturer you are currently using.
+    "
+attribute: "Model"
+	"Inherent IVI Attributes:Instrument Identification:Model"
+	string readonly local 00100790
+"A string that contains the model number or name of the instrument that you are currently using.
+    "
+attribute: "Firmware Revision"
+	"Inherent IVI Attributes:Instrument Identification:Firmware Revision"
+	string readonly local 0010078E
+"A string that contains the firmware revision information for the instrument you are currently using.
+    "
+attribute: "Primary Error"
+	"Inherent IVI Attributes:Error Info:Primary Error"
+	iL readwrite local 001005F5
+"A code that describes the first error that occurred since the last call to chr617xx_GetErrorInfo on the session.  The value follows the VXIplug&play completion code conventions.  A negative value describes an error condition.  A positive value describes a warning condition and indicates that no error occurred.  A zero indicates that no error or warning occurred. The error and warning values can be status codes defined by IVI, VISA, class drivers, or specific drivers.
+    "
+attribute: "Secondary Error"
+	"Inherent IVI Attributes:Error Info:Secondary Error"
+	iL readwrite local 001005F6
+"An optional code that provides additional information concerning the primary error condition.  The error and warning values can be status codes defined by IVI, VISA, class drivers, or specific drivers.  Zero indicates no additional information.
+    "
+attribute: "Error Elaboration"
+	"Inherent IVI Attributes:Error Info:Error Elaboration"
+	string readwrite local 001005F7
+"An optional string that contains additional information concerning the primary error condition.
+    "
+attribute: "Logical Name"
+	"Inherent IVI Attributes:Advanced Session Information:Logical Name"
+	string readonly local 001006C1
+"A string containing the logical name you specified when opening the current IVI session.
+     You may pass a logical name to the chr617xx_init or chr617xx_InitWithOptions functions.  The IVI Configuration utility must contain an entry for the logical name.  The logical name entry refers to a virtual instrument section in the IVI Configuration file.  The virtual instrument section specifies a physical device and initial user options.
+    "
+attribute: "Resource Descriptor"
+	"Inherent IVI Attributes:Advanced Session Information:Resource Descriptor"
+	string readonly local 001006C0
+"Indicates the resource descriptor the driver uses to identify the physical device.
+    If you initialize the driver with a logical name, this property contains the resource descriptor that corresponds to the entry in the IVI Configuration utility.  
+    If you initialize the instrument driver with the resource descriptor, this property contains that value.
+    "
+attribute: "I/O Session Type"
+	"Inherent IVI Attributes:Advanced Session Information:I/O Session Type"
+	string readonly local 001006D4
+"Contains the type of the I/O session that this driver uses to communicate with the instrument.     "
+attribute: "ID Query Response"
+	"Miscellaneous Attributes:ID Query Response"
+	string readwrite local 00118C31
+"Returns the ID Query response string.  The instrument driver gets the value of this property when you pass TRUE for the ID Query parameter to the chr617xx_init or chr617xx_InitWithOptions function.
+    "
+attribute: "CHR617XX_ATTR_INSTR_TYPE"
+	"Miscellaneous Attributes:CHR617XX_ATTR_INSTR_TYPE"
+	bool readwrite local 00118CA5
+"61700:TRUE
+61500:FALSE
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "CHR617XX_ATTR_APPLY_FUNC_STATUS"
+	"Miscellaneous Attributes:CHR617XX_ATTR_APPLY_FUNC_STATUS"
+	bool readwrite local 00118CA4
+"VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "CHR617XX_ATTR_BAUD_RATE"
+	"Miscellaneous Attributes:CHR617XX_ATTR_BAUD_RATE"
+	iL readwrite local 00118C89
+attribute: "OPC Callback Timeout"
+	"Miscellaneous Attributes:Hidden Attributes (not user-viewable):OPC Callback Timeout"
+	iL readwrite local 00118C60
+"This property is hidden.  The driver uses this property internally to set the timeout for the OPC callback.
+    "
+attribute: "CHR617XX_ATTR_SUPPORT_2HZ"
+	"Instrument Attributes:CHR617XX_ATTR_SUPPORT_2HZ"
+	bool readwrite local 00118CA6
+"VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "Instrument couple"
+	"Instrument Attributes:Instrument couple"
+	string readwrite local 00118C32
+"Set or query instrument couple.
+
+Default: 'ALL'
+
+
+
+"
+attribute: "N/Select"
+	"Instrument Attributes:N/Select"
+	iL enum { CHR617XX_VAL_NSELECT=0, CHR617XX_VAL_SELECT=1} readwrite local 00118C33
+"Selecting phase is by number or name.
+
+Default:  CHR617XX_VAL_NSELECT    
+
+
+CHR617XX_VAL_NSELECT 0
+Selecting phase is by numbner
+
+CHR617XX_VAL_SELECT 1
+Selecting phase is by name"
+attribute: "Instrument output phase"
+	"Instrument Attributes:Instrument output phase"
+	iL enum { CHR617XX_VAL_OUTPUT1=1, CHR617XX_VAL_OUTPUT2=2, CHR617XX_VAL_OUTPUT3=3} readwrite local 00118C36
+"Storing output phase is output1,output2 or output3.
+
+Default: CHR617XX_VAL_OUTPUT1
+CHR617XX_VAL_OUTPUT1 1
+Output phase is 'output1'.
+
+CHR617XX_VAL_OUTPUT2 2
+Output phase is 'output2'.
+
+CHR617XX_VAL_OUTPUT3 3
+Output phase is 'output3'."
+attribute: "Instrument phase slave 1 and 2"
+	"Instrument Attributes:Instrument phase slave 1 and 2"
+	fD readwrite local 00118C34
+"Storing the phase shift is between 1 and 2 for the instrument.It ranges between 0 and 359.9 degree.
+
+Default: 120 degree"
+attribute: "Instrument phase slave 1 and 3"
+	"Instrument Attributes:Instrument phase slave 1 and 3"
+	fD readwrite local 00118C35
+"Storing the phase shift is between 1 and 3 for the instrument.It ranges between  0 and 359.9 degree.
+
+Default: 240 degree"
+attribute: "output state on or off"
+	"Output:output state on or off"
+	bool readwrite local 00118C3F
+"Stroe the output state of the AC source.
+
+Default: FALSE
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "output relay on or off"
+	"Output:output relay on or off"
+	bool readwrite local 00118C40
+"Store the output relay on or off. 
+
+Default: FALSE
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "ac voltgae slew rate"
+	"Output:ac voltgae slew rate"
+	fD readwrite local 00118C41
+"Store the slew rate of the AC output voltage.It ranges between 0 and 1200 V/ms.
+
+Default: 0 V/ms "
+attribute: "dc voltate slew rate "
+	"Output:dc voltate slew rate "
+	fD readwrite local 00118C42
+"Store the slewe rate of the DC composition voltage.It range between 0 and 1000 V/ms.
+
+Default: 0 V/ms"
+attribute: "voltage range"
+	"Source:voltage range"
+	string readwrite local 00118C43
+"Store the output voltage range with three options of LOW_RANGE(0) and HIGH_RANGE(1).AUTO(2)
+
+Default: "
+attribute: "current limit"
+	"Source:current limit"
+	fD readwrite local 00118C52
+"Store the rms current limit of the AC source for software protection.It ranges between 0 and maximum currnet spec. of the specific model.
+
+Default: 8 A "
+attribute: "current delay time"
+	"Source:current delay time"
+	fD readwrite local 00118C44
+"Store the delay time for triggering over current protection.It ranges between 0 and 5.0 second.
+
+Default: 0 second "
+attribute: "inrush current start time"
+	"Source:inrush current start time"
+	fD readwrite local 00118C45
+"Store the start time of the inrush current measurement.It ranges between 0 and 999.9 millisecond(ms).
+
+Default: 0 ms "
+attribute: "inrush current measure interval "
+	"Source:inrush current measure interval "
+	fD readwrite local 00118C46
+"Store the measuring interval of the inrush current measurement.It ranges between 0 and 999.9 millisecond(ms).
+
+Default: 50 ms"
+attribute: "output frequency"
+	"Source:output frequency"
+	fD readwrite local 00118C3A
+"Store the output frequency of the AC source.It ranges between 15.00 and 1200.00 Hz.
+
+Default: 60 Hz"
+attribute: "setting value of the  ac voltage "
+	"Source:setting value of the  ac voltage "
+	fD readwrite local 00118C47
+"Store the AC composition of output voltage in Volts.It ranges between 0.0 and 300.0 V.
+
+Default: 0 V
+"
+attribute: "setting value of the dc voltage"
+	"Source:setting value of the dc voltage"
+	fD readwrite local 00118C48
+"Store the DC composition of output voltage in Volts.It ranges between -424.2 amd 424.2 V.
+
+Default: 0 V"
+attribute: "ac voltage limit"
+	"Source:ac voltage limit"
+	fD readwrite local 00118C49
+"Store the setting of Vac LIMIT which will restrict the value of Vac.It ranges between 0.0 and 300.0 V.
+
+Default: 300 V"
+attribute: "dc voltage plus limit"
+	"Source:dc voltage plus limit"
+	fD readwrite local 00118C4A
+"Store the setting of Vdc LIMIT(+) which will restrict the value of Vdc.It ranges between 0.0 and 424.2 V.
+
+Default: 424.2 V"
+attribute: "dc voltage minus limit"
+	"Source:dc voltage minus limit"
+	fD readwrite local 00118C4B
+"Store the setting of Vdc LIMIT(-) which will restrict the value of Vdc.It ranges between -424.2 and 0 V.
+
+Default: 0 V"
+attribute: "change local or remote mode "
+	"Source:change local or remote mode "
+	string readwrite local 00118C51
+"Storing two mode, REMote or LOCal, can only be used under the control of RS-232C.
+
+Default: "
+attribute: "on or off external control"
+	"Configure:on or off external control"
+	string readwrite local 00118C4D
+"Enables or disables the external controlled analog signal input from external devices. The property also be used to query fouction.
+
+Default¡G'OFF' "
+attribute: "remote inhibit"
+	"Configure:remote inhibit"
+	string readwrite local 00118C4C
+"Set or query REMOTE INHIBIT state.
+
+Default¡G'OFF' "
+attribute: "AC or DC coupling mode"
+	"Configure:AC or DC coupling mode"
+	string readwrite local 00118C4E
+"Set the coupling mode to present AC source output from external V reference: AC or DC.
+
+Default¡G'AC' "
+attribute: "degree off"
+	"Phase:degree off"
+	fD readwrite local 00118C50
+"Store the transition angle of the waveform when it quit.It ranges between 0.0 and 359.9 degree.
+
+Default: 0 degree "
+attribute: "degree on"
+	"Phase:degree on"
+	fD readwrite local 00118C4F
+"Store the transition angle of the waveform when it out.It ranges between 0.0 and 359.9 degree.
+
+Default: 0 degree"
+attribute: "CHR617XX_ATTR_LIST_DWEL_TIME"
+	"LIST:CHR617XX_ATTR_LIST_DWEL_TIME"
+	string readwrite local 00118C74
+"This command sets the sequence of Dwel time of phase 3 .
+
+valid range: 0 ~ 99999999.9 unit:(ms)
+
+Default:0"
+attribute: "CHR617XX_ATTR_LIST_DWEL_TIME"
+	"LIST:CHR617XX_ATTR_LIST_DWEL_TIME"
+	string readwrite local 00118C75
+"This command sets the sequence of Dwel time of phase 2 .
+
+valid range: 0 ~ 99999999.9 unit:(ms)
+
+Default:0"
+attribute: "CHR617XX_ATTR_LIST_DWEL_TIME"
+	"LIST:CHR617XX_ATTR_LIST_DWEL_TIME"
+	string readwrite local 00118C56
+"This command sets the sequence of Dwel time of phase 1 .
+
+valid range: 0 ~ 99999999.9 unit:(ms)
+
+Default:0"
+attribute: "CHR617XX_ATTR_LIST_FREQ_START"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_START"
+	string readwrite local 00118C76
+"This command sets the sequence of start frequency list points of phase 3.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_FREQ_START"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_START"
+	string readwrite local 00118C77
+"This command sets the sequence of start frequency list points of phase 2.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_FREQ_START"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_START"
+	string readwrite local 00118C55
+"This command sets the sequence of start frequency list points of phase 1.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_FREQ_END"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_END"
+	string readwrite local 00118C78
+"This command sets the sequence of end frequency list points of phase 3.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_FREQ_END"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_END"
+	string readwrite local 00118C79
+"This command sets the sequence of end frequency list points of phase 2.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_FREQ_END"
+	"LIST:CHR617XX_ATTR_LIST_FREQ_END"
+	string readwrite local 00118C57
+"This command sets the sequence of end frequency list points of phase 1.
+
+valid range: 15.00 ~ 1000.00 (unit:Hz)
+
+Default:15 Hz"
+attribute: "CHR617XX_ATTR_LIST_VAC_START"
+	"LIST:CHR617XX_ATTR_LIST_VAC_START"
+	string readwrite local 00118C7A
+"This command sets the sequence of AC start voltage list points of phase 3.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VAC_START"
+	"LIST:CHR617XX_ATTR_LIST_VAC_START"
+	string readwrite local 00118C7B
+"This command sets the sequence of AC start voltage list points of phase 2.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VAC_START"
+	"LIST:CHR617XX_ATTR_LIST_VAC_START"
+	string readwrite local 00118C58
+"This command sets the sequence of AC start voltage list points of phase 1.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VAC_END"
+	"LIST:CHR617XX_ATTR_LIST_VAC_END"
+	string readwrite local 00118C7C
+"This command sets the sequence of AC end voltage list points of phase 3.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VAC_END"
+	"LIST:CHR617XX_ATTR_LIST_VAC_END"
+	string readwrite local 00118C7D
+"This command sets the sequence of AC end voltage list points of phase 2.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VAC_END"
+	"LIST:CHR617XX_ATTR_LIST_VAC_END"
+	string readwrite local 00118C59
+"This command sets the sequence of AC end voltage list points of phase 1.
+
+valid range: 
+
+0.0 ~ 150.0 (in low range)
+0.0 ~ 300.0 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_START"
+	"LIST:CHR617XX_ATTR_LIST_VDC_START"
+	string readwrite local 00118C7E
+"This command sets the sequence of DC start voltage list points of phase 3.
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_START"
+	"LIST:CHR617XX_ATTR_LIST_VDC_START"
+	string readwrite local 00118C7F
+"This command sets the sequence of DC start voltage list points of phase 2.
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_START"
+	"LIST:CHR617XX_ATTR_LIST_VDC_START"
+	string readwrite local 00118C5A
+"This command sets the sequence of DC start voltage list points of phase 1.
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_END"
+	"LIST:CHR617XX_ATTR_LIST_VDC_END"
+	string readwrite local 00118C80
+"This command sets the sequence of DC end voltage list points of phase 3
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_END"
+	"LIST:CHR617XX_ATTR_LIST_VDC_END"
+	string readwrite local 00118C81
+"This command sets the sequence of DC end voltage list points of phase 2.
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_VDC_END"
+	"LIST:CHR617XX_ATTR_LIST_VDC_END"
+	string readwrite local 00118C5B
+"This command sets the sequence of DC end voltage list points of phase 1.
+
+valid range: 
+
+-212.1 ~ 212.1 (in lowrange),
+-424.2 ~ 414.2 (in high range)
+
+Default:0 V"
+attribute: "CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	"LIST:CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	string readwrite local 00118C82
+"This command sets the sequence of waveform buffer list points of phase 3.
+
+0: A
+1: B
+
+Default :0 "
+attribute: "CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	"LIST:CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	string readwrite local 00118C83
+"This command sets the sequence of waveform buffer list points of phase 2 .
+
+0: A
+1: B
+
+Default :0 "
+attribute: "CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	"LIST:CHR617XX_ATTR_LIST_WAVE_SHAPE"
+	string readwrite local 00118C5C
+"This command sets the sequence of waveform buffer list points of phase 1 .
+
+0: A
+1: B
+
+Default :0 "
+attribute: "CHR617XX_ATTR_LIST_BASE"
+	"LIST:CHR617XX_ATTR_LIST_BASE"
+	bool readwrite local 00118C5D
+"This command sets time base of list.
+
+TIME: 1
+CYCLE:0
+
+Default:0 
+VI_TRUE 1
+True
+
+VI_FALSE 0
+False"
+attribute: "CHR617XX_ATTR_LIST_DEGREE"
+	"LIST:CHR617XX_ATTR_LIST_DEGREE"
+	string readwrite local 00118C84
+"This command sets the sequence of phase angle list points of phase 3.
+
+valid range: 0.0 ~ 359.9
+
+Default:0.0"
+attribute: "CHR617XX_ATTR_LIST_DEGREE"
+	"LIST:CHR617XX_ATTR_LIST_DEGREE"
+	string readwrite local 00118C85
+"This command sets the sequence of phase angle list points of phase 2.
+
+valid range: 0.0 ~ 359.9
+
+Default:0.0"
+attribute: "CHR617XX_ATTR_LIST_DEGREE"
+	"LIST:CHR617XX_ATTR_LIST_DEGREE"
+	string readwrite local 00118C5E
+"This command sets the sequence of phase angle list points of phase 1.
+
+valid range: 0.0 ~ 359.9
+
+Default:0.0"
+attribute: "CHR617XX_ATTR_LIST_COUNT"
+	"LIST:CHR617XX_ATTR_LIST_COUNT"
+	iL readwrite local 00118C86
+"This value sets the number of times of phase 3 that the list is
+executed before it is completed.
+
+valid range: 0 ~ 65535
+
+Default:0  (unlimited running sequence)"
+attribute: "CHR617XX_ATTR_LIST_COUNT"
+	"LIST:CHR617XX_ATTR_LIST_COUNT"
+	iL readwrite local 00118C87
+"This value sets the number of times of phase 2 that the list is
+executed before it is completed.
+
+valid range: 0 ~ 65535
+
+Default:0  (unlimited running sequence)"
+attribute: "CHR617XX_ATTR_LIST_COUNT"
+	"LIST:CHR617XX_ATTR_LIST_COUNT"
+	iL readwrite local 00118C5F
+"This value sets the number of times of phase 1 that the list is
+executed before it is completed.
+
+valid range: 0 ~ 65535
+
+Default:0  (unlimited running sequence)"
+attribute: "CHR617XX_ATTR_TRIG_MODE"
+	"LIST:CHR617XX_ATTR_TRIG_MODE"
+	iL enum { CHR617XX_VAL_FIXED=0, CHR617XX_VAL_LIST=1, CHR617XX_VAL_PULSE=2, CHR617XX_VAL_STEP=3, CHR617XX_VAL_INTERHAR=4} readwrite local 00118C8A
+"This command sets the operation mode for trigger on/off only.
+
+Parameters :
+ 
+FIXED  : 0  Default
+LIST   : 1
+PULSE  : 2 
+STEP   : 3 
+INTERHAR:4
+CHR617XX_VAL_FIXED 0
+
+CHR617XX_VAL_LIST 1
+
+CHR617XX_VAL_PULSE 2
+
+CHR617XX_VAL_STEP 3
+
+CHR617XX_VAL_INTERHAR 4"
+attribute: "CHR617XX_ATTR_OUTPUT_MODE"
+	"LIST:CHR617XX_ATTR_OUTPUT_MODE"
+	string readwrite local 00118C63
+"This command sets the operation mode.
+
+Parameters :
+ 
+FIXED  : 0  Default
+LIST   : 1
+PULSE  : 2 
+STEP   : 3 
+SYNTH  : 4
+INTERHAR:5"
+attribute: "CHR617XX_ATTR_TRIG_STATE_RUNTIME"
+	"LIST:CHR617XX_ATTR_TRIG_STATE_RUNTIME"
+	string readwrite local 00118C88
+"This property gets the trigger state of output .  
+
+OFF:0
+RUNNING :1"
+attribute: "CHR617XX_ATTR_TRIG_STATE"
+	"LIST:CHR617XX_ATTR_TRIG_STATE"
+	string readwrite local 00118C64
+"This command sets (operation) mode in OFF, ON execution state after setting OUTPut : MODE (operation). If users want to change the parameters, it¡¦s necessary to set TRIG OFF then OUTPut : MODE (operation). Then, set OUTPut : MODE LIST again to get ready to set TRIG ON LIST mode testting.
+
+Then sets (operation) mode in Trigger OFF ,the mode will set to FIXED mode always.
+
+
+
+Parameters :
+
+OFF :0  Default
+ON  :1"
+attribute: "CHR617XX_ATTR_LIST_COUPLE"
+	"LIST:CHR617XX_ATTR_LIST_COUPLE"
+	string readwrite local 00118C73
+"The control select 'All' mode or 'None' mode for LIST mode,explained as following: 
+
+All : set output parameter of LIST mode for all phases simultaneously. 
+None: set output parameter of LIST mode for all phases individually.
+
+None: 0
+All:  1
+
+Default:"
+attribute: "CHR617XX_ATTR_USER_Waveform_ID"
+	"TRACE:CHR617XX_ATTR_USER_Waveform_ID"
+	iL readwrite local 00118C61
+"This command sets waveform data ID of user-defined.
+
+Valid Range:1 ~ 6
+
+Default:1"
+attribute: "CHR617XX_ATTR_WAVEFORM_DATA"
+	"TRACE:CHR617XX_ATTR_WAVEFORM_DATA"
+	string readwrite local 00118C62
+"This command sets waveform data of user-defined. It
+needs 1024 data points to construct a period of waveform.
+Users have to normalize the data as the maximum point
+equal to 32767 or the minimum point equal to -32767.
+
+valid range: -32767 ~ 32767.
+Default: 0"
+attribute: "CHR617XX_ATTR_WAVEFORM_BUFFER"
+	"FUNCTION:CHR617XX_ATTR_WAVEFORM_BUFFER"
+	string readwrite local 00118C72
+"This property specifies the waveform buffer. There are
+two buffers for the output of the AC source, so the user must
+specify the contents of waveform buffer A or B of the AC
+source.
+
+A:'A' Default
+B:B
+
+"
+attribute: "CHR617XX_ATTR_A_WAVEFORM_SHAPE"
+	"FUNCTION:CHR617XX_ATTR_A_WAVEFORM_SHAPE"
+	string readwrite local 00118C71
+"This command specifies the waveform shape of waveform
+buffer A.
+
+USER:0 Default
+CSIN:1
+DST: 2
+SQUARE:3
+SIN: 4 "
+attribute: "CHR617XX_ATTR_WAVE_A_THD"
+	"FUNCTION:CHR617XX_ATTR_WAVE_A_THD"
+	fD readwrite local 00118C66
+"This property specifies the percentage of THD at which the clipped sine clips in waveform buffer A.
+
+valid range: 0.0 ~ 43
+
+Unit:%
+
+Default:0.00"
+attribute: "CHR617XX_ATTR_WAVE_A_AMP"
+	"FUNCTION:CHR617XX_ATTR_WAVE_A_AMP"
+	fD readwrite local 00118C67
+"This property specifies the percentage of peak at which the
+clipped sine clips in waveform buffer A.
+
+valid range: 0.0 ~ 100
+
+Unit:%
+
+Default:0"
+attribute: "CHR617XX_ATTR_DST_NUMBER"
+	"FUNCTION:CHR617XX_ATTR_DST_NUMBER"
+	iL readwrite local 00118C68
+"This property specifies the waveform shape of DST number of waveform buffer A .The DST value range is 1~30. 
+
+Default:1
+"
+attribute: "CHR617XX_ATTR_USER_WAVE_NUMBER"
+	"FUNCTION:CHR617XX_ATTR_USER_WAVE_NUMBER"
+	iL readwrite local 00118C69
+"This property specifies the waveform shape of USER define of waveform buffer A .The USR value range is 1~6. 
+
+Default:1
+"
+attribute: "CHR617XX_ATTR_CSIN_MODE"
+	"FUNCTION:CHR617XX_ATTR_CSIN_MODE"
+	string readwrite local 00118C6A
+"This property selects the mode of the value for the clipped
+sine in waveform buffer A.
+
+AMP:0 Default
+THD:1 "
+attribute: "CHR617XX_ATTR_SHAPE_A_B"
+	"FUNCTION:CHR617XX_ATTR_SHAPE_A_B"
+	string readwrite local 00118C6B
+"This command specifies the waveform shape of waveform
+buffer B.
+
+USER:0 Default
+CSIN:1
+DST: 2
+SQUARE:3
+SIN: 4 "
+attribute: "CHR617XX_ATTR_WAVE_A_THD"
+	"FUNCTION:CHR617XX_ATTR_WAVE_A_THD"
+	fD readwrite local 00118C6C
+"This property specifies the percentage of THD at which the clipped sine clips in waveform buffer B.
+
+valid range: 0.0 ~ 43
+
+Unit:%
+
+Default:0.00"
+attribute: "CHR617XX_ATTR_WAVE_A_AMP"
+	"FUNCTION:CHR617XX_ATTR_WAVE_A_AMP"
+	fD readwrite local 00118C6D
+"This property specifies the percentage of peak at which the
+clipped sine clips in waveform buffer B.
+
+valid range: 0.0 ~ 100
+
+Unit:%
+
+Default:0"
+attribute: "CHR617XX_ATTR_DST_NUMBER"
+	"FUNCTION:CHR617XX_ATTR_DST_NUMBER"
+	iL readwrite local 00118C6E
+"This property specifies the waveform shape of DST number of waveform buffer B .The DST value range is 1~30. 
+
+Default:1
+"
+attribute: "CHR617XX_ATTR_USER_WAVE_NUMBER"
+	"FUNCTION:CHR617XX_ATTR_USER_WAVE_NUMBER"
+	iL readwrite local 00118C6F
+"This property specifies the waveform shape of USER define of waveform buffer B .The USR value range is 1~6. 
+
+Default:1
+"
+attribute: "CHR617XX_ATTR_CSIN_MODE"
+	"FUNCTION:CHR617XX_ATTR_CSIN_MODE"
+	string readwrite local 00118C70
+"This property selects the mode of the value for the clipped
+sine in waveform buffer B
+
+AMP:0 Default
+THD:1 "
+attribute: "CHR617XX_ATTR_PULSE_AC_VOLT"
+	"PULSE:CHR617XX_ATTR_PULSE_AC_VOLT"
+	fD readwrite local 00118C8B
+attribute: "CHR617XX_ATTR_PULSE_DC_VOLT"
+	"PULSE:CHR617XX_ATTR_PULSE_DC_VOLT"
+	fD readwrite local 00118C8D
+attribute: "CHR617XX_ATTR_PULSE_FREQUENCY"
+	"PULSE:CHR617XX_ATTR_PULSE_FREQUENCY"
+	fD readwrite local 00118C8E
+attribute: "CHR617XX_ATTR_PULSE_SHAPE"
+	"PULSE:CHR617XX_ATTR_PULSE_SHAPE"
+	string readwrite local 00118C90
+attribute: "CHR617XX_ATTR_PULSE_START_PHASE_ANGLE"
+	"PULSE:CHR617XX_ATTR_PULSE_START_PHASE_ANGLE"
+	fD readwrite local 00118C92
+attribute: "CHR617XX_ATTR_PULSE_COUNT"
+	"PULSE:CHR617XX_ATTR_PULSE_COUNT"
+	iL readwrite local 00118C94
+attribute: "CHR617XX_ATTR_PULSE_DUTY_CYCLE"
+	"PULSE:CHR617XX_ATTR_PULSE_DUTY_CYCLE"
+	fD readwrite local 00118C96
+attribute: "CHR617XX_ATTR_PULSE_PERIOD"
+	"PULSE:CHR617XX_ATTR_PULSE_PERIOD"
+	fD readwrite local 00118C9B
+attribute: "CHR617XX_ATTR_STEP_DC_VOLT"
+	"STEP:CHR617XX_ATTR_STEP_DC_VOLT"
+	fD readwrite local 00118CA0
+attribute: "CHR617XX_ATTR_STEP_AC_VOLT"
+	"STEP:CHR617XX_ATTR_STEP_AC_VOLT"
+	fD readwrite local 00118C8C
+attribute: "CHR617XX_ATTR_STEP_FREQUENCY"
+	"STEP:CHR617XX_ATTR_STEP_FREQUENCY"
+	fD readwrite local 00118C8F
+attribute: "CHR617XX_ATTR_STEP_SHAPE"
+	"STEP:CHR617XX_ATTR_STEP_SHAPE"
+	string readwrite local 00118C91
+attribute: "CHR617XX_ATTR_STEP_START_PHASE_ANGLE"
+	"STEP:CHR617XX_ATTR_STEP_START_PHASE_ANGLE"
+	fD readwrite local 00118C93
+attribute: "CHR617XX_ATTR_STEP_COUNT"
+	"STEP:CHR617XX_ATTR_STEP_COUNT"
+	iL readwrite local 00118C95
+attribute: "CHR617XX_ATTR_STEP_DELTA_VAC"
+	"STEP:CHR617XX_ATTR_STEP_DELTA_VAC"
+	fD readwrite local 00118C97
+attribute: "CHR617XX_ATTR_STEP_DELTA_VDC"
+	"STEP:CHR617XX_ATTR_STEP_DELTA_VDC"
+	fD readwrite local 00118C98
+attribute: "CHR617XX_ATTR_STEP_DELTA_FREQ"
+	"STEP:CHR617XX_ATTR_STEP_DELTA_FREQ"
+	fD readwrite local 00118C99
+attribute: "CHR617XX_ATTR_STEP_DWELL_TIME"
+	"STEP:CHR617XX_ATTR_STEP_DWELL_TIME"
+	fD readwrite local 00118C9A
+attribute: "CHR617XX_ATTR_INTERHARM_END_FREQ"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_END_FREQ"
+	fD readwrite local 00118C9C
+attribute: "CHR617XX_ATTR_INTERHARM_START_FREQ"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_START_FREQ"
+	fD readwrite local 00118C9D
+attribute: "CHR617XX_ATTR_INTERHARM_DWELL"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_DWELL"
+	fD readwrite local 00118CA3
+attribute: "CHR617XX_ATTR_INTERHARM_LEVEL"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_LEVEL"
+	fD readwrite local 00118C9E
+attribute: "CHR617XX_ATTR_INTERHARM_MODE"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_MODE"
+	string readwrite local 00118C9F
+attribute: "CHR617XX_ATTR_INTERHARM_TRIG_STATE"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_TRIG_STATE"
+	string readwrite local 00118CA1
+attribute: "CHR617XX_ATTR_INTERHARM_TRIG_STATE_RUNTIME"
+	"INTERHARMONIC:CHR617XX_ATTR_INTERHARM_TRIG_STATE_RUNTIME"
+	string readwrite local 00118CA2

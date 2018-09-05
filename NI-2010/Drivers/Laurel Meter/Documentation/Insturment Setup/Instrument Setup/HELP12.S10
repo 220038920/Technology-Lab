@@ -1,0 +1,1340 @@
+                                     $SETPOINT$
+  The $Setpoint$ is the numeric value, to which the appropriate 
+  reading is compared, to determine if the Alarm should be made 
+  active.  There are two (or four) Setpoints and a separate $Source
+  Item$ may be selected for each.  The $Source Item$ selections are:
+     $Filtered Item$
+     $Item #1$
+     $Item #2$    Note: $Source Items$ 2 or 3 may not exist for 
+     $Item #3$             some Modes and Functions.
+  The $Setpoint$ value uses either $Decimal Pt 1 or 2$ depending on
+  the $Source Item$ selection.  A comparison of the reading to the
+  $Setpoint$ is made each reading.  If the reading is equal to or
+  above the $Setpoint$ for an active high alarm, or equal to or below
+  the $Setpoint$ for an active low alarm, that reading is considered
+  to be an Alarm reading.  This assumes that the $Deviation$ value
+  is zero (See $Deviation$ Help for the effect of non-zero values). 
+  When there has been a number of consecutive Alarm readings equal 
+  to or greater than the $No. Rdgs to Alarm$ selection, the Alarm is
+  made active and the associated Relay is either energized or 
+  de-energized depending on the $Relay Alarm State$ selection.
+
+  The sign of the values is considered when comparing the reading to
+  the $Setpoint$.  A value of -10 is above (or greater) than -20.
+                                           $DEVIATION$
+
+  When the $Deviation$ is set to $zero$, the $Setpoint$ is the numeric value 
+  to which the appropriate reading is compared to determine if the Alarm 
+  should be made active.  A comparison of the reading to the $Setpoint$ is 
+  made each reading.  If the reading is equal to or above the $Setpoint$ 
+  for an $Active High$ state, or equal to or below the $Setpoint$ for an 
+  $Active Low$ state, that reading is considered to be an Alarm reading. 
+
+  When the $Deviation$ is set to a $non-zero$ value, the following applies:  
+  $Active$     Alarm Active                       Alarm Active
+   $State$       $Band$                               $Hysteresis$
+  --------   ---------------------------------------   --------------------------------------
+  $High$                                             If Alarm not on,
+           Reading >= Setpt + Deviation     Reading >= Setpt + Deviation  
+           Reading <= Setpt - Deviation   If Alarm on,
+                                                          Reading > Setpt - Deviation
+
+  $Low$                                              If Alarm not on,
+           Reading <= Setpt + Deviation     Reading <= Setpt - Deviation
+           Reading >= Setpt - Deviation   If Alarm on,
+                                                          Reading < Setpt + Deviation
+
+  There are two (or four) $Setpoints$ each with an associated 
+  $Deviation$.  The $Deviation$ is always entered as a positive value.
+  When there have been a number of consecutive Alarm readings equal to
+  or greater than the $No. Rdgs to Alarm$ selection, the Alarm is made
+  active and the associated Relay is either energized or de-energized 
+  depending on the $Relay Alarm State$ selection.
+                                  $ALARM SOURCE$
+
+  The $Setpoint$ is the numeric value to which the appropriate 
+  reading is compared to determine if the Alarm should be made 
+  active.  There are two (or four) Setpoints, each with an associated
+  $Source$.  The $Source$ designates which $Item$ (or reading)
+  is to be compared to the $Setpoint$.
+  The $Source$ selections are:
+     $Filtered Item$
+     $Item #1$
+     $Item #2$        
+     $Item #3$       
+
+  A $Filtered Item$ does not exist for all Modes and Functions such
+  as the $Stopwatch$ Mode or the all-$Total$ Functions.  Also $Item 2$
+  may not exist for some Modes and Functions such as $A Only$.  
+  $Item 3$ rarely exists (only for $Batch$ and $Arithmetic$ Functions).
+  
+  The $Source$ selection is based on which reading Item is to be 
+  associated with an Alarm function.
+
+  Because a Remote Value may be sent to Item 3 for Alarm comparison,
+  no restriction is placed on the $Source$ selection and it is up to
+  the user to make a viable Item selection.
+                                           $ALARM STATE$
+
+  When the $Deviation$ is set to $zero$, the $Setpoint$ is the numeric value to
+  which the appropriate reading is compared to determine if the Alarm 
+  should be made active.  A comparison of the reading to the $Setpoint$ is 
+  made each reading.  If the reading is equal to or above the $Setpoint$ 
+  for an $Active High$ state, or equal to or below the $Setpoint$ for an 
+  $Active Low$ state, that reading is considered to be an Alarm reading. 
+
+  $Active$     Alarm Active                       Alarm Active
+   $State$       $Band$                               $Hysteresis$
+  --------   ---------------------------------------   --------------------------------------
+  $High$                                             If Alarm not on,
+           Reading >= Setpt + Deviation     Reading >= Setpt + Deviation  
+           Reading <= Setpt - Deviation   If Alarm on,
+                                                          Reading > Setpt - Deviation
+
+  $Low$                                              If Alarm not on,
+           Reading <= Setpt + Deviation     Reading <= Setpt - Deviation
+           Reading >= Setpt - Deviation   If Alarm on,
+                                                          Reading < Setpt + Deviation
+
+  There are 3 selections for the $Alarm State$.
+    $Active High$  - Reading above $Setpoint$, outside $Deviation Band$ or
+                               above $Hysteresis Values$.
+    $Active Low$  - Reading below $Setpoint$, inside $Deviation Band$ or
+                               below $Hysteresis Values$.
+    $Disabled$      - Alarm never Active.
+                                  $RELAY ALARM STATE$
+
+  When an Alarm becomes Active, the associated Relay becomes either
+  $Energized (On)$ or $De-energized (Off)$, depending on the $Relay 
+  Alarm State$ selection.  This choice is made available to accommodate 
+  the desired Relay circuit when the Counter power is off.  For example,
+  if the Normally Open Relay contacts are in series with the power
+  to a pump controlling fluid flow and the power to the Counter is 
+  lost, the pump will turn off.  If the Alarm Setpoint is compared
+  to the flowmeter rate, and the rate exceeds the Setpoint, the pump
+  is to be turned off.  Therefore, it is desirable to make the $Relay
+  Alarm State$ be $De-energized (Off)$ to satisfy both of these 
+  requirements.  Another way would be to make the $Alarm State$ be 
+  $Active Low$ and the $Relay Alarm State$ be $Energized (On)$.
+
+  The $Relay Alarm State$ selections are:
+    $Energized (On)$      - The Relay energizes when the Alarm becomes 
+                               Active.
+    $De-energized (Off)$ - The Relay de-energizes when the Alarm becomes
+                               Active.
+                                          $ALARM TYPE$
+
+  The two $Alarm Types$ are $Non-Latching$ and $Latching$.
+     $Non-Latching$ - The Relay Energizes (or De-Energizes depending
+                      on the $Relay Alarm State$) when the Alarm 
+                      becomes Active and De-energizes (or Energizes)
+                      when the Alarm is no longer Active.
+     $Latching$     - The Relay Energizes (or De-Energizes depending
+                      on the $Relay Alarm State$) when the Alarm
+                      becomes Active and remains Energized (or
+                      De-energized) regardless of the Alarm state.
+                      The Relay De-energizes (or Energizes) when 
+                      Reset while the Alarm is not Active.
+
+  The $Latched$ condition is Reset by one of the following:
+     1. Resetting the Meter from the Front Panel.
+     2. Holding down the Reset button and pushing the Alarm button 
+     3. Grounding the External Input with Meter Reset or Function Reset
+        selected 
+     4. Sending a $C2$ Serial Communications command.
+
+
+                                  $NO. RDGS TO ALARM$
+
+  For the Alarm to become Active, it is necessary for a number of
+  $consective$ readings to be Alarm readings, that is, to satisfy the
+  $Setpoint$ alarm comparison.  This feature provides some Alarm
+  filtering, so that one or two noisy readings do not set off the 
+  Alarm.  The $No. of Readings to Alarm$ selection provides values
+  in binary steps as follows:
+    $  1$ - No Alarm filtering action
+    $  2$ 
+    $  4$
+    $  8$
+    $ 16$
+    $ 32$
+    $ 64$
+    $128$ - Maximum Alarm filtering action
+
+  The Alarm becomes Inactive if one reading fails to be an Alarm
+  reading, and the consecutive Alarm readings counter resets to zero.
+                                          $DEVIATION TYPE$
+
+  When the $Deviation$ is set to a $non-zero$ value, the Alarm mode of
+  operation depends on the $Deviation Type$ selection of either $Band$ or
+  $Hysteresis$.  If $Band$ is selected, the Alarm condition is active for
+  readings outside the band of Setpoint +- Deviation when the Active High
+  Alarm state is selected.  The Alarm condition is inactive within the
+  band.  If $Hysteresis$ is selected, the Alarm condition becomes active
+  when the readings exceed the Setpoint + Deviation and remains active
+  until the readings fall below the Setpoint - Deviation value.  
+  When the $Deviation$ is set to $zero$, there is no $Band$ or $Hysteresis$.
+  
+  $Active$     Alarm Active                       Alarm Active
+   $State$       $Band$                               $Hysteresis$
+  --------   ---------------------------------------   --------------------------------------
+  $High$                                             If Alarm not on,
+           Reading >= Setpt + Deviation     Reading >= Setpt + Deviation  
+           Reading <= Setpt - Deviation   If Alarm on,
+                                                          Reading > Setpt - Deviation
+
+  $Low$                                              If Alarm not on,
+           Reading <= Setpt + Deviation     Reading <= Setpt - Deviation
+           Reading >= Setpt - Deviation   If Alarm on,
+                                                          Reading < Setpt + Deviation
+
+  There are two $Setpoints$, 1 and 2, each with an associated 
+  $Deviation$ 1 and 2.  The $Deviation$ is always entered as a 
+  positive value.
+
+  $Deviation Type 1$ = $Band$ or $Hysteresis$
+  $Deviation Type 2$ = $Band$ or $Hysteresis$
+   
+                                     $CONTROL INPUTS$
+
+  There are two Control Inputs ($Control In A$, $Control In B$) and six 
+  functions for them to control so the functions are divided into pairs 
+  that may be selected by the user.  The functions are:
+    $Meter Reset$    - Performs a power-on Reset of the Counter.
+    $Function Reset$ - Resets the auxiliary functions such as 
+                       Peak Value, Relay Latching and Batch Cycle.
+                       Any Total values are Reset to zero.
+    $Hold$           - Prevents the display and outputs from updating 
+                       but allows the Counter to continue measurements 
+                       and the Total to continue totalizing.
+    $Peak or Valley$ - Causes either the Peak or Valley Value to be 
+                       displayed, as determined by the Peak Button Action
+                       selection. The Display value does not blink.  It 
+                       does blink when initiated by the front panel.
+    $External Gate$  - Whenever this is selected as one of the two 
+                       control functions, the internal gate determined
+                       by $GateTime$ is disabled and the $External Gate$
+                       is enabled.  It is polled every 3.3 mS and the
+                       gate is armed when ground is not detected and disarmed
+                       when it is detected.  The actual gate opens and
+                       closes on the transitions of the input signal(s). 
+    $Display Blank$ -  Blanks the display.  The counter continues normal
+                       operation.
+    $Displayed Item$-  Ground on $Control In A$ displays Item 2. Ground on 
+                       $Control In B$ displays Item 3.  Ground on neither 
+                       or both displays Item 1.   
+    If $both$ Control Inputs are activated (grounded) simultaneously, either
+    a Meter Reset or a Function (Peak,Valley,Totals) Reset is performed
+    depending on the pair selection.
+                                      $CALIBRATION$
+
+  Software $Calibration$ of the crystal is available by entering a
+  correction factor that is applied to the measurement to provide
+  the same reading that a precise crystal would produce.  This 
+  bipolar correction value is entered in $parts per million$.  For
+  example, if the input calibration signal is 1.000000 MHz and the
+  reading is 1.000100 then it is reading 100 $parts per million$
+  high, so the correction value to be entered would be -100.  The
+  correction can be calculated with the formula:
+
+                                   Calibration Signal - Reading
+  Calibration Value = -----------------------------------     X 1,000,000 PPM
+                                         Calibration Signal
+
+  $Calibration$ is set equal to the calculated "Calibration Value".
+  
+  Since the Counter display only has 6-digit resolution, it cannot 
+  directly display 1.000100 in the example above.  Hence, the
+  reading is scaled to read 900000 Hz regardless of the input
+  frequency and the calibration calculation made for this value.
+                                       $BAUD RATE$
+
+  There are six $Baud Rates$ from which to choose.  The $Baud Rate$ 
+  selected must match the $Baud Rate$ of the Computer or other 
+  device communicating with the Counter.  Normally, it is best to
+  use a high $Baud Rate$ to minimize the communication time.  A
+  good choice to start with is 9600 Baud.  The choices are:
+      $  300 Baud$
+      $  600$
+      $ 1200$
+      $ 2400$
+      $ 4800$
+      $ 9600$
+      $19200$
+                                      $ADDRESS$
+
+  When the Counter contains an RS-485 Serial Communication option
+  board, it may be used in a Multi-drop configuration where multiple
+  Counters are connected in parallel on the RS-485 Communications 
+  bus.  When operating in the Multi-drop configuration, the Counters
+  must be configured for the Command mode as opposed to the 
+  Continuous mode which would result in bus contention.  In the 
+  Command mode, each Counter is Commanded, one at a time, to send 
+  data.  This way, there is no bus contention.  In order to Command
+  a particular Counter, it is assigned a unique address, to which
+  only that Counter responds.  That address is part of the Command
+  sequence that is sent to all of the Counters in parallel.  Only
+  the Counter that recognizes the address as its own, responds. 
+  In order to limit the Communication protocols, the same addressed
+  command is used in a point-to-point configuration where there is
+  only one Counter, either RS-485 or RS-232 (where only one is 
+  allowed).  A special significance is given to Address 0.  All
+  Counters respond to a command with that address even though their
+  assigned address may be different.  However, they do not send any
+  data on the bus because that would result in contention.  
+  Including Address 0, there are 32 Addresses available.  They are
+  coded as follows:
+    $Address  0-15$ = 0-9,A,b,C,d,E,F
+    $Address 16-31$ = 0$.$-9$.$,A$.$,b$.$,C$.$,d$.$,E$.$,F$.$
+
+     
+                                     $OUTPUT ITEMS$
+
+  One of the common applications for Serial Communications is for
+  the Counter to send the values of its readings to a Computer
+  for analysis or control.  In the Continuous Mode, the Counter
+  sends these values without interruption.  In the Command Mode, 
+  they are sent when requested.  In either Mode, the Counter may be
+  configured by the $Output Items$ selection to send the particular
+  values desired.  The Counter may generate from one to three 
+  (depending on the selected Mode & Function) calculated values or 
+  $Items$ plus a Peak value for every measurement cycle.  A single
+  value or multiple values may be selected under $Output Items$ and
+  sent as a single string of values each cycle.
+  
+  The selections to be sent each measurement cycle are:
+    $All Active Items$ - All the $Items$ generated (1 to 3) are sent.
+    $Item #1 Only$     - Only $Item 1$ is sent (always generated)
+    $Item #2 Only$     - Only $Item 2$ is sent (if generated)
+    $Item #3 Only$     - Only $Item 3$ is sent (if generated)
+    $Peak Value$       - Only the $Peak Value$ is sent (if generated)
+    $All Items + Peak$ - All the $Items$ generated plus the $Peak Value$
+                            are sent.
+                                   $OUTPUT FILTER$
+
+  If one of the $Items$ selected to be sent by the Counter over
+  the Serial Communications is also the $Item$ that is available
+  with both unfiltered and filtered values, the desired $Output
+  Value$ is selected here.
+    $Unfiltered$ - Only the unfiltered value of the $Item$ is sent.
+    $Filtered$   - Only the filtered value of $Item$ is sent.
+ 
+                                      $OUTPUT RATE$
+
+  When the Counter, with Serial Communications installed, is in the
+  Continuous Mode, it can send the selected output string of data
+  every measurement cycle if the $Output Rate$ is so selected.  If 
+  the Counter is ready to make the next reading before the transmission
+  of data for the previous reading is complete, the Counter will wait 
+  for the completion before beginning the next measurement.  The time 
+  to send a complete data string is determined by:
+    (1) the length of the string, or how many values are being sent,
+    (2) the baud rate, or how long does it take to send each character,
+  For example, assume $Items 1 & 2$ are being sent at 2400 Baud.
+     The string is 18 characters (+111.111+222.222A<cr>) 
+     Each character is 10 bits (Start bit, 8 Data bits, 1 Stop bit)
+     Total Time = 18 * 10 * (1/2400) = .075 seconds = 75 milliseconds.
+     If the measurement cycle of Gate Time + Calculation Time (about
+     20-40 mS) is greater than 75 mS, the reading rate will not be
+     affected, if it is less, it will.
+  If affected, the reading rate can be improved by selecting a lower
+  $Output Rate$.  This is the $Output Rate$ selection.
+    $Reading Rate$
+    $Reading Rate/2$
+       Decreasing in Rate in binary steps to
+    $Reading Rate/256$
+   
+ 
+                                       $OUTPUT MODE$
+
+  One of the common applications for Serial Communications is for
+  the Counter to send the values of its readings to a Computer
+  for analysis or control.  In the Continuous Mode, the Counter
+  sends these values without interruption, while in the Command Mode, 
+  they are sent when requested.  In either Mode, the $Output Items$
+  selection determines the $Items$ to be sent.
+  
+  The $Output Mode$ selection is:
+    $Continuous$ - Output values are sent continuously. Commands
+                     cannot be received by the Counter.
+    $Command$    - Output values are sent on Command.  Any Commands
+                     can be received in this Mode.
+
+  If it is desired to send Commands to a Counter that is currently in
+  the Continuous mode, it is necessary to first change the Counter to
+  the Command mode.  This is done with the $A1$ Command which is the
+  only Command that is reliably received by a Counter in the Continuous 
+  mode.  The $A1$ Command should also be sent if the $Output Mode$ is 
+  unknown.  To return the Counter to the Continuous mode, use the
+  $A0$ Command.
+
+
+                                      $INCL ALARM DATA$
+
+  The output values sent by the Counter over Serial Communications 
+  may contain only one $Item$ or up to three $Items$ plus the $Peak 
+  Value$.  If selected under $Include Alarm Data$, a single character 
+  is added to the end of the string (before the Carriage Return) to 
+  convey Alarm, Overload and Zero Blanking information.  This table 
+  identifies the ASCII Alarm character associated with all combinations.
+             
+                                      Zero Blanking             No Zero Blanking
+                            ---------------------------------     ------------------------------  
+                            No overload   Overload    No overload   Overload
+                            ----------------   -------------   ----------------    -------------
+  Neither Alarm set         A                 E                I                  M
+  Alarm 1 set only           B                 F               J                  N
+  Alarm 2 set only           C                G                K                 O
+  Both Alarms set            D                H                L                  P
+
+  For example, a coded character "G" indicates Alarm 2 only is set, the
+  displayed $Item$ is in the overload condition and there is zero blanking.
+
+  The selection is:
+    $No Alarm Data$   - The coded Alarm character is omitted.
+    $Incl Alarm Data$ - The coded Alarm character is included.
+                                      $INCLUDE LF$
+
+  The output values sent by the Counter over the Serial Communications 
+  may contain only one $Item$ or up to three $Items$ plus the $Peak 
+  Value$.  These values are followed by an optional coded Alarm 
+  character and then by a $Carriage Return$.  If selected as an option, 
+  the $Carriage Return$ is followed by a $Line Feed$.
+  
+  The selection is:
+    $No Line Feed$   - No $Line Feed$ character is included.  The 
+                          $Carriage Return$ is the last character 
+                          in the string.
+    $Incl Line Feed$ - A $Line Feed$ character is added to the end
+                          of the data string following the $Carriage
+                          Return$.
+                                           $CR(LF)$
+
+  The output values sent by the Counter over Serial Communications 
+  may contain only one value or up to three $Items$ plus the $Peak 
+  Value$ (plus the $Valley Value$ if a Series 2 Meter).  These Values
+  are followed by an optional coded Alarm character and then by a 
+  $Carriage Return$ and an optional $Line Feed$.  If the data goes 
+  to a printer with this format, all of the Values print in a 
+  continuous line across the page.  
+  As an alternate, $CR(LF)$ may be selected to be added after $each$ 
+  Value, where there is more than one, and the printout will contain
+  only one Value per line.  If the coded $Alarm$ character is 
+  included, it appears only once with the final Value in the string.
+ 
+  The selection is:
+    $At End of All$  - All Values print in a line.
+    $At End of Each$ - Add a $CR(LF)$ after each value so there is
+                         only one Value per line.
+
+                                          $RTS TYPE$
+
+  When using Serial Communications with an RS-232 option board,
+  handshaking can be accomplished with either the XON, XOFF method
+  or the RTS line.  If the RTS line is used, it may use $Non-Latching$ 
+  or $Latching$ RTS detection.  The choice of $RTS Type$ is made here 
+  and the selection is:
+  
+  $Non-Latching$  
+     Data is transmitted only while the RTS line is high.
+     If it goes from high to low, any byte being transmitted is
+     completed, but no new bytes are transmitted.  When the RTS line
+     goes high again, the message is completed.  No new readings are
+     made until the message is complete.  However, to prevent a
+     possible lockup condition, there is a 1 second timeout after 
+     which the message is terminated, whether complete or not. 
+    
+  $Latching$  
+     With Latching control, the RTS input is polled every 
+     3.3 mS and when a high level is detected, RTS is latched true, 
+     even though the RTS line goes low immediately.  After each
+     reading, the Latched RTS value is checked and if it is true, the
+     the complete message is transmitted regardless of the state of the
+     RTS line.  Thus, a positive pulse > 3.3 mS may serve as a print 
+     command.
+                                     $ANALOG RANGE$
+
+  The Analog Output option contains a choice of two output
+  circuits, $Current$ and $Voltage$.  The $Current$ output ranges
+  are from 0 to 20 mA or 4 to 20 mA and the $Voltage$ output range
+  is from 0 to 10 Volts. The Bipolar Analog Output option adds a
+  -10 Volts to +10 Volts range.  The desired $Analog Range$ must be 
+  selected here to ensure that the proper Calibration Constants are 
+  applied during Meter Reset.
+  The selection is:
+    $Current$ - 0 to 20 mA Output
+    $Voltage$ - 0 to 10 Volts Output
+    $Current$ - 4 to 20 mA Output
+    $Voltage$ - -10 Volts to +10 Volts (Bipolar Analog Output only)
+
+  The same applies to each channel of the Dual Analog Output board
+  except the -10 Volts to +10 Volts range is not available for 
+  either channel.  The Dual Analog Output option board is available
+  only with the Panel Counter.
+                                        $SOURCE$
+
+  The $Analog Output$ Scale and Offset is determined by the 
+  $Low Reading$ measurement value to produce the low end of the 
+  Analog Output range and the $High Reading$ measurement value to
+  produce the high end of the Analog Output range.  The $Source$ 
+  designates which $Item$ measurement value will be Scaled and 
+  applied to the $Analog Output$.
+
+  The $Source$ selections are:
+     $Filtered Item$
+     $Item #1$
+     $Item #2$        
+     $Item #3$       
+
+  A $Filtered Item$ does not exist for all Modes and Functions such
+  as the $Stopwatch$ Mode or all-$Total$ Functions.  Also $Item 2$
+  may not exist for some Modes and Functions such as $A Only$.  
+  $Item 3$ rarely exists (only for $Batch$ and $Arithmetic$ Functions).
+  However, $Item 3$ is the only $Source$ selection for all of the 
+  Remote Display modes.
+
+  Likewise, all of the above applies to the second channel of the 
+  Dual Analog Output board as well.
+
+
+  
+                       $LO RANGE READING, HI RANGE READING$
+
+  The $Analog Output$ Scale and Offset is determined by the 
+  desired $Lo Range Reading$ display value to produce the low 
+  end of the Analog Output range and the desired 
+  $Hi Range Reading$ display value to produce the high end of 
+  the Analog Output range. 
+
+  The $Lo Range Reading$ value to be entered is the desired 
+  display reading of the selected $Source$ when the $Analog Output$
+  is at the low end of it's selected range.  For the $Voltage$ 
+  output, the low end of the range is 0 (-10V for Bipolar).  For
+  the $Current$ output, it is either 0 or 4 mA.  So enter, as 
+  the $Lo Range Reading$ value, the desired Meter reading that
+  is to produce the low end of the Analog Output range.
+
+  Likewise, the $Hi Range Reading$ value to be entered is the 
+  desired display reading of the selected $Source$ when the 
+  $Analog Output$ is at the high end of its range.  For the 
+  $Voltage$ output, the high end of the range is 10 Volts.  
+  For the $Current$ output it is 20 mA.  So enter, as the 
+  $Hi Range Reading$ value, the desired Meter reading that is
+  to produce the high end of the Analog Output range.
+    
+1224
+                                    $INPUT TYPE LOCKOUT$
+
+  If the $Input Type$ checkbox is checked, no changes can be made
+  to the selected Mode and Function.
+                         $SETUP,CONFIG, DSPYNO LOCKOUT$
+
+  The following Front Panel Menu Setup items are combined and locked 
+  out as a group. 
+    $SEtuP$
+        Restore Totals upon Reset
+        Display Leading Zeros
+        Scale1, Scale2 Method
+        External Inputs
+    $ConFiG$
+        Display Mode
+        Basic/Extended/Custom Curve
+        Square Root
+        VF Batch Allow all Values    
+    $dSPyno$
+        Peak Button Action
+        Display Item on Reset
+
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                    $GATETIME, TIMEOUT, BATCH, PULSES, CUTOFF$
+
+  Due to the large number of Setup parameters in the Counter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+    $GAtE_t$ = GateTime
+    $ti_Out$ = TimeOut
+    $ bAtCH$ = Batch Setup
+    $Pulses$ = Pulses per revolution (Quadrature zero index correction)
+    $CutoFF$ = Value below which Total is not affected (VF Batch, Atot)
+    $Preset$ = Value that causes totals to reset to 0 and start over
+
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                         $FILTER$
+
+  If this checkbox is checked, the $Filter$ parameters are locked
+  out from being changed.  The Front Panel Menu item is $FiLtEr$.
+                                     $SLOPE,DP LOCKOUT$
+
+  The following Front Panel Menu Setup items are combined and locked 
+  out as a group. 
+    $SLOPE$
+    $DEC.Pt1$
+    $DEC.Pt2$
+
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+                                   $SCALE, OFFSET, COORDS$
+
+  Due to the large number of Setup parameters in the Counter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+     $SCALE1$
+     $OFFSt1$
+     $Lo_In1$
+     $Lo_rd1$
+     $Hi_In1$
+     $Hi_rd1$
+     $SCALE2$
+     $OFFSt2$
+     $Lo_In2$
+     $Lo_rd2$
+     $Hi_In2$
+     $Hi_rd2$
+     $rESoLn$
+     $rd0_In$     
+
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                      $ALARM SOURCE, SETUP, DEVIATION$
+
+  If this checkbox is checked, the $Alarm Setup$ parameters are 
+  locked out from being changed.  The Front Panel Menu items are 
+  $SourcE$, $AL_SEt$, $DEVn1x$, $DEVn2x$.
+
+  The $Alarm Setup$ parameters affected are:
+    $Deviation,Hysteresis$
+    $Alarm Source$
+    $Alarm State$
+    $Relay Alarm State$
+    $Alarm Type$
+    $No. Rdgs to Alarm$
+    $Indicator$
+    $Deviation in Menu$
+
+                                     $ALARM SETPOINTS$
+
+  If this checkbox is checked, the $Alarm Setpoint$ values are
+  locked out from being changed.  However, the $Setpoints$, if
+  not separately locked out, still can be viewed by pressing 
+  the Front Panel Alarm button.
+
+  The parameters affected are:
+    $Setpoint 1$
+    $Setpoint 2$
+                                       $ANALOG OUTPUT$
+
+  If this checkbox is checked, the $Analog Output$ parameters are
+  locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $An_SEt$ = $Analog Circuit$, $Analog Source$
+    $_An_Lo$ 
+    $_An_Hi$
+
+                                  $SERIAL COMMUNICATIONS$
+
+  If this checkbox is checked, the $Serial Communication$ parameters
+  are locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $_SEr_1$ 
+         Output Value (Filtered or Non-filtered)
+         Baud Rate
+         Output Rate
+    $_SEr_2$ 
+         Include LF
+         Include Alarm Data
+         Output Mode (Command, Continuous)         
+         Meter Address (Custom ASCII Protocol)
+    $_Ser_3$ 
+         Full/Half Duplex
+         Custom Recognition Character, Special Start & Stop Characters
+         RTS Type (Latching, Non-Latching)
+         Termination Characters (End of each item, End of all items only)
+         Output Items
+    $_Ser_4$ (Series 2 Only)
+         Modbus ASCII Timeout
+         Protocol
+         Modbus Parity
+
+                                        $CALIBRATION$
+
+  If this checkbox is checked, the $Calibration$ value is locked
+  out from being changed.  The Front Panel Menu item is $_CALib$.
+
+                                  $CHANGE DISPLAY ITEM #$
+
+  If this checkbox is checked, the $Display Item #$ cannot be
+  changed by the Front Panel $Reset$ button.  This locks out any
+  change to the $Item #$ being displayed and prevents the display
+  from being accidentally switched to $Item$ other than Item #1.
+ 
+
+
+                                  $PEAK BUTTON ACTION$
+
+  If this checkbox is checked, the $Peak Button$ is disabled.
+  This prevents the $Peak and Valley Values$ from being displayed
+  and mistaken for an $Item$ value.  
+  
+  
+                                      $VIEW SETPOINTS$
+
+  If this checkbox is checked, the $Setpoints$ cannot be viewed.
+  This prevents the $Setpoints$ from being mistaken for an $Item$
+  value.  If the $Setpoints$ cannot be viewed, they cannot be 
+  changed either.  This lockout forces the $Alarm Setpoints$ lockout.
+
+
+                           $FRONT PANEL FUNCTION RESETS$
+
+  If the checkbox is checked, the following Front Panel Function
+  Resets are inoperative:
+    $Peak and Valley Values$
+    $Latched Alarms$
+    $Totals$
+
+                           $FRONT PANEL CTR RESET$
+
+  If the checkbox is checked, the main $Front Panel Reset$ that
+  corresponds to the Power-On Reset is made inoperative.
+
+                                $LOCKOUT JUMPER$
+
+  The $Lockout Jumper$, when installed on the Power Supply board, 
+  prevents all Menu lockouts from being changed.  With the
+  $Lockout Jumper$ removed, set the lockout status of each Menu 
+  item with the front panel Menu lockouts, Loc 1 to Loc 4.
+  Then install the $Lockout Jumper$ on the Power Supply board.
+  This prevents the operator from obtaining access to those Menu
+  items that have been locked out without first removing the 
+  $Lockout Jumper$ from the Power Supply board and then
+  unlocking each one with Loc 1 to Loc 4.
+
+                                $RECOGNITION CHARACTER$
+
+  The first character of a command string to the Counter via Serial
+  Communications must be a $Recognition Character$.  This is the
+  character for which the Counter continually searches to indicate
+  the beginning of a Command.  The $Standard$ character is an asterisk,
+  "*".  This is the character that is built into the Counter program
+  and all Laurel application software.  However, to allow the Counter
+  to be used with other software, a $Custom Recognition Character$
+  may be programmed into the non-volatile memory of the Counter.  
+  Then, if the $Custom$ character that has been programmed into the
+  Counter is selected to be used, the Counter waits for either that 
+  character or the $Standard$ asterisk to indicate the beginning of a
+  Command.
+
+  The $Recognition Character$ selection is:
+    $Standard '*'$  -  An asterisk is used as the Recognition Character
+    $Custom   '  '$  -  The Custom Recognition Character is also used.
+                                 $CUSTOM RECOGNITION CHARACTER$
+
+  The first character of a command string to the Counter via Serial
+  Communications must be a $Recognition Character$.  This is the
+  character for which the Counter continually searches to indicate
+  the beginning of a Command.  The $Standard$ character is an asterisk,
+  "*".  This is the character that is built into the Counter program
+  and all Laurel application software.  However, to allow the Counter
+  to be used with other software, a $Custom Recognition Character$
+  may be programmed into the non-volatile memory of the Counter.  
+  Then, if the $Custom$ character that has been programmed into the
+  Counter is selected to be used, the Counter waits for either that 
+  character or the $Standard$ asterisk to indicate the beginning of a
+  Command.
+
+  The $Custom$ character is entered as the $decimal$ ASCII value for the
+  desired character.  It is a value from 0 to 255.  For example, if a
+  pound sign "#" is desired, enter 35, or if an exclamation point is
+  desired, enter 33.
+
+     Char  Dec  Hex
+     -------  -----   -----
+         #      35     23
+          !      33     21
+
+                                    $FULL/HALF DUPLEX$
+
+  An $RS-485$ option board can be operated in either the $Full Duplex$
+  mode or the $Half Duplex$ mode.  The $RS-485$ board is normally shipped
+  in the $Full Duplex$ configuration.  To convert to the $Half Duplex$
+  configuration, cut the trace under the E1 (b) jumper and put a push-
+  on jumper in the (a) position.  This allows communication in both
+  directions over one pair of wires instead of two pairs of wires.  In
+  addition, set the Counter to $Half-Duplex$.  This adds a 30 mS delay 
+  between the receipt of a Command from the Host Computer and the
+  transmission of a Response to the Host Computer.  This delay 
+  provides time for the Host Computer to switch between Transmit and
+  Receive.
+
+  $Half-Duplex$ operation is not available for the $RS-232$ option.
+                                $TRANSMISSION CHARACTERS$
+
+  Readings are transmitted continuously by the Counter in the 
+  Continuous Mode or when requested by the "B" command in the 
+  Command Mode.  A choice is available for the Start and Stop 
+  characters sent with the Continuous readings.
+  $No Special Char$
+           There is no $Start$ character and the $Stop$ character is a 
+           $CR$ (Carriage Return) or, if selected elsewhere to be 
+           included, a $LF$ (Line Feed).  
+  $Special Tx Chars$
+           $Special Start$ and $Special Stop$ characters may be 
+           individually selected by entering the Decimal values for
+           the ASCII characters shown in the ASCII Character Table.
+ 
+  Examples:
+    $No Special Char$     -123.45<CR>
+    $Special Tx Chars$   *-123.45#  where $Special Start Char$ = * 
+                                                   and $Special Stop Char$ = #
+
+
+                                $START, STOP, SHOW, SKIP$
+
+  At the end of the $Display Type$ list is $Remote Display "C"$,  
+  which is the selection for Masked Remote Display operation.  
+  It provides the following four selectable parameters relating to the 
+  Remote Display string of data.
+     $Start Char$ - The character designating the beginning of the string.
+     $Stop Char$  - The character designating the end of the string.  
+     $Skip No.$     - The number of characters following the $Start Char$ to
+                             be ignored.
+     $Show No.$     - The number of characters immediately following the 
+                               ignored characters to be displayed.
+  Example:
+          * A B C D - 1 2 3 . 4 5 E F G # H I J K * etc.
+         -- ----------- ---------------           ---
+   Start     Skip        Show              Stop
+      =*        = 4           = 7                   = #
+
+                                  $SERIAL PROTOCOL$
+
+  The following three Protocols are available for Serial Communications.
+  Each will function with either RS-232 or RS-485 interface boards.
+  There are two RS-485 boards, one with RJ-11 connectors (RS-485) and
+  one with RJ-45 connectors (Modbus).
+  $CUSTOM ASCII$
+      This is a proprietary Protocol with short ASCII commands that is
+      used on Series 1 meters and is being supported on Series 2 meters.
+      Typical commands are:
+         *2B1 - Gets a reading from a Meter having Address 2.
+         *2C0 - Resets the same Meter.
+      Typical interface boards are RS-232 (single meter) and 
+         RS-485 (Single or Multiple meters on a line).
+  $MODBUS RTU$
+      This is an industry-standard Protocol using Hex characters that
+      is now available on Series 2 meters.
+      Typical commands are:
+         01040003000281CB - Gets a reading from a Meter with Address 1
+         01050001FF00DDFA - Resets the same Meter.
+  $MODBUS ASCII$
+      This is an industry-standard Protocol using ASCII characters that
+      is now available on Series 2 Meters.
+      Typical commands are:
+         :010400030002F6<cr><lf> - Gets a reading from a Meter with 
+                                                       Address 1
+         :01050001FF00FA<cr><lf> - Resets the same Meter
+      The typical interface board for the Modbus Protocols is the MODBUS
+      board (RS-485 with RJ-45 connectors) although both of the other
+      Serial Communications boards function properly with MODBUS.
+
+                               $MODBUS ADDRESS$
+
+  The $MODBUS ADDRESS$ consists of a decimal number from 1 to 247.
+  This is the address of the Meter to which it responds to a Host
+  request.
+                                    $MODBUS PARITY$
+
+  The $PARITY$ selection must be made from one of the following three 
+  choices to match the Parity setting of the Host in order to 
+  successfully establish communications with either of the Modbus
+  Protocols.
+
+      $NONE$ - No Parity bit
+      $ODD$  - Odd Parity bit
+      $EVEN$ - Even Parity bit
+                                   $MODBUS TIMEOUT$
+
+  When using the $MODBUS ASCII$ Protocol, the allowable time that may
+  elapse between characters without the generation of an error may be
+  selected from the following four values:
+     $1 Sec$
+     $3 Sec$
+     $5 Sec$
+    $10 Sec$
+                                  $NO DEVIATION IN MENU$
+
+  When this box is checked, the $Deviation$ menu items are eliminated
+  from the Front Panel Menu to reduce the number of menu items.
+  When this box is unchecked, the $Deviation$ menu items are included
+  in the menu.
+                                     $OUTPUT ITEMS$
+
+  One of the common applications for Serial Communications is for
+  the Counter to send the values of its readings to a Computer
+  for analysis or control.  In the Continuous Mode, the Counter
+  sends these values without interruption.  In the Command Mode, 
+  they are sent when requested.  In either Mode, the Counter may be
+  configured by the $Output Items$ selection to send the particular
+  values desired.  The Counter may generate from one to three 
+  (depending on the selected Mode & Function) calculated values or 
+  $Items$ plus a Peak and Valley value for every measurement cycle.  
+  A single value or multiple values may be selected under $Output Items$ 
+  and sent as a single string of values each cycle.
+  
+  The selections to be sent each measurement cycle are:
+    $All Active Items$ - All the $Items$ generated (1 to 3) are sent.
+    $Item #1 Only$     - Only $Item 1$ is sent (always generated)
+    $Item #2 Only$     - Only $Item 2$ is sent (if generated)
+    $Item #3 Only$     - Only $Item 3$ is sent (if generated)
+    $Peak Value$       - Only the $Peak Value$ is sent (if generated)
+    $Displayed Value$  - Whichever $Item$ is being displayed is sent
+    $Valley Value$     - Only the $Valley Value$ is sent (if generated)  
+    $All Items + Peak$ - All the $Items$ generated plus the $Peak Value$
+                            plus the $Valley Value$ are sent.
+                                        $DEVIATION TYPE$
+
+  $DPM2AC$ and later have $Band Deviation$, $Double$ & $Single Hysteresis.$
+  For $Band Deviation$ the Alarm condition is active for readings outside 
+  the band of Setpoint +- Deviation for the Active High Alarm state.  For 
+  $Double Hysteresis$, the Alarm condition becomes active when the 
+  reading exceeds the Setpoint + Deviation and remains active until the 
+  readings fall below the Setpoint - Deviation value.  Same for $Single 
+  Hysteresis$ except the + Deviation value is 0 so the Alarm condition 
+  occurs at the Setpoint.  Set the $Deviation$ to $zero$, to remove 
+  $Band Deviation$ or $Double$ & $Single Hysteresis$.
+  
+  $Active$     Alarm Active                       Alarm Active
+   $State$     $Band Deviation$                 $Double Hysteresis$
+  --------   ---------------------------------------   --------------------------------------
+  $High$                                             If Alarm not on,
+           Reading >= Setpt + Deviation     Reading >= Setpt + Deviation*  
+           Reading <= Setpt - Deviation   If Alarm on,
+                                                          Reading > Setpt - Deviation
+
+  $Low$                                              If Alarm not on,
+           Reading <= Setpt + Deviation     Reading <= Setpt - Deviation*
+           Reading >= Setpt - Deviation   If Alarm on,
+                                                          Reading < Setpt + Deviation
+
+  The $Deviation$ is always entered as a positive value.
+  With $Hysteresis$ selection, Alarms 3 & 4 do not have $Single$ and 
+  Alarm 2 has $Single$ only if $Single$ is selected for Alarm 1.
+  For the Deviation x Panel Meter menu item, $Band Deviation$ is $dEUnxb$,
+  $Double Hysteresis$ is $dEUnxH$ and $Single Hysteresis$ is $dEUnxh$.  
+
+  * For $Single Hysteresis$ this Deviation term is 0.
+    
+   
+                                        $DEVIATION TYPE$
+
+  $CTR2_24$ and later have $Band Deviation$, $Double$ & $Single Hysteresis.$
+  For $Band Deviation$ the Alarm condition is active for readings outside 
+  the band of Setpoint +- Deviation for the Active High Alarm state.  For 
+  $Double Hysteresis$, the Alarm condition becomes active when the 
+  reading exceeds the Setpoint + Deviation and remains active until the 
+  readings fall below the Setpoint - Deviation value.  Same for $Single 
+  Hysteresis$ except the + Deviation value is 0 so the Alarm condition 
+  occurs at the Setpoint.  Set the $Deviation$ to $zero$, to remove 
+  $Band Deviation$ or $Double$ & $Single Hysteresis$.
+  
+  $Active$     Alarm Active                       Alarm Active
+   $State$     $Band Deviation$                 $Double Hysteresis$
+  --------   ---------------------------------------   --------------------------------------
+  $High$                                             If Alarm not on,
+           Reading >= Setpt + Deviation     Reading >= Setpt + Deviation*  
+           Reading <= Setpt - Deviation   If Alarm on,
+                                                          Reading > Setpt - Deviation
+
+  $Low$                                              If Alarm not on,
+           Reading <= Setpt + Deviation     Reading <= Setpt - Deviation*
+           Reading >= Setpt - Deviation   If Alarm on,
+                                                          Reading < Setpt + Deviation
+
+  The $Deviation$ is always entered as a positive value.
+  With $Hysteresis$ selection, Alarms 3 & 4 do not have $Single$ and 
+  Alarm 2 has $Single$ only if $Single$ is selected for Alarm 1.
+  For the Deviation x Panel Meter menu item, $Band Deviation$ is $dEUnxb$,
+  $Double Hysteresis$ is $dEUnxH$ and $Single Hysteresis$ is $dEUnxh$.  
+
+  * For $Single Hysteresis$ this Deviation term is 0.
+    
+   
+                                     $OUTPUT ITEMS$
+
+  One of the common applications for Serial Communications is for
+  the meter to send the values of its readings to a Computer
+  for analysis or control.  In the Continuous Mode, the meter
+  sends these values without interruption.  In the Command Mode, 
+  they are sent when requested.  In either Mode, the meter may be
+  configured by the $Output Items$ selection to send the particular
+  values desired.  A single value or multiple values may be 
+  selected under $Output Items$ and sent as a single string of
+  values each cycle.
+  
+  The selections to be sent each measurement cycle are:
+    $Net + Gross$      
+    $Net Only$
+    $Gross Only$ 
+    $Peak Only (Net or Gross$ 
+    $Net + Gross + Peak$
+                                           $CR(LF)$
+
+  The output values sent by the Counter over Serial Communications 
+  may contain only one value or up to three values.  These Values
+  are followed by an optional coded Alarm character and then by a 
+  $Carriage Return$ and an optional $Line Feed$.  If the data goes 
+  to a printer with this format, all of the Values print in a 
+  continuous line across the page.  
+  As an alternate, $CR(LF)$ may be selected to be added after $each$ 
+  Value, where there is more than one, and the printout will contain
+  only one Value per line.  If the coded $Alarm$ character is 
+  included, it appears only once with the final Value in the string.
+ 
+  The selection is:
+    $At End of All$  - All Values print in a line.
+    $At End of Each$ - Add a $CR(LF)$ after each value so there is
+                         only one Value per line.
+
+                                        $SOURCE$
+
+  The $Analog Output$ Scale and Offset is determined by the 
+  $Low Reading$ measurement value to produce the low end of the 
+  Analog Output range and the $High Reading$ measurement value to
+  produce the high end of the Analog Output range.  The $Source$ 
+  designates which $Item$ measurement value will be Scaled and 
+  applied to the $Analog Output$.
+
+  The $Source$ selections are:
+     $Net Filtered$
+     $Gross Filtered$
+     $Net Unfiltered$        
+     $Gross Unfiltered$       
+
+  
+
+  
+                                  $CHANGE DISPLAY ITEM #$
+
+  If this checkbox is checked, the $Display Item #$ cannot be
+  changed by the Front Panel $Reset$ button.  This locks out any
+  change to the $Item #$ being displayed and prevents the display
+  from being accidentally switched to $Item$ other than Item #1.
+ 
+
+
+                                    $INPUT TYPE LOCKOUT$
+
+  If the $Input Type$ checkbox is checked, no changes can be made
+  to the selected Mode and Range.
+                                  $SETUP,CONFIG LOCKOUT$
+
+  The following Front Panel Menu Setup items are combined and locked 
+  out as a group. 
+    $SEtuP$
+    $ConFiG$
+    $DecPt$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                    $COUNT LOCKOUT$
+
+  If the $Count$ checkbox is checked, no changes can be made to
+  the selected $Count-By$ and $Auto-Zero$ selection values.
+                                         $FILTER$
+
+  If this checkbox is checked, the $Filter$ parameters are locked
+  out from being changed.  The Front Panel Menu item is $FiLtEr$.
+                                 $SCALE, LO_IN, HI_IN$
+
+  Due to the large number of Setup parameters in the Meter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+     $SCALE$
+     $Lo_In$
+     $Hi_In$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                $OFFSET, LO_RD, HI_RD$
+
+  Due to the large number of Setup parameters in the Counter, some
+  must be combined and locked out as a group.  This group consists
+  of the following Front Panel Menu items:
+     $OFFSt$
+     $Lo_rd$
+     $Hi_rd$
+  If the checkbox is checked, the above items are locked out from
+  Front Panel changes.
+
+                                    $TARE LOCKOUT$
+
+  If the $Tare$ checkbox is checked, no changes can be made to
+  the $Tare$ value.
+                            $ALARM CONFIGURATION, SPxDIFF$
+
+  If this checkbox is checked, the $Alarm Configuration$ parameters
+  are locked out from being changed.  The Front Panel Menu items are 
+  $AL_SEt$, $SP1D$, $SP2D$.
+
+  The $Alarm Configuration$ parameters affected are:
+    $SPxDiff$
+    $Alarm State$
+    $Relay Alarm State$
+    $Alarm Type$
+    $No. Rdgs to Alarm$
+  The $Alarm Source$ is determined from its $Filter$ selection and is
+  locked according to the $Filter$ lockout.
+                                     $ALARM SETPOINTS$
+
+  If this checkbox is checked, the $Alarm Setpoint$ values are
+  locked out from being changed.  However, the $Setpoints$
+  still can be viewed by pressing the Front Panel Alarm button.
+
+  The parameters affected are:
+    $Setpoint 1$
+    $Setpoint 2$
+                                       $ANALOG OUTPUT$
+
+  If this checkbox is checked, the $Analog Output$ parameters are
+  locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $An_SEt$ = $Analog Circuit$, $Analog Source$
+    $_An_Lo$ 
+    $_An_Hi$
+
+                                  $SERIAL COMMUNICATIONS$
+
+  If this checkbox is checked, the $Serial Communication$ parameters
+  are locked out from being changed.  The Front Panel Menu items 
+  affected are:
+    $_SEr_1$ = $Output Rate$, $Baud Rate$, $Output Value$
+    $_SEr_2$ = $Address$, $Output Mode$, $Incl Alarm Data$, $Incl LF$
+    $_SEr_3$ = $Full/Half Duplex$, $Special Start/Stop$, $Latching RTS$
+               $Termination Chars$, $Output Items$
+    $_SEr_4$ = $Modbus ASCII Timeout$, $Serial Protocol$, $Parity$
+
+
+                                     $VIEW PEAK$
+
+  If this checkbox is checked, the $Peak Value$ cannot be viewed.
+                                      $VIEW SETPOINTS$
+
+  If this checkbox is checked, the $Setpoints$ cannot be viewed.
+  This prevents the $Setpoints$ from being mistaken for a
+  measurement value.  If the $Setpoints$ cannot be viewed, they 
+  cannot be changed either.  This lockout forces the $Alarm 
+  Setpoints$ lockout.
+
+
+                             $FRONT PANEL FUNCION RESETS$
+
+  If the checkbox is checked, the following Front Panel Resets
+  are inoperative:
+    $Peak Value$
+    $Latched Alarms$
+                           $FRONT PANEL METER RESET$
+
+  If the checkbox is checked, the main $Front Panel Meter Reset$ that
+  corresponds to the Power-On Reset is made inoperative.
+
+                                     $COUNT$
+
+  $Count$ determines the $Count-By$ and $Auto-Zero$ values.
+  The $Count-By$ value affects only the displayed values, either 
+  $Gross$, $Net$ or $Peak$.  The internal values are retained as
+  Count By 1.  The displayed value is rounded off to the $Count-by$
+  value.  For example, if the $Count-By$ value is 20, the display
+  will show 80 for internal measurements from 70 to 89.  There are
+  seven choices for the $Count-By$ value:
+     $1, 2, 5, 10, 20, 50, 100$
+  The $Count-By$ selection is ignored by non-displayed functions
+  such as the Analog Output and Serial Communications Output and
+  Setpoint Alarms.  They use the normal internal value.
+
+  An $Auto-Zero$ limit from 0 to 9 counts (either polarity) may
+  be selected to compensate for load cell drift.  Whenever the
+  meter comes to rest within that limit from zero, it will auto-
+  zero for a zero reading.  Selecting the limit of 0 disables 
+  this function. The choices are:
+    $0, +-1, +-2, +-3, +-4, +-5, +-6, +-7, +-8, +-9$
+  The continually updated internal offset to maintain a zero reading
+  is not stored permanently and is zeroed upon Meter Reset.  If a
+  reading, including this auto-zero offset, falls outside the 
+  selected limits, that reading, with the auto-zero offset, is 
+  displayed.  If the unfiltered measurement falls outside the 
+  selected limits, the $Auto-Zero$ function is disabled.
+  The $Auto-Zero$ function applies to the displayed value, either
+  $Net$ or $Gross$, which is either Batch or Moving Average
+  filtered.
+
+                                       $TARE$
+
+  The $Tare$ value is subtracted from the $Gross$ value to produce
+  the $Net$ value.  It is entered in one of three ways:
+    1. Automatically when the External $Tare$ input is grounded for
+       a minimum of 285 milliseconds.  The $Gross$ reading at that
+       time becomes the $Tare$ value and the $Net$ reading becomes
+       zero.  The $Tare$ value is stored in RAM until the next 
+       grounding provides a new $Tare$ value or until the power to 
+       the meter is removed.  If the meter is $Reset$ by any means, 
+       either Front Panel pushbuttons, Serial Communications or 
+       External Input, the $Tare$ value in RAM is stored permanently
+       in Non-Volatile Memory and is restored following a power off/on
+       cycle.
+    2. Manually from the front panel menu item $Tare$ and is stored 
+       permanently until the next update.
+    3. Manually from a host computer via the Serial Communications
+       line and is stored permanently until the next update.
+       However, it cannot be written directly using the "W" command
+       because the Reset that occurs after storage causes Tare in non-
+       volatile memory to be overwritten by the RAM Tare value.  So
+       to store a Tare value in non-volatile memory, it must be first
+       written to RAM with an "F" command and then the meter Reset
+       with a "C0" command which writes the entered RAM value to 
+       non-volatile memory.
+ 
+  The $Tare$ value in both RAM and Non-volatile memory can be reset 
+  to zero by grounding the $Tare Reset$ external input for a minimum
+  of 17 milliseconds or by setting $Tare$ to zero from the Front
+  Panel menu.
+  The $Tare$ value is bipolar and, if entered from the Front Panel, 
+  the sign is entered as part of the most significant digit.  The 
+  range of $Tare$ values is -99999 to 99999 with the decimal point 
+  determined by the system decimal point.
+
+
+  
+  
+                   $" SEtuP"  Setup$
+  $Digit 1   DISPLAY, "DummyZ"$
+    0 = No Dummy Zero, Normal Display
+    1 = Include Right Hand Dummy Zero
+  $Digit 2  POWER LINE FREQUENCY, "50/60 Hz"$
+    0 = 60 Hz Power line environment
+    1 = 50 Hz Power line environment
+  $Digit 3  PEAK KEY ACTION, "Peak or Tare$
+    0 = Displays Peak  1 = Causes Tare action
+  $Digit 4   SCALING "Scale, Offset"  "Coordinates"$
+    0 = Enter Scale 1, Offset 1 for scaling
+    1 = Enter Lo In 1, Lo Rd 1, Hi In 1, Hi Rd 1 for scaling
+  $Digit 5   SETUP Page 3, EXTERNAL INPUTS$
+             Ext A                      Ext B              
+    0 =Meter Reset          Meter Hold        
+    1 =Function Reset     Peak Display   
+    2 =Meter Hold             Peak Dsplay        
+    3 =Meter Hold            Tare 
+    4 =Peak Display        Tare
+    5 =Meter Reset          Tare
+    6 =Function Reset     Tare
+    7 =Tare Reset            Tare
+    8 =Display Blank       Tare
+    9 =Meter Reset          Display Blank
+    A =Function Reset     Display Blank
+    B =Display Item         Tare
+    C =Display Item         Display Blank
+    D =Meter Reset          Display Item
+    E =Function Reset     Display Item
+    F =Meter Hold             Display Item
+                  $"ConFiG"  Configuration$
+  $Digit 2   SCALING  "Scale/Offset" "Reading Coord"$
+    0 = Setup Scale Method - Either Scale/Offset or Coordinates
+    1 = Reading Coordinate Method
+  $Digit 3   DRIBBLE  "Dribble Factor"$ 
+    0 = Enabled
+    1 = Disabled  
+  $Digit 4   PEAK FILTER  "Peak Source"$
+    0 = Peak of Net value
+    1 = Peak of Gross value
+  $Digit 5   DISABLE THRESHOLD  "Disable Threshold"$ 
+    0 = Enable Low and High Filter Thresholds
+    1 = Disable both Low and High Filter Thresholds
+
+
+
+
+
+  
+                  $"Count"  Count$
+  $Digit 4   COUNT BY  "Count By"$
+    0 = 1
+    1 = 2
+    2 = 5
+    3 = 10
+    4 = 20
+    5 = 50
+    6 = 100
+    7 = 200
+    8 = 500
+    9 = 1000
+  $Digit 5   AUTOZERO  "Auto-Zero"$
+    0 = 0  (No Auto-Zero)
+    1 = +-1
+    2 = +-2
+    3 = +-3
+    4 = +-4
+    5 = +-5
+    6 = +-6
+    7 = +-7
+    8 = +-8
+    9 = +-9
+
+
+
+  
+                                  $"TArE"   TARE$
+  $   TARE VALUE  "Tare"$
+
+  $Tare$ is a signed 5-digit value with the 
+  $Decimal Point$ selection assigned to it.  
+  It has a range of -99999 to +99999.
+
+
+             $"Ser 4"  SERIAL CONFIGURATION 4$
+  $Digit 4   "Modbus ASCII Timeout"$
+    0 =  1 Sec
+    1 =  3 Sec
+    2 =  5 Sec
+    3 = 10 Sec
+  $Digit 5   "Serial Protocol"$
+    0 = Custom ASCII
+    1 = Modbus RTU
+    2 = Modbus ASCII
+  $Digit 6   "Modbus Parity"$
+    0 = No Parity
+    1 = Odd Parity
+    2 = Even Parity
+
+
+                        $" Addr"  MODBUS ADDRESS$
+
+  $Digits 4, 5, 6     ADDR$
+     This is the MODBUS Address and it is set to a 
+     decimal value from 1 to 247.
+
+
+                                   $DISABLE THRESHOLD$
+
+  The moving average filter routine contains a low and high
+  threshold that applies to the accumulation of differences between
+  the current reading and the moving average.  When this accumulation
+  reaches the threshold, the moving average filter is reset with
+  the current reading.  Should the difference change polarity, the
+  accumulation is reset to zero.  The purpose is to react fast to a
+  unidirectional change in the input signal after the sum of the
+  differences reaches a predetermined threshold.  There are two
+  thresholds, low and high.  A low threshold will react faster
+  than a high threshold.  There may be situations where it is not
+  desirable to react to the accumulation of differences but to 
+  follow the chosen time constant.  By checking this box, the
+  thresholds are disabled and the filter time constant is never
+  overridden.
+  
+  The selection is:
+    $Unchecked$ - The selected threshold, low or high, is active.
+    $Checked$    - Both thresholds, regardless of selection, are disabled. 
+
