@@ -1,0 +1,111 @@
+State Machine States:
+Read Constants
+Station 21
+Station 22
+Station 23
+Station 24
+Station 25
+Station 26
+Station 27
+Station 28
+Station 29
+Station 30
+Station 31
+Station 32
+Station 33
+Station 34
+Station 35
+Station 36
+Station 37
+Station 38
+Station 39
+Station 40
+Station 41
+Station 42
+Station 43
+Station 44
+Station 45
+Station 46
+Station 47
+Station 48
+Station 49
+Station 50
+Station 51
+Station 52
+Station 53
+Station 54
+Station 55
+Station 56
+Get Agilent Data
+Update States
+Update Display
+Update Filenames
+
+Front Panel Constants:
+Scan Rate = 1
+Save Rate = 1
+Current Threshold = 0.5
+Save Status Path = C:\Work\WILT Unit Status.csv
+Water Times Filepath = C:\Work\Water Injection Times.csv
+Agilent Channel Assignment = C:\Work\Agilent Channel Assignment - Wilt.ini
+Save File Directory = D:\Data
+General Configuration = C:\Work\General Configuration.txt
+Send Restart Every? (Sec) = 5
+
+Cool Down Periods:
+Station 1 = 12,90
+Station 2 = 12,90
+Station 3= 12,90
+Station 4 = 12,90
+Station 5 = 12,90
+Station 6 = 12,90
+Station 7 = 12,90
+Station 8 = 12,90
+Station 9 = 12,90
+Station 10 = 12,90
+Station 11 = 12,90
+Station 12 = 12,90
+Station 13 = 12,90
+Station 14 = 12,90
+Station 15 = 12,90
+Station 16 = 12,90
+Station 17 = 12,90
+Station 18 = 12,90
+Station 19 = 12,90
+Station 20 = 12,90
+Station 21 = 12,90
+Station 22 = 12,90
+Station 23 = 12,90
+Station 24 = 12,90
+Station 25 = 12,90
+Station 26 = 12,90
+Station 27 = 12,90
+Station 28 = 12,90
+Station 29 = 12,90
+Station 30 = 12,90
+Station 31 = 12,90
+Station 32 = 12,90
+Station 33 = 12,90
+Station 34 = 12,90
+Station 35 = 12,90
+Station 36 = 12,90
+Station 37 = 12,90
+Station 38 = 12,90
+Station 39 = 12,90
+Station 40 = 12,90
+Station 41 = 12,90
+Station 42 = 12,90
+Station 43 = 12,90
+Station 44 = 12,90
+Station 45 = 12,90
+Station 46 = 12,90
+Station 47 = 12,90
+Station 48 = 12,90 
+Station 49 = 12,90
+Station 50 = 12,90
+Station 51 = 12,90
+Station 52 = 12,90
+Station 53 = 12,90
+Station 54 = 12,90
+Station 55 = 12,90
+Station 56 = 12,90

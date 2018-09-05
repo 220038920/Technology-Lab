@@ -1,0 +1,110 @@
+[0] = Board Address
+[1] = UE
+[2] = LE
+[3] = Comp
+[4] = Fan
+[5] = Setpoint Deg F
+[6] = T2 Temp MSB (Deg F X 10)
+[7] = T2 Temp LSB (Deg F X 10)
+[8] = T3A Temp MSB (Deg F X 10)
+[9] = T3A Temp LSB (Deg F X 10)
+[10] = T3B Temp MSB (Deg F X 10)
+[11] = T3B Temp LSB (Deg F X 10)
+[12] = T4 Temp MSB (Deg F X 10)
+[13] = T4 Temp LSB (Deg F X 10)
+[14] = T5 Temp MSB (Deg F X 10)
+[15] = T5 Temp LSB (Deg F X 10)
+[16] = Current (AMPS X 10)
+[17] = Voltage MSB (Volts X 10)
+[18] = Voltage LSB (Volts X 10)
+[19] = EEV Position MSB (0-480)
+[20] = EEV Position LSB (0-480)
+
+Reset
+Sent <STX_GEA2>     Recvd <226>
+Sent <96>      Recvd <96>
+Sent <8>      Recvd <8>
+Sent <128>      Recvd <128>
+Sent <193>      Recvd <193>
+Sent <136>      Recvd <136>
+Sent <215>      Recvd <215>
+Sent <227>      Recvd <227>
+Recvd <224>
+
+Sent <STX_GEA2>     Recvd <226>
+Sent <96>      Recvd <96>
+Sent <8>      Recvd <8>
+Sent <128>      Recvd <128>
+Sent <176>      Recvd <176>
+Sent <230>      Recvd <230>
+Sent <97>      Recvd <97>
+Sent <227>      Recvd <227>
+Recvd <224>
+
+Hyperdata
+Sent <STX_GEA2>     Recvd <226>
+Sent <96>      Recvd <96>
+Sent <8>      Recvd <8>
+Sent <128>      Recvd <128>
+Sent <86>      Recvd <86>
+Sent <123>      Recvd <123>
+Sent <137>      Recvd <137>
+Sent <227>      Recvd <227>
+Recvd <224>
+Recvd <224>
+Recvd <128>
+Recvd <28>
+Recvd <96>
+Recvd <84>
+Recvd <0>
+Recvd <0>
+Recvd <0>
+Recvd <0>
+Recvd <130>
+Recvd <0>
+Recvd <176>
+Recvd <0>
+Recvd <131>
+Recvd <0>
+Recvd <130>
+Recvd <0>
+Recvd <32>
+Recvd <0>
+Recvd <250>
+Recvd <0>
+Recvd <254>
+Recvd <254>
+Recvd <0>
+Recvd <194>
+Recvd <200>
+Recvd <18>
+Recvd <226>
+Recvd <224>
+Recvd <128>
+Recvd <24>
+Recvd <96>
+Recvd <84>
+Recvd <0>
+Recvd <0>
+Recvd <0>
+Recvd <0>
+Recvd <130>
+Recvd <0>
+Recvd <176>
+Recvd <0>
+Recvd <130>
+Recvd <0>
+Recvd <130>
+Recvd <0>
+Recvd <37>
+Recvd <0>
+Recvd <250>
+Recvd <0>
+Recvd <254>
+Recvd <254>
+Recvd <0>
+Recvd <192>
+Recvd <204>
+Recvd <2>
+Recvd <226>
+

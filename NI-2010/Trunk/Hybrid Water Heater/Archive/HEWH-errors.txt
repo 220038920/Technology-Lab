@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Used for HEWH Test Errors
+</nicomment>
+<nierror code="7000">
+Check Serial Conntection to HEWH.
+Energy Menu, Diagnostic Menu, 
+Filter, Lock, Vaca.
+</nierror>
+</nidocument>

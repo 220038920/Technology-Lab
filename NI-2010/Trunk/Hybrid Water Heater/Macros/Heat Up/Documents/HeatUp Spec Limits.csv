@@ -1,0 +1,16 @@
+Description,Data Source- calculation or Transfer Function,LSL,Nominal Target,USL
+After 10-gallon draw- Determine Time or Gallons before lower heat source energizes (min),IF lower heat source does not energize before 10.75 gallon draw is finished-  Defined as: Time after 10.75 gallon flow stops- until Lower Heat source or Fans energize.  (Minutes),,,5
+After 10-gallon draw- Determine Time or Gallons before lower heat source energizes (min),IF lower heat source energizes before 10.75 gallon draw is finished- record the Flow output reading taken when lower heat source or fans energize.   ( # gallons),2,5,11
+Large Draw Detection (Gallons),Amount of water in a 3 gpm continuous draw that will turn on the Lower Electric Element (# gallons),25,30,35
+Water Temp accuracy to setpoint (F),Defined as:  (TWAVG1..6 - set point). Taken 3 minutes after Lower Heat source cuts out (unit has recovered).,-5,0,5
+Ambient Thermistor (T5) Temp accuracy(F),Defined as:  (T5 - Tamb actual). Taken 3 minutes after Fan turns on.,,,
+Temperature Drift after recorvery (F),Defined as: (TH2- set point) taken 30 minutes after Lower Heat source cuts out (unit has recovered),-3,0,3
+Upper Element max overshoot (F) (ie- CTQ = lower element must energize),Taken after Upper element cuts out- and is defined as: TH2 max - setpoint.  Overshoot will occur within 10 minutes of UE cut out.,,,0
+Final Tank Gradient (F),Data taken 3 minutes after lower heat source cuts out. Defined as: Max(Tw1...TW6) - Min(TW1...TW6),,,5
+Evaporator Superheat (F),Taken when TWavg1...6 = 120F. Defined as: (T3b-T3a),5,10,18
+EEV,Taken when TWavg1...6 = 120F,,,
+Final Discharge Temperature (F),TH4 output. Taken just before compressor shuts off.,,,245
+Min-run Evap Temp (T3a)(F),Taken when TWavg1...6 = 120F. Defined as: T3a output.,40,50,60
+Compressor shell max temp (F),Tshell output- Taken just before compressor shuts off.,,,150
+HP recovery time (minutes),Defined as [Time for TWavg1...6 to increase from 110F to 130F. So- = [Time(TWavg1...6 = 130F) - Time(TWavg1...6 = 110F)],80,100,130
+Total energy expended (KW-h),Defined as:  [(Power(in KW) to heat water from TWavg1...6 = 110F to TWavg1...6 = 130F) x (change in time)],0.7,0.96,1.2

@@ -1,0 +1,40 @@
+/Agilent Cluster.ctl////*////
+/Calibration.ctl////*////
+/CalibrationTime.ctl////*////
+/Calibration_SN.ctl////*////
+/Channel Label RLT.ctl////*////
+/Channel Label.ctl////*////
+/ChannelSettings.ctl////*////
+/Cluster Purge Settings.ctl////*////
+/Custom Test - Conditions.ctl////*////
+/Custom Test.ctl////*////
+/Draw Pattern Setup.ctl////*////
+/Dryer Com Port Info.ctl////*////
+/Dryer Status Ctrl.ctl////*////
+/EquipReferences.ctl////*////
+/GEA2 Commands.ctl////*////
+/GEA2 Control.ctl////*////
+/HEWH Command Type.ctl////*////
+/HEWH Error Enumeration.ctl////*////
+/HEWH GEA2 Cluster.ctl////*////
+/HEWH Output Information.ctl////*////
+/HEWH Tank Indicator.ctl////*////
+/HEWH_Mode.ctl////*////
+/Heating Modes.ctl////*////
+/Initialization.ctl////*////
+/Intellfaucet Mode.ctl////*////
+/LabelChannel.ctl////*////
+/MW100 Data Cluster.ctl////*////
+/PowerAnalyzer.ctl////*////
+/PowerClassification.ctl////*////
+/PowerData.ctl////*////
+/PowerElements.ctl////*////
+/PreDraw.ctl////*////
+/Program Names.ctl////*////
+/RLT Stations.ctl////*////
+/Sensor.ctl////*////
+/Termination Condition Cluster.ctl////*////
+/TestedFlowratesScenarios.ctl////*////
+/Use Modes.ctl////*////
+/User Controls.ctl////*////
+/ValveBankPositions.ctl////*////
