@@ -1,0 +1,45 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "64,442,717,1162"
+
+[AB_Cache_{F4060F51-AE94-46C3-8D36-FC5D55758142}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "3cf1dadfd0d66fc84328df7a383f0750"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[0][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[0][Path] Line0003 = "M/01 Washer HCC SM.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[1][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[1][Path] Line0003 = "M/01 Washer HCC SM.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[2][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[2][Path] Line0003 = "M/01 Washer HCC SM.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{731D31DA-27DB-4B0D-A3B5-737FAC3D4154}"
+Cache_GenGUID[1][String] = "{0CEA2AF9-CC32-477A-A977-25153ECE115F}"
+Cache_GenGUID[2][String] = "{4C385126-7178-4C6E-9293-059EA181B6EC}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-2010"
+Cache_OutputDir[Path] Line0002 = "/Trunk/builds/00 Washer HCC/01 Washer HCC SM"
+
+[AB_Cache_{09E4D844-86E2-4FBE-B216-F3C11500F4DE}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "3cf1dadfd0d66fc84328df7a383f0750"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[0][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[0][Path] Line0003 = "M/01 Washer HCC SM.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[1][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[1][Path] Line0003 = "M/01 Washer HCC SM.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[2][Path] Line0002 = "0/Trunk/builds/00 Washer HCC/01 Washer HCC S"
+Cache_GenFile[2][Path] Line0003 = "M/01 Washer HCC SM.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{731D31DA-27DB-4B0D-A3B5-737FAC3D4154}"
+Cache_GenGUID[1][String] = "{0CEA2AF9-CC32-477A-A977-25153ECE115F}"
+Cache_GenGUID[2][String] = "{4C385126-7178-4C6E-9293-059EA181B6EC}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-2010"
+Cache_OutputDir[Path] Line0002 = "/Trunk/builds/00 Washer HCC/01 Washer HCC SM"
+

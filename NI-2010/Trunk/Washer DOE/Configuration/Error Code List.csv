@@ -1,0 +1,7 @@
+Pause Commands,Run Commands,EOC Commands,Error Code Commands
+MchStdby,MchRn,EOC,Err
+MchPz,Machine Run,,
+MchIdl,Resume Process,,
+Machine Standby,StpBseCyPh:0000,,
+Machine Pause,,,
+Machine Idle,,,

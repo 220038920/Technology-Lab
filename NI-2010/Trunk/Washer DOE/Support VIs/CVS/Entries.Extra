@@ -1,0 +1,37 @@
+/DOE Channel Test Labels.vi////*////
+/Filepath check and create.vi////*////
+/Format Inv Data.vi////*////
+/Gallon Target.vi////*////
+/Generate Scan List.vi////*////
+/Get String Data.vi////*////
+/Power Array to Cluster.vi////*////
+/Subpanel.vi////*////
+/Add TC Calibration.vi////*////
+/Calibration.vi////*////
+/ChannelSettings.vi////*////
+/Configuration.vi////*////
+/Create Capacity String Data.vi////*////
+/Create Filename Sub.vi////*////
+/Create Filename.vi////*////
+/Create Save Directory.vi////*////
+/Delete Empty Cells.vi////*////
+/Equipment.vi////*////
+/Extract Configuration Data.vi////*////
+/Find Files and Replace With 0 and 1 array.vi////*////
+/Find csv or xls.vi////*////
+/Find_Individual_Elements.vi////*////
+/Flowmeter Calculations.vi////*////
+/Gather Flow Rates Routine.vi////*////
+/Get Excel Data From Worksheet.vi////*////
+/Get Last Dataset.vi////*////
+/Get Program Info.vi////*////
+/HEWH_Create Header File.vi////*////
+/Kitchen Data.vi////*////
+/Model Number and Folder Setup.vi////*////
+/Open Model File.vi////*////
+/Parse Program Groups.vi////*////
+/Parse Temperature and Voltage.vi////*////
+/Read Dates.vi////*////
+/Search String Array Output Index.vi////*////
+/Software Model Type.vi////*////
+/Sort Paths.vi////*////

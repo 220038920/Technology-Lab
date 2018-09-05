@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ErdGroup
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xi="http://www.w3.org/2003/XInclude"
+   xmlns="http://www.ge.com/erd"
+   version="0.0.1" namespace="HEWH" 
+   addr="0x60">
+
+
+    <Erds>
+
+        <!-- =============== -->
+        <!--                 -->
+        <!--   Common ERDs   -->
+        <!--                 -->
+        <!-- =============== -->
+        <msg type="ERD" name="ApplianceType">
+            <command val="0x0008" name="ApplianceType"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="Enum" name="ApplianceType" predescriptor="ApplianceType">
+                    <xi:include href="Include\enumListForHewh.xml" xpointer="xmlns(x=http://www.ge.com/erd) xpointer(/EnumLists/x:vals[@list='applianceType_t'])"/>
+                </datum>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultCodeCfg">
+            <command val="0x0080" name="CommonFaultCodeCfg"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="FirstERD" predescriptor="First ERD"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="Capacity" predescriptor="Capacity"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultCodeStatus">
+            <command val="0x0081" name="CommonFaultCodeStatus"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="CurrentIndex" predescriptor="Current Index"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="ValidRecords" predescriptor="Valid Records"/>
+                <datum startbyte="4" endbyte="5" parsername="UInt16" name="OverWriteCount" predescriptor="Over Write Count"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultCodeClear">
+            <command val="0x0082" name="CommonFaultCodeClear"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt16" name="Clear" predescriptor="Clear"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSeqCfg">
+            <command val="0x0083" name="CommonFaultSeqCfg"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="FirstERD" predescriptor="First ERD"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="Capacity" predescriptor="Capacity"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSeqStatus">
+            <command val="0x0084" name="CommonFaultSeqStatus"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="CurrentIndex" predescriptor="Current Index"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="ValidRecords" predescriptor="Valid Records"/>
+                <datum startbyte="4" endbyte="5" parsername="UInt16" name="OverWriteCount" predescriptor="Over Write Count"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSeqClear">
+            <command val="0x0085" name="CommonFaultSeqClear"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="Clear" predescriptor="Clear"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonCycleHistoryCfg">
+            <command val="0x0086" name="CommonCycleHistoryCfg"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="FirstERD" predescriptor="First ERD"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="Capacity" predescriptor="Capacity"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonCycleHistoryStatus">
+            <command val="0x0087" name="CommonCycleHistoryStatus"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="CurrentIndex" predescriptor="Current Index"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="ValidRecords" predescriptor="Valid Records"/>
+                <datum startbyte="4" endbyte="5" parsername="UInt16" name="OverWriteCount" predescriptor="Over Write Count"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonCycleHistoryClear">
+            <command val="0x0088" name="CommonCycleHistoryClear"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="Clear" predescriptor="Clear"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonDiagnosticVersion">
+            <command val="0x0089" name="CommonDiagnosticVersion"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="Major version" predescriptor="Major"/>
+                <datum startbyte="1" endbyte="1" parsername="UInt8" name="Minor version" predescriptor="Minor"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSnapshotCfg">
+            <command val="0x008A" name="CommonFaultSnapshotCfg"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="FirstERD" predescriptor="First ERD"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="Capacity" predescriptor="Capacity"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSnapshotStatus">
+            <command val="0x008B" name="CommonFaultSnapshotStatus"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="CurrentIndex" predescriptor="Current Index"/>
+                <datum startbyte="2" endbyte="3" parsername="UInt16" name="ValidRecords" predescriptor="Valid Records"/>
+                <datum startbyte="4" endbyte="5" parsername="UInt16" name="OverWriteCount" predescriptor="Over Write Count"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="CommonFaultSnapshotClear">
+            <command val="0x008C" name="CommonFaultSnapshotClear"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="Clear" predescriptor="Clear"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="Appliance_Software_Version">
+            <command val="0x0100" name="Appliance_Software_Version"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="DecimalDelimited" delimiter="." name="applianceSoftwareVersion" predescriptor="MC board SW Version"/>
+            </data>
+        </msg>
+        <!-- ================ -->
+        <!--                  -->
+        <!--  HEWH ERDs    -->
+        <!--                  -->
+        <!-- ================ -->
+        <msg type="ERD" name="USERSETMODE">
+            <command val="0x4020" name="USERSETMODE"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="Enum" name="USERSETMODE" predescriptor="User set mode">
+                    <xi:include href="Include\enumListForHewh.xml" xpointer="xmlns(x=http://www.ge.com/erd) xpointer(/EnumLists/x:vals[@list='userMode_t'])"/>
+                </datum>
+            </data>
+        </msg>
+        <msg type="ERD" name="OPERATINGMODE">
+            <command val="0x4021" name="OPERATINGMODE"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="Enum" name="OPERATINGMODE" predescriptor="Operating mode">
+                    <xi:include href="Include\enumListForHewh.xml" xpointer="xmlns(x=http://www.ge.com/erd) xpointer(/EnumLists/x:vals[@list='userMode_t'])"/>
+                </datum>
+            </data>
+        </msg>
+        <msg type="ERD" name="DRMFALLBACKMODE">
+            <command val="0x4022" name="DRMFALLBACKMODE"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="Enum" name="DRMFALLBACKMODE" predescriptor="DRM fallback mode">
+                    <xi:include href="Include\enumListForHewh.xml" xpointer="xmlns(x=http://www.ge.com/erd) xpointer(/EnumLists/x:vals[@list='userMode_t'])"/>
+                </datum>
+            </data>
+        </msg>
+        <msg type="ERD" name="VACATIONFALLBACKMODE">
+            <command val="0x4023" name="VACATIONFALLBACKMODE"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="Enum" name="VACATIONFALLBACKMODE" predescriptor="Vacation fallback mode">
+                    <xi:include href="Include\enumListForHewh.xml" xpointer="xmlns(x=http://www.ge.com/erd) xpointer(/EnumLists/x:vals[@list='userMode_t'])"/>
+                </datum>
+            </data>
+        </msg>
+        <msg type="ERD" name="USERSETPOINT">
+            <command val="0x4024" name="USERSETPOINT"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="USERSETPOINT" predescriptor="User set point"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="VACATIONSETPOINT">
+            <command val="0x4025" name="VACATIONSETPOINT"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="VACATIONSETPOINT" predescriptor="Vacation set point"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="ACTUALSETPOINT">
+            <command val="0x4026" name="ACTUALSETPOINT"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="ACTUALSETPOINT" predescriptor="Actual set point"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="TIMEDHOURSREMAINING">
+            <command val="0x4028" name="TIMEDHOURSREMAINING"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="TIMEDHOURSREMAINING" predescriptor="Timed hours remaining"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="MODELDESIGNATOR">
+            <command val="0x4042" name="MODELDESIGNATOR"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="2" parsername="UInt8" name="MODELDESIGNATOR" predescriptor="Model designator"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T2TEMP">
+            <command val="0x4060" name="T2TEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T2TEMP" predescriptor="T2 temp"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T3ATEMP">
+            <command val="0x4061" name="T3ATEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T3ATEMP" predescriptor="T3ATEMP"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T3BTEMP">
+            <command val="0x4062" name="T3BTEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T3BTEMP" predescriptor="T3BTEMP"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T4TEMP">
+            <command val="0x4063" name="T4TEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T4TEMP" predescriptor="T4TEMP"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T5TEMP">
+            <command val="0x4064" name="T5TEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T5TEMP" predescriptor="T5TEMP"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="T6TEMP">
+            <command val="0x406E" name="T6TEMP"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="T6TEMP" predescriptor="T6 temp"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="MIXVALVESTEPOFFSET">
+            <command val="0x4072" name="MIXVALVESTEPOFFSET"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="Int16" name="MIXVALVESTEPOFFSET" predescriptor="MIXVALVESTEPOFFSET"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="MIXVALVESTEPABSOLUTE">
+            <command val="0x4073" name="MIXVALVESTEPABSOLUTE"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="Int16" name="MIXVALVESTEPABSOLUTE" predescriptor="MIXVALVESTEPABSOLUTE"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKPGAIN">
+            <command val="0x4074" name="FIRSTSTAGEKPGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FIRSTSTAGEKPGAIN" predescriptor="1st stage kP gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKIGAIN">
+            <command val="0x4075" name="FIRSTSTAGEKIGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FIRSTSTAGEKIGAIN" predescriptor="1st stage kI gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKDGAIN">
+            <command val="0x4076" name="FIRSTSTAGEKDGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FIRSTSTAGEKDGAIN" predescriptor="1st stage kD gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKPQBITS">
+            <command val="0x4079" name="FIRSTSTAGEKPQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FIRSTSTAGEKPQBITS" predescriptor="1st stage kP qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKIQBITS">
+            <command val="0x407A" name="FIRSTSTAGEKIQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FIRSTSTAGEKIQBITS" predescriptor="1st stage kI qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FIRSTSTAGEKDQBITS">
+            <command val="0x407B" name="FIRSTSTAGEKDQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FIRSTSTAGEKDQBITS" predescriptor="1st stage kD qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKPGAIN">
+            <command val="0x408E" name="SECONDSTAGEKPGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="SECONDSTAGEKPGAIN" predescriptor="2nd stage kP gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKIGAIN">
+            <command val="0x408F" name="SECONDSTAGEKIGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="SECONDSTAGEKIGAIN" predescriptor="2nd stage kI gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKDGAIN">
+            <command val="0x4090" name="SECONDSTAGEKDGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="SECONDSTAGEKDGAIN" predescriptor="2nd stage kD gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKPQBITS">
+            <command val="0x4091" name="SECONDSTAGEKPQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="SECONDSTAGEKPQBITS" predescriptor="2nd stage kP qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKIQBITS">
+            <command val="0x4092" name="SECONDSTAGEKIQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="SECONDSTAGEKIQBITS" predescriptor="2nd stage kI qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="SECONDSTAGEKDQBITS">
+            <command val="0x4093" name="SECONDSTAGEKDQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="SECONDSTAGEKDQBITS" predescriptor="2nd stage kD qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKPGAIN">
+            <command val="0x4094" name="THIRDSTAGEKPGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="THIRDSTAGEKPGAIN" predescriptor="3rd stage kP gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKIGAIN">
+            <command val="0x4095" name="THIRDSTAGEKIGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="THIRDSTAGEKIGAIN" predescriptor="3rd stage kI gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKDGAIN">
+            <command val="0x4096" name="THIRDSTAGEKDGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="THIRDSTAGEKDGAIN" predescriptor="3rd stage kD gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKPQBITS">
+            <command val="0x4097" name="THIRDSTAGEKPQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="THIRDSTAGEKPQBITS" predescriptor="3rd stage kP qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKIQBITS">
+            <command val="0x4098" name="THIRDSTAGEKIQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="THIRDSTAGEKIQBITS" predescriptor="3rd stage kI qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="THIRDSTAGEKDQBITS">
+            <command val="0x4099" name="THIRDSTAGEKDQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="THIRDSTAGEKDQBITS" predescriptor="3rd stage kD qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKPGAIN">
+            <command val="0x409A" name="FOURTHSTAGEKPGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FOURTHSTAGEKPGAIN" predescriptor="4th stage kP gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKIGAIN">
+            <command val="0x409B" name="FOURTHSTAGEKIGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FOURTHSTAGEKIGAIN" predescriptor="4th stage kI gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKDGAIN">
+            <command val="0x409C" name="FOURTHSTAGEKDGAIN"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Int32" name="FOURTHSTAGEKDGAIN" predescriptor="4th stage kD gain"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKPQBITS">
+            <command val="0x409D" name="FOURTHSTAGEKPQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FOURTHSTAGEKPQBITS" predescriptor="4th stage kP qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKIQBITS">
+            <command val="0x409E" name="FOURTHSTAGEKIQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FOURTHSTAGEKIQBITS" predescriptor="4th stage kI qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="FOURTHSTAGEKDQBITS">
+            <command val="0x409F" name="FOURTHSTAGEKDQBITS"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="0" parsername="UInt8" name="FOURTHSTAGEKDQBITS" predescriptor="4th stage kD qBits"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="TANKSETPOINT">
+            <command val="0x4078" name="TANKSETPOINT"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="UInt16" name="TANKSETPOINT" predescriptor="Tank set point"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="MIXVALVEDELTAT">
+            <command val="0x4077" name="MIXVALVEDELTAT"/>
+            <operations>
+                <operation>read</operation>
+                <operation>write</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="3" parsername="Uint32" name="MIXVALVEDELTAT" predescriptor="MIXVALVEDELTAT"/>
+            </data>
+        </msg>
+        <msg type="ERD" name="PIDOUTPUTPOSITION">
+            <command val="0x407C" name="PIDOUTPUTPOSITION"/>
+            <operations>
+                <operation>read</operation>
+            </operations>
+            <data>
+                <datum startbyte="0" endbyte="1" parsername="Int16" name="PIDOUTPUTPOSITION" predescriptor="PIDOUTPUTPOSITION"/>
+            </data>
+        </msg>
+     </Erds>
+</ErdGroup>

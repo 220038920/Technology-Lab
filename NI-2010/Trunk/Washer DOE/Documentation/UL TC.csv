@@ -1,0 +1,53 @@
+101,Hot Water
+102,Cold Water
+103,Room Ambient
+104,Top of Stator 1A
+105,Top of Stator 2C
+106,Top of Stator 3B
+107,Top of Stator 1B
+108,Top of Stator 2F
+109,Top of Stator 3E
+110,Bottom of Stator 1G
+111,Bottom of Stator 2I
+112,Bottom of Stator 3H
+113,Bottom of Stator 1J
+114,Bottom of Stator 2L
+115,Bottom of Stator 3K
+116,Motor Connector
+117,Motor Lead Red
+118,RPS Sensor Air Ambient
+119,Mode Shift Platorm Lock Amb
+120,Calrod Heater Cold Pin Sheath
+,
+201,Drain Pump Top Wind Left
+202,Drain Pump Bot Wind Right
+203,Drain Pump Cover
+204,Drain Pump Body
+205,Recirc Pump Top Wind Left
+206,Recirc Pump Bot Wind Right
+207,Recirc Winding Cover
+208,Recirc Winding Body
+209,C126 Capacitor Top
+210,C127 Capacitor Side
+211,F101 Input Power Fuse
+212,J803 Tub Heater Connector
+213,J803 Lead
+214,J101 Connector Housing Neutral
+215,J101 Lead
+216,J1203 Phase Wire Connector
+217,J1023 Lead
+218,L102 Input Power Choke
+219,L104 Input Power Choke
+220,T101 Transformer Left
+,
+301,T101 Transformer Right
+302,U101 Controller IC
+303,U101 Ambient 1 Inch Above IC
+304,PCB Trace Between J101 K803
+305,PCB Trace Between C127 U1202
+306,PCP Trace Between D106 JT99
+307,Heatsink Baseplate Cen of IGBT U120
+308,Amb Between Heatsink Fin
+309,Board Amb at Travel Arrow
+310,Water Valve Coil Hot
+311,Water Valve Coil Cold

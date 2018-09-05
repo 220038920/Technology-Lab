@@ -1,0 +1,1 @@
+echo %date% %time% RESTART >> c:\data\log.txt

@@ -1,0 +1,20 @@
+LV Program,Dishwasher Kitchen
+Power Analyzer,APLUS
+Scan Rate (Sec),1.000
+Auto Terminate Power Limit (Watts),2.000
+Time Limit At Power Level (sec),3.000
+Hot Water Estimated Water Usage (Gallons),20.000
+Cold Water Estimated Water Usage (Gallons),20.000
+Analog DAQ,34972A_1
+Flow Rates,HOT
+Scale,
+Dishwasher Events Visible,True
+Rinse Button Enabled,False
+Final RMC Enabled,False
+Reset Cold Laurel Meter Enabled,False
+Laurel Communication Type,TCP
+Agilent Gain,1.000
+Station Name,Station 1
+TC Type (K_J),J
+Max File Size,5.000
+Reset Hot Laurel Meter Enabled,True

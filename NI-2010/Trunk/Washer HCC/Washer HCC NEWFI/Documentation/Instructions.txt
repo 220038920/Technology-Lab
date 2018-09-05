@@ -1,0 +1,17 @@
+This program uses network variables to communicate between two progams ("Newfi" and "Washer HCC Newfi Main"). The reasoning is as follows:
+
+1) Laundry.Net DLL are not re-enterant. You have to have dedicated .dlls for each program
+2) It allows network published variables to allow the server to display the whole lab on one computer
+2) Each Newfi program takes alot of memory so i can only run 24 per computer (working on memory managment)
+
+
+Installation:
+
+1) Most configurations are saved in INI files to allow changes without modifiy the program
+2) It uses a windows API to bring front panels to the front. Each Newfi application need to be renamed to a unique name (manually)
+3) Make sure you itemize each board ID, Station, and corresponding Aglient card position (101,102..ect)
+4) The setup is located at C:/Newfi Exe
+5) It allows you to search debugs for specific commands (update the "Error Code List.csv"
+6) It also uses keys to save the latest configuration. It will save every cycle. This allows you to shut down and restart exactly where you where at.
+
+
