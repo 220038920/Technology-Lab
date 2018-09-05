@@ -1,0 +1,60 @@
+! --------------------------------------------------------------------------
+! Whirlpool BHTC Test Room Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr    : Global control point file
+!    File     : RmControl.pnt
+!    Rev      : 1.0
+!    By       : Mark Hooks
+!    Date     : 12-Nov-2013
+!    Last change on :
+!
+
+Field= 0
+Title=General
+Name=Value
+Point=Ps
+
+Field= 0
+Title=General
+Name=Temp
+Point=Ps
+
+Field= 0
+Title=General
+Name=LastDay
+Point=Ps
+
+Field= 0
+Title=Timer
+Name=Timer
+Point=Ps
+
+Field= 0
+Title=Init Timer
+Name=InitTimer
+Point=Ps
+
+Field= 0
+Title=Init
+Name=Init
+Point=Ps
+
+Field= 1
+Title=Goto Timer
+Name=GotoTimer
+Point=Ps
+
+Field= 1
+Name=Version
+Point=Ps
+
+Field= 1
+Name=StartTime1Flag
+Point=Ps
+
+Field= 1
+Name=StartTime2Flag
+Point=Ps
+! --------------------------------------------------------------------------
+

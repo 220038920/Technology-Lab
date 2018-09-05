@@ -1,0 +1,12 @@
+Title=Aham Energy 2
+Setup=General
+Setup=Aham2
+Setup=ProductInfo
+Setup=Plot lists
+Setup=Options.set
+Setup=Chain.set
+Setup=Wide.set
+Setup=Rerun.set
+Display=Aham1.dsp,Test Info
+Command=Aham2.cmd
+PointHelp=Group Numbers: 1-Freezer 2-FreshFood 3-Ambient 5-Freezer Door 6-Cab Door 10-FF Aux 11-Frz Aux

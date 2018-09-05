@@ -1,0 +1,27 @@
+
+! --------------------------------------------------------------------------
+! Test Room Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr          : Limits  used for tests running in degF units
+!    File           : LimitsF.lup
+!    Rev            : 1.0
+!    By             : Mark Hooks
+!    Date           : 1-Sep-00
+!     
+!
+
+! AHAM stable limits based on 0.042F per hour
+! This value is equal to "If {AStable} < ({AStable_Total} / {LStableLim}) Then"
+! Where stable total is in seconds, so 3600 / 0.042
+StableLim=85714
+AhamStable = 0.042
+
+! ISO stable limits based on 0.6C or 1.08F over the time period
+IsoStable=1.08
+
+RoomOut = 1.0
+
+Out25=25
+Out50=50
+Out5=0.5

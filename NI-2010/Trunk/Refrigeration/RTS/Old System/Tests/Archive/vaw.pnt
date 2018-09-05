@@ -1,0 +1,32 @@
+Field= 0
+Title=Voltage V
+Name=Volt
+Point=61
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+
+Field= 1
+Title=Amps A
+Name=Amp
+Point=62
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+
+Field= 2
+Title=Wattage W
+Name=Watt
+Point=64
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+
+Field= 3
+Title=Kwatt Hours
+Name=Whr
+Point=66
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+

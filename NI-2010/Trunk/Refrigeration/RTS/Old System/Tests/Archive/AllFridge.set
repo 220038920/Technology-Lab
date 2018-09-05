@@ -1,0 +1,109 @@
+Field=0
+Title=Reports
+Name=ResultReport
+Required=Yes
+Track=3
+Help=Type of report(s) to print at the completion of the test.
+List=All Fridge
+List=.
+Default=All Fridge
+
+Field=1
+Title=Tree point file
+Name=PointTree
+Required=No
+Track=3
+
+Field=2
+Title=Check Suction Line;Y/N
+Name=ChkSuct
+Required=No
+Only=YN
+Help=Check the suction line for low temperatures
+List=Y
+List=N
+
+Field=3
+Title=Test to run
+Name=TestCnt
+Required=No
+Only=0123456789
+Help=Number of tests to run back to back
+
+Field=4
+Title=Start Time;Hours
+Name=StartTime
+Required=No
+Track=2
+Help=Time of day in hours from midnight to restart test. -1 to disable.  Takes best temp/power peri
+List=Now,-1
+List=6:00 am,6
+List=6:30 am,6.5
+List=7:00 am,7
+List=7:30 am,7.5
+List=8:00 am,8
+List=8:30 am,8.5
+List=9:00 am,9
+List=9:30 am,9.5
+List=10:00 am,10
+List=10:30 am,10.5
+List=11:00 am,11.0
+List=11:30 am,11.5
+List=12:00 pm,12.0
+List=12:30 pm,12.5
+List=1:00 pm,13.0
+List=1:30 pm,13.5
+List=2:00 pm,14.0
+List=2:30 pm,14.5
+List=3:00 pm,15.0
+List=3:30 pm,15.5
+List=4:00 pm,16.0
+List=4:30 pm,16.5
+List=5:00 pm,17.0
+List=5:30 pm,17.5
+List=Next Defrost,-2
+
+Field=5
+Title=When to stop test;Hours
+Name=TestLenHr
+Track=2
+Help=Hours to run test, or event to stop at
+List=15 hrs,15
+List=16 hrs,16
+List=18 hrs,18
+List=24 hrs,24
+List=48 hrs,48
+List=Next Defrost,-1
+List=2nd Defrost,-2
+List=3rd Defrost,-3
+List=4th Defrost,-4
+
+Field=6
+Title=Stable Groups;1 2 4
+Name=StableGrp
+Required=No
+Only=1 2 4
+Help=Channel groups for checking stable conditions. 1 = freezer 2 = cab
+List=Freezer,1
+List=Cab,2
+List=Freezer and Cab,1 2
+List=Ambient,4
+
+Field=7
+Title=Day
+Name=Day
+Required=No
+Help=Keeps track of the day for 21 day tests.  Increments at midnight.
+List=1
+List=0
+List=-1,Disable
+
+Field=10
+Title=Humidity enable
+Name=HumidityEnable
+Required=No
+Only=YN
+Help=Measure room humidity
+List=Y
+List=N
+

@@ -1,0 +1,39 @@
+! --------------------------------------------------------------------------
+! Calibration Lookup - Vaw Cal
+! --------------------------------------------------------------------------
+!
+! Allows Range labels to be displayed
+!
+Value = Nothing
+Value2 = Nothing
+LabResults = Results
+
+Label1 = 120 V Mid Range
+Label2 = 220 V Mid Range
+Label3 = 220/50 V Mid Range
+Label11 = 120 V Low Range
+Label12 = 220 V Low Range
+Label13 = 220/50 V Low Range
+Label21 = 120 V High Range
+Label22 = 220 V High Range
+Label23 = 220/50 V High Range
+
+SLabel1 = 120V
+SLabel2 = 220V
+SLabel3 = 220V
+SLabel11 = 120V Low
+SLabel12 = 220V Low
+SLabel13 = 220/50 Low
+SLabel21 = 120V High
+SLabel22 = 220V High
+SLabel32 = 220/50 High
+
+! +- Values from calibration certificate taken for appropriate ranges
+WattYokUncert = 0.15
+VoltYokUncert = 0.11
+AmpYokUncert = .00386
+
+! +- Repeatability values from experiment
+WattRepeat = 0.015785
+VoltRepeat = 0.014522
+AmpRepeat = 0.000151

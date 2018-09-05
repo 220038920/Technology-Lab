@@ -1,0 +1,458 @@
+14:10:21,0:00:00,Using Yok 3000 for calibration
+14:10:21,0:00:00,Lab = 11
+14:10:15,1:02:55,Test killed Operator aborted test
+13:07:00,0:00:33,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:07:00,0:00:33,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:59,0:00:32,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:59,0:00:32,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:59,0:00:32,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:58,0:00:31,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:04,0:02:15,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:04,0:02:15,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:03,0:02:14,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:03,0:02:14,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:02,0:02:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:02,0:02:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:02,0:02:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:02,0:02:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:06:02,0:02:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:18,0:00:06,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:18,0:00:06,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:18,0:00:06,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:18,0:00:06,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:17,0:00:05,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:03:03,0:00:01,Get 220 Cal Limits Error: Unable to run query
+13:03:03,0:00:01,Get 120 Cal Limits Error: Unable to run query
+13:03:02,0:00:00,Starting with type 50 - 115V 60Hz range
+13:03:02,0:00:00,Original Voltage Setpoint 115
+13:03:02,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+13:03:02,0:00:00,Using Yok 3000 for calibration
+13:03:02,0:00:00,Lab = 11
+11:10:24,0:01:31,Test killed Operator aborted test
+11:09:46,0:00:53,Amperage zero1 set to 0.0001
+11:09:46,0:00:53,Wattage zero1 set to 0
+11:09:46,0:00:53,Watts Offset Deviation=0
+11:09:46,0:00:53,Raw Watt average 0 Number of readings 52
+11:09:04,0:00:11,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+11:08:38,0:00:01,Get 220 Cal Limits Error: Unable to run query
+11:08:38,0:00:01,Get 120 Cal Limits Error: Unable to run query
+11:08:37,0:00:00,Starting with type 50 - 115V 60Hz range
+11:08:37,0:00:00,Original Voltage Setpoint 115
+11:08:37,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+11:08:37,0:00:00,Using Yok 3000 for calibration
+11:08:37,0:00:00,Lab = 11
+11:06:26,0:12:33,Test killed Operator aborted test
+10:59:52,0:05:59,Please check - Low wattage read:140.7050. Should be > 350.
+10:59:52,0:05:59,Please check - Low wattage read:140.6509. Should be > 350.
+10:59:52,0:05:59,Please check - Low wattage read:140.7879. Should be > 350.
+10:59:51,0:05:58,Please check - Low wattage read:140.8309. Should be > 350.
+10:59:51,0:05:58,Please check - Low wattage read:140.8309. Should be > 350.
+10:59:50,0:05:57,Please check - Low wattage read:140.9441. Should be > 350.
+10:59:50,0:05:57,Please check - Low wattage read:140.8899. Should be > 350.
+10:59:50,0:05:57,Please check - Low wattage read:140.8899. Should be > 350.
+10:59:49,0:05:56,Please check - Low wattage read:140.8899. Should be > 350.
+10:59:49,0:05:56,Please check - Low wattage read:140.9314. Should be > 350.
+10:59:49,0:05:56,Please check - Low wattage read:140.8836. Should be > 350.
+10:59:48,0:05:55,Please check - Low wattage read:140.9139. Should be > 350.
+10:59:48,0:05:55,Please check - Low wattage read:140.9792. Should be > 350.
+10:59:47,0:05:54,Please check - Low wattage read:140.9075. Should be > 350.
+10:59:46,0:05:53,Please check - Low wattage read:140.9011. Should be > 350.
+10:59:46,0:05:53,Please check - Low wattage read:140.9011. Should be > 350.
+10:59:46,0:05:53,Please check - Low wattage read:140.9490. Should be > 350.
+10:59:45,0:05:52,Please check - Low wattage read:140.8787. Should be > 350.
+10:59:45,0:05:52,Please check - Low wattage read:140.8787. Should be > 350.
+10:59:45,0:05:52,Please check - Low wattage read:140.9378. Should be > 350.
+10:59:44,0:05:51,Please check - Low wattage read:140.9777. Should be > 350.
+10:59:44,0:05:51,Please check - Low wattage read:140.9777. Should be > 350.
+10:59:44,0:05:51,Please check - Low wattage read:140.9777. Should be > 350.
+10:58:37,0:04:44,Raw Low Watt average 0 Number of readings 158
+10:58:37,0:04:44,Saving Report info for range 11, 120 V Low Range
+10:58:37,0:04:44,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:56:29,0:02:36,No Database Write yet, continue to Whr calibration
+10:56:29,0:02:36,Watts Uncertainty is 0.237
+10:56:29,0:02:36,Sum of squares is 0.014, Watts var 0.0240 Yok Uncert 0.15
+10:56:29,0:02:36,Saving Report info for range 1, 120 V Mid Range
+10:56:29,0:02:36,Skipping historical gain check for Range 1
+10:56:29,0:02:36,Amperage range 1 gain set to 1.0089
+10:56:29,0:02:36,0.9974
+10:56:29,0:02:36,Voltage range 1 gain set to 0.9988
+10:56:29,0:02:36,Wattage 120 V Mid Range gain set to 1.0084
+10:56:29,0:02:36,1.0000
+10:56:29,0:02:36,Avg Watts:55.3500, Act Watt:55.8068,  Volt:115 Freq:60
+10:56:29,0:02:36,Raw Watt average 55.34375 Number of readings 44, Yok 55.8068
+10:56:29,0:02:36,RBar = 0.0271 R_Bar UCL = 0.089 Sigma = 0.024025
+10:54:41,0:00:48,Amperage zero1 set to 0.0001
+10:54:41,0:00:48,Wattage zero1 set to 0
+10:54:41,0:00:48,Watts Offset Deviation=0
+10:54:41,0:00:48,Raw Watt average 0 Number of readings 44
+10:54:04,0:00:11,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+10:53:38,0:00:01,Get 220 Cal Limits Error: Unable to run query
+10:53:37,0:00:00,Get 120 Cal Limits Error: Unable to run query
+10:53:37,0:00:00,Starting with type 50 - 115V 60Hz range
+10:53:37,0:00:00,Original Voltage Setpoint 115
+10:53:37,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+10:53:37,0:00:00,Using Yok 3000 for calibration
+10:53:37,0:00:00,Lab = 11
+10:53:32,0:06:04,Test killed Operator aborted test
+10:48:14,0:00:46,Amperage zero1 set to 0.0001
+10:48:14,0:00:46,Wattage zero1 set to 0
+10:48:14,0:00:46,Watts Offset Deviation=0
+10:48:14,0:00:46,Raw Watt average 0 Number of readings 44
+10:47:37,0:00:09,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+10:47:20,0:00:01,Get 220 Cal Limits Error: Unable to run query
+10:47:19,0:00:00,Get 120 Cal Limits Error: Unable to run query
+10:47:19,0:00:00,Starting with type 50 - 115V 60Hz range
+10:47:19,0:00:00,Original Voltage Setpoint 115
+10:47:19,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+10:47:19,0:00:00,Using Yok 3000 for calibration
+10:47:19,0:00:00,Lab = 11
+10:47:15,0:05:37,Test killed Procedure executed a Halt command
+10:43:31,0:01:53,Amperage zero1 set to 0.0001
+10:43:31,0:01:53,Wattage zero1 set to 0
+10:43:31,0:01:53,Watts Offset Deviation=0
+10:43:31,0:01:53,Raw Watt average 0 Number of readings 53
+10:42:48,0:01:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+10:41:37,0:00:00,---------- Changing voltage to 115V 60Hz
+10:41:37,0:00:00,Start Range changed to 1
+10:39:09,0:00:01,Get 220 Cal Limits Error: Unable to run query
+10:39:08,0:00:00,Get 120 Cal Limits Error: Unable to run query
+10:39:08,0:00:00,Starting with type 50 - 115V 60Hz range
+10:39:08,0:00:00,Original Voltage Setpoint 230.00
+10:39:08,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+10:39:08,0:00:00,Using Yok 3000 for calibration
+10:39:08,0:00:00,Lab = 11
+10:39:00,0:01:39,Test killed Operator aborted test
+10:37:21,0:00:00,CALTC Auto Version 3.6
+10:37:21,0:00:00,Point Numbers30
+10:30:28,0:16:01,Test ended Proc VAWCAL at line 2181
+10:30:27,0:16:00,Database rtsdb1 Table Results key 13601
+10:30:27,0:16:00,Database values written for Range 2, Test Number: 13601
+10:30:27,0:16:00,120 V Mid Range Watt-hrs 0.05982 121.2200 %Error:-50.65
+10:30:06,0:15:39,Raw High Watt average 2231.209 Number of readings 156
+10:30:06,0:15:39,Saving Report info for range 21, 120 V High Range
+10:30:06,0:15:39,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:27:29,0:13:02,Raw Low Watt average 45.029 Number of readings 159
+10:27:29,0:13:02,Saving Report info for range 11, 120 V Low Range
+10:27:29,0:13:02,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:25:23,0:10:56,No Database Write yet, continue to Whr calibration
+10:25:23,0:10:56,Watts Uncertainty is 0.754
+10:25:23,0:10:56,Sum of squares is 0.142, Watts var 0.3582 Yok Uncert 0.15
+10:25:23,0:10:56,Saving Report info for range 1, 120 V Mid Range
+10:25:23,0:10:56,Skipping historical gain check for Range 1
+10:25:23,0:10:56,Amperage range 1 gain set to 0.9974
+10:25:23,0:10:56,Voltage range 1 gain set to 1.9986
+10:25:23,0:10:56,0.9983
+10:25:23,0:10:56,Wattage 120 V Mid Range gain set to 1.9920
+10:25:23,0:10:56,0.9997
+10:25:23,0:10:56,Avg Watts:443.7432, Act Watt:884.8927,  Volt:115 Freq:60
+10:25:23,0:10:56,Raw Watt average 444.22952 Number of readings 43, Yok 884.8927
+10:25:23,0:10:56,RBar = 0.4040 R_Bar UCL = 1.320 Sigma = 0.358156
+10:23:35,0:09:08,Amperage zero1 set to 0.0001
+10:23:35,0:09:08,Wattage zero1 set to 0
+10:23:35,0:09:08,Watts Offset Deviation=0
+10:23:35,0:09:08,Raw Watt average 0 Number of readings 53
+10:22:52,0:08:25,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+10:22:25,0:07:58,---------- Changing voltage to 115V 60Hz
+10:22:23,0:07:56,Database values written for Range 2
+10:22:23,0:07:56,Changing ranges (2->1)
+10:22:23,0:07:56,220 V Mid Range Watt-hrs 0.12347 122.7800 %Error:0.56
+10:22:02,0:07:35,Raw High Watt average 2231.957 Number of readings 156
+10:22:02,0:07:35,Saving Report info for range 22, 220 V High Range
+10:22:02,0:07:35,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:19:22,0:04:55,Raw Low Watt average 44.937 Number of readings 158
+10:19:22,0:04:55,Saving Report info for range 12, 220 V Low Range
+10:19:22,0:04:55,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:17:16,0:02:49,No Database Write yet, continue to Whr calibration
+10:17:16,0:02:49,Watts Uncertainty is 0.883
+10:17:16,0:02:49,Sum of squares is 0.195, Watts var 0.4267 Yok Uncert 0.15
+10:17:16,0:02:49,Saving Report info for range 2, 220 V Mid Range
+10:17:16,0:02:49,Skipping historical gain check for Range 2
+10:17:16,0:02:49,Amperage range 2 gain set to 0.9968
+10:17:16,0:02:49,Voltage range 2 gain set to 0.9950
+10:17:16,0:02:49,Wattage 220 V Mid Range gain set to 0.9956
+10:17:16,0:02:49,Avg Watts:884.3748, Act Watt:886.5383,  Volt:230 Freq:60
+10:17:16,0:02:49,Raw Watt average 890.49408 Number of readings 43, Yok 886.5383
+10:17:16,0:02:49,RBar = 0.4813 R_Bar UCL = 1.572 Sigma = 0.426684
+10:15:34,0:01:07,Amperage zero2 set to 0.0001
+10:15:34,0:01:07,Wattage zero2 set to 0
+10:15:34,0:01:07,Watts Offset Deviation=0
+10:15:34,0:01:07,Raw Watt average 0 Number of readings 50
+10:14:53,0:00:26,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+10:14:34,0:00:07,Value:2 Type:50 Range:52 SetRange: 51 CurRange:2
+10:14:34,0:00:07,---------- Changing voltage to 230V 60Hz
+10:14:34,0:00:07,Start Range changed to 2
+10:14:26,0:00:00,---------- Changing voltage to 115V 60Hz
+10:14:26,0:00:00,Start Range changed to 1
+10:14:16,0:00:01,Get 220 Cal Limits Error: Unable to run query
+10:14:16,0:00:01,Get 120 Cal Limits Error: Unable to run query
+10:14:16,0:00:00,Starting with type 50 - 115V 60Hz range
+10:14:16,0:00:00,Original Voltage Setpoint 230
+10:14:16,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+10:14:16,0:00:00,Using Yok 3000 for calibration
+10:14:16,0:00:00,Lab = 11
+10:13:32,0:05:20,Test killed Operator aborted test
+10:10:56,0:02:45,No Database Write yet, continue to Whr calibration
+10:10:56,0:02:45,Watts Uncertainty is 0.802
+10:10:56,0:02:45,Sum of squares is 0.161, Watts var 0.3850 Yok Uncert 0.15
+10:10:56,0:02:45,Saving Report info for range 2, 220 V Mid Range
+10:10:56,0:02:45,Skipping historical gain check for Range 2
+10:10:56,0:02:45,No Adjust for Watts 220V
+10:10:56,0:02:45,Amperage range 2 gain set to 0.9972
+10:10:56,0:02:45,Voltage range 2 gain set to 0.9951
+10:10:56,0:02:45,Wattage range 2 gain not adjusted - 0.9956
+10:10:56,0:02:45,Delta:0.148100 is between 0.178 & -0.178- no adjust
+10:10:56,0:02:45,Raw Watt average 892.94269 Number of readings 42, Yok 889.1960
+10:10:56,0:02:45,RBar = 0.4343 R_Bar UCL = 1.419 Sigma = 0.385018
+10:09:08,0:00:57,Amperage zero2 set to 0.0001
+10:09:08,0:00:57,Wattage zero2 set to 0
+10:09:08,0:00:57,Watts Offset Deviation=0
+10:09:08,0:00:57,Raw Watt average 0 Number of readings 44
+10:08:31,0:00:20,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+09:59:31,0:02:38,No Database Write yet, continue to Whr calibration
+09:59:31,0:02:38,Watts Uncertainty is 0.953
+09:59:31,0:02:38,Sum of squares is 0.227, Watts var 0.4622 Yok Uncert 0.15
+09:59:31,0:02:38,Saving Report info for range 2, 220 V Mid Range
+09:59:31,0:02:38,Skipping historical gain check for Range 2
+09:59:31,0:02:38,Amperage range 2 gain set to 0.9986
+09:59:31,0:02:38,Voltage range 2 gain set to 0.9950
+09:59:31,0:02:38,Wattage 220 V Mid Range gain set to 0.9956
+09:59:31,0:02:38,Avg Watts:882.2301, Act Watt:886.6536,  Volt:230 Freq:60
+09:59:31,0:02:38,Raw Watt average 890.53790 Number of readings 44, Yok 886.6536
+09:59:31,0:02:38,RBar = 0.5214 R_Bar UCL = 1.703 Sigma = 0.462234
+09:57:50,0:00:57,Amperage zero2 set to 0.0001
+09:57:50,0:00:57,Wattage zero2 set to 0
+09:57:50,0:00:57,Watts Offset Deviation=0
+09:57:50,0:00:57,Raw Watt average 0 Number of readings 43
+09:57:13,0:00:20,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+09:52:53,0:09:32,No Database Write yet, continue to Whr calibration
+09:52:53,0:09:32,Watts Uncertainty is 0.678
+09:52:53,0:09:32,Sum of squares is 0.115, Watts var 0.3182 Yok Uncert 0.15
+09:52:53,0:09:32,Saving Report info for range 2, 220 V Mid Range
+09:52:53,0:09:32,Skipping historical gain check for Range 2
+09:52:53,0:09:32,Amperage range 2 gain set to 0.9965
+09:52:53,0:09:32,Voltage range 2 gain set to 0.9952
+09:52:53,0:09:32,Wattage 220 V Mid Range gain set to 0.9951
+09:52:53,0:09:32,Avg Watts:887.8589, Act Watt:887.7675,  Volt:230 Freq:60
+09:52:53,0:09:32,Raw Watt average 892.11108 Number of readings 43, Yok 887.7675
+09:52:53,0:09:32,RBar = 0.3589 R_Bar UCL = 1.173 Sigma = 0.318174
+09:48:14,0:04:53,No Database Write yet, continue to Whr calibration
+09:48:14,0:04:53,Watts Uncertainty is 1.527
+09:48:14,0:04:53,Sum of squares is 0.583, Watts var 0.7547 Yok Uncert 0.15
+09:48:14,0:04:53,Saving Report info for range 2, 220 V Mid Range
+09:48:14,0:04:53,Skipping historical gain check for Range 2
+09:48:14,0:04:53,Amperage range 2 gain set to 0.9980
+09:48:14,0:04:53,Voltage range 2 gain set to 0.9949
+09:48:14,0:04:53,Wattage 220 V Mid Range gain set to 0.9966
+09:48:14,0:04:53,Avg Watts:874.6995, Act Watt:875.3920,  Volt:230 Freq:60
+09:48:14,0:04:53,Raw Watt average 878.34045 Number of readings 44, Yok 875.3920
+09:48:14,0:04:53,RBar = 0.8513 R_Bar UCL = 2.781 Sigma = 0.754699
+09:46:26,0:03:05,No Database Write yet, continue to Whr calibration
+09:46:26,0:03:05,Watts Uncertainty is 1.032
+09:46:26,0:03:05,Sum of squares is 0.266, Watts var 0.5030 Yok Uncert 0.15
+09:46:26,0:03:05,Saving Report info for range 2, 220 V Mid Range
+09:46:26,0:03:05,Skipping historical gain check for Range 2
+09:46:26,0:03:05,Amperage range 2 gain set to 0.9993
+09:46:26,0:03:05,Voltage range 2 gain set to 0.9951
+09:46:26,0:03:05,Wattage 220 V Mid Range gain set to 0.9974
+09:46:26,0:03:05,Avg Watts:876.9037, Act Watt:881.7576,  Volt:230 Freq:60
+09:46:26,0:03:05,Raw Watt average 884.02881 Number of readings 45, Yok 881.7576
+09:46:26,0:03:05,RBar = 0.5674 R_Bar UCL = 1.854 Sigma = 0.503014
+09:44:37,0:01:16,Amperage zero2 set to 0.0001
+09:44:37,0:01:16,Wattage zero2 set to 0
+09:44:37,0:01:16,Watts Offset Deviation=0
+09:44:37,0:01:16,Raw Watt average 0 Number of readings 52
+09:43:55,0:00:34,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+09:43:29,0:00:08,Value:2 Type:50 Range:52 SetRange: 51 CurRange:2
+09:43:29,0:00:08,---------- Changing voltage to 230V 60Hz
+09:43:29,0:00:08,Start Range changed to 2
+09:43:21,0:00:00,---------- Changing voltage to 115V 60Hz
+09:43:21,0:00:00,Start Range changed to 1
+09:42:48,0:00:01,Get 220 Cal Limits Error: Unable to run query
+09:42:47,0:00:00,Get 120 Cal Limits Error: Unable to run query
+09:42:47,0:00:00,Starting with type 50 - 115V 60Hz range
+09:42:47,0:00:00,Original Voltage Setpoint 120
+09:42:47,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+09:42:47,0:00:00,Using Yok 3000 for calibration
+09:42:47,0:00:00,Lab = 11
+14:26:10,0:15:44,Test ended Proc CALTCAUTO at line 655
+14:26:10,0:15:44,TC Calibration finished TN: 13577
+14:26:09,0:15:43,Writing LabResults
+14:26:08,0:15:42,110°F After Cal TC21Avg = 109.724
+14:26:08,0:15:42,AutoCal - Standby
+14:25:38,0:15:12,Averages cleared for 110°F After Cal Step 12
+14:25:18,0:14:52,Auto Cal - Temp setpoint changed to 110
+14:25:18,0:14:52,Averages cleared for 110°F After Cal Step 11
+14:25:17,0:14:51,-4°F After Cal TC21Avg = -4.364
+14:25:17,0:14:51,Saving Values for -4 -4°F After Cal Start:21 Stop:30
+14:25:17,0:14:51,AutoCal - Standby
+14:24:47,0:14:21,Averages cleared for -4°F After Cal Step 12
+14:24:26,0:14:00,Auto Cal - Temp setpoint changed to -4
+14:24:26,0:14:00,Averages cleared for -4°F After Cal Step 11
+14:24:24,0:13:58,90°F After Cal TC21Avg = 89.718
+14:24:24,0:13:58,Saving Values for 90 90°F After Cal Start:21 Stop:30
+14:24:24,0:13:58,AutoCal - Standby
+14:23:54,0:13:28,Averages cleared for 90°F After Cal Step 12
+14:23:34,0:13:08,Resent Setpoint:P0 L90 2
+14:23:23,0:12:57,Standby:P0 L90 2 13
+14:23:12,0:12:46,Averages cleared for 90°F After Cal Step 12
+14:22:52,0:12:26,Auto Cal - Temp setpoint changed to 90
+14:22:52,0:12:26,Averages cleared for 90°F After Cal Step 11
+14:22:52,0:12:26,PTC30 Zero Avg: 31.74 Calc Avg: 31.99 New Zero: 0.132000 Old Zero: -0.1203
+14:22:52,0:12:26,PTC29 Zero Avg: 31.70 Calc Avg: 31.98 New Zero: 0.176100 Old Zero: -0.1112
+14:22:52,0:12:26,PTC28 Zero Avg: 31.70 Calc Avg: 32.00 New Zero: 0.147000 Old Zero: -0.1510
+14:22:52,0:12:26,PTC27 Zero Avg: 31.65 Calc Avg: 32.00 New Zero: 0.242000 Old Zero: -0.1040
+14:22:52,0:12:26,PTC26 Zero Avg: 31.57 Calc Avg: 32.00 New Zero: 0.369000 Old Zero: -0.0640
+14:22:52,0:12:26,PTC25 Zero Avg: 31.69 Calc Avg: 32.00 New Zero: 0.142000 Old Zero: -0.1700
+14:22:52,0:12:26,PTC24 Zero Avg: 31.65 Calc Avg: 32.00 New Zero: 0.156000 Old Zero: -0.1950
+14:22:52,0:12:26,PTC23 Zero Avg: 31.63 Calc Avg: 32.00 New Zero: 0.195000 Old Zero: -0.1700
+14:22:52,0:12:26,PTC22 Zero Avg: 31.63 Calc Avg: 32.00 New Zero: 0.226000 Old Zero: -0.1470
+14:22:52,0:12:26,PTC21 Zero Avg: 31.55 Calc Avg: 32.00 New Zero: 0.361000 Old Zero: -0.0950
+14:22:52,0:12:26,32°F As Recvd TC21Avg = 31.639
+14:22:52,0:12:26,Saving Values for 32 32°F As Recvd Start:21 Stop:30
+14:22:52,0:12:26,AutoCal - Standby
+14:22:21,0:11:55,Averages cleared for 32°F As Recvd Step 12
+14:22:01,0:11:35,Auto Cal - Temp setpoint changed to 32
+14:22:01,0:11:35,Averages cleared for 32°F As Recvd Step 11
+14:22:00,0:11:34,90°F As Recvd TC21Avg = 89.687
+14:22:00,0:11:34,Saving Values for 90 90°F As Recvd Start:21 Stop:30
+14:22:00,0:11:34,AutoCal - Standby
+14:21:30,0:11:04,Averages cleared for 90°F As Recvd Step 12
+14:21:09,0:10:43,Auto Cal - Temp setpoint changed to 90
+14:21:09,0:10:43,Averages cleared for 90°F As Recvd Step 11
+14:20:12,0:09:46,110°F After Cal TC1Avg = 108.697
+14:20:12,0:09:46,AutoCal - Standby
+14:19:42,0:09:16,Averages cleared for 110°F After Cal Step 12
+14:19:22,0:08:56,Auto Cal - Temp setpoint changed to 110
+14:19:22,0:08:56,Averages cleared for 110°F After Cal Step 11
+14:19:20,0:08:54,-4°F After Cal TC1Avg = -5.010
+14:19:20,0:08:54,Saving Values for -4 -4°F After Cal Start:1 Stop:20
+14:19:20,0:08:54,AutoCal - Standby
+14:18:50,0:08:24,Averages cleared for -4°F After Cal Step 12
+14:18:30,0:08:04,Auto Cal - Temp setpoint changed to -4
+14:18:30,0:08:04,Averages cleared for -4°F After Cal Step 11
+14:18:30,0:08:04,TC12 New Gain: 1.002000 Old Gain 1.0000
+14:18:30,0:08:04,TC11 New Gain: 0.998100 Old Gain 1.0002
+14:18:30,0:08:04,TC7 New Gain: 0.999800 Old Gain 0.9985
+14:18:30,0:08:04,TC1 New Gain: 1.000400 Old Gain 0.9987
+14:18:30,0:08:04,90°F After Cal TC1Avg = 88.796
+14:18:30,0:08:04,Saving Values for 90 90°F After Cal Start:1 Stop:20
+14:18:30,0:08:04,AutoCal - Standby
+14:18:00,0:07:34,Averages cleared for 90°F After Cal Step 12
+14:17:40,0:07:14,Auto Cal - Temp setpoint changed to 90
+14:17:40,0:07:14,Averages cleared for 90°F After Cal Step 11
+14:17:33,0:07:06,TC16 New Gain: 0.999400 Old Gain 1.0014
+14:17:33,0:07:06,TC13 out of .3 window 90.32.  Number out:1
+14:17:33,0:07:06,TC13 New Gain: 0.999100 Old Gain 1.0026
+14:17:33,0:07:06,TC12 New Gain: 1.000000 Old Gain 1.0026
+14:17:32,0:07:06,TC7 New Gain: 0.998500 Old Gain 1.0000
+14:17:32,0:07:06,TC5 New Gain: 0.998200 Old Gain 0.9999
+14:17:32,0:07:06,TC4 New Gain: 0.998500 Old Gain 1.0002
+14:17:32,0:07:06,TC1 New Gain: 0.998700 Old Gain 1.0022
+14:17:32,0:07:06,90°F After Cal TC1Avg = 88.941
+14:17:32,0:07:06,Saving Values for 90 90°F After Cal Start:1 Stop:20
+14:17:32,0:07:06,AutoCal - Standby
+14:17:02,0:06:36,Averages cleared for 90°F After Cal Step 12
+14:16:42,0:06:16,Auto Cal - Temp setpoint changed to 90
+14:16:42,0:06:16,Averages cleared for 90°F After Cal Step 11
+14:15:40,0:05:14,TC19 out of .3 window 90.34.  Number out:6
+14:15:40,0:05:14,TC19 New Gain: 0.998800 Old Gain 1.0026
+14:15:40,0:05:14,TC18 New Gain: 0.998500 Old Gain 1.0016
+14:15:40,0:05:14,TC17 out of .3 window 90.39.  Number out:5
+14:15:40,0:05:14,TC17 New Gain: 0.997900 Old Gain 1.0022
+14:15:40,0:05:14,TC16 New Gain: 1.001400 Old Gain 1.0026
+14:15:40,0:05:14,TC15 out of .3 window 90.39.  Number out:4
+14:15:40,0:05:14,TC15 New Gain: 0.998200 Old Gain 1.0026
+14:15:40,0:05:14,TC14 New Gain: 0.998200 Old Gain 1.0014
+14:15:40,0:05:14,TC11 New Gain: 1.000200 Old Gain 1.0017
+14:15:40,0:05:14,TC9 out of .3 window 90.32.  Number out:3
+14:15:40,0:05:14,TC9 New Gain: 0.999100 Old Gain 1.0026
+14:15:40,0:05:14,TC8 New Gain: 0.997900 Old Gain 1.0000
+14:15:40,0:05:14,TC6 New Gain: 0.999100 Old Gain 1.0017
+14:15:40,0:05:14,TC5 New Gain: 0.999900 Old Gain 1.0017
+14:15:40,0:05:14,TC4 New Gain: 1.000200 Old Gain 0.9985
+14:15:40,0:05:14,TC2 out of .3 window 90.34.  Number out:2
+14:15:40,0:05:14,TC2 New Gain: 0.997900 Old Gain 1.0017
+14:15:40,0:05:14,TC1 out of .3 window 89.61.  Number out:1
+14:15:40,0:05:14,TC1 New Gain: 1.002200 Old Gain 0.9979
+14:15:40,0:05:14,90°F After Cal TC1Avg = 88.626
+14:15:40,0:05:14,Saving Values for 90 90°F After Cal Start:1 Stop:20
+14:15:40,0:05:14,AutoCal - Standby
+14:15:09,0:04:43,Averages cleared for 90°F After Cal Step 12
+14:14:48,0:04:22,Auto Cal - Temp setpoint changed to 90
+14:14:48,0:04:22,Averages cleared for 90°F After Cal Step 11
+14:14:47,0:04:20,PTC19 Zero Avg: 31.74 Calc Avg: 32.08 New Zero: 0.669300 Old Zero: 0.3300
+14:14:47,0:04:20,PTC18 Zero Avg: 31.68 Calc Avg: 32.05 New Zero: 0.696900 Old Zero: 0.3300
+14:14:47,0:04:20,PTC17 Zero Avg: 31.65 Calc Avg: 32.07 New Zero: 0.748400 Old Zero: 0.3300
+14:14:46,0:04:20,PTC16 Zero Avg: 31.66 Calc Avg: 32.08 New Zero: 0.748100 Old Zero: 0.3300
+14:14:46,0:04:20,PTC15 Zero Avg: 31.66 Calc Avg: 32.08 New Zero: 0.748100 Old Zero: 0.3300
+14:14:46,0:04:20,PTC14 Zero Avg: 31.73 Calc Avg: 32.04 New Zero: 0.749000 Old Zero: 0.4350
+14:14:46,0:04:20,PTC13 Zero Avg: 31.66 Calc Avg: 32.08 New Zero: 0.748100 Old Zero: 0.3296
+14:14:46,0:04:20,PTC12 Zero Avg: 31.66 Calc Avg: 32.08 New Zero: 0.748100 Old Zero: 0.3300
+14:14:46,0:04:20,PTC11 Zero Avg: 31.53 Calc Avg: 32.05 New Zero: 0.958400 Old Zero: 0.4090
+14:14:46,0:04:20,PTC9 Zero Avg: 31.74 Calc Avg: 32.08 New Zero: 0.669300 Old Zero: 0.3300
+14:14:46,0:04:20,PTC8 Zero Avg: 31.71 Calc Avg: 32.00 New Zero: 0.750000 Old Zero: 0.4610
+14:14:46,0:04:20,PTC7 Zero Avg: 31.79 Calc Avg: 32.00 New Zero: 0.750000 Old Zero: 0.5400
+14:14:46,0:04:20,PTC6 Zero Avg: 31.40 Calc Avg: 32.05 New Zero: 1.063200 Old Zero: 0.4090
+14:14:46,0:04:20,PTC5 Zero Avg: 31.74 Calc Avg: 32.05 New Zero: 0.722800 Old Zero: 0.4090
+14:14:46,0:04:20,PTC3 Zero Avg: 31.66 Calc Avg: 32.05 New Zero: 0.800600 Old Zero: 0.4090
+14:14:46,0:04:20,PTC2 Zero Avg: 31.29 Calc Avg: 32.05 New Zero: 1.168000 Old Zero: 0.4090
+14:14:46,0:04:20,PTC1 Zero Avg: 31.51 Calc Avg: 31.94 New Zero: 1.172500 Old Zero: 0.7500
+14:10:21,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+14:10:21,0:00:00,Original Voltage Setpoint 115
+14:10:21,0:00:00,Starting with type 50 - 115V 60Hz range
+14:10:22,0:00:01,Get 120 Cal Limits Error: Unable to run query
+14:10:22,0:00:01,Get 220 Cal Limits Error: Unable to run query
+14:10:42,0:00:13,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+14:11:25,0:00:56,Raw Watt average 0 Number of readings 54
+14:11:25,0:00:56,Watts Offset Deviation=0
+14:11:25,0:00:56,Wattage zero1 set to 0
+14:11:25,0:00:56,Amperage zero1 set to 0.0001
+14:13:06,0:02:37,RBar = 0.1604 R_Bar UCL = 0.524 Sigma = 0.142199
+14:13:06,0:02:37,Raw Watt average 222.75592 Number of readings 45, Yok 222.6953
+14:13:06,0:02:37,Delta:-0.060600 is between 0.064 & -0.064- no adjust
+14:13:06,0:02:37,Wattage range 1 gain not adjusted - 1.0000
+14:13:06,0:02:37,Voltage range 1 gain set to 0.9983
+14:13:06,0:02:37,Amperage range 1 gain set to 1.0027
+14:13:06,0:02:37,No Adjust for Watts 120V
+14:13:06,0:02:37,Skipping historical gain check for Range 1
+14:13:06,0:02:37,Saving Report info for range 1, 120 V Mid Range
+14:13:06,0:02:37,Sum of squares is 0.033, Watts var 0.1422 Yok Uncert 0.15
+14:13:06,0:02:37,Watts Uncertainty is 0.363
+14:13:06,0:02:37,No Database Write yet, continue to Whr calibration
+14:15:14,0:04:45,RBar = 0 R_Bar UCL = 0 Sigma = 0
+14:15:14,0:04:45,Saving Report info for range 11, 120 V Low Range
+14:15:14,0:04:45,Raw Low Watt average 11.219 Number of readings 158
+14:17:55,0:07:26,RBar = 0 R_Bar UCL = 0 Sigma = 0
+14:17:55,0:07:26,Saving Report info for range 21, 120 V High Range
+14:17:55,0:07:26,Raw High Watt average 557.340 Number of readings 157
+14:18:16,0:07:47,120 V Mid Range Watt-hrs 0.03082 30.6900 %Error:0.42
+14:18:16,0:07:47,Changing ranges (1->2)
+14:18:16,0:07:47,Database values written for Range 1
+14:18:18,0:07:49,---------- Changing voltage to 230V 60Hz
+14:18:18,0:07:49,Value:2 Type:50 Range:52 SetRange: 51 CurRange:2
+14:18:46,0:08:17,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+14:19:28,0:08:59,Raw Watt average 0 Number of readings 51
+14:19:28,0:08:59,Watts Offset Deviation=0
+14:19:28,0:08:59,Wattage zero2 set to 0
+14:19:28,0:08:59,Amperage zero2 set to 0.0001
+14:22:41,0:12:12,RBar = 0.5088 R_Bar UCL = 1.662 Sigma = 0.451064
+14:22:41,0:12:12,Raw Watt average 893.90887 Number of readings 46, Yok 891.0011
+14:22:41,0:12:12,Avg Watts:887.8055, Act Watt:891.0011,  Volt:230 Freq:60
+14:22:41,0:12:12,Wattage 220 V Mid Range gain set to 0.9967
+14:22:41,0:12:12,Voltage range 2 gain set to 0.9952
+14:22:41,0:12:12,Amperage range 2 gain set to 0.9986
+14:22:41,0:12:12,Skipping historical gain check for Range 2
+14:22:41,0:12:12,Saving Report info for range 2, 220 V Mid Range
+14:22:41,0:12:12,Sum of squares is 0.217, Watts var 0.4511 Yok Uncert 0.15
+14:22:41,0:12:12,Watts Uncertainty is 0.932
+14:22:41,0:12:12,No Database Write yet, continue to Whr calibration
+14:24:47,0:14:18,RBar = 0 R_Bar UCL = 0 Sigma = 0
+14:24:47,0:14:18,Saving Report info for range 12, 220 V Low Range
+14:24:47,0:14:18,Raw Low Watt average 45.271 Number of readings 158
+14:27:26,0:16:57,RBar = 0 R_Bar UCL = 0 Sigma = 0
+14:27:26,0:16:57,Saving Report info for range 22, 220 V High Range
+14:27:26,0:16:57,Raw High Watt average 2241.830 Number of readings 157
+14:27:47,0:17:18,220 V Mid Range Watt-hrs 0.11843 0 %Error:0
+14:27:47,0:17:18,Database values written for Range 1, Test Number: 13611
+14:27:47,0:17:18,Database rtsdb1 Table Results key 13611
+14:27:48,0:17:19,Test ended Proc VAWCAL at line 2168

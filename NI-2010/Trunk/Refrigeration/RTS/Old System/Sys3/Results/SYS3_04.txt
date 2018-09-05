@@ -1,0 +1,3 @@
+AutoReport,Aham+Cycle
+1TM,0:00:00
+1CM,Freezer over 25 degrees

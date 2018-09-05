@@ -1,0 +1,111 @@
+Field=0
+Title=Product ID;Track
+Name=ProductID
+Required=TrcPopulate
+Help=Used to track the product via the inventory system
+Track=1
+SQl=exec dbo.rts_GetProductInfo '{ProductID}'
+
+Field=1
+Title=Lab Request Number
+Name=TestReqNum
+Required=No
+SQLList=select * from ThermoLabRequests
+Track=1
+
+Field=2
+Title=Engineer
+Name=Engineer
+Required=List
+SQLList=select FirstName + ' ' + LastName + ',' + Username as Engineers from userlist where engineer = 1 order by Username
+Track=1
+Help=Requesting Engineer's User Name
+
+Field=3
+Title=Model Number
+Name=Model
+DbName=ModelNum
+
+Field=4
+Title=Serial Number
+Name=SerialNum
+
+Field=5
+Title=Product Type
+Name=ProductType
+DbName=ProdType
+
+Field=6
+Title=Control Settings
+Name=Settings
+Required=No
+Track=3
+Help=Control Settings for the product
+List=Control Settings
+
+Field=7
+Title=Ambient
+Name=Ambient
+Required=No
+Track=3
+List=Ambients
+
+Field=8
+Title=Test Type
+Name=TestType
+Required=No
+Track=3
+List=Test Type
+
+Field=9
+Title=Compressor Type
+Name=CompType
+Required=No
+Track=1
+
+Field=10
+Title=Refrigerant Type
+Name=RefrType
+Required=No
+Track=1
+
+Field=11
+Title=Charge
+Name=Charge
+Required=No
+Track=1
+
+Field=12
+Title=Comment 1
+Name=Comment1
+Required=No
+Track=3
+
+Field=13
+Title=Comment 2
+Name=Comment2
+Required=No
+Track=3
+
+Field=14
+Title=State Settings
+Name=StateFile
+Required=Yes
+Track=1
+Help=State settings used to determine if the product is on, off or in defrost
+
+Field=15
+Title=Temperature units;C/F
+Name=TempUnits
+Required=No
+Track=1
+Only=CF
+List=C
+List=F
+
+Field=16
+Title=Channel point to use
+Name=PointFile
+Required=Yes
+Track=1
+Help=Channel assignments used for the product

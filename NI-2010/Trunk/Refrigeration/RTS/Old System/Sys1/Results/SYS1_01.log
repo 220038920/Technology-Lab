@@ -1,0 +1,459 @@
+10:25:00,0:00:00,Using Yok 3000 for calibration
+10:25:00,0:00:00,Lab = 11
+14:41:11,0:32:00,Test ended Proc CALCURLEAK at line 292
+14:41:11,0:32:00,CalCurLeak finished TN:7778
+14:41:05,0:31:54,User stopped test
+14:34:23,0:25:12,XY X22:7.51882 Y22:20.10229
+14:33:13,0:24:02,XY X21:6.10027 Y21:15.01201
+14:32:13,0:23:02,XY X20:4.70500 Y20:10.02440
+14:31:23,0:22:12,XY X19:4.14673 Y19:8.02830
+14:30:33,0:21:22,XY X18:3.56682 Y18:5.95493
+14:28:23,0:19:12,XY X17:3.24500 Y17:4.82135
+14:27:23,0:18:12,XY X16:3.04818 Y16:4.11612
+14:26:33,0:17:22,XY X15:2.93800 Y15:3.72214
+14:25:23,0:16:12,XY X14:2.60318 Y14:2.51687
+14:24:13,0:15:02,XY X13:2.25600 Y13:1.25903
+14:23:23,0:14:12,XY X12:2.19000 Y12:1.01323
+14:22:33,0:13:22,XY X11:2.13627 Y11:0.81065
+14:20:13,0:11:02,XY X10:2.09700 Y10:0.67428
+14:19:23,0:10:12,XY X9:2.07827 Y9:0.60179
+14:18:23,0:09:12,XY X8:2.05300 Y8:0.50018
+14:17:23,0:08:12,XY X7:2.03009 Y7:0.40121
+14:16:23,0:07:12,XY X6:2.01082 Y6:0.29931
+14:15:03,0:05:52,XY X5:2.00345 Y5:0.25134
+14:14:14,0:05:03,XY X4:1.99742 Y4:0.20045
+14:13:23,0:04:12,XY X3:1.99264 Y3:0.14959
+14:12:31,0:03:20,XY X2:1.98973 Y2:0.10140
+14:11:43,0:02:32,XY X1:1.98718 Y1:0.05094
+14:08:22,0:00:00,CalCurLeak v1.1
+09:21:58,0:21:14,Test ended Proc CALTCAUTO at line 655
+09:21:58,0:21:14,TC Calibration finished TN: 7759
+09:21:58,0:21:14,Writing tcCalibration
+09:21:58,0:21:14,Writing LabResults
+09:21:57,0:21:13,110°F After Cal TC29Avg = 110.783
+09:21:57,0:21:13,AutoCal - Standby
+09:21:27,0:20:43,Averages cleared for 110°F After Cal Step 12
+09:21:07,0:20:23,Auto Cal - Temp setpoint changed to 110
+09:21:07,0:20:23,Averages cleared for 110°F After Cal Step 11
+09:21:06,0:20:22,-4°F After Cal TC29Avg = -2.910
+09:21:06,0:20:22,Saving Values for -4 -4°F After Cal Start:29 Stop:30
+09:21:06,0:20:22,AutoCal - Standby
+09:20:36,0:19:52,Averages cleared for -4°F After Cal Step 12
+09:20:16,0:19:32,Resent Setpoint:P32.00 L-4 2
+09:20:05,0:19:21,Standby:P32.00 L-4 2 13
+09:19:54,0:19:10,Averages cleared for -4°F After Cal Step 12
+09:19:34,0:18:50,Auto Cal - Temp setpoint changed to -4
+09:19:34,0:18:50,Averages cleared for -4°F After Cal Step 11
+09:19:33,0:18:49,TC30 New Gain: 0.999700 Old Gain 1.0021
+09:19:33,0:18:49,90°F After Cal TC29Avg = 90.808
+09:19:33,0:18:49,Saving Values for 90 90°F After Cal Start:29 Stop:30
+09:19:33,0:18:49,AutoCal - Standby
+09:19:03,0:18:19,Averages cleared for 90°F After Cal Step 12
+09:18:43,0:17:59,Auto Cal - Temp setpoint changed to 90
+09:18:43,0:17:59,Averages cleared for 90°F After Cal Step 11
+09:17:35,0:16:51,TC30 out of .3 window 89.63.  Number out:2
+09:17:35,0:16:51,TC30 New Gain: 1.002100 Old Gain 0.9979
+09:17:35,0:16:51,TC29 out of .3 window 89.60.  Number out:1
+09:17:35,0:16:51,TC29 New Gain: 1.002700 Old Gain 0.9982
+09:17:35,0:16:51,90°F After Cal TC29Avg = 90.700
+09:17:35,0:16:51,Saving Values for 90 90°F After Cal Start:29 Stop:30
+09:17:35,0:16:51,AutoCal - Standby
+09:17:05,0:16:21,Averages cleared for 90°F After Cal Step 12
+09:16:45,0:16:01,Resent Setpoint:P32.00 L90 2
+09:16:34,0:15:50,Standby:P32.00 L90 2 13
+09:16:23,0:15:39,Averages cleared for 90°F After Cal Step 12
+09:16:03,0:15:19,Auto Cal - Temp setpoint changed to 90
+09:16:03,0:15:19,Averages cleared for 90°F After Cal Step 11
+09:16:02,0:15:18,PTC30 Zero Avg: 32.36 Calc Avg: 31.93 New Zero: -0.942000 Old Zero: -0.5100
+09:16:02,0:15:18,PTC29 Zero Avg: 32.34 Calc Avg: 31.94 New Zero: -0.941700 Old Zero: -0.5390
+09:16:02,0:15:18,32°F As Recvd TC29Avg = 32.940
+09:16:02,0:15:18,Saving Values for 32 32°F As Recvd Start:29 Stop:30
+09:16:02,0:15:18,AutoCal - Standby
+09:15:32,0:14:48,Averages cleared for 32°F As Recvd Step 12
+09:15:12,0:14:28,Auto Cal - Temp setpoint changed to 32
+09:15:12,0:14:28,Averages cleared for 32°F As Recvd Step 11
+09:15:11,0:14:27,90°F As Recvd TC29Avg = 90.700
+09:15:11,0:14:27,Saving Values for 90 90°F As Recvd Start:29 Stop:30
+09:15:11,0:14:27,AutoCal - Standby
+09:14:41,0:13:57,Averages cleared for 90°F As Recvd Step 12
+09:14:21,0:13:37,Auto Cal - Temp setpoint changed to 90
+09:14:21,0:13:37,Averages cleared for 90°F As Recvd Step 11
+09:13:39,0:12:55,110°F After Cal TC21Avg = 110.962
+09:13:39,0:12:55,AutoCal - Standby
+09:13:09,0:12:25,Averages cleared for 110°F After Cal Step 12
+09:12:49,0:12:05,Auto Cal - Temp setpoint changed to 110
+09:12:49,0:12:05,Averages cleared for 110°F After Cal Step 11
+09:12:48,0:12:04,-4°F After Cal TC21Avg = -2.899
+09:12:48,0:12:04,Saving Values for -4 -4°F After Cal Start:21 Stop:28
+09:12:48,0:12:04,AutoCal - Standby
+09:12:18,0:11:34,Averages cleared for -4°F After Cal Step 12
+09:11:58,0:11:14,Auto Cal - Temp setpoint changed to -4
+09:11:58,0:11:14,Averages cleared for -4°F After Cal Step 11
+09:11:57,0:11:13,90°F After Cal TC21Avg = 90.950
+09:11:57,0:11:13,Saving Values for 90 90°F After Cal Start:21 Stop:28
+09:11:57,0:11:13,AutoCal - Standby
+09:11:27,0:10:43,Averages cleared for 90°F After Cal Step 12
+09:11:07,0:10:23,Auto Cal - Temp setpoint changed to 90
+09:11:07,0:10:23,Averages cleared for 90°F After Cal Step 11
+09:11:06,0:10:22,PTC28 Zero Avg: 32.19 Calc Avg: 32.00 New Zero: -0.831000 Old Zero: -0.6420
+09:11:06,0:10:22,PTC27 Zero Avg: 32.20 Calc Avg: 32.00 New Zero: -0.885000 Old Zero: -0.6920
+09:11:06,0:10:22,PTC26 Zero Avg: 32.20 Calc Avg: 32.00 New Zero: -0.942000 Old Zero: -0.7380
+09:11:06,0:10:22,PTC25 Zero Avg: 32.26 Calc Avg: 32.00 New Zero: -0.977000 Old Zero: -0.7190
+09:11:06,0:10:22,PTC24 Zero Avg: 32.24 Calc Avg: 32.00 New Zero: -0.977000 Old Zero: -0.7410
+09:11:06,0:10:22,PTC23 Zero Avg: 32.23 Calc Avg: 32.00 New Zero: -0.983000 Old Zero: -0.7610
+09:11:06,0:10:22,PTC22 Zero Avg: 32.22 Calc Avg: 32.00 New Zero: -1.032000 Old Zero: -0.8120
+09:11:06,0:10:22,PTC21 Zero Avg: 32.18 Calc Avg: 32.00 New Zero: -1.025000 Old Zero: -0.8510
+09:11:06,0:10:22,32°F As Recvd TC21Avg = 33.025
+09:11:06,0:10:22,Saving Values for 32 32°F As Recvd Start:21 Stop:28
+09:11:06,0:10:22,AutoCal - Standby
+09:10:36,0:09:52,Averages cleared for 32°F As Recvd Step 12
+09:10:16,0:09:32,Resent Setpoint:P32.00 L32 2
+09:10:05,0:09:21,Standby:P32.00 L32 2 13
+09:09:54,0:09:10,Averages cleared for 32°F As Recvd Step 12
+09:09:34,0:08:50,Auto Cal - Temp setpoint changed to 32
+09:09:34,0:08:50,Averages cleared for 32°F As Recvd Step 11
+09:09:33,0:08:49,90°F As Recvd TC21Avg = 90.941
+09:09:33,0:08:49,Saving Values for 90 90°F As Recvd Start:21 Stop:28
+09:09:33,0:08:49,AutoCal - Standby
+09:09:03,0:08:19,Averages cleared for 90°F As Recvd Step 12
+09:08:43,0:07:59,Auto Cal - Temp setpoint changed to 90
+09:08:43,0:07:59,Averages cleared for 90°F As Recvd Step 11
+09:07:54,0:07:10,110°F After Cal TC1Avg = 110.476
+09:07:54,0:07:10,AutoCal - Standby
+09:07:24,0:06:40,Averages cleared for 110°F After Cal Step 12
+09:07:04,0:06:20,Resent Setpoint:P32.00 L110 2
+09:06:53,0:06:09,Standby:P32.00 L110 2 13
+09:06:42,0:05:58,Averages cleared for 110°F After Cal Step 12
+09:06:22,0:05:38,Auto Cal - Temp setpoint changed to 110
+09:06:22,0:05:38,Averages cleared for 110°F After Cal Step 11
+09:06:21,0:05:37,-4°F After Cal TC1Avg = -3.426
+09:06:21,0:05:37,Saving Values for -4 -4°F After Cal Start:1 Stop:20
+09:06:21,0:05:37,AutoCal - Standby
+09:05:51,0:05:07,Averages cleared for -4°F After Cal Step 12
+09:05:31,0:04:47,Resent Setpoint:P32.00 L-4 2
+09:05:20,0:04:36,Standby:P32.00 L-4 2 13
+09:05:09,0:04:25,Averages cleared for -4°F After Cal Step 12
+09:04:49,0:04:05,Auto Cal - Temp setpoint changed to -4
+09:04:49,0:04:05,Averages cleared for -4°F After Cal Step 11
+09:04:48,0:04:04,90°F After Cal TC1Avg = 90.500
+09:04:48,0:04:04,Saving Values for 90 90°F After Cal Start:1 Stop:20
+09:04:48,0:04:04,AutoCal - Standby
+09:04:18,0:03:34,Averages cleared for 90°F After Cal Step 12
+09:03:58,0:03:14,Auto Cal - Temp setpoint changed to 90
+09:03:58,0:03:14,Averages cleared for 90°F After Cal Step 11
+09:03:57,0:03:13,PTC20 Zero Avg: 32.41 Calc Avg: 32.00 New Zero: -0.549000 Old Zero: -0.1370
+09:03:57,0:03:13,PTC19 Zero Avg: 32.24 Calc Avg: 32.00 New Zero: -0.607000 Old Zero: -0.3640
+09:03:57,0:03:13,PTC18 Zero Avg: 32.23 Calc Avg: 32.00 New Zero: -0.639000 Old Zero: -0.4130
+09:03:57,0:03:13,PTC17 Zero Avg: 32.21 Calc Avg: 32.00 New Zero: -0.685000 Old Zero: -0.4730
+09:03:57,0:03:13,PTC16 Zero Avg: 32.21 Calc Avg: 32.00 New Zero: -0.710000 Old Zero: -0.5050
+09:03:57,0:03:13,PTC15 Zero Avg: 32.25 Calc Avg: 32.00 New Zero: -0.595000 Old Zero: -0.3490
+09:03:57,0:03:13,PTC14 Zero Avg: 32.35 Calc Avg: 32.00 New Zero: -0.706000 Old Zero: -0.3560
+09:03:57,0:03:13,PTC13 Zero Avg: 32.27 Calc Avg: 32.04 New Zero: -0.749100 Old Zero: -0.5240
+09:03:57,0:03:13,PTC12 Zero Avg: 32.26 Calc Avg: 32.00 New Zero: -0.737000 Old Zero: -0.4780
+09:03:57,0:03:13,PTC11 Zero Avg: 32.28 Calc Avg: 32.00 New Zero: -0.791000 Old Zero: -0.5150
+09:03:57,0:03:13,PTC10 Zero Avg: 32.21 Calc Avg: 32.00 New Zero: -0.457000 Old Zero: -0.2520
+09:03:57,0:03:13,PTC9 Zero Avg: 32.25 Calc Avg: 32.00 New Zero: -0.627000 Old Zero: -0.3770
+09:03:57,0:03:13,PTC8 Zero Avg: 32.26 Calc Avg: 32.00 New Zero: -0.649000 Old Zero: -0.3930
+09:03:57,0:03:13,PTC7 Zero Avg: 32.22 Calc Avg: 32.00 New Zero: -0.680000 Old Zero: -0.4570
+09:03:57,0:03:13,PTC6 Zero Avg: 32.22 Calc Avg: 32.00 New Zero: -0.700000 Old Zero: -0.4810
+09:03:57,0:03:13,PTC5 Zero Avg: 32.26 Calc Avg: 32.00 New Zero: -0.531000 Old Zero: -0.2740
+09:03:57,0:03:13,PTC4 Zero Avg: 32.26 Calc Avg: 32.00 New Zero: -0.563000 Old Zero: -0.3040
+09:03:57,0:03:13,PTC3 Zero Avg: 32.37 Calc Avg: 32.00 New Zero: -0.644000 Old Zero: -0.2810
+09:03:57,0:03:13,PTC2 Zero Avg: 32.24 Calc Avg: 32.00 New Zero: -0.579000 Old Zero: -0.3490
+09:03:57,0:03:13,PTC1 Zero Avg: 32.24 Calc Avg: 32.00 New Zero: -0.555000 Old Zero: -0.3130
+09:03:57,0:03:13,32°F As Recvd TC1Avg = 32.555
+09:03:57,0:03:13,Saving Values for 32 32°F As Recvd Start:1 Stop:20
+09:03:57,0:03:13,AutoCal - Standby
+09:03:27,0:02:43,Averages cleared for 32°F As Recvd Step 12
+09:03:07,0:02:23,Auto Cal - Temp setpoint changed to 32
+09:03:07,0:02:23,Averages cleared for 32°F As Recvd Step 11
+09:03:06,0:02:22,90°F As Recvd TC1Avg = 90.449
+09:03:06,0:02:22,Saving Values for 90 90°F As Recvd Start:1 Stop:20
+09:03:06,0:02:22,AutoCal - Standby
+09:02:36,0:01:52,Averages cleared for 90°F As Recvd Step 12
+09:02:15,0:01:31,Auto Cal - Temp setpoint changed to 90
+09:02:15,0:01:31,Averages cleared for 90°F As Recvd Step 11
+09:00:44,0:00:00,CALTC Auto Version 3.6
+09:00:44,0:00:00,Point Numbers30
+08:02:17,0:01:28,Test ended Proc CALPRES at line 316
+08:02:17,0:01:28,Pressure Calibration finished TN:7750
+08:02:17,0:01:28,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7750
+08:02:16,0:01:27,Writing Results
+08:02:16,0:01:27,Writing Results
+08:02:16,0:01:27,Number of readings 17
+08:02:16,0:01:27,HPsi Gain changed to 1.000212
+08:02:16,0:01:27,LPsi Gain changed to 1.000200
+08:02:16,0:01:27,Raw Gain LPSI 4.99900 HPSI 4.99894 Number of readings 17
+08:01:32,0:00:43,Raw Zero LPSI 0.000000 HPSI 0.000000
+08:01:32,0:00:43,Raw Zero LPSI 0 HPSI 0 Number of readings 17
+08:00:49,0:00:00,CALPRES Version 2.0
+08:00:49,0:00:00,Inject signal on pin 4 to 3
+08:00:49,0:00:00,24V source measured from pin 2 to 1
+08:00:49,0:00:00,0 0
+08:00:49,0:00:00,Point Pressure loaded
+07:36:00,0:08:52,Test killed Operator aborted test
+07:27:08,0:00:00,Cycle Test Started v20.3
+07:27:08,0:00:00,Stable value = 1006.000 Period = 0:00:00
+07:27:08,23:10:10,LastTest = rlattner\15P0160-7723-01-01
+07:27:08,23:10:10,Save as rlattner\15P0160-7746-01-01
+07:27:08,23:10:10,PerformanceFlex V2.4
+07:27:08,23:10:10,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7723
+07:27:08,23:10:10,Database TestReqNum = 161
+07:27:08,23:10:10,TestDate is 08/23/16 Database rtsdb1 Table Results key 7723
+07:27:08,23:10:10,ADC CT = 40.0000
+07:27:08,23:10:10,User stopped test
+06:12:15,21:55:17,Typical cycles started
+05:46:37,21:29:39,Product Overloaded
+05:46:37,21:29:39,Defrost recovery completed
+05:46:37,21:29:39,1 Gosub ProcDefEnd
+04:47:20,20:30:22,ADC CT = 40.0000
+04:47:20,20:30:22,Product went into defrost while off
+03:47:50,19:30:52,Product Overloaded
+02:48:23,18:31:25,Product Overloaded
+01:48:52,17:31:54,Product Overloaded
+00:49:16,16:32:18,Product Overloaded
+00:00:00,15:43:02,New day
+23:49:56,15:32:58,Product Overloaded
+22:50:01,14:33:03,Product Overloaded
+21:51:15,13:34:17,Product Overloaded
+20:52:02,12:35:04,Product Overloaded
+19:52:36,11:35:38,Product Overloaded
+18:53:28,10:36:30,Product Overloaded
+17:54:31,9:37:33,Product Overloaded
+16:55:10,8:38:12,Product Overloaded
+15:55:59,7:39:01,Product Overloaded
+15:22:29,7:05:31,Typical cycles started
+14:57:03,6:40:05,Product Overloaded
+14:57:03,6:40:05,Defrost recovery completed
+14:57:03,6:40:05,1 Gosub ProcDefEnd
+13:58:02,5:41:04,Product Overloaded
+13:58:01,5:41:03,ADC CT = 40.0000
+13:58:01,5:41:03,Product went into defrost while off
+12:58:51,4:41:53,Product Overloaded
+11:59:29,3:42:31,Product Overloaded
+10:59:51,2:42:53,Product Overloaded
+10:24:50,2:07:52,Typical cycles started
+09:58:30,1:41:32,Defrost recovery completed
+09:58:30,1:41:32,1 Gosub ProcDefEnd
+09:01:21,0:44:23,ADC CT = 40.0000
+09:01:21,0:44:23,Product went into defrost while off
+08:16:58,0:00:00,Cycle Test Started v20.3
+08:16:58,0:00:00,Stable value = 1000.000 Period = 0:00:00
+08:16:58,0:00:01,Sample rate set to 5
+08:16:58,0:00:01,Transfer Filter Off
+08:16:58,0:00:01,LastTest still NA 0
+08:16:58,0:00:01,Save as rlattner\15P0160-7723-01-01
+08:16:58,0:00:01,Test Number 7723
+08:16:58,0:00:01,Starting Cycle v20.3 Voltage S.P. 115
+08:16:58,0:00:01,Product 15P0160 location 'RM 01-01'.  Result: No change
+08:16:57,0:00:00,Waiting on inventory move procedure: result code:0, message:
+08:16:56,1:14:57,Test killed Operator aborted test
+07:45:07,0:43:08,Typical cycles started
+07:35:41,0:33:42,Product Overloaded
+07:35:41,0:33:42,Defrost recovery completed
+07:35:41,0:33:42,1 Gosub ProcDefEnd
+07:01:59,0:00:00,Cycle Test Started v20.3
+07:01:59,0:00:00,Stable value = 1006.000 Period = 0:00:00
+07:01:59,20:57:50,LastTest = rlattner\15P0160-7692-01-01
+07:01:59,20:57:50,Save as rlattner\15P0160-7716-01-01
+07:01:59,20:57:50,PerformanceFlex V2.4
+07:01:59,20:57:50,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7692
+07:01:59,20:57:50,Database TestReqNum = 161
+07:01:59,20:57:50,TestDate is 08/22/16 Database rtsdb1 Table Results key 7692
+07:01:59,20:57:50,ADC CT = 40.0000
+07:01:59,20:57:50,User stopped test
+06:36:54,20:32:45,Product Overloaded
+05:37:58,19:33:49,Product Overloaded
+04:38:19,18:34:10,Product Overloaded
+04:05:00,18:00:51,Typical cycles started
+03:39:24,17:35:15,Product Overloaded
+03:39:24,17:35:15,Defrost recovery completed
+03:39:24,17:35:15,1 Gosub ProcDefEnd
+02:40:15,16:36:06,ADC CT = 40.0000
+02:40:15,16:36:06,Corrected For short on time
+02:40:15,16:36:06,Product Defrosted
+02:40:14,16:36:05,Product Overloaded
+02:06:56,16:02:47,Typical cycles started
+01:41:19,15:37:10,Product Overloaded
+01:41:19,15:37:10,Defrost recovery completed
+01:41:19,15:37:10,1 Gosub ProcDefEnd
+00:42:10,14:38:01,ADC CT = 40.0000
+00:42:10,14:38:01,Product went into defrost while off
+00:09:04,14:04:55,Typical cycles started
+00:00:00,13:55:51,New day
+23:43:41,13:39:32,Defrost recovery completed
+23:43:41,13:39:32,1 Gosub ProcDefEnd
+22:44:45,12:40:36,Product Overloaded
+22:44:44,12:40:35,ADC CT = 40.0000
+22:44:44,12:40:35,Product went into defrost while off
+21:45:30,11:41:21,Product Overloaded
+20:46:07,10:41:58,Product Overloaded
+19:47:01,9:42:52,Product Overloaded
+19:13:32,9:09:23,Typical cycles started
+18:47:54,8:43:45,Defrost recovery completed
+18:47:54,8:43:45,1 Gosub ProcDefEnd
+17:48:44,7:44:35,ADC CT = 40.0000
+17:48:44,7:44:35,Corrected For short on time
+17:48:44,7:44:35,Product Defrosted
+17:48:43,7:44:34,Product Overloaded
+16:49:48,6:45:39,Product Overloaded
+15:50:54,5:46:45,Product Overloaded
+14:51:38,4:47:29,Product Overloaded
+13:52:14,3:48:05,Product Overloaded
+12:52:41,2:48:32,Product Overloaded
+11:53:46,1:49:37,Product Overloaded
+11:18:19,1:14:10,Typical cycles started
+10:51:41,0:47:32,Product Overloaded
+10:04:09,0:00:00,Cycle Test Started v20.3
+10:04:09,0:00:00,Stable value = 1000.000 Period = 0:00:00
+10:04:09,0:00:01,Sample rate set to 5
+10:04:09,0:00:01,Transfer Filter Off
+10:04:09,0:00:01,LastTest still NA 0
+10:04:09,0:00:01,Save as rlattner\15P0160-7692-01-01
+10:04:09,0:00:01,Test Number 7692
+10:04:09,0:00:01,Starting Cycle v20.3 Voltage S.P. 115
+10:04:09,0:00:01,Product 15P0160 location 'RM 01-01'.  Result: Location Changed
+10:04:08,0:00:00,Waiting on inventory move procedure: result code:0, message:
+10:03:48,0:57:06,Test killed Operator aborted test
+09:52:46,0:46:05,Typical cycles started
+09:40:03,0:33:22,Product Overloaded
+09:40:03,0:33:22,Defrost recovery completed
+09:40:03,0:33:22,1 Gosub ProcDefEnd
+09:06:41,0:00:00,Cycle Test Started v20.3
+09:06:41,0:00:00,Stable value = 1006.000 Period = 0:00:00
+09:06:41,66:24:45,LastTest = rlattner\15P0160-7599-01-01
+09:06:41,66:24:45,Save as rlattner\15P0160-7684-01-01
+09:06:41,66:24:45,PerformanceFlex V2.4
+09:06:41,66:24:45,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7599
+09:06:41,66:24:45,Database TestReqNum = 161
+09:06:41,66:24:45,TestDate is 08/19/16 Database rtsdb1 Table Results key 7599
+09:06:41,66:24:45,ADC CT = 40.0000
+09:06:40,66:24:44,User stopped test
+09:02:07,66:20:11,Product Overloaded
+07:45:30,65:03:34,Typical cycles started
+07:45:29,65:03:33,Product Overloaded
+07:45:29,65:03:33,Defrost recovery completed
+07:45:29,65:03:33,1 Gosub ProcDefEnd
+07:23:44,64:41:47,ADC CT = 40.0000
+07:23:43,64:41:47,Product Defrosted
+07:04:07,64:22:11,Product Overloaded
+06:05:06,63:23:10,Product Overloaded
+05:06:40,62:24:44,Product Overloaded
+04:07:40,61:25:44,Product Overloaded
+02:09:18,59:27:22,Product Overloaded
+01:10:10,58:28:14,Product Overloaded
+22:13:11,55:31:15,Product Overloaded
+21:39:42,54:57:46,Typical cycles started
+21:14:09,54:32:13,Defrost recovery completed
+21:14:09,54:32:13,1 Gosub ProcDefEnd
+20:15:17,53:33:21,ADC CT = 40.0000
+20:15:17,53:33:21,Product went into defrost while off
+19:16:12,52:34:16,Product Overloaded
+17:18:01,50:36:05,Product Overloaded
+16:19:09,49:37:13,Product Overloaded
+15:20:06,48:38:10,Product Overloaded
+14:21:24,47:39:28,Product Overloaded
+13:22:22,46:40:26,Product Overloaded
+12:23:26,45:41:30,Product Overloaded
+11:49:52,45:07:56,Typical cycles started
+11:24:10,44:42:14,Product Overloaded
+11:24:10,44:42:14,Defrost recovery completed
+11:24:10,44:42:14,1 Gosub ProcDefEnd
+10:25:14,43:43:18,ADC CT = 40.0000
+10:25:14,43:43:18,Product went into defrost while off
+09:51:47,43:09:51,Typical cycles started
+09:26:08,42:44:12,Product Overloaded
+09:26:08,42:44:12,Defrost recovery completed
+09:26:08,42:44:12,1 Gosub ProcDefEnd
+08:27:10,41:45:14,ADC CT = 40.0000
+08:27:10,41:45:14,Product went into defrost while off
+07:27:48,40:45:52,Product Overloaded
+06:54:21,40:12:25,Typical cycles started
+06:28:50,39:46:54,Product Overloaded
+06:28:50,39:46:54,Defrost recovery completed
+06:28:50,39:46:54,1 Gosub ProcDefEnd
+05:29:54,38:47:57,ADC CT = 40.0000
+05:29:53,38:47:57,Corrected For short on time
+05:29:53,38:47:57,Product Defrosted
+05:29:52,38:47:56,Product Overloaded
+04:30:50,37:48:54,Product Overloaded
+03:57:16,37:15:20,Typical cycles started
+03:31:28,36:49:32,Product Overloaded
+03:31:28,36:49:32,Defrost recovery completed
+03:31:28,36:49:32,1 Gosub ProcDefEnd
+02:32:27,35:50:30,ADC CT = 40.0000
+02:32:26,35:50:30,Product went into defrost while off
+01:33:14,34:51:18,Product Overloaded
+00:59:54,34:17:58,Typical cycles started
+00:34:08,33:52:12,Defrost recovery completed
+00:34:08,33:52:12,1 Gosub ProcDefEnd
+23:34:28,32:52:32,ADC CT = 40.0000
+23:34:28,32:52:32,Corrected For short on time
+23:34:28,32:52:32,Product Defrosted
+23:34:28,32:52:32,Product Overloaded
+22:33:43,31:51:47,Product Overloaded
+21:33:05,30:51:09,Product Overloaded
+21:00:11,30:18:15,Typical cycles started
+20:33:10,29:51:14,Product Overloaded
+20:33:10,29:51:14,Defrost recovery completed
+20:33:10,29:51:14,1 Gosub ProcDefEnd
+10:25:00,0:00:00,Starting VAW Calibration Procedure 5.3, saving to Results
+10:25:00,0:00:00,Original Voltage Setpoint 115.0
+10:25:00,0:00:00,Starting with type 50 - 115V 60Hz range
+10:25:00,0:00:00,Get 120 Cal Limits Error: Unable to run query
+10:25:01,0:00:01,Get 220 Cal Limits Error: Unable to run query
+10:25:06,0:00:00,Start Range changed to 1
+10:25:06,0:00:00,---------- Changing voltage to 115V 60Hz
+10:25:21,0:00:12,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+10:25:58,0:00:49,Raw Watt average 0 Number of readings 45
+10:25:58,0:00:49,Watts Offset Deviation=0
+10:25:58,0:00:49,Wattage zero1 set to 0
+10:25:58,0:00:49,Amperage zero1 set to 0.0001
+10:27:38,0:02:29,RBar = 0.0283 R_Bar UCL = 0.092 Sigma = 0.025089
+10:27:38,0:02:29,Raw Watt average 200.94096 Number of readings 42, Yok 200.6252
+10:27:38,0:02:29,Avg Watts:200.4298, Act Watt:200.6252,  Volt:115 Freq:60
+10:27:38,0:02:29,Wattage 120 V Mid Range gain set to 0.9984
+10:27:38,0:02:29,Voltage range 1 gain set to 0.9986
+10:27:38,0:02:29,Amperage range 1 gain set to 1.0008
+10:27:38,0:02:29,Skipping historical gain check for Range 1
+10:27:38,0:02:29,Saving Report info for range 1, 120 V Mid Range
+10:27:38,0:02:29,Sum of squares is 0.023, Watts var 0.0251 Yok Uncert 0.15
+10:27:38,0:02:29,Watts Uncertainty is 0.303
+10:27:38,0:02:29,No Database Write yet, continue to Whr calibration
+10:29:45,0:04:36,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:29:45,0:04:36,Saving Report info for range 11, 120 V Low Range
+10:29:45,0:04:36,Raw Low Watt average 10.221 Number of readings 156
+10:32:26,0:07:17,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:32:26,0:07:17,Saving Report info for range 21, 120 V High Range
+10:32:26,0:07:17,Raw High Watt average 503.952 Number of readings 157
+10:32:47,0:07:38,120 V Mid Range Watt-hrs 0.02765 27.5900 %Error:0.22
+10:32:47,0:07:38,Changing ranges (1->2)
+10:32:47,0:07:38,Database values written for Range 1
+10:32:49,0:07:40,---------- Changing voltage to 230V 60Hz
+10:32:49,0:07:40,Value:2 Type:50 Range:52 SetRange: 51 CurRange:2
+10:34:16,0:09:07,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+10:34:58,0:09:49,Raw Watt average 0 Number of readings 52
+10:34:58,0:09:49,Watts Offset Deviation=0
+10:34:58,0:09:49,Wattage zero2 set to 0
+10:34:58,0:09:49,Amperage zero2 set to 0.0002
+10:36:46,0:11:37,RBar = 0.1736 R_Bar UCL = 0.567 Sigma = 0.153901
+10:36:46,0:11:37,Raw Watt average 201.67694 Number of readings 44, Yok 201.4398
+10:36:46,0:11:37,Avg Watts:202.7535, Act Watt:201.4398,  Volt:230 Freq:60
+10:36:46,0:11:37,Wattage 220 V Mid Range gain set to 0.9988
+10:36:46,0:11:37,Voltage range 2 gain set to 0.9948
+10:36:46,0:11:37,Amperage range 2 gain set to 1.0010
+10:36:46,0:11:37,Skipping historical gain check for Range 2
+10:36:46,0:11:37,Saving Report info for range 2, 220 V Mid Range
+10:36:46,0:11:37,Sum of squares is 0.046, Watts var 0.1539 Yok Uncert 0.15
+10:36:46,0:11:37,Watts Uncertainty is 0.429
+10:36:46,0:11:37,No Database Write yet, continue to Whr calibration
+10:38:54,0:13:45,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:38:54,0:13:45,Saving Report info for range 12, 220 V Low Range
+10:38:54,0:13:45,Raw Low Watt average 10.315 Number of readings 156
+10:41:33,0:16:24,RBar = 0 R_Bar UCL = 0 Sigma = 0
+10:41:33,0:16:24,Saving Report info for range 22, 220 V High Range
+10:41:33,0:16:24,Raw High Watt average 506.812 Number of readings 155
+10:41:54,0:16:45,220 V Mid Range Watt-hrs 0.02778 27.7400 %Error:0.14
+10:41:54,0:16:45,Database values written for Range 1, Test Number: 7819
+10:41:54,0:16:45,Database rtsdb1 Table Results key 7819
+10:41:55,0:16:46,Test ended Proc VAWCAL at line 2177

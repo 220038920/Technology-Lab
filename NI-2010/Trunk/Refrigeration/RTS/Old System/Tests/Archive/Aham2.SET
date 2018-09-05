@@ -1,0 +1,116 @@
+Field=0
+Title=Reports
+Name=ResultReport
+Required=No
+Track=3
+Help=Type of report(s) to generate at the completion of the test.
+List=Reports
+Default=Aham+AStable
+
+Field=1
+Title=One Test
+Name=OneTest
+Required=Yes
+Help=One Test - Include stabilization in one test or separate
+List=Yes
+List=No
+Default=Yes
+
+Field=2
+Title=Tests to run
+Name=TestCnt
+Required=No
+Only=0123456789
+Help=Number of tests to run back to back
+
+Field=3
+Title=Stable Groups
+Name=StableGrp
+Required=No
+Only=1 2 3 10 11
+Help=Channel groups for checking type A stable conditions for .042/hr
+List=Freezer,1
+List=Cab,2
+List=Cab/aux,2 10
+List=Freezer and Cab,1 2
+List=Ambient,3
+Init=Freezer/aux,3 11
+
+Field=4
+Title=Stable Start
+Name=StableStart
+Required=Yes
+Help=Check for stability before starting test
+Help=Check for stability before starting test
+List=Yes,Check 7 hr period for stability
+List=Yes1,Only check stable for 1st test
+List=No,Skip stable check and look for defrost
+List=Force,This product is stable now
+Init=Yes,Check 7 hr period for stability
+
+Field=5
+Title=Temp Period Length;
+Name=ExtTempPeriod
+Required=No
+Help=Length of Temperature period before defrost (with whole cycles)
+List=3 Hours,3
+List=6 Hours,6
+List=10 Hours,10
+Init=6 Hours,6
+
+Field=6
+Title=Aham Standard
+Name=AhamStandard
+Required=No
+Help=Which Aham Standard to use for the test.  Affects defrost and temp period selection. EW - Electrolux Waiver
+List=2014
+List=2001
+List=2001 EW
+Init=2014
+Default=2014
+
+Field=7
+Title=Product Height;in
+Name=ProdHeight
+Required=No
+Help=Height of the product in inches
+Init=72
+
+Field=8
+Title=Extra point file
+Name=PointTree
+Required=No
+Track=3
+Help=Extra point file
+
+Field=9
+Title=Non-uniform cycling
+Name=NonUniform
+List=Yes
+List=No
+Init=No
+Required=No
+Help=If product cycles in a non-uniform way, Yes takes 2 cycles instead of 1 cylce for Cycle A and B
+
+Field=10
+Name=DefrCnt
+Required=Yes
+Default=Now,-1
+Help=Starting conditions for the test. -1 for now or 1 for next defrost
+List=Now,-1
+List=After Recovery,-2
+List=Next Defrost,0
+List=2nd Defrost,1
+List=3rd Defrost,2
+List=4th Defrost,3
+
+Field=11
+Name=StopCond
+Required=Yes
+Default=After Recovery,3
+Help=When to stop the test. & Finished option makes 1 test for stable and test period
+List=At Defrost,1
+List=At Defrost & Finished,2
+List=After Recovery,3
+List=After Recovery & Finished,4
+

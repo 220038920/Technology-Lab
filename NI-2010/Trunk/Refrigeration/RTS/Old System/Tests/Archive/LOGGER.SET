@@ -1,0 +1,48 @@
+Field= 0
+Title=Timeout for start;Min
+Name=Timeout
+Required=No
+Only=0123456789
+Help=How long to wait in minutes before the test starts
+
+Field= 1
+Title=Test length;Min
+Name=TestLen
+Required=No
+Only=0123456789
+Help=How long to run the test in minutes
+
+Field= 2
+Title=Number of tests
+Name=NumbTest
+Required=No
+Only=0123456789
+Help=How many tests to run
+
+Field= 3
+Title=Stable Groups;1 2 3
+Name=StableGrp
+Required=No
+Only=1 2 3 4
+Help=Channel groups for checking stable conditions. 1 = freezer 2 = cab  3 = ambient
+List=Freezer,1
+List=Cab,2
+List=Freezer and Cab,1 2
+List=Ambient,3
+
+Field= 4
+Title=Wait for Off
+Name=WaitForOff
+Help=Wait for off cycle before resetting integrator and starting test
+List=Y
+List=N
+
+Field=5
+Title=Extra point file
+Name=PointTree
+Required=No
+Help=Extra point file for Wide, Rits or Netdaq
+
+Field= 6
+Name=ResultReport
+Default=Development

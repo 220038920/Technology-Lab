@@ -1,0 +1,633 @@
+!-----------------------------
+! System: 1
+! Descr:  Global Room Control point file
+! Rev:    1.0
+! By: HELLMS
+! Date: 10/5/2015
+!-----------------------------
+Field=1
+Title=RM1 Rm Dry1
+Name=RmDry1
+Point=1
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=2
+Title=RM1 Rm Hum1
+Name=RmHum1
+Point=2
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=3
+Title=RM1 Rm Supp T1
+Name=RmSuppT1
+Point=3
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=4
+Title=RM1 Rm Cool T1
+Name=RmCoolT1
+Point=4
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=5
+Title=RM1 Rm Dehum T1
+Name=RmDehumT1
+Point=5
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=7
+Title=RM1 Rm Heat Ctrl1
+Name=RmHeatCtrl1
+Point=7
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=8
+Title=RM1 Rm Steam Valve1
+Name=RmSteamCtrl1
+Point=8
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=9
+Title=RM1 Rm Cool Valve1
+Name=RmCoolCtrl1
+Point=9
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=10
+Title=RM1 Rm Dehum Valve1
+Name=RmDehumCtrl1
+Point=10
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=11
+Title=RM1 Rm Status1
+Name=RmStatus1
+Point=11
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=12
+Title=RM1 Door Enable
+Name=DoorEnable
+Point=12
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=13
+Title=RM1 Rm Dry Set P1
+Name=RmDrySetP1
+Point=13
+Trend=Yes
+Type=AOUT
+
+Field=14
+Title=RM1 Rm Hum Set P1
+Name=RmHumSetP1
+Point=14
+Trend=Yes
+Type=AOUT
+
+Field=15
+Title=RM1 Rm Cool Setp1
+Name=RmCoolSetp1
+Point=15
+Trend=Yes
+Type=AOUT
+
+Field=16
+Title=RM1 Rm De Hum Set P1
+Name=RmDeHumSetP1
+Point=16
+Trend=Yes
+Type=AOUT
+
+Field=17
+Title=RM1 Rm Run1
+Name=RmRun1
+Point=17
+Type=DOUT
+
+Field=18
+Title=RM1 Rm Ready1
+Name=RmReady1
+Point=18
+Type=DOUT
+
+Field=19
+Title=RM1 Rm Testing1
+Name=RmTesting1
+Point=19
+Type=DOUT
+
+Field=20
+Title=RM1 Volt Set1
+Name=VoltSet1
+Point=20
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=21
+Title=RM1 Freq Set1
+Name=FreqSet1
+Point=21
+Type=DCF
+
+Field=22
+Title=RM1 Volt Set2
+Name=VoltSet2
+Point=22
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=23
+Title=RM1 Freq Set2
+Name=FreqSet2
+Point=23
+Type=DCF
+
+Field=24
+Title=RM1 Volt Set3
+Name=VoltSet3
+Point=24
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=25
+Title=RM1 Freq Set3
+Name=FreqSet3
+Point=25
+Type=DCF
+
+Field=26
+Title=RM1 Volt Set4
+Name=VoltSet4
+Point=26
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=27
+Title=RM1 Freq Set4
+Name=FreqSet4
+Point=27
+Type=DCF
+
+Field=28
+Title=RM1 Volt Set5
+Name=VoltSet5
+Point=28
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=29
+Title=RM1 Freq Set5
+Name=FreqSet5
+Point=29
+Type=DCF
+
+Field=30
+Title=RM1 Volt Set6
+Name=VoltSet6
+Point=30
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=31
+Title=RM1 Freq Set6
+Name=FreqSet6
+Point=31
+Type=DCF
+
+Field=32
+Title=RM1 Volt Set7
+Name=VoltSet7
+Point=32
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=33
+Title=RM1 Freq Set7
+Name=FreqSet7
+Point=33
+Type=DCF
+
+Field=34
+Title=RM1 Volt Set8
+Name=VoltSet8
+Point=34
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=35
+Title=RM1 Freq Set8
+Name=FreqSet8
+Point=35
+Type=DCF
+
+Field=36
+Title=RM1 Rm Dry P1
+Name=RmDryP1
+Point=36
+Trend=Yes
+Type=AOUT
+
+Field=37
+Title=RM1 Rm Dry I1
+Name=RmDryI1
+Point=37
+Trend=Yes
+Type=AOUT
+
+Field=38
+Title=RM1 Rm Hum P1
+Name=RmHumP1
+Point=38
+Trend=Yes
+Type=AOUT
+
+Field=39
+Title=RM1 Rm Hum I1
+Name=RmHumI1
+Point=39
+Trend=Yes
+Type=AOUT
+
+Field=40
+Title=RM1 Rm Heat P1
+Name=RmHeatP1
+Point=40
+Trend=Yes
+Type=AOUT
+
+Field=41
+Title=RM1 Rm Heat I1
+Name=RmHeatI1
+Point=41
+Trend=Yes
+Type=AOUT
+
+Field=42
+Title=RM1 Rm Cool P1
+Name=RmCoolP1
+Point=42
+Trend=Yes
+Type=AOUT
+
+Field=43
+Title=RM1 Rm Cool I1
+Name=RmCoolI1
+Point=43
+Trend=Yes
+Type=AOUT
+
+Field=44
+Title=RM1 Rm Dehum P1
+Name=RmDehumP1
+Point=44
+Trend=Yes
+Type=AOUT
+
+Field=45
+Title=RM1 Rm Dehum I1
+Name=RmDehumI1
+Point=45
+Trend=Yes
+Type=AOUT
+
+Field=46
+Title=RM1 Cur Leak1
+Name=CurLeak1
+Point=46
+Type=DOUT
+
+Field=47
+Title=RM1 Cur Leak2
+Name=CurLeak2
+Point=47
+Type=DOUT
+
+Field=48
+Title=RM1 Cur Leak3
+Name=CurLeak3
+Point=48
+Type=DOUT
+
+Field=49
+Title=RM1 Cur Leak4
+Name=CurLeak4
+Point=49
+Type=DOUT
+
+Field=50
+Title=RM1 Cur Leak5
+Name=CurLeak5
+Point=50
+Type=DOUT
+
+Field=51
+Title=RM1 Cur Leak6
+Name=CurLeak6
+Point=51
+Type=DOUT
+
+Field=52
+Title=RM1 Cur Leak7
+Name=CurLeak7
+Point=52
+Type=DOUT
+
+Field=53
+Title=RM1 Cur Leak8
+Name=CurLeak8
+Point=53
+Type=DOUT
+
+Field=54
+Title=RM1 Polarity1
+Name=Polarity1
+Point=54
+Type=AUX
+
+Field=55
+Title=RM1 Polarity2
+Name=Polarity2
+Point=55
+Type=AUX
+
+Field=56
+Title=RM1 Polarity3
+Name=Polarity3
+Point=56
+Type=AUX
+
+Field=57
+Title=RM1 Polarity4
+Name=Polarity4
+Point=57
+Type=AUX
+
+Field=58
+Title=RM1 Polarity5
+Name=Polarity5
+Point=58
+Type=AUX
+
+Field=59
+Title=RM1 Polarity6
+Name=Polarity6
+Point=59
+Type=AUX
+
+Field=60
+Title=RM1 Polarity7
+Name=Polarity7
+Point=60
+Type=AUX
+
+Field=61
+Title=RM1 Polarity8
+Name=Polarity8
+Point=61
+Type=AUX
+
+Field=62
+Title=RM3 Frz Door1
+Name=FrzDoor1
+Point=62
+Type=DCF
+
+Field=63
+Title=RM3 Cab Door1
+Name=CabDoor1
+Point=63
+Type=DCF
+
+Field=64
+Title=RM3 Slide Door1
+Name=SlideDoor1
+Point=64
+Type=DCF
+
+Field=65
+Title=RM3 Frz Door2
+Name=FrzDoor2
+Point=65
+Type=DCF
+
+Field=66
+Title=RM3 Cab Door2
+Name=CabDoor2
+Point=66
+Type=DCF
+
+Field=67
+Title=RM3 Slide Door2
+Name=SlideDoor2
+Point=67
+Type=DCF
+
+Field=68
+Title=RM3 Frz Door3
+Name=FrzDoor3
+Point=68
+Type=DCF
+
+Field=69
+Title=RM3 Cab Door3
+Name=CabDoor3
+Point=69
+Type=DCF
+
+Field=70
+Title=RM3 Slide Door3
+Name=SlideDoor3
+Point=70
+Type=DCF
+
+Field=71
+Title=RM3 Frz Door4
+Name=FrzDoor4
+Point=71
+Type=DCF
+
+Field=72
+Title=RM3 Cab Door4
+Name=CabDoor4
+Point=72
+Type=DCF
+
+Field=73
+Title=RM3 Slide Door4
+Name=SlideDoor4
+Point=73
+Type=DCF
+
+Field=74
+Title=RM3 Frz Door5
+Name=FrzDoor5
+Point=74
+Type=DCF
+
+Field=75
+Title=RM3 Cab Door5
+Name=CabDoor5
+Point=75
+Type=DCF
+
+Field=76
+Title=RM3 Slide Door5
+Name=SlideDoor5
+Point=76
+Type=DCF
+
+Field=77
+Title=RM3 Frz Door6
+Name=FrzDoor6
+Point=77
+Type=DCF
+
+Field=78
+Title=RM3 Cab Door6
+Name=CabDoor6
+Point=78
+Type=DCF
+
+Field=79
+Title=RM3 Slide Door6
+Name=SlideDoor6
+Point=79
+Type=DCF
+
+Field=80
+Title=RM3 Frz Door7
+Name=FrzDoor7
+Point=80
+Type=DCF
+
+Field=81
+Title=RM3 Cab Door7
+Name=CabDoor7
+Point=81
+Type=DCF
+
+Field=82
+Title=RM3 Slide Door7
+Name=SlideDoor7
+Point=82
+Type=DCF
+
+Field=83
+Title=RM3 Frz Door8
+Name=FrzDoor8
+Point=83
+Type=DCF
+
+Field=84
+Title=RM3 Cab Door8
+Name=CabDoor8
+Point=84
+Type=DCF
+
+Field=85
+Title=RM3 Slide Door8
+Name=SlideDoor8
+Point=85
+Type=DCF
+
+Field=86
+Title=RM3 Door Enable
+Name=DoorEnable
+Point=86
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=86
+Title=RM1 Gbl Rm Dry1
+Name=GblRmDry1
+Point=100
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=87
+Title=RM1 Gbl Rm Hum1
+Name=GblRmHum1
+Point=101
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=88
+Title=RM1 Gbl Estop1
+Name=GblEstop1
+Point=102
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=89
+Title=RM1 Dry Timer1
+Name=DryTimer1
+Point=103
+
+Field=90
+Title=RM1 Dry State1
+Name=DryState1
+Point=104
+
+Field=91
+Title=RM1 Dry In1
+Name=DryIn1
+Point=105
+
+Field=92
+Title=RM1 Hum Timer1
+Name=HumTimer1
+Point=106
+
+Field=93
+Title=RM1 Hum State1
+Name=HumState1
+Point=107
+
+Field=94
+Title=RM1 Hum In1
+Name=HumIn1
+Point=108
+
+Field=95
+Title=RM1-1 Frequency
+Name=Freq
+Point=PS
+Trend=Yes
+Plot=Yes
+Type=DCF
+Cycle=Yes

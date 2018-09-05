@@ -1,0 +1,58 @@
+Field=0
+Title=Cab Setpoint;Deg
+Name=CabSet
+Required=No
+Only=-0123456789.
+
+Field=1
+Title=Frez Setpoint;Deg
+Name=FrezSet
+Required=No
+Only=-0123456789.
+
+Field=2
+Title=Test Length;Min
+Name=TestLen
+Required=Yes
+List=6 Hours,360
+List=7 Hours,420
+List=8 Hours,480
+List=12 Hours,720
+List=16 Hours,960
+List=24 Hours,1440
+List=Next Defrost,-1
+List=2nd Defrost,-2
+List=3rd Defrost,-3
+List=4th Defrost,-4
+Help=1 defrost is 15 minute stable time.  2 defrosts is 2 hour stable time
+
+Field=3
+Title=Reports
+Name=ResultReport
+List=Pull
+List=Pull+UL
+
+Field=4
+Title=Interval Write Time;Min
+Name=IntervalWrite
+Required=Yes
+Default=30
+Help=Interval to write to report
+
+Field=5
+Title=Extra point file
+Name=PointTree
+Required=No
+Track=3
+Help=Extra point file for Wide, Rits or Netdaq
+
+Field=6
+Title=Australian
+Name=Australian
+List=Y
+List=N
+Help=Removed coldest freezer TC if set to yes.
+
+Field=7
+Name=StartTime
+Help=Used when chaining to set this for the cycle test

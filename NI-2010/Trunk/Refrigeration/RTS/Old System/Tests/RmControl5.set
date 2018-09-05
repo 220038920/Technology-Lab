@@ -1,0 +1,32 @@
+! --------------------------------------------------------------------------
+! Whirlpool BHTC Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr    : Global control setup
+!    File     : RmControl.set
+!    Rev      : 1.0
+!    By       : Mark Hooks
+!    Date     : 12-Nov-2013
+!    Last change on :
+!
+
+! --------------------------------------------------------------------------
+
+Field= 1
+Title=Stall 1 voltage
+Name=VoltSet1
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field= +
+Title=Stall 1 frequency
+Name=FreqSet1
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+

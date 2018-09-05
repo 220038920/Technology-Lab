@@ -1,0 +1,27 @@
+Field=0
+Title=Fresh Food Volume
+Name=CabVolume
+Required=No
+Track=Y
+Help=Volume of Cab Compartment
+
+Field=1
+Title=Fresh Food Aux Volume
+Name=CabAuxVolume
+Required=No
+Track=Y
+Help=Volume of Cab Auxiliary Compartment - per 5.1.3 spec
+
+Field=2
+Title=Freezer Volume
+Name=FrzVolume
+Required=No
+Track=Y
+Help=Volume of Frz Compartment
+
+Field=3
+Title=Freezer Aux Volume
+Name=FrzAuxVolume
+Required=No
+Track=Y
+Help=Volume of Frz Auxiliary Compartment - per 5.1.4 spec

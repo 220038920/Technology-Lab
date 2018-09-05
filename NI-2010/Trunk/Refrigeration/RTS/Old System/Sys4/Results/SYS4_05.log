@@ -1,0 +1,425 @@
+13:11:05,0:00:00,Using Yok 3000 for calibration
+13:11:05,0:00:00,Lab = 11
+13:59:16,0:00:08,Test killed Operator aborted test
+13:59:09,0:00:00,Cycle Test Started v20.3
+13:59:09,0:00:00,Stable value = 1005.000 Period = 0:00:00
+13:59:09,6:04:02,LastTest = rlattner\16P00413-12901-04-05
+13:59:09,6:04:02,Save as rlattner\16P00413-12920-04-05
+13:59:09,6:04:02,PerformanceFlex V2.4
+13:59:09,6:04:02,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12901
+13:59:09,6:04:02,Database TestReqNum = 260
+13:59:09,6:04:02,TestDate is 02/02/17 Database rtsdb1 Table Results key 12901
+13:59:09,6:04:02,ADC CT = 40.0000
+13:59:09,6:04:02,No defrost in test, so power period is 12 hours back
+13:59:08,6:04:02,User stopped test
+09:30:36,1:35:30,Typical cycles started
+07:55:07,0:00:00,Cycle Test Started v20.3
+07:55:07,0:00:00,Stable value = 0.057 Period = 5:20:24
+07:55:07,21:35:04,LastTest = rlattner\16P00413-12876-04-05
+07:55:07,21:35:04,Save as rlattner\16P00413-12901-04-05
+07:55:07,21:35:04,PerformanceFlex V2.4
+07:55:07,21:35:04,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12876
+07:55:07,21:35:04,Database TestReqNum = 260
+07:55:07,21:35:04,TestDate is 02/01/17 Database rtsdb1 Table Results key 12876
+07:55:07,21:35:04,ADC CT = 40.0000
+07:55:07,21:35:04,No defrost in test, so power period is 12 hours back
+07:55:06,21:35:04,User stopped test
+00:00:00,13:39:58,New day
+11:41:47,1:21:45,Typical cycles started
+10:20:02,0:00:00,Cycle Test Started v20.3
+10:20:02,0:00:00,Stable value = 1000.000 Period = 0:00:00
+10:20:02,0:00:01,Sample rate set to 50
+10:20:02,0:00:01,LastTest still NA 0
+10:20:02,0:00:01,Save as rlattner\16P00413-12876-04-05
+10:20:01,0:00:00,Test Number 12876
+10:20:01,0:00:00,Starting Cycle v20.3 Voltage S.P. 115
+10:20:01,0:00:00,Product 16P00413 location 'RM 04-05'.  Result: No change
+10:20:01,0:00:00,Waiting on inventory move procedure: result code:0, message:
+10:19:59,2:34:47,Test killed Operator aborted test
+10:14:16,2:29:04,Typical cycles started
+09:48:41,2:03:29,Defrost recovery completed
+09:48:41,2:03:29,1 Gosub ProcDefEnd
+07:45:13,0:00:00,Cycle Test Started v20.3
+07:45:13,0:00:00,Stable value = 0.056 Period = 6:18:44
+07:45:13,15:38:58,LastTest = rlattner\16P00413-12846-04-05
+07:45:13,15:38:58,Save as rlattner\16P00413-12866-04-05
+07:45:13,15:38:58,PerformanceFlex V2.4
+07:45:13,15:38:58,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12846
+07:45:13,15:38:58,Database TestReqNum = 260
+07:45:13,15:38:58,TestDate is 01/31/17 Database rtsdb1 Table Results key 12846
+07:45:13,15:38:58,ADC CT = 40.0000
+07:45:12,15:38:58,User stopped test
+17:09:32,1:03:18,Typical cycles started
+16:56:43,0:50:29,Defrost recovery completed
+16:56:43,0:50:29,1 Gosub ProcDefEnd
+16:06:14,0:00:00,Cycle Test Started v20.3
+16:06:14,0:00:00,Stable value = 1007.000 Period = 0:00:00
+16:06:14,8:57:50,LastTest = rlattner\16P00413-12821-04-05
+16:06:14,8:57:50,Save as rlattner\16P00413-12846-04-05
+16:06:14,8:57:50,PerformanceFlex V2.4
+16:06:14,8:57:50,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12821
+16:06:14,8:57:50,Database TestReqNum = 260
+16:06:14,8:57:50,TestDate is 01/31/17 Database rtsdb1 Table Results key 12821
+16:06:14,8:57:50,ADC CT = 40.0000
+16:06:14,8:57:50,User stopped test
+07:55:37,0:47:13,Typical cycles started
+07:42:26,0:34:02,Defrost recovery completed
+07:42:26,0:34:02,1 Gosub ProcDefEnd
+07:08:24,0:00:00,Cycle Test Started v20.3
+07:08:24,0:00:00,Stable value = 0.040 Period = 6:04:45
+07:08:24,23:18:53,LastTest = rlattner\16P00413-12795-04-05
+07:08:24,23:18:53,Save as rlattner\16P00413-12821-04-05
+07:08:24,23:18:53,PerformanceFlex V2.4
+07:08:24,23:18:53,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12795
+07:08:24,23:18:53,Database TestReqNum = 260
+07:08:24,23:18:53,TestDate is 01/30/17 Database rtsdb1 Table Results key 12795
+07:08:24,23:18:53,ADC CT = 40.0000
+07:08:24,23:18:53,User stopped test
+09:21:28,1:31:57,Typical cycles started
+09:06:56,1:17:25,Defrost recovery completed
+09:06:56,1:17:25,1 Gosub ProcDefEnd
+07:49:31,0:00:00,Typical cycles started
+07:49:31,0:00:00,Cycle Test Started v20.3
+07:49:31,0:00:00,Stable value = 1006.000 Period = 0:00:00
+07:49:31,64:21:57,LastTest = rlattner\16P00413-12731-04-05
+07:49:31,64:21:57,Save as rlattner\16P00413-12795-04-05
+07:49:31,64:21:56,PerformanceFlex V2.4
+07:49:31,64:21:56,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12731
+07:49:31,64:21:56,Database TestReqNum = 260
+07:49:31,64:21:56,TestDate is 01/27/17 Database rtsdb1 Table Results key 12731
+07:49:31,64:21:56,ADC CT = 40.0000
+07:49:30,64:21:56,User stopped test
+07:41:00,64:13:26,Typical cycles started
+07:23:37,63:56:03,Defrost recovery completed
+07:23:37,63:56:03,1 Gosub ProcDefEnd
+06:09:46,62:42:12,ADC CT = 40.0000
+06:09:46,62:42:12,Corrected For short on time
+06:09:46,62:42:12,Product Defrosted
+00:00:00,8:32:26,New day
+16:18:29,0:50:55,Typical cycles started
+15:27:34,0:00:00,Cycle Test Started v20.3
+15:27:34,0:00:00,Stable value = 1000.000 Period = 0:00:00
+15:27:34,0:00:01,Sample rate set to 50
+15:27:34,0:00:01,LastTest still NA 0
+15:27:34,0:00:01,Save as rlattner\16P00413-12731-04-05
+15:27:33,0:00:00,Test Number 12731
+15:27:33,0:00:00,Starting Cycle v20.3 Voltage S.P. 115
+15:27:33,0:00:00,Product 16P00413 location 'RM 04-05'.  Result: No change
+15:27:33,0:00:00,Waiting on inventory move procedure: result code:0, message:
+15:27:09,0:01:54,Test killed Operator aborted test
+15:25:14,0:00:00,Cycle Test Started v20.3
+15:25:14,0:00:00,Stable value = 1000.000 Period = 0:00:00
+15:25:14,0:00:00,Sample rate set to 50
+15:25:14,0:00:00,LastTest still NA 0
+15:25:14,0:00:00,Save as rlattner\16P00413-12727-04-05
+15:25:14,0:00:00,Test Number 12727
+15:25:14,0:00:00,Starting Cycle v20.3 Voltage S.P. 115
+15:25:14,0:00:00,Product 16P00413 location 'RM 04-05'.  Result: Location Changed
+15:25:14,0:00:00,Waiting on inventory move procedure: result code:0, message:
+10:24:58,0:00:07,Test killed Operator aborted test
+10:24:51,0:00:00,Cycle Test Started v20.3
+10:24:51,0:00:00,Stable value = 0.023 Period = 6:27:28
+10:24:51,71:45:23,LastTest = bmullis\16P00473-12572-04-05
+10:24:51,71:45:23,Save as bmullis\16P00473-12722-04-05
+10:24:51,71:45:22,PerformanceFlex V2.4
+10:24:51,71:45:22,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12572
+10:24:51,71:45:22,Database TestReqNum = 286,21TM - Wanhua foam approval
+10:24:51,71:45:22,TestDate is 01/24/17 Database rtsdb1 Table Results key 12572
+10:24:51,71:45:22,ADC CT = 40.0000
+10:24:50,71:45:22,User stopped test
+11:44:35,1:05:07,Typical cycles started
+11:24:18,0:44:50,Defrost recovery completed
+11:24:18,0:44:50,1 Gosub ProcDefEnd
+10:39:28,0:00:00,Cycle Test Started v20.3
+10:39:28,0:00:00,Stable value = 0.242 Period = 6:28:03
+10:39:28,96:00:01,LastTest = bmullis\16P00473-12464-04-05
+10:39:28,96:00:01,Save as bmullis\16P00473-12572-04-05
+10:39:28,96:00:01,PerformanceFlex V2.4
+10:39:28,96:00:01,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 12464
+10:39:28,96:00:01,Database TestReqNum = 286,21TM - Wanhua foam approval
+10:39:28,96:00:01,TestDate is 01/20/17 Database rtsdb1 Table Results key 12464
+10:39:28,96:00:01,ADC CT = 40.0000
+10:48:27,72:09:00,Typical cycles started
+10:27:08,71:47:41,Defrost recovery completed
+10:27:08,71:47:41,1 Gosub ProcDefEnd
+09:00:18,70:20:51,ADC CT = 40.0000
+09:00:18,70:20:51,Product Defrosted
+00:00:00,13:20:33,New day
+12:13:09,1:33:42,Typical cycles started
+10:39:27,0:00:00,Cycle Test Started v20.3
+10:39:27,0:00:00,Stable value = 1000.000 Period = 0:00:00
+10:39:27,0:00:01,Sample rate set to 50
+10:39:27,0:00:01,LastTest still NA 0
+10:39:27,0:00:01,Save as bmullis\16P00473-12464-04-05
+10:39:26,0:00:00,Test Number 12464
+10:39:26,0:00:00,Starting Cycle v20.3 Voltage S.P. 115
+10:39:26,0:00:00,Product 16P00473 location 'RM 04-05'.  Result: No change
+10:39:26,0:00:00,Waiting on inventory move procedure: result code:0, message:
+12:23:55,21:26:12,Test killed Operator aborted test
+02:36:38,11:38:55,Aham Energy Test in progress, stability achieved 2 1 0
+02:36:38,11:38:55,Stable value = 0.022 Period = 6:22:14
+02:36:38,11:38:55,Stable Deg/Hr: 0.003139
+02:36:38,11:38:55,Cab End:38.989 Cab Beg:39.012 Stable Temp: 0.02 Period: 6.37056
+02:36:38,11:38:55,first period 1:35:18,3:57:51
+02:36:38,11:38:55,second period 7:57:32,10:21:47
+02:36:38,11:38:55,Cab Avg Period 1:1.34 Period 2:38.99 TPS:11:10:20 STABEND:10:21:47
+02:36:38,11:38:55,AHAM type A stability achieved with 0.003 temp/hr and 0.042 limit and 6:22:14 period
+20:31:29,5:33:46,Changing Temp Start from 1:35:18 to 1:35:24 1:45:48
+20:11:31,5:13:48,Changing Temp Start from 1:35:18 to 1:35:24 1:45:48
+14:57:43,0:00:00,Starting Aham Energy Test v16.7
+14:57:43,0:00:00,Previous TestNum recorded 11953
+14:57:43,23:54:00,Previous TestNum recorded 11953
+14:57:43,23:54:00,LastTest = rlattner\16P00473-11953-04-05
+14:57:43,23:54:00,Save as rlattner\16P00473-11984-04-05
+14:57:43,23:54:00,Test Number 11984
+14:57:43,23:54:00,PerformanceFlex V2.4
+14:57:43,23:54:00,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 11953
+14:57:43,23:54:00,Database TestReqNum = 286,21TM - Wanhua foam approval
+14:57:43,23:54:00,TestDate is 01/03/17 Database rtsdb1 Table Results key 11953
+14:57:43,23:54:00,ADC CT = 40.0000
+14:57:43,23:54:00,2014 Cycling DefFlag:1 DefEnd:83182 TotCyc:4
+14:57:43,23:54:00,ProcDefEnd 3
+14:57:43,23:54:00,Defrost recovery completed
+14:57:43,23:54:00,Recorded cycle B after recovery. Fresh Food diff:0.02 Frz diff:0.08 3
+14:57:43,23:54:00,Stable Detail: End 23:06:22 CabAvg:39.00 FrzAvg:1.50 TPCab: 38.9766 TPFrz:1.5757
+14:10:11,23:06:28,Product cycled after defrost and recovered. Fresh Food diff:0.01 Frz diff:0.38 2
+14:10:11,23:06:28,Stable Detail: End 22:18:32 CabAvg:38.99 FrzAvg:1.96 TPCab: 38.9766 TPFrz:1.5757
+13:22:23,22:18:40,Typical cycles started 1
+13:22:23,22:18:40,Product cycled after defrost but not recovered. Fresh Food diff:0.18 Frz diff:1.82 1
+13:22:23,22:18:40,Stable Detail: End 21:30:47 CabAvg:39.16 FrzAvg:3.40 TPCab: 38.9766 TPFrz:1.5757
+11:34:26,20:30:43,Waiting for Defrost Recovery to end test 0
+11:34:26,20:30:43,Temp Period Start 16:44:24 End 19:59:24 ContRun: 0
+11:34:26,20:30:43,TPDatabase called Cab Avg 38.9766 38.9766 -999 Frz Avg 1.5757 1.5757 -999
+11:34:26,20:30:43,ProcTempPeriod ACL:16:44:24,ACR:19:59:24,16:44:24,ACR:19:59:24
+11:34:26,20:30:43,2014 Stability recorded for cycle before defrost from 19:11:00 to 19:59:24. Cab Avg 38.97 FrzAvg 1.60 0
+11:34:26,20:30:43,Proc14Stable DS:19:59:24 CL:19:11:00 CR:19:59:24 LS:2
+11:34:26,20:30:43,Temp Period Start 16:44:24 is good
+11:34:26,20:30:43,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+07:28:07,16:24:24,Aham Energy Test in progress, stability achieved 2 1 0
+07:28:07,16:24:24,Stable value = 0.226 Period = 6:26:47
+07:28:07,16:24:24,Stable Deg/Hr: 0.012410
+07:28:07,16:24:24,Cab End:38.991 Cab Beg:38.907 Stable Temp: 0.08 Period: 6.44639
+07:28:07,16:24:24,first period 6:17:01,8:42:19
+07:28:07,16:24:24,second period 12:43:48,15:08:10
+07:28:07,16:24:24,Cab Avg Period 1:1.57 Period 2:38.99 TPS:15:56:13 STABEND:15:8:10
+07:28:07,16:24:24,AHAM type A stability achieved with 0.035 temp/hr and 0.042 limit and 6:26:47 period
+20:32:58,5:29:15,Changing Temp Start from 1:25:54 to 1:26:02 1:41:03
+20:13:07,5:09:24,Changing Temp Start from 1:25:54 to 1:26:02 1:41:03
+15:03:43,0:00:00,Starting Aham Energy Test v16.7
+15:03:43,0:00:01,Aham Standard is 2014
+15:03:43,0:00:01,Starting Aham Test v16.7 Voltage S.P. 115 01/03/17 15:03:43
+15:03:43,0:00:01,RTS ver 3.924 Supports Ambient limit 90 +- 1.0
+15:03:43,0:00:01,LastTest still NA 0
+15:03:43,0:00:01,Save as rlattner\16P00473-11953-04-05
+15:03:43,0:00:01,Test Number 11953
+15:03:42,0:00:00,Product 16P00473 location 'RM 04-05'.  Result: No change
+15:03:42,0:00:00,Waiting on inventory move procedure: result code:0, message:
+15:03:40,4:52:48,Test killed Operator aborted test
+10:10:51,0:00:00,Starting Aham Energy Test v16.7
+10:10:51,0:00:01,Aham Standard is 2014
+10:10:51,0:00:01,Starting Aham Test v16.7 Voltage S.P. 115 01/03/17 10:10:51
+10:10:51,0:00:01,RTS ver 3.924 Supports Ambient limit 90 +- 1.0
+10:10:51,0:00:01,LastTest still NA 0
+10:10:51,0:00:01,Save as rlattner\16P00473-11945-04-05
+10:10:51,0:00:01,Test Number 11945
+10:10:51,0:00:01,Product 16P00473 location 'RM 04-05'.  Result: No change
+10:10:50,0:00:00,Waiting on inventory move procedure: result code:0, message:
+10:10:50,0:00:00,Waiting on inventory move procedure: result code:0, message:
+08:36:21,39:45:24,Test killed Operator aborted test
+07:48:23,38:57:26,Waiting for Defrost Recovery to end test 0
+07:48:23,38:57:26,Temp Period Start 34:49:50 End 38:24:42 ContRun: 0
+07:48:23,38:57:26,TPDatabase called Cab Avg 41.4808 41.4808 -999 Frz Avg 1.6288 1.6288 -999
+07:48:23,38:57:26,ProcTempPeriod ACL:34:49:50,ACR:38:24:42,34:49:50,ACR:38:24:42
+07:48:23,38:57:26,2014 Stability recorded for cycle before defrost from 37:41:11 to 38:24:42. Cab Avg 41.46 FrzAvg 1.65 0
+07:48:23,38:57:26,Proc14Stable DS:38:24:42 CL:37:41:11 CR:38:24:42 LS:2
+07:48:23,38:57:26,Temp Period Start 34:49:50 is good
+07:48:23,38:57:26,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+03:15:40,10:24:43,Aham Energy Test in progress, stability achieved 2 1 0
+03:15:40,10:24:43,Stable value = 0.150 Period = 5:42:26
+03:15:40,10:24:43,Stable Deg/Hr: 0.008761
+03:15:40,10:24:43,Cab End:41.620 Cab Beg:41.569 Stable Temp: 0.05 Period: 5.70722
+03:15:40,10:24:43,first period 1:25:21,3:33:27
+03:15:40,10:24:43,second period 7:07:47,9:15:53
+03:15:40,10:24:43,Cab Avg Period 1:1.96 Period 2:41.62 TPS:9:58:48 STABEND: 9:15:53
+03:15:40,10:24:43,AHAM type A stability achieved with 0.026 temp/hr and 0.042 limit and 5:42:26 period
+22:32:35,5:41:38,Changing Temp Start from 1:25:21 to 1:25:27 1:58:37
+22:15:29,5:24:32,Changing Temp Start from 1:25:21 to 1:25:27 1:58:37
+16:50:57,0:00:00,Starting Aham Energy Test v16.7
+16:50:57,0:00:00,Previous TestNum recorded 11854
+16:50:57,46:51:22,Previous TestNum recorded 11854
+16:50:57,46:51:22,LastTest = rlattner\16P00473-11854-04-05
+16:50:57,46:51:22,Save as rlattner\16P00473-11895-04-05
+16:50:57,46:51:22,Test Number 11895
+16:50:57,46:51:21,PerformanceFlex V2.4
+16:50:57,46:51:21,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 11854
+16:50:57,46:51:21,Database TestReqNum = 286,21TM - Wanhua foam approval
+16:50:57,46:51:21,TestDate is 12/30/16 Database rtsdb1 Table Results key 11854
+16:50:57,46:51:21,ADC CT = 40.0000
+16:50:57,46:51:21,2014 Cycling DefFlag:1 DefEnd:166129 TotCyc:5
+16:50:56,46:51:21,ProcDefEnd 4
+16:50:56,46:51:21,Defrost recovery completed
+16:50:56,46:51:21,Recorded cycle B after recovery. Fresh Food diff:0.05 Frz diff:0.04 4
+16:50:56,46:51:21,Stable Detail: End 46:08:49 CabAvg:41.61 FrzAvg:2.13 TPCab: 41.6597 TPFrz:2.0853
+16:08:30,46:08:55,Product cycled after defrost and recovered. Fresh Food diff:0.12 Frz diff:0.28 3
+16:08:30,46:08:55,Stable Detail: End 45:26:26 CabAvg:41.54 FrzAvg:2.37 TPCab: 41.6597 TPFrz:2.0853
+15:26:07,45:26:32,Product cycled after defrost but not recovered. Fresh Food diff:0.13 Frz diff:1.07 2
+15:26:07,45:26:32,Stable Detail: End 44:43:54 CabAvg:41.53 FrzAvg:3.16 TPCab: 41.6597 TPFrz:2.0853
+14:43:35,44:44:00,Typical cycles started 1
+14:43:35,44:44:00,Product cycled after defrost but not recovered. Fresh Food diff:0.04 Frz diff:2.93 1
+14:43:35,44:44:00,Stable Detail: End 44:01:47 CabAvg:41.62 FrzAvg:5.02 TPCab: 41.6597 TPFrz:2.0853
+13:10:59,43:11:24,Waiting for Defrost Recovery to end test 0
+13:10:59,43:11:24,Temp Period Start 39:03:48 End 42:38:16 ContRun: 0
+13:10:59,43:11:24,TPDatabase called Cab Avg 41.6597 41.6597 -999 Frz Avg 2.0853 2.0853 -999
+13:10:59,43:11:24,ProcTempPeriod ACL:39:03:48,ACR:42:38:16,39:03:48,ACR:42:38:16
+13:10:59,43:11:24,2014 Stability recorded for cycle before defrost from 41:55:22 to 42:38:16. Cab Avg 41.66 FrzAvg 2.09 0
+13:10:59,43:11:24,Proc14Stable DS:42:38:16 CL:41:55:22 CR:42:38:16 LS:2
+13:10:59,43:11:24,Temp Period Start 39:03:48 is good
+13:10:59,43:11:24,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+04:19:31,10:19:56,Aham Energy Test in progress, stability achieved 2 1 0
+04:19:31,10:19:56,Stable value = 0.066 Period = 5:39:46
+04:19:31,10:19:56,Stable Deg/Hr: 0.012361
+04:19:31,10:19:56,Cab End:41.554 Cab Beg:41.620 Stable Temp: 0.07 Period: 5.66278
+04:19:31,10:19:56,first period 1:24:47,3:31:43
+04:19:31,10:19:56,second period 7:04:33,9:12:18
+04:19:31,10:19:56,Cab Avg Period 1:1.91 Period 2:41.55 TPS:9:54:26 STABEND: 9:12:18
+04:19:31,10:19:56,AHAM type A stability achieved with 0.012 temp/hr and 0.042 limit and 5:39:46 period
+23:38:40,5:39:05,Changing Temp Start from 1:24:47 to 1:24:55 1:56:48
+23:21:41,5:22:06,Changing Temp Start from 1:24:47 to 1:24:55 1:56:48
+17:59:35,0:00:00,Starting Aham Energy Test v16.7
+17:59:35,0:00:00,Previous TestNum recorded 11799
+17:59:35,30:02:45,Previous TestNum recorded 11799
+17:59:35,30:02:45,LastTest = rlattner\16P00473-11799-04-05
+17:59:35,30:02:45,Save as rlattner\16P00473-11854-04-05
+17:59:35,30:02:45,Test Number 11854
+17:59:35,30:02:45,PerformanceFlex V2.4
+17:59:35,30:02:45,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 11799
+17:59:35,30:02:45,Database TestReqNum = 286,21TM - Wanhua foam approval
+17:59:35,30:02:45,TestDate is 12/29/16 Database rtsdb1 Table Results key 11799
+17:59:35,30:02:45,ADC CT = 40.0000
+17:59:35,30:02:45,2014 Cycling DefFlag:1 DefEnd:105594 TotCyc:3
+17:59:35,30:02:45,ProcDefEnd 2
+17:59:35,30:02:45,Defrost recovery completed
+17:59:35,30:02:45,Recorded cycle B after recovery. Fresh Food diff:0.13 Frz diff:0.21 2
+17:59:35,30:02:45,Stable Detail: End 29:19:54 CabAvg:41.54 FrzAvg:1.90 TPCab: 41.6689 TPFrz:2.1074
+17:16:50,29:20:00,Typical cycles started 1
+17:16:50,29:20:00,Product cycled after defrost and recovered. Fresh Food diff:0.07 Frz diff:0.04 1
+17:16:50,29:20:00,Stable Detail: End 28:37:08 CabAvg:41.60 FrzAvg:2.07 TPCab: 41.6689 TPFrz:2.1074
+15:51:38,27:54:48,Waiting for Defrost Recovery to end test 0
+15:51:38,27:54:48,Temp Period Start 23:41:35 End 27:12:19 ContRun: 0
+15:51:38,27:54:48,TPDatabase called Cab Avg 41.6689 41.6689 -999 Frz Avg 2.1074 2.1074 -999
+15:51:38,27:54:48,ProcTempPeriod ACL:23:41:35,ACR:27:12:19,23:41:35,ACR:27:12:19
+15:51:38,27:54:48,2014 Stability recorded for cycle before defrost from 26:30:24 to 27:12:19. Cab Avg 41.64 FrzAvg 2.01 0
+15:51:38,27:54:48,Proc14Stable DS:27:12:19 CL:26:30:24 CR:27:12:19 LS:2
+15:51:38,27:54:48,Temp Period Start 23:41:35 is good
+15:51:38,27:54:48,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+21:54:15,9:57:25,Aham Energy Test in progress, stability achieved 2 1 0
+21:54:15,9:57:25,Stable value = 0.113 Period = 5:37:40
+21:54:15,9:57:25,Stable Deg/Hr: 0.012438
+21:54:15,9:57:25,Cab End:41.602 Cab Beg:41.532 Stable Temp: 0.07 Period: 5.62778
+21:54:15,9:57:25,first period 1:04:09,3:10:39
+21:54:15,9:57:25,second period 6:41:49,8:50:22
+21:54:15,9:57:25,Cab Avg Period 1:2.05 Period 2:41.60 TPS:9:31:59 STABEND: 8:50:22
+21:54:15,9:57:25,AHAM type A stability achieved with 0.020 temp/hr and 0.042 limit and 5:37:40 period
+17:13:45,5:16:55,Changing Temp Start from 1:04:09 to 1:04:16 1:34:55
+16:57:23,5:00:33,Changing Temp Start from 1:04:09 to 1:04:16 1:34:55
+11:56:50,0:00:00,Starting Aham Energy Test v16.7
+11:56:50,0:00:00,Aham Standard is 2014
+11:56:50,0:00:00,Starting Aham Test v16.7 Voltage S.P. 115 12/29/16 11:56:50
+11:56:50,0:00:00,RTS ver 3.924 Supports Ambient limit 90 +- 1.0
+11:56:50,0:00:00,LastTest still NA 0
+11:56:50,0:00:00,Save as rlattner\16P00473-11799-04-05
+11:56:50,0:00:00,Test Number 11799
+11:56:50,0:00:00,Product 16P00473 location 'RM 04-05'.  Result: No change
+11:56:50,0:00:00,Waiting on inventory move procedure: result code:0, message:
+11:56:47,18:07:57,Test killed Operator aborted test
+11:36:29,17:47:39,Typical cycles started 1
+11:36:29,17:47:39,Product cycled after defrost but not recovered. Fresh Food diff:2.11 Frz diff:3.49 1
+11:36:29,17:47:39,Stable Detail: End 17:06:20 CabAvg:41.31 FrzAvg:3.44 TPCab: 39.1962 TPFrz:-0.0550
+10:03:59,16:15:09,Waiting for Defrost Recovery to end test 0
+10:03:59,16:15:09,Temp Period Start 11:49:05 End 15:31:46 ContRun: 0
+10:03:59,16:15:09,TPDatabase called Cab Avg 39.1962 39.1962 -999 Frz Avg -0.0550 -0.0550 -999
+10:03:59,16:15:09,ProcTempPeriod ACL:11:49:05,ACR:15:31:46,11:49:05,ACR:15:31:46
+10:03:59,16:15:09,2014 Stability recorded for cycle before defrost from 14:47:15 to 15:31:46. Cab Avg 39.19 FrzAvg -0.04 0
+10:03:59,16:15:09,Proc14Stable DS:15:31:46 CL:14:47:15 CR:15:31:46 LS:2
+10:03:59,16:15:09,Temp Period Start 11:49:05 is good
+10:03:59,16:15:09,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+04:35:03,10:46:13,Aham Energy Test in progress, stability achieved 2 1 0
+04:35:03,10:46:13,Stable value = 0.173 Period = 5:53:14
+04:35:03,10:46:13,Stable Deg/Hr: 0.015287
+04:35:03,10:46:13,Cab End:39.182 Cab Beg:39.092 Stable Temp: 0.09 Period: 5.88722
+04:35:03,10:46:13,first period 1:28:11,3:39:48
+04:35:03,10:46:13,second period 7:21:25,9:35:38
+04:35:03,10:46:13,Cab Avg Period 1:-0.03 Period 2:39.18 TPS:10:20:29 STABEND:9:35:38
+04:35:03,10:46:13,AHAM type A stability achieved with 0.029 temp/hr and 0.042 limit and 5:53:14 period
+23:41:15,5:52:25,Changing Temp Start from 1:28:11 to 1:28:18 2:07:58
+23:22:23,5:33:33,Changing Temp Start from 1:28:11 to 1:28:18 2:07:58
+17:48:50,0:00:00,Starting Aham Energy Test v16.7
+17:48:50,0:00:00,Previous TestNum recorded 11743
+17:48:50,25:56:24,Previous TestNum recorded 11743
+17:48:50,25:56:24,LastTest = rlattner\16P00473-11743-04-05
+17:48:50,25:56:24,Save as rlattner\16P00473-11783-04-05
+17:48:50,25:56:24,Test Number 11783
+17:48:50,25:56:23,PerformanceFlex V2.4
+17:48:50,25:56:23,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 11743
+17:48:50,25:56:23,Database TestReqNum = 286,21TM - Wanhua foam approval
+17:48:50,25:56:23,TestDate is 12/27/16 Database rtsdb1 Table Results key 11743
+17:48:50,25:56:23,ADC CT = 40.0000
+17:48:50,25:56:23,2014 Cycling DefFlag:1 DefEnd:90722 TotCyc:5
+17:48:49,25:56:23,ProcDefEnd 4
+17:48:49,25:56:23,Defrost recovery completed
+17:48:49,25:56:23,Recorded cycle B after recovery. Fresh Food diff:0.17 Frz diff:0.21 4
+17:48:49,25:56:23,Stable Detail: End 25:12:02 CabAvg:39.03 FrzAvg:0.02 TPCab: 38.8643 TPFrz:-0.1881
+17:04:34,25:12:08,Product cycled after defrost and recovered. Fresh Food diff:0.15 Frz diff:0.50 3
+17:04:34,25:12:08,Stable Detail: End 24:28:29 CabAvg:39.01 FrzAvg:0.31 TPCab: 38.8643 TPFrz:-0.1881
+16:21:02,24:28:36,Product cycled after defrost but not recovered. Fresh Food diff:0.07 Frz diff:1.06 2
+16:21:02,24:28:36,Stable Detail: End 23:44:50 CabAvg:38.93 FrzAvg:0.87 TPCab: 38.8643 TPFrz:-0.1881
+15:37:22,23:44:56,Typical cycles started 1
+15:37:22,23:44:56,Product cycled after defrost but not recovered. Fresh Food diff:0.11 Frz diff:2.62 1
+15:37:22,23:44:56,Stable Detail: End 23:01:16 CabAvg:38.97 FrzAvg:2.43 TPCab: 38.8643 TPFrz:-0.1881
+14:00:46,22:08:20,Waiting for Defrost Recovery to end test 0
+14:00:46,22:08:20,Temp Period Start 18:01:28 End 21:37:16 ContRun: 0
+14:00:46,22:08:20,TPDatabase called Cab Avg 38.8643 38.8643 -999 Frz Avg -0.1881 -0.1881 -999
+14:00:46,22:08:20,ProcTempPeriod ACL:18:01:28,ACR:21:37:16,18:01:28,ACR:21:37:16
+14:00:46,22:08:20,2014 Stability recorded for cycle before defrost from 20:54:30 to 21:37:16. Cab Avg 38.91 FrzAvg -0.19 0
+14:00:46,22:08:20,Proc14Stable DS:21:37:16 CL:20:54:30 CR:21:37:16 LS:2
+14:00:46,22:08:20,Temp Period Start 18:01:28 is good
+14:00:46,22:08:20,In Defrost State:4 PrevDefStart:0:00:00 PrevDefEnd:0:00:00
+04:34:21,12:41:55,Aham Energy Test in progress, stability achieved 2 1 0
+04:34:21,12:41:55,Stable value = 0.172 Period = 5:37:58
+04:34:21,12:41:55,Stable Deg/Hr: 0.023079
+04:34:21,12:41:55,Cab End:38.692 Cab Beg:38.559 Stable Temp: 0.13 Period: 5.63278
+04:34:21,12:41:55,first period 3:48:42,5:54:59
+04:34:21,12:41:55,second period 9:26:40,11:34:24
+04:34:21,12:41:55,Cab Avg Period 1:-0.34 Period 2:38.69 TPS:12:17:21 STABEND:11:34:24
+04:34:21,12:41:55,AHAM type A stability achieved with 0.031 temp/hr and 0.042 limit and 5:37:58 period
+21:05:32,5:13:06,Changing Temp Start from 1:03:34 to 1:03:40 1:30:44
+20:47:16,4:54:50,Changing Temp Start from 1:03:34 to 1:03:40 1:30:44
+15:52:26,0:00:00,Starting Aham Energy Test v16.7
+15:52:26,0:00:01,Aham Standard is 2014
+15:52:26,0:00:01,Starting Aham Test v16.7 Voltage S.P. 115 12/27/16 15:52:26
+13:11:05,0:00:00,Starting VAW Calibration Procedure 5.4, saving to Results
+13:11:05,0:00:00,Original Voltage Setpoint 115
+13:11:05,0:00:00,Starting with type 50 - 115V 60Hz range
+13:11:06,0:00:01,Get 120 Cal Limits Error: Unable to run query
+13:11:06,0:00:01,Get 220 Cal Limits Error: Unable to run query
+13:11:25,0:00:00,Start Range changed to 1
+13:11:25,0:00:00,---------- Changing voltage to 115V 60Hz
+13:11:29,0:00:03,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:29,0:00:03,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:29,0:00:03,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:30,0:00:04,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:30,0:00:04,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:30,0:00:04,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:30,0:00:04,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:31,0:00:05,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:11:31,0:00:05,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:39,0:00:08,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:39,0:00:08,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:40,0:00:09,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:40,0:00:09,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:41,0:00:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:41,0:00:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:41,0:00:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:41,0:00:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:41,0:00:10,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+13:52:49,0:00:00,Test killed Operator aborted test

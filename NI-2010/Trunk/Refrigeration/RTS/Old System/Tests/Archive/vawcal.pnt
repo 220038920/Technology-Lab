@@ -1,0 +1,447 @@
+Field= 0
+Title=Frequency
+Name=Freq
+Point=70
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 4
+Title=Volt Actual
+Name=VoltAct
+Point=90
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field= 5
+Title=Amp Actual
+Name=AmpAct
+Point=91
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field= 6
+Title=Watt Actual
+Name=WattAct
+Point=92
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field= 7
+Title=Whr Actual
+Name=WhrAct
+Point=93
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field= 8
+Title=Range
+Name=Range
+Point=94
+Trend=Yes
+Type=DCF
+
+Field= 9
+Title=Load
+Name=Load
+Point=95
+Trend=Yes
+Type=DCF
+
+Field= 10
+Title=Command
+Name=Command
+Point=96
+Trend=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Vthd
+Name=YVthd
+Point=97
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Athd
+Name=YAthd
+Point=98
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Freq
+Name=YFreq
+Point=99
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 20
+Title=KwhrAct
+Name=KwhrAct
+Point=100
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field= 11
+Title=Step
+Name=Step
+Point=Ps
+Trend=Yes
+
+Field= 12
+Title=Timer
+Name=Timer
+Point=Ps
+Trend=Yes
+
+Field= 13
+Title=SetVolt
+Name=SetVolt
+Point=Ps
+
+Field= 14
+Title=SetFreq
+Name=SetFReq
+Point=Ps
+
+Field= 14
+Title=CalStat
+Name=CalStat
+Point=Ps
+
+Field= 16
+Title=Avg Watt
+Name=AvgWatt
+Point=Ps
+Trend=Yes
+
+Field= 17
+Title=Avg Volt
+Name=AvgVolt
+Point=Ps
+Trend=Yes
+
+Field= 18
+Title=Avg Amp
+Name=AvgAmp
+Point=Ps
+Trend=Yes
+
+Field= 19
+Title=Avg Cnt
+Name=AvgCnt
+Point=Ps
+Trend=Yes
+
+Field= 21
+Title=CurRange
+Name=CurRange
+Point=Ps
+
+Field= 22
+Title=AutoCal
+Name=AutoCal
+Point=Ps
+
+Field= 23
+Title=RngTime
+Name=RngTIme
+Point=Ps
+
+Field= 24
+Title=MaxRange
+Name=MaxRange
+Point=Ps
+
+Field= 24
+Title=MinRange
+Name=MinRange
+Point=Ps
+
+Field= 25
+Title=StartRange
+Name=StartRange
+Point=Ps
+
+Field= 26
+Title=Type
+Name=Type
+Point=Ps
+
+Field= 27
+Title=SetRange
+Name=SetRange
+Point=Ps
+
+Field= 28
+Title=SystemWattHr
+Name=SysWattHr
+Point=Ps
+Trend=Yes
+
+Field= 29
+Title=WattHrDiff
+Name=WattHrDiff
+Point=Ps
+Trend=Yes
+
+Field= 30
+Title=Running Watt Avg
+Name=RunWattAvg
+Point=Ps
+Trend=Yes
+
+Field= 31
+Title=Running Watt Gain
+Name=RunGain
+Point=Ps
+Trend=Yes
+
+Field= 32
+Title=OldValue
+Name=OldValue
+Point=Ps
+
+Field= 32
+Title=Value
+Name=Value
+Point=Ps
+
+Field= 33
+Title=Deviation
+Name=Deviation
+Point=Ps
+
+Field= 16
+Title=As Received Avg Watt
+Name=ArAvgWatt
+Point=Ps
+Trend=Yes
+
+Field= 17
+Title=As Received Avg Volt
+Name=ArAvgVolt
+Point=Ps
+Trend=Yes
+
+Field= 18
+Title=As Received Avg Amp
+Name=ArAvgAmp
+Point=Ps
+Trend=Yes
+
+Field= 32
+Title=Last Sample
+Name=LastSample
+Point=Ps
+
+Field= 32
+Title=Test Time
+Name=ActTestTime
+Point=Ps
+
+Field= 32
+Title=Watts Std Dev
+Name=WattsStdDev
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Volts Std Dev
+Name=VoltsStdDev
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 8
+Title=MessIndex
+Name=MessIndex
+Point=PS
+
+Field= 32
+Title=Watts Delta
+Name=WattsDelta
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Amps Delta
+Name=AmpsDelta
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Volts Delta
+Name=VoltsDelta
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Watts Delta RBar
+Name=WattsDeltaRbar
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Volts Delta RBar
+Name=VoltsDeltaRbar
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Amps Delta RBar
+Name=AmpsDeltaRbar
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Watts Delta Sum
+Name=WattsDeltaRangeSum
+Point=Ps
+
+Field= 32
+Title=Volts Delta Sum
+Name=VoltsDeltaRangeSum
+Point=Ps
+
+Field= 32
+Title=Amps Delta Sum
+Name=AmpsDeltaRangeSum
+Point=Ps
+
+Field= 32
+Title=Watts Delta Avg
+Name=ARWattsDelta
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 32
+Title=Raw Watts Delta
+Name=RawWattsDelta
+Point=Ps
+Cycle=Yes
+Trend=Yes
+Plot=Yes
+
+Field= 15
+Title=AnnotVal
+Name=AnnotVal
+Point=Ps
+
+Field= 15
+Title=TestCount
+Name=TestCount
+Point=Ps
+
+Field= 15
+Title=Version
+Name=Version
+Point=Ps
+
+XField= 15
+XTitle=Load Unit Temp
+XName=LoadUnit
+XPoint=1
+XCycle=Yes
+XTrend=Yes
+XPlot=Yes
+
+Field= 16
+Title=Avg Watt Yok
+Name=AvgWattAct
+Point=Ps
+Trend=Yes
+
+Field= 17
+Title=Avg Volt Yok
+Name=AvgVoltAct
+Point=Ps
+Trend=Yes
+
+Field= 18
+Title=Avg Amp Yok
+Name=AvgAmpAct
+Point=Ps
+Trend=Yes
+
+Field= 18
+Title=WattGainUCL1
+Name=WattGainUCL1
+Point=Ps
+
+Field= 18
+Title=WattGainLCL1
+Name=WattGainLCL1
+Point=Ps
+
+Field= 18
+Title=WattGainCOUNT1
+Name=WattGainCOUNT1
+Point=Ps
+
+Field= 18
+Title=WattGainUCL2
+Name=WattGainUCL2
+Point=Ps
+
+Field= 18
+Title=WattGainLCL2
+Name=WattGainLCL2
+Point=Ps
+
+Field= 18
+Title=WattGainCOUNT2
+Name=WattGainCOUNT2
+Point=Ps
+
+Field= 15
+Title=Value2
+Name=Value2
+Point=Ps
+
+Field= 15
+Title=NoChange
+Name=NoChange
+Point=Ps
+
+Field= 15
+Title=Error
+Name=Error
+Point=Ps
+
+Field= 15
+Title=ReportLine
+Name=ReportLine
+Point=Ps
+
+

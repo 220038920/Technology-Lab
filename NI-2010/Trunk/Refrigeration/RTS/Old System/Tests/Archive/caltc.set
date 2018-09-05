@@ -1,0 +1,157 @@
+Field=0
+Title=Comment
+Name=CalComment
+Required=No
+Help=Any special information about the calibration
+
+Field=1
+Title=Equipment used
+Name=Equipment
+Required=No
+Help=Equipment and calibration date for reference
+List=CalTCEquipment
+
+Field=2
+Title=Sample Rate
+Name=SampleRate
+Default=10
+Required=No
+
+Field=3
+Title=Temperature units;C/F
+Name=TempUnits
+Required=Yes
+Only=CF
+List=C
+List=F
+
+Field=4
+Title=DAQ Device
+Name=DAQDevice
+Required=No
+Help=Name of Data Acquisition device that is being calibrated/checked
+List=DaqDevice
+
+Field=5
+Title=Save Calibration Values
+Name=SaveCal
+Required=No
+Help=Save As Received and After Calibration values to database
+SqlList=select cast(TempF as varchar) + '°F '+'(' +cast(TempC as varchar) +'°C) ' + Name as 'Name' ,id as Recordtype from tc_SnapshotTypes where id < 20 order by Name desc ,TempF
+
+Field=6
+Title=Generate Report
+Name=Report
+Required=No
+Track=1
+Only=YN
+Help=Generate calibration report
+List=Y
+List=N
+Default=Y
+
+Field=7
+Title=Number of TC Channels
+Name=NumChans
+Help=Number of TC Channels in this Stall, choose custom point to use your own point file
+List=10 TCs,10
+List=12 TCs,12
+List=20 TCs,20
+List=24 TCs,24
+List=32 TCs,32
+List=40 TCs,40
+List=50 TCs,50
+List=Pressure,Pressure
+List=Custom,20
+List=Custom,40
+
+Field=8
+Title=Partial Calibration
+Name=Partial
+Required=Y
+Init=N
+Only=YN
+Help=Select Y if not calibrating all the TCs at one time.  Then choose the start and stop channels in the optional area
+List=Y
+List=N
+Default=N
+
+Field=9
+Title=Optional Settings
+Required=Grp
+
+Field=10
+Title=TC Start Channel
+Name=StartChan
+Default=1
+Init=1
+Required=No
+List=1
+List=6
+List=11
+List=16
+List=21
+List=26
+List=31
+List=36
+Help=Start channel for calibration when doing a partial.
+
+Field=11
+Title=TC Stop Channel
+Name=StopChan
+Default=10
+Init=10
+Required=No
+List=5
+List=10
+List=15
+List=20
+List=25
+List=30
+List=35
+List=40
+Help=Stop channel for calibration when doing a partial.
+
+Field=12
+Title=TC Filter
+Name=Filter
+Required=No
+Only=YN
+Help=Y to smooth TCs
+List=Y
+List=N
+Default=N
+
+Field=13
+Title=Trigger open TC check
+Name=CheckOTC
+Required=No
+Only=01
+Help=Triggers an open TC check now.  Good for troubleshooting bad TCs.
+List=1
+List=0
+
+Field=14
+Title=PlotList1
+Name=PlotList1
+
+Field=15
+Title=PlotList2
+Name=PlotList2
+
+Field=16
+Title=RerunTestNumber
+Name=TestNumber
+Required=Populate
+SQL=select resultfile from labresults where testnumber={TestNumber}
+
+Field=17
+Title=RerunTestfile
+Name=RerunFile
+DBName=ResultFile
+
+Field=18
+Title=Custom PointFile
+Name=PointCustom
+Help=If you're not using the normal point files
+

@@ -1,0 +1,91 @@
+Field=0
+Title=Reports
+Name=ResultReport
+Required=No
+Track=3
+Help=Type of report(s) to generate at the completion of the test.
+List=Aham
+List=Aham+Cycle
+List=Aham+Cycle+CycleSummary
+
+Field=1
+Title=Start conditions
+Name=DefrCnt
+Required=Yes
+Help=Starting conditions for the test. -1 for now or 1 for next defrost
+List=Now,-1
+List=After Recovery,-2
+List=Next Defrost,0
+List=2nd Defrost,1
+List=3rd Defrost,2
+List=4th Defrost,3
+
+Field=2
+Title=Stop conditions
+Name=StopCond
+Required=Yes
+Help=When to stop the test
+List=At Defrost,1
+List=At Defrost & Stable,2
+List=After Recovery,3
+List=After Recovery & Stable,4
+
+Field=3
+Title=Tests to run
+Name=TestCnt
+Required=No
+Only=0123456789
+Help=Number of tests to run back to back
+
+Field=4
+Title=Stable Groups
+Name=StableGrp
+Required=No
+Only=1 2 3 4
+Help=Channel groups for checking type A stable conditions for .042/hr
+List=Freezer,1
+List=Cab,2
+List=Freezer and Cab,1 2
+List=Ambient,3
+
+Field=5
+Title=Temp Period Length;
+Name=ExtTempPeriod
+Required=No
+Help=Length of Temperature period before defrost (with whole cycles)
+List=10 Hours,10
+List=6 Hours,6
+List=3 Hours,3
+
+Field=6
+Title=Aham Standard
+Name=AhamStandard
+Required=No
+Help=Which Aham Standard to use for the test.  Affects defrost and temp period selection. EW - Electrolux Waiver
+List=2014
+List=2001
+List=2001 EW
+
+Field=7
+Title=Extra point file
+Name=PointTree
+Required=No
+Track=3
+Help=Extra point file for Wide, Rits or Netdaq
+
+Field=8
+Title=Cab Volume
+Name=CabVolume
+Required=No
+Track=Y
+Help=Volume of Cab Compartment
+
+Field=9
+Title=Cab Aux Volume
+Name=CabAuxVolume
+Required=No
+Track=Y
+Help=Volume of Cab Auxiliary Compartment - per 5.1.3 spec
+
+
+

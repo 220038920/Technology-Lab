@@ -1,0 +1,52 @@
+Field=1
+Title=Ambient Temperature
+Name=CalTemp
+Help=Temperature the calibration was performed at
+Init=72°F
+
+Field=+
+Title=Ambient Humidity
+Name=CalHumid
+Help=Humidity the calibration was performed at
+Init=30% RH
+
+Field=+
+Title=Comment
+Name=CalComment
+Required=No
+Help=Any special information about the calibration
+
+Field=+
+Title=Equipment used
+Name=Equipment
+Required=No
+Help=Equipment and calibration date for reference
+List=CalVawEquipment
+Default=Yokogawa 3000 SN:91R622747
+
+Field=+
+Title=Sample Rate
+Name=SampleRate
+Default=10
+Required=No
+
+Field=+
+Title=Optional Settings
+Required=Grp
+
+Field=+
+Title=PlotList1
+Name=PlotList1
+
+Field=+
+Title=PlotList2
+Name=PlotList2
+
+Field=+
+Title=Custom PointFile
+Name=PointCustom
+Help=If you're not using the normal point files
+
+Field=+
+Name=Report
+Default=Y

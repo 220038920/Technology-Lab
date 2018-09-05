@@ -1,0 +1,83 @@
+Field=0
+Title=Comment
+Name=CalComment
+Required=No
+Help=Any special information about the calibration
+
+Field=1
+Title=Equipment used
+Name=Equipment
+Required=No
+Help=Equipment and calibration date for reference
+List=CalTCEquipment
+
+Field=2
+Title=Sample Rate
+Name=SampleRate
+Default=10
+Required=No
+
+Field=3
+Title=Ref Voltage/Current Leak;mA/V
+Name=RefVolt
+Required=Yes
+Help=Reference voltage for transducer inputs.  0 or -1 to disable
+List = -1,Disable
+List = 0.5,Current Leakage
+List = 9.0,9 Volt Reference
+List = 10.0,10 Volt Reference
+List = 999,Pressure Transducer
+Default=-1,Disable
+
+Field=4
+Title=Low Side Full Scale;psi or dcv
+Name=LPSIScale
+Default=5
+Required=Yes
+Help=What is the full scale value of the suction transducer
+
+Field=5
+Title=High Side Full Scale;psi or dcv
+Name=HPSIScale
+Default=5
+Required=Yes
+Help=What is the full scale value of the high side pressure transducer
+
+Field=6
+Title=Optional Settings
+Required=Grp
+
+Field=7
+Title=PlotList1
+Name=PlotList1
+
+Field=8
+Title=PlotList2
+Name=PlotList2
+
+Field=9
+Title=Full Scale Secondary Voltage;mV
+Name=PSIVolt
+Default=30
+Required=No
+Help=Secondary input in mV for strain gauge style transducers
+
+Field=10
+Title=RerunTestNumber
+Name=TestNumber
+Required=Populate
+SQL=select resultfile from labresults where testnumber={TestNumber}
+
+Field=11
+Title=RerunTestfile
+Name=RerunFile
+DBName=ResultFile
+
+Field=12
+Title=Custom PointFile
+Name=PointCustom
+Help=If you're not using the normal point files
+
+Field=13
+Name=Report
+Default=Y

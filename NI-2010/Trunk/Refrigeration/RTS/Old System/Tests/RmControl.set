@@ -1,0 +1,32 @@
+! --------------------------------------------------------------------------
+! Whirlpool BHTC Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr    : Global control setup
+!    File     : RmControl.set
+!    Rev      : 1.0
+!    By       : Mark Hooks
+!    Date     : 12-Nov-2013
+!    Last change on :
+!
+
+
+Field= 0
+Title=Reset Trend
+Name=ResetTrend
+Required=List
+List=No,0
+List=Yes,1
+Help=Reset trend view
+Color=Green
+
+Field= 1
+Title=Reload PIDs
+Name=ReloadPid
+Required=List
+List=No,0
+List=Yes,1
+Help=Reload PID settings
+Color=Yellow
+
+! --------------------------------------------------------------------------

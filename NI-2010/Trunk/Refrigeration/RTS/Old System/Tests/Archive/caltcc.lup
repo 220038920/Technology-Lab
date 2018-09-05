@@ -1,0 +1,49 @@
+! --------------------------------------------------------------------------
+! Calibration Lookup - Degrees C
+! --------------------------------------------------------------------------
+!
+! Allows unit-dependent values to be displayed for calibration
+!
+Label2 = 0°C After Cal
+Label3 = 32°C After Cal
+Label4 = 0°C As Recvd
+Label5 = 32°C As Recvd
+Label6 = -20°C After Cal
+Label8 = 10°C After Cal
+Label10 = 43°C After Cal
+
+Type2 = AC
+Type3 = AC
+Type4 = AR
+Type5 = AR
+Type6 = AC
+Type8 = AC
+Type10 = AC
+
+Temp2 = 0
+Temp3 = 32
+Temp4 = 0
+Temp5 = 32
+Temp6 = -20
+Temp8 = 10
+Temp10 = 43
+
+! Added 4/2011 to show yellow and red colors if out of tolerance
+ARYelTol = .5
+ARRedTol = 2.0
+
+! --------------------------------------------------------------------------
+! Calibration Lookup - TC Cal
+! --------------------------------------------------------------------------
+!	U of TC = SQRT(short term^2   + type T TC^2 + channel^2 + standard (bath)^2 + probe^2)
+! 	U of TC = SQRT( STDEV(TC_x)^2 + 0.5^2       + .087^2	+ .03^2			+ .015^2
+!                   Measured 		Spec		Evv			Hart	Hart
+!					during 						Experiment  Bath	Probe
+!			= SQRT( STDEV(TC_x)^2 + .)
+!
+! 	U of TC = SQTR( STDEV(TC_x)^2 + 0.5^2       + .087^2	+ .01^2)
+!                   Measured 		Type T		Evv			Lauda RP845
+!					during 			Spec Limits	Experiment  Spec
+!
+!			= SQRT( STDEV(TC_x)^2 + .26)
+CalTCStdUncert = 0.26

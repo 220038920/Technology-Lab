@@ -1,0 +1,348 @@
+! --------------------------------------------------------------------------
+! Whirlpool BHTC Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr    : Global control setup
+!    File     : RmControl.set
+!    Rev      : 1.0
+!    By       : Mark Hooks
+!    Date     : 12-Nov-2013
+!    Last change on :
+!
+
+Field= 1
+Title=Room Run
+Name=Rmrun1
+Required=List
+List=Off,0
+List=On,1
+Help=Run room
+Color=Green
+
+Field= 2
+Title=Room Conditions
+Name=RmCond1
+SQLList=SELECT Setpoint from Room_Amb_Setpoints where RoomType = 'Humid'
+Color=Yellow
+
+Field= 3
+Title=Room Dry;F
+Name=RmdrySetp1
+Required=Yes
+Only=0123456789.
+Help=Dry bulb setpoint
+Color=Yellow
+
+Field= 4
+Title=Room Humidity;%
+Name=RmHumSetp1
+Required=Yes
+Only=0123456789.
+Help=Humidity setpoint
+Color=Yellow
+
+Field= 5
+Title=Room Cool;F
+Name=RmCoolSetp1
+Required=Yes
+Only=0123456789.
+Help=Coil setpoint
+Color=Yellow
+
+Field= 6
+Title=Room Dehum;F
+Name=RmDehumSetp1
+Required=Yes
+Only=0123456789.
+Help=Coil setpoint
+Color=Yellow
+
+! --------------------------------------------------------------------------
+
+Field= 7
+Title=Stall 1 voltage
+Name=VoltSet1
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field= 8
+Title=Stall 1 frequency
+Name=FreqSet1
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field= 9
+Title=Stall 1 polarity
+Name=Polarity1
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 1 current leak
+Name=Curleak1
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 2 voltage
+Name=VoltSet2
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 2 frequency
+Name=FreqSet2
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 2 polarity
+Name=Polarity2
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 2 current leak
+Name=Curleak2
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 3 voltage
+Name=VoltSet3
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 3 frequency
+Name=FreqSet3
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq frequency
+Color=Cyan
+
+Field=+
+Title=Stall 3 polarity
+Name=Polarity3
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 3 current leak
+Name=Curleak3
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 4 voltage
+Name=VoltSet4
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 4 frequency
+Name=FreqSet4
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 4 polarity
+Name=Polarity4
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 4 current leak
+Name=Curleak4
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 5 voltage
+Name=VoltSet5
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 5 frequency
+Name=FreqSet5
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 5 polarity
+Name=Polarity5
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 5 current leak
+Name=Curleak5
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 6 voltage
+Name=VoltSet6
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 6 frequency
+Name=FreqSet6
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 6 polarity
+Name=Polarity6
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 6 current leak
+Name=Curleak6
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 7 voltage
+Name=VoltSet7
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 7 frequency
+Name=FreqSet7
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 7 polarity
+Name=Polarity7
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 7 current leak
+Name=Curleak7
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan
+! --------------------------------------------------------------------------
+Field=+
+Title=Stall 8 voltage
+Name=VoltSet8
+Required=Yes
+Only=.0123456789
+Help=Stall voltage setpoint
+Color=Green
+
+Field=+
+Title=Stall 8 frequency
+Name=FreqSet8
+Required=List
+List=60
+List=50
+List=Off,0
+Help=Stall Freq range
+Color=Cyan
+
+Field=+
+Title=Stall 8 polarity
+Name=Polarity8
+Required=List
+List=Normal,0
+List=Reverse,1
+Help=Stall neutral - ground connections
+Color=Cyan
+
+Field=+
+Title=Stall 8 current leak
+Name=Curleak8
+Required=List
+List=Normal,0
+List=Measure,1
+Help=Measure current leakage
+Color=Cyan

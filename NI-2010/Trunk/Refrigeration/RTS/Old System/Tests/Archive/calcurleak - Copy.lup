@@ -1,0 +1,18 @@
+! --------------------------------------------------------------------------
+! Calibration Lookup - Degrees C
+! --------------------------------------------------------------------------
+!
+! Allows unit-dependent values to be displayed for calibration
+!
+TestName = CalCurLeak
+Volt1 = 115
+Volt2 = 230
+
+Current11 = Zero Cal
+Current12 = Gain Cal 500 uA 230k
+Current13 = Cal Verify 750 uA 153k
+
+Current21 = Zero Cal
+Current22 = Gain Cal 500 uA 460k
+Current23 = Cal Verify 750 uA 306k
+       

@@ -1,0 +1,24 @@
+! --------------------------------------------------------------------------
+! Whirlpool BHTC Test Room Data Collection System
+! --------------------------------------------------------------------------
+!
+!    Descr    : Global control procedure
+!    File     : ctrl1.lup
+!    Rev      : 1.0
+!    By       : Scott
+!    Date     : 12-Nov-2013
+!    Last change on :
+!
+
+Stalls = 8
+Rooms = 1
+Controllers = 1
+
+point1=RmControl3.pnt
+point2=
+point3=
+point4=
+
+PidSettings = RmPid8Stall.lup
+EnableHud = 0
+

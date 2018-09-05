@@ -1,0 +1,10 @@
+Title=All Fridge
+Setup=General.set
+Setup=allfridge.set
+Setup=Plot lists.set
+Setup=Options.set
+Setup=Rerun.set
+Display=cycle1.dsp,Product Temps
+Display=cycle2.dsp,Test Times
+Command=allfridge.cmd
+PointHelp=Group Numbers: 1-Freezer 2-Cab 4-Ambient 5-Freezer Door 6-Cab Door

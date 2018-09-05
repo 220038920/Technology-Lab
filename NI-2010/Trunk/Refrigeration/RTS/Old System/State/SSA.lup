@@ -1,0 +1,13 @@
+Mode = Watt
+Watt_On = 50.000
+Watt_Def = 300.000
+Watt_Rate = 0.500
+Watt_Overload = 1000.0
+Amp_On = 0.000
+Amp_Def = 0.000
+Amp_Rate = 0.050
+Amp_Overload = 10.0
+Pfact_On = 0.000
+Pfact_Def = 0.000
+Probe_On = 0.000
+Probe_Def = 0.000

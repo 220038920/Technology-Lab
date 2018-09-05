@@ -1,0 +1,57 @@
+! --------------------------------------------------------------------------
+! Calibration Lookup - Degrees C
+! --------------------------------------------------------------------------
+!
+! Allows unit-dependent values to be displayed for calibration
+!
+TestName = CalCurLeak
+NumSteps = 24
+Volt1 = 20.5
+Volt2 = 20.5
+Volt3 = 30.45
+Volt4 = 40.6
+Volt5 = 50.75
+Volt6 = 60.9
+Volt7 = 81.2
+Volt8 = 101.5
+Volt9 = 121.8
+Volt10 = 136.01
+Volt11 = 21.6
+Volt12 = 27
+Volt13 = 33.75
+Volt14 = 67.5
+Volt15 = 99.9
+Volt16 = 110.7
+Volt17 = 129.6
+Volt18 = 30
+Volt19 = 40
+Volt20 = 50
+Volt21 = 75
+Volt22 = 100
+Volt23 = 125
+Volt24 = 139
+
+Current1 = 0.0
+Current2 = 0.1
+Current3 = 0.15
+Current4 = 0.2
+Current5 = 0.25
+Current6 = 0.3
+Current7 = 0.4
+Current8 = 0.5
+Current9 = 0.6
+Current10 = 0.67
+Current11 = 0.8
+Current12 = 1
+Current13 = 1.25
+Current14 = 2.5
+Current15 = 3.7
+Current16 = 4.1
+Current17 = 4.8
+Current18 = 6
+Current19 = 8
+Current20 = 10
+Current21 = 15
+Current22 = 20
+Current23 = 25
+Current24 = 28

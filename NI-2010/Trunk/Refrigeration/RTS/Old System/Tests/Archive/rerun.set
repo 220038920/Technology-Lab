@@ -1,0 +1,108 @@
+Field=0
+Title= RERUN SETTINGS
+Required=Grp
+
+Field=1
+Title=TestNumber
+Name=TestNumber
+Required=Populate
+SQL=exec rts_selectrerun_flex {TestNumber}
+
+Field=2
+Title=Testfile
+Name=RerunFile
+DBName=ResultFile
+
+Field=3
+Title=Original Tester
+Name=OrigTester
+DBName=Tester
+
+Field=4
+Title=Original Stall
+Name=OrigStall
+DBName=Stall
+
+Field=5
+Title=Original Start Time
+Name=OrigStartTime
+DBName=TestDate
+
+Field=6
+Title=Original End Time
+Name=OrigEndTime
+DBName=EndDate
+
+Field=7
+Title=Original Ambient
+Name=OrigAmbient
+DBName=Amb
+
+Field=8
+Title=Original Commment1
+Name=Comment1Orig
+DBName=Com1
+
+Field=9
+Title=Original Commment2
+Name=Comment2Orig
+DBName=Com2
+
+Field=10
+Title=Original Contr Set
+Name=OrigControlSet
+DBName=ControlSet
+
+Field=11
+Title=Original Test Type
+Name=OrigTestType
+DBName=TType
+
+Field=12
+Title=Original Test Name
+Name=OrigTestName
+DBName=TName
+
+Field=13
+Title=Original Voltage
+Name=OrigVolt
+DBName=Voltage
+
+Field=14
+Title=Original Freq
+Name=OrigFreq
+DBName=Freq
+
+Field=15
+Title=Original Units
+Name=OrigUnits
+DBName=Units
+
+Field=16
+Title=Original Pointfile
+Name=OrigPointFile
+DBName=PointF
+
+Field=17
+Title=Load Time;min
+Name=LoadTime
+Required=No
+Help=Time the load was added, doors closed and user entered "Y" in field.
+
+Field=18
+Title=Prev Test Number
+Name=PrevTestNum
+Help=Previous test number
+
+Field=19
+Title=Prev Cab Avg
+Name=PrevCabAvg
+Help=Used to calculate type B stability for a rerun
+
+Field=20
+Title=Prev Frz Avg
+Name=PrevFrzAvg
+Help=Used to calculate type B stability for a rerun
+
+Field=21
+Name=EngNum

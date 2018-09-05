@@ -1,0 +1,110 @@
+Field= 0
+Title=Frequency
+Name=Freq
+Point=70
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 0
+Title=Yok Volts
+Name=YVolt
+Point=90
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 1
+Title=Yok Amps
+Name=YAmp
+Point=91
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 2
+Title=Yok Watts
+Name=YWatt
+Point=92
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Whrs
+Name=YWhr
+Point=93-4
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok WHrs24
+Name=Yok24Hr
+Point=PS
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 4
+Title=Whr Error
+Name=YDWHr
+Point=PS
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+
+Field= 5
+Title=Load
+Name=Load
+Point=95
+Trend=Yes
+Type=DCF
+
+Field= 6
+Title=Command
+Name=Command
+Point=96
+Trend=Yes
+Type=DCF
+
+Field= 8
+Title=Whr Percent Error
+Name=WhrPerDiff
+Point=Ps
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+
+Field= 3
+Title=Yok Vthd
+Name=YVthd
+Point=97
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Athd
+Name=YAthd
+Point=98
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF
+
+Field= 3
+Title=Yok Freq
+Name=YFreq
+Point=99
+Trend=Yes
+Plot=Yes
+Cycle=Yes
+Type=DCF

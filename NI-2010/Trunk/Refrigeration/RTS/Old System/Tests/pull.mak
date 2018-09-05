@@ -1,0 +1,14 @@
+Title=Pull Down Test
+Setup=General.set
+Setup=pull.set
+Setup=Plot lists.set
+Setup=Options.set
+Setup=Ul.set 
+Setup=Chain.set
+Setup=Rerun.set
+Setup=Wide.set
+Point=pull.pnt
+Display=pull1.dsp,Product Temps
+Display=pull2.dsp,Test Times
+Command=pull.cmd
+PointHelp=Group Numbers: 1-Freezer 2-Cab 3-Ambient 5-Freezer Door 6-Cab Door

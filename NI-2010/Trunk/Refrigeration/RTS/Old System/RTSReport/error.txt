@@ -1,0 +1,5 @@
+16:48:17 10/12/15 MakePDF Error # 9999 Unable to find PDF printer, check DistillerPrinter registry entry. ReportTool
+11:27:19 10/13/15 MakePDF Error # 9999 Unable to find PDF printer, check DistillerPrinter registry entry. ReportTool
+11:32:10 10/13/15 MakePDF Error # 9999 Unable to find PDF printer, check DistillerPrinter registry entry. ReportTool
+15:23:30 10/13/15 MakePDF Error # 9999 Unable to find PDF printer, check DistillerPrinter registry entry. ReportTool
+15:28:39 10/13/15 MakePDF Error # 9999 Unable to find PDF printer, check DistillerPrinter registry entry. ReportTool

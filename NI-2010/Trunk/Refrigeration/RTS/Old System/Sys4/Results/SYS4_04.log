@@ -1,0 +1,460 @@
+07:22:43,0:00:00,Using Yok 3000 for calibration
+07:22:43,0:00:00,Lab = 11
+08:10:26,0:51:52,Test ended Proc CALCURLEAK at line 292
+08:10:26,0:51:52,CalCurLeak finished TN:7576
+08:10:01,0:51:27,XY X24:2.08182 Y24:28.05481
+08:09:11,0:50:37,XY X23:2.08118 Y23:25.13164
+08:08:11,0:49:37,XY X22:2.08164 Y22:20.07769
+08:07:11,0:48:37,XY X21:2.08118 Y21:14.99811
+08:06:11,0:47:37,XY X20:2.08150 Y20:9.95364
+08:05:21,0:46:47,XY X19:2.08192 Y19:8.00834
+08:04:31,0:45:57,XY X18:2.08182 Y18:5.96621
+08:02:31,0:43:57,XY X17:2.08108 Y17:4.83518
+08:01:31,0:42:57,XY X16:2.08164 Y16:4.12213
+08:00:41,0:42:07,XY X15:2.08200 Y15:3.73245
+07:59:22,0:40:48,XY X14:2.08167 Y14:2.52024
+07:58:11,0:39:37,XY X13:2.08145 Y13:1.25810
+07:57:21,0:38:47,XY X12:2.08136 Y12:1.00951
+07:56:39,0:38:05,XY X11:2.08109 Y11:0.79859
+07:50:31,0:31:57,XY X10:2.08136 Y10:0.67231
+07:49:41,0:31:07,XY X9:2.08145 Y9:0.60193
+07:48:41,0:30:07,XY X8:2.08164 Y8:0.49983
+07:47:31,0:28:57,XY X7:2.08150 Y7:0.40093
+07:46:31,0:27:57,XY X6:2.08145 Y6:0.29917
+07:45:41,0:27:07,XY X5:2.08173 Y5:0.25113
+07:44:21,0:25:47,XY X4:2.08191 Y4:0.20027
+07:43:31,0:24:57,XY X3:2.08158 Y3:0.15065
+07:42:46,0:24:12,XY X2:2.08145 Y2:0.10213
+07:21:01,0:02:27,XY X1:2.08145 Y1:0
+07:18:30,0:00:00,CalCurLeak v1.1
+12:32:22,0:18:58,Test ended Proc CALTCAUTO at line 655
+12:32:22,0:18:58,TC Calibration finished TN: 7543
+12:32:22,0:18:58,Writing tcCalibration
+12:32:22,0:18:58,Writing LabResults
+12:32:21,0:18:57,110°F After Cal TC29Avg = 110.100
+12:32:21,0:18:57,AutoCal - Standby
+12:31:51,0:18:27,Averages cleared for 110°F After Cal Step 12
+12:31:31,0:18:07,Resent Setpoint:P90.00 L110 2
+12:31:20,0:17:56,Standby:P90.00 L110 2 13
+12:31:09,0:17:45,Averages cleared for 110°F After Cal Step 12
+12:30:48,0:17:24,Auto Cal - Temp setpoint changed to 110
+12:30:48,0:17:24,Averages cleared for 110°F After Cal Step 11
+12:30:47,0:17:23,-4°F After Cal TC29Avg = -3.750
+12:30:47,0:17:23,Saving Values for -4 -4°F After Cal Start:29 Stop:30
+12:30:47,0:17:23,AutoCal - Standby
+12:30:17,0:16:53,Averages cleared for -4°F After Cal Step 12
+12:29:57,0:16:33,Auto Cal - Temp setpoint changed to -4
+12:29:57,0:16:33,Averages cleared for -4°F After Cal Step 11
+12:29:56,0:16:32,90°F After Cal TC29Avg = 90.280
+12:29:56,0:16:32,Saving Values for 90 90°F After Cal Start:29 Stop:30
+12:29:56,0:16:32,AutoCal - Standby
+12:29:26,0:16:02,Averages cleared for 90°F After Cal Step 12
+12:29:06,0:15:42,Auto Cal - Temp setpoint changed to 90
+12:29:06,0:15:42,Averages cleared for 90°F After Cal Step 11
+12:28:31,0:15:07,TC30 out of .3 window 90.31.  Number out:2
+12:28:31,0:15:07,TC30 New Gain: 0.997900 Old Gain 1.0013
+12:28:31,0:15:07,TC29 out of .3 window 90.31.  Number out:1
+12:28:31,0:15:07,TC29 New Gain: 0.998200 Old Gain 1.0016
+12:28:31,0:15:07,90°F After Cal TC29Avg = 90.280
+12:28:31,0:15:07,Saving Values for 90 90°F After Cal Start:29 Stop:30
+12:28:31,0:15:07,AutoCal - Standby
+12:28:01,0:14:37,Averages cleared for 90°F After Cal Step 12
+12:27:40,0:14:16,Resent Setpoint:P90.00 L90 2
+12:27:29,0:14:05,Standby:P90.00 L90 2 13
+12:27:18,0:13:54,Averages cleared for 90°F After Cal Step 12
+12:26:58,0:13:34,Auto Cal - Temp setpoint changed to 90
+12:26:58,0:13:34,Averages cleared for 90°F After Cal Step 11
+12:26:57,0:13:33,PTC29 Zero Avg: 32.17 Calc Avg: 32.05 New Zero: -0.117800 Old Zero: 0
+12:26:57,0:13:33,32°F As Recvd TC29Avg = 32.118
+12:26:57,0:13:33,Saving Values for 32 32°F As Recvd Start:29 Stop:30
+12:26:57,0:13:33,AutoCal - Standby
+12:26:27,0:13:03,Averages cleared for 32°F As Recvd Step 12
+12:26:07,0:12:43,Resent Setpoint:P90.00 L32 2
+12:25:56,0:12:32,Standby:P90.00 L32 2 13
+12:25:45,0:12:21,Averages cleared for 32°F As Recvd Step 12
+12:25:25,0:12:01,Auto Cal - Temp setpoint changed to 32
+12:25:25,0:12:01,Averages cleared for 32°F As Recvd Step 11
+12:25:25,0:12:01,90°F As Recvd TC29Avg = 90.280
+12:25:25,0:12:01,Saving Values for 90 90°F As Recvd Start:29 Stop:30
+12:25:25,0:12:01,AutoCal - Standby
+12:24:55,0:11:31,Averages cleared for 90°F As Recvd Step 12
+12:24:35,0:11:11,Auto Cal - Temp setpoint changed to 90
+12:24:35,0:11:11,Averages cleared for 90°F As Recvd Step 11
+12:23:44,0:10:20,110°F After Cal TC21Avg = 110.247
+12:23:44,0:10:20,AutoCal - Standby
+12:23:14,0:09:50,Averages cleared for 110°F After Cal Step 12
+12:22:54,0:09:30,Auto Cal - Temp setpoint changed to 110
+12:22:54,0:09:30,Averages cleared for 110°F After Cal Step 11
+12:22:53,0:09:29,-4°F After Cal TC21Avg = -3.738
+12:22:53,0:09:29,Saving Values for -4 -4°F After Cal Start:21 Stop:28
+12:22:53,0:09:29,AutoCal - Standby
+12:22:23,0:08:59,Averages cleared for -4°F After Cal Step 12
+12:22:03,0:08:39,Resent Setpoint:P90.00 L-4 2
+12:21:52,0:08:28,Standby:P90.00 L-4 2 13
+12:21:41,0:08:17,Averages cleared for -4°F After Cal Step 12
+12:21:21,0:07:57,Auto Cal - Temp setpoint changed to -4
+12:21:21,0:07:57,Averages cleared for -4°F After Cal Step 11
+12:21:21,0:07:57,TC24 New Gain: 1.000700 Old Gain 0.9986
+12:21:21,0:07:57,TC23 New Gain: 1.000500 Old Gain 0.9985
+12:21:21,0:07:57,TC22 New Gain: 1.000600 Old Gain 0.9985
+12:21:21,0:07:57,90°F After Cal TC21Avg = 90.216
+12:21:21,0:07:57,Saving Values for 90 90°F After Cal Start:21 Stop:28
+12:21:21,0:07:57,AutoCal - Standby
+12:20:51,0:07:27,Averages cleared for 90°F After Cal Step 12
+12:20:31,0:07:07,Auto Cal - Temp setpoint changed to 90
+12:20:31,0:07:07,Averages cleared for 90°F After Cal Step 11
+12:20:31,0:07:07,PTC24 Zero Avg: 32.14 Calc Avg: 31.95 New Zero: -0.184300 Old Zero: 0
+12:20:31,0:07:07,PTC23 Zero Avg: 32.15 Calc Avg: 31.95 New Zero: -0.200300 Old Zero: 0
+12:20:31,0:07:07,PTC22 Zero Avg: 32.18 Calc Avg: 31.95 New Zero: -0.227300 Old Zero: 0
+12:20:31,0:07:07,32°F As Recvd TC21Avg = 32.268
+12:20:31,0:07:07,Saving Values for 32 32°F As Recvd Start:21 Stop:28
+12:20:31,0:07:07,AutoCal - Standby
+12:20:01,0:06:37,Averages cleared for 32°F As Recvd Step 12
+12:19:41,0:06:17,Auto Cal - Temp setpoint changed to 32
+12:19:41,0:06:17,Averages cleared for 32°F As Recvd Step 11
+12:19:40,0:06:16,90°F As Recvd TC21Avg = 90.255
+12:19:40,0:06:16,Saving Values for 90 90°F As Recvd Start:21 Stop:28
+12:19:40,0:06:16,AutoCal - Standby
+12:19:10,0:05:46,Averages cleared for 90°F As Recvd Step 12
+12:18:50,0:05:26,Auto Cal - Temp setpoint changed to 90
+12:18:50,0:05:26,Averages cleared for 90°F As Recvd Step 11
+12:18:13,0:04:49,110°F After Cal TC1Avg = 110.239
+12:18:13,0:04:49,AutoCal - Standby
+12:17:43,0:04:19,Averages cleared for 110°F After Cal Step 12
+12:17:23,0:03:59,Auto Cal - Temp setpoint changed to 110
+12:17:23,0:03:59,Averages cleared for 110°F After Cal Step 11
+12:17:23,0:03:59,-4°F After Cal TC1Avg = -3.735
+12:17:23,0:03:59,Saving Values for -4 -4°F After Cal Start:1 Stop:20
+12:17:23,0:03:59,AutoCal - Standby
+12:16:53,0:03:29,Averages cleared for -4°F After Cal Step 12
+12:16:33,0:03:09,Auto Cal - Temp setpoint changed to -4
+12:16:33,0:03:09,Averages cleared for -4°F After Cal Step 11
+12:16:33,0:03:09,TC15 New Gain: 1.000100 Old Gain 0.9984
+12:16:33,0:03:09,TC14 New Gain: 1.000500 Old Gain 0.9986
+12:16:33,0:03:09,TC13 New Gain: 1.000600 Old Gain 0.9988
+12:16:33,0:03:09,TC12 New Gain: 1.000500 Old Gain 0.9988
+12:16:33,0:03:09,TC10 New Gain: 1.000100 Old Gain 0.9983
+12:16:33,0:03:09,TC9 New Gain: 1.000300 Old Gain 0.9983
+12:16:33,0:03:09,TC8 New Gain: 1.000200 Old Gain 0.9988
+12:16:33,0:03:09,TC7 New Gain: 1.000400 Old Gain 0.9982
+12:16:33,0:03:09,TC5 New Gain: 1.000200 Old Gain 0.9982
+12:16:33,0:03:09,TC4 New Gain: 1.000000 Old Gain 0.9982
+12:16:33,0:03:09,TC3 New Gain: 1.000200 Old Gain 0.9981
+12:16:33,0:03:09,TC2 New Gain: 1.000400 Old Gain 0.9987
+12:16:33,0:03:09,TC1 New Gain: 1.000300 Old Gain 0.9988
+12:16:33,0:03:09,90°F After Cal TC1Avg = 90.263
+12:16:33,0:03:09,Saving Values for 90 90°F After Cal Start:1 Stop:20
+12:16:33,0:03:09,AutoCal - Standby
+12:16:03,0:02:39,Averages cleared for 90°F After Cal Step 12
+12:15:43,0:02:19,Auto Cal - Temp setpoint changed to 90
+12:15:43,0:02:19,Averages cleared for 90°F After Cal Step 11
+12:15:43,0:02:19,PTC20 Zero Avg: 32.35 Calc Avg: 32.00 New Zero: -0.188000 Old Zero: 0.1530
+12:15:43,0:02:19,PTC19 Zero Avg: 32.32 Calc Avg: 32.00 New Zero: -0.222000 Old Zero: 0.1000
+12:15:43,0:02:19,PTC18 Zero Avg: 32.30 Calc Avg: 32.00 New Zero: -0.248000 Old Zero: 0.0510
+12:15:43,0:02:19,PTC17 Zero Avg: 32.34 Calc Avg: 32.00 New Zero: -0.263000 Old Zero: 0.0710
+12:15:43,0:02:19,PTC16 Zero Avg: 32.41 Calc Avg: 32.00 New Zero: -0.318000 Old Zero: 0.0990
+12:15:43,0:02:19,PTC15 Zero Avg: 32.36 Calc Avg: 31.95 New Zero: -0.247400 Old Zero: 0.1610
+12:15:43,0:02:19,PTC14 Zero Avg: 32.37 Calc Avg: 31.95 New Zero: -0.334500 Old Zero: 0.0840
+12:15:43,0:02:19,PTC13 Zero Avg: 32.41 Calc Avg: 31.96 New Zero: -0.355400 Old Zero: 0.0960
+12:15:43,0:02:19,PTC12 Zero Avg: 32.40 Calc Avg: 31.96 New Zero: -0.395500 Old Zero: 0.0430
+12:15:43,0:02:19,PTC11 Zero Avg: 32.35 Calc Avg: 32.00 New Zero: -0.323000 Old Zero: 0.0320
+12:15:43,0:02:19,PTC10 Zero Avg: 32.58 Calc Avg: 31.95 New Zero: -0.197300 Old Zero: 0.4380
+12:15:43,0:02:19,PTC9 Zero Avg: 32.54 Calc Avg: 31.95 New Zero: -0.202300 Old Zero: 0.3980
+12:15:43,0:02:19,PTC8 Zero Avg: 32.57 Calc Avg: 31.96 New Zero: -0.233300 Old Zero: 0.3765
+12:15:43,0:02:19,PTC7 Zero Avg: 32.59 Calc Avg: 31.94 New Zero: -0.253500 Old Zero: 0.3890
+12:15:43,0:02:19,PTC6 Zero Avg: 32.54 Calc Avg: 32.00 New Zero: -0.236000 Old Zero: 0.3050
+12:15:43,0:02:19,PTC5 Zero Avg: 32.52 Calc Avg: 31.94 New Zero: -0.205400 Old Zero: 0.3760
+12:15:43,0:02:19,PTC4 Zero Avg: 32.54 Calc Avg: 31.94 New Zero: -0.266500 Old Zero: 0.3290
+12:15:43,0:02:19,PTC3 Zero Avg: 32.57 Calc Avg: 31.94 New Zero: -0.287500 Old Zero: 0.3450
+12:15:43,0:02:19,PTC2 Zero Avg: 32.54 Calc Avg: 31.96 New Zero: -0.315400 Old Zero: 0.2734
+12:15:43,0:02:19,PTC1 Zero Avg: 32.57 Calc Avg: 31.96 New Zero: -0.293400 Old Zero: 0.3180
+12:15:43,0:02:19,32°F As Recvd TC1Avg = 32.293
+12:15:43,0:02:19,Saving Values for 32 32°F As Recvd Start:1 Stop:20
+12:15:43,0:02:19,AutoCal - Standby
+12:15:13,0:01:49,Averages cleared for 32°F As Recvd Step 12
+12:14:53,0:01:29,Auto Cal - Temp setpoint changed to 32
+12:14:53,0:01:29,Averages cleared for 32°F As Recvd Step 11
+12:14:53,0:01:29,90°F As Recvd TC1Avg = 90.281
+12:14:53,0:01:29,Saving Values for 90 90°F As Recvd Start:1 Stop:20
+12:14:53,0:01:29,AutoCal - Standby
+12:14:23,0:00:59,Averages cleared for 90°F As Recvd Step 12
+12:14:03,0:00:39,Auto Cal - Temp setpoint changed to 90
+12:14:03,0:00:39,Averages cleared for 90°F As Recvd Step 11
+12:13:24,0:00:00,CALTC Auto Version 3.6
+12:13:24,0:00:00,Point Numbers30
+07:22:04,0:02:09,Test ended Proc CALPRES at line 316
+07:22:04,0:02:09,Pressure Calibration finished TN:7512
+07:22:04,0:02:09,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7512
+07:22:04,0:02:09,Writing Results
+07:22:04,0:02:09,Writing Results
+07:22:04,0:02:09,Number of readings 17
+07:22:04,0:02:09,HPsi Gain changed to 1.000082
+07:22:04,0:02:09,LPsi Gain changed to 1.000058
+07:22:04,0:02:09,Raw Gain LPSI 4.99971 HPSI 4.99959 Number of readings 17
+07:20:32,0:00:37,Raw Zero LPSI 0.000000 HPSI 0.000000
+07:20:32,0:00:37,Raw Zero LPSI 0 HPSI 0 Number of readings 17
+07:19:55,0:00:00,CALPRES Version 2.0
+07:19:55,0:00:00,Inject signal on pin 4 to 3
+07:19:55,0:00:00,24V source measured from pin 2 to 1
+07:19:55,0:00:00,0 0
+07:19:55,0:00:00,Point Pressure loaded
+07:19:36,19:05:18,Test killed Operator aborted test
+21:06:45,8:52:27,Changing Temp Start from 3:28:32 to 3:28:40 4:04:06
+20:22:16,8:07:58,Changing Temp Start from 3:28:32 to 3:28:40 4:04:06
+13:29:41,1:15:23,Ambient OUT at 1:15:23
+12:14:18,0:00:00,Starting Aham Energy Test v16.7
+12:14:18,0:00:00,Previous TestNum recorded 7419
+12:14:18,50:46:29,Previous TestNum recorded 7419
+12:14:18,50:46:29,LastTest = rlattner\16P00362-7419-04-04
+12:14:18,50:46:29,Save as rlattner\16P00362-7481-04-04
+12:14:18,50:46:29,Test Number 7481
+12:14:17,50:46:28,PerformanceFlex V2.4
+12:14:17,50:46:28,Database rtsdb1 Table FlexResults key InsertOnly Keyfield 7419
+12:14:17,50:46:28,Database TestReqNum = 
+12:14:17,50:46:28,TestDate is 08/15/16 Database rtsdb1 Table Results key 7419
+12:14:17,50:46:28,ADC CT = 40.0000
+12:14:17,50:46:28,2014 Cycling DefFlag:1 DefEnd:175624 TotCyc:4
+12:14:17,50:46:28,ProcDefEnd 3
+12:14:17,50:46:28,Defrost recovery completed
+12:14:17,50:46:28,Recorded cycle B after recovery. Fresh Food diff:0.03 Frz diff:0.10 3
+12:14:17,50:46:28,Stable Detail: End 48:47:04 CabAvg:29.31 FrzAvg:-11.88 TPCab: 29.3377 TPFrz:-11.7752
+10:15:00,48:47:11,Product cycled after defrost and recovered. Fresh Food diff:0.05 Frz diff:0.41 2
+10:15:00,48:47:11,Stable Detail: End 46:48:22 CabAvg:29.29 FrzAvg:-12.19 TPCab: 29.3377 TPFrz:-11.7752
+08:16:17,46:48:28,Typical cycles started 1
+08:16:17,46:48:28,Product cycled after defrost but not recovered. Fresh Food diff:0.02 Frz diff:0.63 1
+08:16:17,46:48:28,Stable Detail: End 44:40:56 CabAvg:29.32 FrzAvg:-12.41 TPCab: 29.3377 TPFrz:-11.7752
+06:12:31,44:44:42,Ambient IN.  Duration 0:00:02
+06:12:29,44:44:40,Ambient OUT at 44:44:40
+06:12:26,44:44:37,Ambient IN.  Duration 0:00:07
+06:12:19,44:44:30,Ambient OUT at 44:44:30
+06:11:59,44:44:10,Ambient IN.  Duration 0:00:01
+06:11:58,44:44:09,Ambient OUT at 44:44:09
+06:11:35,44:43:46,Ambient IN.  Duration 0:00:02
+06:11:33,44:43:44,Ambient OUT at 44:43:44
+06:11:30,44:43:41,Ambient IN.  Duration 0:00:04
+06:11:26,44:43:37,Ambient OUT at 44:43:37
+06:11:17,44:43:28,Ambient IN.  Duration 0:00:01
+06:11:16,44:43:27,Ambient OUT at 44:43:27
+06:11:14,44:43:25,Ambient IN.  Duration 0:00:09
+06:11:05,44:43:16,Ambient OUT at 44:43:16
+06:11:02,44:43:13,Ambient IN.  Duration 0:02:06
+06:08:56,44:41:07,Ambient OUT at 44:41:07
+06:08:52,44:41:03,Ambient IN.  Duration 0:00:35
+06:08:17,44:40:28,Ambient OUT at 44:40:28
+06:08:15,44:40:26,Ambient IN.  Duration 0:00:03
+06:08:12,44:40:23,Ambient OUT at 44:40:23
+06:08:07,44:40:18,Ambient IN.  Duration 0:08:05
+06:00:02,44:32:13,Ambient OUT at 44:32:13
+05:59:04,44:31:15,Ambient IN.  Duration 0:00:09
+05:58:55,44:31:06,Ambient OUT at 44:31:06
+05:58:10,44:30:21,Ambient IN.  Duration 0:00:07
+05:58:03,44:30:14,Ambient OUT at 44:30:14
+05:57:59,44:30:10,Ambient IN.  Duration 0:00:29
+05:57:30,44:29:41,Ambient OUT at 44:29:41
+05:57:12,44:29:23,Ambient IN.  Duration 0:00:03
+05:57:09,44:29:20,Ambient OUT at 44:29:20
+05:57:02,44:29:13,Ambient IN.  Duration 0:00:13
+05:56:49,44:29:00,Ambient OUT at 44:29:00
+05:56:39,44:28:50,Ambient IN.  Duration 0:00:02
+05:56:37,44:28:48,Ambient OUT at 44:28:48
+05:56:34,44:28:45,Ambient IN.  Duration 0:00:04
+05:56:30,44:28:41,Ambient OUT at 44:28:41
+05:56:09,44:28:20,Ambient IN.  Duration 0:00:19
+05:55:50,44:28:01,Ambient OUT at 44:28:01
+05:55:38,44:27:49,Ambient IN.  Duration 0:00:02
+05:55:36,44:27:47,Ambient OUT at 44:27:47
+05:55:20,44:27:31,Ambient IN.  Duration 0:00:07
+05:55:13,44:27:24,Ambient OUT at 44:27:24
+05:55:08,44:27:19,Ambient IN.  Duration 0:00:04
+05:55:04,44:27:15,Ambient OUT at 44:27:15
+05:54:59,44:27:10,Ambient IN.  Duration 0:00:14
+05:54:45,44:26:56,Ambient OUT at 44:26:56
+05:54:42,44:26:53,Ambient IN.  Duration 0:00:02
+05:54:40,44:26:51,Ambient OUT at 44:26:51
+05:54:29,44:26:40,Ambient IN.  Duration 0:00:01
+05:54:28,44:26:39,Ambient OUT at 44:26:39
+05:54:09,44:26:20,Ambient IN.  Duration 0:00:25
+05:53:44,44:25:55,Ambient OUT at 44:25:55
+05:53:35,44:25:46,Ambient IN.  Duration 0:00:07
+05:53:28,44:25:39,Ambient OUT at 44:25:39
+05:51:26,44:23:37,Ambient IN.  Duration 0:00:06
+05:51:20,44:23:31,Ambient OUT at 44:23:31
+05:50:23,44:22:34,Ambient IN.  Duration 0:00:04
+05:50:19,44:22:30,Ambient OUT at 44:22:30
+05:50:16,44:22:27,Ambient IN.  Duration 0:00:02
+05:50:14,44:22:25,Ambient OUT at 44:22:25
+05:50:09,44:22:20,Ambient IN.  Duration 0:00:04
+05:50:05,44:22:16,Ambient OUT at 44:22:16
+05:49:53,44:22:04,Ambient IN.  Duration 0:00:04
+05:49:49,44:22:00,Ambient OUT at 44:22:00
+05:49:21,44:21:32,Ambient IN.  Duration 0:00:01
+05:49:20,44:21:31,Ambient OUT at 44:21:31
+05:49:16,44:21:27,Ambient IN.  Duration 0:00:33
+05:48:43,44:20:54,Ambient OUT at 44:20:54
+05:48:39,44:20:50,Ambient IN.  Duration 0:00:17
+05:48:22,44:20:33,Ambient OUT at 44:20:33
+05:48:20,44:20:31,Ambient IN.  Duration 0:02:01
+05:46:19,44:18:30,Ambient OUT at 44:18:30
+05:46:16,44:18:27,Ambient IN.  Duration 0:00:09
+05:46:07,44:18:18,Ambient OUT at 44:18:18
+05:45:46,44:17:57,Ambient IN.  Duration 0:00:05
+05:45:41,44:17:52,Ambient OUT at 44:17:52
+05:45:37,44:17:48,Ambient IN.  Duration 0:00:24
+05:45:13,44:17:24,Ambient OUT at 44:17:24
+05:45:04,44:17:15,Ambient IN.  Duration 0:00:05
+05:44:59,44:17:10,Ambient OUT at 44:17:10
+05:44:55,44:17:06,Ambient IN.  Duration 0:00:07
+05:44:48,44:16:59,Ambient OUT at 44:16:59
+05:44:41,44:16:52,Ambient IN.  Duration 0:00:28
+05:44:13,44:16:24,Ambient OUT at 44:16:24
+05:44:10,44:16:21,Ambient IN.  Duration 0:00:04
+05:44:06,44:16:17,Ambient OUT at 44:16:17
+05:44:01,44:16:12,Ambient IN.  Duration 0:00:05
+05:43:56,44:16:07,Ambient OUT at 44:16:07
+05:43:52,44:16:03,Ambient IN.  Duration 0:00:03
+05:43:49,44:16:00,Ambient OUT at 44:16:00
+05:43:45,44:15:56,Ambient IN.  Duration 0:00:03
+05:43:42,44:15:53,Ambient OUT at 44:15:53
+05:43:38,44:15:49,Ambient IN.  Duration 0:00:28
+05:43:10,44:15:21,Ambient OUT at 44:15:21
+05:43:05,44:15:16,Ambient IN.  Duration 0:00:04
+05:43:01,44:15:12,Ambient OUT at 44:15:12
+05:42:51,44:15:02,Ambient IN.  Duration 0:00:05
+05:42:46,44:14:57,Ambient OUT at 44:14:57
+05:42:35,44:14:46,Ambient IN.  Duration 0:00:26
+05:42:09,44:14:20,Ambient OUT at 44:14:20
+05:42:05,44:14:16,Ambient IN.  Duration 0:00:17
+05:41:48,44:13:59,Ambient OUT at 44:13:59
+05:41:41,44:13:52,Ambient IN.  Duration 0:00:49
+05:40:52,44:13:03,Ambient OUT at 44:13:03
+05:40:49,44:13:00,Ambient IN.  Duration 0:02:10
+05:38:39,44:10:50,Ambient OUT at 44:10:50
+05:37:52,44:10:03,Ambient IN.  Duration 0:00:02
+05:37:50,44:10:01,Ambient OUT at 44:10:01
+05:37:45,44:09:56,Ambient IN.  Duration 0:00:18
+05:37:27,44:09:38,Ambient OUT at 44:09:38
+05:37:22,44:09:33,Ambient IN.  Duration 0:00:03
+05:37:19,44:09:30,Ambient OUT at 44:09:30
+05:36:52,44:09:03,Ambient IN.  Duration 0:00:36
+05:36:16,44:08:27,Ambient OUT at 44:08:27
+05:35:49,44:08:00,Ambient IN.  Duration 0:00:03
+05:35:46,44:07:57,Ambient OUT at 44:07:57
+05:35:42,44:07:53,Ambient IN.  Duration 0:00:17
+05:35:25,44:07:36,Ambient OUT at 44:07:36
+05:35:21,44:07:32,Ambient IN.  Duration 0:00:12
+05:35:09,44:07:20,Ambient OUT at 44:07:20
+05:35:06,44:07:17,Ambient IN.  Duration 0:00:07
+05:34:59,44:07:10,Ambient OUT at 44:07:10
+05:34:41,44:06:52,Ambient IN.  Duration 0:00:40
+05:34:01,44:06:12,Ambient OUT at 44:06:12
+05:33:57,44:06:08,Ambient IN.  Duration 0:03:00
+05:30:57,44:03:08,Ambient OUT at 44:03:08
+05:30:54,44:03:05,Ambient IN.  Duration 0:00:04
+05:30:50,44:03:01,Ambient OUT at 44:03:01
+05:30:45,44:02:56,Ambient IN.  Duration 0:00:07
+05:30:38,44:02:49,Ambient OUT at 44:02:49
+05:30:31,44:02:42,Ambient IN.  Duration 0:00:07
+05:30:24,44:02:35,Ambient OUT at 44:02:35
+05:30:20,44:02:31,Ambient IN.  Duration 0:00:07
+05:30:13,44:02:24,Ambient OUT at 44:02:24
+05:30:10,44:02:21,Ambient IN.  Duration 0:00:44
+05:29:26,44:01:37,Ambient OUT at 44:01:37
+05:29:21,44:01:32,Ambient IN.  Duration 0:58:38
+04:30:43,43:02:54,Ambient OUT at 43:02:54
+04:30:40,43:02:51,Ambient IN.  Duration 0:00:25
+04:30:15,43:02:26,Ambient OUT at 43:02:26
+04:30:12,43:02:23,Ambient IN.  Duration 0:00:28
+04:29:44,43:01:55,Ambient OUT at 43:01:55
+04:29:30,43:01:41,Ambient IN.  Duration 0:00:16
+04:29:14,43:01:25,Ambient OUT at 43:01:25
+04:29:00,43:01:11,Ambient IN.  Duration 0:00:05
+04:28:55,43:01:06,Ambient OUT at 43:01:06
+04:28:51,43:01:02,Ambient IN.  Duration 0:00:10
+04:28:41,43:00:52,Ambient OUT at 43:00:52
+04:28:37,43:00:48,Ambient IN.  Duration 0:00:03
+04:28:34,43:00:45,Ambient OUT at 43:00:45
+04:28:29,43:00:40,Ambient IN.  Duration 0:00:01
+04:28:28,43:00:39,Ambient OUT at 43:00:39
+03:26:25,41:58:36,Waiting for Defrost Recovery to end test 0
+03:26:25,41:58:36,Temp Period Start 37:16:27 End 41:12:17 ContRun: 0
+03:26:25,41:58:36,TPDatabase called Cab Avg 29.3377 29.3377 -999 Frz Avg -11.7752 -11.7752 -999
+03:26:25,41:58:36,ProcTempPeriod ACL:37:16:27,ACR:41:12:17,37:16:27,ACR:41:12:17
+03:26:25,41:58:36,2014 Stability recorded for cycle before defrost from 39:14:17 to 41:12:17. Cab Avg 29.33 FrzAvg -11.79 0
+03:26:25,41:58:36,Proc14Stable DS:41:12:17 CL:39:14:17 CR:41:12:17 LS:2
+03:26:25,41:58:36,Temp Period Start 37:16:27 is good
+03:26:25,41:58:36,In Defrost State:4 PrevDefStart:16:57:20 PrevDefEnd:0:00:00
+19:26:28,33:58:39,Aham Energy Test in progress, stability achieved 2 1 0
+19:26:28,33:58:39,Stable value = 0.069 Period = 7:50:25
+19:26:28,33:58:39,Stable Deg/Hr: 0.007653
+19:26:28,33:58:39,Cab End:29.264 Cab Beg:29.205 Stable Temp: 0.06 Period: 7.84028
+19:26:28,33:58:39,first period 19:32:21,23:26:35
+19:26:28,33:58:39,second period 27:22:46,31:21:33
+19:26:28,33:58:39,Cab Avg Period 1:-11.82 Period 2:29.26 TPS:33:19:48 STABEND: 31:21:33
+19:26:28,33:58:39,AHAM type A stability achieved with 0.009 temp/hr and 0.042 limit and 7:50:25 period
+16:13:36,30:45:47,Ambient IN.  Duration 0:00:02
+16:13:34,30:45:45,Ambient OUT at 30:45:45
+16:13:24,30:45:35,Ambient IN.  Duration 0:00:02
+16:13:22,30:45:33,Ambient OUT at 30:45:33
+16:12:54,30:45:05,Ambient IN.  Duration 0:00:04
+16:12:50,30:45:01,Ambient OUT at 30:45:01
+07:22:43,0:00:00,Starting VAW Calibration Procedure 5.1, saving to LabResults
+07:22:43,0:00:00,Original Voltage Setpoint 115.0
+07:22:43,0:00:00,Starting with type 50 - 115V 60Hz range
+07:22:43,0:00:00,Get 120 Cal Limits Error: Unable to run query
+07:22:44,0:00:01,Get 220 Cal Limits Error: Unable to run query
+07:22:51,0:00:00,Start Range changed to 1
+07:22:51,0:00:00,---------- Changing voltage to 115V 60Hz
+07:23:03,0:00:12,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 1
+07:23:45,0:00:54,Raw Watt average 0 Number of readings 52
+07:23:45,0:00:54,Watts Offset Deviation=0
+07:23:45,0:00:54,Wattage zero1 set to 0
+07:23:45,0:00:54,Amperage zero1 set to 0.0001
+07:25:39,0:02:48,RBar = 0.0300 R_Bar UCL = 0.098 Sigma = 0.026596
+07:25:39,0:02:48,Raw Watt average 200.72983 Number of readings 43, Yok 200.3107
+07:25:39,0:02:48,Avg Watts:200.1810, Act Watt:200.3107,  Volt:115 Freq:60
+07:25:39,0:02:48,Wattage 120 V Mid Range gain set to 0.9979
+07:25:39,0:02:48,Voltage range 1 gain set to 0.9986
+07:25:39,0:02:48,Amperage range 1 gain set to 1.0001
+07:25:39,0:02:48,Skipping historical gain check for Range 1
+07:25:39,0:02:48,Saving Report info for range 1, 120 V Mid Range
+07:25:39,0:02:48,Sum of squares is 0.023, Watts var 0.0266 Yok Uncert 0.15
+07:25:39,0:02:48,Watts Uncertainty is 0.303
+07:25:39,0:02:48,No Database Write yet, continue to Whr calibration
+07:27:45,0:04:54,RBar = 0 R_Bar UCL = 0 Sigma = 0
+07:27:45,0:04:54,Saving Report info for range 11, 120 V Low Range
+07:27:45,0:04:54,Raw Low Watt average 10.263 Number of readings 156
+07:30:25,0:07:34,RBar = 0 R_Bar UCL = 0 Sigma = 0
+07:30:25,0:07:34,Saving Report info for range 21, 120 V High Range
+07:30:25,0:07:34,Raw High Watt average 503.577 Number of readings 157
+07:30:25,0:07:34,120 V Mid Range Watt-hrs 0.02753 27.2700 %Error:0.95
+07:30:25,0:07:34,Changing ranges (1->2)
+07:30:25,0:07:34,Database values written for Range 1
+07:30:27,0:07:36,---------- Changing voltage to 230V 60Hz
+07:30:27,0:07:36,Value:2 Type:50 Range:52 SetRange: 51 CurRange:2
+07:30:54,0:08:03,Setting up rtsdb1 for table VAW_RangeValues key InsertOnly Range 2
+07:31:31,0:08:40,Raw Watt average 0 Number of readings 45
+07:31:31,0:08:40,Watts Offset Deviation=0
+07:31:31,0:08:40,Wattage zero2 set to 0
+07:31:31,0:08:40,Amperage zero2 set to 0.0002
+07:33:25,0:10:34,RBar = 0.0236 R_Bar UCL = 0.077 Sigma = 0.020922
+07:33:25,0:10:34,Raw Watt average 200.13350 Number of readings 44, Yok 199.8502
+07:33:25,0:10:34,Avg Watts:199.8503, Act Watt:199.8502,  Volt:230 Freq:60
+07:33:25,0:10:34,Wattage 220 V Mid Range gain set to 0.9986
+07:33:25,0:10:34,Volts range 2 gain not adjusted - 0.9949
+07:33:25,0:10:34,Amperage range 2 gain set to 0.9995
+07:33:25,0:10:34,No Adjust for Volts 220V
+07:33:25,0:10:34,Skipping historical gain check for Range 2
+07:33:25,0:10:34,Saving Report info for range 2, 220 V Mid Range
+07:33:25,0:10:34,Sum of squares is 0.023, Watts var 0.0209 Yok Uncert 0.15
+07:33:25,0:10:34,Watts Uncertainty is 0.303
+07:33:25,0:10:34,No Database Write yet, continue to Whr calibration
+07:35:33,0:12:42,RBar = 0 R_Bar UCL = 0 Sigma = 0
+07:35:33,0:12:42,Saving Report info for range 12, 220 V Low Range
+07:35:33,0:12:42,Raw Low Watt average 10.260 Number of readings 156
+07:38:13,0:15:22,RBar = 0 R_Bar UCL = 0 Sigma = 0
+07:38:13,0:15:22,Saving Report info for range 22, 220 V High Range
+07:38:13,0:15:22,Raw High Watt average 505.486 Number of readings 155
+07:38:13,0:15:22,220 V Mid Range Watt-hrs 0.02687 27.1200 %Error:-0.92
+07:38:13,0:15:22,Database values written for Range 1, Test Number: 7674
+07:38:13,0:15:22,Database rtsdb1 Table LabResults key 7674
+07:38:14,0:15:23,Test ended Proc VAWCAL at line 2131

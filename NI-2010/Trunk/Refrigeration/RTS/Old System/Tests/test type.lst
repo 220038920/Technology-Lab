@@ -1,0 +1,31 @@
+Internal Moisture Accumulation,ANSI/AHAM HRF-1-2007 Section 10.4
+Volume-Refrigeration-AHAM,ANSI/AHAM HRF-1-2008
+Energy-Refrigeration-DOE,10 CFR 430.23a App A Subpart B part 430
+Energy-Refrigeration-EEV,CAN/CSA-C300-08
+Temperature Performance (No Load),TS0032
+Pull Down (Cooling Capacity),TS0005
+External Surface Condensation,TS0004
+Defrost Water Drain & Evaporation,TS0029
+Reverse Airflow,TS0007
+Door Ajar,TS0022
+Defrost Heat,TS0009
+Power Interupt,TS0006
+Compressor Starting,TS0003
+User Start,TS0008
+Door Re-opening,TS0010
+Show Room Floor,TS0001
+Crisper Drawer Moisture Retention,TS0031
+Ice Making Test,TS0002
+Ice Crush & Dispense-Auto IM shutoff & ice storage cap,TS0013
+Frozen Ice Maker Fill Tube,TS0047
+Water Dispensing System Freezing Test,TS0014
+GENERAL THERMAL TEST PROCEDURES,ETP 511 A010
+NDO (NO DOOR OPENING TEST),ETP 511 B100	
+PRODUCT CAPABILITY - ICE FREEZING TEST,ETP 511 B101
+HEAVY USAGE TEST (HUT),ETP 511 B110
+Internal Moisture Test,ETP 511 B111
+EXTERNAL SWEAT TEST,ETP 511 B112
+ICE CUBE FUSING,ETP 511 B114
+FILL TUBE FREEZEUP,ETP 511 B402
+SHOWROOM TEST,ETP 511 C123
+Icemaker Slosh Test,ETP 512 E413

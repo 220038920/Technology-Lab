@@ -1,0 +1,50 @@
+Field=0
+Title=DOOR OPENER
+Required=Grp
+
+Field=+
+Title=Sequence
+Name=SeqFile
+Required=Yes
+Help=Which opening sequence file to use
+List=DebugSeq
+List=96-24-3Cab
+List=96-24-3Frz
+List=80-16-3Cab-1Day
+List=8640-8640-3Cab_Reliabilty
+List=6-2-3Cab-Low Usage
+List=10-0-Wine
+List=120-30-3GEA_HUT
+List=120-30-3GEA_HUT_CAB_offset
+List=40-20-3GEA_MELUT_CAB_offset
+Init=96-24-3Cab
+
+Field=+
+Title=Start time;Hr
+Name=SeqStart
+Required=Yes
+Help=Start time in hours 0-24
+List=Now,-1
+List=7:30,7.5
+List=8:00,8.0
+List=8:30,8.5
+Init=Now,-1
+
+Field=+
+Title=Reload sequence
+Name=SeqLoad
+Help=Reload sequence file and restart 
+List=Y
+List=N
+
+Field=+
+Title=Override
+Name=SeqManual
+Help=Pause sequence or open doors
+List=None,0
+List=Pause,1
+List=OpenFrz,2
+List=OpenCab,3
+List=OpenSlide,4
+List=OpenAll,5
+Default=None,0

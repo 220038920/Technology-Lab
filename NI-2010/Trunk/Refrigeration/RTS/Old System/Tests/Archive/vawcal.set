@@ -1,0 +1,166 @@
+Field=0
+Title=Comment
+Name=CalComment1
+Required=No
+Track=2
+Help=Misc Comments about the calibration
+
+Field=1
+Title=Equipment Used
+Name=EquipmentUsed
+Required=No
+List=VawCalEquipment
+Track=2
+Default=Yokogawa 3000 SN:91R622747
+Help=What equipment was used to calibrate.  This shows up on the report
+
+Field=2
+Title=Integration Time;min
+Name=IntTime
+Help=Time in minutes to run integrator calibration.  Set to 0 to skip
+Init=3
+
+Field=3
+Title=Ambient Temperature
+Name=CalTemp
+Help=Temperature the calibration was performed at
+Init=72°F
+
+Field=4
+Title=Ambient Humidity
+Name=CalHumid
+Help=Humidity the calibration was performed at
+Init=30% RH
+
+Field=5
+Title=Verify Linearity After Cal
+Name=VerifyLinear
+List=Y
+List=N
+List=Only
+Default=Y
+Help=Verify transducer linearity at a high and low level after calibration. Requires new load unit.
+
+Field=6
+Title=Energy Stall
+Name=EnergyStall
+List=Y
+List=N
+List=Only
+Help=If set to "N" suppresses prompts during calibration procedure
+
+Field=7
+Title=Transducer Change
+Name=TransducerChange
+List=Volts 120,V120
+List=Amps 120,A120
+List=Watts 120,W120
+List=Volts 220,V220
+List=Amps 220,A220
+List=Watts 220,W220
+List=WattHour 120,Wh120
+List=WattHour 220,Wh220
+List=Volts Both,VBoth
+List=Amps Both,ABoth
+List=Watts Both,WBoth
+List=WattHour Both,WhBoth
+Default=N
+Help=Was a transducer changed before this calibration?
+
+Field=8
+Title=Auto Stop Test
+Name=AutoStop
+List=Y
+List=N
+List=Only
+Default=Y
+Help=Stops and saves test automatically at end.  Nice because it makes sure the graph isn't too lon
+
+Field=9
+Title=Bypass Volt Stable
+Name=BypassVolt
+List=Y
+List=N
+List=Only
+Init=N
+Help=Don't wait for voltage to get to setpoint.  Not recommended unless no voltage control
+
+Field=10
+Title=DOE Use Only
+Name=DOEUse
+Required=Grp
+
+Field=11
+Title=Average Time;sec
+Name=AverageTime
+Default=90
+Track=2
+
+Field=12
+Title=Samples to Average
+Name=NumCounts
+Default=40
+Track=2
+
+Field=13
+Title=Chaining test setup
+Name=ChainSetup
+Required=Chn
+Track=2
+
+Field=14
+Title=Load Delay
+Name=LoadDelay
+Default=60
+Help=Delay from time Load unit switches on to when calibration starts
+Track=2
+
+Field=15
+Title=Number of Tests
+Name=TestCount
+Default=1
+
+Field=16
+Title=VAW Sample Rate
+Name=VAWSampleRate
+Default=5
+Track=2
+
+Field=17
+Title=Preheat Load
+Name=PreheatLoad
+Init=N
+List=Y
+List=N
+List=Only
+Help=Set to Y to run 500 watts for 75% of load delay
+Track=2
+
+Field=18
+Title=Single Whr Calibration
+Name=SingleWhr
+List=Y
+List=N
+Help=Performs a whr cal for the 120 volt range and applies the same to the 220
+Init=Y
+
+Field=19
+Title=Verify Cal at 200 Watts
+Name=VerifyCal
+List=Y
+List=N
+List=Only
+Init=N
+Help=If agency requires a sampled verification of calibration rather than just calculated
+
+Field=20
+Title=Use second set of trans;Y/N
+Name=SecTrans
+Only=YN
+List=Y
+List=N
+
+Field=21
+Title=State Settings
+Name=StateFile
+Help=State settings used to determine if the product is on, off or in defrost

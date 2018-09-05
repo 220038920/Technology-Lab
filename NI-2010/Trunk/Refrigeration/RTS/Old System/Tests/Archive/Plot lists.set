@@ -1,0 +1,52 @@
+Field= 0
+Title=PLOT LIST SETTINGS
+Required= Grp
+
+Field= 1
+Title=Plot List 1
+Name=PlotList1
+Required=No
+Help=List of channels for the first plot
+
+Field= 2
+Title=Plot List 2
+Name=PlotList2
+Required=No
+Help=List of channels for the second plot
+
+Field= 3
+Title=Plot List 3
+Name=PlotList3
+Required=No
+Help=List of channels for the third plot
+
+Field= 4
+Title=Plot List 4
+Name=PlotList4
+Required=No
+Help=List of channels for the fourth plot
+
+Field= 5
+Title=Plot List 5
+Name=PlotList5
+Required=No
+Help=List of channels for the fifth plot
+
+Field= 6
+Title=Plot List 6
+Name=PlotList6
+Required=No
+Help=List of channels for the sixth plot
+
+Field= 7
+Title=Plot List 7
+Name=PlotList7
+Required=No
+Help=List of channels for the seventh plot
+
+Field= 8
+Title=Plot List 8
+Name=PlotList8
+Required=No
+Help=List of channels for the eighth plot
+

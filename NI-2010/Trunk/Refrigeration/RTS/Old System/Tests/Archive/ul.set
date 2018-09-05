@@ -1,0 +1,55 @@
+Field=0
+Title=CODES INFORMATION
+Required=Grp
+
+Field=1
+Title=Product Rating Volt/Freq				
+Name=ProdRateVF
+
+Field=2
+Title=Product Rating Amps	
+Name=ProdRateA
+
+Field=3
+Title=Top Install Clearance;in				
+Name=Clearance
+
+Field=4
+Title=Aux Equip Name
+Name=AuxName1
+
+Field=5
+Title=Aux Equip ID Number
+Name=AuxID1
+
+Field=6
+Title=Aux Equip Cal Date
+Name=AuxCalDate1
+
+Field=7
+Title=Aux Equip Name
+Name=AuxName2
+
+Field=8
+Title=Aux Equip ID Number
+Name=AuxID2
+
+Field=9
+Title=Aux Equip Cal Date
+Name=AuxCalDate2
+
+Field=10
+Title=Aux Equip Name
+Name=AuxName3
+
+Field=11
+Title=Aux Equip ID Number
+Name=AuxID3
+
+Field=13
+Title=Aux Equip Cal Date
+Name=AuxCalDate3
+
+Field=14
+Title=Reviewer Name
+Name=Reviewer

@@ -1,0 +1,11 @@
+Title=Room Voltages
+Row= 0
+Col= 0
+Val={PVoltset1_Title},{AVoltage1}
+Val={PVoltset2_Title},{AVoltage2}
+Val={PVoltset3_Title},{AVoltage3}
+Val={PVoltset4_Title},{AVoltage4}
+Val={PVoltset5_Title},{AVoltage5}
+Val={PVoltset6_Title},{AVoltage6}
+Val={PVoltset7_Title},{AVoltage7}
+Val={PVoltset8_Title},{AVoltage8}

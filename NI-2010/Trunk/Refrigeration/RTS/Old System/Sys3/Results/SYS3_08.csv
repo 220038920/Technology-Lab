@@ -1,0 +1,2 @@
+0:00:00,STATE,PFACTOR,VOLT,AMP,WATT,WHR,FREZ,CAB,AMB,FREZDOOR,CABDOOR,DEFREC,TC1,TC2,TC3,TC4,TC5,TC11,TC12,TC13,HAUXINPUT,ROOMTEMP,HUMIDITY
+0:00:00,State,Pwr Fac,Voltage V,Amps A (Y * 10.0),Wattage W (Y * 0.1),Kwatt Hours,Freezer,Fresh Food,Ambient,Frez Door,Cab Door,Def/Rec Time,FC1,FC2,FC3,Evap In,Evap Out,FF1,FF2,FF3,Current Leakage (mA),RoomTemp,Humidity

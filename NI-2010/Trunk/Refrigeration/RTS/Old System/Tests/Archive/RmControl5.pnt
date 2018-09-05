@@ -1,0 +1,21 @@
+!-----------------------------
+! System: 1
+! Descr:  Global Room Control point file
+! Rev:    1.0
+! By: HELLMS
+! Date: 10/5/2015
+!-----------------------------
+Field=20
+Title=Volt Set1
+Name=VoltSet1
+Point=20
+Trend=Yes
+Plot=Yes
+Type=DCF
+
+Field=21
+Title=Freq Set1
+Name=FreqSet1
+Point=21
+Type=DCF
+

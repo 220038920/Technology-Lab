@@ -1,0 +1,183 @@
+Field=0
+Title=Comment
+Name=CalComment
+Required=No
+Help=Any special information about the calibration
+
+Field=1
+Title=Equipment used
+Name=Equipment
+Required=No
+Help=Equipment and calibration date for reference
+List=CalTCEquipment
+Default=Ectron 1140A SN 82860
+
+Field=2
+Title=Sample Rate
+Name=SampleRate
+Default=10
+Required=No
+
+Field=3
+Title=Temperature units;C/F
+Name=TempUnits
+Required=Yes
+Only=CF
+List=C
+List=F
+
+Field=4
+Title=Ambient Temperature
+Name=CalTemp
+Help=Temperature the calibration was performed at
+Init=73°F
+
+Field=5
+Title=Ambient Humidity
+Name=CalHumid
+Help=Humidity the calibration was performed at
+Init=45% RH
+
+Field=6
+Title=No-Adjust Window
+Name=TCWin
+Required=Yes
+Help=TC has to be off this far to change the zero or the gain
+Default=0.1
+
+Field=7
+Title=Number of TC Channels
+Name=NumChans
+Help=Number of TC Channels in this Stall, choose custom point to use your own point file
+List=10 TCs,10
+List=12 TCs,12
+List=20 TCs,20
+List=24 TCs,24
+List=30 TCs,30
+List=Pressure,Pressure
+List=Custom,20
+List=Custom,40
+Init=30 TCs,30
+Default=30 TCs,30
+
+Field=8
+Title=Partial Calibration
+Name=Partial
+Required=Y
+Default=Y
+Init=Y
+Only=YN
+Help=Select Y if not calibrating all the TCs at one time.  Then choose the start and stop channels 
+List=Y
+List=N
+
+Field=9
+Title=Optional Settings
+Required=Grp
+
+Field=10
+Title=TC Start Channel
+Name=StartChan
+Init=1
+Default=1
+Required=No
+List=1
+List=6
+List=11
+List=16
+List=21
+List=26
+List=31
+List=36
+Help=Start channel for calibration when doing a partial.
+
+Field=11
+Title=TC Stop Channel
+Name=StopChan
+Default=20
+Init=10
+Required=No
+List=5
+List=10
+List=15
+List=20
+List=25
+List=30
+List=35
+List=40
+Help=Stop channel for calibration when doing a partial.
+
+Field=12
+Title=Do -20°C (-4°F) After Cal
+Name=Do4Check
+Default=Y
+Init=Y
+List=Y
+List=N
+Help=After calibration, record -20°C (-4°F) values
+
+Field=13
+Title=Do 10°C (45°F) After Cal
+Name=Do45Check
+Default=N
+Init=Y
+List=Y
+List=N
+Help=After calibration, record 10°C (45°F) values
+
+Field=14
+Title=Do 43°C (110°F) After Cal
+Name=Do110Check
+Default=Y
+Init=Y
+List=Y
+List=N
+Help=After calibration, record 43°C (110°F) values
+
+Field=15
+Title=TC Filter
+Name=Filter
+Required=No
+Only=YN
+Help=Y to smooth TCs
+List=Y
+List=N
+Default=N
+
+Field=16
+Title=Reset Cal Constants
+Name=ResetCalConst
+Required=No
+Only=YN
+Help=Resets Gains to 1 and Zeroes to 0
+List=Y
+List=N
+
+Field=17
+Title=PlotList1
+Name=PlotList1
+
+Field=18
+Title=PlotList2
+Name=PlotList2
+
+Field=19
+Title=RerunTestNumber
+Name=TestNumber
+Required=Populate
+SQL=select resultfile from labresults where testnumber={TestNumber}
+
+Field=20
+Title=Custom PointFile
+Name=PointCustom
+Help=If you're not using the normal point files
+
+Field=21
+Title=Generate Report
+Name=Report
+Required=No
+Only=YN
+Help=Generate calibration report
+List=Y
+List=N
+Default=Y

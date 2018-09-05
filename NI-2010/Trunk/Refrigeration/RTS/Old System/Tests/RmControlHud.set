@@ -1,0 +1,46 @@
+Field=0
+Title=GE Hud
+Required=Grp
+
+Field=+
+Title=Enable Hud
+Name=EnableHud
+Required=No
+List=Y
+List=N
+
+Field=+
+Title=Hud Room Cond1
+Name=HudRmCond1
+Required=No
+Help=Room conditions for 1st point
+SQLList=SELECT Setpoint from Room_Amb_Setpoints where RoomType = 'Humid'
+Color=Yellow
+Init=78 83
+
+Field=+
+Title=Start time 1;Hr
+Name=StartTime1
+Required=No
+Help=Start time for 1st setpoint change
+List=Now,-1
+List=3:00 am,3
+Init=3:00 am,3
+
+Field=+
+Title=Hud Room Cond2
+Name=HudRmCond2
+Required=No
+Help=Room conditions for 2nd point
+SQLList=SELECT Setpoint from Room_Amb_Setpoints where RoomType = 'Humid'
+Color=Yellow
+Init=90 65
+
+Field=+
+Title=Start time 2;Hr
+Name=StartTime2
+Required=No
+Help=Start time for 1st setpoint change
+List=Now,-1
+List=3:00 pm,15
+Init=3:00 pm,15

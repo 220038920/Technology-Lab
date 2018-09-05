@@ -1,0 +1,88 @@
+AutoReport,Aham+Cycle
+1TM,1:07:52
+1CM,Product went into defrost while off
+SKIPDE,PPE 0:00:00 DE 0:00:00 PPS 0:00:00
+2TM,2:32:48
+2CM,Product went into defrost while off
+SKIPDE,PPE 1:07:52 DE1:8:41 PPS 0:00:00
+DEBUG,TP less than 3 hours, so shifted from 1:55:41 to 1:08:41
+3TM,4:10:51
+3CM,Product went into defrost while off
+SKIPDE,PPE 2:32:48 DE2:33:31 PPS 1:07:52
+DEBUG,TP less than 3 hours, so shifted from 3:29:08 to 2:33:31
+4TM,5:48:54
+4CM,Product went into defrost while off
+SKIPDE,PPE 4:10:51 DE 4:11:33 PPS 2:32:48
+DEBUG,TP less than 3 hours, so shifted from 5:06:12 to 4:11:33
+5TM,7:28:55
+5CM,Product went into defrost while off
+SKIPDE,PPE 5:48:54 DE 5:49:33 PPS 4:10:51
+DEBUG,TP less than 3 hours, so shifted from 6:44:28 to 5:49:33
+6TM,9:03:58
+6CM,Product went into defrost while off
+SKIPDE,PPE 7:28:55 DE 7:29:35 PPS 5:48:54
+DEBUG,TP less than 3 hours, so shifted from 8:21:15 to 7:29:35
+7TM,10:43:00
+7CM,Product went into defrost while off
+SKIPDE,PPE 9:03:58 DE 9:04:45 PPS 7:28:55
+DEBUG,TP less than 3 hours, so shifted from 10:00:33 to 9:04:45
+8TM,12:17:59
+8CM,Product went into defrost while off
+SKIPDE,PPE 10:43:00 DE10:43:39 PPS 9:03:58
+DEBUG,TP less than 3 hours, so shifted from 11:35:19 to 10:43:39
+9TM,13:56:04
+9CM,Product went into defrost while off
+SKIPDE,PPE 12:17:59 DE12:18:50 PPS 10:43:00
+DEBUG,TP less than 3 hours, so shifted from 13:12:35 to 12:18:50
+10TM,15:33:06
+10CM,Product went into defrost while off
+SKIPDE,PPE 13:56:04 DE13:56:50 PPS 12:17:59
+DEBUG,TP less than 3 hours, so shifted from 14:49:24 to 13:56:50
+11TM,17:14:11
+11CM,Product went into defrost while off
+SKIPDE,PPE 15:33:06 DE15:33:44 PPS 13:56:04
+DEBUG,TP less than 3 hours, so shifted from 16:30:32 to 15:33:44
+12TM,18:49:10
+12CM,Product went into defrost while off
+SKIPDE,PPE 17:14:11 DE17:14:56 PPS 15:33:06
+DEBUG,TP less than 3 hours, so shifted from 18:06:44 to 17:14:56
+SKIPDE,PPE 18:49:10 DE18:49:51 PPS 17:14:11
+13TM,21:29:50
+13CM,Product went into defrost while off
+SKIPDE,PPE 19:49:15 DE20:35:46 PPS 18:49:10
+DEBUG,TP less than 3 hours, so shifted from 20:35:46 to 19:49:16
+14TM,23:59:28
+14CM,Product went into defrost while off
+SKIPDE,PPE 21:29:50 DE21:30:25 PPS 19:49:15
+DEBUG,TP less than 3 hours, so shifted from 21:30:08 to 20:35:59
+15TM,25:38:33
+15CM,Product went into defrost while off
+SKIPDE,PPE 23:59:28 DE24:0:16 PPS 21:29:50
+DEBUG,TP less than 3 hours, so shifted from 24:54:55 to 24:00:16
+16TM,27:14:33
+16CM,Product went into defrost while off
+SKIPDE,PPE 25:38:33 DE1:1:39:8 PPS 23:59:28
+DEBUG,TP less than 3 hours, so shifted from 26:30:56 to 25:39:08
+17TM,28:54:37
+17CM,Product went into defrost while off
+SKIPDE,PPE 27:14:33 DE1:3:15:12 PPS 25:38:33
+DEBUG,TP less than 3 hours, so shifted from 28:09:58 to 27:15:12
+18TM,30:35:41
+18CM,Product went into defrost while off
+SKIPDE,PPE 28:54:37 DE 29:50:22 PPS 27:14:33
+DEBUG,TP less than 3 hours, so shifted from 29:50:22 to 28:55:08
+19TM,32:15:45
+19CM,Product went into defrost while off
+SKIPDE,PPE 30:35:41 DE 30:36:16 PPS 28:54:37
+DEBUG,TP less than 3 hours, so shifted from 31:31:06 to 30:36:16
+20TM,33:54:48
+20CM,Product went into defrost while off
+SKIPDE,PPE 32:15:45 DE 32:16:35 PPS 30:35:41
+DEBUG,TP less than 3 hours, so shifted from 33:10:20 to 32:16:35
+21TM,35:37:54
+21CM,Product went into defrost while off
+SKIPDE,PPE 33:54:48 DE 34:52:12 PPS 32:15:45
+DEBUG,TP less than 3 hours, so shifted from 34:52:12 to 33:55:28
+22TM,37:11:54
+22CM,Product went into defrost while off
+SKIPDE,PPE 35:37:54 DE 36:29:16 PPS 33:54:48

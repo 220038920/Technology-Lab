@@ -1,0 +1,18 @@
+Field=1
+Title=Low Side Pres
+Name=LPSI
+Point=46
+Plot=Yes
+Trend=Yes
+Cycle=Yes
+Type=DCF
+
+Field=2
+Title=High Side Pres
+Name=HPSI
+Point=45
+Plot=Yes
+Trend=Yes
+Cycle=Yes
+Type=DCF
+

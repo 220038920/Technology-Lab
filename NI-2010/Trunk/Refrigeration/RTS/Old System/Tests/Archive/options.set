@@ -1,0 +1,82 @@
+Field=0
+Title= OPTIONAL SETTINGS
+Required=Grp
+
+Field=1
+Title=Sample Rate;sec
+Name=SampleRate
+Help=How often to check and plot TCs and pressures. WVA are always 5 sec.
+Init=50
+
+Field=+
+Title=Shared Humidity/Ambient
+Name=HumidityEnable
+Only=YNR
+Help=Do you want to display room ambient and/or humidity?
+List=Y
+List=N
+
+Field=+
+Title=Low Side Aux Type
+Name=LAuxType
+Help=The type of sensor in the low side pressure input
+SQLList=select Name, ID from rts_AuxInputs
+
+Field=+
+Title=High Side Aux Type
+Name=HAuxType
+Help=The type of sensor in the high side pressure input
+SQLList=select Name, ID from rts_AuxInputs
+
+Field=+
+Title=Current Leakage
+Name=CurLeak
+Only=YN
+Help=Measure and show current leakage
+List=Y
+List=N
+
+Field=+
+Title=ADC Min Defrost (CTl);hrs
+Name=ADCMinDefr
+Default=12
+Help=Minimum time the ADC will defrost. CTl from Aham spec.  Usually 8 hours.  Max of 12 hrs per Aham spec
+
+Field=+
+Title=ADC Max Defrost (CTm);hrs
+Name=ADCMaxDefr
+Default=96
+Help=Maximum time the ADC could adapt out. CTm from Aham spec. Max value allowed is 96 hrs per Aham spec
+
+Field=+
+Title=Bimetal Length;min
+Name=BimetalLength
+Help=Target length for bimetal time (for ADC calc)
+List=17
+List=13
+
+Field=+
+Title=Use Yokogawa
+Name=UseYok
+Only=YN
+Help=Use Yokogawa with test
+List=Y
+List=N
+
+Field=+
+Title=Bypass TC Check
+Name=CheckOTC
+Help=Bypass group TC checks
+List=1
+List=0
+
+Field=+
+Name=LastBimetal
+
+Field=+
+Name=LastRun
+
+Field=+
+Name=LastPartRun
+
+

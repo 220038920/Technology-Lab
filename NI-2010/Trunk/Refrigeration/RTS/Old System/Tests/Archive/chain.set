@@ -1,0 +1,75 @@
+Field= 0
+Title=TEST CHAINING SETTINGS
+Required= Grp
+
+Field=1
+Title=Chaining test setup
+Name=ChainSetup
+Required=Chn
+Track=2
+
+Field= 2
+Title=Next Test To Run
+Name=NextTest
+Required=No
+Help=Next Test To Run, Blank or -1 to disable
+List=TestNames
+
+Field= 3
+Title=Point file for next test
+Name=PointFile2
+Required=No
+Help=Pointfile to use for next test
+
+Field=4
+Title=Reports
+Name=NextResultReport
+Required=No
+Track=1
+Help=Type of report(s) to print at the completion of the test.
+List=CycleSummary
+List=Cycle+CycleSummary
+List=Aham+Cycle+CycleSummary
+List=Aham+Cycle
+List=Cycle
+List=Cycle+UL
+List=SSA
+List=TFA-BFA
+
+Field=5
+Title=Test Type
+Name=TestType2
+Required=No
+Track=3
+List=Test Type
+
+Field= 6
+Title=Time to start test
+Name=ChainStartTime
+Required=No
+Help=Time to start next test
+List=When previous test ends,-1
+List=6:00 am,6
+List=6:30 am,6.5
+List=7:00 am,7
+List=7:30 am,7.5
+List=8:00 am,8
+List=8:30 am,8.5
+List=9:00 am,9
+List=9:30 am,9.5
+List=10:00 am,10
+List=10:30 am,10.5
+List=11:00 am,11.0
+List=11:30 am,11.5
+List=12:00 pm,12.0
+List=12:30 pm,12.5
+List=1:00 pm,13.0
+List=1:30 pm,13.5
+List=2:00 pm,14.0
+List=2:30 pm,14.5
+List=3:00 pm,15.0
+List=3:30 pm,15.5
+List=4:00 pm,16.0
+List=4:30 pm,16.5
+List=5:00 pm,17.0
+List=5:30 pm,17.5

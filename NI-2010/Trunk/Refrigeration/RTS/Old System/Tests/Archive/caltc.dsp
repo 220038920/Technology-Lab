@@ -1,0 +1,13 @@
+Title=Debug Variables
+Row= 0
+Col= 0
+Val=Step,{PStep}
+Val=TC1 Count,{PTC1_Cnt}
+Val=TC1 Stdev,{PTC1_Stdev}
+Val=TC1 Average,{PTC1_Avg}
+Val=TC1 Sample Rate,{PRate}
+Val=Start Chan,$
+Val=TC$ Count,{PTC$_Cnt}
+Val=TC$ Stdev,{PTC$_Stdev}
+Val=TC$ Average,{PTC$_Avg}
+Val=TC$ Sample Rate,{PRate}

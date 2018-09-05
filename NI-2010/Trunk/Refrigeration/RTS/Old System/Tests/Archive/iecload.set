@@ -1,0 +1,82 @@
+Field=0
+Title=Comment
+Name=CalComment
+Required=No
+Help=Any special information about the calibration
+
+Field=1
+Title=Equipment used 1
+Name=Equipment1
+Required=No
+Help=Equipment used for test
+List=VawCalEquipment
+
+Field=2
+Title=Equipment cal dates 1
+Name=Equip1CalDates
+Required=No
+Help=Last Calibration date and date due
+
+Field=3
+Title=Equipment used 2
+Name=Equipment2
+Required=No
+Help=Equipment used for test
+List=VawCalEquipment
+
+Field=4
+Title=Equipment cal dates 2
+Name=Equip2CalDates
+Required=No
+Help=Last Calibration date and date due
+
+Field=5
+Title=Sample Rate
+Name=SampleRate
+Default=10
+Required=No
+
+Field=6
+Title=Average Time;min
+Name=AverageTime
+Default=60
+Required=Yes
+
+Field=7
+Title=OC Volt Line to Gnd;VAC
+Name=NLVoltLG
+Help=Voltage measured without load from Line to Ground during the test
+Required=Yes
+
+Field=8
+Title=OC Volt Line to Neutral;VAC
+Name=NLVoltLN
+Help=Voltage measured without load from Line to Neutral during the test
+Required=Yes
+
+Field=9
+Title=OC Volt Neutral to Gnd;VAC
+Name=NLVoltNG
+Help=Voltage measured without load from Neutral to Ground during the test
+Required=Yes
+
+Field=10
+Title=Optional Settings
+Required=Grp
+
+Field=11
+Title=PlotList1
+Name=PlotList1
+
+Field=12
+Title=PlotList2
+Name=PlotList2
+
+Field=13
+Title=Custom PointFile
+Name=PointCustom
+Help=If you're not using the normal point files
+
+Field=14
+Name=Report
+Default=Y

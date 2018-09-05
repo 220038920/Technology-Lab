@@ -1,0 +1,16 @@
+Title=Freezer
+Setup=General.set
+Setup=cycle.set
+Setup=Plot lists.set
+Setup=Options.set
+Setup=Ul.set
+Setup=Chain.set
+Setup=Rerun.set
+Setup=Wide.set
+Lookup=nldefrc.lup
+Lookup=nldefrf.lup
+Display=cycle1.dsp,Product Temps
+Display=cycle2.dsp,Test Times
+Display=cycle3.dsp,Cycle Summary
+Command=cycle.cmd
+PointHelp=Group Numbers: 1-Freezer 3-Ambient 5-Freezer Door 8-LeftTree 9-RightTree
