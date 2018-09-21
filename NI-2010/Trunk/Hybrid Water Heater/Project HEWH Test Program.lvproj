@@ -713,7 +713,14 @@ Release v332
 1. Removed linear link flow rate filtering
 
 Release v336
-1. Re-zero just before start of draw. Directly after pressurization. This removes any water that enters the tank due to pressurization</Property>
+1. Re-zero just before start of draw. Directly after pressurization. This removes any water that enters the tank due to pressurization
+
+Rev 339.
+1. 
+2. Removed time dependance on "total gallon termination"
+
+Rev 340
+1. Removing ERDs to allow T6 and T7 to show up. Was reading too many before</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -722,7 +729,7 @@ Release v336
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">339</Property>
+				<Property Name="Bld_version.build" Type="Int">340</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/HEWH Reliability.exe</Property>
@@ -732,7 +739,7 @@ Release v336
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC5E135D-57D5-48E3-BA65-9CD87FB6AFE8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{98AB15C1-34C6-49B2-A1D9-34052195E5B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
