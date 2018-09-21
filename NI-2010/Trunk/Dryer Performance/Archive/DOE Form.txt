@@ -1,0 +1,41 @@
+
+	*****   DRYER D.O.E. AUDIT DATA WORKSHEET   *****
+
+
+    Technician:  &1				Model #: &2
+    Date:  &3					Serial #: &4          		
+    Energy Cloth Type:	  ____________		Mfg Date: ____________         	
+    Blower Type:  _________________		Rm. Dry Bulb: 75 F       
+    Blower Dia:  ____________  IN		Rm. Wet Bulb:____________F         
+    Airflow (AHAM Sim):  _______CFM		Rm. Rel Humidity:  50 %       
+    Drying Cycle:  ________________		HIGH HEAT_________________________
+    Load Cycles:  _____		(LIMIT 25, WEIGH BONE DRY EVERY 5th RUN)
+
+
+    	Total Drying Time  &5  min
+(A) 	Bone Dry Weight:  &6 lb			(ALL WEIGHTS FROM REF SCALE)
+(B) 	Initial Wt. Wet Load:  &7  lb		(C) Initial Ret. [(B-A)/A]  &8 %
+(D) 	Final Wt. Dried Load:  &9  lb		(E) Final Ret.   [(D-A)/A]:  &A %
+
+ELECTRICAL ENERGY:
+
+(F) Electrical Energy Used:  &B  kwh
+
+GAS ENERGY:
+
+	Gas Meter Temp:   &B F			(H) Gas Corr. Factor:  &C  ++ 
+	Gas Meter Press:  &D in H20		(I) Corr. Gas Vol (H*G):  &E CU FT
+(G) Metered Gas Vol:      &F CU FT		(J) Gas Heating Value:  &G  BTU/CUFT
+	Barometer Temp:  &I F			(K) Gas Energy (I*J):  &J BTU
+	Barometer Press:  &K in HG		(L) Gas Energy (K/3412):  &L kwh
+
+++ From PC program per US Bureau of Stds, C417,1938 
+
+(M) Total Energy Used in kwh:  &M kwh
+
+(N) Per cycle Total Energy Consumption adjusted to 4%:  &N KWH/CYCLE
+([66/(C-E)]*1.04*M)
+
+***********************************************************
+   * (P) Per Cycle Energy Efficiency (A/N): &P
+***********************************************************

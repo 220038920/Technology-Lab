@@ -1,0 +1,48 @@
+/ Dryer Heat Volume.aliases////*////
+/ Dryer Heat Volume.exe////*////
+/ Dryer Heat Volume.ini////*////
+/Agilent Fetch.aliases////*////
+/Agilent Fetch.exe////*////
+/Agilent Fetch.ini////*////
+/Agilnet Overnight.aliases////*////
+/Agilnet Overnight.exe////*////
+/Agilnet Overnight.ini////*////
+/DPT CDAQ Channel Test.aliases////*////
+/DPT CDAQ Channel Test.exe////*////
+/DPT CDAQ Channel Test.ini////*////
+/DPT Caller.aliases////*////
+/DPT Caller.exe////*////
+/DPT Caller.ini////*////
+/DPT Channel Test.aliases////*////
+/DPT Channel Test.exe////*////
+/DPT Channel Test.ini////*////
+/DPT Configuration.aliases////*////
+/DPT Configuration.exe////*////
+/DPT Configuration.ini////*////
+/DPTconfigData.nce////*////
+/Dryer Performance Test Ch2.exe////*////
+/Dryer Performance Test-a.exe////*////
+/Dryer Performance Test.aliases////*////
+/Dryer Performance Test.exe.config////*////
+/Dryer Performance Test.ini////*////
+/DryerPerformanceTest.ini////*////
+/Loads.ini////*////
+/Nufi Dryer.aliases////*////
+/Nufi Dryer.exe////*////
+/Nufi Dryer.exe.config////*////
+/Nufi Dryer.ini////*////
+/RCXAC.tmp////*////
+/Read Percision Scale.aliases////*////
+/Read Percision Scale.exe////*////
+/Read Percision Scale.ini////*////
+/Read Power.aliases////*////
+/Read Power.exe////*////
+/Read Power.ini////*////
+/Weight Monitor.aliases////*////
+/Weight Monitor.exe////*////
+/Weight Monitor.ini////*////
+/backup.nce////*////
+/niwebserver.conf////*////
+/robotransfer.bat////*////
+D/data////////
+/Dryer Performance Test.exe////*////

@@ -1,0 +1,48 @@
+/ Dryer Heat Volume.aliases/1.1/Mon Oct 17 22:59:57 2011//
+/ Dryer Heat Volume.exe/1.1/Mon Oct 17 22:59:57 2011/-kb/
+/ Dryer Heat Volume.ini/1.1/Mon Oct 17 22:59:57 2011//
+/Agilent Fetch.aliases/1.1/Sat Jan 21 04:07:04 2012//
+/Agilent Fetch.exe/1.1/Sat Jan 21 04:07:04 2012/-kb/
+/Agilent Fetch.ini/1.1/Sat Jan 21 04:07:04 2012//
+/Agilnet Overnight.aliases/1.1/Tue Nov 22 02:15:27 2011//
+/Agilnet Overnight.exe/1.1/Tue Nov 22 02:15:27 2011/-kb/
+/Agilnet Overnight.ini/1.1/Tue Nov 22 02:15:27 2011//
+/DPT CDAQ Channel Test.aliases/1.1/Tue Jun  5 13:18:18 2012//
+/DPT CDAQ Channel Test.exe/1.2/Fri Jun  1 17:14:12 2012/-kb/
+/DPT CDAQ Channel Test.ini/1.1/Tue Jun  5 13:18:18 2012//
+/DPT Caller.aliases/1.1/Thu Aug  4 01:23:17 2011//
+/DPT Caller.exe/1.6/Fri Jun  1 17:14:12 2012/-kb/
+/DPT Caller.ini/1.2/Tue Jan 10 22:01:54 2012//
+/DPT Channel Test.aliases/1.1/Thu Aug  4 01:23:17 2011//
+/DPT Channel Test.exe/1.9/Wed Mar 28 21:26:10 2012/-kb/
+/DPT Channel Test.ini/1.2/Mon Feb 20 21:14:20 2012//
+/DPT Configuration.aliases/1.1/Thu Sep  8 20:25:45 2011//
+/DPT Configuration.exe/1.11/Fri Oct  5 19:14:47 2012/-kb/
+/DPT Configuration.ini/1.2/Sat Mar 10 00:13:35 2012//
+/DPTconfigData.nce/1.1/Wed Nov 16 23:20:59 2011/-kb/
+/Dryer Performance Test Ch2.exe/1.1/Fri Sep 28 13:30:21 2012/-kb/
+/Dryer Performance Test-a.exe/1.1/Wed Jul 11 20:56:19 2012/-kb/
+/Dryer Performance Test.aliases/1.2/Wed May 15 18:09:46 2013//
+/Dryer Performance Test.exe.config/1.1/Mon Apr 23 20:30:59 2012//
+/Dryer Performance Test.ini/1.3/Wed May 15 18:10:08 2013//
+/DryerPerformanceTest.ini/1.1/Thu Sep  8 20:25:45 2011//
+/Loads.ini/1.1/Thu Sep  8 20:25:45 2011//
+/Nufi Dryer.aliases/1.1/Sat Mar 10 00:13:42 2012//
+/Nufi Dryer.exe/1.4/Fri Mar 23 13:28:36 2012/-kb/
+/Nufi Dryer.exe.config/1.1/Thu Mar 22 15:54:47 2012//
+/Nufi Dryer.ini/1.1/Sat Mar 10 00:13:42 2012//
+/RCXAC.tmp/1.1/Thu Sep  8 20:25:45 2011/-kb/
+/Read Percision Scale.aliases/1.1/Tue Jan 10 22:02:02 2012//
+/Read Percision Scale.exe/1.1/Tue Jan 10 22:02:02 2012/-kb/
+/Read Percision Scale.ini/1.1/Tue Jan 10 22:02:02 2012//
+/Read Power.aliases/1.1/Thu Jul 26 23:07:50 2012//
+/Read Power.exe/1.1/Thu Jul 26 23:07:50 2012/-kb/
+/Read Power.ini/1.1/Thu Jul 26 23:07:50 2012//
+/Weight Monitor.aliases/1.1/Thu Oct 13 00:22:43 2011//
+/Weight Monitor.exe/1.1/Thu Oct 13 00:22:43 2011/-kb/
+/Weight Monitor.ini/1.1/Thu Oct 13 00:22:43 2011//
+/backup.nce/1.1/Wed Nov 16 23:20:59 2011/-kb/
+/niwebserver.conf/1.1/Wed Jul 27 22:37:07 2011//
+/robotransfer.bat/1.2/Tue Jan 10 22:02:02 2012//
+D/data////
+/Dryer Performance Test.exe/1.52/Tue Sep 30 14:37:44 2014/-kb/

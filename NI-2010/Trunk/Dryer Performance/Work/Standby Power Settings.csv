@@ -1,0 +1,5 @@
+WT500,Settings,WT210,Settings,WT333,Settings,APLUS,Settings,Crest Factor,Settings,Harmonic Content,Settings,Voltage,Settings,<1 Watt,Settings,>1 Watt,Settings,Power Supply,Settings,Nominal Voltage,Settings,Timeout,Settings,Variation,Settings
+Power Visa Yokogawa WT500,WT500,Power Visa Yokogawa WT210,WT210,Power Visa Yokogawa WT210,WT333,APLUS IP Address,192.168.1.101,Upper Limit,1.49,Uthd,2,% Error,2,Wattage,1,1% Power/Hour,1,Chroma 61605,CHROMA,Nominal Voltage,120,Time Limit (s),10800,Power Variation Limit (%),50
+V Range,150,V Range,150V,V Range,150V,Remote Port,502,Lower Limit,1.34,,,,,Slope(mW/H),10,,,Use Chroma?,TRUE,,,,,,
+A Range,2 A,A Range,20A,A Range,10A,Instrument,APLUS,,,,,,,,,,,,,,,,,,
+Sample Rate,200ms,Sample Rate,0.25s,Sample Rate,0.25s,Instrument Driver Revision,1.03.0053,,,,,,,,,,,,,,,,,,

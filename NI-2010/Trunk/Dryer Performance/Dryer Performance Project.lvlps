@@ -1,0 +1,87 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "89,237,673,651"
+
+[AB_Cache_{47C5DC47-CD52-4483-9CD4-AB1DA93E0F58}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "78d0ea707354ff5a92fdfe1509fa0adc"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[0][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[0][Path] Line0003 = "00 Read Power/WT500 Read Power.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[1][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[1][Path] Line0003 = "00 Read Power/WT500 Read Power.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[2][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[2][Path] Line0003 = "00 Read Power/WT500 Read Power.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{42206E26-748E-4208-9930-D1C9C620223F}"
+Cache_GenGUID[1][String] = "{9C0E1A65-B332-4357-AF85-DC5D4B7AA4A0}"
+Cache_GenGUID[2][String] = "{13BA7EFF-0F28-4140-9B65-4898768ADE59}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-2010"
+Cache_OutputDir[Path] Line0002 = "/Trunk/builds/Dryer Performance Project/WT500"
+Cache_OutputDir[Path] Line0003 = " Read Power"
+
+[AB_Cache_{03823C32-CE1D-46F0-B40F-85854E7A8934}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "78d0ea707354ff5a92fdfe1509fa0adc"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[0][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[0][Path] Line0003 = "00 Read Power/WT500 Read Power.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[1][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[1][Path] Line0003 = "00 Read Power/WT500 Read Power.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-201"
+Cache_GenFile[2][Path] Line0002 = "0/Trunk/builds/Dryer Performance Project/WT5"
+Cache_GenFile[2][Path] Line0003 = "00 Read Power/WT500 Read Power.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{42206E26-748E-4208-9930-D1C9C620223F}"
+Cache_GenGUID[1][String] = "{9C0E1A65-B332-4357-AF85-DC5D4B7AA4A0}"
+Cache_GenGUID[2][String] = "{13BA7EFF-0F28-4140-9B65-4898768ADE59}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/220038920/Desktop/CVS Folder/NI-2010"
+Cache_OutputDir[Path] Line0002 = "/Trunk/builds/Dryer Performance Project/WT500"
+Cache_OutputDir[Path] Line0003 = " Read Power"
+
+[AB_Cache_{3A77B59D-9236-4279-96FF-E4F611CE8A05}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{3A"
+Cache_Path[Path] Line0002 = "77B59D-9236-4279-96FF-E4F611CE8A05}.txt"
+
+[AB_Cache_{B43946F5-607E-4AFB-9FF7-44D17C73A24F}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{B4"
+Cache_Path[Path] Line0002 = "3946F5-607E-4AFB-9FF7-44D17C73A24F}.txt"
+
+[AB_Cache_{1214153D-9FEF-4A94-A2DE-962D6668B19B}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{12"
+Cache_Path[Path] Line0002 = "14153D-9FEF-4A94-A2DE-962D6668B19B}.txt"
+
+[AB_Cache_{EB283D9D-02DF-455A-A013-B0FCE4709371}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{EB"
+Cache_Path[Path] Line0002 = "283D9D-02DF-455A-A013-B0FCE4709371}.txt"
+
+[AB_Cache_{1D3AB6FA-17FD-4118-98D2-D07B13C8A87F}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{1D"
+Cache_Path[Path] Line0002 = "3AB6FA-17FD-4118-98D2-D07B13C8A87F}.txt"
+
+[AB_Cache_{F5CFD165-76E9-48DA-A468-24193E53A70E}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{F5"
+Cache_Path[Path] Line0002 = "CFD165-76E9-48DA-A468-24193E53A70E}.txt"
+
+[AB_Cache_{F267D0FF-FE7C-4FB3-9A1E-1051E4E54A8D}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{F2"
+Cache_Path[Path] Line0002 = "67D0FF-FE7C-4FB3-9A1E-1051E4E54A8D}.txt"
+
+[AB_Cache_{7C0BD6EF-D5CC-4554-A6D5-12D749FC7995}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{7C"
+Cache_Path[Path] Line0002 = "0BD6EF-D5CC-4554-A6D5-12D749FC7995}.txt"
+
+[AB_Cache_{4B4A4195-3DE8-4707-B479-17A4046D3554}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{4B"
+Cache_Path[Path] Line0002 = "4A4195-3DE8-4707-B479-17A4046D3554}.txt"
+
+[AB_Cache_{31716514-D834-4FA0-BFFD-330AC08AE201}]
+Cache_Path[Path] Line0001 = "/C/Users/220038920/AppData/Local/Temp/AB_Cache_{31"
+Cache_Path[Path] Line0002 = "716514-D834-4FA0-BFFD-330AC08AE201}.txt"
+
