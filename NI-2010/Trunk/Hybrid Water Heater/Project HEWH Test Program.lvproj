@@ -722,7 +722,10 @@ Rev 340
 1. Removing ERDs to allow T6 and T7 to show up. Was reading too many before
 
 Rev 341
-1. Adding clear all erros to Emerson meter. was causing error to stop the test</Property>
+1. Adding clear all erros to Emerson meter. was causing error to stop the test
+
+Rev 342
+1. Testing WT210 Emulation Commands to fix timeout error on WT300 Com Protocol</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -731,7 +734,7 @@ Rev 341
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">341</Property>
+				<Property Name="Bld_version.build" Type="Int">342</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/HEWH Reliability.exe</Property>
@@ -741,7 +744,7 @@ Rev 341
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A39920F2-767E-4089-9587-ADA057B20B9F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE1823E6-C6AF-4447-9E97-024D531D2A21}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
