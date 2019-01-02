@@ -26,7 +26,6 @@
 		<Item Name="Save File Format All Folders.vi" Type="VI" URL="../Public/Save File Format All Folders.vi"/>
 		<Item Name="Save File Max Size Runtime.vi" Type="VI" URL="../Public/Save File Max Size Runtime.vi"/>
 		<Item Name="Save File Get File Size.vi" Type="VI" URL="../Private/Support VIs/Save File Get File Size.vi"/>
-		<Item Name="Save File Parse Software Version.vi" Type="VI" URL="../Public/Save File Parse Software Version.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
