@@ -63,6 +63,7 @@
 			</Item>
 			<Item Name="Standby Power Header.vi" Type="VI" URL="../../../Trunk/Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
 			<Item Name="Yokogawa WT300 Series Reset Integrator.vi" Type="VI" URL="../Examples/Yokogawa WT300 Series Reset Integrator.vi"/>
+			<Item Name="WT300 Reset and Clear Errors.vi" Type="VI" URL="../Public/WT300 Reset and Clear Errors.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WT300 Read Power Only" Type="EXE">
