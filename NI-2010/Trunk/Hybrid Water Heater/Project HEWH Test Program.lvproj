@@ -248,6 +248,7 @@
 			<Item Name="HEWH_Power ON.vi" Type="VI" URL="../Support VIs/HEWH_Power ON.vi"/>
 			<Item Name="Open and Write CSV File.vi" Type="VI" URL="../Support VIs/Open and Write CSV File.vi"/>
 			<Item Name="Write CSV File.vi" Type="VI" URL="../Support VIs/Write CSV File.vi"/>
+			<Item Name="HEWH Initial Purge Parameter Setup.vi" Type="VI" URL="../Support VIs/HEWH Initial Purge Parameter Setup.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1020,7 +1021,26 @@ Rev 2.0.0.0
 
 Rev 2.0.0.1
 1. Removed Intellifaucet Hold
-2. Greyed out GEA Send Commands when GEA is not implemented.</Property>
+2. Greyed out GEA Send Commands when GEA is not implemented.
+
+Rev 2.0.0.2
+1. Auto scaling in power analyzer
+2. Added intellifauct/prop valve adjustment in purge to accomodate higher flow rates
+
+Rev 2.0.0.4
+1. Updated clear error in WT310. Allow for multiple clear erros in loop
+
+Rev 2.0.0.5
+1. Fixed the WT300 IDN? check. Different power analyzers appear to give WT300 and others 760401
+
+Rev 2.0.0.6
+1. Removed a few GEA3 commands to improve scan speed
+
+Rev 2.0.0.7
+1. Added Flow K-Factor and Intellifaucet type. This allows for individual stepping rates. 
+
+Rev 2.0.0.8
+1. Allow 80 open for 1 gpm draws on DRK250 intellifaucets. Updated default Flow KFactor from 16 to 24</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1029,7 +1049,7 @@ Rev 2.0.0.1
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/HEWH Reliability.exe</Property>
@@ -1039,7 +1059,7 @@ Rev 2.0.0.1
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C73A2C1E-4A6C-4578-B514-7E49DB99EA98}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3FFC32A1-E21B-471A-B98D-04F3B045D366}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
