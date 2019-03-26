@@ -54,7 +54,6 @@
 			<Item Name="IND560 Configuration.ctl" Type="VI" URL="../../IND560 Scale Monitor/Type Definitions/IND560 Configuration.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
-			<Item Name="RANGE Meter Selector.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE Meter Selector.ctl"/>
 			<Item Name="Standby Power Main Data.ctl" Type="VI" URL="../../../Trunk/Utility/Standby Power/Type Definitions/Standby Power Main Data.ctl"/>
 			<Item Name="UTILITY Delay mS.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Delay mS.vi"/>
 		</Item>
