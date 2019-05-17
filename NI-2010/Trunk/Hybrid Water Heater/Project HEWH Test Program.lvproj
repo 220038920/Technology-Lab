@@ -249,6 +249,7 @@
 			<Item Name="Open and Write CSV File.vi" Type="VI" URL="../Support VIs/Open and Write CSV File.vi"/>
 			<Item Name="Write CSV File.vi" Type="VI" URL="../Support VIs/Write CSV File.vi"/>
 			<Item Name="HEWH Initial Purge Parameter Setup.vi" Type="VI" URL="../Support VIs/HEWH Initial Purge Parameter Setup.vi"/>
+			<Item Name="HEWH Tank Pressure Routine.vi" Type="VI" URL="../Support VIs/HEWH Tank Pressure Routine.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1040,7 +1041,29 @@ Rev 2.0.0.7
 1. Added Flow K-Factor and Intellifaucet type. This allows for individual stepping rates. 
 
 Rev 2.0.0.8
-1. Allow 80 open for 1 gpm draws on DRK250 intellifaucets. Updated default Flow KFactor from 16 to 24</Property>
+1. Allow 80 open for 1 gpm draws on DRK250 intellifaucets. Updated default Flow KFactor from 16 to 24
+
+Rev 2.0.0.9
+1. Updated ERDs for appliance software rev 6.0.1.9
+
+Rev 2.0.0.10
+1. Change UEF tests to a 57.5 deg F purge temp as compared to 58. There is a slight offset in the data. FHD is left unchanged
+
+Rev 2.0.0.11
+1. added optional pressurization routine. Default disabled for FHD
+
+Rev 2.0.0.12
+1. This version modifies the valve closure for "Disable Pressurization". It allows the outlet and drain to be open at the same time for 0.5 secs. This will prevent inlet temperature fluctuations on the FHD test
+
+Rev 2.0.0.13
+1. Updated ERDs to to appliance software version 1.0.1.10. Added ERD check response. Improving transistion to prevent valve closure during FHD
+
+Rev 2.0.0.14
+1. Updating ERDs to appliance rev 1.0.1.10.
+2. Adding User Setpoint ERD set to main GEA tab
+3. Changed text box "GEA2?" to "GEA3?"
+4. Changed Flow State from string to U8 (Easier to plot)
+5. Fixed un-connected VISA wire in DRAW sequence</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1049,7 +1072,7 @@ Rev 2.0.0.8
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/HEWH Reliability.exe</Property>
@@ -1059,7 +1082,7 @@ Rev 2.0.0.8
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3FFC32A1-E21B-471A-B98D-04F3B045D366}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CF661F4-76F3-4A6B-8296-A64529906F5B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
