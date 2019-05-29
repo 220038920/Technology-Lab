@@ -798,49 +798,9 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HEWH Stand Overide" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F248A3A2-EA8F-493A-8FE3-A97A52075F1D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F7D3FF51-4A7E-4476-9E2A-505A89EF2AB0}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{ED3EFC83-AEAB-4D76-AF1A-40212A6CBDD5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HEWH Stand Overide</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Stand Overide</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F145EAFE-6A45-4882-A579-28B6BA2F5D7E}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">HEWH Stand Override.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Stand Overide/HEWH Stand Override.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Stand Overide/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/GeoSpring.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{61CE2248-2BA3-4F4C-9FBB-608EC721EDFF}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">General Electric</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HEWH Stand Overide</Property>
-				<Property Name="TgtF_internalName" Type="Str">HEWH Stand Overide</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 General Electric</Property>
-				<Property Name="TgtF_productName" Type="Str">HEWH Stand Overide</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{52A612A1-BDAB-4413-AB9B-9F649DC3C42E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HEWH Stand Override.exe</Property>
-			</Item>
 			<Item Name="HEWH LaundryNet Tester" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1BBD9847-A0CF-4C5F-ABA0-45831538A6A9}</Property>
@@ -920,52 +880,6 @@
 				<Property Name="TgtF_productName" Type="Str">Heat Up Macro</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2A576398-264D-4099-BCDE-392B7F55DBF3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Heatup Macro.exe</Property>
-			</Item>
-			<Item Name="HEWH RLT Draw Tester" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{578FCB50-1976-4250-8779-4833BE6A4A39}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{491B35D0-5A1E-4BEB-9EDA-4CA9C513EE0C}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{E3A3F76D-121F-40F3-B03A-4D4A6B2CDBAE}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HEWH RLT Draw Tester</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH RLT Draw Tester</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{36D66601-33B4-4627-B08E-9F249CF61458}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HEWH RLT Draw Tester.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH RLT Draw Tester/HEWH RLT Draw Tester.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH RLT Draw Tester/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/reliability.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4655482F-EFFC-46C2-92D9-35442AA611F5}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">General Electric</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HEWH RLT Draw Tester</Property>
-				<Property Name="TgtF_internalName" Type="Str">HEWH RLT Draw Tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 General Electric</Property>
-				<Property Name="TgtF_productName" Type="Str">HEWH RLT Draw Tester</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{577FD102-763E-4D52-A010-646F2D2DA6F4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HEWH RLT Draw Tester.exe</Property>
 			</Item>
 			<Item Name="HEWH Reliability" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1063,26 +977,48 @@ Rev 2.0.0.14
 2. Adding User Setpoint ERD set to main GEA tab
 3. Changed text box "GEA2?" to "GEA3?"
 4. Changed Flow State from string to U8 (Easier to plot)
-5. Fixed un-connected VISA wire in DRAW sequence</Property>
+5. Fixed un-connected VISA wire in DRAW sequence
+
+2.0.0.15
+1. Removed basic GEA send/receive
+2. Added Personality send/receive
+3. Fixed Mix Valve Step Offset
+4. Fix GEA3 property node disable/enable to prevent people clicking button without GEA3
+5. Added ERD check to send
+6. Made test setup screen larger
+7. Allow set draw mode to be disabled (GEA3)
+
+Rev 2.0.0.16
+1. Updating Mix Valve set. Fixed event structure double send
+2. added PID parameters to data log
+3. Allow changing PID parameters
+4. Handling error on draw set. No GEA required with GEA enables and no mode set
+5. Fixed PID gain data lengths (4 for Gain and 2 for Qbits)
+6. Added Automatic gain updates in draw profile setup. Automated testing
+7. Added reset counter for ERD NumberofResets counter for the board.
+8. Added board resets to data stream
+9. Removed coerse in valve adjustment routine
+10. Added auto step mixing valve feature
+11. Allowing up and down stepper profile</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/HEWH Reliability.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5CF661F4-76F3-4A6B-8296-A64529906F5B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86D0CBC4-E947-4398-AABA-B52021B532BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
