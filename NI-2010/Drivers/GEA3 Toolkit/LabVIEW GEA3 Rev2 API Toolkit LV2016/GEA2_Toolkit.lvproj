@@ -59,6 +59,13 @@
 			<Item Name="GEA3 HEWH Full ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Full ERD List.vi"/>
 			<Item Name="GEA3 HEWH Mixing Valve ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Mixing Valve ERD List.vi"/>
 			<Item Name="GEA3 HEWH Standard ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Standard ERD List.vi"/>
+			<Item Name="GEA3 PID Parameters.vi" Type="VI" URL="../Water Heating Specific/GEA3 PID Parameters.vi"/>
+			<Item Name="GEA3 Set Mix Valve Position Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position Example.vi"/>
+			<Item Name="GEA3 Set Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position.vi"/>
+			<Item Name="GEA3 Valve Step Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Valve Step Example.vi"/>
+		</Item>
+		<Item Name="Zoneline" Type="Folder">
+			<Item Name="Outside Fan PWM Control.vi" Type="VI" URL="../Zoneline/Outside Fan PWM Control.vi"/>
 		</Item>
 		<Item Name="GEA2_Toolkit.lvlib" Type="Library" URL="../library/GEA2_Toolkit.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -74,6 +81,10 @@
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="GEA3 Determine Valve Absolute Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Determine Valve Absolute Position.vi"/>
+			<Item Name="GEA3 Mix Valve Step Offset Data.vi" Type="VI" URL="../Water Heating Specific/GEA3 Mix Valve Step Offset Data.vi"/>
+			<Item Name="GEA3 Read Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Read Mix Valve Position.vi"/>
+			<Item Name="GEA3 Send Data ERD.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 Send Data ERD.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
