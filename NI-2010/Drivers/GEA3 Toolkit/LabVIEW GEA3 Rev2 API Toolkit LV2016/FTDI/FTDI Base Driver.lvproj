@@ -13,8 +13,6 @@
 		<Item Name="subVIs" Type="Folder" URL="../subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Get GEA3 COM Port.vi" Type="VI" URL="../Get GEA3 COM Port.vi"/>
-		<Item Name="Get GEA3 Serial Number.vi" Type="VI" URL="../Get GEA3 Serial Number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
