@@ -999,7 +999,17 @@ Rev 2.0.0.16
 8. Added board resets to data stream
 9. Removed coerse in valve adjustment routine
 10. Added auto step mixing valve feature
-11. Allowing up and down stepper profile</Property>
+11. Allowing up and down stepper profile
+
+Rev 2.0.0.17
+1. Adding configurable upper stepper motor limit
+
+Rev 2.0.0.18
+1. Disabling GEA3 when the power is off. Fixes 24hour test
+
+Rev 2.0.0.19
+1. Adding F101 EEPROM personality set
+</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1008,7 +1018,7 @@ Rev 2.0.0.16
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1018,7 +1028,7 @@ Rev 2.0.0.16
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{86D0CBC4-E947-4398-AABA-B52021B532BC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E03DB811-9422-4884-BE2C-41F647E00EDF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
