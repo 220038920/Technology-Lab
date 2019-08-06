@@ -60,6 +60,7 @@
 			<Item Name="GEA3 HEWH Mixing Valve ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Mixing Valve ERD List.vi"/>
 			<Item Name="GEA3 HEWH Standard ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Standard ERD List.vi"/>
 			<Item Name="GEA3 PID Parameters.vi" Type="VI" URL="../Water Heating Specific/GEA3 PID Parameters.vi"/>
+			<Item Name="GEA3 Read Write Example.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 Read Write Example.vi"/>
 			<Item Name="GEA3 Set Mix Valve Position Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position Example.vi"/>
 			<Item Name="GEA3 Set Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position.vi"/>
 			<Item Name="GEA3 Valve Step Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Valve Step Example.vi"/>
@@ -82,6 +83,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="GEA3 Determine Valve Absolute Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Determine Valve Absolute Position.vi"/>
+			<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
 			<Item Name="GEA3 Mix Valve Step Offset Data.vi" Type="VI" URL="../Water Heating Specific/GEA3 Mix Valve Step Offset Data.vi"/>
 			<Item Name="GEA3 Read Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Read Mix Valve Position.vi"/>
 			<Item Name="GEA3 Send Data ERD.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 Send Data ERD.vi"/>
