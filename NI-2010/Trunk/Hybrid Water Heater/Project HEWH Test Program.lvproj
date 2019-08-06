@@ -542,6 +542,9 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
+		<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
+		<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
+		<Item Name="HEWH Check Element Cutout Part 2.vi" Type="VI" URL="../Support VIs/HEWH Check Element Cutout Part 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1009,7 +1012,27 @@ Rev 2.0.0.18
 
 Rev 2.0.0.19
 1. Adding F101 EEPROM personality set
-</Property>
+
+Rev 2.0.0.20
+1. Reading personality to determine if EMV ERDs should be displayed
+
+Rev 2.0.0.21
+1. Disabling auto EMV detect
+2. Adding Capacity setting (Normal, High, X-High)
+
+Rev 2.0.0.22
+1. Removed 0x35 for personality
+2. Removed 0x400C. Removed from water heater software
+
+Rev 2.0.0.23
+1. Placed GEA3 in the draw water routine. Modifing the park position on the EMV. This is a proto version only. 
+2. 15 sec delay before PID control
+3. Configurable Mix valve drop before purge
+4. Valve send message confirmation and added delay for flow meter reset on "Disable Pressurization"
+5. Adding GEA mix valve disable
+6. Added absolute mix valve position set
+7. Added mix valve park capture option  (R/W)
+8. Added mix valve park set option (R/W)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1018,7 +1041,7 @@ Rev 2.0.0.19
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1028,7 +1051,7 @@ Rev 2.0.0.19
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E03DB811-9422-4884-BE2C-41F647E00EDF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C95DB736-FD3E-4A72-A2B2-0475476A4075}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
