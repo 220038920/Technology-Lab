@@ -250,6 +250,7 @@
 			<Item Name="Write CSV File.vi" Type="VI" URL="../Support VIs/Write CSV File.vi"/>
 			<Item Name="HEWH Initial Purge Parameter Setup.vi" Type="VI" URL="../Support VIs/HEWH Initial Purge Parameter Setup.vi"/>
 			<Item Name="HEWH Tank Pressure Routine.vi" Type="VI" URL="../Support VIs/HEWH Tank Pressure Routine.vi"/>
+			<Item Name="HEWH Check Element Cutout Part 2.vi" Type="VI" URL="../Support VIs/HEWH Check Element Cutout Part 2.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -544,7 +545,25 @@
 		</Item>
 		<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
 		<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
-		<Item Name="HEWH Check Element Cutout Part 2.vi" Type="VI" URL="../Support VIs/HEWH Check Element Cutout Part 2.vi"/>
+		<Item Name="HEWH EMV Startup Control.vi" Type="VI" URL="../Support VIs/HEWH EMV Startup Control.vi"/>
+		<Item Name="EMV Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Flow Detector.vi"/>
+		<Item Name="EMV T6 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 Flow Detect.vi"/>
+		<Item Name="EMV Offset From Target.vi" Type="VI" URL="../Support VIs/EMV Offset From Target.vi"/>
+		<Item Name="EMV First Last Difference.vi" Type="VI" URL="../Support VIs/EMV First Last Difference.vi"/>
+		<Item Name="EMV T6 T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 T7 Flow Detect.vi"/>
+		<Item Name="EMV T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect.vi"/>
+		<Item Name="EMV T7 Flow Detect 1.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect 1.vi"/>
+		<Item Name="EMV Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Cold Water Check.vi"/>
+		<Item Name="EMV PI Controller Estimate.vi" Type="VI" URL="../Support VIs/EMV PI Controller Estimate.vi"/>
+		<Item Name="EMV PI Controller.vi" Type="VI" URL="../Support VIs/EMV PI Controller.vi"/>
+		<Item Name="EMV Slope Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Slope Flow Detector.vi"/>
+		<Item Name="EMV Sample History.vi" Type="VI" URL="../Support VIs/EMV Sample History.vi"/>
+		<Item Name="EMV Check For Decreasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Decreasing Temperatures.vi"/>
+		<Item Name="EMV Check All History to Cold Water Supply Temp.vi" Type="VI" URL="../Support VIs/EMV Check All History to Cold Water Supply Temp.vi"/>
+		<Item Name="EMV Basic Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Basic Cold Water Check.vi"/>
+		<Item Name="EMV T7 Flow Conditions.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Conditions.vi"/>
+		<Item Name="EMV High T7 Temperature Check.vi" Type="VI" URL="../Support VIs/EMV High T7 Temperature Check.vi"/>
+		<Item Name="EMV Detect Flow Stop.vi" Type="VI" URL="../Support VIs/EMV Detect Flow Stop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1032,7 +1051,14 @@ Rev 2.0.0.23
 5. Adding GEA mix valve disable
 6. Added absolute mix valve position set
 7. Added mix valve park capture option  (R/W)
-8. Added mix valve park set option (R/W)</Property>
+8. Added mix valve park set option (R/W)
+9. Removed park delay ERD 0xF004
+10. Removed manual mix control from sequence. Added park control. Removed snap shot delay button erd
+11. Added manual park poistion back in. This is LV controlled again
+12. Changed manual mode to auto mode in draw from 13 sec to 5 sec
+13. Re-arranging manual mode control to only draw...and just before draw
+14. Added Hot Park position
+15. Adding preliminary flow detection for EMV</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1051,7 +1077,7 @@ Rev 2.0.0.23
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C95DB736-FD3E-4A72-A2B2-0475476A4075}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C4C9858-6386-43D7-A4F9-8ACC6670B168}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
