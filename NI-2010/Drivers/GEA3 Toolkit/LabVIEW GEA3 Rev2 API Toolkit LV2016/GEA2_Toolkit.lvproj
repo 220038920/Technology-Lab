@@ -35,40 +35,14 @@
 			<Item Name="XInclude.dll" Type="Document" URL="../../GEA3 DLL Source/XInclude.dll"/>
 			<Item Name="XPointer.dll" Type="Document" URL="../../GEA3 DLL Source/XPointer.dll"/>
 		</Item>
-		<Item Name="Water Heating Specific" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="GEA3 Get Data ERD.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 Get Data ERD.vi"/>
-				<Item Name="GEA3 HEWH Mixing Valve.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HEWH Mixing Valve.vi"/>
-				<Item Name="GEA3 HEWH Parse ERD.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HEWH Parse ERD.vi"/>
-				<Item Name="GEA3 HEWH Standard ERDs.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HEWH Standard ERDs.vi"/>
-				<Item Name="GEA3 HexStringToBoolean.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToBoolean.vi"/>
-				<Item Name="GEA3 HexStringToI32.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToI32.vi"/>
-				<Item Name="GEA3 HexStringToU8.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToU8.vi"/>
-				<Item Name="GEA3 HexStringToU16.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToU16.vi"/>
-				<Item Name="GEA3 HexStringToU32.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToU32.vi"/>
-				<Item Name="GEA3 HexStringToU64.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 HexStringToU64.vi"/>
-				<Item Name="GEA3 String Remove All Spaces.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 String Remove All Spaces.vi"/>
-				<Item Name="GET HEWH Faults.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GET HEWH Faults.vi"/>
-			</Item>
-			<Item Name="Type Definitions" Type="Folder">
-				<Item Name="GEA3 HEWH ERD Data.ctl" Type="VI" URL="../Water Heating Specific/Type Definitions/GEA3 HEWH ERD Data.ctl"/>
-				<Item Name="GEA3 HEWH Faults.ctl" Type="VI" URL="../Water Heating Specific/Type Definitions/GEA3 HEWH Faults.ctl"/>
-				<Item Name="GEA3 HEWH Mixing Valve.ctl" Type="VI" URL="../Water Heating Specific/Type Definitions/GEA3 HEWH Mixing Valve.ctl"/>
-			</Item>
-			<Item Name="GEA3 HEWH Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Example.vi"/>
-			<Item Name="GEA3 HEWH Full ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Full ERD List.vi"/>
-			<Item Name="GEA3 HEWH Mixing Valve ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Mixing Valve ERD List.vi"/>
-			<Item Name="GEA3 HEWH Standard ERD List.vi" Type="VI" URL="../Water Heating Specific/GEA3 HEWH Standard ERD List.vi"/>
-			<Item Name="GEA3 PID Parameters.vi" Type="VI" URL="../Water Heating Specific/GEA3 PID Parameters.vi"/>
-			<Item Name="GEA3 Read Write Example.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 Read Write Example.vi"/>
-			<Item Name="GEA3 Set Mix Valve Position Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position Example.vi"/>
-			<Item Name="GEA3 Set Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Set Mix Valve Position.vi"/>
-			<Item Name="GEA3 Valve Step Example.vi" Type="VI" URL="../Water Heating Specific/GEA3 Valve Step Example.vi"/>
+		<Item Name="Water Heating Specific" Type="Folder" URL="../Water Heating Specific">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Zoneline" Type="Folder">
 			<Item Name="Outside Fan PWM Control.vi" Type="VI" URL="../Zoneline/Outside Fan PWM Control.vi"/>
 		</Item>
 		<Item Name="GEA2_Toolkit.lvlib" Type="Library" URL="../library/GEA2_Toolkit.lvlib"/>
+		<Item Name="GEA3 Read Write Example.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 Read Write Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -82,11 +56,8 @@
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GEA3 Determine Valve Absolute Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Determine Valve Absolute Position.vi"/>
+			<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
 			<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
-			<Item Name="GEA3 Mix Valve Step Offset Data.vi" Type="VI" URL="../Water Heating Specific/GEA3 Mix Valve Step Offset Data.vi"/>
-			<Item Name="GEA3 Read Mix Valve Position.vi" Type="VI" URL="../Water Heating Specific/GEA3 Read Mix Valve Position.vi"/>
-			<Item Name="GEA3 Send Data ERD.vi" Type="VI" URL="../Water Heating Specific/SubVIs/GEA3 Send Data ERD.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
