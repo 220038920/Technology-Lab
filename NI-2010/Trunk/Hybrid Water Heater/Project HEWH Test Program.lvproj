@@ -543,27 +543,34 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
+		<Item Name="EMV Detection" Type="Folder">
+			<Item Name="EMV Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Flow Detector.vi"/>
+			<Item Name="EMV T6 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 Flow Detect.vi"/>
+			<Item Name="EMV Offset From Target.vi" Type="VI" URL="../Support VIs/EMV Offset From Target.vi"/>
+			<Item Name="EMV First Last Difference.vi" Type="VI" URL="../Support VIs/EMV First Last Difference.vi"/>
+			<Item Name="EMV T6 T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 T7 Flow Detect.vi"/>
+			<Item Name="EMV T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect.vi"/>
+			<Item Name="EMV T7 Flow Detect 1.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect 1.vi"/>
+			<Item Name="EMV Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Cold Water Check.vi"/>
+			<Item Name="EMV PI Controller Estimate.vi" Type="VI" URL="../Support VIs/EMV PI Controller Estimate.vi"/>
+			<Item Name="EMV PI Controller.vi" Type="VI" URL="../Support VIs/EMV PI Controller.vi"/>
+			<Item Name="EMV Slope Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Slope Flow Detector.vi"/>
+			<Item Name="EMV Sample History.vi" Type="VI" URL="../Support VIs/EMV Sample History.vi"/>
+			<Item Name="EMV Check For Decreasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Decreasing Temperatures.vi"/>
+			<Item Name="EMV Check All History to Cold Water Supply Temp.vi" Type="VI" URL="../Support VIs/EMV Check All History to Cold Water Supply Temp.vi"/>
+			<Item Name="EMV Basic Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Basic Cold Water Check.vi"/>
+			<Item Name="EMV T7 Flow Conditions.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Conditions.vi"/>
+			<Item Name="EMV High T7 Temperature Check.vi" Type="VI" URL="../Support VIs/EMV High T7 Temperature Check.vi"/>
+			<Item Name="EMV Detect Flow Stop.vi" Type="VI" URL="../Support VIs/EMV Detect Flow Stop.vi"/>
+			<Item Name="EMV T6 Indicating Flow.vi" Type="VI" URL="../Support VIs/EMV T6 Indicating Flow.vi"/>
+			<Item Name="EMV T6 Offset From Target.vi" Type="VI" URL="../Support VIs/EMV T6 Offset From Target.vi"/>
+			<Item Name="EMV Check For Increasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Increasing Temperatures.vi"/>
+			<Item Name="EMV No Flow Slope Check.vi" Type="VI" URL="../Support VIs/EMV No Flow Slope Check.vi"/>
+			<Item Name="EMV Flow Detector Minimum.vi" Type="VI" URL="../Support VIs/EMV Flow Detector Minimum.vi"/>
+		</Item>
 		<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
 		<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
 		<Item Name="HEWH EMV Startup Control.vi" Type="VI" URL="../Support VIs/HEWH EMV Startup Control.vi"/>
-		<Item Name="EMV Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Flow Detector.vi"/>
-		<Item Name="EMV T6 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 Flow Detect.vi"/>
-		<Item Name="EMV Offset From Target.vi" Type="VI" URL="../Support VIs/EMV Offset From Target.vi"/>
-		<Item Name="EMV First Last Difference.vi" Type="VI" URL="../Support VIs/EMV First Last Difference.vi"/>
-		<Item Name="EMV T6 T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 T7 Flow Detect.vi"/>
-		<Item Name="EMV T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect.vi"/>
-		<Item Name="EMV T7 Flow Detect 1.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect 1.vi"/>
-		<Item Name="EMV Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Cold Water Check.vi"/>
-		<Item Name="EMV PI Controller Estimate.vi" Type="VI" URL="../Support VIs/EMV PI Controller Estimate.vi"/>
-		<Item Name="EMV PI Controller.vi" Type="VI" URL="../Support VIs/EMV PI Controller.vi"/>
-		<Item Name="EMV Slope Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Slope Flow Detector.vi"/>
-		<Item Name="EMV Sample History.vi" Type="VI" URL="../Support VIs/EMV Sample History.vi"/>
-		<Item Name="EMV Check For Decreasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Decreasing Temperatures.vi"/>
-		<Item Name="EMV Check All History to Cold Water Supply Temp.vi" Type="VI" URL="../Support VIs/EMV Check All History to Cold Water Supply Temp.vi"/>
-		<Item Name="EMV Basic Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Basic Cold Water Check.vi"/>
-		<Item Name="EMV T7 Flow Conditions.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Conditions.vi"/>
-		<Item Name="EMV High T7 Temperature Check.vi" Type="VI" URL="../Support VIs/EMV High T7 Temperature Check.vi"/>
-		<Item Name="EMV Detect Flow Stop.vi" Type="VI" URL="../Support VIs/EMV Detect Flow Stop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1058,7 +1065,9 @@ Rev 2.0.0.23
 12. Changed manual mode to auto mode in draw from 13 sec to 5 sec
 13. Re-arranging manual mode control to only draw...and just before draw
 14. Added Hot Park position
-15. Adding preliminary flow detection for EMV</Property>
+15. Adding preliminary flow detection for EMV
+16. Investigating removing the Outlet Solenoid and replacing with the Prop valve. Just software. It Solenoid changes EMV performance (changing of valves)
+17. Adding Changable Pressurization time</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1077,7 +1086,7 @@ Rev 2.0.0.23
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4C4C9858-6386-43D7-A4F9-8ACC6670B168}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{533B8C24-B6AB-4773-A462-A6A1CF92C0BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>

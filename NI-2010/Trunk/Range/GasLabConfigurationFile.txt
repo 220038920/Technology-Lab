@@ -1,6 +1,6 @@
-Meter 1 Type,
-Meter 1 Size(SLPM),
-Meter 1 Present,
+Meter 1 Type,Methane
+Meter 1 Size(SLPM),50
+Meter 1 Present,TRUE
 Meter 2 Type,
 Meter 2 Size(SLPM),
 Meter 2 Present,

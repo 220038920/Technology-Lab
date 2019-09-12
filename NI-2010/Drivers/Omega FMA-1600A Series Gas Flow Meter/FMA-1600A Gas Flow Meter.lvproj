@@ -65,10 +65,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
-			<Item Name="_YKWT500 Query.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/_ykwt500.llb/_YKWT500 Query.vi"/>
-			<Item Name="_YKWT500 Utility Default Instrument Setup.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/_ykwt500.llb/_YKWT500 Utility Default Instrument Setup.vi"/>
-			<Item Name="_YKWT500 Write.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/_ykwt500.llb/_YKWT500 Write.vi"/>
 			<Item Name="Gas Select Lock Check.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Validity Checks/Gas Select Lock Check.vi"/>
 			<Item Name="Legacy Detector.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Legacy Detector.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -86,49 +82,7 @@
 			<Item Name="Read Software Version.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Initialization/Read Software Version.vi"/>
 			<Item Name="Read Totalizer Units and Decimals.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Settings/Read Totalizer Units and Decimals.vi"/>
 			<Item Name="Read Version Info.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Version Info.vi"/>
-			<Item Name="Standby Power Header.vi" Type="VI" URL="../../../Trunk/Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
-			<Item Name="UTILITY Delay mS.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Delay mS.vi"/>
 			<Item Name="UTILITY Integral.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Integral.vi"/>
-			<Item Name="UTILITY Power Data.ctl" Type="VI" URL="../../../Trunk/Utility/Type Definitions/UTILITY Power Data.ctl"/>
-			<Item Name="WT500 Configure Array Locations.vi" Type="VI" URL="../../Yokogawa WT500/Type Definitions/WT500 Configure Array Locations.vi"/>
-			<Item Name="WT500 General Setup.vi" Type="VI" URL="../../Yokogawa WT500/Main/WT500 General Setup.vi"/>
-			<Item Name="WT500 Get Power Data.vi" Type="VI" URL="../../Yokogawa WT500/Main/WT500 Get Power Data.vi"/>
-			<Item Name="WT500 IEC 2015 Setup.vi" Type="VI" URL="../../Yokogawa WT500/Main/WT500 IEC 2015 Setup.vi"/>
-			<Item Name="WT500 Set Wiring.vi" Type="VI" URL="../../Yokogawa WT500/Main/WT500 Set Wiring.vi"/>
-			<Item Name="WT500 Wiring Control.ctl" Type="VI" URL="../../Yokogawa WT500/Type Definitions/WT500 Wiring Control.ctl"/>
-			<Item Name="YKWT500 Close.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Close.vi"/>
-			<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Current.vi"/>
-			<Item Name="YKWT500 Configure Display Format.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Display Format.vi"/>
-			<Item Name="YKWT500 Configure Display Numeric Format.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Display Numeric Format.vi"/>
-			<Item Name="YKWT500 Configure Display Numeric.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Display Numeric.vi"/>
-			<Item Name="YKWT500 Configure Numeric Item (Delete).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric Item (Delete).vi"/>
-			<Item Name="YKWT500 Configure Numeric Item (Preset).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric Item (Preset).vi"/>
-			<Item Name="YKWT500 Configure Numeric Item (Set).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric Item (Set).vi"/>
-			<Item Name="YKWT500 Configure Numeric Item.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric Item.vi"/>
-			<Item Name="YKWT500 Configure Numeric List (Delete).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric List (Delete).vi"/>
-			<Item Name="YKWT500 Configure Numeric List (Preset).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric List (Preset).vi"/>
-			<Item Name="YKWT500 Configure Numeric List (Set).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric List (Set).vi"/>
-			<Item Name="YKWT500 Configure Numeric List.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Numeric List.vi"/>
-			<Item Name="YKWT500 Configure Update Rate.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Update Rate.vi"/>
-			<Item Name="YKWT500 Configure Voltage.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Voltage.vi"/>
-			<Item Name="YKWT500 Configure Wiring.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Configure Wiring.vi"/>
-			<Item Name="YKWT500 Error Query.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Error Query.vi"/>
-			<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
-			<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
-			<Item Name="YKWT500 Initialize.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Initialize.vi"/>
-			<Item Name="YKWT500 Initiate.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Initiate.vi"/>
-			<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
-			<Item Name="YKWT500 Query Element Type.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Query Element Type.vi"/>
-			<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
-			<Item Name="YKWT500 Read Numeric (Normal).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Read Numeric (Normal).vi"/>
-			<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
-			<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
-			<Item Name="YKWT500 Read Numeric.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Read Numeric.vi"/>
-			<Item Name="YKWT500 Reset Integration.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Reset Integration.vi"/>
-			<Item Name="YKWT500 Reset.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Reset.vi"/>
-			<Item Name="YKWT500 Revision Query.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Revision Query.vi"/>
-			<Item Name="YKWT500 Start Stop Integration.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Start Stop Integration.vi"/>
-			<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="../../Yokogawa WT500/LLBs/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FMA1600A Gas Meter" Type="EXE">
@@ -146,7 +100,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9CD01ED7-46C8-45B1-9880-4504CB44A600}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FMA1600A Gas Meter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FMA1600A Gas Meter/FMA1600A Gas Meter.exe</Property>
