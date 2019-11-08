@@ -251,6 +251,7 @@
 			<Item Name="HEWH Initial Purge Parameter Setup.vi" Type="VI" URL="../Support VIs/HEWH Initial Purge Parameter Setup.vi"/>
 			<Item Name="HEWH Tank Pressure Routine.vi" Type="VI" URL="../Support VIs/HEWH Tank Pressure Routine.vi"/>
 			<Item Name="HEWH Check Element Cutout Part 2.vi" Type="VI" URL="../Support VIs/HEWH Check Element Cutout Part 2.vi"/>
+			<Item Name="HEWH EMV Startup Control.vi" Type="VI" URL="../Support VIs/HEWH EMV Startup Control.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -543,34 +544,9 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
-		<Item Name="EMV Detection" Type="Folder">
-			<Item Name="EMV Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Flow Detector.vi"/>
-			<Item Name="EMV T6 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 Flow Detect.vi"/>
-			<Item Name="EMV Offset From Target.vi" Type="VI" URL="../Support VIs/EMV Offset From Target.vi"/>
-			<Item Name="EMV First Last Difference.vi" Type="VI" URL="../Support VIs/EMV First Last Difference.vi"/>
-			<Item Name="EMV T6 T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T6 T7 Flow Detect.vi"/>
-			<Item Name="EMV T7 Flow Detect.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect.vi"/>
-			<Item Name="EMV T7 Flow Detect 1.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Detect 1.vi"/>
-			<Item Name="EMV Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Cold Water Check.vi"/>
-			<Item Name="EMV PI Controller Estimate.vi" Type="VI" URL="../Support VIs/EMV PI Controller Estimate.vi"/>
-			<Item Name="EMV PI Controller.vi" Type="VI" URL="../Support VIs/EMV PI Controller.vi"/>
-			<Item Name="EMV Slope Flow Detector.vi" Type="VI" URL="../Support VIs/EMV Slope Flow Detector.vi"/>
-			<Item Name="EMV Sample History.vi" Type="VI" URL="../Support VIs/EMV Sample History.vi"/>
-			<Item Name="EMV Check For Decreasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Decreasing Temperatures.vi"/>
-			<Item Name="EMV Check All History to Cold Water Supply Temp.vi" Type="VI" URL="../Support VIs/EMV Check All History to Cold Water Supply Temp.vi"/>
-			<Item Name="EMV Basic Cold Water Check.vi" Type="VI" URL="../Support VIs/EMV Basic Cold Water Check.vi"/>
-			<Item Name="EMV T7 Flow Conditions.vi" Type="VI" URL="../Support VIs/EMV T7 Flow Conditions.vi"/>
-			<Item Name="EMV High T7 Temperature Check.vi" Type="VI" URL="../Support VIs/EMV High T7 Temperature Check.vi"/>
-			<Item Name="EMV Detect Flow Stop.vi" Type="VI" URL="../Support VIs/EMV Detect Flow Stop.vi"/>
-			<Item Name="EMV T6 Indicating Flow.vi" Type="VI" URL="../Support VIs/EMV T6 Indicating Flow.vi"/>
-			<Item Name="EMV T6 Offset From Target.vi" Type="VI" URL="../Support VIs/EMV T6 Offset From Target.vi"/>
-			<Item Name="EMV Check For Increasing Temperatures.vi" Type="VI" URL="../Support VIs/EMV Check For Increasing Temperatures.vi"/>
-			<Item Name="EMV No Flow Slope Check.vi" Type="VI" URL="../Support VIs/EMV No Flow Slope Check.vi"/>
-			<Item Name="EMV Flow Detector Minimum.vi" Type="VI" URL="../Support VIs/EMV Flow Detector Minimum.vi"/>
-		</Item>
-		<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
-		<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
-		<Item Name="HEWH EMV Startup Control.vi" Type="VI" URL="../Support VIs/HEWH EMV Startup Control.vi"/>
+		<Item Name="HEWH Select Master Flow Meter.vi" Type="VI" URL="../Support VIs/HEWH Select Master Flow Meter.vi"/>
+		<Item Name="HEWH Flow Data.vi" Type="VI" URL="../Support VIs/HEWH Flow Data.vi"/>
+		<Item Name="Flow Meter Selector.ctl" Type="VI" URL="../Type Definitions/Flow Meter Selector.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -747,7 +723,6 @@
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
@@ -915,6 +890,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{1CBA0D75-22D3-4C86-B856-2A027794E6CB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{44BCD4F4-A24C-4FBD-9DB5-01F6092D6F75}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AD76C977-E612-4FBA-9FDD-5088D00EADD6}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Release notes v .318:  
 1. Connected temp target to &lt;20 start of draw in intellifaucet start.
@@ -1067,7 +1043,32 @@ Rev 2.0.0.23
 14. Added Hot Park position
 15. Adding preliminary flow detection for EMV
 16. Investigating removing the Outlet Solenoid and replacing with the Prop valve. Just software. It Solenoid changes EMV performance (changing of valves)
-17. Adding Changable Pressurization time</Property>
+17. Adding Changable Pressurization time
+18. Updated RelayState (0x406B) to (0x4033)
+19. Updated T7 to 40B9
+
+Rev 2.0.0.24
+1. Adding EMV Test Routine
+
+Rev 2.0.1.24
+1. Fixing Skip Purge Button
+
+Rev 2.0.2.24
+1. Adding T1 and T2 Raw ADC data to ERD
+
+Rev 2.0.3.24
+1. Modified the EMV Development Test
+
+Rev 2.0.4.24
+1. Adding Temperature control on a skip purge condition
+
+Rev 2.0.5.24
+1. Added ability to run both Laurel and Coriolis Meters at same time
+2. Adding support for v24 water heater software with updated mix valve algorithm
+3. Adding High Usage Bucket Test pattern
+
+Rev 2.0.6.24
+1. Adding 0xF021 Missed Flow and T6AbsoluteError 0x40B2</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1076,8 +1077,9 @@ Rev 2.0.0.23
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1086,7 +1088,7 @@ Rev 2.0.0.23
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{533B8C24-B6AB-4773-A462-A6A1CF92C0BC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AF574143-ECBF-46A2-A120-32BD11680984}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
