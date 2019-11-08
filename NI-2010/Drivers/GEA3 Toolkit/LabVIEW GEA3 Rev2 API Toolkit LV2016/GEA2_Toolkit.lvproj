@@ -44,51 +44,49 @@
 		<Item Name="Zoneline" Type="Folder">
 			<Item Name="Outside Fan PWM Control.vi" Type="VI" URL="../Zoneline/Outside Fan PWM Control.vi"/>
 		</Item>
+		<Item Name="EMV Flow Stop Detection.ctl" Type="VI" URL="../type defs/EMV Flow Stop Detection.ctl"/>
 		<Item Name="GEA2_Toolkit.lvlib" Type="Library" URL="../library/GEA2_Toolkit.lvlib"/>
-		<Item Name="GEA3 Read Write Example.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 Read Write Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="EMV Basic Cold Water Check.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Basic Cold Water Check.vi"/>
-			<Item Name="EMV Check All History to Cold Water Supply Temp.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Check All History to Cold Water Supply Temp.vi"/>
-			<Item Name="EMV Check For Decreasing Temperatures.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Check For Decreasing Temperatures.vi"/>
-			<Item Name="EMV Check For Increasing Temperatures.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Check For Increasing Temperatures.vi"/>
-			<Item Name="EMV Cold Water Check.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Cold Water Check.vi"/>
-			<Item Name="EMV Detect Flow Stop.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Detect Flow Stop.vi"/>
-			<Item Name="EMV First Last Difference.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV First Last Difference.vi"/>
-			<Item Name="EMV Flow Detector Minimum.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Flow Detector Minimum.vi"/>
-			<Item Name="EMV Flow Detector.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Flow Detector.vi"/>
-			<Item Name="EMV High T7 Temperature Check.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV High T7 Temperature Check.vi"/>
-			<Item Name="EMV No Flow Slope Check.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV No Flow Slope Check.vi"/>
-			<Item Name="EMV Offset From Target.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Offset From Target.vi"/>
-			<Item Name="EMV PI Controller Estimate.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV PI Controller Estimate.vi"/>
-			<Item Name="EMV Sample History.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Sample History.vi"/>
-			<Item Name="EMV Slope Flow Detector.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV Slope Flow Detector.vi"/>
-			<Item Name="EMV T6 Flow Detect.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T6 Flow Detect.vi"/>
-			<Item Name="EMV T6 Indicating Flow.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T6 Indicating Flow.vi"/>
-			<Item Name="EMV T6 Offset From Target.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T6 Offset From Target.vi"/>
-			<Item Name="EMV T6 T7 Flow Detect.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T6 T7 Flow Detect.vi"/>
-			<Item Name="EMV T7 Flow Conditions.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T7 Flow Conditions.vi"/>
-			<Item Name="EMV T7 Flow Detect 1.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T7 Flow Detect 1.vi"/>
-			<Item Name="EMV T7 Flow Detect.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/EMV T7 Flow Detect.vi"/>
+			<Item Name="Custom Pallet String.ctl" Type="VI" URL="../../../../Trunk/Utility/Custom Pallet Controls/Custom Pallet String.ctl"/>
 			<Item Name="FT_Get_Device_Info.vi" Type="VI" URL="../FTDI/subVIs/FT_Get_Device_Info.vi"/>
 			<Item Name="FT_Open_Device_By_Index.vi" Type="VI" URL="../FTDI/subVIs/FT_Open_Device_By_Index.vi"/>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GEA3 EMV Manual Mode.vi" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/GEA3 EMV Manual Mode.vi"/>
-			<Item Name="GEA3 HEWH Personality.ctl" Type="VI" URL="../../../../../../Users/220038920/Desktop/GEA3 Toolkit/LabVIEW GEA3 Rev2 API Toolkit LV2016/Water Heating Specific/Type Definitions/GEA3 HEWH Personality.ctl"/>
+			<Item Name="HEWH Decision Logic Cutout Cutin.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Decision Logic Cutout Cutin.vi"/>
+			<Item Name="HEWH RLT Check Cutout Delay.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Specific/HEWH RLT Check Cutout Delay.vi"/>
+			<Item Name="HEWH RLT Cutout Checker Pulse Logic.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Cutout Checker Pulse Logic.vi"/>
+			<Item Name="HEWH RLT Cutout Delay Message.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Specific/HEWH RLT Cutout Delay Message.vi"/>
+			<Item Name="HEWH RLT Delay Timer.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Specific/HEWH RLT Delay Timer.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="UTILITY E-Time.vi" Type="VI" URL="../../../../Trunk/Utility/UTILITY E-Time.vi"/>
+			<Item Name="UTILITY Notifier.ctl" Type="VI" URL="../../../../Trunk/Utility/Type Definitions/UTILITY Notifier.ctl"/>
+			<Item Name="UTILITY String Notifier.vi" Type="VI" URL="../../../../Trunk/Utility/UTILITY String Notifier.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GEA3 EMV Draw Trigger Development" Type="EXE">
@@ -147,6 +145,51 @@
 				<Property Name="TgtF_productName" Type="Str">GEA3 EMV Draw Trigger Development</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67D54A09-8CDF-4A5F-A631-8CA59A196EDA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EMV Development.exe</Property>
+			</Item>
+			<Item Name="GEA3 HEWH Example" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C89BCB3D-0CBE-4917-9BA4-2ADB74E1F34F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BEA72908-9B0C-4743-8EB9-167FDB2CCA77}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AB936598-D81A-4161-B0E4-FB131C218D8E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GEA3 HEWH Example</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GEA3 HEWH Example</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D7137EF3-07FE-4EDA-8470-D6296936265F}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GEA Example.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GEA3 HEWH Example/GEA Example.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GEA3 HEWH Example/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4194055-FE7A-4B13-B9D7-AB646A4DFCF7}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Water Heating Specific/GEA3 HEWH Example.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GEA3 DLL Source</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier company</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GEA3 HEWH Example</Property>
+				<Property Name="TgtF_internalName" Type="Str">GEA3 HEWH Example</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 GE Appliances, a Haier company</Property>
+				<Property Name="TgtF_productName" Type="Str">GEA3 HEWH Example</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4307CCEA-8A27-4CA2-B6C2-E309AA36D035}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GEA Example.exe</Property>
 			</Item>
 			<Item Name="LabVIEW GEA2 Toolkit" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
