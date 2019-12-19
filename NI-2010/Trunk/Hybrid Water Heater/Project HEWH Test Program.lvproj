@@ -547,6 +547,9 @@
 		<Item Name="HEWH Select Master Flow Meter.vi" Type="VI" URL="../Support VIs/HEWH Select Master Flow Meter.vi"/>
 		<Item Name="HEWH Flow Data.vi" Type="VI" URL="../Support VIs/HEWH Flow Data.vi"/>
 		<Item Name="Flow Meter Selector.ctl" Type="VI" URL="../Type Definitions/Flow Meter Selector.ctl"/>
+		<Item Name="HEWH ANSI Display.vi" Type="VI" URL="../Support VIs/HEWH ANSI Display.vi"/>
+		<Item Name="HEWH Get Rates.vi" Type="VI" URL="../Support VIs/HEWH Get Rates.vi"/>
+		<Item Name="HEWH Rate Averages.vi" Type="VI" URL="../Support VIs/HEWH Rate Averages.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -803,6 +806,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
+			<Item Name="RANGE Individual Average.vi" Type="VI" URL="../../Range/SubVIs/RANGE Individual Average.vi"/>
+			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HEWH LaundryNet Tester" Type="EXE">
@@ -890,7 +895,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{1CBA0D75-22D3-4C86-B856-2A027794E6CB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{44BCD4F4-A24C-4FBD-9DB5-01F6092D6F75}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AD76C977-E612-4FBA-9FDD-5088D00EADD6}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Release notes v .318:  
 1. Connected temp target to &lt;20 start of draw in intellifaucet start.
@@ -1068,7 +1072,26 @@ Rev 2.0.5.24
 3. Adding High Usage Bucket Test pattern
 
 Rev 2.0.6.24
-1. Adding 0xF021 Missed Flow and T6AbsoluteError 0x40B2</Property>
+1. Adding 0xF021 Missed Flow and T6AbsoluteError 0x40B2
+
+Rev 2.0.6.26
+1. Changed T6 and T7 Diff to Signed Integer
+
+Rev 2.0.7.26
+1. Updated F004 to F002 ERD
+
+Rev 2.0.7.27
+1. Swapping out old Gas VIs..adding Alicat VIs.
+2. Adding rate (btu/hr)
+3. Fixing seconds timer from Alicat
+
+Rev 2.0.8.27
+1. Adding Missed Flow Counter (0x4101)
+2. Adding 5 averaging gas parameters for rate
+
+Rev 2.0.9.27
+1. Adding F63 Fault ERDs for diagnosis. 
+</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1077,9 +1100,9 @@ Rev 2.0.6.24
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">9</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1088,7 +1111,7 @@ Rev 2.0.6.24
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AF574143-ECBF-46A2-A120-32BD11680984}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{745E4F44-E90C-4E16-A1F8-5B53B2720E08}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
