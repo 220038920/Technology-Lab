@@ -53,21 +53,27 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="COM Port Initialization.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Initialization/COM Port Initialization.vi"/>
+			<Item Name="Convert Time to H_M_S.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Utilities/Convert Time to H_M_S.vi"/>
+			<Item Name="Data Cluster.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Cluster.ctl"/>
+			<Item Name="Data Frame.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Frame.ctl"/>
 			<Item Name="Gas Select Lock Check.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Validity Checks/Gas Select Lock Check.vi"/>
 			<Item Name="Legacy Detector.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Legacy Detector.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Parse Data Frame.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Parse Data Frame.vi"/>
 			<Item Name="RANGE DAQ Data Four Meters.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE DAQ Data Four Meters.ctl"/>
 			<Item Name="RANGE DAQ Data.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE DAQ Data.ctl"/>
 			<Item Name="RANGE GAS Data.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE GAS Data.ctl"/>
@@ -75,14 +81,25 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE Panel Data.ctl"/>
 			<Item Name="RANGE Zero Error Offset.vi" Type="VI" URL="../../../Trunk/Range/SubVIs/RANGE Zero Error Offset.vi"/>
+			<Item Name="Read Batch Setpoint.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Setpoint/Read Batch Setpoint.vi"/>
 			<Item Name="Read Data Format Arrays.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Data Format Arrays.vi"/>
+			<Item Name="Read Manufacturer Data.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Manufacturer Data.vi"/>
+			<Item Name="Read Measurement Format.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurement Format.vi"/>
 			<Item Name="Read Measurement Units.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurement Units.vi"/>
+			<Item Name="Read Measurements.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurements.vi"/>
+			<Item Name="Read Model Number.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Model Number.vi"/>
 			<Item Name="Read Output Definitions and Controller Options.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Settings/Read Output Definitions and Controller Options.vi"/>
 			<Item Name="Read Register.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Utilities/Read Register.vi"/>
 			<Item Name="Read Software Version.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Initialization/Read Software Version.vi"/>
 			<Item Name="Read Totalizer Units and Decimals.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Settings/Read Totalizer Units and Decimals.vi"/>
 			<Item Name="Read Version Info.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Version Info.vi"/>
+			<Item Name="Reset Totalizer.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Tare Functions/Reset Totalizer.vi"/>
+			<Item Name="Send Command.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Utilities/Send Command.vi"/>
+			<Item Name="Tare Flow.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Tare Functions/Tare Flow.vi"/>
+			<Item Name="Units of Measure.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Units of Measure.ctl"/>
 			<Item Name="UTILITY Integral.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Integral.vi"/>
+			<Item Name="Write Data Frame Options.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Settings/Write Data Frame Options.vi"/>
+			<Item Name="Write Register.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Utilities/Write Register.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FMA1600A Gas Meter" Type="EXE">
