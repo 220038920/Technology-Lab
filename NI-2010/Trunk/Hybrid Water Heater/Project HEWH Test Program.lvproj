@@ -252,6 +252,13 @@
 			<Item Name="HEWH Tank Pressure Routine.vi" Type="VI" URL="../Support VIs/HEWH Tank Pressure Routine.vi"/>
 			<Item Name="HEWH Check Element Cutout Part 2.vi" Type="VI" URL="../Support VIs/HEWH Check Element Cutout Part 2.vi"/>
 			<Item Name="HEWH EMV Startup Control.vi" Type="VI" URL="../Support VIs/HEWH EMV Startup Control.vi"/>
+			<Item Name="HEWH Select Master Flow Meter.vi" Type="VI" URL="../Support VIs/HEWH Select Master Flow Meter.vi"/>
+			<Item Name="HEWH Flow Data.vi" Type="VI" URL="../Support VIs/HEWH Flow Data.vi"/>
+			<Item Name="HEWH ANSI Display.vi" Type="VI" URL="../Support VIs/HEWH ANSI Display.vi"/>
+			<Item Name="HEWH Get Rates.vi" Type="VI" URL="../Support VIs/HEWH Get Rates.vi"/>
+			<Item Name="HEWH Rate Averages.vi" Type="VI" URL="../Support VIs/HEWH Rate Averages.vi"/>
+			<Item Name="HEWH Rate Display.vi" Type="VI" URL="../Support VIs/HEWH Rate Display.vi"/>
+			<Item Name="HEWH FHD Modify for UE LE Draw.vi" Type="VI" URL="../Support VIs/HEWH FHD Modify for UE LE Draw.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -522,6 +529,7 @@
 			<Item Name="HEWH Valve Bank Positions.ctl" Type="VI" URL="../Type Definitions/HEWH Valve Bank Positions.ctl"/>
 			<Item Name="PRAT Channel Settings.ctl" Type="VI" URL="../Type Definitions/PRAT Channel Settings.ctl"/>
 			<Item Name="PRAT Test.ctl" Type="VI" URL="../Type Definitions/PRAT Test.ctl"/>
+			<Item Name="Flow Meter Selector.ctl" Type="VI" URL="../Type Definitions/Flow Meter Selector.ctl"/>
 		</Item>
 		<Item Name="Macros" Type="Folder" URL="../Macros">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -544,13 +552,6 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
-		<Item Name="HEWH Select Master Flow Meter.vi" Type="VI" URL="../Support VIs/HEWH Select Master Flow Meter.vi"/>
-		<Item Name="HEWH Flow Data.vi" Type="VI" URL="../Support VIs/HEWH Flow Data.vi"/>
-		<Item Name="Flow Meter Selector.ctl" Type="VI" URL="../Type Definitions/Flow Meter Selector.ctl"/>
-		<Item Name="HEWH ANSI Display.vi" Type="VI" URL="../Support VIs/HEWH ANSI Display.vi"/>
-		<Item Name="HEWH Get Rates.vi" Type="VI" URL="../Support VIs/HEWH Get Rates.vi"/>
-		<Item Name="HEWH Rate Averages.vi" Type="VI" URL="../Support VIs/HEWH Rate Averages.vi"/>
-		<Item Name="HEWH Rate Display.vi" Type="VI" URL="../Support VIs/HEWH Rate Display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1094,9 +1095,26 @@ Rev 2.0.9.27
 1. Adding F63 Fault ERDs for diagnosis. 
 
 Rev 2.0.10.27
-1. Changed Missed flow off ERD (0xF021) to (0x40C2) - Water Heater Software 6.8.1.32
+1. Changed Missed flow off ERD (0xF021) to (0x40C3) - Water Heater Software 6.8.1.32
 2. Changed Gas Rate to start immediately. Does not have 300 sec stabilization
-</Property>
+
+Rev 2.0.11.27
+1. Added "Gas Water Heater" enum to allow default gas and default electric buttons
+2. Changed TC panel 2 for type T, K, and J thermocouples
+3. Updated displated Agilent TCs
+
+Rev 2.0.11.28
+1. Adding button for the FHD test (Gas,Low Boy, Standard). This makes it easier to select the proper test
+
+Rev 2.0.11.29
+1. Adding Temperature Stacking Test
+
+Rev 2.0.11.30
+1. Reducing Cutin and Cutout delay. Changed Temperature Stacking to 0
+2. Updating FHD for Gas and Lowboy quick select button configuration
+3. Working to fix cycling valves
+4. Updating valve states when pressing "Quick Setting" valve buttons.
+5. Adding dynamic scan rate whenever you select a test. Need faster rate for temp stacking protocol</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1105,9 +1123,9 @@ Rev 2.0.10.27
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">10</Property>
+				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1116,7 +1134,7 @@ Rev 2.0.10.27
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8AFDFFB8-9228-4C00-8A65-E595E63CD242}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EA788E84-5D2E-49AD-B35F-B0DC2FFFCF4F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
