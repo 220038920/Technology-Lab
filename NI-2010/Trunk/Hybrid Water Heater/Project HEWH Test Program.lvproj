@@ -552,6 +552,7 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
+		<Item Name="HEWH Gas Thermal Stability Draw Check.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Gas Thermal Stability Draw Check.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -789,10 +790,6 @@
 			<Item Name="DWE Search 2D Array (DBL).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (DBL).vi"/>
 			<Item Name="DWE Search 2D Array.vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array.vi"/>
 			<Item Name="DWE Search 2D Array (String).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (String).vi"/>
-			<Item Name="HCC Filter NonUsed Agilent Channels.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Filter NonUsed Agilent Channels.vi"/>
-			<Item Name="DOE Agilent Setup SUB.vi" Type="VI" URL="../../Washer DOE/Support VIs/DOE Agilent Setup SUB.vi"/>
-			<Item Name="HCC Split Voltage and Current Agilent.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Split Voltage and Current Agilent.vi"/>
-			<Item Name="HCC Disable Station Agilent.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Disable Station Agilent.vi"/>
 			<Item Name="DOE Data Save Modifier.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Data Save Modifier.ctl"/>
 			<Item Name="DOE Dryer RMC Calculation Equation.vi" Type="VI" URL="../../Washer DOE/Support VIs/DOE Dryer RMC Calculation Equation.vi"/>
 			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
@@ -1114,7 +1111,22 @@ Rev 2.0.11.30
 2. Updating FHD for Gas and Lowboy quick select button configuration
 3. Working to fix cycling valves
 4. Updating valve states when pressing "Quick Setting" valve buttons.
-5. Adding dynamic scan rate whenever you select a test. Need faster rate for temp stacking protocol</Property>
+5. Adding dynamic scan rate whenever you select a test. Need faster rate for temp stacking protocol
+
+Rev 2.0.11.31
+1. Added Energy (BTU) and Heating Value (BTU/ft3) to data list
+2. Fixed Agilent 34970 reset. Wire was not connected
+
+Rev 2.0.11.32
+1. Cleared timeout error on Alicat meter
+2. Removed "Stop Intellifaucet" from draw routine. It should always be on. We have prop valves
+3. Added up timer for Rate and Combustion
+4. Removed power down for Gas Water Heaters
+5. Added "Save/Recall State" to Agilent. Also allows reset
+
+Rev 2.0.11.33
+1. Added "Save/Recall State" to Agilent. Also allows reset
+2. Changed Intellifauct delay from 25ms to 50ms. Added two cycles in for loop (Start/Stop)  Was missing commands</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1123,7 +1135,7 @@ Rev 2.0.11.30
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
@@ -1134,7 +1146,7 @@ Rev 2.0.11.30
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EA788E84-5D2E-49AD-B35F-B0DC2FFFCF4F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73CD0BBC-AC2D-41A2-9C8E-21F15ED8A9C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>

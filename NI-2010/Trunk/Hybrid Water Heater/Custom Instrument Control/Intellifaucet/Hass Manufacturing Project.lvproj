@@ -78,8 +78,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="HEWH Intellifaucet Temp Equation.vi" Type="VI" URL="../../../Support VIs/HEWH Intellifaucet Temp Equation.vi"/>
 			<Item Name="HEWH Normally Closed Valve Control.ctl" Type="VI" URL="../../../Type Definitions/HEWH Normally Closed Valve Control.ctl"/>
 			<Item Name="HEWH Normally Open Valve Control.ctl" Type="VI" URL="../../../Type Definitions/HEWH Normally Open Valve Control.ctl"/>
+			<Item Name="HEWH Purge Draw.ctl" Type="VI" URL="../../../Type Definitions/HEWH Purge Draw.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
