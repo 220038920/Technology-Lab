@@ -74,6 +74,7 @@
 			<Item Name="Legacy Detector.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Device Information/Legacy Detector.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Parse Data Frame.vi" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Collection/Parse Data Frame.vi"/>
+			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE ANSI Rate.ctl"/>
 			<Item Name="RANGE DAQ Data Four Meters.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE DAQ Data Four Meters.ctl"/>
 			<Item Name="RANGE DAQ Data.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE DAQ Data.ctl"/>
 			<Item Name="RANGE GAS Data.ctl" Type="VI" URL="../../../Trunk/Range/Type Definitions/RANGE GAS Data.ctl"/>
