@@ -105,6 +105,7 @@
 				<Item Name="HEWH Update Incoming Factors.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Update Incoming Factors.vi"/>
 				<Item Name="HEWH Valve Start Setup.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Valve Start Setup.vi"/>
 				<Item Name="HEWH Write Stats.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Write Stats.vi"/>
+				<Item Name="HEWH Gas Thermal Stability Draw Check.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Gas Thermal Stability Draw Check.vi"/>
 			</Item>
 			<Item Name="Factory Daily Heatup" Type="Folder">
 				<Item Name="HEWH Draw Routing Start.vi" Type="VI" URL="../Support VIs/Factory Daily Heatup/HEWH Draw Routing Start.vi"/>
@@ -552,7 +553,6 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
-		<Item Name="HEWH Gas Thermal Stability Draw Check.vi" Type="VI" URL="../Support VIs/Draw Water Specific/HEWH Gas Thermal Stability Draw Check.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1126,7 +1126,11 @@ Rev 2.0.11.32
 
 Rev 2.0.11.33
 1. Added "Save/Recall State" to Agilent. Also allows reset
-2. Changed Intellifauct delay from 25ms to 50ms. Added two cycles in for loop (Start/Stop)  Was missing commands</Property>
+2. Changed Intellifauct delay from 25ms to 50ms. Added two cycles in for loop (Start/Stop)  Was missing commands
+
+Rev 2.0.11.35
+1. Adding gas thermal testing. Several draw water changes
+2. Added Read/Write test parameter in test setup screen</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1135,7 +1139,7 @@ Rev 2.0.11.33
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
@@ -1146,7 +1150,7 @@ Rev 2.0.11.33
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73CD0BBC-AC2D-41A2-9C8E-21F15ED8A9C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC0DA412-AA3C-4161-9F1F-14BDA30BEE04}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
