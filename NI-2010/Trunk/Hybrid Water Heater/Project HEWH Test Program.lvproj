@@ -807,6 +807,9 @@
 			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
 			<Item Name="RANGE Individual Average.vi" Type="VI" URL="../../Range/SubVIs/RANGE Individual Average.vi"/>
 			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
+			<Item Name="HEWH Input Rate Flow Calculation.vi" Type="VI" URL="../Support VIs/HEWH Input Rate Flow Calculation.vi"/>
+			<Item Name="HEWH Calculate Cp Water.vi" Type="VI" URL="../Support VIs/HEWH Calculate Cp Water.vi"/>
+			<Item Name="HEWH Thermal Eff Coerce.vi" Type="VI" URL="../Support VIs/HEWH Thermal Eff Coerce.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HEWH LaundryNet Tester" Type="EXE">
@@ -1130,7 +1133,11 @@ Rev 2.0.11.33
 
 Rev 2.0.11.35
 1. Adding gas thermal testing. Several draw water changes
-2. Added Read/Write test parameter in test setup screen</Property>
+2. Added Read/Write test parameter in test setup screen
+
+Rev 2.0.11.36
+1. Fixing gas thermal code...trying
+</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1150,7 +1157,7 @@ Rev 2.0.11.35
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC0DA412-AA3C-4161-9F1F-14BDA30BEE04}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E96121C-69EE-4992-B4F2-1540CC143FA9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
