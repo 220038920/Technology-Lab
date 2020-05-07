@@ -260,6 +260,9 @@
 			<Item Name="HEWH Rate Averages.vi" Type="VI" URL="../Support VIs/HEWH Rate Averages.vi"/>
 			<Item Name="HEWH Rate Display.vi" Type="VI" URL="../Support VIs/HEWH Rate Display.vi"/>
 			<Item Name="HEWH FHD Modify for UE LE Draw.vi" Type="VI" URL="../Support VIs/HEWH FHD Modify for UE LE Draw.vi"/>
+			<Item Name="HEWH Gas Thermal Stabilization.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization.vi"/>
+			<Item Name="HEWH Gas Thermal Test.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Test.vi"/>
+			<Item Name="HEWH Gas Notifier.vi" Type="VI" URL="../Support VIs/HEWH Gas Notifier.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -553,6 +556,7 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 		</Item>
+		<Item Name="HEWH Gas Thermal Calculation.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Calculation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1137,6 +1141,9 @@ Rev 2.0.11.35
 
 Rev 2.0.11.36
 1. Fixing gas thermal code...trying
+
+Rev 2.0.11.37
+1. Fixing gas thermal code...this has new thermal calculations
 </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -1146,7 +1153,7 @@ Rev 2.0.11.36
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
@@ -1157,7 +1164,7 @@ Rev 2.0.11.36
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E96121C-69EE-4992-B4F2-1540CC143FA9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C078F0C3-F452-4978-A3F8-45E9637D4AA6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>

@@ -582,7 +582,11 @@
 			<Item Name="ATC_Data.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/type defs/ATC_Data.ctl"/>
 			<Item Name="cDAQ GET Module Temps.vi" Type="VI" URL="../../../Drivers/cDAQ/Support VIs/cDAQ GET Module Temps.vi"/>
 			<Item Name="Check Special Condtions.ctl" Type="VI" URL="../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/Check Special Condtions.ctl"/>
+			<Item Name="COM Port Initialization.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Initialization/COM Port Initialization.vi"/>
+			<Item Name="Convert Time to H_M_S.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Utilities/Convert Time to H_M_S.vi"/>
 			<Item Name="DAQNavi_LV.dll" Type="Document" URL="../../../../../Windows/System32/DAQNavi_LV.dll"/>
+			<Item Name="Data Cluster.ctl" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Cluster.ctl"/>
+			<Item Name="Data Frame.ctl" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Frame.ctl"/>
 			<Item Name="DPT GET NI Data.vi" Type="VI" URL="../../Dryer Performance/Support VIs/DPT GET NI Data.vi"/>
 			<Item Name="DPT Panel Dryer PreCondition.vi" Type="VI" URL="../../Dryer Performance/Panels/DPT Panel Dryer PreCondition.vi"/>
 			<Item Name="ERD_Always_Show.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/type defs/ERD_Always_Show.ctl"/>
@@ -594,14 +598,11 @@
 			<Item Name="HCC Cycle Count Checker.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Cycle Count Checker.vi"/>
 			<Item Name="HCC Cycle Count Filter.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Cycle Count Filter.vi"/>
 			<Item Name="HCC Cycle Count Timer Update.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Cycle Count Timer Update.vi"/>
-			<Item Name="HCC Disable Station Agilent.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Disable Station Agilent.vi"/>
 			<Item Name="HCC Filename Setup.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Type Definitions/HCC Filename Setup.ctl"/>
-			<Item Name="HCC Filter NonUsed Agilent Channels.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Filter NonUsed Agilent Channels.vi"/>
 			<Item Name="HCC Get Viper Diagnostics.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Get Viper Diagnostics.vi"/>
 			<Item Name="HCC Individual Cycle Conditions.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Individual Cycle Conditions.vi"/>
 			<Item Name="HCC Read Write Display.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Read Write Display.vi"/>
 			<Item Name="HCC Search For UnUsed Stations.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Search For UnUsed Stations.vi"/>
-			<Item Name="HCC Split Voltage and Current Agilent.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/HCC Split Voltage and Current Agilent.vi"/>
 			<Item Name="HCC Station Group.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Type Definitions/HCC Station Group.ctl"/>
 			<Item Name="HCC Washer Types.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Type Definitions/HCC Washer Types.ctl"/>
 			<Item Name="HEWH Agilent Cluster.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Agilent Cluster.ctl"/>
@@ -623,6 +624,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Legacy Detector.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Device Information/Legacy Detector.vi"/>
+			<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="../../Utility/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -630,9 +632,11 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Parse Data Frame.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Parse Data Frame.vi"/>
 			<Item Name="Plotting Convert XY to Waveform.vi" Type="VI" URL="../../Utility/Plotting/SubVIs/Plotting Convert XY to Waveform.vi"/>
 			<Item Name="PRAT Test.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/PRAT Test.ctl"/>
 			<Item Name="RANGE Accuracy At Zero.vi" Type="VI" URL="../../Range/SubVIs/RANGE Accuracy At Zero.vi"/>
+			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
 			<Item Name="RANGE Auto Mode.vi" Type="VI" URL="../../Range/SubVIs/RANGE Auto Mode.vi"/>
 			<Item Name="RANGE Check For Totalizer.vi" Type="VI" URL="../../Range/SubVIs/RANGE Check For Totalizer.vi"/>
 			<Item Name="RANGE Check Standard Gas.vi" Type="VI" URL="../../Range/SubVIs/RANGE Check Standard Gas.vi"/>
@@ -650,7 +654,6 @@
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Meter Selector 3-4.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 3-4.ctl"/>
 			<Item Name="RANGE Meter Selector 5-6.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 5-6.ctl"/>
-			<Item Name="RANGE Meter Selector.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
 			<Item Name="RANGE Parse Configuration Data.vi" Type="VI" URL="../../Range/SubVIs/RANGE Parse Configuration Data.vi"/>
 			<Item Name="RANGE Populate Configuration Data.vi" Type="VI" URL="../../Range/SubVIs/RANGE Populate Configuration Data.vi"/>
@@ -658,8 +661,13 @@
 			<Item Name="RANGE Update Accuracy Settings.vi" Type="VI" URL="../../Range/SubVIs/RANGE Update Accuracy Settings.vi"/>
 			<Item Name="RANGE Update Meter Types.vi" Type="VI" URL="../../Range/SubVIs/RANGE Update Meter Types.vi"/>
 			<Item Name="RANGE Zero Error Offset.vi" Type="VI" URL="../../Range/SubVIs/RANGE Zero Error Offset.vi"/>
+			<Item Name="Read Batch Setpoint.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Setpoint/Read Batch Setpoint.vi"/>
 			<Item Name="Read Data Format Arrays.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Data Format Arrays.vi"/>
+			<Item Name="Read Manufacturer Data.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Manufacturer Data.vi"/>
+			<Item Name="Read Measurement Format.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurement Format.vi"/>
 			<Item Name="Read Measurement Units.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurement Units.vi"/>
+			<Item Name="Read Measurements.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Read Measurements.vi"/>
+			<Item Name="Read Model Number.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Model Number.vi"/>
 			<Item Name="Read Output Definitions and Controller Options.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Settings/Read Output Definitions and Controller Options.vi"/>
 			<Item Name="Read Register.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Utilities/Read Register.vi"/>
 			<Item Name="Read Software Version.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Initialization/Read Software Version.vi"/>
@@ -667,6 +675,7 @@
 			<Item Name="Read Version Info.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Device Information/Read Version Info.vi"/>
 			<Item Name="Red_Micro_Parse.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/subVIs/Red_Micro_Parse.vi"/>
 			<Item Name="Redundant.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/type defs/Redundant.ctl"/>
+			<Item Name="Reset Totalizer.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Tare Functions/Reset Totalizer.vi"/>
 			<Item Name="RTS APLUS Points.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS APLUS Points.vi"/>
 			<Item Name="RTS Build Default Headers.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Build Default Headers.vi"/>
 			<Item Name="RTS Build Listbox Data.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Build Listbox Data.vi"/>
@@ -684,11 +693,14 @@
 			<Item Name="RTS TC Points.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS TC Points.vi"/>
 			<Item Name="RTS Wago Points.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Wago Points.vi"/>
 			<Item Name="RTS Write Point File.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Write Point File.vi"/>
+			<Item Name="Send Command.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Utilities/Send Command.vi"/>
 			<Item Name="Station ID Selector.ctl" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/Station ID Selector.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tare Flow.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Tare Functions/Tare Flow.vi"/>
 			<Item Name="Terminate Draw Conditions.ctl" Type="VI" URL="../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/Terminate Draw Conditions.ctl"/>
+			<Item Name="Units of Measure.ctl" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Units of Measure.ctl"/>
 			<Item Name="UTILITY Custom VISA Name.vi" Type="VI" URL="../../Utility/UTILITY Custom VISA Name.vi"/>
 			<Item Name="UTILITY Delete Empty String Cells 2D.vi" Type="VI" URL="../../Utility/UTILITY Delete Empty String Cells 2D.vi"/>
 			<Item Name="UTILITY Get Point File List.vi" Type="VI" URL="../../Utility/UTILITY Get Point File List.vi"/>
@@ -705,6 +717,8 @@
 			<Item Name="ViperHawk Get Diagnostic Data.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Support VIs/ViperHawk/ViperHawk Get Diagnostic Data.vi"/>
 			<Item Name="ViperHawk Search Control.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Type Definitions/ViperHawk/ViperHawk Search Control.ctl"/>
 			<Item Name="Wago Voltage Range Selector.ctl" Type="VI" URL="../../../Drivers/WAGO 750-881/Type Definitions/Wago Voltage Range Selector.ctl"/>
+			<Item Name="Write Data Frame Options.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Settings/Write Data Frame Options.vi"/>
+			<Item Name="Write Register.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Utilities/Write Register.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DOE Agilent Setup SUB" Type="EXE">
