@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Documentation" Type="Folder" URL="../../Documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Example programs" Type="Folder">
 			<Item Name="Alicat Dynamic Data Example.vi" Type="VI" URL="../../Example programs/Alicat Dynamic Data Example.vi"/>
 			<Item Name="Alicat Full Driver Example.vi" Type="VI" URL="../../Example programs/Alicat Full Driver Example.vi"/>
@@ -84,6 +87,8 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="UTILITY Notifier.ctl" Type="VI" URL="../../../../Trunk/Utility/Type Definitions/UTILITY Notifier.ctl"/>
+			<Item Name="UTILITY String Notifier.vi" Type="VI" URL="../../../../Trunk/Utility/UTILITY String Notifier.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Alicat Full Driver Example" Type="EXE">
