@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -263,6 +263,12 @@
 			<Item Name="HEWH Gas Thermal Stabilization.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization.vi"/>
 			<Item Name="HEWH Gas Thermal Test.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Test.vi"/>
 			<Item Name="HEWH Gas Notifier.vi" Type="VI" URL="../Support VIs/HEWH Gas Notifier.vi"/>
+			<Item Name="HEWH Gas Thermal Calculation.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Calculation.vi"/>
+			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
+			<Item Name="HEWH Input Rate Flow Calculation.vi" Type="VI" URL="../Support VIs/HEWH Input Rate Flow Calculation.vi"/>
+			<Item Name="HEWH Calculate Cp Water.vi" Type="VI" URL="../Support VIs/HEWH Calculate Cp Water.vi"/>
+			<Item Name="HEWH Thermal Eff Coerce.vi" Type="VI" URL="../Support VIs/HEWH Thermal Eff Coerce.vi"/>
+			<Item Name="HEWH Gas Thermal Stabilization Check.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization Check.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -322,6 +328,46 @@
 			</Item>
 			<Item Name="GEA3 Toolkit" Type="Folder" URL="../../../Drivers/GEA3 Toolkit">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Siemens UltraMat 23" Type="Folder">
+				<Item Name="Documentation" Type="Folder">
+					<Item Name="A5E37100388-003_ULTRAMAT_23_en.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/A5E37100388-003_ULTRAMAT_23_en.pdf"/>
+					<Item Name="Communication Protocol.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/Communication Protocol.pdf"/>
+					<Item Name="Manual_ELAN Interface_English.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/Manual_ELAN Interface_English.pdf"/>
+					<Item Name="SERIES 6_ ELAN MANUAL_en.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/SERIES 6_ ELAN MANUAL_en.pdf"/>
+					<Item Name="ULTRAMAT_23_en-US_compact_U&amp;C.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/ULTRAMAT_23_en-US_compact_U&amp;C.pdf"/>
+					<Item Name="ULTRAMAT_23_english_en-US-2015.pdf" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Documentation/ULTRAMAT_23_english_en-US-2015.pdf"/>
+				</Item>
+				<Item Name="Example" Type="Folder">
+					<Item Name="ELAN Monitor.aliases" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Example/ELAN Monitor.aliases"/>
+					<Item Name="ELAN Monitor.lvlps" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Example/ELAN Monitor.lvlps"/>
+					<Item Name="ELAN Monitor.lvproj" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Example/ELAN Monitor.lvproj"/>
+					<Item Name="Monitor.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/Example/Monitor.vi"/>
+					<Item Name="Ultramat 23 Get Data.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/Example/Ultramat 23 Get Data.vi"/>
+					<Item Name="Ultramat 23 Initialize.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/Example/Ultramat 23 Initialize.vi"/>
+				</Item>
+				<Item Name="instr.lib" Type="Folder">
+					<Item Name="Siemens ELAN" Type="Folder">
+						<Item Name="ELAN Monitor.aliases" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/ELAN Monitor.aliases"/>
+						<Item Name="ELAN Monitor.lvlps" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/ELAN Monitor.lvlps"/>
+						<Item Name="ELAN Monitor.lvproj" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/ELAN Monitor.lvproj"/>
+						<Item Name="Get Autocal Current Step.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/Get Autocal Current Step.vi"/>
+						<Item Name="Measured value.ctl" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/Measured value.ctl"/>
+						<Item Name="Siemens ELAN.lvlib" Type="Library" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/Siemens ELAN.lvlib"/>
+						<Item Name="siemens_logo_009999_FFFFFF.gif" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/siemens_logo_009999_FFFFFF.gif"/>
+						<Item Name="State Enumeration.ctl" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/State Enumeration.ctl"/>
+						<Item Name="State Machine.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/State Machine.vi"/>
+						<Item Name="vssver2.scc" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/instr.lib/Siemens ELAN/vssver2.scc"/>
+					</Item>
+				</Item>
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Ultramat 23 AFCO Calculations Sub.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/SubVIs/Ultramat 23 AFCO Calculations Sub.vi"/>
+					<Item Name="Ultramat 23 AFCO Calculations.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/SubVIs/Ultramat 23 AFCO Calculations.vi"/>
+					<Item Name="Ultramat 23 Create Data Array.vi" Type="VI" URL="../../../Drivers/Siemens UltraMat 23/SubVIs/Ultramat 23 Create Data Array.vi"/>
+				</Item>
+				<Item Name="Siemens Ultramat 23.aliases" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.aliases"/>
+				<Item Name="Siemens Ultramat 23.lvlps" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.lvlps"/>
+				<Item Name="Siemens Ultramat 23.lvproj" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.lvproj"/>
 			</Item>
 		</Item>
 		<Item Name="UTILITY" Type="Folder">
@@ -412,6 +458,9 @@
 			<Item Name="Calibration" Type="Folder" URL="../../Utility/Calibration">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Simple Splash Screen" Type="Folder" URL="../../Utility/Simple Splash Screen">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="UTILITY E-Time.vi" Type="VI" URL="../../Utility/UTILITY E-Time.vi"/>
 			<Item Name="UTILITY Timeout Calc.vi" Type="VI" URL="../../Utility/UTILITY Timeout Calc.vi"/>
 			<Item Name="UTILITY Agilent Scan List Permutation.vi" Type="VI" URL="../../Utility/UTILITY Agilent Scan List Permutation.vi"/>
@@ -479,6 +528,7 @@
 			<Item Name="UTILITY 1D String to 1D Integer.vi" Type="VI" URL="../../Utility/UTILITY 1D String to 1D Integer.vi"/>
 			<Item Name="UTILITY Get Column Stats.vi" Type="VI" URL="../../Utility/UTILITY Get Column Stats.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -555,8 +605,12 @@
 			<Item Name="RANGE Zero Error Offset.vi" Type="VI" URL="../../Range/SubVIs/RANGE Zero Error Offset.vi"/>
 			<Item Name="RANGE Meter Selector 1-2.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Meter Selector 1-2.ctl"/>
 			<Item Name="RANGE Panel Data.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE Panel Data.ctl"/>
+			<Item Name="RANGE Individual Average.vi" Type="VI" URL="../../Range/SubVIs/RANGE Individual Average.vi"/>
+			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
 		</Item>
-		<Item Name="HEWH Gas Thermal Calculation.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Calculation.vi"/>
+		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -675,12 +729,10 @@
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
@@ -747,7 +799,6 @@
 				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
@@ -756,13 +807,15 @@
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
 				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/TCP Shared Components/TCP Shared Components.lvlib"/>
-				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
+				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -796,7 +849,6 @@
 			<Item Name="DWE Search 2D Array (String).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (String).vi"/>
 			<Item Name="DOE Data Save Modifier.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Data Save Modifier.ctl"/>
 			<Item Name="DOE Dryer RMC Calculation Equation.vi" Type="VI" URL="../../Washer DOE/Support VIs/DOE Dryer RMC Calculation Equation.vi"/>
-			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
 			<Item Name="DOE Appliance Common.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Appliance Common.ctl"/>
 			<Item Name="DOE Dryer Standard.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Dryer Standard.ctl"/>
 			<Item Name="DOE Front Panel Meters.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Front Panel Meters.ctl"/>
@@ -808,53 +860,8 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
-			<Item Name="RANGE Individual Average.vi" Type="VI" URL="../../Range/SubVIs/RANGE Individual Average.vi"/>
-			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
-			<Item Name="HEWH Input Rate Flow Calculation.vi" Type="VI" URL="../Support VIs/HEWH Input Rate Flow Calculation.vi"/>
-			<Item Name="HEWH Calculate Cp Water.vi" Type="VI" URL="../Support VIs/HEWH Calculate Cp Water.vi"/>
-			<Item Name="HEWH Thermal Eff Coerce.vi" Type="VI" URL="../Support VIs/HEWH Thermal Eff Coerce.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HEWH LaundryNet Tester" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{1BBD9847-A0CF-4C5F-ABA0-45831538A6A9}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{43D31DE0-28B2-47D0-94AB-9094FBD2B61F}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D120C879-8138-47EC-A44A-7DA6FA25D52E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HEWH LaundryNet Tester</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH LaundryNet Tester</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B2C3DA9F-D271-4E27-B397-201175097B5C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HEWH LaundryNet Tester.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH LaundryNet Tester/HEWH LaundryNet Tester.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH LaundryNet Tester/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{72A46995-5CFA-4C57-9A7E-1186A818285E}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">General Electric</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HEWH LaundryNet Tester</Property>
-				<Property Name="TgtF_internalName" Type="Str">HEWH LaundryNet Tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 General Electric</Property>
-				<Property Name="TgtF_productName" Type="Str">HEWH LaundryNet Tester</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{3FF8EA26-ACB2-48C5-A6B8-B90C56558F0A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HEWH LaundryNet Tester.exe</Property>
-			</Item>
 			<Item Name="Heat Up Macro" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{8F8E911F-40F1-4D7F-8964-8EB736821616}</Property>
@@ -1144,6 +1151,18 @@ Rev 2.0.11.36
 
 Rev 2.0.11.37
 1. Fixing gas thermal code...this has new thermal calculations
+
+Rev 2.0.11.38
+1. Adding Ultramat 23 and AFCO calculations
+2. Changing VISA reference for gas meter from COM3 to GasMeter1
+3. Fixing GasMeter Log Headers
+4. Updating the Gas String values for AFCO calculations
+
+Rev 2.0.11.39
+1. Improving valve speed
+2. Fixing Flow Meter IP Addresses in draw loop
+3. Adding splash screen
+4. Fixing the "Delay Cutout"
 </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -1153,7 +1172,7 @@ Rev 2.0.11.37
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
@@ -1164,13 +1183,82 @@ Rev 2.0.11.37
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C078F0C3-F452-4978-A3F8-45E9637D4AA6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8F630AF5-F00F-4CAF-B87A-675497724A35}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Logging.dll</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Microsoft.Dynamic.dll</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Microsoft.Scripting.AspNet.dll</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Microsoft.Scripting.dll</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Microsoft.Scripting.Metadata.dll</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Programming.dll</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/SuperBeanPacketLayer.dll</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Timing.dll</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/UiUtilities.dll</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/UsbGeaAdapter.dll</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/CommandLine.dll</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/UsbHid.dll</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/UsbSerialPort.dll</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Utilities.dll</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/XInclude.dll</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/XPointer.dll</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Encoding.dll</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/ErdCommunication.Controls.dll</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/ErdCommunication.dll</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/GadLayer.dll</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/Gea3Packets.dll</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/GeaCommunication.Controls.dll</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Instruments/GEA3 Toolkit/GEA3 DLL Source/GeaCommunication.dll</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 				<Property Name="TgtF_companyName" Type="Str">General Electric</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HEWH Reliability GEA3</Property>
@@ -1191,43 +1279,28 @@ Rev 2.0.11.37
 				<Property Name="Destination[1].type" Type="Str">absFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{BBDD90FA-BCEE-4886-ABCF-2A04950ADC03}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016 f2</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{135150E5-11C6-492C-A1B2-01C45B76E488}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f1</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI Deployment Framework 2016</Property>
-				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI Logos 5.8</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI TDM Streaming 16.0</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
-				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI mDNS Responder 14.0</Property>
-				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">11</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">6</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -1238,7 +1311,7 @@ Rev 2.0.11.37
 				<Property Name="INST_productName" Type="Str">Project HEWH Test Program</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{9FC5A60E-BC89-4566-936E-D8AC00C293EC}</Property>
@@ -1261,6 +1334,107 @@ Rev 2.0.11.37
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Heat Up Macro</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Heat Up Macro</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="GEA Water Heater Test Software Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">c:\GEA Water Heater Test Software</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/GEA Water Heater Test Software</Property>
+				<Property Name="Destination[0].tag" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
+				<Property Name="Destination[0].type" Type="Str">absFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{727FC9D0-D89C-4872-9428-F98F0862F735}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 19.5</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{C1F48628-DF94-40A8-BA2B-77BEE154C572}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 19.5</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{D9084972-85DA-4F19-B6B3-527E3948D5A1}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.5</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{135150E5-11C6-492C-A1B2-01C45B76E488}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f1</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="INST_author" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/GEA Water Heater/GEA Water Heater Test Software Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">GEA Water Heater Test Software Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
+				<Property Name="INST_installerName" Type="Str">Setup.exe</Property>
+				<Property Name="INST_productName" Type="Str">GEA Water Heater</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
+				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="MSI_arpContact" Type="Str">Corey Sweatt</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.geappliances.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Documentation/GE Banner Graphic.bmp</Property>
+				<Property Name="MSI_distID" Type="Str">{E9DFDF43-BD31-427E-B73B-8AA17C25C54A}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{D7C420D7-0D8D-479A-B893-4ABAF13637F3}</Property>
+				<Property Name="MSI_welcomeImageID" Type="Ref">/My Computer/Documentation/Welcome Graphic.bmp</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Well, Hi there! Thanks for being awesome!</Property>
+				<Property Name="MSI_windowTitle" Type="Str">GEA Water Heater Test Software Installer</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">HEWH Reliability.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">HEWH Reliability</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">GEA Water Heater</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{285EF3EC-666A-4FEA-A9FB-74BB36D35A34}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">HEWH Reliability</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/HEWH Reliability</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
