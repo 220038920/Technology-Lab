@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="16008000">
+<Library LVVersion="19008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Instrument Driver for Yokogawa WT200 Series Meter</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;9R5M*1%-&lt;R$]@#FBMYF,:\!S?&amp;.H:=9;^!;UGN.NN;JK@C#HM&amp;&lt;O"Q"@XH:1'F%!O&gt;=2Q48AD@?^HX)QE:J,:=3/&gt;[0&lt;8IUY8_Q[JB/S4D&lt;HM&gt;^\?X]8.N;NBOT(\9B`Z$D@W1Y`ZX5_R4@=(`X``@`Y@\4`_]\U]/_O&amp;&amp;GKA?(%E,GN.M`(5H?:)H?:)H?:)(?:!(?:!(?:!\O:-\O:-\O:-&lt;O:%&lt;O:%&lt;O?U?,?1C&amp;\GM05?3S:/*EK**A71Q&amp;#7&lt;R*.Y%E`CY;-34_**0)EH]4"%C3@R**\%EXAY4)EH]33?R*.Y+.5EW6:S0)G(]AI]A3@Q"*\!QZ1+0!%AG#QI("3"I;!TW!E]A3@QM+P!%XA#4_!*0(1L]!3?Q".Y!A_(N,-344/MZ(AI)]@D?"S0YX%]F*&lt;D=4S/R`%Y(K;4YX%]$M+:U#E/1=Z"TA$HA_.R0,T*]4A?R_.Y(!^&gt;\1JZ/T/$:FD*]2A?QW.Y$)`BI91-D_%R0)&lt;(]&amp;"7BM@Q'"\$9XC93I&lt;(]"A?!W*-SP1SCBE('I/-Q0$Q;H?,N;M547*NL:`G?+/K&lt;E$6D;7[961XAOI#KS[=[I+I4L4K"+J/D/I,K\[)#KC;7&amp;61.6"&lt;NBP;GN&lt;4FL1&amp;&lt;5\L;$0;&gt;$DUGQ&gt;ONVNN.BONVWPV@;`F=KH&amp;9K(Z@+[O[T3&lt;T43&gt;4P&gt;0KUP7=:HMHEPX\0@0,\@^]`8K];J&lt;0@1XKY?HO^MB`]EW0J&gt;_Q\.2:_-@GM-Z?A.[M$MC!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;9R5M*1%-&lt;R$]@#FBMYF,:\!S?&amp;.H:=9;^!;UGN.NN;JK@C#HM&amp;&lt;O"Q"@XH:1'F%!O&gt;=2Q48AD@?^HX)QE:J,:=3/&gt;[0&lt;8IUY8_Q[JB/S4D&lt;HM&gt;^\?X]8.N;NBOT(\9B`Z$D@W1Y`ZX5_R4@=(`X``@`Y@\4`_]\U]/_O&amp;&amp;GKA?(%E,GN.M`(5H?:)H?:)H?:)(?:!(?:!(?:!\O:-\O:-\O:-&lt;O:%&lt;O:%&lt;O?U?,?1C&amp;\GM05?3S:/*EK**A71Q&amp;#7&lt;R*.Y%E`CY;-34_**0)EH]4"%C3@R**\%EXAY4)EH]33?R*.Y+.5EW6:S0)G(]AI]A3@Q"*\!QZ1+0!%AG#QI("3"I;!TW!E]A3@QM+P!%XA#4_!*0(1L]!3?Q".Y!A_(N,-344/MZ(AI)]@D?"S0YX%]F*&lt;D=4S/R`%Y(K;4YX%]$M+:U#E/1=Z"TA$HA_.R0,T*]4A?R_.Y(!^&gt;\1JZ/T/$:FD*]2A?QW.Y$)`BI91-D_%R0)&lt;(]&amp;"7BM@Q'"\$9XC93I&lt;(]"A?!W*-SP1SCBE('I/-Q0$Q;H?,N;M547*NL:`G?+/K&lt;E$6D;7[961XAOI#KS[=[I+I4L4K"+J/D/I,K\[)#KC;7&amp;61.6"&lt;NBP;GN&lt;4FL1&amp;&lt;5\L;$0;&gt;$DUGQ&gt;ONVNN.BONVWPV@;`F=KH&amp;9K(Z@+[O[T3&lt;T43&gt;4P&gt;0KUP7=:HMHEPX\0@0,\@^]`8K];J&lt;0@1XKY?HO^MB`]EW0J&gt;_Q\.2:_-@GM-Z?A.[M$MC!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">2.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
