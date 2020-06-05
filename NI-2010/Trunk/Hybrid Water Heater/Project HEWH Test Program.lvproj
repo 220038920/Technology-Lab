@@ -1163,7 +1163,15 @@ Rev 2.0.11.39
 2. Fixing Flow Meter IP Addresses in draw loop
 3. Adding splash screen
 4. Fixing the "Delay Cutout"
-</Property>
+
+Rev 2.0.11.40
+1. Fixing splash screen
+2. Moving Ultramat initialize to event structure
+3. Adding custom temps to Steady State test (enable disable to prevent wrong data input)
+4. Fixing stabilization limits
+5. Seperated Purge and Draw for Thermal test
+6. Removing Debug, Current, and Bus file from auto data save. Renamed "Data"
+7. Fixing splash screen</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1172,7 +1180,7 @@ Rev 2.0.11.39
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
@@ -1183,7 +1191,7 @@ Rev 2.0.11.39
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8F630AF5-F00F-4CAF-B87A-675497724A35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A2F1714A-029F-4AD8-819B-CC0D4EF2D2A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1405,7 +1413,7 @@ Rev 2.0.11.39
 				<Property Name="INST_defaultDir" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
 				<Property Name="INST_installerName" Type="Str">Setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">GEA Water Heater</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
