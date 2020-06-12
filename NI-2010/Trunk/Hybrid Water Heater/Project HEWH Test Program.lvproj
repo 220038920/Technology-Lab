@@ -269,6 +269,7 @@
 			<Item Name="HEWH Calculate Cp Water.vi" Type="VI" URL="../Support VIs/HEWH Calculate Cp Water.vi"/>
 			<Item Name="HEWH Thermal Eff Coerce.vi" Type="VI" URL="../Support VIs/HEWH Thermal Eff Coerce.vi"/>
 			<Item Name="HEWH Gas Thermal Stabilization Check.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization Check.vi"/>
+			<Item Name="HEWH Gas Thermal Stabilization Data Array.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization Data Array.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1171,7 +1172,14 @@ Rev 2.0.11.40
 4. Fixing stabilization limits
 5. Seperated Purge and Draw for Thermal test
 6. Removing Debug, Current, and Bus file from auto data save. Renamed "Data"
-7. Fixing splash screen</Property>
+7. Fixing splash screen
+8. Adding a fudge factor (0.04) to the rate on thermals
+9. Simplifing Rate equation and seperating out Efficiency Equation. Added Target Temp delta PID to adjust Rate slightly.
+10. Fixing unit error in rate calculation
+11. Adjusting correction speed on PID loop for Delta T Correction
+12. Moving back to 2000 sec purge
+13. Changing +/- 2 to +/-1 on thermal stability. Adding RTD stability. Adding 30 stable array before thermal test
+14. Changing RTDout-RTDin to +/- 2F. All others stay the same</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1191,7 +1199,7 @@ Rev 2.0.11.40
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2F1714A-029F-4AD8-819B-CC0D4EF2D2A3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D410C2E9-39BC-47BF-AF65-A2C05654B423}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1413,7 +1421,7 @@ Rev 2.0.11.40
 				<Property Name="INST_defaultDir" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
 				<Property Name="INST_installerName" Type="Str">Setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">GEA Water Heater</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
