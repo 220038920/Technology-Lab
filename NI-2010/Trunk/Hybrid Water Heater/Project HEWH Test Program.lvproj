@@ -266,10 +266,16 @@
 			<Item Name="HEWH Gas Thermal Calculation.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Calculation.vi"/>
 			<Item Name="HEWH Draw Start GEA3 Commands.vi" Type="VI" URL="../Support VIs/HEWH Draw Start GEA3 Commands.vi"/>
 			<Item Name="HEWH Input Rate Flow Calculation.vi" Type="VI" URL="../Support VIs/HEWH Input Rate Flow Calculation.vi"/>
-			<Item Name="HEWH Calculate Cp Water.vi" Type="VI" URL="../Support VIs/HEWH Calculate Cp Water.vi"/>
 			<Item Name="HEWH Thermal Eff Coerce.vi" Type="VI" URL="../Support VIs/HEWH Thermal Eff Coerce.vi"/>
 			<Item Name="HEWH Gas Thermal Stabilization Check.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization Check.vi"/>
+			<Item Name="HEWH Water Cp.vi" Type="VI" URL="../Support VIs/HEWH Water Cp.vi"/>
 			<Item Name="HEWH Gas Thermal Stabilization Data Array.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Stabilization Data Array.vi"/>
+			<Item Name="HEWH Gas Thermal Raw Calc.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Raw Calc.vi"/>
+			<Item Name="HEWH Gas Thermal Average Final.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Average Final.vi"/>
+			<Item Name="HEWH Gas Thermal Final Calculations.vi" Type="VI" URL="../Support VIs/HEWH Gas Thermal Final Calculations.vi"/>
+			<Item Name="HEWH Temp Decline Main.vi" Type="VI" URL="../Support VIs/HEWH Temp Decline Main.vi"/>
+			<Item Name="HEWH UEF Draw Start Modfier.vi" Type="VI" URL="../Support VIs/HEWH UEF Draw Start Modfier.vi"/>
+			<Item Name="HEWH 30 Min Thermal Calcs.vi" Type="VI" URL="../Support VIs/HEWH 30 Min Thermal Calcs.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1179,7 +1185,72 @@ Rev 2.0.11.40
 11. Adjusting correction speed on PID loop for Delta T Correction
 12. Moving back to 2000 sec purge
 13. Changing +/- 2 to +/-1 on thermal stability. Adding RTD stability. Adding 30 stable array before thermal test
-14. Changing RTDout-RTDin to +/- 2F. All others stay the same</Property>
+14. Changing RTDout-RTDin to +/- 2F. All others stay the same
+15. Fixing test end time for automatic termination
+16. cleaning up the CP and Density calculations. Had two different versions
+17. Removing meter reset from start of thermal test (gas and flow)
+18. Fixing CO CO2 to display at 15,20,and 25 min for rate and combustion
+
+Rev 2.0.11.41
+1. Deleted second reset in thermals
+Rev 2.0.11.42
+1. Adding state 5 only thermal calculations
+2. Reverting back to 3 attempts for the intellifaucet stop/start control
+Rev 2.0.11.43
+1. Tinkering with Intellifauct trying to improve speed and still not miss commands
+2. Fixed Cp to match Inerteck spreadsheet
+3. Fixed Thermal % calculation using average of only the 30min test.
+4. Fixed variable typo
+5. Adding additional steps for NOx
+6. Making Temp Decline Method variable (need larger decline for NOx test)
+7. Adding Thermal Calculations to output. Reducing Temp Decline from 0.5 to 0.2
+
+Rev 2.0.11.44
+1. Changing decline from 0.1 to 0.05
+2. Updating runtime average from 8 samples to 20 samples
+3. Adding a skip purge for start of NOx test
+
+Rev 2.0.11.45
+1. Adding purge and temp decline inside draw routine. This is for the NOx test
+2. Changing temp decline amount from 0.05 to 0.01 NOx
+
+Rev 2.1.11.45
+1. Working to read relay states to fix output relay read during startup.
+
+Rev 2.2.11.45
+1. Disabling relay update during draw
+2. Adding minimum time to temp decline routine for NOx only.
+3. Adding correct working for program state (waiting on max avg tank temp)
+
+Rev 2.3.11.45
+1. Renamed FHD for Electric Water Heater (removed "40/50 gal")
+2. Removed temp decline for NOx. Replaced with 10 minute wait
+3. Removed a "Read Data" command from Cp. It was a bug. Was using for debugging.
+4. Updating temperature tolerance conditions for thermal test. They are all +/- 2F
+
+Rev 2.4.11.45
+1. Added UEF time modifer. This starts the test 5 seconds sooner. Accounts for valve change
+2. Increased rate average for thermal from 3 to 6
+3. added debug text to eff output on thermal. 
+
+Rev 2.6.11.45
+1. Adding filter to RTDin-RTDout for Thermal
+2. Adding truth string to find the bug
+
+Rev 2.7.11.45
+1. Adding additional text for "thermal stabil array"
+
+Rev 2.8.11.45
+1. Removed Zero delay and made standard
+2. Moved RTD in/ RTD out filter to main MW100 scan (dropping data)
+3. Updated thermal final calc. Moved array start into state 5...rather then the end of state 4
+
+Rev 2.9.11.45
+1. Adding thermal calc output to debug
+
+Rev 2.9.14.45
+1. Working with prop valve auto step. Starting to remove mix valve auto step
+2. Resetting Upper Limit to Zero to allow downward sweep</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1188,9 +1259,10 @@ Rev 2.0.11.40
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">11</Property>
+				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1199,7 +1271,7 @@ Rev 2.0.11.40
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D410C2E9-39BC-47BF-AF65-A2C05654B423}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{81F51268-958F-49D3-848F-9AC707D736EC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1421,7 +1493,7 @@ Rev 2.0.11.40
 				<Property Name="INST_defaultDir" Type="Str">{7DB7B823-7C25-4BCF-A05F-F6591EF0DCCA}</Property>
 				<Property Name="INST_installerName" Type="Str">Setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">GEA Water Heater</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
