@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -190,6 +190,53 @@
 				<Property Name="TgtF_productName" Type="Str">GEA3 HEWH Example</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4307CCEA-8A27-4CA2-B6C2-E309AA36D035}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GEA Example.exe</Property>
+			</Item>
+			<Item Name="Get GEA3 Serial Number" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D264A53B-DB0C-40F7-9982-A19F542B807B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5A003D21-73C8-4607-8FCD-DFA0E6D64DD8}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C196E5CE-9489-411B-A305-93C8DC7E8F9E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Get GEA3 Serial Number</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Get GEA3 Serial Number</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EB32D1FE-3E0C-4DDA-AF10-7FCA97E53FDB}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GEA3 Serial Number Utility.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Get GEA3 Serial Number/GEA3 Serial Number Utility.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Get GEA3 Serial Number/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A728EE69-BF8C-435E-8493-D3F5523CD072}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GEA2_Toolkit.lvlib/FTDI/Get GEA3 Serial Number.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GEA3 DLL Source</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Get GEA3 Serial Number</Property>
+				<Property Name="TgtF_internalName" Type="Str">Get GEA3 Serial Number</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_productName" Type="Str">Get GEA3 Serial Number</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B6A3E96A-C48E-4728-8B99-E117DFFD62C0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GEA3 Serial Number Utility.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LabVIEW GEA2 Toolkit" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
