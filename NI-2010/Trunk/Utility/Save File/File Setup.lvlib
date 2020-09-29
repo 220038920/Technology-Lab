@@ -59,6 +59,7 @@
 	<Item Name="Save File Common Headers.vi" Type="VI" URL="../Public/Save File Common Headers.vi"/>
 	<Item Name="Save File Create Default DOE Setup File.vi" Type="VI" URL="../File Setup (Public)/Save File Create Default DOE Setup File.vi"/>
 	<Item Name="Save File Create Default File.vi" Type="VI" URL="../File Setup (Public)/Save File Create Default File.vi"/>
+	<Item Name="Save File DOE Clean Comments.vi" Type="VI" URL="../File Setup (Public)/Save File DOE Clean Comments.vi"/>
 	<Item Name="Save File DPT RMC Calculations.vi" Type="VI" URL="../File Setup (Public)/Save File DPT RMC Calculations.vi"/>
 	<Item Name="Save File Extract Gain and Offset.vi" Type="VI" URL="../File Setup (Public)/Save File Extract Gain and Offset.vi"/>
 	<Item Name="Save File Product Header Specific.vi" Type="VI" URL="../Public/Save File Product Header Specific.vi"/>
