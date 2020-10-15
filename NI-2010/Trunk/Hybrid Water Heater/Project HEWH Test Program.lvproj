@@ -619,7 +619,9 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="HEWH Find Non Draw.vi" Type="VI" URL="../Support VIs/HEWH Find Non Draw.vi"/>
+		<Item Name="HEWH Standard Test Locations.vi" Type="VI" URL="../Support VIs/HEWH Standard Test Locations.vi"/>
+		<Item Name="HEWH Get Default Test Values.vi" Type="VI" URL="../Support VIs/HEWH Get Default Test Values.vi"/>
+		<Item Name="HEWH Search Element.vi" Type="VI" URL="../Support VIs/HEWH Search Element.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1255,7 +1257,22 @@ Rev 2.9.14.45
 2. Resetting Upper Limit to Zero to allow downward sweep
 
 Rev 2.9.14.46
-1. Adding delay on the flow termination. Looking to see if it helps bucket tests and dribble. When running Thermal, it will be disabled.</Property>
+1. Adding delay on the flow termination. Looking to see if it helps bucket tests and dribble. When running Thermal, it will be disabled.
+
+Rev 2.10.14.46
+1. Trying to fix the Steady State Test
+
+Rev 2.12.14.46
+1. Trying to fix the Steady State Test. Chaning the flow rate and temp delta
+
+Rev 2.12.15.46
+1. Adding HP ERDs
+
+Rev 2.12.16.46
+1. Updating HP ERDs
+
+Rev 2.13.16.46
+1. Development build to find linear relationship between gallons and end of draw. This tunes totalized flow</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1266,8 +1283,8 @@ Rev 2.9.14.46
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
 				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.minor" Type="Int">13</Property>
+				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1276,7 +1293,7 @@ Rev 2.9.14.46
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB4BAE8F-04CC-44B8-BF0A-C2F8407B8517}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B86F703E-A771-413C-8BBD-ED6D42C090FC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1354,7 +1371,13 @@ Rev 2.9.14.46
 				<Property Name="SourceCount" Type="Int">25</Property>
 				<Property Name="TgtF_companyName" Type="Str">General Electric</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HEWH Reliability GEA3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HEWH Reliability GEA3
+
+Verson Nomenclature:
+Digit 1: General Version
+Digit 2: Corey Version when building development software. I use this when iterating software fixes
+Digit 3: GEA3 ERD Updates
+Digit 4: Final Release Number</Property>
 				<Property Name="TgtF_internalName" Type="Str">HEWH Reliability</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 General Electric</Property>
 				<Property Name="TgtF_productName" Type="Str">HEWH Reliability</Property>
