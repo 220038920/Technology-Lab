@@ -1,0 +1,59 @@
+19WS1276,,,,,,,,,,,,,,,
+,Date:,11/17/2020,,,,,,,,,,,,,
+,Y,(Y/N),Is the water heater electric? (If Y then 9 thru 14 may be skipped),,,,,,,,,,,,
+1,29.864,Gal,"Volume (If Volume is entered then items 2 thru 4 may be skipped, otherwise leave as 0)",,,,,,,,,,,,
+2,,lb,Weight of water heater empty,,,,,,,,,,,,
+3,,lb,Weight of water heater full,,,,,,,,,,,,
+4,,DegF,Temperature of water in water heater full,,,,,,,,,,,,
+*,33.779,Btu,Qstby,Qsu0-Qsuf (requires input at Qsu0 and Qsuf),,,,,,,,,,,
+6,118.267,DegF,T24,Mean Tank Temp at end of test,,,,,,,,,,,
+*,117.867,DegF,"Tsu,f",the mean tank temperature observed at the minute prior to the start of the draw following the first draw cluster or the minute prior to a recovery occurring at the start of the draw following the end of the first draw cluster,,,,,,,,,,,
+7,121.200,DegF,"Tsu,0",Max Mean Tank Temp after last draw recovery,,,,,,,,,,,
+*,7.645,Hr,tstby1,"elapsed time between the time at which the maximum mean tank temperature is observed after the first draw cluster and the minute prior to the start of the first draw following the end of the first draw cluster of the 24-hour simulated use test or the minute prior to a recovery occurring at the start of the draw following the end of the first draw cluster, h",,,,,,,,,,,
+8,NA,Hr,tstby,Time from last draw / recovery Tmax to 24 hours.,,,,,,,,,,,
+*,14849.024,Btu,"Qsu,0",cumulative energy consumption of the water heater from the start of the 24-hour simulated use test to the time at which the maximum mean tank temperature is attained after the recovery following the end of the first draw cluster,,,,,,,,,,,
+*,14882.803,Btu,"Qsu,f",cumulative energy consumption of the water heater from the start of the 24-hour simulated use test to the minute prior to the start of the draw following the end of the first draw cluster or the minute prior to a recovery occurring at the start of the draw following the end of the first draw cluster,,,,,,,,,,,
+*,14.881,Gal,V1,Gallons drawn prior to completion of the FIRST recovery event.,,,,,,,,,,,
+*,125.734,DegF,Tdel1,Average outlet temperature of water drawn prior to completion of the FIRST recovery event.,,,,,,,,,,,
+11,57.904,DegF,Tin1,Average inlet water temperature of water introduced prior to completion of the FIRST recovery event.,,,,,,,,,,,
+12,121.667,DegF,Tmax1,Max mean tank temp after the FIRST recovery event.,,,,,,,,,,,
+13,121.883,DegF,To,Initial mean tank temp as observed 1 minute prior to start,,,,,,,,,,,
+14,8523.176,Btu,Qr,Energy used from the start of the test through the FIRST recovery event when Tmax1 occurrs,,,,,,,kwhx3412=btu,,,,
+15,119.499,DegF,Ttstby1,overall average storage tank temperature between the time when the maximum mean tank temperature is observed after cut-out following the first draw cluster and the minute prior to commencement of the next draw following the first draw cluster of the 24-hour simulated use test,,,,,,,,,,,
+16,67.610,DegF,Tastby1,overall average ambient temperature between the time when the maximum mean tank temperature is observed after cut-out following the first draw cluster and the minute prior to commencement of the next draw following the first draw cluster of the 24-hour simulated use test,,,,,,,,,,,
+*,32700.608,Btu,Q,Total energy used during the 24 hour simulated use test (Q24-Q0),,,,,,,,,,,
+18,121.883,DegF,To,Initial mean tank temp.,,,,,,,,,,,
+19,,DegF,Tstby2,Average mean tank temp during all standby.,,,,Not used in UEF calculation.,,,,,,,
+20,67.855,DegF,Tastby2,Average ambient temp during all standby.,,,,,,,,,,,
+21,23.406,Hr,tstby2,Total standby time.,,,,,,,,,,,
+22,Draw #,Vol (Gal),Tin-avg (DegF),Tout-avg (DegF),Mass = Volume * Density,,,,,,,,,,
+,V1,14.88,57.9,125.7,Water drawn prior to FIRST recovery event,,,,,,,,Gallons,gpm,minutes
+,1,14.88,57.9,125.7,,,,,,,,,15.00,1.7,8.824
+,2,2.00,57.9,126.6,,,,,,,,,2.00,1.0,2.000
+,3,8.95,57.7,125.7,,,,,,,,,9.00,1.7,5.294
+,4,8.94,57.6,122.5,,,,,,,,,9.00,1.7,5.294
+,5,5.01,57.8,126.6,,,,,,,,,5.00,1.7,2.941
+,6,0.99,57.9,125.0,,,,,,,,,1.00,1.0,1.000
+,7,1.01,57.7,123.8,,,,,,,,,1.00,1.0,1.000
+,8,1.01,58.1,124.9,,,,,,,,,1.00,1.0,1.000
+,9,1.01,58.2,123.4,,,,,,,,,1.00,1.0,1.000
+,10,1.98,57.9,125.2,,,,,,,,,2.00,1.0,2.000
+,11,2.04,57.5,126.5,,,,,,,,,2.00,1.7,1.176
+,12,6.97,57.6,126.8,,,,,,,,,7.00,1.7,4.118
+,Total,54.80,na,na,,,,,,,,,,Total minutes,35.647
+,Ave,,,,,,,,,,,,,Total hours,0.594
+,,,,,,,,,,,,,,"Total standby time, tstby2",23.406
+Outputs,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+1,Qhr,114.0225593,Btu/Hr,Hourly Standby Losses,,,,,,,,,,,
+2,Ua,2.197413182,Btu/Hr °F,Standby heat loss coefficient,,,,,,,,,,,
+3,Qd,33609.60722,Btu/Day,Daily Water Heating Energy Consumption,,,,,,,,,,,
+4,Qda,33627.85642,Btu/Day,Adjusted Daily Water Heating Energy Consumption,,,,,,,,,,,
+5,Qhw,31481.39816,Btu/Day,Energy Used to heat water,,,,,,,,,,,
+6,Qhw67,31207.94089,Btu/Day,Energy Used to heat water over a 67 DegF rise.,,,,,,,,,,,
+7,Qhwd,-273.4572712,Btu/Day,,,,,,,,,,,,
+8,Qdm,33354.39915,Btu/Day,Modified daily water heating energy consumption.,,,,,,,,,,,
+9,Ef,0.917,,Energy Factor,,,,,,,,,,,
+10,Nr,0.98,,Recovery Efficiency,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
