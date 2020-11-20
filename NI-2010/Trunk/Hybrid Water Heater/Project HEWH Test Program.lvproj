@@ -277,6 +277,10 @@
 			<Item Name="HEWH UEF Draw Start Modfier.vi" Type="VI" URL="../Support VIs/HEWH UEF Draw Start Modfier.vi"/>
 			<Item Name="HEWH 30 Min Thermal Calcs.vi" Type="VI" URL="../Support VIs/HEWH 30 Min Thermal Calcs.vi"/>
 			<Item Name="HEWH Event Lead Check.vi" Type="VI" URL="../Support VIs/HEWH Event Lead Check.vi"/>
+			<Item Name="HEWH Standard Test Locations.vi" Type="VI" URL="../Support VIs/HEWH Standard Test Locations.vi"/>
+			<Item Name="HEWH Get Default Test Values.vi" Type="VI" URL="../Support VIs/HEWH Get Default Test Values.vi"/>
+			<Item Name="HEWH Search Element.vi" Type="VI" URL="../Support VIs/HEWH Search Element.vi"/>
+			<Item Name="HEWH Read Write Test File.vi" Type="VI" URL="../Support VIs/HEWH Read Write Test File.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -619,9 +623,6 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="HEWH Standard Test Locations.vi" Type="VI" URL="../Support VIs/HEWH Standard Test Locations.vi"/>
-		<Item Name="HEWH Get Default Test Values.vi" Type="VI" URL="../Support VIs/HEWH Get Default Test Values.vi"/>
-		<Item Name="HEWH Search Element.vi" Type="VI" URL="../Support VIs/HEWH Search Element.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1272,7 +1273,25 @@ Rev 2.12.16.46
 1. Updating HP ERDs
 
 Rev 2.13.16.46
-1. Development build to find linear relationship between gallons and end of draw. This tunes totalized flow</Property>
+1. Development build to find linear relationship between gallons and end of draw. This tunes totalized flow
+
+Rev 2.13.16.47
+1. Added linear equation for draw shutoff. This allows more precision for specific draw amounts (24hr)
+2. Added configurable tests with CSV files. Will add file automatically if not present.
+
+Rev 2.13.16.48
+1. Decreased the purge time by 1 deg. The draw temp remains the same. Tuning to prevent failed input temp tests
+
+Rev 2.14.16.48
+1. Special Build for RAC. Changed current range on WT300 to 50mA.
+
+Rev 2.15.16.48
+1. Reverted back to standard water heater settings for WT300 (Made configurable for future)
+2. Changed tolerance on Thermal and Steady State from 1 deg F to 2 deg F
+3. Updated decription on Steady State button name.
+
+Rev 2.16.16.48
+1. Re-enabled draw data processing. Its required for FHD</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1281,9 +1300,9 @@ Rev 2.13.16.46
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">13</Property>
+				<Property Name="Bld_version.minor" Type="Int">16</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1293,7 +1312,7 @@ Rev 2.13.16.46
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B86F703E-A771-413C-8BBD-ED6D42C090FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{916187A5-A489-4064-9C99-5707B687636A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1561,7 +1580,9 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
+1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
+1.0.0.2 - Fixing Recovery Eff when Tmax1 resided within a draw</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1570,7 +1591,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1579,7 +1600,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BA4972C-9BDD-4EA5-A8D8-C642E1DB8532}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EB18A17E-D0AC-4608-8FE5-A91FFB4A7D40}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1659,7 +1680,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">UEF Calculator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
@@ -1685,6 +1706,46 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/HEWH UEF - Main</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="HEWH Read Write Test File" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BE7C1CD7-B35C-4C97-8AC8-83BB03E3D5E9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6ADE64C6-E8A9-40A3-B982-0674C67C5262}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B2A1CED5-0DAA-4F00-BC0C-A8AEFBE64378}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HEWH Read Write Test File</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read Write Test File</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{87883B1C-D22E-46BF-A943-F233728EA86F}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read Write Test File/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read Write Test File/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{821F4265-F480-4FE6-990E-C99EF4F97A02}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support VIs/HEWH Read Write Test File.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HEWH Read Write Test File</Property>
+				<Property Name="TgtF_internalName" Type="Str">HEWH Read Write Test File</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_productName" Type="Str">HEWH Read Write Test File</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{19DC463F-3E53-4C0A-ADFD-D3158D3D0B92}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
