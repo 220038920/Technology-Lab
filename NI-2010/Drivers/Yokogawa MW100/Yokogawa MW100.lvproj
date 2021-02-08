@@ -128,10 +128,65 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="YKMW100 DISH Channel Settings.ctl" Type="VI" URL="../Type Definitions/YKMW100 DISH Channel Settings.ctl"/>
 			<Item Name="HEWH Module 4 Relay Status.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH Module 4 Relay Status.ctl"/>
+			<Item Name="MW100 General Start.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/MW100 General Start.vi"/>
+			<Item Name="HEWH Reset MW100.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Reset MW100.vi"/>
+			<Item Name="UTILITY Integral.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Integral.vi"/>
+			<Item Name="UTILITY Timeout Calc.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Timeout Calc.vi"/>
+			<Item Name="UTILITY E-Time.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY E-Time.vi"/>
+			<Item Name="UTILITY 1D DBL to 1D String.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY 1D DBL to 1D String.vi"/>
+			<Item Name="PRAT Channel Settings.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Type Definitions/PRAT Channel Settings.ctl"/>
+			<Item Name="HEWH Power Data.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Type Definitions/HEWH Power Data.ctl"/>
+			<Item Name="PRAT Read All MW100 Inputs.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/PRAT Specific/PRAT Read All MW100 Inputs.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="YKMW100 HEWH Check" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AB0D0DC0-1D1D-4523-B0B6-7082AE26879B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{50A1C2A1-EBFB-4287-AEDE-9A9F397DE9B9}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D213DD93-6CC9-460F-BA78-DEF1FDCC911B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">YKMW100 HEWH Check</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 HEWH Check</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{94E105F4-23AD-43CA-876A-8256CDDCBDF1}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">HEWH MW Checker.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 HEWH Check/HEWH MW Checker.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 HEWH Check/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC1C05DA-164E-4F7B-80DF-B5001D1234FA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/YKMW100 HEWH Check.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">YKMW100 HEWH Check</Property>
+				<Property Name="TgtF_internalName" Type="Str">YKMW100 HEWH Check</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_productName" Type="Str">YKMW100 HEWH Check</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6472227B-C36D-4C2C-A0FB-FE7537FD6B56}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">HEWH MW Checker.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
