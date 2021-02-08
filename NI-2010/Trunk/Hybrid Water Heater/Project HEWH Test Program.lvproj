@@ -281,6 +281,10 @@
 			<Item Name="HEWH Get Default Test Values.vi" Type="VI" URL="../Support VIs/HEWH Get Default Test Values.vi"/>
 			<Item Name="HEWH Search Element.vi" Type="VI" URL="../Support VIs/HEWH Search Element.vi"/>
 			<Item Name="HEWH Read Write Test File.vi" Type="VI" URL="../Support VIs/HEWH Read Write Test File.vi"/>
+			<Item Name="Gas Thermal Check Basic Tolerance.vi" Type="VI" URL="../Support VIs/Gas Thermal Check Basic Tolerance.vi"/>
+			<Item Name="Gas Thermal Adv Tolerance Check.vi" Type="VI" URL="../Support VIs/Gas Thermal Adv Tolerance Check.vi"/>
+			<Item Name="Gas Thermal Target Temperatures.vi" Type="VI" URL="../Support VIs/Gas Thermal Target Temperatures.vi"/>
+			<Item Name="Gas Thermal Check Tolerance.vi" Type="VI" URL="../Support VIs/Gas Thermal Check Tolerance.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -540,6 +544,7 @@
 			<Item Name="UTILITY 1D String to 1D Integer.vi" Type="VI" URL="../../Utility/UTILITY 1D String to 1D Integer.vi"/>
 			<Item Name="UTILITY Get Column Stats.vi" Type="VI" URL="../../Utility/UTILITY Get Column Stats.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="UTILITY Read GEA Setup Data.vi" Type="VI" URL="../../../../../NI-2010/Trunk/Utility/UTILITY Read GEA Setup Data.vi"/>
 			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
@@ -828,6 +833,11 @@
 				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -1291,7 +1301,26 @@ Rev 2.15.16.48
 3. Updated decription on Steady State button name.
 
 Rev 2.16.16.48
-1. Re-enabled draw data processing. Its required for FHD</Property>
+1. Re-enabled draw data processing. Its required for FHD
+
+Rev 2.17.16.48
+1. Fixed Splash Screen for PRAT
+
+Rev 2.18.16.48
+1. Working on Steady State testing and tolerances
+
+Rev 2.19.16.48
+1. Added requirment to meet target outlet temp in addition to all other requirments on SS and thermal testing
+2. Reverted back. I am not doing comment (1.). It draws too much water
+3. Adding a lower flow rate limit. Having issues with it going to zero flow. It cannot recover then
+
+Rev 2.20.16.48
+1. Removed debug data output for Thermal Efficiency
+2. Updated filter for RTDin and RTDout
+
+Rev 2.21.16.48
+1. Decoupled intellifaucet and prop valve on the "Stop" button
+2. Updated ERD for Heat Pump Development</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1302,7 +1331,7 @@ Rev 2.16.16.48
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
 				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">16</Property>
+				<Property Name="Bld_version.minor" Type="Int">22</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1312,7 +1341,7 @@ Rev 2.16.16.48
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{916187A5-A489-4064-9C99-5707B687636A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD14CCE6-92DF-4EEE-9BDA-F4B729E9A683}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1582,7 +1611,11 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
-1.0.0.2 - Fixing Recovery Eff when Tmax1 resided within a draw</Property>
+1.0.0.2 - Fixing Recovery Eff when Tmax1 resided within a draw
+1.1.0.3 - Fixing the V1 calculation (This is a preliminary release)
+1.0.0.6 - Can't remember the change. Look back to determine
+1.0.0.8 - Adding a few more error checks on the data. Looking for inlet temps on each draw
+1.0.0.9 - Updated the Error Check to fix inlet draw selection. Adding "text box" to display which draws are out of spec.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1591,7 +1624,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1600,7 +1633,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB18A17E-D0AC-4608-8FE5-A91FFB4A7D40}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A33165B7-E980-454F-9A75-6A07C2E9035A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1616,7 +1649,13 @@ Digit 4: Final Release Number</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HEWH UEF - Main</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HEWH UEF - Main
+
+Verson Nomenclature:
+Digit 1: General Version
+Digit 2: Corey Version when building development software. I use this when iterating software fixes
+Digit 3: GEA3 ERD Updates
+Digit 4: Final Release Number</Property>
 				<Property Name="TgtF_internalName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 GE Appliances, a Haier Company</Property>
 				<Property Name="TgtF_productName" Type="Str">HEWH UEF - Main</Property>
@@ -1745,6 +1784,46 @@ Digit 4: Final Release Number</Property>
 				<Property Name="TgtF_productName" Type="Str">HEWH Read Write Test File</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{19DC463F-3E53-4C0A-ADFD-D3158D3D0B92}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="HEWH Read GEA Configuration" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6F9AB49F-7453-4BD8-AFCB-DFF23BE7011A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FACFA68D-49BB-49DE-8302-9EFCD66A04BC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{345E3FC8-1F6B-44DC-A7F6-FFEA5E0C1AC1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HEWH Read GEA Configuration</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read GEA Configuration</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{642141A5-DD48-4B02-A9CB-B44D3E64803A}</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GEA Config Checker.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read GEA Configuration/GEA Config Checker.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Read GEA Configuration/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0EE8D11-AE47-4DD9-85FE-39B2C4742A8C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/White Box Testing/HEWH Read GEA Configuration.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HEWH Read GEA Configuration</Property>
+				<Property Name="TgtF_internalName" Type="Str">HEWH Read GEA Configuration</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_productName" Type="Str">HEWH Read GEA Configuration</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D5A28919-5243-42F5-A493-C6A945058FFD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GEA Config Checker.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
