@@ -1,6 +1,10 @@
 PowerAnalyzer,WT300
-Station,Station 4C
+Station,Station 1A
 HEWH RLT  PRAT or HEWH,HEWH
 Temperature KFactor,8
-Flow Kfactor,24
+Flow KFactor,24
 Intellifaucet Type,DRK375
+Intellifaucet Open Less 1 GPM,50
+Intellifaucet Open Less 1_7 GPM,58
+Intellifaucet Open Less  2.2 GPM,80
+Intellifaucet Open Greater 2.2 GPM,100

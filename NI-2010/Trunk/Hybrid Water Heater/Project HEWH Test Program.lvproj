@@ -1320,7 +1320,24 @@ Rev 2.20.16.48
 
 Rev 2.21.16.48
 1. Decoupled intellifaucet and prop valve on the "Stop" button
-2. Updated ERD for Heat Pump Development</Property>
+2. Updated ERD for Heat Pump Development
+
+Rev 2.23.16.48
+1.Allowing individual values in config file for intellifaucet tuning.
+
+Rev 2.26.16.48
+1.Tuning 3gpm specifically
+2. added additional electronic erds
+
+Rev 2.28.16.48
+1.Changed term draw from Draw to Heating
+2. Messing with the cycle increment on draw.
+
+Rev 2.28.16.48
+1.Allowing for longer scan rates. Updated PID loop for DAQ control. 
+
+Rev 2.30.16.48
+1.Placed "False=Draw Start" in the draw routine. Trying to prevent duplicate draws. It only happens occationally.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1331,7 +1348,7 @@ Rev 2.21.16.48
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
 				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">22</Property>
+				<Property Name="Bld_version.minor" Type="Int">30</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1341,7 +1358,7 @@ Rev 2.21.16.48
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD14CCE6-92DF-4EEE-9BDA-F4B729E9A683}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE6909AF-6A99-4871-8332-C0E20923CC74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1615,7 +1632,8 @@ Digit 4: Final Release Number</Property>
 1.1.0.3 - Fixing the V1 calculation (This is a preliminary release)
 1.0.0.6 - Can't remember the change. Look back to determine
 1.0.0.8 - Adding a few more error checks on the data. Looking for inlet temps on each draw
-1.0.0.9 - Updated the Error Check to fix inlet draw selection. Adding "text box" to display which draws are out of spec.</Property>
+1.0.0.9 - Updated the Error Check to fix inlet draw selection. Adding "text box" to display which draws are out of spec.
+1.0.0.11 - Added output diagnostics to determine where a test failed (Ambinet Temp, Inlet Temp, Flow Rate, ect). Also added filtering of "zero" data</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1624,7 +1642,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1633,7 +1651,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A33165B7-E980-454F-9A75-6A07C2E9035A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA11D5FD-51D2-409B-BACF-79A8DEA1E7AE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1719,7 +1737,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">UEF Calculator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
