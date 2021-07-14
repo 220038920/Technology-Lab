@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Draft//EN">
+<HTML>
+<HEAD>
+<TITLE>Title of Web Page</TITLE>
+<script language="javascript">
+   <!-- 
+   LVImages = new Array();
+   LVSrcs = new Array();
+   function LVSched(image, delay) {
+      LVImages[LVImages.length] = image;
+      LVSrcs[LVSrcs.length] = image.src;
+      setInterval("LVUpdate("+(LVImages.length-1)+")", delay);
+      image.onload='';
+   }
+   function LVUpdate(index) {
+      LVImages[index].src = LVSrcs[index] + '&' + Math.random();
+   }
+   //-->
+</script>
+</HEAD>
+<BODY >
+<H1>Title of Web Page</H1>
+Text that is going to be displayed before the VI panel image.<P>
+<IMG src="/.snap?01%20Wilt%20SM.vi" alt="01 Wilt SM" BORDER=1 onload="LVSched(this, 10000)"><P>
+Text that is going to be displayed after the VI panel image.
+</BODY>
+</HTML>

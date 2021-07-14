@@ -10,3 +10,32 @@
 
 
 # Metadata
+NI-2010/Drivers/builds/Fisher Paykel Motor Controller/Fisher & Paykel Installer/Volume/bin/p0/MU/MetaUninstaller.msi
+NI-2010/Drivers/builds/Fisher Paykel Motor Controller/Fisher & Paykel Installer/Volume/bin/p118/activ32.cab
+*.cab
+*.msi
+*.mst
+*.msu
+*.rtf
+*.lnk
+*.conf
+*.Old
+NI-2010/Trunk/Dryer Wilt/builds/Archive/data/CVS/Entries
+NI-2010/Trunk/Dryer Wilt/builds/Archive/data/CVS/Entries.Extra
+NI-2010/Trunk/Dryer Wilt/builds/Archive/data/CVS/Repository
+NI-2010/Trunk/Dryer Wilt/builds/Archive/data/CVS/Root
+NI-2010/Trunk/Washer HCC/CVS/Entries
+*.Extra
+NI-2010/Trunk/Washer HCC/CVS/Repository
+NI-2010/Trunk/Washer HCC/CVS/Root
+NI-2010/Trunk/Washer HCC/build/CVS/Entries
+NI-2010/Trunk/Washer HCC/build/CVS/Repository
+NI-2010/Trunk/Washer HCC/build/CVS/Root
+NI-2010/Trunk/Washer HCC/build/Config HCC/CVS/Entries
+NI-2010/Trunk/Washer HCC/build/Config HCC/CVS/Repository
+NI-2010/Trunk/Washer HCC/build/Config HCC/CVS/Root
+NI-2010/Trunk/Refrigeration/builds/Haier Refrigeration Test System/Haier Refrigeration Test System/Volume/license/zlib License - English.pdf
+NI-2010/Trunk/Dryer Wilt/builds/CVS/Entries
+NI-2010/Trunk/Dryer Wilt/builds/CVS/Root
+NI-2010/Trunk/Dryer Wilt/builds/CVS/Repository
+*.zip
