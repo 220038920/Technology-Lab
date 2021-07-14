@@ -1,0 +1,3 @@
+Sequence,Cycles,Mode Setting,Flow Rate (GPM),Temperature (°F),Reset Timer,Use Temp Decline Method,Terminate Condition,Condition Value #1,UE,LE,Comp,Fan,Test End Time (Sec),Purge Until Cutout,Start Conditions,Condition Value #2,Remove Power,Time,Check Special Cond.,Condition#,Draw Flags,Data Processing Delay (FHD 15sec UEF 5 Sec),Test Complete,User Setpoint ,Tank Setpoint
+1,1,,3,65,1,0,6,0,0,0,0,0,0,1,3,8,0,0,4,0,0,5,0,0,0
+2,20,,3,65,0,0,6,0,0,0,0,0,0,1,3,8,0,82800,4,0,0,0,0,0,0

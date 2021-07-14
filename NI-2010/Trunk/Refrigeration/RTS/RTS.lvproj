@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -141,7 +141,6 @@
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
@@ -150,8 +149,6 @@
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
 				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/TCP Shared Components/TCP Shared Components.lvlib"/>
-				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -264,12 +261,10 @@
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
@@ -292,6 +287,10 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
+				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Custom Pallet DBL.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet DBL.ctl"/>
@@ -342,55 +341,10 @@
 			<Item Name="Setra Read Write.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Read Write.vi"/>
 			<Item Name="Setra Initialize.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Initialize.vi"/>
 			<Item Name="Setra Main.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/Setra Main.vi"/>
-			<Item Name="MSBH_MSBL.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/MSBH_MSBL.vi"/>
-			<Item Name="MSB LSB.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/MSB LSB.vi"/>
-			<Item Name="Reasons For Termination.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Reasons For Termination.vi"/>
-			<Item Name="Reasons For Termination Data Decode.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Reasons For Termination Data Decode.vi"/>
-			<Item Name="GEA2 Commands Service Error Codes.ctl" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Type Definitions/GEA2 Commands Service Error Codes.ctl"/>
-			<Item Name="GEA2 Commands Status Query.ctl" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Type Definitions/GEA2 Commands Status Query.ctl"/>
-			<Item Name="GEA2 Commands Button Status.ctl" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Type Definitions/GEA2 Commands Button Status.ctl"/>
-			<Item Name="GEA2 Commands WaterHeater GEA2 Data.ctl" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Type Definitions/GEA2 Commands WaterHeater GEA2 Data.ctl"/>
-			<Item Name="HEWH Assemble HEWH Diagnostics Data.vi" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/HEWH Assemble HEWH Diagnostics Data.vi"/>
-			<Item Name="HyperTerm Data Decode.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/HyperTerm Data Decode.vi"/>
-			<Item Name="GEA2_Toolkit.lvlib" Type="Library" URL="../../../Utility/LabVIEW GEA2 Toolkit v1.0.0.0/library/GEA2_Toolkit.lvlib"/>
-			<Item Name="HEWH Hyperterminal.vi" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/HEWH Hyperterminal.vi"/>
-			<Item Name="ViperHawk Search Control.ctl" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Type Definitions/ViperHawk/ViperHawk Search Control.ctl"/>
-			<Item Name="ViperHawk Diagnostic Data.ctl" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Type Definitions/ViperHawk/ViperHawk Diagnostic Data.ctl"/>
-			<Item Name="ViperHawk Data.ctl" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Type Definitions/ViperHawk/ViperHawk Data.ctl"/>
-			<Item Name="GEA2 Commands.ctl" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Type Definitions/GEA2 Commands.ctl"/>
-			<Item Name="GEA2 Message Decoder.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/GEA2 Message Decoder.vi"/>
 			<Item Name="Custom Pallet Forward.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet Forward.ctl"/>
-			<Item Name="Data From Memory.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Data From Memory.vi"/>
-			<Item Name="Request Data From Flash.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Request Data From Flash.vi"/>
-			<Item Name="Update DSM Level.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Update DSM Level.vi"/>
-			<Item Name="PID Denominator.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/PID Denominator.vi"/>
-			<Item Name="Set Model Number.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Set Model Number.vi"/>
-			<Item Name="Bit Encode LEDs.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Bit Encode LEDs.vi"/>
-			<Item Name="Set LEDs.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Set LEDs.vi"/>
-			<Item Name="Set EEV Drive Lines.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Set EEV Drive Lines.vi"/>
-			<Item Name="Set Currents.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Set Currents.vi"/>
-			<Item Name="Custom Pallet Number.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet Number.ctl"/>
-			<Item Name="Set Ambient Threshold 1.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Set Ambient Threshold 1.vi"/>
-			<Item Name="Enter Exit FCT Mode.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Enter Exit FCT Mode.vi"/>
-			<Item Name="EEV Position.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/EEV Position.vi"/>
-			<Item Name="DSM Override Status.vi" Type="VI" URL="../../../Utility/GEA2 Commands/DSM Override Status.vi"/>
-			<Item Name="Populate HEWH Commands.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/Populate HEWH Commands.vi"/>
-			<Item Name="HEWH_DSM_CMD.vi" Type="VI" URL="../../../Utility/GEA2 Commands/HEWH/HEWH_DSM_CMD.vi"/>
 			<Item Name="DOE Capacity Measurments.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Capacity Measurments.ctl"/>
 			<Item Name="GEA2.ctl" Type="VI" URL="../../../Washer DOE/Configuration/GEA2.ctl"/>
 			<Item Name="DOE Main Control.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Main Control.ctl"/>
-			<Item Name="GeaCommunication.dll" Type="Document" URL="../../../Utility/LabVIEW GEA2 Toolkit v1.0.0.0/Appliance.NET/GeaCommunication.dll"/>
-			<Item Name="GeaCommunication.Usb.dll" Type="Document" URL="../../../Utility/LabVIEW GEA2 Toolkit v1.0.0.0/Appliance.NET/GeaCommunication.Usb.dll"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="HCC Washer Types.ctl" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Type Definitions/HCC Washer Types.ctl"/>
-			<Item Name="HexStringToBoolean.vi" Type="VI" URL="../../../Utility/LabVIEW GEA2 Toolkit v1.0.0.0/subVIs/HexStringToBoolean.vi"/>
-			<Item Name="Red_Micro_Parse.vi" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/subVIs/Red_Micro_Parse.vi"/>
-			<Item Name="Redundant.ctl" Type="VI" URL="../../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/type defs/Redundant.ctl"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -406,6 +360,11 @@
 			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../../Utility/UTILITY Counter.vi"/>
 			<Item Name="UTILITY Convert String to Time.vi" Type="VI" URL="../../../Utility/UTILITY Convert String to Time.vi"/>
 			<Item Name="UTILITY Get Column Stats.vi" Type="VI" URL="../../../Utility/UTILITY Get Column Stats.vi"/>
+			<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="../../../Utility/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+			<Item Name="Data Frame.ctl" Type="VI" URL="../../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Frame.ctl"/>
+			<Item Name="Data Cluster.ctl" Type="VI" URL="../../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Cluster.ctl"/>
+			<Item Name="FMA1600A Units String.ctl" Type="VI" URL="../../../../Drivers/Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Units String.ctl"/>
+			<Item Name="Units of Measure.ctl" Type="VI" URL="../../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Units of Measure.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RTS Combination Server" Type="EXE">
@@ -508,52 +467,31 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 16.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{BBDD90FA-BCEE-4886-ABCF-2A04950ADC03}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2016 f2</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{1E3C5D81-5D10-421A-AE16-1FC585D2FB7D}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f3</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
-				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
-				<Property Name="DistPart[2].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[13].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[13].productName" Type="Str">NI Error Reporting 2016</Property>
-				<Property Name="DistPart[2].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI System Web Server 16.0</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2016</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
-				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
-				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">14</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">7</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -564,7 +502,7 @@
 				<Property Name="INST_productName" Type="Str">Haier Refrigeration Test System</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="MSI_arpContact" Type="Str">Corey Sweatt (corey.sweatt2@geappliances.com)</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.geappliances.com/</Property>
