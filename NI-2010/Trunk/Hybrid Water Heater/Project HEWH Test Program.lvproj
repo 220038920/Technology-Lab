@@ -285,6 +285,18 @@
 			<Item Name="Gas Thermal Adv Tolerance Check.vi" Type="VI" URL="../Support VIs/Gas Thermal Adv Tolerance Check.vi"/>
 			<Item Name="Gas Thermal Target Temperatures.vi" Type="VI" URL="../Support VIs/Gas Thermal Target Temperatures.vi"/>
 			<Item Name="Gas Thermal Check Tolerance.vi" Type="VI" URL="../Support VIs/Gas Thermal Check Tolerance.vi"/>
+			<Item Name="HEWH Update Clusters.vi" Type="VI" URL="../Support VIs/HEWH Update Clusters.vi"/>
+			<Item Name="HEWH Get Data Main.vi" Type="VI" URL="../Support VIs/HEWH Get Data Main.vi"/>
+			<Item Name="HEWH Variable Flow Adjustment.vi" Type="VI" URL="../Support VIs/HEWH Variable Flow Adjustment.vi"/>
+			<Item Name="HEWH MW100 Data.vi" Type="VI" URL="../Support VIs/HEWH MW100 Data.vi"/>
+			<Item Name="HEWH Emerson Data.vi" Type="VI" URL="../Support VIs/HEWH Emerson Data.vi"/>
+			<Item Name="HEWH Dip Tube Pressure Compensation.vi" Type="VI" URL="../Support VIs/HEWH Dip Tube Pressure Compensation.vi"/>
+			<Item Name="HEWH Variable Purge Temps.vi" Type="VI" URL="../Support VIs/HEWH Variable Purge Temps.vi"/>
+			<Item Name="HEWH Variable Scan Rate.vi" Type="VI" URL="../Support VIs/HEWH Variable Scan Rate.vi"/>
+			<Item Name="HEWH Disable Temp Adjustment Reason.vi" Type="VI" URL="../Support VIs/HEWH Disable Temp Adjustment Reason.vi"/>
+			<Item Name="HEWH Disable Flow Adjust.vi" Type="VI" URL="../Support VIs/HEWH Disable Flow Adjust.vi"/>
+			<Item Name="HEWH Check End State.vi" Type="VI" URL="../Support VIs/HEWH Check End State.vi"/>
+			<Item Name="HEWH HHV Notifier.vi" Type="VI" URL="../Support VIs/HEWH HHV Notifier.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -384,6 +396,9 @@
 				<Item Name="Siemens Ultramat 23.aliases" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.aliases"/>
 				<Item Name="Siemens Ultramat 23.lvlps" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.lvlps"/>
 				<Item Name="Siemens Ultramat 23.lvproj" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.lvproj"/>
+			</Item>
+			<Item Name="Inficon Fusion Micro GC" Type="Folder" URL="../../../Drivers/Inficon Fusion Micro GC">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="UTILITY" Type="Folder">
@@ -838,6 +853,7 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -882,6 +898,11 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="HEWH Temperature Filter.vi" Type="VI" URL="../Support VIs/HEWH Temperature Filter.vi"/>
+			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../Support VIs/HEWH Filter All Temps.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Heat Up Macro" Type="EXE">
@@ -1337,7 +1358,53 @@ Rev 2.28.16.48
 1.Allowing for longer scan rates. Updated PID loop for DAQ control. 
 
 Rev 2.30.16.48
-1.Placed "False=Draw Start" in the draw routine. Trying to prevent duplicate draws. It only happens occationally.</Property>
+1.Placed "False=Draw Start" in the draw routine. Trying to prevent duplicate draws. It only happens occationally.
+
+Rev 2.32.16.48
+1.Still tinkering with double draws
+
+Rev 2.33.16.48
+1.Added three sample averaging to RTDin and Flow Rate
+2. Changed DAQ loop to 1 sec scan rate
+3. Changed Save Loop to variable scan rate (this allows 60 sec rates during standby without affecting prog operation)
+4. Changed FHD scan rate from 3 sec to 5 sec.
+
+Rev 2.34.16.48
+1. Added the intellifaucet HOLD function for pressurization
+2. Changed purge time from 400 to 300
+3. Changed pressurization time from 30s to 5s
+4. Added filtering and averaging for all MW100 temps
+
+Rev 2.35.16.48
+1. Changed time for release intellifaucet from 5 to 15 sec
+2. Added Hold and Release Buttons to Front Panel
+
+Rev 2.36.16.48
+1. Adding Prop Valve and Intellifaucet Valve to data collection
+2. Clean up of Intellifaucet Park
+3. Clean up of MW100 Scan
+
+Rev 2.37.16.48
+1. Variable scan rates
+
+Rev 2.38.16.48
+1. Disable temp adjust on draw. Disable temp and flow at specific times during startup
+
+Rev 2.38.16.49
+1. Adding HHV
+
+Rev 2.39.16.49
+1. Adding Wobbe Index, Ethane, Propane, Methane
+
+Rev 2.39.16.50
+1. Making "Disable Purge Pressurization" default
+Rev 2.39.16.51
+1. Making "Disable Purge Pressurization" default
+
+Rev 2.39.16.52
+1. Adding Propane HHV data
+2. Removed 50 gallon draw on FHD gas water heater
+3. Changing default setpoint temp from 125 to 120</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1346,9 +1413,9 @@ Rev 2.30.16.48
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">52</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">30</Property>
+				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
@@ -1358,7 +1425,7 @@ Rev 2.30.16.48
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE6909AF-6A99-4871-8332-C0E20923CC74}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{690BF918-1E5E-4E5C-B4C9-21D2845696BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1633,7 +1700,9 @@ Digit 4: Final Release Number</Property>
 1.0.0.6 - Can't remember the change. Look back to determine
 1.0.0.8 - Adding a few more error checks on the data. Looking for inlet temps on each draw
 1.0.0.9 - Updated the Error Check to fix inlet draw selection. Adding "text box" to display which draws are out of spec.
-1.0.0.11 - Added output diagnostics to determine where a test failed (Ambinet Temp, Inlet Temp, Flow Rate, ect). Also added filtering of "zero" data</Property>
+1.0.0.11 - Added output diagnostics to determine where a test failed (Ambinet Temp, Inlet Temp, Flow Rate, ect). Also added filtering of "zero" data
+1.0.0.14 - Added FHR Output Data (Needs more data...but need to release the basic)
+1.0.0.15 - Forgot to enable the pop up screen for users</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1642,7 +1711,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1651,7 +1720,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FA11D5FD-51D2-409B-BACF-79A8DEA1E7AE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18B61F89-3639-4CA7-A9A7-9A4555A8D073}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
