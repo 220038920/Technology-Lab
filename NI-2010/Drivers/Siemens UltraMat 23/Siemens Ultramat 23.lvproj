@@ -28,7 +28,6 @@
 				<Item Name="Siemens ELAN.lvlib" Type="Library" URL="../instr.lib/Siemens ELAN/Siemens ELAN.lvlib"/>
 				<Item Name="siemens_logo_009999_FFFFFF.gif" Type="Document" URL="../instr.lib/Siemens ELAN/siemens_logo_009999_FFFFFF.gif"/>
 				<Item Name="State Enumeration.ctl" Type="VI" URL="../instr.lib/Siemens ELAN/State Enumeration.ctl"/>
-				<Item Name="State Machine.vi" Type="VI" URL="../instr.lib/Siemens ELAN/State Machine.vi"/>
 				<Item Name="vssver2.scc" Type="Document" URL="../instr.lib/Siemens ELAN/vssver2.scc"/>
 			</Item>
 		</Item>
