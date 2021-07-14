@@ -1,0 +1,39 @@
+
+#---------------------------------------------
+#License Pack for Session ID 4728676
+#--------------------------------------------
+
+
+#               PTC License Pack              
+
+#License codes for PTC Product.
+#Cpu D4-81-D7-C3-31-BF
+
+#Contact         : Corey Sweatt
+#Address         : 4000 Buechel Bank Road
+#                :  
+#                : Louisville, KY 40225
+#                :  
+#                :  
+#Email           : corey.sweatt2@geappliances.com 
+
+######### Mathcad with Add-On Collection Package #########
+#Feature Line Type  = INCREMENT
+#Feature Name       = MATHCAD
+#Feature Version    = 21.0
+#Version            = Prime 2.0
+#Number of Copies   = uncounted locked license
+#Supercede          = Y
+#Issue Date         = 18-JUN-2020
+#Expiration Date    = 19-JUL-2020
+#Node Locked Option = WLO
+INCREMENT MATHCAD ptc_d 21.0 19-jul-2020 uncounted \
+	90E0D01045540F68E405 VENDOR_STRING="VSVER=2.0 \
+	LO=(19)" HOSTID=PTC_HOSTID=D4-81-D7-C3-31-BF \
+	SUPERSEDE ISSUER=PTC-WEB-MATHCADPRIME2EXT \
+	ISSUED=18-JUN-2020 \
+	NOTICE="corey.sweatt2@geappliances.com, " \
+	SIGN2="034B 8B3A 260E 20E1 164C 865B D9D2 C0C2 B8AA \
+	AAB9 9785 C9F0 4F74 0427 D831 1E2E C3FB B702 ABE7 \
+	43B1 B91A 6B27 E4F2 85FC A6E6 5313 0B31 8053 8FE2 \
+	A56C"
