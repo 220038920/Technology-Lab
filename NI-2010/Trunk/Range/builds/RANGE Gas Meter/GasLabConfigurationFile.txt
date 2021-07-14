@@ -1,0 +1,37 @@
+Meter 1 Type,Propane
+Meter 1 Size(SLPM),5
+Meter 1 Accuracy Reading,0.8
+Meter 1 Accuracy Full Scale,0.2
+Meter 1 Present,TRUE
+Meter 2 Type,Propane
+Meter 2 Size(SLPM),20
+Meter 2 Accuracy Reading,0.8
+Meter 2 Accuracy Full Scale,0.2
+Meter 2 Present,TRUE
+Meter 3 Type,Methane
+Meter 3 Size(SLPM),10
+Meter 3 Accuracy Reading,0.8
+Meter 3 Accuracy Full Scale,0.2
+Meter 3 Present,TRUE
+Meter 4 Type,Methane
+Meter 4 Size(SLPM),50
+Meter 4 Accuracy Reading,0.8
+Meter 4 Accuracy Full Scale,0.2
+Meter 4 Present,TRUE
+Meter 5 Type,Methane
+Meter 5 Size(SLPM),10
+Meter 5 Accuracy Reading,0.8
+Meter 5 Accuracy Full Scale,0.2
+Meter 5 Present,TRUE
+Meter 6 Type,Methane
+Meter 6 Size(SLPM),50
+Meter 6 Accuracy Reading,0.8
+Meter 6 Accuracy Full Scale,0.2
+Meter 6 Present,TRUE
+USE RS232 Data Collection,TRUE
+Station 1 COM Alias,Station1
+Station 2 COM Alias,Station2
+Station 3 COM Alias,Station3
+Station 4 COM Alias,Station4
+Station 5 COM Alias,Station5
+Station 6 COM Alias,Station6
