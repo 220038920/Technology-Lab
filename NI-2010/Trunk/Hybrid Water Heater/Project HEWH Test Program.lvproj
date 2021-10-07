@@ -561,6 +561,7 @@
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../Utility/UTILITY Modbus 32bit Number Combine.vi"/>
 			<Item Name="UTILITY Read GEA Setup Data.vi" Type="VI" URL="../../../../../NI-2010/Trunk/Utility/UTILITY Read GEA Setup Data.vi"/>
 			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
+			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../Utility/Round_Three_Decimals.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1404,7 +1405,16 @@ Rev 2.39.16.51
 Rev 2.39.16.52
 1. Adding Propane HHV data
 2. Removed 50 gallon draw on FHD gas water heater
-3. Changing default setpoint temp from 125 to 120</Property>
+3. Changing default setpoint temp from 125 to 120
+
+Rev 2.39.16.53
+1. Added zero cutoff on flow rate. I tried to do on the emerson meter..but it cannot handle it.
+
+Rev 2.39.16.54
+1. Adding the setpoint temperature test
+
+Rev 2.39.16.55
+1. Trying to improve scan rate</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1413,7 +1423,7 @@ Rev 2.39.16.52
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">52</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -1425,7 +1435,7 @@ Rev 2.39.16.52
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{690BF918-1E5E-4E5C-B4C9-21D2845696BC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C7A3F45F-8957-430C-923E-BFE6135AA753}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1702,7 +1712,10 @@ Digit 4: Final Release Number</Property>
 1.0.0.9 - Updated the Error Check to fix inlet draw selection. Adding "text box" to display which draws are out of spec.
 1.0.0.11 - Added output diagnostics to determine where a test failed (Ambinet Temp, Inlet Temp, Flow Rate, ect). Also added filtering of "zero" data
 1.0.0.14 - Added FHR Output Data (Needs more data...but need to release the basic)
-1.0.0.15 - Forgot to enable the pop up screen for users</Property>
+1.0.0.15 - Forgot to enable the pop up screen for users
+1.0.0.16 - Adding Excel output for ANAB template
+1.0.0.17 - Fixing the adjustment factor for FHD. More work to come
+1.0.0.18 - Changed the toggle button for the users</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1711,7 +1724,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1720,7 +1733,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{18B61F89-3639-4CA7-A9A7-9A4555A8D073}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{37403A94-AC26-4F23-92D9-C75A36B18E19}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1733,7 +1746,10 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Macros/UEF/Example Data/Template.xlsx</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HEWH UEF - Main
@@ -1757,8 +1773,8 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{135150E5-11C6-492C-A1B2-01C45B76E488}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f1</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{1E3C5D81-5D10-421A-AE16-1FC585D2FB7D}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f3</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
@@ -1806,7 +1822,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">UEF Calculator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
