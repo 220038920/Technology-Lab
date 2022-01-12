@@ -644,6 +644,7 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="INTELLIFAUCET Temp Error Detect.vi" Type="VI" URL="../../../../../NI-2010/Trunk/Hybrid Water Heater/Custom Instrument Control/Intellifaucet/SubVIs/INTELLIFAUCET Temp Error Detect.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1414,7 +1415,18 @@ Rev 2.39.16.54
 1. Adding the setpoint temperature test
 
 Rev 2.39.16.55
-1. Trying to improve scan rate</Property>
+1. Trying to improve scan rate
+
+Rev 2.39.16.56
+1. I left the Debug boolean on true...its back to false now.
+
+Rev 2.39.16.57
+1. Added error handler to prevent out of tolerance temps on intellifaucet
+2. Enabled temp adjust for draws at 0.5 deg above min and 0.5 deg below max tolerance on intellifaucet
+3. Added a gas total reset at beginning of test (Critical for proper energy calcs)
+
+Rev 2.39.16.58
+1. Disabled the gas meter reset at beginning of test.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1423,7 +1435,7 @@ Rev 2.39.16.55
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">55</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -1435,7 +1447,7 @@ Rev 2.39.16.55
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C7A3F45F-8957-430C-923E-BFE6135AA753}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4D43A889-2CDC-4D29-8DEE-8B393A2BD749}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1715,7 +1727,9 @@ Digit 4: Final Release Number</Property>
 1.0.0.15 - Forgot to enable the pop up screen for users
 1.0.0.16 - Adding Excel output for ANAB template
 1.0.0.17 - Fixing the adjustment factor for FHD. More work to come
-1.0.0.18 - Changed the toggle button for the users</Property>
+1.0.0.18 - Changed the toggle button for the users
+1.0.0.19 - For gas, I take the final energy at 23 hours due to HHV constantly changing. Prevents false counting
+1.0.0.20 - Updated dates that print on the excel format ANAB sheet. Removed first draw max temp check.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1724,7 +1738,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1733,7 +1747,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{37403A94-AC26-4F23-92D9-C75A36B18E19}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5F121E7A-9DF2-4C40-804C-63A42A6820B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
