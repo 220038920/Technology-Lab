@@ -93,6 +93,8 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="HEWH Water Properties.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Macros/UEF/Type Definitions/HEWH Water Properties.ctl"/>
+			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../../Trunk/Utility/Round_Three_Decimals.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
