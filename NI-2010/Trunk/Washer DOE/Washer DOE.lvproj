@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -35,6 +35,9 @@
 			<Item Name="Chroma 617xx" Type="Folder" URL="../../../Drivers/Chroma 617xx">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Emerson 5700 Transmitter" Type="Folder" URL="../../../Drivers/Emerson 5700 Transmitter">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="GSE 350 Scale Display" Type="Folder" URL="../../../Drivers/GSE 350 Scale Display">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
@@ -46,11 +49,6 @@
 			</Item>
 			<Item Name="Laurel Meter" Type="Folder" URL="../../../Drivers/Laurel Meter">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-			<Item Name="MODBUS" Type="Folder">
-				<Item Name="MB Ethernet Master Query Read Coils UI32(poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query Read Coils UI32(poly).vi"/>
-				<Item Name="MB Ethernet Master Query Read Holding Registers (poly U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly U32).vi"/>
-				<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query Write Single Coil (poly).vi"/>
 			</Item>
 			<Item Name="Newport ITX-D3N" Type="Folder" URL="../../../Drivers/Newport ITX-D3N">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -115,7 +113,6 @@
 			<Item Name="Dynamic Headers" Type="Folder" URL="../../Utility/Dynamic Headers">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 			<Item Name="UTILITY 1D String to 1D DBL.vi" Type="VI" URL="../../Utility/UTILITY 1D String to 1D DBL.vi"/>
 			<Item Name="UTILITY Agilent Scan List Permutation.vi" Type="VI" URL="../../Utility/UTILITY Agilent Scan List Permutation.vi"/>
 			<Item Name="UTILITY Array Get 1D String Column From 2D.vi" Type="VI" URL="../../Utility/UTILITY Array Get 1D String Column From 2D.vi"/>
@@ -329,11 +326,9 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -345,6 +340,7 @@
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D DBL NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I16 NChan NSamp).vi"/>
@@ -353,6 +349,7 @@
 				<Item Name="DAQmx Read (Analog 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U32 NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Counter 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Counter 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL NChan 1Samp).vi"/>
@@ -377,6 +374,7 @@
 				<Item Name="DAQmx Read (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi"/>
 				<Item Name="DAQmx Read (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U8 NChan NSamp).vi"/>
@@ -387,6 +385,7 @@
 				<Item Name="DAQmx Read (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U16 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U32 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
@@ -484,7 +483,8 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -519,7 +519,7 @@
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Serial Shared Components/Serial Shared Components.lvlib"/>
+				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -529,7 +529,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
@@ -537,7 +537,7 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/TCP Shared Components/TCP Shared Components.lvlib"/>
+				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -608,17 +608,31 @@
 			<Item Name="HEWH Agilent Cluster.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Agilent Cluster.ctl"/>
 			<Item Name="HEWH Assemble HEWH Diagnostics Data.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Assemble HEWH Diagnostics Data.vi"/>
 			<Item Name="HEWH Calc and Calibration.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Calc and Calibration.ctl"/>
+			<Item Name="HEWH Check Relay Status.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Check Relay Status.vi"/>
 			<Item Name="HEWH Draw Flag ENUM.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Draw Flag ENUM.ctl"/>
 			<Item Name="HEWH Draw Pattern Setup.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Draw Pattern Setup.ctl"/>
+			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Filter All Temps.vi"/>
 			<Item Name="HEWH Hyperterminal.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Hyperterminal.vi"/>
+			<Item Name="HEWH Intellifaucet Temp Equation.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Intellifaucet Temp Equation.vi"/>
+			<Item Name="HEWH Module 4 Relay Status.ctl" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH Module 4 Relay Status.ctl"/>
+			<Item Name="HEWH MW100 Channel Numbers.ctl" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH MW100 Channel Numbers.ctl"/>
+			<Item Name="HEWH MW100 Data Cluster.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH MW100 Data Cluster.ctl"/>
+			<Item Name="HEWH OSI Calculations.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH OSI Calculations.vi"/>
 			<Item Name="HEWH Output Information.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Output Information.ctl"/>
+			<Item Name="HEWH Power Cluster Calcs.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Power Cluster Calcs.vi"/>
 			<Item Name="HEWH Power Data.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Power Data.ctl"/>
 			<Item Name="HEWH Power Elements.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Power Elements.ctl"/>
 			<Item Name="HEWH PreDraw.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH PreDraw.ctl"/>
+			<Item Name="HEWH Read All MW100 Inputs.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/HEWH Read All MW100 Inputs.vi"/>
+			<Item Name="HEWH Reset MW100.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Reset MW100.vi"/>
 			<Item Name="HEWH Special Condition Check.ctl" Type="VI" URL="../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/HEWH Special Condition Check.ctl"/>
 			<Item Name="HEWH Specific DAQ.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Specific DAQ.ctl"/>
 			<Item Name="HEWH Start Conditions.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Start Conditions.ctl"/>
+			<Item Name="HEWH Temperature Filter (Thermal).vi" Type="VI" URL="../../Hybrid Water Heater/Macros/UEF/Sub VIs/HEWH Temperature Filter (Thermal).vi"/>
+			<Item Name="HEWH Temperature Filter.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Temperature Filter.vi"/>
 			<Item Name="HEWH Termination Condition Cluster.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Termination Condition Cluster.ctl"/>
+			<Item Name="HEWH Water Properties.ctl" Type="VI" URL="../../Hybrid Water Heater/Macros/UEF/Type Definitions/HEWH Water Properties.ctl"/>
+			<Item Name="Inficon Data.ctl" Type="VI" URL="../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
 			<Item Name="INTELLIFAUCET Tested Flowrate Scenarios.ctl" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/Intellifaucet/Type Definitions/INTELLIFAUCET Tested Flowrate Scenarios.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -629,11 +643,14 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="MW100 General Start.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/MW100 General Start.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Parse Data Frame.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Data Collection/Parse Data Frame.vi"/>
 			<Item Name="Plotting Convert XY to Waveform.vi" Type="VI" URL="../../Utility/Plotting/SubVIs/Plotting Convert XY to Waveform.vi"/>
+			<Item Name="PRAT Channel Settings.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/PRAT Channel Settings.ctl"/>
+			<Item Name="PRAT Read All MW100 Inputs.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/PRAT Specific/PRAT Read All MW100 Inputs.vi"/>
 			<Item Name="PRAT Test.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/PRAT Test.ctl"/>
 			<Item Name="RANGE Accuracy At Zero.vi" Type="VI" URL="../../Range/SubVIs/RANGE Accuracy At Zero.vi"/>
 			<Item Name="RANGE ANSI Rate.ctl" Type="VI" URL="../../Range/Type Definitions/RANGE ANSI Rate.ctl"/>
@@ -676,6 +693,7 @@
 			<Item Name="Red_Micro_Parse.vi" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/subVIs/Red_Micro_Parse.vi"/>
 			<Item Name="Redundant.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Washer Soft Load Box/type defs/Redundant.ctl"/>
 			<Item Name="Reset Totalizer.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Tare Functions/Reset Totalizer.vi"/>
+			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../Utility/Round_Three_Decimals.vi"/>
 			<Item Name="RTS APLUS Points.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS APLUS Points.vi"/>
 			<Item Name="RTS Build Default Headers.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Build Default Headers.vi"/>
 			<Item Name="RTS Build Listbox Data.vi" Type="VI" URL="../../Refrigeration/RTS/SubVIs/RTS Build Listbox Data.vi"/>
@@ -719,6 +737,7 @@
 			<Item Name="Wago Voltage Range Selector.ctl" Type="VI" URL="../../../Drivers/WAGO 750-881/Type Definitions/Wago Voltage Range Selector.ctl"/>
 			<Item Name="Write Data Frame Options.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Settings/Write Data Frame Options.vi"/>
 			<Item Name="Write Register.vi" Type="VI" URL="../../../Drivers/Alicat Gas Meter Driver/Sub-VIs/Utilities/Write Register.vi"/>
+			<Item Name="YKMW100 VF0 Relay Status.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/Support VIs/YKMW100 VF0 Relay Status.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DOE Agilent Setup SUB" Type="EXE">
@@ -808,6 +827,11 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8449CFAE-DA1A-4855-A762-B52F1ABFC984}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">2.0.0.64 
+1. Updated Dish to allow for Emerson Coriollis Meter
+
+2.0.0.69
+1. Working on station 4 in advanced development AP1 lab</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Washer DOE</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -816,7 +840,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2CF2F9A-A6A6-41FC-8EFD-69BE2A59A9AF}</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">70</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Washer DOE.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Washer DOE/Washer DOE.exe</Property>
@@ -826,7 +850,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Washer DOE/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/energy (1).ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B63B04CE-A25F-4DF5-9380-5804E4EA25CC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8B7FD13-CFCA-4BB7-8B4C-94D606326BC2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/DOE Washer SM.vi</Property>
@@ -1106,43 +1130,28 @@
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 16.0</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{BBDD90FA-BCEE-4886-ABCF-2A04950ADC03}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2016 f2</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{1E3C5D81-5D10-421A-AE16-1FC585D2FB7D}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f3</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI System Web Server 16.0</Property>
-				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI Deployment Framework 2016</Property>
-				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 5.8</Property>
-				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI TDM Streaming 16.0</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
-				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
-				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI mDNS Responder 14.0</Property>
-				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">11</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">6</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
 				<Property Name="DistPart[4].productID" Type="Str">{ACA0F019-8166-47F0-A0A1-03ADD07227A1}</Property>
 				<Property Name="DistPart[4].productName" Type="Str">NI Measurement &amp; Automation Explorer 16.0</Property>
@@ -1224,7 +1233,7 @@
 				<Property Name="INST_productName" Type="Str">Washer DOE</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.25</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">General Electric</Property>
 				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Documentation/chian-haier-ge.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{167CB67C-2C3C-4B56-A5DD-20AE1F985999}</Property>

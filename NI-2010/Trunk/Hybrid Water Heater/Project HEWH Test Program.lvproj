@@ -1426,7 +1426,10 @@ Rev 2.39.16.57
 3. Added a gas total reset at beginning of test (Critical for proper energy calcs)
 
 Rev 2.39.16.58
-1. Disabled the gas meter reset at beginning of test.</Property>
+1. Disabled the gas meter reset at beginning of test.
+
+Rev 2.39.16.59
+1. Added the HHV correction factor to the total energy. Does not require a totalizer reset now. Added benefit is you can check the correction value by simply multiply the HHV and totalizer. </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1435,7 +1438,7 @@ Rev 2.39.16.58
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -1447,7 +1450,7 @@ Rev 2.39.16.58
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D43A889-2CDC-4D29-8DEE-8B393A2BD749}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B65278B8-32A5-4AD3-9A22-909E39A6DB11}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
