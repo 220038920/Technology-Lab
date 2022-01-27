@@ -644,7 +644,6 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="INTELLIFAUCET Temp Error Detect.vi" Type="VI" URL="../../../../../NI-2010/Trunk/Hybrid Water Heater/Custom Instrument Control/Intellifaucet/SubVIs/INTELLIFAUCET Temp Error Detect.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -1732,7 +1731,8 @@ Digit 4: Final Release Number</Property>
 1.0.0.17 - Fixing the adjustment factor for FHD. More work to come
 1.0.0.18 - Changed the toggle button for the users
 1.0.0.19 - For gas, I take the final energy at 23 hours due to HHV constantly changing. Prevents false counting
-1.0.0.20 - Updated dates that print on the excel format ANAB sheet. Removed first draw max temp check.</Property>
+1.0.0.20 - Updated dates that print on the excel format ANAB sheet. Removed first draw max temp check.
+1.0.0.21 - Changed end of flow check from 5 sec to 15 seconds</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1741,7 +1741,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1750,7 +1750,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F121E7A-9DF2-4C40-804C-63A42A6820B3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4D6B1A5C-54A4-457F-A77E-1D4138D5E494}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1839,7 +1839,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">UEF Calculator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
