@@ -16,6 +16,7 @@
 		<Item Name="Example programs" Type="Folder">
 			<Item Name="Alicat Dynamic Data Example.vi" Type="VI" URL="../../Example programs/Alicat Dynamic Data Example.vi"/>
 			<Item Name="Alicat Full Driver Example.vi" Type="VI" URL="../../Example programs/Alicat Full Driver Example.vi"/>
+			<Item Name="Alicat LDO FVIR Example.vi" Type="VI" URL="../../Example programs/Alicat LDO FVIR Example.vi"/>
 			<Item Name="Alicat Simple Terminal Interface.vi" Type="VI" URL="../../Example programs/Alicat Simple Terminal Interface.vi"/>
 			<Item Name="Alicat Simplified Driver Example.vi" Type="VI" URL="../../Example programs/Alicat Simplified Driver Example.vi"/>
 			<Item Name="Alicat Simplified Driver Example_Logging.vi" Type="VI" URL="../../Example programs/Alicat Simplified Driver Example_Logging.vi"/>
@@ -71,6 +72,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
@@ -87,6 +89,18 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="FMA1600A Build Commands.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Build Commands.vi"/>
+			<Item Name="FMA1600A Bus Data Filter.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Bus Data Filter.vi"/>
+			<Item Name="FMA1600A Close.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Close.vi"/>
+			<Item Name="FMA1600A Commands.ctl" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Commands.ctl"/>
+			<Item Name="FMA1600A Data.ctl" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Data.ctl"/>
+			<Item Name="FMA1600A Gas Type.ctl" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Gas Type.ctl"/>
+			<Item Name="FMA1600A General Send Receive.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A General Send Receive.vi"/>
+			<Item Name="FMA1600A General Setup.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A General Setup.vi"/>
+			<Item Name="FMA1600A Parse Data.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Parse Data.vi"/>
+			<Item Name="FMA1600A Raw Serial Read Write.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Raw Serial Read Write.vi"/>
+			<Item Name="FMA1600A Send Receive.vi" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/SubVIs/FMA1600A Send Receive.vi"/>
+			<Item Name="FMA1600A Units String.ctl" Type="VI" URL="../../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Units String.ctl"/>
 			<Item Name="UTILITY Notifier.ctl" Type="VI" URL="../../../../Trunk/Utility/Type Definitions/UTILITY Notifier.ctl"/>
 			<Item Name="UTILITY String Notifier.vi" Type="VI" URL="../../../../Trunk/Utility/UTILITY String Notifier.vi"/>
 		</Item>
