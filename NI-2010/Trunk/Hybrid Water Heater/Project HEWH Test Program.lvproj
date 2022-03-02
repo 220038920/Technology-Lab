@@ -788,9 +788,6 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
@@ -855,6 +852,7 @@
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -952,6 +950,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{1CBA0D75-22D3-4C86-B856-2A027794E6CB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{44BCD4F4-A24C-4FBD-9DB5-01F6092D6F75}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AD76C977-E612-4FBA-9FDD-5088D00EADD6}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Release notes v .318:  
 1. Connected temp target to &lt;20 start of draw in intellifaucet start.
@@ -1428,7 +1427,21 @@ Rev 2.39.16.58
 1. Disabled the gas meter reset at beginning of test.
 
 Rev 2.39.16.59
-1. Added the HHV correction factor to the total energy. Does not require a totalizer reset now. Added benefit is you can check the correction value by simply multiply the HHV and totalizer. </Property>
+1. Added the HHV correction factor to the total energy. Does not require a totalizer reset now. Added benefit is you can check the correction value by simply multiply the HHV and totalizer. 
+
+Rev 2.39.16.60
+1. Updating calibration screen to show accuracy
+2. Fixed header file description
+
+Rev 2.39.16.61
+1. Removed fuzzy logic, removed intellifaucet control of flow (only prop valve), removed intellf hold.
+2. Working to clean up any old code that we do not use. (need to make sure thermal test has not been affected)
+3. Fixed the intellifaucet % Flow not working in the output data
+4. Reduced 6 F to 4F on the Intellifaucet error detection
+5. Changed the PID ref temp from TC down to RTD IN
+6. Adding filter to TC Down. Added RTD in as reason for disable temp adjust
+7. Added adjustment every 14 seconds. Try to slow changes
+8. Tighented tolerance from 56.5-59.5 to 57-59</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1437,7 +1450,7 @@ Rev 2.39.16.59
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -1449,7 +1462,7 @@ Rev 2.39.16.59
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B65278B8-32A5-4AD3-9A22-909E39A6DB11}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{604D660C-B22E-4B65-A466-D3F2E047FD1D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1715,7 +1728,6 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{26E5B2D2-E08F-4F5F-A7F2-88F9B972041E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0C8B65ED-A7E3-41BC-A054-D9096498BD7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
@@ -1732,7 +1744,8 @@ Digit 4: Final Release Number</Property>
 1.0.0.18 - Changed the toggle button for the users
 1.0.0.19 - For gas, I take the final energy at 23 hours due to HHV constantly changing. Prevents false counting
 1.0.0.20 - Updated dates that print on the excel format ANAB sheet. Removed first draw max temp check.
-1.0.0.21 - Changed end of flow check from 5 sec to 15 seconds</Property>
+1.0.0.21 - Changed end of flow check from 5 sec to 15 seconds
+1.0.0.25 - Added error checking to FHR calculations</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1750,7 +1763,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D6B1A5C-54A4-457F-A77E-1D4138D5E494}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6210AE11-E3DC-4F81-8C07-723A563F7017}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1839,7 +1852,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">UEF Calculator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
