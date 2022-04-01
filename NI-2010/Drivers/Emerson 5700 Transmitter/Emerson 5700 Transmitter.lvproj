@@ -22,6 +22,10 @@
 		<Item Name="Type Definitions" Type="Folder" URL="../Type Definitions">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="UTILITY" Type="Folder">
+			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="UTILITY Modbus 32bit Number to 16bit Array.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number to 16bit Array.vi"/>
+		</Item>
 		<Item Name="Emerson 5700 Example.vi" Type="VI" URL="../Emerson 5700 Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -95,7 +99,6 @@
 			</Item>
 			<Item Name="HEWH Water Properties.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Macros/UEF/Type Definitions/HEWH Water Properties.ctl"/>
 			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../../Trunk/Utility/Round_Three_Decimals.vi"/>
-			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
