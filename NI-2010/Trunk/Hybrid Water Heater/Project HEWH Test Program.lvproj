@@ -297,6 +297,8 @@
 			<Item Name="HEWH Disable Flow Adjust.vi" Type="VI" URL="../Support VIs/HEWH Disable Flow Adjust.vi"/>
 			<Item Name="HEWH Check End State.vi" Type="VI" URL="../Support VIs/HEWH Check End State.vi"/>
 			<Item Name="HEWH HHV Notifier.vi" Type="VI" URL="../Support VIs/HEWH HHV Notifier.vi"/>
+			<Item Name="HEWH Force Terminate Condition During Last Draw.vi" Type="VI" URL="../Support VIs/HEWH Force Terminate Condition During Last Draw.vi"/>
+			<Item Name="HEWH Check For Element Off During Normal Draw.vi" Type="VI" URL="../Support VIs/HEWH Check For Element Off During Normal Draw.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -558,8 +560,8 @@
 			<Item Name="UTILITY Remove Zeros.vi" Type="VI" URL="../../Utility/UTILITY Remove Zeros.vi"/>
 			<Item Name="UTILITY 1D String to 1D Integer.vi" Type="VI" URL="../../Utility/UTILITY 1D String to 1D Integer.vi"/>
 			<Item Name="UTILITY Get Column Stats.vi" Type="VI" URL="../../Utility/UTILITY Get Column Stats.vi"/>
+			<Item Name="UTILITY Read GEA Setup Data.vi" Type="VI" URL="../../Utility/UTILITY Read GEA Setup Data.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../Utility/UTILITY Modbus 32bit Number Combine.vi"/>
-			<Item Name="UTILITY Read GEA Setup Data.vi" Type="VI" URL="../../../../../NI-2010/Trunk/Utility/UTILITY Read GEA Setup Data.vi"/>
 			<Item Name="Standby Power Header.vi" Type="VI" URL="../../Utility/Standby Power/Supporting VIs/Standby Power Header.vi"/>
 			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../Utility/Round_Three_Decimals.vi"/>
 		</Item>
@@ -1441,7 +1443,13 @@ Rev 2.39.16.61
 5. Changed the PID ref temp from TC down to RTD IN
 6. Adding filter to TC Down. Added RTD in as reason for disable temp adjust
 7. Added adjustment every 14 seconds. Try to slow changes
-8. Tighented tolerance from 56.5-59.5 to 57-59</Property>
+8. Tighented tolerance from 56.5-59.5 to 57-59
+
+2.39.16.62
+1. Adding terminate conditions for the FHD. 
+
+2.39.16.63
+1. Added triangular smoothing to RTDin, RTDamb, Flow Rate, and Mass Flow Rate</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1450,7 +1458,7 @@ Rev 2.39.16.61
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -1462,7 +1470,7 @@ Rev 2.39.16.61
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{604D660C-B22E-4B65-A466-D3F2E047FD1D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FDD429D3-78A1-447B-81E3-26A9CF51E290}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
