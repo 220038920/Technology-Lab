@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
+<Library LVVersion="20008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This driver configures and takes measurements from the Agilent 34970 Data Acquisition System.  For more information about this driver, please refer to Agilent 34970 Readme.html</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;3^=3*"%)&lt;B4SI:=MF!N941+:!#+&lt;3T!?$+O+MCB8&lt;P0("0VK&lt;1+:!#!:ST?L=:U*YB=9:5*66J2I0AG\_(W77F+P@3H=:LJ8_TD//U5H^_[;PKJ&gt;(@6VB&amp;FXJ_@Z\@[^^ZM`YW`Z4.W\R`0O`38`P`D``V]NX`X@_V_[]5RDR?(@4"2&lt;IJ+3VJ18/;V&lt;=&lt;ETT*ETT*ETT*ATT)ATT)ATT)H&gt;T*H&gt;T*H&gt;T*D&gt;T)D&gt;T)D&gt;T)KZ+,8/1CZV33T:/.EE74":,"5*3]**\%EXA3$R_6?"*0YEE]C9=B3DS**`%EHM4$.#7?R*.Y%E`C9;G3:&amp;6S0)G(Z26Y!E`A#4S"BSU6?!*!M&amp;GQ=,!)$!7&gt;Q:P!%XA#$W]6?!*0Y!E]A9&gt;O":\!%XA#4_"B3JV+F';KZ(B92I\(]4A?R_.Y7&amp;K/R`%Y(M@D?.B/DM@R/!BH1W&gt;R#()G/1/=$Y\(]@"0DM@R/"\(YXDIKCPE&gt;4+4:KLE?!S0Y4%]BM@QM)1-D_%R0)&lt;(],#M$)`B-4S'R`#QF1S0Y4%]"M49F/VF,':-.!9:A?(BL_Y7K[M5*&lt;'K\;&gt;ZOF(6&lt;E#V'UPNBF'\%&gt;1OM.K&amp;5\MA;A?N&gt;I"K"[0WB&gt;7_C"J1&lt;7/V"&gt;5'[MDLA4&lt;1&gt;L1N&lt;5.&lt;UV;UDL;9JL\TQ/0RK-0BI'%9N.PNN.VON&gt;FMN&amp;[PN6KNV(7&gt;&amp;IP&amp;Z7HV1$W6G`FT[5@X;`HU&gt;\``W3XX4]/Q`\-=@E`Z)_-_KJW?3Z`BW;B&lt;D&lt;0(0'@U$)[[0GM!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;3^=3*"%)&lt;B4SI:=MF!N941+:!#+&lt;3T!?$+O+MCB8&lt;P0("0VK&lt;1+:!#!:ST?L=:U*YB=9:5*66J2I0AG\_(W77F+P@3H=:LJ8_TD//U5H^_[;PKJ&gt;(@6VB&amp;FXJ_@Z\@[^^ZM`YW`Z4.W\R`0O`38`P`D``V]NX`X@_V_[]5RDR?(@4"2&lt;IJ+3VJ18/;V&lt;=&lt;ETT*ETT*ETT*ATT)ATT)ATT)H&gt;T*H&gt;T*H&gt;T*D&gt;T)D&gt;T)D&gt;T)KZ+,8/1CZV33T:/.EE74":,"5*3]**\%EXA3$R_6?"*0YEE]C9=B3DS**`%EHM4$.#7?R*.Y%E`C9;G3:&amp;6S0)G(Z26Y!E`A#4S"BSU6?!*!M&amp;GQ=,!)$!7&gt;Q:P!%XA#$W]6?!*0Y!E]A9&gt;O":\!%XA#4_"B3JV+F';KZ(B92I\(]4A?R_.Y7&amp;K/R`%Y(M@D?.B/DM@R/!BH1W&gt;R#()G/1/=$Y\(]@"0DM@R/"\(YXDIKCPE&gt;4+4:KLE?!S0Y4%]BM@QM)1-D_%R0)&lt;(],#M$)`B-4S'R`#QF1S0Y4%]"M49F/VF,':-.!9:A?(BL_Y7K[M5*&lt;'K\;&gt;ZOF(6&lt;E#V'UPNBF'\%&gt;1OM.K&amp;5\MA;A?N&gt;I"K"[0WB&gt;7_C"J1&lt;7/V"&gt;5'[MDLA4&lt;1&gt;L1N&lt;5.&lt;UV;UDL;9JL\TQ/0RK-0BI'%9N.PNN.VON&gt;FMN&amp;[PN6KNV(7&gt;&amp;IP&amp;Z7HV1$W6G`FT[5@X;`HU&gt;\``W3XX4]/Q`\-=@E`Z)_-_KJW?3Z`BW;B&lt;D&lt;0(0'@U$)[[0GM!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">3.1.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
