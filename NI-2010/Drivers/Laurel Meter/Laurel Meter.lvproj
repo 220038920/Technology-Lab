@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -73,6 +73,22 @@
 				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
 				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="ex_SmoothingDesign.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/ex_SmoothingDesign.vi"/>
+				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_GetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_GetAllExpressAttribs.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
 			</Item>
 			<Item Name="DOE Calculate Rinse Gallons.vi" Type="VI" URL="../../../Trunk/Washer DOE/Support VIs/DOE Calculate Rinse Gallons.vi"/>
 			<Item Name="DOE Test Fixture Hardware.ctl" Type="VI" URL="../../../Trunk/Washer DOE/Type Definitions/DOE Test Fixture Hardware.ctl"/>
@@ -95,6 +111,7 @@
 			<Item Name="Emerson 5700 Modbus Addresses.ctl" Type="VI" URL="../../Emerson 5700 Transmitter/Type Definitions/Emerson 5700 Modbus Addresses.ctl"/>
 			<Item Name="Emerson 5700 32 Bit Data.vi" Type="VI" URL="../../Emerson 5700 Transmitter/SubVIs/Emerson 5700 32 Bit Data.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Counter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laurel Collect Continuous" Type="EXE">
@@ -102,6 +119,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D86C5FF2-CEAE-48BF-A0A8-E3302863E597}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{3D942097-40A1-44E9-A685-5BC7425E9B2B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D2852BEB-FCD4-4B06-820C-9ADC37A5C3F0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Laurel Collect Continuous</Property>
@@ -142,6 +160,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{0FFEE993-8211-4BA6-A330-0C9FC8CE5393}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{237A6AEA-3677-4C60-BA61-5B4E32BA8A6F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E95A9669-F6F4-40A2-AD2E-0246C5414611}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Laurel StandAlone TCP</Property>
@@ -182,6 +201,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{05F0230C-06B3-41B1-B6D2-563ACF2ED7E7}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{DFE84BBA-8764-4107-9206-8E63F8D70C1A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{39353719-FE03-4658-BC44-90DCCB71449E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Laurel Modbus Example</Property>
@@ -192,7 +212,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{057664B2-8674-4AC3-A222-387F352CDBBE}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Laurel Modbus.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Laurel Modbus Example/Laurel Modbus.exe</Property>
