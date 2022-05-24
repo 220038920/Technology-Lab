@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -94,6 +94,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{37E6D6BC-CF6B-4FF1-B57D-E239246E8FA2}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A6A438FB-CCC9-4617-8112-14DA0E7E60C1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3D206B48-AC8D-4AE8-95DF-AE622A9B9C65}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Rev 1.0.0.0 - Initial Release</Property>
@@ -151,6 +152,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{C89BCB3D-0CBE-4917-9BA4-2ADB74E1F34F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BEA72908-9B0C-4743-8EB9-167FDB2CCA77}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AB936598-D81A-4161-B0E4-FB131C218D8E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GEA3 HEWH Example</Property>
@@ -161,7 +163,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D7137EF3-07FE-4EDA-8470-D6296936265F}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GEA Example.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GEA3 HEWH Example/GEA Example.exe</Property>
@@ -196,6 +198,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D264A53B-DB0C-40F7-9982-A19F542B807B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{5A003D21-73C8-4607-8FCD-DFA0E6D64DD8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C196E5CE-9489-411B-A305-93C8DC7E8F9E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Get GEA3 Serial Number</Property>
