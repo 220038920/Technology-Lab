@@ -299,6 +299,7 @@
 			<Item Name="HEWH HHV Notifier.vi" Type="VI" URL="../Support VIs/HEWH HHV Notifier.vi"/>
 			<Item Name="HEWH Force Terminate Condition During Last Draw.vi" Type="VI" URL="../Support VIs/HEWH Force Terminate Condition During Last Draw.vi"/>
 			<Item Name="HEWH Check For Element Off During Normal Draw.vi" Type="VI" URL="../Support VIs/HEWH Check For Element Off During Normal Draw.vi"/>
+			<Item Name="HEWH Update Last Terminate Condition.vi" Type="VI" URL="../Support VIs/HEWH Update Last Terminate Condition.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -646,7 +647,6 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="HEWH Update Last Terminate Condition.vi" Type="VI" URL="../Support VIs/HEWH Update Last Terminate Condition.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -962,7 +962,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{44BCD4F4-A24C-4FBD-9DB5-01F6092D6F75}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AD76C977-E612-4FBA-9FDD-5088D00EADD6}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Release notes v .318:  
 1. Connected temp target to &lt;20 start of draw in intellifaucet start.
@@ -1462,7 +1461,18 @@ Rev 2.39.16.61
 1. Added triangular smoothing to RTDin, RTDamb, Flow Rate, and Mass Flow Rate
 
 2.39.16.65
-1. Improving scan rate. Experimenting with Adv PID Control</Property>
+1. Improving scan rate. Experimenting with Adv PID Control
+
+2.39.16.94
+1.Enabling and disabling flow averaging to allow for quick flow shutdowns
+
+2.39.18.97
+1.Removed four ERDs due to software change. 
+a. TankSP Offset - 402C
+b. Tank Depletion - 40CB
+c. Minutes until recoverd - 40CE
+d. Usable Hot Water - 40D0
+</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1471,10 +1481,10 @@ Rev 2.39.16.61
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">94</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
-				<Property Name="Bld_version.patch" Type="Int">16</Property>
+				<Property Name="Bld_version.patch" Type="Int">18</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1483,7 +1493,7 @@ Rev 2.39.16.61
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3B22CF70-5B1C-4575-BCF9-9A5F162A3932}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A742560-94A3-4B66-A5CD-93D4989F2A66}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
