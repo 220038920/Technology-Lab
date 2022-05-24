@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -168,6 +168,19 @@
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
+				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
+				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
+				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
+				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
+				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Modbus Data Unit/Modbus Data Unit.lvclass"/>
+				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
+				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
+				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
+				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
+				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
+				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
+				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
 			</Item>
 			<Item Name="UTILITY String to Array.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY String to Array.vi"/>
 			<Item Name="UTILITY Agilent Scan List Permutation.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Agilent Scan List Permutation.vi"/>
@@ -262,6 +275,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{19793A5A-78E9-4AD7-B94E-25E184D581BC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1184284B-1D04-479B-9115-40262FD8FA65}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C1B6E20D-A2F8-422F-9B24-00808BE94677}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Read Digital</Property>
@@ -302,6 +316,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{EE52BC2F-7507-4244-8D94-C00639FF07FC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A7D5C0C1-4195-4320-92BC-B3FB0B68C7B0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A44A7212-6308-4914-836D-29A221FC298F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Agilent 34970 Advanced Scan</Property>
@@ -342,6 +357,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{2EAB3D57-63B0-4972-A412-9C713EA73405}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{68B7B5F0-335D-4752-A6CB-79958A4FD4C1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A7C30722-CA81-4603-A3F3-CB48692B5C2C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Initialize</Property>
@@ -382,6 +398,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{273CFC36-9BDD-4E3C-B490-E1141E571145}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{747BB8ED-EBEB-4FFC-A0AE-20F8D9C03403}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A3045B24-7776-4EED-AAB8-E112D53528E2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HCC Agilent Tester</Property>
@@ -416,6 +433,47 @@
 				<Property Name="TgtF_productName" Type="Str">HCC Agilent Tester</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9022747B-824E-4167-8BF8-B6D41CC4C107}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HCC Agilent Tester.exe</Property>
+			</Item>
+			<Item Name="Agilent 34970 HEWH Example Scan" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{70EE6697-0FE0-491B-9B8E-E5CA4B8E2875}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EE3B1E26-760A-41D9-8847-4921F3E23CF5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7770625B-C243-4C53-B6E6-6DEA3B2D2962}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Agilent 34970 HEWH Example Scan</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Agilent 34970 HEWH Example Scan</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{100EC28B-CE35-41E3-9327-1CFD171329EC}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Agilent 34970 HEWH Example Scan.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Agilent 34970 HEWH Example Scan/Agilent 34970 HEWH Example Scan.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Agilent 34970 HEWH Example Scan/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8642A485-C33F-45E3-A6A7-0138D4F89DC3}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Agilent 34970 HEWH Example Scan.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Agilent 34970 HEWH Example Scan</Property>
+				<Property Name="TgtF_internalName" Type="Str">Agilent 34970 HEWH Example Scan</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 GE Appliances, a Haier Company</Property>
+				<Property Name="TgtF_productName" Type="Str">Agilent 34970 HEWH Example Scan</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{534051DF-EC83-410A-BFD2-F4C9E1597B0C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Agilent 34970 HEWH Example Scan.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

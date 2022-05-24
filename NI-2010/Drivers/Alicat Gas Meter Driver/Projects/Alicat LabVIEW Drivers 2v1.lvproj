@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -110,6 +110,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{70F10B63-EF28-4F86-A89F-7EE4884C9EAE}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0248214A-D56C-407B-9EF5-BB7B406B749D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{23B53A02-506A-41E4-B0C7-3C7A4E88337D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Alicat Full Driver Example</Property>
@@ -120,7 +121,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{429D8125-305E-4FC0-A4E3-FF2E09027C79}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Alicat Full Driver Example.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Alicat Full Driver Example/Alicat Full Driver Example.exe</Property>
