@@ -298,6 +298,8 @@
 			<Item Name="HEWH Check End State.vi" Type="VI" URL="../Support VIs/HEWH Check End State.vi"/>
 			<Item Name="HEWH HHV Notifier.vi" Type="VI" URL="../Support VIs/HEWH HHV Notifier.vi"/>
 			<Item Name="HEWH Force Terminate Condition During Last Draw.vi" Type="VI" URL="../Support VIs/HEWH Force Terminate Condition During Last Draw.vi"/>
+			<Item Name="ANSI Update Display.vi" Type="VI" URL="../Support VIs/ANSI Update Display.vi"/>
+			<Item Name="Gas HHV Initialize.vi" Type="VI" URL="../Support VIs/Gas HHV Initialize.vi"/>
 			<Item Name="HEWH Check For Element Off During Normal Draw.vi" Type="VI" URL="../Support VIs/HEWH Check For Element Off During Normal Draw.vi"/>
 			<Item Name="HEWH Update Last Terminate Condition.vi" Type="VI" URL="../Support VIs/HEWH Update Last Terminate Condition.vi"/>
 		</Item>
@@ -1472,7 +1474,15 @@ a. TankSP Offset - 402C
 b. Tank Depletion - 40CB
 c. Minutes until recoverd - 40CE
 d. Usable Hot Water - 40D0
-</Property>
+
+2.39.18.98
+Improving the Agilient reading data.
+
+2.39.18.99
+Adding manual HHV mode. This is for a broken gas chomatography instrument
+
+2.39.18.100
+Clean up of the manual HHV mode. It now includes config file setting and both LP and NG settings</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1481,7 +1491,7 @@ d. Usable Hot Water - 40D0
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">97</Property>
+				<Property Name="Bld_version.build" Type="Int">100</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">18</Property>
@@ -1493,7 +1503,7 @@ d. Usable Hot Water - 40D0
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5A742560-94A3-4B66-A5CD-93D4989F2A66}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{748A2D3D-E1FC-403A-80DD-DA7DD7120EA8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
