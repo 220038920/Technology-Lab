@@ -1761,7 +1761,6 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0C8B65ED-A7E3-41BC-A054-D9096498BD7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
@@ -1780,7 +1779,12 @@ Digit 4: Final Release Number</Property>
 1.0.0.20 - Updated dates that print on the excel format ANAB sheet. Removed first draw max temp check.
 1.0.0.21 - Changed end of flow check from 5 sec to 15 seconds
 1.0.0.25 - Added error checking to FHR calculations
-1.0.0.26 - Fixed calculation for the partial last draw. Depending on the reset time of the flow meter, it can inadvertantly grab the incorrect total gallons value. Now I look for total gallons after the 30 second last draw.</Property>
+1.0.0.26 - Fixed calculation for the partial last draw. Depending on the reset time of the flow meter, it can inadvertantly grab the incorrect total gallons value. Now I look for total gallons after the 30 second last draw.
+1.0.0.28
+1. Added a new look to assist with proper operation. 
+2. Fixed bug where FHR special last draw factor can be negative. 
+1.0.0.29
+1. Fixing the output in the ANAB sheet to output info from outlet side flow meter</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1789,7 +1793,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1798,7 +1802,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DCE2C089-7402-4954-BDCA-7F09C6238765}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9791BE82-1E80-4234-8D4D-F936A42C3DDE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1887,7 +1891,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">GE Energy Analysis Tool</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
