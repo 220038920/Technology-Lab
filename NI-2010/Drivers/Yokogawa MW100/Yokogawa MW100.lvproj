@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -90,11 +90,11 @@
 				<Item Name="YKMW100 Unit Decimal Point.vi" Type="VI" URL="../YKMW100.llb/YKMW100 Unit Decimal Point.vi"/>
 				<Item Name="YKMW100 VI Tree.vi" Type="VI" URL="../YKMW100.llb/YKMW100 VI Tree.vi"/>
 			</Item>
+			<Item Name="YKMW100 Scale 4_20 to Percent.vi" Type="VI" URL="../YKMW100 Scale 4_20 to Percent.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="YKMW100 Scale 4_20 to Percent.vi" Type="VI" URL="../YKMW100 Scale 4_20 to Percent.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -253,6 +253,34 @@
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
+				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
+				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
+				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
+				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
+				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
+				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Modbus Data Unit/Modbus Data Unit.lvclass"/>
+				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
+				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
+				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
+				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
+				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
+				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
+				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
+				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
+				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
+				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
+				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+				<Item Name="Generate UUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Generate UUID.vi"/>
+				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
+				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
+				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
+				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
+				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
+				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 			</Item>
 			<Item Name="YKMW100 DISH Channel Settings.ctl" Type="VI" URL="../Type Definitions/YKMW100 DISH Channel Settings.ctl"/>
 			<Item Name="HEWH Module 4 Relay Status.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH Module 4 Relay Status.ctl"/>
@@ -351,10 +379,8 @@
 			</Item>
 			<Item Name="HEWH Temperature Filter (Thermal).vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Macros/UEF/Sub VIs/HEWH Temperature Filter (Thermal).vi"/>
 			<Item Name="HEWH MW100 Data Cluster.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Type Definitions/HEWH MW100 Data Cluster.ctl"/>
-			<Item Name="HEWH OSI Calculations.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH OSI Calculations.vi"/>
 			<Item Name="HEWH Temperature Filter.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Temperature Filter.vi"/>
 			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Filter All Temps.vi"/>
-			<Item Name="HEWH Pressure Calculation.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Pressure Calculation.vi"/>
 			<Item Name="HEWH Power Cluster Calcs.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Power Cluster Calcs.vi"/>
 			<Item Name="HEWH MW100 Channel Numbers.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH MW100 Channel Numbers.ctl"/>
 			<Item Name="HEWH Read All MW100 Inputs.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/HEWH Read All MW100 Inputs.vi"/>
@@ -375,6 +401,8 @@
 			<Item Name="HEWH Check Relay Status.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Check Relay Status.vi"/>
 			<Item Name="YKMW100 VF0 Relay Status.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/Support VIs/YKMW100 VF0 Relay Status.vi"/>
 			<Item Name="HEWH Intellifaucet Temp Equation.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Intellifaucet Temp Equation.vi"/>
+			<Item Name="Inficon Data.ctl" Type="VI" URL="../../Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
+			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="YKMW100 HEWH Check" Type="EXE">
@@ -382,6 +410,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{AB0D0DC0-1D1D-4523-B0B6-7082AE26879B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{50A1C2A1-EBFB-4287-AEDE-9A9F397DE9B9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D213DD93-6CC9-460F-BA78-DEF1FDCC911B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">YKMW100 HEWH Check</Property>
@@ -422,6 +451,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{E0C38D7B-4E05-4A13-8F13-B4386F1BB579}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{00A2FF26-AF97-4879-B36D-68CB25E5B4B0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5F4E21A8-A5EF-40B3-AE24-1D1CE2D5B3BF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">YKMW100 HEWH Check2</Property>
@@ -455,6 +485,47 @@
 				<Property Name="TgtF_productName" Type="Str">YKMW100 HEWH Check2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DDA2F162-6F49-46A6-9F04-D15822746E87}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HEWH MW100 Checker.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="YKMW100 Modbus Main" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{96E9FAA7-E0C8-461A-9A58-8CE0B7603ABF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0001267A-4832-4C55-9CE7-91CD73B54F00}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6F676137-B8E8-4EEB-9970-29181794A8EE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">YKMW100 Modbus Main</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 Modbus Main</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{63BE44F5-9863-4487-AF7C-086BABE8FA59}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Modbus.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 Modbus Main/Modbus.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/YKMW100 Modbus Main/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{07A7EC51-F5AE-4A8A-8245-0D5E2756C5B2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/YKMW100 Modbus Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">YKMW100 Modbus Main</Property>
+				<Property Name="TgtF_internalName" Type="Str">YKMW100 Modbus Main</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">YKMW100 Modbus Main</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9607C386-1A62-4601-9219-F73F6E5691E5}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Modbus.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
