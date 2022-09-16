@@ -299,9 +299,12 @@
 			<Item Name="HEWH HHV Notifier.vi" Type="VI" URL="../Support VIs/HEWH HHV Notifier.vi"/>
 			<Item Name="HEWH Force Terminate Condition During Last Draw.vi" Type="VI" URL="../Support VIs/HEWH Force Terminate Condition During Last Draw.vi"/>
 			<Item Name="ANSI Update Display.vi" Type="VI" URL="../Support VIs/ANSI Update Display.vi"/>
+			<Item Name="Prop Valve Set Value MW100.vi" Type="VI" URL="../Support VIs/Prop Valve Set Value MW100.vi"/>
+			<Item Name="INTELLIFAUCET Set Value MW100.vi" Type="VI" URL="../Support VIs/INTELLIFAUCET Set Value MW100.vi"/>
 			<Item Name="Gas HHV Initialize.vi" Type="VI" URL="../Support VIs/Gas HHV Initialize.vi"/>
 			<Item Name="HEWH Check For Element Off During Normal Draw.vi" Type="VI" URL="../Support VIs/HEWH Check For Element Off During Normal Draw.vi"/>
 			<Item Name="HEWH Update Last Terminate Condition.vi" Type="VI" URL="../Support VIs/HEWH Update Last Terminate Condition.vi"/>
+			<Item Name="HEWH Scan Rate Loop Trigger.vi" Type="VI" URL="../Support VIs/HEWH Scan Rate Loop Trigger.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1482,7 +1485,10 @@ Improving the Agilient reading data.
 Adding manual HHV mode. This is for a broken gas chomatography instrument
 
 2.39.18.100
-Clean up of the manual HHV mode. It now includes config file setting and both LP and NG settings</Property>
+Clean up of the manual HHV mode. It now includes config file setting and both LP and NG settings
+
+2.39.18.101
+Clean up of variable scan rate</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1491,7 +1497,7 @@ Clean up of the manual HHV mode. It now includes config file setting and both LP
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">100</Property>
+				<Property Name="Bld_version.build" Type="Int">101</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">18</Property>
@@ -1503,7 +1509,7 @@ Clean up of the manual HHV mode. It now includes config file setting and both LP
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{748A2D3D-E1FC-403A-80DD-DA7DD7120EA8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D05852D7-7E27-4C2F-9DDF-A7BAA0DAA159}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1784,7 +1790,12 @@ Digit 4: Final Release Number</Property>
 1. Added a new look to assist with proper operation. 
 2. Fixed bug where FHR special last draw factor can be negative. 
 1.0.0.29
-1. Fixing the output in the ANAB sheet to output info from outlet side flow meter</Property>
+1. Fixing the output in the ANAB sheet to output info from outlet side flow meter
+1.0.0.30
+1. Adding T astby 2 to the ANAB sheet
+1.0.0.31
+1. Array mismatch in ANAB report on nr
+2. Fixing ANAB Electric kW and Gas BTU/hr print out.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1793,7 +1804,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1802,7 +1813,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9791BE82-1E80-4234-8D4D-F936A42C3DDE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A5F06292-35C2-4F6C-A161-C9EAA22868FE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1891,7 +1902,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">GE Energy Analysis Tool</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.16</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
