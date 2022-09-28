@@ -403,6 +403,9 @@
 			<Item Name="HEWH Intellifaucet Temp Equation.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Intellifaucet Temp Equation.vi"/>
 			<Item Name="Inficon Data.ctl" Type="VI" URL="../../Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="HEWH Check AO Values.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Check AO Values.vi"/>
+			<Item Name="INTELLIFAUCET Set Value MW100.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/INTELLIFAUCET Set Value MW100.vi"/>
+			<Item Name="Prop Valve Set Value MW100.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/Prop Valve Set Value MW100.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="YKMW100 HEWH Check" Type="EXE">
