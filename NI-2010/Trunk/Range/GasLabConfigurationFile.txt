@@ -1,18 +1,44 @@
 Meter 1 Type,Methane
-Meter 1 Size(SLPM),50
-Meter 1 Present,TRUE
-Meter 2 Type,
-Meter 2 Size(SLPM),
-Meter 2 Present,
-Meter 3 Type,
-Meter 3 Size(SLPM),
-Meter 3 Present,
-Meter 4 Type,
-Meter 4 Size(SLPM),
-Meter 4 Present,
-Meter 5 Type,
-Meter 5 Size(SLPM),
-Meter 5 Present,
-Meter 6 Type,
-Meter 6 Size(SLPM),
-Meter 6 Present,
+Meter 1 Size(SLPM),10
+Meter 1 Accuracy Reading,0.8
+Meter 1 Accuracy Full Scale,0.2
+Meter 1 Present (TRUE/FALSE),TRUE
+Meter 2 Type,Methane
+Meter 2 Size(SLPM),50
+Meter 2 Accuracy Reading,0.8
+Meter 2 Accuracy Full Scale,0.2
+Meter 2 Present (TRUE/FALSE),TRUE
+Meter 3 Type,Methane
+Meter 3 Size(SLPM),10
+Meter 3 Accuracy Reading,0.8
+Meter 3 Accuracy Full Scale,0.2
+Meter 3 Present (TRUE/FALSE),TRUE
+Meter 4 Type,Methane
+Meter 4 Size(SLPM),50
+Meter 4 Accuracy Reading,0.8
+Meter 4 Accuracy Full Scale,0.2
+Meter 4 Present (TRUE/FALSE),TRUE
+Meter 5 Type,Propane
+Meter 5 Size(SLPM),5
+Meter 5 Accuracy Reading,0.8
+Meter 5 Accuracy Full Scale,0.2
+Meter 5 Present (TRUE/FALSE),FALSE
+Meter 6 Type,Propane
+Meter 6 Size(SLPM),20
+Meter 6 Accuracy Reading,0.8
+Meter 6 Accuracy Full Scale,0.2
+Meter 6 Present (TRUE/FALSE),FALSE
+USE RS232 Data Collection,TRUE
+Station 1 COM Alias,Station1
+Station 2 COM Alias,Station2
+Station 3 COM Alias,Station3
+Station 4 COM Alias,Station4
+Station 5 COM Alias,Station5
+Station 6 COM Alias,Station6
+Heating Value Bank 1(BTU/ft³),2450
+Heating Value Bank 2 (BTU/ft³),2450
+Heating Value Bank 3 (BTU/ft³),990
+Bank 1 Set STP Register (1atm@60F) - TRUE/FALSE,FALSE
+Bank 2 Set STP Register (1atm@60F) - TRUE/FALSE,FALSE
+Bank 3 Set STP Register (1atm@60F) - TRUE/FALSE,FALSE
+Use Auto Tab Switching,TRUE
