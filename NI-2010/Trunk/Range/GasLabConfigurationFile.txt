@@ -2,12 +2,12 @@ Meter 1 Type,Methane
 Meter 1 Size(SLPM),10
 Meter 1 Accuracy Reading,0.8
 Meter 1 Accuracy Full Scale,0.2
-Meter 1 Present (TRUE/FALSE),TRUE
+Meter 1 Present (TRUE/FALSE),FALSE
 Meter 2 Type,Methane
 Meter 2 Size(SLPM),50
 Meter 2 Accuracy Reading,0.8
 Meter 2 Accuracy Full Scale,0.2
-Meter 2 Present (TRUE/FALSE),TRUE
+Meter 2 Present (TRUE/FALSE),FALSE
 Meter 3 Type,Methane
 Meter 3 Size(SLPM),10
 Meter 3 Accuracy Reading,0.8

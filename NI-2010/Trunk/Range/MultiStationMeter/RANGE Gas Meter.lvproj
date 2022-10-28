@@ -292,7 +292,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8F83C6DE-F0F1-462C-BA0F-212577AB3783}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">RANGE Gas Meter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RANGE Gas Meter.exe</Property>
@@ -302,7 +302,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/Gas Lab.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AFE1E737-D38B-4245-B715-326586CFFF87}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04816C74-76C6-4B6B-8FCF-552F82781D85}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RANGE Gas Meters.vi</Property>
