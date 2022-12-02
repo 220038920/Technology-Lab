@@ -1487,7 +1487,10 @@ Adding manual HHV mode. This is for a broken gas chomatography instrument
 Clean up of the manual HHV mode. It now includes config file setting and both LP and NG settings
 
 2.39.18.101
-Clean up of variable scan rate</Property>
+Clean up of variable scan rate
+
+2.39.18.102
+Removed front panel diagnostic data from the variable scan rate clean up of v101</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1508,7 +1511,7 @@ Clean up of variable scan rate</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E870F80-B019-464C-8321-8F898DEBB2D5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D56E52BD-5AD5-483B-8428-5E4A8D66BB99}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
