@@ -903,9 +903,6 @@
 			<Item Name="DOE Front Panel Meters.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Front Panel Meters.ctl"/>
 			<Item Name="Standby Power Main Data.ctl" Type="VI" URL="../../Utility/Standby Power/Type Definitions/Standby Power Main Data.ctl"/>
 			<Item Name="DOE Calculate Rinse Gallons.vi" Type="VI" URL="../../Washer DOE/Support VIs/DOE Calculate Rinse Gallons.vi"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

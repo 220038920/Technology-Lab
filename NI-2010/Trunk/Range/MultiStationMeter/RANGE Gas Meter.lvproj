@@ -256,6 +256,33 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/Numeric/Random Number (Range) I64.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/Numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/Numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
+				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
+				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
+				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
+				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
+				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
+				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
+				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Modbus Data Unit/Modbus Data Unit.lvclass"/>
+				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
+				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
+				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
+				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
+				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
+				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
+				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
+				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
+				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
+				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
+				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
+				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
+				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+				<Item Name="Generate UUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Generate UUID.vi"/>
+				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
+				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
+				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -270,6 +297,13 @@
 			<Item Name="UTILITY General Time Header.vi" Type="VI" URL="../../../Utility/UTILITY General Time Header.vi"/>
 			<Item Name="Custom Pallet DBL.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet DBL.ctl"/>
 			<Item Name="UTILITY String Notifier.vi" Type="VI" URL="../../../Utility/UTILITY String Notifier.vi"/>
+			<Item Name="Inficon IP Address.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon IP Address.ctl"/>
+			<Item Name="Gas HHV Initialize.vi" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/Gas HHV Initialize.vi"/>
+			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Utility/UTILITY Modbus 32bit Number Combine.vi"/>
+			<Item Name="Inficon Modbus Addresses LP.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Modbus Addresses LP.ctl"/>
+			<Item Name="Inficon Modbus Addresses.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Modbus Addresses.ctl"/>
+			<Item Name="Inficon Data.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
+			<Item Name="Inficon 32 Bit Data.vi" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/SubVIs/Inficon 32 Bit Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RANGE Gas Meter" Type="EXE">
@@ -283,7 +317,9 @@
 				<Property Name="Bld_buildSpecDescription" Type="Str">Added Totalized Flow, fixed timer counter to reset to "blank". Added Full Scale/Reading Accuracy calculation to zero meter at "0". Added extra parameters to the default startup file, updated header and data to write. Converted LPM to LPS
 
 Build 2. Several updates. Changed totalizing from LPM to SLPM. Change the file save routine. Allow more config
-file parameters, added Tare, added custom Gas Mixtures, input button to change gas mix on the fly. </Property>
+file parameters, added Tare, added custom Gas Mixtures, input button to change gas mix on the fly. 
+
+2.0.0.54 - Adding Inficon HHV data</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">RANGE Gas Meter</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -292,7 +328,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8F83C6DE-F0F1-462C-BA0F-212577AB3783}</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">RANGE Gas Meter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RANGE Gas Meter.exe</Property>
@@ -302,7 +338,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/Gas Lab.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{04816C74-76C6-4B6B-8FCF-552F82781D85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEC2E08E-16A6-4E56-BC61-C975FBFD9E23}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RANGE Gas Meters.vi</Property>
@@ -329,16 +365,16 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Destination[1].type" Type="Str">absFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{060A0DD9-6B7B-4AC4-A621-A7A37D08E989}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 16.0</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{F19060DD-AA3B-4C3D-8E47-5792E36DFF3A}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 21.5</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{1DDA4217-76EE-4AE8-B8DC-688A3DEB8DA5}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 16.0</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{5F896240-152C-41BF-BEEE-7EAF5609317A}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 21.3</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 16.0</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{31B755F6-2A76-49DE-A454-4D6BD9D59470}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 21.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[3].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
@@ -349,6 +385,12 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
 				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
 				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
@@ -364,11 +406,20 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
 				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">7</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{C8ED285F-9BE8-455F-82F1-9DB5DC4F7771}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI-DAQmx Runtime with Configuration Support 16.0</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{AD9959BC-B6A6-4044-A5E3-E8365361E38E}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI-DAQmx Runtime with Configuration Support 21.3</Property>
 				<Property Name="DistPart[4].upgradeCode" Type="Str">{9856368A-ED47-4944-87BE-8EF3472AE39B}</Property>
 				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">General Electric</Property>
@@ -377,8 +428,9 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">GE Gas Lab Flow Meter</Property>
 				<Property Name="INST_defaultDir" Type="Str">{802C1054-B864-4FA7-AFD1-C4CDB623E409}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">RANGE Gas Meter</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">General Electric</Property>
