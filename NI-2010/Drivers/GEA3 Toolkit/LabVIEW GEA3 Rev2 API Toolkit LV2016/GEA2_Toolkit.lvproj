@@ -10,30 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="GEA3 DLL Source" Type="Folder">
-			<Item Name="CommandLine.dll" Type="Document" URL="../../GEA3 DLL Source/CommandLine.dll"/>
-			<Item Name="Encoding.dll" Type="Document" URL="../../GEA3 DLL Source/Encoding.dll"/>
-			<Item Name="ErdCommunication.Controls.dll" Type="Document" URL="../../GEA3 DLL Source/ErdCommunication.Controls.dll"/>
-			<Item Name="ErdCommunication.dll" Type="Document" URL="../../GEA3 DLL Source/ErdCommunication.dll"/>
-			<Item Name="GadLayer.dll" Type="Document" URL="../../GEA3 DLL Source/GadLayer.dll"/>
-			<Item Name="Gea3Packets.dll" Type="Document" URL="../../GEA3 DLL Source/Gea3Packets.dll"/>
-			<Item Name="GeaCommunication.Controls.dll" Type="Document" URL="../../GEA3 DLL Source/GeaCommunication.Controls.dll"/>
-			<Item Name="GeaCommunication.dll" Type="Document" URL="../../GEA3 DLL Source/GeaCommunication.dll"/>
-			<Item Name="Logging.dll" Type="Document" URL="../../GEA3 DLL Source/Logging.dll"/>
-			<Item Name="Microsoft.Dynamic.dll" Type="Document" URL="../../GEA3 DLL Source/Microsoft.Dynamic.dll"/>
-			<Item Name="Microsoft.Scripting.AspNet.dll" Type="Document" URL="../../GEA3 DLL Source/Microsoft.Scripting.AspNet.dll"/>
-			<Item Name="Microsoft.Scripting.dll" Type="Document" URL="../../GEA3 DLL Source/Microsoft.Scripting.dll"/>
-			<Item Name="Microsoft.Scripting.Metadata.dll" Type="Document" URL="../../GEA3 DLL Source/Microsoft.Scripting.Metadata.dll"/>
-			<Item Name="Programming.dll" Type="Document" URL="../../GEA3 DLL Source/Programming.dll"/>
-			<Item Name="SuperBeanPacketLayer.dll" Type="Document" URL="../../GEA3 DLL Source/SuperBeanPacketLayer.dll"/>
-			<Item Name="Timing.dll" Type="Document" URL="../../GEA3 DLL Source/Timing.dll"/>
-			<Item Name="UiUtilities.dll" Type="Document" URL="../../GEA3 DLL Source/UiUtilities.dll"/>
-			<Item Name="UsbGeaAdapter.dll" Type="Document" URL="../../GEA3 DLL Source/UsbGeaAdapter.dll"/>
-			<Item Name="UsbHid.dll" Type="Document" URL="../../GEA3 DLL Source/UsbHid.dll"/>
-			<Item Name="UsbSerialPort.dll" Type="Document" URL="../../GEA3 DLL Source/UsbSerialPort.dll"/>
-			<Item Name="Utilities.dll" Type="Document" URL="../../GEA3 DLL Source/Utilities.dll"/>
-			<Item Name="XInclude.dll" Type="Document" URL="../../GEA3 DLL Source/XInclude.dll"/>
-			<Item Name="XPointer.dll" Type="Document" URL="../../GEA3 DLL Source/XPointer.dll"/>
+		<Item Name="GEA3 DLL Source" Type="Folder" URL="../../GEA3 DLL Source">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Icons" Type="Folder" URL="../../Icons">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
