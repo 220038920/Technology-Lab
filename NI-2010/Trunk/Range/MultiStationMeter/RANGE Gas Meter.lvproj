@@ -319,7 +319,8 @@
 Build 2. Several updates. Changed totalizing from LPM to SLPM. Change the file save routine. Allow more config
 file parameters, added Tare, added custom Gas Mixtures, input button to change gas mix on the fly. 
 
-2.0.0.54 - Adding Inficon HHV data</Property>
+2.0.0.54 - Adding Inficon HHV data
+2.0.0.56 - Adding 5 sec timing to HHV loop</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">RANGE Gas Meter</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -328,7 +329,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8F83C6DE-F0F1-462C-BA0F-212577AB3783}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">RANGE Gas Meter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RANGE Gas Meter.exe</Property>
@@ -338,7 +339,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/Gas Lab.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AEC2E08E-16A6-4E56-BC61-C975FBFD9E23}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{22C5F1AB-4BB2-4396-ADEF-03F6B44B8671}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RANGE Gas Meters.vi</Property>
