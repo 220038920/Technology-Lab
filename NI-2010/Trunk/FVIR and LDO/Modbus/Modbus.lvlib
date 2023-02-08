@@ -14,4 +14,29 @@
 	<Item Name="DisplayTemperaturesFVIR.vi" Type="VI" URL="../../support/DisplayTemperaturesFVIR.vi"/>
 	<Item Name="DisplayValuesFromPLC_LDO.vi" Type="VI" URL="../../support/DisplayValuesFromPLC_LDO.vi"/>
 	<Item Name="Logging.lvlib" Type="Library" URL="../../Logging/Logging.lvlib"/>
+	<Item Name="Modbus Error Codes.vi" Type="VI" URL="../Modbus Error Codes.vi"/>
+	<Item Name="Modbus LDO Boolean Decode.vi" Type="VI" URL="../Modbus LDO Boolean Decode.vi"/>
+	<Item Name="Modbus LDO Sensors.vi" Type="VI" URL="../Modbus LDO Sensors.vi"/>
+	<Item Name="Modbus Convert Temperature.vi" Type="VI" URL="../Modbus Convert Temperature.vi"/>
+	<Item Name="Modbus FVIR Boolean Decode.vi" Type="VI" URL="../Modbus FVIR Boolean Decode.vi"/>
+	<Item Name="Modbus Error Code FVIR.vi" Type="VI" URL="../Modbus Error Code FVIR.vi"/>
+	<Item Name="Modbus FVIR Sensors.vi" Type="VI" URL="../Modbus FVIR Sensors.vi"/>
+	<Item Name="Modbus Send Parameters LDO.vi" Type="VI" URL="../Modbus Send Parameters LDO.vi"/>
+	<Item Name="Modbus Get Initial Gas Valve Setting.vi" Type="VI" URL="../Modbus Get Initial Gas Valve Setting.vi"/>
+	<Item Name="Modbus Insert Gas State.vi" Type="VI" URL="../Modbus Insert Gas State.vi"/>
+	<Item Name="Modbus Round Number.vi" Type="VI" URL="../Modbus Round Number.vi"/>
+	<Item Name="Modbus Life Bit Toggle.vi" Type="VI" URL="../Modbus Life Bit Toggle.vi"/>
+	<Item Name="Modbus Display Timer.vi" Type="VI" URL="../Modbus Display Timer.vi"/>
+	<Item Name="Modbus Test Timer.vi" Type="VI" URL="../Modbus Test Timer.vi"/>
+	<Item Name="Modbus PreCondition.vi" Type="VI" URL="../Modbus PreCondition.vi"/>
+	<Item Name="Total Cycle Count.vi" Type="VI" URL="../../support/Total Cycle Count.vi"/>
+	<Item Name="Modbus Send Parameters FVIR.vi" Type="VI" URL="../Modbus Send Parameters FVIR.vi"/>
+	<Item Name="Modbus GET SRI Array.vi" Type="VI" URL="../Modbus GET SRI Array.vi"/>
+	<Item Name="Modbus Analyze SRI.vi" Type="VI" URL="../Modbus Analyze SRI.vi"/>
+	<Item Name="Modbus Real Time Clock.vi" Type="VI" URL="../Modbus Real Time Clock.vi"/>
+	<Item Name="Modbus LDO Time Display.vi" Type="VI" URL="../Modbus LDO Time Display.vi"/>
+	<Item Name="Modbus Display Time Real Time Clock.vi" Type="VI" URL="../Modbus Display Time Real Time Clock.vi"/>
+	<Item Name="Modbus Read PLC Registers.vi" Type="VI" URL="../Modbus Read PLC Registers.vi"/>
+	<Item Name="Modbus Search For Message.vi" Type="VI" URL="../Modbus Search For Message.vi"/>
+	<Item Name="Modbus Check Sequence Status.vi" Type="VI" URL="../Modbus Check Sequence Status.vi"/>
 </Library>
