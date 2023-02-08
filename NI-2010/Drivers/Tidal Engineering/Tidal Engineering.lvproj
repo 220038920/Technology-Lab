@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -24,6 +24,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A464AA28-3E99-4841-BFF9-B1BB222EB98F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2E1AF3AE-B7ED-470A-A4D1-2029FCC78AD4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7F50ED3E-1DB1-4E63-9F6E-4CEFECCED157}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TESynC GUI</Property>
