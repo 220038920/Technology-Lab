@@ -39,4 +39,5 @@
 	<Item Name="Modbus Read PLC Registers.vi" Type="VI" URL="../Modbus Read PLC Registers.vi"/>
 	<Item Name="Modbus Search For Message.vi" Type="VI" URL="../Modbus Search For Message.vi"/>
 	<Item Name="Modbus Check Sequence Status.vi" Type="VI" URL="../Modbus Check Sequence Status.vi"/>
+	<Item Name="Modbus Convert to Blower Pressure.vi" Type="VI" URL="../Modbus Convert to Blower Pressure.vi"/>
 </Library>

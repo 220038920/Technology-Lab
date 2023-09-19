@@ -492,7 +492,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14988FD7-1974-4075-A1B1-A43EDA48C9CB}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GE Appliance - FVIR &amp; LDO.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/GE Appliance - FVIR &amp; LDO.exe</Property>
