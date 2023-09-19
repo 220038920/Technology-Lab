@@ -1,0 +1,27 @@
+//Company Name:	Siargo, inc.
+//Company Web Address:	http://www.siargo.com
+//
+//Test Description:	
+//Test Software Name:	D:\Kevin\Dropbox\Projects\SiargoUserApplication\Main\TestSystem\bin\Debug\SiargoUserApplication.exe
+//Test Software Version:	1.4.2.0
+//
+//Test Station:	DESKTOP-9SC8JPL
+//Test Operator:	shen_
+//
+//Model:	LF3000
+//Serial Number:	D2R20079
+//Firmware Version:	
+//Test Start Date/Time:	1/13/2023 12:23:50 PM
+//Test Data File Directory:	D:\Kevin\Dropbox\Projects\SiargoUserApplication\Main\TestSystem\bin\Debug\TestData\NoName_PROLF3000_01-13-2023_12.23.50
+//Test Data File Name:	Dut_Test_PROLF3000_SND2R20079_01-13-2023_12.23.55.rec
+//
+///TimeStamp,FlowRate
+01/13/2023_12:23:55.736,6.082
+01/13/2023_12:24:00.642,6.055
+01/13/2023_12:24:05.783,5.972
+01/13/2023_12:24:10.705,6.014
+01/13/2023_12:24:15.802,6.142
+01/13/2023_12:24:20.766,6.021
+01/13/2023_12:24:25.673,6.058
+01/13/2023_12:24:30.804,6.056
+01/13/2023_12:24:35.750,5.317

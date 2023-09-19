@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <CompanyName>Siargo, inc.</CompanyName>
+    <Author>Kevin Shen</Author>
+    <RevisionTimeStamp>2023/6/6 下午 03:04:26</RevisionTimeStamp>
+    <SoftwareVersion>1.0.0.0</SoftwareVersion>
+    <Description>Application Setting File</Description>
+    <Note>Save application setting file name as "app.setting", move the file to the software executable folder</Note>
+  </Header>
+  <Settings>
+    <!-- Product Type -->
+    <ProductSettings>
+      <!--ex: "FS4001" or "MF4000" or "MFHD"-->
+      <Setting key="ProductType" val="LF3000" />
+    </ProductSettings>
+    <!-- Communication Parameters -->
+    <CommSettings>
+      <!-- Comm. Type -->
+      <!--ex: "Rs232" or "I2c" or "Rs485"-->
+      <Setting key="CommType" val="Rs485" />
+      <!--ex: "ALL"(only for RS232) or "3" or "3,4" or "1-10" or "1-10,11,12" -->
+      <Setting key="CommPort" val="ALL" />
+      <!--ex: "1-10,11,12" or "1-10" or "3" or "3,4" (only for I2C and RS485)-->
+      <Setting key="CommPortAddr" val="1-5" />
+      <!--ex: "9600"-->
+      <Setting key="CommBaudRate" val="38400" />
+    </CommSettings>
+    <!-- Test Parameters -->
+    <TestSettings>
+      <!-- Software Parameters -->
+      <!--Only 1 value is allowed-->
+      <Setting key="CommSampleRate" val="200" />
+      <!-- File Path -->
+      <!-- "\..." means under executable folder-->
+      <Setting key="DataFileFolderPath" val="\TestData" />
+      <Setting key="LogFileFolderPath" val="\TestLog" />
+      <Setting key="ReportFileFolderPath" val="\TestReport" />
+      <!-- Software Setting -->
+      <!-- 0: HideIcon, 1: ShowIcon-->
+      <Setting key="ShowManualCaliIcon" val="1" />
+    </TestSettings>
+  </Settings>
+</AppSetting>

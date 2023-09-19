@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <CompanyName>Siargo, inc.</CompanyName>
+    <Author>Kevin Shen</Author>
+    <RevisionTimeStamp>3/26/2021 4:38:31 PM</RevisionTimeStamp>
+    <SoftwareVersion>1.0.0.0</SoftwareVersion>
+    <Description>Device Setting File</Description>
+    <Note>Save device setting file name as "dev.setting", move the setting file to the software executable folder</Note>
+  </Header>
+  <Settings>
+    <ProductSettings Model="FS4001" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="FS4001" CommType="Rs232">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate" />
+    </ProductSettings>
+    <ProductSettings Model="FS5001L" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="FS8001" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="FSP1000" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,Pressure" />
+      <Setting key="SetOption" val="PressureOffset,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="FS6122" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,Temperature,Humidity,Pressure" />
+      <Setting key="SetOption" val="FlowRateOffset,PressureOffset,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="AM1000" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowVelocity,Temperature,Humidity" />
+      <Setting key="SetOption" val="Addr" />
+    </ProductSettings>
+    <ProductSettings Model="AM1000" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowVelocity,Temperature,Humidity" />
+      <Setting key="SetOption" val="Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF4000" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF4600" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF4700" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF5000" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF5100V" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="Addr,Gcf" />
+    </ProductSettings>
+    <ProductSettings Model="MF5200" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate,Pressure" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF5600" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MF5700" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr,AccFlowRateZero" />
+    </ProductSettings>
+    <ProductSettings Model="MF35700" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate,Temperature,Humidity,Pressure" />
+      <Setting key="SetOption" val="FlowRateOffset,PressureOffset,Addr,Gcf,AccFlowRateZero,MaxFlowRate,MinFlowRate" />
+    </ProductSettings>
+    <ProductSettings Model="MF5900" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr,Unit,AccFlowRateZero" />
+    </ProductSettings>
+    <ProductSettings Model="MF35900" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,Temperature" />
+      <Setting key="SetOption" val="Gcf,Addr" />
+    </ProductSettings>
+    <ProductSettings Model="MFHD" CommType="Rs485">
+      <Setting key="BaudRate" val="9600" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="FlowRateOffset,Gcf,MaxFlowRate,MinFlowRate,Addr,AccFlowRateZero" />
+    </ProductSettings>
+    <ProductSettings Model="FS35001" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate" />
+      <Setting key="SetOption" val="Addr,Gcf,FilterDepth" />
+    </ProductSettings>
+    <ProductSettings Model="CS3001" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FluidConc,Gcf" />
+      <Setting key="SetOption" val="ConcOffset,Gcf" />
+    </ProductSettings>
+    <ProductSettings Model="LF3000" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+    </ProductSettings>
+    <ProductSettings Model="LF3000" CommType="Rs485">
+      <Setting key="BaudRate" val="38400" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+    </ProductSettings>
+    <ProductSettings Model="LFD2000" CommType="I2c">
+      <Setting key="BaudRate" val="100000" />
+      <Setting key="SampleRate" val="200" />
+      <Setting key="AcqOption" val="TimeStamp,FlowRate,AccFlowRate" />
+      <Setting key="SetOption" val="Addr,CtlrFlowRate,CtlrAccFlowRate,AccFlowRateZero" />
+    </ProductSettings>
+  </Settings>
+</ProductSetting>
