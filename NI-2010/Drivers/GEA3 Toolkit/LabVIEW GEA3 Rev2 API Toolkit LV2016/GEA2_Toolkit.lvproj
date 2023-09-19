@@ -50,9 +50,6 @@
 			<Item Name="Custom Pallet String.ctl" Type="VI" URL="../../../../Trunk/Utility/Custom Pallet Controls/Custom Pallet String.ctl"/>
 			<Item Name="FT_Get_Device_Info.vi" Type="VI" URL="../FTDI/subVIs/FT_Get_Device_Info.vi"/>
 			<Item Name="FT_Open_Device_By_Index.vi" Type="VI" URL="../FTDI/subVIs/FT_Open_Device_By_Index.vi"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="HEWH Decision Logic Cutout Cutin.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Decision Logic Cutout Cutin.vi"/>
 			<Item Name="HEWH RLT Check Cutout Delay.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Specific/HEWH RLT Check Cutout Delay.vi"/>
 			<Item Name="HEWH RLT Cutout Checker Pulse Logic.vi" Type="VI" URL="../../../../Trunk/Hybrid Water Heater/Support VIs/HEWH RLT Cutout Checker Pulse Logic.vi"/>
