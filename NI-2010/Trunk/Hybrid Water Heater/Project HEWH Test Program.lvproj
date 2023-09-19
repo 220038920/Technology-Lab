@@ -1487,7 +1487,16 @@ Clean up of the manual HHV mode. It now includes config file setting and both LP
 Clean up of variable scan rate
 
 2.39.18.102
-Removed front panel diagnostic data from the variable scan rate clean up of v101</Property>
+Removed front panel diagnostic data from the variable scan rate clean up of v101
+
+2.39.18.103
+Updated scan from from 60 sec to 30 sec. 
+
+2.39.18.104
+Updated pre-purge from 300 to 400. Updated pilot rate from 0.6 to 1.4
+
+2.39.18.105
+Adding 6A functionality to allow TC jack 11 and 12 to be J type.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1496,7 +1505,7 @@ Removed front panel diagnostic data from the variable scan rate clean up of v101
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">102</Property>
+				<Property Name="Bld_version.build" Type="Int">105</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">19</Property>
@@ -1508,7 +1517,7 @@ Removed front panel diagnostic data from the variable scan rate clean up of v101
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D56E52BD-5AD5-483B-8428-5E4A8D66BB99}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FD94A4CE-C7CF-4474-9000-C6A0E4DFBDAA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
