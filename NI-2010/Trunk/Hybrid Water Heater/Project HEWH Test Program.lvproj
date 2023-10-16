@@ -305,6 +305,9 @@
 			<Item Name="HEWH Check For Element Off During Normal Draw.vi" Type="VI" URL="../Support VIs/HEWH Check For Element Off During Normal Draw.vi"/>
 			<Item Name="HEWH Update Last Terminate Condition.vi" Type="VI" URL="../Support VIs/HEWH Update Last Terminate Condition.vi"/>
 			<Item Name="HEWH Scan Rate Loop Trigger.vi" Type="VI" URL="../Support VIs/HEWH Scan Rate Loop Trigger.vi"/>
+			<Item Name="LDO Repeat Sequence.vi" Type="VI" URL="../Support VIs/LDO Repeat Sequence.vi"/>
+			<Item Name="HEWH Convert Cluster to String Test Profiles.vi" Type="VI" URL="../Support VIs/HEWH Convert Cluster to String Test Profiles.vi"/>
+			<Item Name="HEWH Build States.vi" Type="VI" URL="../Support VIs/HEWH Build States.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -406,6 +409,9 @@
 				<Item Name="Siemens Ultramat 23.lvproj" Type="Document" URL="../../../Drivers/Siemens UltraMat 23/Siemens Ultramat 23.lvproj"/>
 			</Item>
 			<Item Name="Inficon Fusion Micro GC" Type="Folder" URL="../../../Drivers/Inficon Fusion Micro GC">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Resideo Gas Valve" Type="Folder" URL="../../../Drivers/Resideo Gas Valve">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -1496,7 +1502,16 @@ Updated scan from from 60 sec to 30 sec.
 Updated pre-purge from 300 to 400. Updated pilot rate from 0.6 to 1.4
 
 2.39.18.105
-Adding 6A functionality to allow TC jack 11 and 12 to be J type.</Property>
+Adding 6A functionality to allow TC jack 11 and 12 to be J type.
+
+2.39.18.106
+Adding LDO Algo Test Routine. Updated Purge from 300 to 480 sec
+
+2.39.18.107
+Adding Vesta communications
+
+2.39.18.108 &amp; 109
+Handling Vesta communication errors</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1505,7 +1520,7 @@ Adding 6A functionality to allow TC jack 11 and 12 to be J type.</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">105</Property>
+				<Property Name="Bld_version.build" Type="Int">109</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">19</Property>
@@ -1517,7 +1532,7 @@ Adding 6A functionality to allow TC jack 11 and 12 to be J type.</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD94A4CE-C7CF-4474-9000-C6A0E4DFBDAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73B7E820-30E4-4CD9-AEBA-76174290B74D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
