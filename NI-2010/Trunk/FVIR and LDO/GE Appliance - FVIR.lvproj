@@ -236,9 +236,6 @@
 				<Item Name="Inficon Transmitter.lvlps" Type="Document" URL="../Drivers/Inficon Transmitter/Inficon Transmitter.lvlps"/>
 				<Item Name="Inficon Transmitter.lvproj" Type="Document" URL="../Drivers/Inficon Transmitter/Inficon Transmitter.lvproj"/>
 			</Item>
-			<Item Name="Resideo Gas Valve" Type="Folder" URL="../Drivers/Resideo Gas Valve">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Siemens Ultramat 23" Type="Folder">
 				<Item Name="Example" Type="Folder">
 					<Item Name="Basic Data Collection.vi" Type="VI" URL="../Drivers/Siemens Ultramat 23/Example/Basic Data Collection.vi"/>
@@ -278,6 +275,9 @@
 				<Item Name="Unist Quantum.aliases" Type="Document" URL="../Drivers/Unist Quantum/Unist Quantum.aliases"/>
 				<Item Name="Unist Quantum.lvlps" Type="Document" URL="../Drivers/Unist Quantum/Unist Quantum.lvlps"/>
 				<Item Name="Unist Quantum.lvproj" Type="Document" URL="../Drivers/Unist Quantum/Unist Quantum.lvproj"/>
+			</Item>
+			<Item Name="Resideo Gas Valve" Type="Folder" URL="../../../Drivers/Resideo Gas Valve">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Gas_Rate" Type="Folder" URL="../Gas_Rate">
@@ -486,7 +486,8 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A0CAE3EA-79F9-43C5-80B5-6AB0DA27A03E}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.28 - Moving application to GitHub and off of lab PC</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.28 - Moving application to GitHub and off of lab PC
+1.0.0.36 - Updating Vesta COMs to version 1.42</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GE Appliance - FVIR &amp; LDO</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -495,7 +496,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14988FD7-1974-4075-A1B1-A43EDA48C9CB}</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GE Appliance - FVIR &amp; LDO.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/GE Appliance - FVIR &amp; LDO.exe</Property>
@@ -504,7 +505,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DC14CD8-706E-4EF3-A02F-F1DAD8B61A20}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D3043222-7229-418F-BA7F-69A4AA11D121}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
