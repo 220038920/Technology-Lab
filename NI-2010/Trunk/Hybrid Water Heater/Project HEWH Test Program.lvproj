@@ -414,6 +414,9 @@
 			<Item Name="Resideo Gas Valve" Type="Folder" URL="../../../Drivers/Resideo Gas Valve">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Ritter Gas Meter" Type="Folder" URL="../../../Drivers/Ritter Gas Meter">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="UTILITY" Type="Folder">
 			<Item Name="GEA2 Commands" Type="Folder">
@@ -1511,7 +1514,10 @@ Adding LDO Algo Test Routine. Updated Purge from 300 to 480 sec
 Adding Vesta communications
 
 2.39.18.108 &amp; 109
-Handling Vesta communication errors</Property>
+Handling Vesta communication errors
+
+2.39.18.110
+Adding Ritter Gas Meter</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1520,7 +1526,7 @@ Handling Vesta communication errors</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">19</Property>
@@ -1532,7 +1538,7 @@ Handling Vesta communication errors</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73B7E820-30E4-4CD9-AEBA-76174290B74D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05F5D842-4B59-4F07-8C2C-AAA4931832A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
