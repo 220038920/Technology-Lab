@@ -476,6 +476,10 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Agilent 34970.lvlib" Type="Library" URL="../../../Drivers/Agilent 34972/Agilent 34970.lvlib"/>
+			<Item Name="Agilent 34970 Read Continuous.vi" Type="VI" URL="../../../Drivers/Agilent 34972/Examples/Agilent 34970 Read Continuous.vi"/>
+			<Item Name="Agilent 34970 Temperature Resistance Conversion.vi" Type="VI" URL="../../../Drivers/Agilent 34972/Examples/Agilent 34970 Temperature Resistance Conversion.vi"/>
+			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../Utility/UTILITY Counter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GE Appliance - FVIR &amp; LDO" Type="EXE">
@@ -491,7 +495,12 @@
 1.0.0.37 - Updating to manual flow control as default
 1.0.0.38 - Disabling FVIR. Trying to reduce resources to fix LDO from resetting PC
 1.0.0.41 - Disabled LDO Alicat, using manifold pressure sensor for actuation. Disabled Inficon, Disabled Vesta LDO
-1.0.0.43 - Enabling everything. It now triggers based on manifold pressure. I have added a adjustement on flow rate that is dependant on the cycle counter. Some of the shorter cycles are experiecning lower outlet temps</Property>
+1.0.0.43 - Enabling everything. It now triggers based on manifold pressure. I have added a adjustement on flow rate that is dependant on the cycle counter. Some of the shorter cycles are experiecning lower outlet temps
+1.0.0.44 - Adding Agilent 34972A to measure thermistor reading on PV water heater
+1.0.0.46 - Adding continuous logging once you press start test. 
+1.0.0.47 - Fixing the save routine to ignore saving if there is no file name
+1.0.0.48 - Adding a Vesta Reconnect
+1.0.0.53 - Fixing Differential when you set the water heater temperature with Vesta</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GE Appliance - FVIR &amp; LDO</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -500,7 +509,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14988FD7-1974-4075-A1B1-A43EDA48C9CB}</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GE Appliance - FVIR &amp; LDO.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/GE Appliance - FVIR &amp; LDO.exe</Property>
@@ -509,7 +518,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4325FBB5-24C6-4B0B-B76C-6FDBF42454F4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A64375F6-653B-49A4-AFB1-4BBE3A36AF83}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
