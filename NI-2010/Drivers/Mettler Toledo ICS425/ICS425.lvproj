@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -36,6 +36,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{89DDF9DE-469D-4384-97DE-A4D6013EFAC9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{992E44D4-F917-419E-9B16-37B2328048B4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AC65E887-3588-4DD2-8E09-466CC8979236}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Setra Main</Property>
