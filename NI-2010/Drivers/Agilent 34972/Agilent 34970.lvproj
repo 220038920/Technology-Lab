@@ -268,6 +268,8 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Inficon IP Address.ctl" Type="VI" URL="../../Inficon Fusion Micro GC/Type Definitions/Inficon IP Address.ctl"/>
+			<Item Name="HEWH Remove Channel.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/HEWH Remove Channel.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Read Digital" Type="EXE">
