@@ -308,6 +308,10 @@
 			<Item Name="LDO Repeat Sequence.vi" Type="VI" URL="../Support VIs/LDO Repeat Sequence.vi"/>
 			<Item Name="HEWH Convert Cluster to String Test Profiles.vi" Type="VI" URL="../Support VIs/HEWH Convert Cluster to String Test Profiles.vi"/>
 			<Item Name="HEWH Build States.vi" Type="VI" URL="../Support VIs/HEWH Build States.vi"/>
+			<Item Name="HEWH Remove Channel.vi" Type="VI" URL="../Support VIs/HEWH Remove Channel.vi"/>
+			<Item Name="Ritter Temperature Vapor Pressure Conversion.vi" Type="VI" URL="../Support VIs/Ritter Temperature Vapor Pressure Conversion.vi"/>
+			<Item Name="HEWH Ritter Wet Meter Correction.vi" Type="VI" URL="../Support VIs/HEWH Ritter Wet Meter Correction.vi"/>
+			<Item Name="Ritter STP Correction.vi" Type="VI" URL="../Support VIs/Ritter STP Correction.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -972,6 +976,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{44BCD4F4-A24C-4FBD-9DB5-01F6092D6F75}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AD76C977-E612-4FBA-9FDD-5088D00EADD6}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">Release notes v .318:  
 1. Connected temp target to &lt;20 start of draw in intellifaucet start.
@@ -1517,7 +1522,21 @@ Adding Vesta communications
 Handling Vesta communication errors
 
 2.39.18.110
-Adding Ritter Gas Meter</Property>
+Adding Ritter Gas Meter
+2.39.18.111
+Adding the option to disable the ritter gas meter. Also changing channel 106 on agilent to resistance (changed from T type thermocouple)
+
+2.39.18.112
+changed the location so that kohms reads on channel 106 for all products. Also updated to kOhms rather than MOhms
+
+2.39.18.113
+Fixed a TC on agilent that was in C back to F
+
+2.39.20.114
+Adding HP ERDs including Inverter. 
+
+2.39.20.115
+Dividing PWM% ERD by 100.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1526,10 +1545,10 @@ Adding Ritter Gas Meter</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">110</Property>
+				<Property Name="Bld_version.build" Type="Int">118</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
-				<Property Name="Bld_version.patch" Type="Int">19</Property>
+				<Property Name="Bld_version.patch" Type="Int">20</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1538,7 +1557,7 @@ Adding Ritter Gas Meter</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{05F5D842-4B59-4F07-8C2C-AAA4931832A3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3E34D2E6-98E4-4DA8-9B0D-AEE3C389444C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1618,7 +1637,7 @@ Adding Ritter Gas Meter</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HEWH Reliability GEA3
 
-Verson Nomenclature:
+Version Nomenclature:
 Digit 1: General Version
 Digit 2: Corey Version when building development software. I use this when iterating software fixes
 Digit 3: GEA3 ERD Updates
