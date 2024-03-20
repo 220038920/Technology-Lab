@@ -312,6 +312,7 @@
 			<Item Name="Ritter Temperature Vapor Pressure Conversion.vi" Type="VI" URL="../Support VIs/Ritter Temperature Vapor Pressure Conversion.vi"/>
 			<Item Name="HEWH Ritter Wet Meter Correction.vi" Type="VI" URL="../Support VIs/HEWH Ritter Wet Meter Correction.vi"/>
 			<Item Name="Ritter STP Correction.vi" Type="VI" URL="../Support VIs/Ritter STP Correction.vi"/>
+			<Item Name="Reset Gas Meter.vi" Type="VI" URL="../Support VIs/Reset Gas Meter.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -1536,7 +1537,13 @@ Fixed a TC on agilent that was in C back to F
 Adding HP ERDs including Inverter. 
 
 2.39.20.115
-Dividing PWM% ERD by 100.</Property>
+Dividing PWM% ERD by 100.
+
+2.39.20.118
+Updated Ritter Correction Factor to a Dry Basis
+
+2.39.20.120
+Updated to reset the gas meter at beginning of test. Also removed the volume correction on gas at start of test.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1545,7 +1552,7 @@ Dividing PWM% ERD by 100.</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">118</Property>
+				<Property Name="Bld_version.build" Type="Int">121</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">20</Property>
@@ -1557,7 +1564,7 @@ Dividing PWM% ERD by 100.</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3E34D2E6-98E4-4DA8-9B0D-AEE3C389444C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AC0B7F7B-D40D-4AB4-93D4-EF131C2685F7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1815,6 +1822,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0C8B65ED-A7E3-41BC-A054-D9096498BD7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
@@ -1843,7 +1851,10 @@ Digit 4: Final Release Number</Property>
 1. Adding T astby 2 to the ANAB sheet
 1.0.0.31
 1. Array mismatch in ANAB report on nr
-2. Fixing ANAB Electric kW and Gas BTU/hr print out.</Property>
+2. Fixing ANAB Electric kW and Gas BTU/hr print out.
+
+1.0.0.32
+1. Changed fossil fuel to calculate from 23 hours to 24 hours. </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1852,7 +1863,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1861,7 +1872,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A5F06292-35C2-4F6C-A161-C9EAA22868FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4895F401-1E6A-4E2C-BCF9-397FDE284617}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
