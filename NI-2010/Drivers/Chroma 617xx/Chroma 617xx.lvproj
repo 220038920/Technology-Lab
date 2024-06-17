@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -196,6 +196,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{EE5FAECB-DC0F-49BF-A506-0650167B248C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4907958B-C869-475F-948C-AD8D85A51BBC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BEC45BFF-37F2-4159-8394-3C22B86172CA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CHROMA Getting Started Main</Property>
