@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -281,6 +281,7 @@
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="YKMW100 DISH Channel Settings.ctl" Type="VI" URL="../Type Definitions/YKMW100 DISH Channel Settings.ctl"/>
 			<Item Name="HEWH Module 4 Relay Status.ctl" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH Module 4 Relay Status.ctl"/>
@@ -406,6 +407,7 @@
 			<Item Name="HEWH Check AO Values.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Check AO Values.vi"/>
 			<Item Name="INTELLIFAUCET Set Value MW100.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/INTELLIFAUCET Set Value MW100.vi"/>
 			<Item Name="Prop Valve Set Value MW100.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/Prop Valve Set Value MW100.vi"/>
+			<Item Name="Inficon IP Address.ctl" Type="VI" URL="../../Inficon Fusion Micro GC/Type Definitions/Inficon IP Address.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="YKMW100 HEWH Check" Type="EXE">
