@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -181,6 +181,7 @@
 				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
 				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="UTILITY String to Array.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY String to Array.vi"/>
 			<Item Name="UTILITY Agilent Scan List Permutation.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Agilent Scan List Permutation.vi"/>
@@ -218,7 +219,6 @@
 			<Item Name="UTILITY TC Coefficients.ctl" Type="VI" URL="../../../Trunk/Utility/Type Definitions/UTILITY TC Coefficients.ctl"/>
 			<Item Name="FMA1600A COM Ports.ctl" Type="VI" URL="../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A COM Ports.ctl"/>
 			<Item Name="Data Frame.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Frame.ctl"/>
-			<Item Name="Data Cluster.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Data Cluster.ctl"/>
 			<Item Name="FMA1600A Units String.ctl" Type="VI" URL="../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Units String.ctl"/>
 			<Item Name="Units of Measure.ctl" Type="VI" URL="../../Alicat Gas Meter Driver/Sub-VIs/Units of Measure.ctl"/>
 			<Item Name="UTILITY Delete Empty String Cells.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Delete Empty String Cells.vi"/>
