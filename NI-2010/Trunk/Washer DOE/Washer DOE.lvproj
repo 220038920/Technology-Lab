@@ -266,6 +266,15 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
@@ -495,6 +504,7 @@
 			<Item Name="HEWH Power Elements.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Power Elements.ctl"/>
 			<Item Name="HEWH PreDraw.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH PreDraw.ctl"/>
 			<Item Name="HEWH Read All MW100 Inputs.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/HEWH Read All MW100 Inputs.vi"/>
+			<Item Name="HEWH Remove Channel.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/HEWH Remove Channel.vi"/>
 			<Item Name="HEWH Reset MW100.vi" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/MW100/HEWH Reset MW100.vi"/>
 			<Item Name="HEWH Special Condition Check.ctl" Type="VI" URL="../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/HEWH Special Condition Check.ctl"/>
 			<Item Name="HEWH Specific DAQ.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Specific DAQ.ctl"/>
@@ -504,6 +514,7 @@
 			<Item Name="HEWH Termination Condition Cluster.ctl" Type="VI" URL="../../Hybrid Water Heater/Type Definitions/HEWH Termination Condition Cluster.ctl"/>
 			<Item Name="HEWH Water Properties.ctl" Type="VI" URL="../../Hybrid Water Heater/Macros/UEF/Type Definitions/HEWH Water Properties.ctl"/>
 			<Item Name="Inficon Data.ctl" Type="VI" URL="../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
+			<Item Name="Inficon IP Address.ctl" Type="VI" URL="../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon IP Address.ctl"/>
 			<Item Name="INTELLIFAUCET Set Value MW100.vi" Type="VI" URL="../../Hybrid Water Heater/Support VIs/INTELLIFAUCET Set Value MW100.vi"/>
 			<Item Name="INTELLIFAUCET Tested Flowrate Scenarios.ctl" Type="VI" URL="../../Hybrid Water Heater/Custom Instrument Control/Intellifaucet/Type Definitions/INTELLIFAUCET Tested Flowrate Scenarios.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
