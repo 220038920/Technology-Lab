@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -78,6 +78,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{DA5AF1D7-FB7A-4257-A213-F9F84B69B65E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C7AFA6DE-B4C5-4E5A-AB2F-98515B78C70A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.GE.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{73D2F657-F5F9-4B30-9084-0CA2107FF595}</Property>
@@ -118,6 +119,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{56C23189-0A0F-4C7C-A0E7-419A5F7A32CD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F4402076-1E9F-4277-B6FC-B10C4AE99466}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{56D1F555-B50D-4276-A0C3-ABD1440DB8E9}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Newport ITX-D3N</Property>
@@ -158,6 +160,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5F5888E4-FC01-442B-9CD4-9E5DCF375D02}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{50207D11-56D3-490B-B985-DDFC13B4F5CA}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A5D2F0B4-E01E-4823-AE32-7A2A3046CC61}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Temperature RH StandAlone</Property>
@@ -168,7 +171,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C2BF12FF-1C87-4137-890A-BE75FEC7A6B6}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Temperature RH StandAlone.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Temperature RH StandAlone/Temperature RH StandAlone.exe</Property>
