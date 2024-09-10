@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -313,6 +313,9 @@
 			<Item Name="HEWH Ritter Wet Meter Correction.vi" Type="VI" URL="../Support VIs/HEWH Ritter Wet Meter Correction.vi"/>
 			<Item Name="Ritter STP Correction.vi" Type="VI" URL="../Support VIs/Ritter STP Correction.vi"/>
 			<Item Name="Reset Gas Meter.vi" Type="VI" URL="../Support VIs/Reset Gas Meter.vi"/>
+			<Item Name="Gas Get Gas Data.vi" Type="VI" URL="../Support VIs/Gas Get Gas Data.vi"/>
+			<Item Name="Gas Populate Ritter Data.vi" Type="VI" URL="../Support VIs/Gas Populate Ritter Data.vi"/>
+			<Item Name="Gas Ritter Temperature and Pressure.vi" Type="VI" URL="../Support VIs/Gas Ritter Temperature and Pressure.vi"/>
 		</Item>
 		<Item Name="Panels" Type="Folder">
 			<Item Name="CVS" Type="Folder">
@@ -420,6 +423,9 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Ritter Gas Meter" Type="Folder" URL="../../../Drivers/Ritter Gas Meter">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Heise Barometric Pressure 901A" Type="Folder" URL="../../../Drivers/Heise Barometric Pressure 901A">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -879,6 +885,7 @@
 				<Item Name="NI_AdvCtrl_nonlinear.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/advanced/NI_AdvCtrl_nonlinear.lvlib"/>
 				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -1543,7 +1550,28 @@ Dividing PWM% ERD by 100.
 Updated Ritter Correction Factor to a Dry Basis
 
 2.39.20.120
-Updated to reset the gas meter at beginning of test. Also removed the volume correction on gas at start of test.</Property>
+Updated to reset the gas meter at beginning of test. Also removed the volume correction on gas at start of test.
+
+2.39.20.121
+Allowing a single calorimeter to operate. 
+
+2.39.20.122
+Updating Wet and Dry gas meter calculations and re-arranging the code to clean it up.
+
+2.39.20.123
+Added the initilization/shutdown of the Heise
+
+2.39.20.126
+Fixing the Energy (BTU) header to display for either Ritter, Alicat, or Both. This allows proper UEF calculations
+
+2.39.20.127
+Adding averaging to the corrected gas rate and the btu/hr
+
+2.39.20.129
+Adding two different PID values for Purge and Draw. Hoping to help stability during a draw
+
+2.39.21.131
+Updated ERDs for HPWH</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1552,10 +1580,10 @@ Updated to reset the gas meter at beginning of test. Also removed the volume cor
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">121</Property>
+				<Property Name="Bld_version.build" Type="Int">132</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
-				<Property Name="Bld_version.patch" Type="Int">20</Property>
+				<Property Name="Bld_version.patch" Type="Int">21</Property>
 				<Property Name="Destination[0].destName" Type="Str">HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH Reliability.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1564,7 +1592,7 @@ Updated to reset the gas meter at beginning of test. Also removed the volume cor
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AC0B7F7B-D40D-4AB4-93D4-EF131C2685F7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F2C328A0-A507-492D-B4B9-56A03E6637D3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1666,28 +1694,28 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].type" Type="Str">absFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 f1</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{7C216C83-85F9-4A5F-9938-2D839206554D}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2023 Q1</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023</Property>
 				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Logos 23.1</Property>
 				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI mDNS Responder 23.0</Property>
 				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI VC2015 Runtime</Property>
 				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 23.1</Property>
 				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[0].SoftDepCount" Type="Int">6</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -1698,7 +1726,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_productName" Type="Str">Project HEWH Test Program</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier company</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{9FC5A60E-BC89-4566-936E-D8AC00C293EC}</Property>
@@ -1743,25 +1771,25 @@ Digit 4: Final Release Number</Property>
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 f1</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{7C216C83-85F9-4A5F-9938-2D839206554D}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2023 Q1</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023</Property>
 				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
 				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 23.1</Property>
 				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2023</Property>
 				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
 				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI mDNS Responder 23.0</Property>
 				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2017</Property>
@@ -1770,10 +1798,10 @@ Digit 4: Final Release Number</Property>
 				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
 				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI TDM Streaming 23.1</Property>
 				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[3].SoftDepCount" Type="Int">9</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -1785,7 +1813,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_productName" Type="Str">GEA Water Heater</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="MSI_arpContact" Type="Str">Corey Sweatt</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.geappliances.com/</Property>
@@ -1822,7 +1850,6 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0C8B65ED-A7E3-41BC-A054-D9096498BD7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
@@ -1854,7 +1881,19 @@ Digit 4: Final Release Number</Property>
 2. Fixing ANAB Electric kW and Gas BTU/hr print out.
 
 1.0.0.32
-1. Changed fossil fuel to calculate from 23 hours to 24 hours. </Property>
+1. Changed fossil fuel to calculate from 23 hours to 24 hours. 
+
+1.0.0.33
+Cleaning up how you extract the Calibration Information. Making it more readable
+
+1.0.0.37
+Adding Minimum UEF and Bin Selection per the CFR. Makes it easier to know if we pass the test or not.
+
+1.0.0.38
+Changed Intertek Water Properties to CSA/AHRI water properties. Added code to show the CFR Minimum and BIN allocation
+
+1.0.0.39
+Updated to detect for a proper reset on Wh at beginning of test. </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1863,7 +1902,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1872,7 +1911,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4895F401-1E6A-4E2C-BCF9-397FDE284617}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{74C81A3D-514D-4AD5-B41E-6B1E24A8FA58}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -1912,37 +1951,37 @@ Digit 4: Final Release Number</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 f1</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{7C216C83-85F9-4A5F-9938-2D839206554D}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2023 Q1</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023</Property>
 				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
 				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 23.1</Property>
 				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
 				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2023</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{4916D413-AC43-3010-9B66-301D33EA43AC}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 Non-English Support.</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2023 Q1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{4C71F057-4B64-3691-A123-E064BF263A9B}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 23.1</Property>
 				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2023</Property>
 				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
 				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 23.0</Property>
 				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
@@ -1951,7 +1990,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
 				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -1961,9 +2000,9 @@ Digit 4: Final Release Number</Property>
 				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">GE Energy Analysis Tool</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.16</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{44D8BC3E-AE42-4F2A-A2CF-D43F72B1B267}</Property>
