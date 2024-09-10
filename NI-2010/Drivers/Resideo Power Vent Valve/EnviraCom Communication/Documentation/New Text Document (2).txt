@@ -1,0 +1,34 @@
+OFF (03 E8 = 10C = 55f lowest value allowed)
+ 59 2B 2D 2B 2D 2B 2D 2D 2D 2D 2B 2D 2B 2D 2D 2D   Y+-+-+----+-+---
+ 2D 2D 2B 2B 2B 2B 2B 2D 2D 2D 2D 2D 2B 2B 2D 2D   --+++++-----++--
+ 2D 2D 2D 2B 2B 2D 2D 2D 2D 2D 2B 2D 2D 2B 2B 2B   ---++-----+--+++
+ 2B 2B 2D 2D 2B 2D 2D 2D 2B 2D 2D 2D 2D 2B 2D 2B   ++--+---+----+-+
+ 2B 2B 2D 2D 2B 2B 2D 2D 2B 2D 2D 2D 2D 2D 2D 2D   ++--++--+-------
+ 2D 0D 0A    
+
+
+ON (1D B8 = 76.08c = 150f max allowed by control)
+ 59 2B 2D 2B 2D 2B 2D 2D 2D 2D 2B 2D 2B 2D 2D 2D   Y+-+-+----+-+---
+ 2D 2D 2B 2B 2B 2B 2B 2D 2D 2D 2D 2D 2B 2B 2D 2D   --+++++-----++--
+ 2D 2D 2D 2B 2B 2D 2D 2D 2D 2B 2B 2B 2D 2B 2B 2D   ---++----+++-++-
+ 2B 2B 2B 2D 2D 2D 2B 2D 2D 2D 2D 2D 2B 2D 2B 2B   +++---+-----+-++
+ 2D 2D 2B 2D 2B 2D 2D 2B 2D 2D 2D 2D 2D 2D 2D 2D   --+-+--+--------
+ 0D 0A 
+
+135F (16 44 = 57.22c)
+ 59 2B 2D 2B 2D 2B 2D 2D 2D 2D 2B 2D 2B 2D 2D 2D   Y+-+-+----+-+---
+ 2D 2D 2B 2B 2B 2B 2B 2D 2D 2D 2D 2D 2B 2B 2D 2D   --+++++-----++--
+ 2D 2D 2D 2B 2B 2D 2D 2D 2D 2B 2D 2B 2B 2D 2D 2B   ---++----+-++--+
+ 2D 2D 2D 2B 2D 2D 2D 2B 2B 2B 2D 2B 2B 2D 2B 2B   ---+---+++-++-++
+ 2D 2D 2D 2D 2B 2D 2B 2D 2D 2D 2D 2D 2D 2D 2D 0D   ----+-+--------.
+ 0A                                                .
+
+149F (19 64 = 65c) 
+59 2B 2D 2B 2D 2B 2D 2D 2D 2D 2B 2D 2B 2D 2D 2D    Y+-+-+----+-+---
+ 2D 2D 2B 2B 2B 2B 2B 2D 2D 2D 2D 2D 2B 2B 2D 2D   --+++++-----++--
+ 2D 2D 2D 2B 2B 2D 2D 2D 2D 2B 2B 2D 2D 2B 2D 2B   ---++----++--+-+
+ 2B 2D 2D 2B 2D 2D 2B 2D 2D 2B 2B 2B 2D 2D 2B 2B   +--+--+--+++--++
+ 2B 2D 2D 2D 2D 2D 2B 2D 2D 2D 2D 2D 2D 2D 2D 0D   +-----+--------.
+ 0A                                                .
+                                        
+                                     

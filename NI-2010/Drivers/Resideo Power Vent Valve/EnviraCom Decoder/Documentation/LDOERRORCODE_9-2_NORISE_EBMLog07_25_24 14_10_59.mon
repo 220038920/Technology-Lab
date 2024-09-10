@@ -1,0 +1,3393 @@
+ÿ'   EnvBusMon V0.28
+   Database 1.10 (Working) 24-Jan-2012
+07/25/24 14:10:59.049       0 rrrrrrrr
+    Error Frame
+07/25/24 14:11:04.514     545 >D rD DDrrrDrrDrrrrr +rrrrr+rrr rr +rrrrr+r rrrDrDDrDDDDrDrr Dr rrrrrrr<
+07/25/24 14:11:05.523       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:11:06.367       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrrDrr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rDrrDrDDDrrDDDr Dr rrrrrrr
+07/25/24 14:11:12.509     600 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:11:19.350     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:11:26.554     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:11:29.916     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:11:30.575       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:11:31.250       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD rrDrDDDr rrrDDrDrDDDDrrDr Dr rrrrrrr
+07/25/24 14:11:37.383     618 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:11:38.383       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:11:38.925       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rr +rrrrr+r rrrDrDDrDDDDrDrr Dr rrrrrrr
+07/25/24 14:11:39.775       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrrDrr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rDrrDrDDDrrDDDr Dr rrrrrrr
+07/25/24 14:11:44.542     436 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:11:51.366     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:11:58.558     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:12:05.409     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:12:10.133     488 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD DrrrDrrr DDrrrDrrrDrrrrr+r Dr rrrrrrr
+07/25/24 14:12:12.645     164 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:12:19.483     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+rrrrr+rrrDrrrDr Dr rrrrrrr
+07/25/24 14:12:26.709     731 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:12:30.091     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:12:30.750       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:12:37.558     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:12:38.558       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rrrr+rDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rDDDrDrrDr Dr rrrrrrr
+07/25/24 14:12:39.108       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rr +rrrrr+r rrrDrDDrDDDDrDrr Dr rrrrrrr
+07/25/24 14:12:39.958       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrrDrr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rDrrDrDDDrrDDDr Dr rrrrrrr
+07/25/24 14:12:44.759     440 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:12:51.617     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:12:58.832     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:13:05.667     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrrrr+DDrrrDrDr Dr rrrrrrr
+07/25/24 14:13:06.662       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrrrr+DDrrrDrDr Dr rrrrrrr
+07/25/24 14:13:07.208       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rr +rrrrr+r rrrDrDDrDDDDrDrr Dr rrrrrrr
+07/25/24 14:13:08.058       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrrDrr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rDrrDrDDDrrDDDr Dr rrrrrrr
+07/25/24 14:13:12.868     440 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:13:19.740     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:13:23.748     420 >D rD DDDD-DrrDDDrrrr DDDDrrrr r+r rrrr+rr DDDDrDDDDD-Drrrrr Dr rrrrrrr<
+07/25/24 14:13:24.950       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD DDrrDrrr rr+rrrDrr rrr+rDrrr rr+rrrrr+r rrrr+rrrr DDrrDrrr rr+DrDDDD rrrDDDrr rrr+rrrrr +DDDrDDrDDDDD-rDrr Dr rrrrrrr
+07/25/24 14:13:26.973     105 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:13:30.358     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:13:31.016       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:13:31.624      13 D rD rDrrDrrDDDDrrr DDDDrrrr r+r rrrr+rr DDrDDrDDDDrDrrDr Dr rrrrrrr
+07/25/24 14:13:32.359       3 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rDrrrDDD DD-rrDrrr rr+rrrDDr DrDDrDrDrDDDrDDr Dr rrrrrrr
+07/25/24 14:13:37.824     542 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:13:42.542     487 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr rrrDrDrr DrrDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:13:45.033     161 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:13:48.183     316 >D rD rDrrDrrDDrrrrr +DDDD-rrrr +rr rrr+rrr DrDDDrDDrrDrDDDr Dr rrrrrrr<
+07/25/24 14:13:48.868       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD DDDrrrDr DDDrrrrr+DDrrDDDr Dr rrrrrrr
+07/25/24 14:13:51.883     246 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:13:58.216     702 >D rD rDrrrrDrDrrrrr +DDDD-rrrr +rr rrr+rrr DDrDrrrDrDrrDrDr Dr rrrrrrr<
+07/25/24 14:13:59.392       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:14:00.291       3 D rD rDrrrrDrDrrrrr +DDDD-rrrr +rD rrrDrD rrrDDrrD DrDrrrrr +rrrrr+rrr rr+rrrrDD DrDrDDrr rrDDDDrDrrrrr+DDr Dr rrrrrrr
+07/25/24 14:14:05.900     558 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:14:13.083     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:14:19.926     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:14:27.108     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:14:30.479     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:14:31.133       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:14:31.827       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr Drrrrr+Dr DrDrrrDrDDDDD-DDr Dr rrrrrrr
+07/25/24 14:14:37.966     622 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:14:45.141     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:14:51.967     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:14:59.158     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:15:05.993     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:15:13.166     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:15:20.000     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDÿ'DrDr Dr rrrrrrr
+07/25/24 14:15:27.191     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:15:30.600     347 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:15:31.257       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:15:38.050     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:15:45.258     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:15:52.116     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:15:59.358     732 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:16:06.208     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:16:13.375     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:16:20.240     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:16:27.425     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:16:30.817     346 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:16:31.475       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:16:38.314     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rrrrr+DDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDDD-rrrDDDDrDr Dr rrrrrrr
+07/25/24 14:16:45.501     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:16:47.033     104 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr DDDDrrrr r+rDDrDrDrDrDrrrr Dr rrrrrrr
+07/25/24 14:16:52.342     522 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDrrDDDDD-rrDrr Dr rrrrrrr
+07/25/24 14:16:59.537     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:17:06.375     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDrrDDDDD-rrDrr Dr rrrrrrr
+07/25/24 14:17:13.558     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:17:20.400     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDrrDDDDD-rrDrr Dr rrrrrrr
+07/25/24 14:17:27.600     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:17:30.967     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:17:31.623       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:17:32.317       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD rrDrDDrr rrr+DDDrrrrr+rDDDr Dr rrrrrrr
+07/25/24 14:17:38.417     616 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:17:39.124       5 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD rDrDrDrr DDDDD-DDrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:17:45.625     643 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:17:52.466     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:17:59.684     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:18:06.517     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:18:11.208     485 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD DrDDDrrr DrDDrrDrDrrDDrrr Dr rrrrrrr
+07/25/24 14:18:13.695     161 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:18:20.521     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:18:27.716     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:18:31.109     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:18:31.773       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:18:38.575     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:18:45.786     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:18:52.650     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+DrrD rrrrDrrr rr+rrrrr+D rrDrDrrr rr+DDrrDDDDD-rrDrr Dr rrrrrrr
+07/25/24 14:18:59.875     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:19:06.759     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:19:13.951     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:19:20.826     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:19:28.058     731 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:19:31.450     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:19:32.108       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:19:38.967     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:19:46.191     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:19:53.066     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:20:00.256     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:20:07.075     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:20:14.273     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:20:21.125     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:20:28.367     732 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:20:31.750     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:20:32.407       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:20:33.091       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr rrr+DrrDr DrrDDrDrrrDDDrDr Dr rrrrrrr
+07/25/24 14:20:39.242     622 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:20:39.943       6 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr rrDrrDDr DDrrrDDrDDrDrDDr Dr rrrrrrr
+07/25/24 14:20:46.442     643 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:20:53.342     711 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:21:00.561     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:21:07.450     710 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rÿ'rDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:21:14.625     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:21:21.484     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:21:28.658     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:21:32.025     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:21:32.684       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:21:39.508     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:21:46.717     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:21:53.583     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:21:56.292     247 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr DrrDDDDr DrrrrDDDDrrrDDrr Dr rrrrrrr
+07/25/24 14:22:00.800     404 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:22:07.650     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:22:14.876     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:22:21.717     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:22:28.917     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:22:32.308     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:22:32.968       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:22:39.775     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:22:46.967     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:22:53.809     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:22:56.508     245 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD rrrrDDrr DrrrDDrDDrrDDDDr Dr rrrrrrr
+07/25/24 14:23:00.993     402 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:23:07.834     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:23:15.016     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:23:21.885     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:23:24.575     245 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD rDDDDrDr DrDrDrDDDrDrDDDr Dr rrrrrrr
+07/25/24 14:23:29.066     402 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:23:32.450     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:23:33.108       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:23:33.786       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD rDDDDrDr DrDrDrDDDrDrDDDr Dr rrrrrrr
+07/25/24 14:23:39.942     622 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:23:47.150     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:23:53.991     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:24:01.175     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:24:08.050     708 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:24:15.242     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:24:22.116     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:24:29.350     731 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:24:32.725     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:24:33.381       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:24:40.173     699 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:24:47.358     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:24:54.191     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:25:01.373     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:25:08.216     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:25:08.909       5 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD DDrDDDDr DDDrDrrrrDrrDrDr Dr rrrrrrr
+07/25/24 14:25:15.425     645 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:25:22.258     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:25:29.467     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:25:32.876     347 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:25:33.531       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:25:40.375     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:25:47.575     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:25:54.417     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:26:01.634     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:26:08.492     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:26:15.661     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:26:21.208     586 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr rDrrDDrr rDDDDrrDDDDD-rrDr Dr rrrrrrr
+07/25/24 14:26:22.505      40 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:26:29.750     732 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:26:33.133     344 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:26:33.792       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:26:34.473       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr rDrrDDrr rDDDDrrDDDDD-rrDr Dr rrrrrrr
+07/25/24 14:26:40.625     622 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:26:47.860     731 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDrÿ' Dr rrrrrrr
+07/25/24 14:26:54.719     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:27:01.968     733 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:27:05.526     347 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr DrDDDrDr rrrDDrDDDDD-rrDrr Dr rrrrrrr
+07/25/24 14:27:08.842     281 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:27:16.033     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:27:22.917     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:27:30.133     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:27:33.533     347 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:27:34.192       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:27:37.734     343 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -rrDrDrrr rr+rDrrrDDDDD-rDDr Dr rrrrrrr
+07/25/24 14:27:41.041     281 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:27:48.225     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:27:55.050     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:28:02.273     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:28:09.091     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:28:16.283     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:28:23.133     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:28:30.325     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:28:33.718     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:28:34.373       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:28:41.183     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:28:48.358     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:28:55.200     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:29:02.400     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:29:09.233     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:29:16.408     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:29:17.937     104 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -DrDrDrDr DDrrDrrrDrrrrDDr Dr rrrrrrr
+07/25/24 14:29:23.233     520 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:29:30.417     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:29:33.809     346 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:29:34.469       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:29:35.158       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -DrDrDrDr DDrrDrrrDrrrrDDr Dr rrrrrrr
+07/25/24 14:29:41.300     622 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:29:48.475     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:29:55.316     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:30:02.517     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:30:09.316     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:30:14.058     489 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -rDrrrDDr DrrrrDrrDDDrrDDr Dr rrrrrrr
+07/25/24 14:30:16.542     161 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:30:23.400     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:30:30.658     734 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:30:34.066     347 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:30:34.726       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:30:41.550     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:30:48.775     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:30:54.300     584 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -DrDrDrDr DDrrDrrrDrrrrDDr Dr rrrrrrr
+07/25/24 14:30:55.600      42 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:31:02.818     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:31:09.633     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:31:16.827     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:31:23.667     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:31:30.860     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:31:34.225     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:31:34.884       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:31:38.367     340 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr r+rrrDDDr DrDDDrDDDDrDrrDr Dr rrrrrrr
+07/25/24 14:31:41.666     281 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:31:48.892     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:31:55.745     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:32:02.927     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:32:09.734     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:32:16.925     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:32:23.767     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:32:30.968     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:32:34.358     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+ÿ'rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:32:35.016       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:32:35.690       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr r+rrDDrrr DDrrDDrrrrDDrDrr Dr rrrrrrr
+07/25/24 14:32:41.850     624 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:32:49.083     731 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:32:55.925     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:33:03.107     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:33:09.935     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:33:14.675     489 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr r+DDDD-Drr rrDrDDrrrDDDDD-rr Dr rrrrrrr
+07/25/24 14:33:17.141     159 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:33:23.983     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:33:31.258     736 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:33:34.700     352 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:33:35.357       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:33:42.133     699 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:33:49.358     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:33:56.200     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:34:03.446     733 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:34:10.283     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:34:17.492     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:34:24.300     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:34:31.500     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:34:32.175       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr DDDrrrrr +rDDrDrDrDDDrrDrr Dr rrrrrrr
+07/25/24 14:34:34.892     264 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:34:35.548       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:34:42.316     699 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:34:47.075     493 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD rDrrrDrr DrDrrrrDrDrrDDrr Dr rrrrrrr
+07/25/24 14:34:49.567     162 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:34:56.375     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+rDDD rrrrDrrr rr+rrrrr+D rrDrDrrr DDrDDrDDrDDDrDDr Dr rrrrrrr
+07/25/24 14:35:03.583     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:35:10.425     704 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:35:17.608     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:35:24.475     708 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:35:31.658     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:35:35.033     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:35:35.686       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:35:36.351       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD rrDrrDDr rDDrDDrDDDrrDDrr Dr rrrrrrr
+07/25/24 14:35:42.483     619 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:35:49.658     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:35:56.500     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:36:03.712     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:36:10.533     702 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:36:17.709     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:36:24.550     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:36:31.750     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:36:35.141     345 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:36:35.801       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:36:42.592     699 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:36:49.784     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:36:56.612     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:37:03.828     729 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:37:10.684     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:37:15.383     485 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD DDrrrDDr rDDDDrrrrr+DDDD-rr Dr rrrrrrr
+07/25/24 14:37:17.859     160 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:37:24.734     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:37:31.927     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:37:35.334     347 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:37:35.993       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:37:42.800     701 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:37:50.000     728 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:37:56.859     709 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:38:04.058     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:38:07.583     345 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr rrDrDrDr rrDrrDDDDrDDDrDr Dr rrrrrrr
+07/25/24 14:38:10.892     282 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:38:18.116     730 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDÿ'D-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:38:24.975     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:38:32.173     727 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:38:36.191     342 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD DDrrDrrr rr+rrrDrr rrr+rDrrr rr+rrrrr+r rrrr+rrrr DDrrDrrr rr+DrDDDr DrrDrrrr r+rrrrr+rr rrDDrrDrrDrDrrrr Dr rrrrrrr
+07/25/24 14:38:36.725       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:38:37.385       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:38:38.124       3 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rDrrrDDD DD-rrDrrr rr+rrrDDr DrDDrDrDrDDDrDDr Dr rrrrrrr
+07/25/24 14:38:38.796       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr rrDDDDD-r DDrrDDrDrrrrDrDr Dr rrrrrrr
+07/25/24 14:38:39.904       3 D rD rDrrrrDrDrrrDD DDD-Drrrr r+D rrDrrr rr+rrrDrD rDDrDDDr rrrr+rDrD rDDrDDDr rrrr+rrrD rrrDDrrr rr+rrrrr+D rrrDDrrr rr+rDDDrrrrDDrDDr Dr rrrrrrr
+07/25/24 14:38:41.041       3 D rD rDrrrrDrDrrrDr DDDDrrrr r+D rrDrrr rr+rDDrrD DrDrrrrr +rrrrr+DrD rrrrr+rrr rr+rrrDrD rrrrr+rrr rr+rrrDrD rrrrr+rrr rr+rDrrrrr+rrrrr+rr Dr rrrrrrr
+07/25/24 14:38:42.158       3 D rD rDrrrrDrDrrrrD DDDD-rrrr +rD rrDrrr rr+rDDrrD DrDrrrrr +rrrrr+DrD rrrrr+rrr rr+rrrDrD rDDrDDDr rrrr+rrrD rrrDDrrr rDDrrrDDDDD-DDDDr Dr rrrrrrr
+07/25/24 14:38:43.150       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:38:44.049       3 D rD rDrrrrDrDrrrrr +DDDD-rrrr +rD rrrDrD rrrDDrrD DrDrrrrr +rrrrr+rrr rr+rrrrDD DrDrDDrr rrDDDDrDrrrrr+DDr Dr rrrrrrr
+07/25/24 14:38:50.208     603 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:38:57.075     707 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:39:04.316     733 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:39:07.843     345 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DrrrDDDr rDDrrDrrrDrDDDDr Dr rrrrrrr
+07/25/24 14:39:11.175     284 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+rrrrDDr rrrr+Drrr rr+rrDrrr rr+rrrrr+D rrDrDrrr rr+rrDDDrrrrDrDrr Dr rrrrrrr
+07/25/24 14:39:17.158     576 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rDDrD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+DrDDDr DDrrDDrr rrr+rrrrr +DrrDrrrrr+rrrrr+rr Dr rrrrrrr
+07/25/24 14:39:18.275       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrDrrr DDDDrDrr rrr+rrrrr +DrrDDDDD -DDDDrrrr r+rDDrrDD rrrrr+rrr rr+rrrrr+D DDrrDrrD DrDDrDrrDDrDDDDr Dr rrrrrrr
+07/25/24 14:39:19.450       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:39:25.183     573 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrrDD rrrrr+rrr rr+DrDrrr DrrrDDrrDrDDrrrr Dr rrrrrrr
+07/25/24 14:39:32.358     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:39:35.728     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:39:36.383       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:39:43.183     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrrDD rrrrr+rrr rr+DrDrrr DrrrDDrrDrDDrrrr Dr rrrrrrr
+07/25/24 14:39:50.359     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:39:57.191     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:40:04.358     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:40:11.191     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:40:18.372     725 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:40:25.225     705 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:40:32.391     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:40:35.759     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:40:36.415       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:40:43.225     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:40:50.417     726 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:40:57.273     706 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:41:04.433     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:41:11.268     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:41:18.433     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:41:25.273     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:41:32.433     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:41:35.808     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:41:36.465       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:41:37.133       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDrrDrDr rrDDrrDrrDrrDrDr Dr rrrrrrr
+07/25/24 14:41:43.266     620 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:41:50.433     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:41:57.275     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrDrrrr r+DDDD-DDD DD-DDDDD-D rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDrrrDrrDDDDD-r Dr rrrrrrr
+07/25/24 14:42:04.433     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:42:11.266     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:42:18.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:42:25.266     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:42:32.441     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:42:35.809     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:42:36.465       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:42:43.266     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:42:50.438     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:42:57.258     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:43:04.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:43:11.250     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:43:18.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:43:25.250     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:4ÿ'3:32.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:43:35.792     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:43:36.452       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:43:43.250     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:43:50.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:43:57.250     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:44:04.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:44:11.258     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:44:18.430     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:44:25.258     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:44:32.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:44:35.809     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:44:36.466       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:44:37.150       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDDrDrrr rr+rDDrrDrDrrrrr+r Dr rrrrrrr
+07/25/24 14:44:39.958     258 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDDDD-Drr DDDDrrDDDDD-Drrrr Dr rrrrrrr
+07/25/24 14:44:43.267     281 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:44:50.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:44:57.267     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:45:04.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:45:11.266     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:45:18.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:45:25.266     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:45:32.442     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:45:35.809     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:45:36.464       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:45:43.258     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:45:50.433     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:45:57.256     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:46:04.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:46:11.250     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:46:18.425     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:46:25.250     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:46:32.421     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:46:35.785     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:46:36.444       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:46:43.233     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDD rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr DrDDDDD-rDrDrrrrr Dr rrrrrrr
+07/25/24 14:46:50.408     724 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:46:57.241     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:47:04.408     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:47:11.241     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:47:18.404     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:47:25.233     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:47:32.397     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:47:35.767     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:47:36.425       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:47:37.091       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDrrDrDr rrDDrrDrrDrrDrDr Dr rrrrrrr
+07/25/24 14:47:43.225     620 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:47:50.392     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:47:57.225     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:48:04.388     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:48:11.216     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:48:18.383     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:48:25.215     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:48:32.375     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:48:35.751     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:48:36.407       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:48:43.208     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:48:50.375     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:48:57.208     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:49:04.367     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:49:11.200     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:49:18.364     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:49:25.198     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrrÿ·
+07/25/24 14:49:32.358     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:49:35.728     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:49:36.382       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:49:43.191     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:49:50.358     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:49:57.190     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:50:04.350     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:50:11.183     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:50:18.350     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:50:25.182     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:50:32.350     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:50:35.719     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:50:36.374       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:50:37.042       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDrDrDrr DrDrDDrDDrDrrrDr Dr rrrrrrr
+07/25/24 14:50:43.183     620 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:50:50.347     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:50:57.182     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:51:04.342     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:51:11.175     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:51:18.342     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:51:25.175     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:51:32.342     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:51:35.709     343 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/25/24 14:51:36.366       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/25/24 14:51:43.175     700 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:51:50.342     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:51:57.184     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:52:04.341     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+07/25/24 14:52:11.175     703 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDr rDrrDDDr rDDDDD-DD DDD-DDDDD -rrrDrDrr rrr+rrrrr +rrDrDrrr Drrrrr+DrDDDDD-rrr Dr rrrrrrr
+07/25/24 14:52:18.307     723 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrDrrr rDDDDD-DD DDD-DDDDD -rDDDDD-DD DDD-DDDDD -rrrDrrDD rrrrr+Drr rDDDDD-DD DDD-DDDDD -rDrDDDDD-DrrDDrDr Dr rrrrrrr
+ ÿ'   EnvBusMon V0.28
+   Database 1.10 (Working) 24-Jan-2012
+07/25/24 14:10:59.082 [IDLE]
+ >>TX Msg:
+07/25/24 14:11:04.514     545 Alarm, system wide, Query                                 M 3120 00 Q 
+
+07/25/24 14:11:05.523       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+07/25/24 14:11:06.367       3 Alarm, system wide, Report                                M 3120 00 R 00 00 00 00 
+  !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:11:06.400 [IDLE]
+07/25/24 14:11:12.509     600 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:11:12.542 [IDLE]
+07/25/24 14:11:19.350     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:11:19.383 [IDLE]
+07/25/24 14:11:26.554     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:11:26.587 [IDLE]
+07/25/24 14:11:29.916     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:11:30.575       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:11:31.250       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 2E 
+07/25/24 14:11:31.283 [IDLE]
+07/25/24 14:11:37.383     618 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:11:38.383       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+07/25/24 14:11:38.925       3 Alarm, system wide, Query                                 M 3120 00 Q 
+07/25/24 14:11:39.775       3 Alarm, system wide, Report                                M 3120 00 R 00 00 00 00 
+  !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:11:39.809 [IDLE]
+07/25/24 14:11:44.542     436 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:11:44.576 [IDLE]
+07/25/24 14:11:51.366     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:11:51.400 [IDLE]
+07/25/24 14:11:58.558     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:11:58.592 [IDLE]
+07/25/24 14:12:05.409     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:12:05.442 [IDLE]
+07/25/24 14:12:10.133     488 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 88 
+    DHWTemp = 75.930000 deg F
+07/25/24 14:12:10.166 [IDLE]
+07/25/24 14:12:12.645     164 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:12:12.678 [IDLE]
+07/25/24 14:12:19.483     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 09 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:12:19.517 [IDLE]
+07/25/24 14:12:26.709     731 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:12:26.743 [IDLE]
+07/25/24 14:12:30.091     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:12:30.750       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:12:30.784 [IDLE]
+07/25/24 14:12:37.558     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+    Info1 = 78 'N' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:12:38.558       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 06 08 08 01 28 
+07/25/24 14:12:39.108       3 Alarm, system wide, Query                                 M 3120 00 Q 
+07/25/24 14:12:39.958       3 Alarm, system wide, Report                                M 3120 00 R 00 00 00 00 
+  !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:12:39.991 [IDLE]
+07/25/24 14:12:44.759     440 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:12:44.792 [IDLE]
+07/25/24 14:12:51.617     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:12:51.650 [IDLE]
+07/25/24 14:12:58.832     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:12:58.866 [IDLE]
+07/25/24 14:13:05.667     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 08 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:13:06.662       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 08 08 01 28 
+07/25/24 14:13:07.208       3 Alarm, system wide, Query                                 M 3120 00 Q 
+07/25/24 14:13:08.058       3 Alarm, system wide, Report                                M 3120 00 R 00 00 00 00 
+  !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:13:08.092 [IDLE]
+07/25/24 14:13:12.868     440 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:13:12.902 [IDLE]
+07/25/24 14:13:19.740     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:13:19.773 [IDLE]
+ >>TX Msg:
+07/25/24 14:13:23.748     420 Device Status, water heater, Query                        M 3e70 F0 Q 
+
+07/25/24 14:13:24.950       3 Device Status, water heater, Report                       M 3e70 F0 R C8 04 08 00 00 C8 2F 1C 00 
+07/25/24 14:13:24.983 [IDLE]
+07/25/24 14:13:26.973     105 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:13:27.000 [IDLE]
+07/25/24 14:13:30.358     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:13:31.016       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:13:31.049 [IDLE]
+07/25/24 14:13:31.624      13 VOC Sensor, water heater, Query                           M 1278 F0 Q 
+07/25/24 14:13:32.359       3 VOC Sensor, water heater, Report                          M 1278 F0 R 47 C8 06 
+07/25/24 14:13:32.392 [IDLE]
+07/25/24 14:13:37.824     542 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:13:37.857 [IDLE]
+07/25/24 14:13:42.542     487 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A 14 
+    DHWTemp = 78.450000 deg F
+07/25/24 14:13:42.575 [IDLE]
+07/25/24 14:13:45.033     161 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:13:45.066 [IDLE]
+ >>TX Msg:
+07/25/24 14:13:48.183     316 DHW Cylinder Temperature, water heater, Query             M 1260 F0 Q 
+
+07/25/24 14:13:48.868       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 E2 
+    DHWTemp = 77.550000 deg F
+07/25/24 14:13:48.901 [IDLE]
+07/25/24 14:13:51.883     246 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:13:51.916 [IDLE]
+ >>TX Msg:
+07/25/24 14:13:58.216     702 DHW Cylinder Setpoint, water heater, Query                M 10a0 F0 Q 
+
+07/25/24 14:13:59.392       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:14:00.291       3 DHW Cylinder Setpoint, water heater, Report               M 10a0 F0 R 19 A0 00 03 AC 
+07/25/24 14:14:00.324 [IDLE]
+07/25/24 14:14:05.900     558 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 0ÿ'6 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:14:05.934 [IDLE]
+07/25/24 14:14:13.083     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:14:13.116 [IDLE]
+07/25/24 14:14:19.926     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:14:19.959 [IDLE]
+07/25/24 14:14:27.108     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:14:27.141 [IDLE]
+07/25/24 14:14:30.479     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:14:31.133       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:14:31.827       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A 82 
+    DHWTemp = 80.430000 deg F
+07/25/24 14:14:31.860 [IDLE]
+07/25/24 14:14:37.966     622 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:14:38.000 [IDLE]
+07/25/24 14:14:45.141     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:14:45.175 [IDLE]
+07/25/24 14:14:51.967     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:14:52.000 [IDLE]
+07/25/24 14:14:59.158     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:14:59.191 [IDLE]
+07/25/24 14:15:05.993     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:15:06.024 [IDLE]
+07/25/24 14:15:13.166     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:15:13.200 [IDLE]
+07/25/24 14:15:20.000     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:15:20.033 [IDLE]
+07/25/24 14:15:27.191     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:15:27.225 [IDLE]
+07/25/24 14:15:30.600     347 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:15:31.257       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:15:31.290 [IDLE]
+07/25/24 14:15:38.050     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:15:38.083 [IDLE]
+07/25/24 14:15:45.258     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:15:45.291 [IDLE]
+07/25/24 14:15:52.116     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:15:52.150 [IDLE]
+07/25/24 14:15:59.358     732 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:15:59.391 [IDLE]
+07/25/24 14:16:06.208     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:16:06.241 [IDLE]
+07/25/24 14:16:13.375     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:16:13.408 [IDLE]
+07/25/24 14:16:20.240     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:16:20.273 [IDLE]
+07/25/24 14:16:27.425     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:16:27.458 [IDLE]
+07/25/24 14:16:30.817     346 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:16:31.475       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:16:31.508 [IDLE]
+07/25/24 14:16:38.314     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 06 09 08 01 28 
+    Info1 = 79 'O' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:16:38.347 [IDLE]
+07/25/24 14:16:45.501     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:16:45.534 [IDLE]
+07/25/24 14:16:47.033     104 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A F0 
+    DHWTemp = 82.410000 deg F
+07/25/24 14:16:47.066 [IDLE]
+07/25/24 14:16:52.342     522 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 09 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:16:52.375 [IDLE]
+07/25/24 14:16:59.537     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:16:59.570 [IDLE]
+07/25/24 14:17:06.375     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 09 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:17:06.408 [IDLE]
+07/25/24 14:17:13.558     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:17:13.591 [IDLE]
+07/25/24 14:17:20.400     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 09 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:17:20.433 [IDLE]
+07/25/24 14:17:27.600     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:17:27.633 [IDLE]
+07/25/24 14:17:30.967     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:17:31.623       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:17:32.317       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B 2C 
+    DHWTemp = 83.490000 deg F
+07/25/24 14:17:32.350 [IDLE]
+07/25/24 14:17:38.417     616 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:17:38.450 [IDLE]
+07/25/24 14:17:39.124       5 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B 54 
+    DHWTemp = 84.210000 deg F
+07/25/24 14:17:39.157 [IDLE]
+07/25/24 14:17:45.625     643 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:17:45.658 [IDLE]
+07/25/24 14:17:52.466     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:17:52.500 [IDLE]
+07/25/24 14:17:59.684     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:17:59.717 [IDLE]
+07/25/24 14:18:06.517     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:18:06.550 [IDLE]
+ÿ'07/25/24 14:18:11.208     485 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B B8 
+    DHWTemp = 86.010000 deg F
+07/25/24 14:18:11.242 [IDLE]
+07/25/24 14:18:13.695     161 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:18:13.728 [IDLE]
+07/25/24 14:18:20.521     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:18:20.554 [IDLE]
+07/25/24 14:18:27.716     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:18:27.750 [IDLE]
+07/25/24 14:18:31.109     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:18:31.773       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:18:31.807 [IDLE]
+07/25/24 14:18:38.575     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:18:38.608 [IDLE]
+07/25/24 14:18:45.786     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:18:45.819 [IDLE]
+07/25/24 14:18:52.650     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 09 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 9 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:18:52.684 [IDLE]
+07/25/24 14:18:59.875     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:18:59.909 [IDLE]
+07/25/24 14:19:06.759     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:19:06.792 [IDLE]
+07/25/24 14:19:13.951     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:19:13.985 [IDLE]
+07/25/24 14:19:20.826     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:19:20.860 [IDLE]
+07/25/24 14:19:28.058     731 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:19:28.091 [IDLE]
+07/25/24 14:19:31.450     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:19:32.108       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:19:32.141 [IDLE]
+07/25/24 14:19:38.967     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:19:39.000 [IDLE]
+07/25/24 14:19:46.191     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:19:46.225 [IDLE]
+07/25/24 14:19:53.066     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:19:53.100 [IDLE]
+07/25/24 14:20:00.256     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:20:00.289 [IDLE]
+07/25/24 14:20:07.075     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:20:07.108 [IDLE]
+07/25/24 14:20:14.273     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:20:14.306 [IDLE]
+07/25/24 14:20:21.125     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:20:21.158 [IDLE]
+07/25/24 14:20:28.367     732 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:20:28.400 [IDLE]
+07/25/24 14:20:31.750     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:20:32.407       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:20:33.091       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C 12 
+    DHWTemp = 87.630000 deg F
+07/25/24 14:20:33.125 [IDLE]
+07/25/24 14:20:39.242     622 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:20:39.275 [IDLE]
+07/25/24 14:20:39.943       6 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C 26 
+    DHWTemp = 87.990000 deg F
+07/25/24 14:20:39.976 [IDLE]
+07/25/24 14:20:46.442     643 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:20:46.475 [IDLE]
+07/25/24 14:20:53.342     711 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:20:53.375 [IDLE]
+07/25/24 14:21:00.561     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:21:00.595 [IDLE]
+07/25/24 14:21:07.450     710 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:21:07.483 [IDLE]
+07/25/24 14:21:14.625     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:21:14.658 [IDLE]
+07/25/24 14:21:21.484     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:21:21.517 [IDLE]
+07/25/24 14:21:28.658     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:21:28.692 [IDLE]
+07/25/24 14:21:32.025     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:21:32.684       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:21:32.717 [IDLE]
+07/25/24 14:21:39.508     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:21:39.542 [IDLE]
+07/25/24 14:21:46.717     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:21:46.750 [IDLE]
+07/25/24 14:21:53.583     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:21:53.617 [IDLE]
+07/25/24 14:21:56.292     247 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C 9E 
+    DHWTemp = 90.150000 deg F
+07/25/24 14:21:56.325 [IDLE]
+07/25/24 14:22:00.800     404 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:22:00.834 [IDLE]
+07/25/24 14:22:07.650     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:22:07.684 [IDLE]
+07/25/24 14:22:14.876     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F Fÿ'F 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:22:14.910 [IDLE]
+07/25/24 14:22:21.717     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:22:21.750 [IDLE]
+07/25/24 14:22:28.917     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:22:28.950 [IDLE]
+07/25/24 14:22:32.308     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:22:32.968       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:22:33.000 [IDLE]
+07/25/24 14:22:39.775     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:22:39.808 [IDLE]
+07/25/24 14:22:46.967     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:22:47.000 [IDLE]
+07/25/24 14:22:53.809     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:22:53.842 [IDLE]
+07/25/24 14:22:56.508     245 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 0C 
+    DHWTemp = 92.130000 deg F
+07/25/24 14:22:56.542 [IDLE]
+07/25/24 14:23:00.993     402 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:23:01.025 [IDLE]
+07/25/24 14:23:07.834     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:23:07.867 [IDLE]
+07/25/24 14:23:15.016     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:23:15.050 [IDLE]
+07/25/24 14:23:21.885     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:23:21.918 [IDLE]
+07/25/24 14:23:24.575     245 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 7A 
+    DHWTemp = 94.110000 deg F
+07/25/24 14:23:24.608 [IDLE]
+07/25/24 14:23:29.066     402 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:23:29.100 [IDLE]
+07/25/24 14:23:32.450     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:23:33.108       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:23:33.786       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 7A 
+07/25/24 14:23:33.820 [IDLE]
+07/25/24 14:23:39.942     622 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:23:39.975 [IDLE]
+07/25/24 14:23:47.150     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:23:47.183 [IDLE]
+07/25/24 14:23:53.991     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:23:54.025 [IDLE]
+07/25/24 14:24:01.175     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:24:01.208 [IDLE]
+07/25/24 14:24:08.050     708 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:24:08.083 [IDLE]
+07/25/24 14:24:15.242     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:24:15.275 [IDLE]
+07/25/24 14:24:22.116     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:24:22.150 [IDLE]
+07/25/24 14:24:29.350     731 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:24:29.383 [IDLE]
+07/25/24 14:24:32.725     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:24:33.381       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:24:33.415 [IDLE]
+07/25/24 14:24:40.173     699 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:24:40.207 [IDLE]
+07/25/24 14:24:47.358     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:24:47.391 [IDLE]
+07/25/24 14:24:54.191     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:24:54.225 [IDLE]
+07/25/24 14:25:01.373     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:25:01.406 [IDLE]
+07/25/24 14:25:08.216     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:25:08.250 [IDLE]
+07/25/24 14:25:08.909       5 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D DE 
+    DHWTemp = 95.910000 deg F
+07/25/24 14:25:08.942 [IDLE]
+07/25/24 14:25:15.425     645 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:25:15.458 [IDLE]
+07/25/24 14:25:22.258     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:25:22.291 [IDLE]
+07/25/24 14:25:29.467     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:25:29.500 [IDLE]
+07/25/24 14:25:32.876     347 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:25:33.531       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:25:33.564 [IDLE]
+07/25/24 14:25:40.375     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:25:40.409 [IDLE]
+07/25/24 14:25:47.575     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:25:47.608 [IDLE]
+07/25/24 14:25:54.417     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:25:54.450 [IDLE]
+07/25/24 14:26:01.634     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:26:01.668 [IDLE]
+07/25/24 14:26:08.492     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:26:08.525 [IDLE]
+07/25/24 14:26:15.661     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:26:15.694 [IDLE]
+07/25/24 14:26ÿ':21.208     586 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E 4C 
+    DHWTemp = 97.890000 deg F
+07/25/24 14:26:21.241 [IDLE]
+07/25/24 14:26:22.505      40 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:26:22.538 [IDLE]
+07/25/24 14:26:29.750     732 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:26:29.784 [IDLE]
+07/25/24 14:26:33.133     344 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:26:33.792       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:26:34.473       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E 4C 
+07/25/24 14:26:34.506 [IDLE]
+07/25/24 14:26:40.625     622 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:26:40.658 [IDLE]
+07/25/24 14:26:47.860     731 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:26:47.893 [IDLE]
+07/25/24 14:26:54.719     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:26:54.752 [IDLE]
+07/25/24 14:27:01.968     733 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:27:02.000 [IDLE]
+07/25/24 14:27:05.526     347 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E BA 
+    DHWTemp = 99.870000 deg F
+07/25/24 14:27:05.559 [IDLE]
+07/25/24 14:27:08.842     281 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:27:08.875 [IDLE]
+07/25/24 14:27:16.033     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:27:16.066 [IDLE]
+07/25/24 14:27:22.917     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:27:22.950 [IDLE]
+07/25/24 14:27:30.133     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:27:30.166 [IDLE]
+07/25/24 14:27:33.533     347 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:27:34.192       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:27:34.225 [IDLE]
+07/25/24 14:27:37.734     343 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F 28 
+    DHWTemp = 101.850000 deg F
+07/25/24 14:27:37.767 [IDLE]
+07/25/24 14:27:41.041     281 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:27:41.075 [IDLE]
+07/25/24 14:27:48.225     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:27:48.258 [IDLE]
+07/25/24 14:27:55.050     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:27:55.083 [IDLE]
+07/25/24 14:28:02.273     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:28:02.306 [IDLE]
+07/25/24 14:28:09.091     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:28:09.124 [IDLE]
+07/25/24 14:28:16.283     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:28:16.316 [IDLE]
+07/25/24 14:28:23.133     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:28:23.166 [IDLE]
+07/25/24 14:28:30.325     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:28:30.358 [IDLE]
+07/25/24 14:28:33.718     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:28:34.373       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:28:34.406 [IDLE]
+07/25/24 14:28:41.183     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:28:41.216 [IDLE]
+07/25/24 14:28:48.358     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:28:48.391 [IDLE]
+07/25/24 14:28:55.200     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:28:55.233 [IDLE]
+07/25/24 14:29:02.400     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:29:02.434 [IDLE]
+07/25/24 14:29:09.233     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:29:09.266 [IDLE]
+07/25/24 14:29:16.408     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:29:16.442 [IDLE]
+07/25/24 14:29:17.937     104 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F AA 
+    DHWTemp = 104.190000 deg F
+07/25/24 14:29:17.970 [IDLE]
+07/25/24 14:29:23.233     520 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:29:23.267 [IDLE]
+07/25/24 14:29:30.417     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:29:30.450 [IDLE]
+07/25/24 14:29:33.809     346 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:29:34.469       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:29:35.158       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F AA 
+07/25/24 14:29:35.191 [IDLE]
+07/25/24 14:29:41.300     622 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:29:41.333 [IDLE]
+07/25/24 14:29:48.475     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:29:48.508 [IDLE]
+07/25/24 14:29:55.316     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:29:55.350 [IDLE]
+07/25/24 14:30:02.517     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:30:02.551 [IDLE]
+07/25/24 14:30:09.316     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:30:09.350 [IDLE]
+07/25/24 14:30:14.058     489 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F 46 
+    DHWTemp = 102.390000 deg F
+07/25/24 ÿ'14:30:14.091 [IDLE]
+07/25/24 14:30:16.542     161 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:30:16.575 [IDLE]
+07/25/24 14:30:23.400     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:30:23.433 [IDLE]
+07/25/24 14:30:30.658     734 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:30:30.692 [IDLE]
+07/25/24 14:30:34.066     347 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:30:34.726       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:30:34.759 [IDLE]
+07/25/24 14:30:41.550     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:30:41.583 [IDLE]
+07/25/24 14:30:48.775     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:30:48.809 [IDLE]
+07/25/24 14:30:54.300     584 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F AA 
+    DHWTemp = 104.190000 deg F
+07/25/24 14:30:54.333 [IDLE]
+07/25/24 14:30:55.600      42 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:30:55.633 [IDLE]
+07/25/24 14:31:02.818     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:31:02.851 [IDLE]
+07/25/24 14:31:09.633     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:31:09.667 [IDLE]
+07/25/24 14:31:16.827     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:31:16.860 [IDLE]
+07/25/24 14:31:23.667     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:31:23.700 [IDLE]
+07/25/24 14:31:30.860     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:31:30.893 [IDLE]
+07/25/24 14:31:34.225     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:31:34.884       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:31:34.917 [IDLE]
+07/25/24 14:31:38.367     340 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 0E 
+    DHWTemp = 105.990000 deg F
+07/25/24 14:31:38.400 [IDLE]
+07/25/24 14:31:41.666     281 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:31:41.700 [IDLE]
+07/25/24 14:31:48.892     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:31:48.925 [IDLE]
+07/25/24 14:31:55.745     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:31:55.778 [IDLE]
+07/25/24 14:32:02.927     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:32:02.960 [IDLE]
+07/25/24 14:32:09.734     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:32:09.767 [IDLE]
+07/25/24 14:32:16.925     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:32:16.959 [IDLE]
+07/25/24 14:32:23.767     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:32:23.800 [IDLE]
+07/25/24 14:32:30.968     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:32:31.000 [IDLE]
+07/25/24 14:32:34.358     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:32:35.016       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:32:35.690       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 18 
+    DHWTemp = 106.170000 deg F
+07/25/24 14:32:35.723 [IDLE]
+07/25/24 14:32:41.850     624 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:32:41.884 [IDLE]
+07/25/24 14:32:49.083     731 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:32:49.116 [IDLE]
+07/25/24 14:32:55.925     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:32:55.959 [IDLE]
+07/25/24 14:33:03.107     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:33:03.140 [IDLE]
+07/25/24 14:33:09.935     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:33:09.968 [IDLE]
+07/25/24 14:33:14.675     489 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 7C 
+    DHWTemp = 107.970000 deg F
+07/25/24 14:33:14.708 [IDLE]
+07/25/24 14:33:17.141     159 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:33:17.175 [IDLE]
+07/25/24 14:33:23.983     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:33:24.016 [IDLE]
+07/25/24 14:33:31.258     736 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:33:31.291 [IDLE]
+07/25/24 14:33:34.700     352 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:33:35.357       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:33:35.391 [IDLE]
+07/25/24 14:33:42.133     699 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:33:42.166 [IDLE]
+07/25/24 14:33:49.358     730 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:33:49.392 [IDLE]
+07/25/24 14:33:56.200     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:33:56.233 [IDLE]
+07/25/24 14:34:03.446     733 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:34:03.479 [IDLE]
+07/25/24 14:34:10.283     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:34:10.316 [IDLE]
+07/25/24 14:34:17.492     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00ÿ' R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:34:17.525 [IDLE]
+07/25/24 14:34:24.300     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:34:24.333 [IDLE]
+07/25/24 14:34:31.500     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:34:32.175       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 E0 
+    DHWTemp = 109.770000 deg F
+07/25/24 14:34:32.208 [IDLE]
+07/25/24 14:34:34.892     264 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:34:35.548       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:34:35.582 [IDLE]
+07/25/24 14:34:42.316     699 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:34:42.350 [IDLE]
+07/25/24 14:34:47.075     493 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 44 
+    DHWTemp = 111.570000 deg F
+07/25/24 14:34:47.108 [IDLE]
+07/25/24 14:34:49.567     162 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:34:49.601 [IDLE]
+07/25/24 14:34:56.375     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 07 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 7 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:34:56.408 [IDLE]
+07/25/24 14:35:03.583     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:35:03.617 [IDLE]
+07/25/24 14:35:10.425     704 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:35:10.458 [IDLE]
+07/25/24 14:35:17.608     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:35:17.641 [IDLE]
+07/25/24 14:35:24.475     708 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:35:24.508 [IDLE]
+07/25/24 14:35:31.658     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:35:31.692 [IDLE]
+07/25/24 14:35:35.033     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:35:35.686       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:35:36.351       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 26 
+    DHWTemp = 111.030000 deg F
+07/25/24 14:35:36.384 [IDLE]
+07/25/24 14:35:42.483     619 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:35:42.516 [IDLE]
+07/25/24 14:35:49.658     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:35:49.692 [IDLE]
+07/25/24 14:35:56.500     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:35:56.533 [IDLE]
+07/25/24 14:36:03.712     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:36:03.745 [IDLE]
+07/25/24 14:36:10.533     702 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:36:10.567 [IDLE]
+07/25/24 14:36:17.709     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:36:17.742 [IDLE]
+07/25/24 14:36:24.550     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:36:24.583 [IDLE]
+07/25/24 14:36:31.750     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:36:31.784 [IDLE]
+07/25/24 14:36:35.141     345 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:36:35.801       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:36:35.835 [IDLE]
+07/25/24 14:36:42.592     699 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:36:42.625 [IDLE]
+07/25/24 14:36:49.784     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:36:49.817 [IDLE]
+07/25/24 14:36:56.612     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:36:56.645 [IDLE]
+07/25/24 14:37:03.828     729 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:37:03.861 [IDLE]
+07/25/24 14:37:10.684     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:37:10.717 [IDLE]
+07/25/24 14:37:15.383     485 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 C6 
+    DHWTemp = 113.910000 deg F
+07/25/24 14:37:15.417 [IDLE]
+07/25/24 14:37:17.859     160 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:37:17.892 [IDLE]
+07/25/24 14:37:24.734     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:37:24.767 [IDLE]
+07/25/24 14:37:31.927     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:37:31.960 [IDLE]
+07/25/24 14:37:35.334     347 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:37:35.993       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:37:36.024 [IDLE]
+07/25/24 14:37:42.800     701 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:37:42.834 [IDLE]
+07/25/24 14:37:50.000     728 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:37:50.033 [IDLE]
+07/25/24 14:37:56.859     709 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:37:56.892 [IDLE]
+07/25/24 14:38:04.058     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:38:04.091 [IDLE]
+07/25/24 14:38:07.583     345 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 2A 
+    DHWTemp = 115.710000 deg F
+07/25/24 14:38:07.616 [IDLE]
+07/25/24 14:38:10.892     282 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:38:10.925 [IDLE]
+07/25/24 14:38:18.116     730 Factory Test Mode, 00h (make unique), Report ÿ'             M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:38:18.150 [IDLE]
+07/25/24 14:38:24.975     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:38:25.008 [IDLE]
+07/25/24 14:38:32.173     727 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:38:32.206 [IDLE]
+07/25/24 14:38:36.191     342 Device Status, water heater, Report                       M 3e70 F0 R C8 04 08 00 00 C8 2E 90 00 
+    CADRes_FlameCrrnt = 11920 ohms/nA
+07/25/24 14:38:36.725       3 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:38:37.385       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:38:38.124       3 VOC Sensor, water heater, Report                          M 1278 F0 R 47 C8 06 
+07/25/24 14:38:38.796       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 3E 
+    DHWTemp = 116.070000 deg F
+07/25/24 14:38:39.904       3 DHW Setpoint Diff Range, water heater, Report             M 10a3 F0 R 05 6E 05 6E 01 18 01 18 
+07/25/24 14:38:41.041       3 DHW Setpoint Limit Range, water heater, Report            M 10a2 F0 R 19 A0 05 00 05 00 05 00 
+07/25/24 14:38:42.158       3 DHW Setpoint Range, water heater, Report                  M 10a1 F0 R 19 A0 05 00 05 6E 01 18 
+07/25/24 14:38:43.150       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:38:44.049       3 DHW Cylinder Setpoint, water heater, Report               M 10a0 F0 R 19 A0 00 03 AC 
+07/25/24 14:38:44.083 [IDLE]
+07/25/24 14:38:50.208     603 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:38:50.242 [IDLE]
+07/25/24 14:38:57.075     707 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:38:57.108 [IDLE]
+07/25/24 14:39:04.316     733 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:39:04.350 [IDLE]
+07/25/24 14:39:07.843     345 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 8E 
+    DHWTemp = 117.510000 deg F
+07/25/24 14:39:07.876 [IDLE]
+07/25/24 14:39:11.175     284 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 06 08 08 01 28 
+    Info1 = 80 'P' 
+    Info2 = 6 
+    Info3 = 8 
+    Info4 = 8 
+    Info5 = 1 
+    Info6 = 40 '(' 
+07/25/24 14:39:11.208 [IDLE]
+07/25/24 14:39:17.158     576 Device Status, water heater, Report                       M 3e70 F0 R 00 04 0D 00 00 C8 2E CC 00 
+    State = 0.000000 %
+    Sequence = SOFTLOCKOUT
+    CADRes_FlameCrrnt = 11980 ohms/nA
+07/25/24 14:39:18.275       3 Alarm, system wide, Report                                M 3120 00 R F4 00 9F F0 33 00 01 C9 
+    Priority = USER_DISPLAY
+    Reserved = 7 
+    FaultState = 1 
+    AlarmType = 9fH
+  !!!ERROR, field 'AlarmType' has an invalid value.  See App Spec.
+    TypeInstance = 240 
+07/25/24 14:39:19.450       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:39:19.484 [IDLE]
+07/25/24 14:39:25.183     573 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 13 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 19 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:39:25.216 [IDLE]
+07/25/24 14:39:32.358     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:39:32.391 [IDLE]
+07/25/24 14:39:35.728     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:39:36.383       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:39:36.416 [IDLE]
+07/25/24 14:39:43.183     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 13 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 19 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:39:43.216 [IDLE]
+07/25/24 14:39:50.359     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:39:50.392 [IDLE]
+07/25/24 14:39:57.191     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:39:57.225 [IDLE]
+07/25/24 14:40:04.358     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:40:04.391 [IDLE]
+07/25/24 14:40:11.191     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:40:11.225 [IDLE]
+07/25/24 14:40:18.372     725 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:40:18.405 [IDLE]
+07/25/24 14:40:25.225     705 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:40:25.258 [IDLE]
+07/25/24 14:40:32.391     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:40:32.425 [IDLE]
+07/25/24 14:40:35.759     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:40:36.415       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:40:36.448 [IDLE]
+07/25/24 14:40:43.225     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:40:43.258 [IDLE]
+07/25/24 14:40:50.417     726 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:40:50.450 [IDLE]
+07/25/24 14:40:57.273     706 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:40:57.306 [IDLE]
+07/25/24 14:41:04.433     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:41:04.467 [IDLE]
+07/25/24 14:41:11.268     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:41:11.302 [IDLE]
+07/25/24 14:41:18.433     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:41:18.467 [IDLE]
+07/25/24 14:41:25.273     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:41:25.306 [IDLE]
+07/25/24 14:41:32.433     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:41:32.466 [IDLE]
+07/25/24 14:41:35.808     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:41:36.465       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:41:37.133       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 CA 
+    DHWTemp = 118.590000 deg F
+07/25/24 14:41:37.167 [IDLE]
+07/25/24 14:41:43.266     620 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:41:43.300 [IDLE]
+07/25/24 14:41:50.433     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F Fÿ'F 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:41:50.467 [IDLE]
+07/25/24 14:41:57.275     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 50 7F FF 14 00 28 
+    Info1 = 80 'P' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:41:57.308 [IDLE]
+07/25/24 14:42:04.433     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:42:04.467 [IDLE]
+07/25/24 14:42:11.266     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:42:11.300 [IDLE]
+07/25/24 14:42:18.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:42:18.475 [IDLE]
+07/25/24 14:42:25.266     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:42:25.300 [IDLE]
+07/25/24 14:42:32.441     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:42:32.475 [IDLE]
+07/25/24 14:42:35.809     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:42:36.465       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:42:36.498 [IDLE]
+07/25/24 14:42:43.266     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:42:43.300 [IDLE]
+07/25/24 14:42:50.438     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:42:50.471 [IDLE]
+07/25/24 14:42:57.258     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:42:57.291 [IDLE]
+07/25/24 14:43:04.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:43:04.459 [IDLE]
+07/25/24 14:43:11.250     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:43:11.283 [IDLE]
+07/25/24 14:43:18.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:43:18.458 [IDLE]
+07/25/24 14:43:25.250     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:43:25.283 [IDLE]
+07/25/24 14:43:32.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:43:32.458 [IDLE]
+07/25/24 14:43:35.792     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:43:36.452       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:43:36.486 [IDLE]
+07/25/24 14:43:43.250     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:43:43.283 [IDLE]
+07/25/24 14:43:50.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:43:50.459 [IDLE]
+07/25/24 14:43:57.250     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:43:57.283 [IDLE]
+07/25/24 14:44:04.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:44:04.459 [IDLE]
+07/25/24 14:44:11.258     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:44:11.291 [IDLE]
+07/25/24 14:44:18.430     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:44:18.463 [IDLE]
+07/25/24 14:44:25.258     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:44:25.291 [IDLE]
+07/25/24 14:44:32.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:44:32.475 [IDLE]
+07/25/24 14:44:35.809     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:44:36.466       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:44:37.150       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 E8 
+    DHWTemp = 119.130000 deg F
+07/25/24 14:44:37.183 [IDLE]
+07/25/24 14:44:39.958     258 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 FC 
+    DHWTemp = 119.490000 deg F
+07/25/24 14:44:39.991 [IDLE]
+07/25/24 14:44:43.267     281 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:44:43.300 [IDLE]
+07/25/24 14:44:50.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:44:50.475 [IDLE]
+07/25/24 14:44:57.267     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:44:57.300 [IDLE]
+07/25/24 14:45:04.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:45:04.475 [IDLE]
+07/25/24 14:45:11.266     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:45:11.300 [IDLE]
+07/25/24 14:45:18.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:45:18.475 [IDLE]
+07/25/24 14:45:25.266     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:45:25.300 [IDLE]
+07/25/24 14:45:32.442     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:45:32.475 [IDLE]
+07/25/24 14:45:35.809     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:45:36.464       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:45:36.498 [IDLE]
+07/25/24 14:45:43.258     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:45:43.291 [IDLE]
+07/25/24 14:45:50.433     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:45:50.467 [IDLE]
+07/25/24 14:45:57.256     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 =ÿ' 40 '(' 
+07/25/24 14:45:57.289 [IDLE]
+07/25/24 14:46:04.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:46:04.458 [IDLE]
+07/25/24 14:46:11.250     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:46:11.283 [IDLE]
+07/25/24 14:46:18.425     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:46:18.459 [IDLE]
+07/25/24 14:46:25.250     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:46:25.283 [IDLE]
+07/25/24 14:46:32.421     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:46:32.455 [IDLE]
+07/25/24 14:46:35.785     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:46:36.444       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:46:36.478 [IDLE]
+07/25/24 14:46:43.233     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4F 7F FF 14 00 28 
+    Info1 = 79 'O' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:46:43.266 [IDLE]
+07/25/24 14:46:50.408     724 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:46:50.441 [IDLE]
+07/25/24 14:46:57.241     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:46:57.275 [IDLE]
+07/25/24 14:47:04.408     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:47:04.442 [IDLE]
+07/25/24 14:47:11.241     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:47:11.275 [IDLE]
+07/25/24 14:47:18.404     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:47:18.438 [IDLE]
+07/25/24 14:47:25.233     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:47:25.266 [IDLE]
+07/25/24 14:47:32.397     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:47:32.430 [IDLE]
+07/25/24 14:47:35.767     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:47:36.425       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:47:37.091       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 CA 
+    DHWTemp = 118.590000 deg F
+07/25/24 14:47:37.124 [IDLE]
+07/25/24 14:47:43.225     620 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:47:43.258 [IDLE]
+07/25/24 14:47:50.392     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:47:50.425 [IDLE]
+07/25/24 14:47:57.225     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:47:57.258 [IDLE]
+07/25/24 14:48:04.388     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:48:04.421 [IDLE]
+07/25/24 14:48:11.216     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:48:11.250 [IDLE]
+07/25/24 14:48:18.383     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:48:18.417 [IDLE]
+07/25/24 14:48:25.215     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:48:25.248 [IDLE]
+07/25/24 14:48:32.375     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:48:32.408 [IDLE]
+07/25/24 14:48:35.751     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:48:36.407       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:48:36.441 [IDLE]
+07/25/24 14:48:43.208     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:48:43.242 [IDLE]
+07/25/24 14:48:50.375     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:48:50.408 [IDLE]
+07/25/24 14:48:57.208     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:48:57.241 [IDLE]
+07/25/24 14:49:04.367     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:49:04.400 [IDLE]
+07/25/24 14:49:11.200     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:49:11.233 [IDLE]
+07/25/24 14:49:18.364     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:49:18.397 [IDLE]
+07/25/24 14:49:25.198     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:49:25.231 [IDLE]
+07/25/24 14:49:32.358     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:49:32.392 [IDLE]
+07/25/24 14:49:35.728     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:49:36.382       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:49:36.416 [IDLE]
+07/25/24 14:49:43.191     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:49:43.225 [IDLE]
+07/25/24 14:49:50.358     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:49:50.392 [IDLE]
+07/25/24 14:49:57.190     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:49:57.223 [IDLE]
+07/25/24 14:50:04.350     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:50:04.383 [IDLE]
+07/25/24 14:50:11.183     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:50:1ÿÏ1.216 [IDLE]
+07/25/24 14:50:18.350     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:50:18.383 [IDLE]
+07/25/24 14:50:25.182     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:50:25.215 [IDLE]
+07/25/24 14:50:32.350     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:50:32.384 [IDLE]
+07/25/24 14:50:35.719     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:50:36.374       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:50:37.042       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 D4 
+    DHWTemp = 118.770000 deg F
+07/25/24 14:50:37.075 [IDLE]
+07/25/24 14:50:43.183     620 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:50:43.216 [IDLE]
+07/25/24 14:50:50.347     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:50:50.380 [IDLE]
+07/25/24 14:50:57.182     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:50:57.215 [IDLE]
+07/25/24 14:51:04.342     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:51:04.375 [IDLE]
+07/25/24 14:51:11.175     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:51:11.208 [IDLE]
+07/25/24 14:51:18.342     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:51:18.375 [IDLE]
+07/25/24 14:51:25.175     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:51:25.208 [IDLE]
+07/25/24 14:51:32.342     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:51:32.375 [IDLE]
+07/25/24 14:51:35.709     343 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/25/24 14:51:36.366       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/25/24 14:51:36.400 [IDLE]
+07/25/24 14:51:43.175     700 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:51:43.208 [IDLE]
+07/25/24 14:51:50.342     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:51:50.375 [IDLE]
+07/25/24 14:51:57.184     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:51:57.217 [IDLE]
+07/25/24 14:52:04.341     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:52:04.375 [IDLE]
+07/25/24 14:52:11.175     703 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 4E 7F FF 14 00 28 
+    Info1 = 78 'N' 
+    Info2 = 127 
+    Info3 = 255 
+    Info4 = 20 
+    Info5 = 0 
+    Info6 = 40 '(' 
+07/25/24 14:52:11.208 [IDLE]
+07/25/24 14:52:18.307     723 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 7F FF 7F FF 13 04 7F FF 
+    Info1 = 127 
+    Info2 = 255 
+    Info3 = 127 
+    Info4 = 255 
+    Info5 = 19 
+    Info6 = 4 
+07/25/24 14:52:18.340 [IDLE]
+        [  F      T  ?      ”        1        8 # ÿ¾07/25/24 14:11:06.367   !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:11:39.775   !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:12:39.958   !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:13:08.058   !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/25/24 14:39:18.275   !!!ERROR, field 'AlarmType' has an invalid value.  See App Spec.

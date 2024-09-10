@@ -1,0 +1,684 @@
+ÿ'   EnvBusMon V0.28
+   Database 1.10 (Working) 24-Jan-2012
+07/22/24 09:05:30.000 [PWR DWN]
+07/22/24 09:05:30.000 [PWR UP]
+07/22/24 09:05:30.058       0 rrrrrrrr
+    Error Frame
+07/22/24 09:05:42.676    1368 >D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rr +rrrrr+r DrDDDrrrrDDDrDDr Dr rrrrrrr<
+07/22/24 09:06:02.450    2229 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+DrrrD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DrrrrDrrDDrrrDrr Dr rrrrrrr
+07/22/24 09:06:03.675       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rrrDr rrrr+rrrr r+rrrrr+rr DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr rrDDrrrrr+rDDrDDr Dr rrrrrrr
+07/22/24 09:06:04.888       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rrrDD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DDrDDDrrDDrDrDrr Dr rrrrrrr
+07/22/24 09:06:05.945       3 D rD DDDD-rrrr+Drrrrr +rrrrr+rrr rD rrrDDD rrrrr+rrr rr+DDrrDr rrDDrrDr DrrDDrrr DrrDrDrr DDrDrrrr r+rrrrr+rr rDDDDD-DDDrrDrrDr Dr rrrrrrr
+07/22/24 09:06:06.483       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rr +rrrrr+r rrrDrDDrDDDDrDrr Dr rrrrrrr
+07/22/24 09:06:07.699       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rrDrr rrr+rrrrr +rrrrr+rrr DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DDrrrDDDrrDrDDrr Dr rrrrrrr
+07/22/24 09:06:08.552       3 D rD DDrrrDrrDrrrrr +rrrrr+rrr rD rrrDrr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rDrrDrDDDrrDDDr Dr rrrrrrr
+07/22/24 09:06:08.283       3 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrrDrD DDrrDrrr rr+rrrDDr DDDDrDDrDDrDrDDr Dr rrrrrrr
+07/22/24 09:06:08.966       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+Drrr rDrDDDrr rrr+rrDrDrrrDrrrr Dr rrrrrrr
+07/22/24 09:06:09.505       3 D rD rDrrrrDDDrrrrr +rrrrr+rrr rr +rrrrr+r rrDrrrDDrDDDDrDr Dr rrrrrrr
+07/22/24 09:06:11.716       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr DrrrrDrr rrr+rrDDr rrrr+rrrr r+rrrrr+rr DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DrDDDDD-rDrrrrDrr Dr rrrrrrr
+07/22/24 09:06:13.350       3 D rD rDrrrrDDDrrrrr +rrrrr+rrr rD rrDDDD rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr rrr+rrrrr +rrrrr+rrr rr+rrrrr+r rrrr+rrrr r+DrDrDDD rDrDrDDr rrDDrDrr rrDDrDrr rrDDrDDr rrDDrrDr rDrrrrDD DDrrrDDrrDDrrDDr Dr rrrrrrr
+07/22/24 09:06:14.499       3 D rD rDrrrrDDDrrrrD rrrrr+rrr rD rrDrrr rr+rrrrr+r rrrr+rrrD rrrrr+rrD rrrrr+rDD rrrrr+rrr rr+rrrrDr DDDDD-DDD DD-DDDDD-D DDDD-rDDDDD-rrrDrr Dr rrrrrrr
+07/22/24 09:06:16.310       3 D rD rDrrrrDDDrrrDr rrrr+rrrr r+D rDrrrr DDDDD-DDD DD-DDDDD-D DDDD-DDDD D-DDDDD-DD DDD-DDDDD -DDDDD-DDD DD-DDDDD-D DDDD-DDDD D-DDDDD-DD DDD-DDDDD -DDDDD-DDD DD-DDDDD-D DDDD-DDDD D-DDDDD-DD DDD-DDDDD -DDDDD-DDD rrDrDDDDD-rrDrDDr Dr rrrrrrr
+07/22/24 09:06:17.421       3 D rD rDrrrrDrDrrrDD DDD-Drrrr r+D rrDrrr rr+rrrDrD rDDrDDDr rrrr+rDrD rDDrDDDr rrrr+rrrD rrrDDrrr rr+rrrrr+D rrrDDrrr rr+rDDDrrrrDDrDDr Dr rrrrrrr
+07/22/24 09:06:18.520       3 D rD rDrrrrDrDrrrDr DDDDrrrr r+D rrDrrr rr+rDrDDD DD-rrDrDr rrrr+DDrr DrrDrDrr rrr+rDDrr DrrDrDrr rrr+rDDrr DrrDrDrr rrr+rrrDrDDDrDDDr Dr rrrrrrr
+07/22/24 09:06:19.621       3 D rD rDrrrrDrDrrrrD DDDD-rrrr +rD rrDrrr rr+rDrDDD DD-rrDrDr rrrr+DDrr DrrDrDrr rrr+rrDrD rDDrDDDr rrrr+rrrD rrrDDrrr DrDDrrDDrrrrDDrr Dr rrrrrrr
+07/22/24 09:06:20.519       3 D rD rDrrrrDrDrrrrr +DDDD-rrrr +rD rrrDrD rrrDrDDD DD-rrDrDr rrrr+rrrr r+rrrrr+DD DrDrDDrr rDDrrDDDDrDrrDrr Dr rrrrrrr
+07/22/24 09:06:51.500    3577 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD DDrrDrrr rr+rrrDrr rrr+rrDDD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rrDDrr Drrrrr+rr rrr+rrrrr +DDrrDrrDrDrDrrrr Dr rrrrrrr
+07/22/24 09:06:54.741     249 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD DDrrDrrr rr+rrrDrr rrr+rDrrr rr+rrrrr+r rrrr+rrrr DDrrDrrr rr+DrrrDD DDrDDDrr rrr+rrrrr +DrrDrDrDDrrDrDrr Dr rrrrrrr
+07/22/24 09:06:55.839      71 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:06:56.500       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:07:55.820    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:07:56.484       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:08:54.831    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:08:56.481       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:08:57.158       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+Drrr DDrrDrDr rrDDrDDrDDrDrrrr Dr rrrrrrr
+07/22/24 09:09:19.988    2659 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD rrrrr+DDr rDrrrDrrDrDrrrrr Dr rrrrrrr
+07/22/24 09:09:55.840    4241 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:09:56.496       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:10:27.981    3700 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD rDDrDrDr rDrrDDrrDDDrrDDr Dr rrrrrrr
+07/22/24 09:10:54.834    3282 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:10:55.494       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:11:27.986    3700 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrrD DDrDDrrr rDDDDrrrDDDrrDrr Dr rrrrrrr
+07/22/24 09:11:55.848    3282 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:11:56.508       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:11:57.183       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr rrrDDDDr DDDrrDrrrDDrrDDr Dr rrrrrrr
+07/22/24 09:12:55.853    6979 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:12:56.506       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:12:59.989     340 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr rrDDDDrr DDrrDDDDrDDrDDrr Dr rrrrrrr
+07/22/24 09:13:55.856    6642 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:13:56.518       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:14:08.016    1300 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr DrDrrrrr +DrrrDrrDDDDD-rDrr Dr rrrrrrr
+07/22/24 09:14:54.881    5680 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:14:56.536       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:14:57.232       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDr DrDrrrrr +DrrrDrrDDDDD-rDrr Dr rrrrrrr
+07/22/24 09:15:55.866    6977 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:15:56.525       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:16:03.024     820 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD rrrrr+Drr rDrrrrDrrDrDDDrr Dr rrrrrrr
+07/22/24 09:16:55.848    6161 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:16:56.505       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:17:19.979    2740 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD rDDDrrDr rDDrrDrrrDDrDDrr Dr rrrrrrr
+07/22/24 09:17:21.024      41 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrrDDr DDrrDrrr rr+rrrDDr rDrDDDrDDrrDDDrr Dr rrrrrrr
+07/22/24 09:17:55.833    4117 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:17:56.490       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:17:57.158       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD rDDrDrrr rDrrDrDrrrrDDrDr Dr rrrrrrr
+07/22/24 09:18:55.824    6979 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:18:56.482       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:19:11.991    1780 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DrDD DDD-DrDrr rrr+rDDrrDrrrrr+Dr Dr rrrrrrr
+07/22/24 09:19:55.815    5199 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:19:56.473       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:20:29.749    3909 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrrDDD DD-rrDrrr rr+rrrDDr DrDDDDrDDrDDrDrr Dr rrrrrrr
+07/22/24 09:20:51.946    2586 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr rDDrrrDr DrrDrrrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:20:55.800     402 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:20:56.456       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:20:57.142       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr rDrDDrrr rr+rrDrrrDDDrDrrr Dr rrrrrrr
+07/22/24 09:21:51.931    6498 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrr DDrrrDDr DDrDrrDDrrDrrDDr Dr rrrrrrr
+07/22/24 09:21:55.784     402 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:21:56.441       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:22:52.226    6609 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDrrr DDrrDrrr rr+rrrDDr rrDrrDDrDrrrrr+rr Dr rrrrrrr
+07/22/24 09:22:55.790     366 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:22:56.448       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:23:43.930    5620 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD rrDrDrDr rrrDrDDDrrrrDrDr Dr rrrrrrr
+07/22/24 09:23:55.791    1362 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:23:56.448       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrÿ'D rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:23:57.133       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD rrDrrrrr +rDDrrrDrrDrDrrDr Dr rrrrrrr
+07/22/24 09:24:55.796    6978 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:24:56.449       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:25:03.232     729 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDrrD DDrrDrrr rr+rrrDDr DDrrrDDrDrDrDrrr Dr rrrrrrr
+07/22/24 09:25:27.946    2887 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDrD DrrDDrrr rr+DrrrDDrrrrDrrr Dr rrrrrrr
+07/22/24 09:25:55.790    3281 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:25:56.450       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:26:19.940    2740 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr rrrr+rDDr DDDrDrDDrrDrrrrr Dr rrrrrrr
+07/22/24 09:26:55.774    4241 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:26:56.436       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:26:57.124       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr rrDrrDrr DDrrrrr+rrrDrDrDr Dr rrrrrrr
+07/22/24 09:27:21.451    2837 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDrDr DDrrDrrr rr+rrrDDr rDDrDDrDDDDrrrDr Dr rrrrrrr
+07/22/24 09:27:43.917    2617 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr rDDDrDrr rDDDDD-rrDrrrDDDr Dr rrrrrrr
+07/22/24 09:27:55.764    1361 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:27:56.425       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:28:55.751    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:28:56.416       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:29:27.905    3700 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDr DDDrDDrr DrrrDrDDDrrrDrrr Dr rrrrrrr
+07/22/24 09:29:55.777    3282 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:29:56.431       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:29:57.133       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -rrrr+DrDr rrDDDrDrDDDDD-Drr Dr rrrrrrr
+07/22/24 09:30:55.783    6976 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:30:56.439       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:31:19.931    2740 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -rDrDDrDr DrrrrDDrrDrDDrrr Dr rrrrrrr
+07/22/24 09:31:39.696    2290 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDrDD DDrrDrrr rr+rrrDDr DrrrDDrDDDrrDrDr Dr rrrrrrr
+07/22/24 09:31:47.923     907 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -DrDDDDD-r rrDrrrDrrrDDrDDr Dr rrrrrrr
+07/22/24 09:31:55.768     880 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:31:56.423       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:32:55.773    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:32:56.432       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:32:57.116       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrr+DDDD -DrrrDDrr rDrDrrDrrrrDrrDr Dr rrrrrrr
+07/22/24 09:33:55.757    6978 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:33:56.417       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:34:19.192    2649 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDDrr DDrrDrrr rr+rrrDDr DrDDrrrrr+DrrrDrr Dr rrrrrrr
+07/22/24 09:34:51.916    3846 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr r+rDrrrDr rDrDrDrrrrr+DDDD-r Dr rrrrrrr
+07/22/24 09:34:55.759     400 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:34:56.419       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:35:56.413    7059 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD DDrrDrrr rr+rrrDrr rrr+rDrrr rr+rrrrr+r rrrr+rrrr DDrrDrrr rr+DrDDDr rrDrrrDr rrrr+rrrr r+DDrDDrrDrDDDDrr Dr rrrrrrr
+07/22/24 09:35:56.942       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:35:57.600       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:35:58.335       3 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDDrr DDrrDrrr rr+rrrDDr DrDDrrrrr+DrrrDrr Dr rrrrrrr
+07/22/24 09:35:59.025       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr r+DrDDDDr rrrr+rDDDrDDDrDDr Dr rrrrrrr
+07/22/24 09:36:00.133       3 D rD rDrrrrDrDrrrDD DDD-Drrrr r+D rrDrrr rr+rrrDrD rDDrDDDr rrrr+rDrD rDDrDDDr rrrr+rrrD rrrDDrrr rr+rrrrr+D rrrDDrrr rr+rDDDrrrrDDrDDr Dr rrrrrrr
+07/22/24 09:36:01.231       3 D rD rDrrrrDrDrrrDr DDDDrrrr r+D rrDrrr rr+rDrDDD DD-rrDrDr rrrr+DDrr DrrDrDrr rrr+rDDrr DrrDrDrr rrr+rDDrr DrrDrDrr rrr+rrrDrDDDrDDDr Dr rrrrrrr
+07/22/24 09:36:02.326       3 D rD rDrrrrDrDrrrrD DDDD-rrrr +rD rrDrrr rr+rDrDDD DD-rrDrDr rrrr+DDrr DrrDrDrr rrr+rrDrD rDDrDDDr rrrr+rrrD rrrDDrrr DrDDrrDDrrrrDDrr Dr rrrrrrr
+07/22/24 09:36:03.232       3 D rD rDrrrrDrDrrrrr +DDDD-rrrr +rD rrrDrD rrrDrDDD DD-rrDrDr rrrr+rrrr r+rrrrr+DD DrDrDDrr rDDrrDDDDrDrrDrr Dr rrrrrrr
+07/22/24 09:36:31.892    3363 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrr DrDrrDrr rrDDDDrrDDDDrrrr Dr rrrrrrr
+07/22/24 09:36:55.757    2803 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:36:56.417       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:37:55.736    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:37:56.394       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:38:17.928    2499 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDDrD DDrrDrrr rr+rrrDDr rDrDrrrrr+DDrDDrr Dr rrrrrrr
+07/22/24 09:38:23.883     636 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD rrrrDrrr rr+rDDDDD-rDrDrDDr Dr rrrrrrr
+07/22/24 09:38:55.730    3761 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:38:56.389       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:38:57.049       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD rrrDrrDr rrDDrrrDrrDrrrrr Dr rrrrrrr
+07/22/24 09:39:39.862    5060 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD rDDrDDrr DDDDD-DDDrrrDDDDr Dr rrrrrrr
+07/22/24 09:39:55.719    1842 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:39:56.383       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:40:35.857    4660 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrrD DDDrrDrr rDrDrrDDrrDDrDDr Dr rrrrrrr
+07/22/24 09:40:55.730    2323 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:40:56.389       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:41:55.716    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:41:56.373       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:41:57.041       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr rrDrDrDr rrDrrDDDDrDDDrDr Dr rrrrrrr
+07/22/24 09:42:07.842    1220 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr rDrDrrDr DDrrrDrDrDrrDDrr Dr rrrrrrr
+07/22/24 09:42:55.707    5683 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:42:56.367       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:43:55.700    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:43:56.360       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:44:07.900    1300 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDDDr DDrrDrrr rr+rrrDDr DDDDD-rDDrrDrrDDr Dr rrrrrrr
+07/22/24 09:44:43.833    4235 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DrDDrDDr rDDrrrrDrrDrrrDr Dr rrrrrrr
+07/22/24 09:44:55.699    1363 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:44:56.356       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:44:57.025       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDr DDrDDDDr DDrDDrrrDDDDD-rDr Dr rrrrrrr
+07/22/24 09:45:51.794    6499 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDD rrrDDrDr rDrrrrDrDrrrrDrr Dr rrrrrrr
+07/22/24 09:45:55.666     403 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:45:56.323       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:46:55.651    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:46:56.308       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:47:43.761    5620 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDD DrrrDrrr DDrrrrr+rDDrDDrDr Dr rrrrrrr
+07/22/24 09:47:55.620    1362 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:47:56.282       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:47:56.954       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrrDD DrDrrDDr DrDDrrDrrDrrrrr+r Dr rrrrrrr
+07/22/24 09:48:47.759    6019 D rD rDrrDrrDDrrrrr +DDDD-rrrrÿQ +rD rrrrDr rrrDrDrr rrr+DrDrr rrDrDrrDDDrrrrDr Dr rrrrrrr
+07/22/24 09:48:55.619     882 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:48:56.274       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:49:35.557    4629 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDrDDDr DDrrDrrr rr+rrrDDr DDDDD-rDDrrDrrDDr Dr rrrrrrr
+07/22/24 09:49:55.625    2346 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:49:56.283       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:50:55.609    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:50:56.266       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:50:56.931       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrr rDDrDDDr rDrDrDDrrDDrrrDr Dr rrrrrrr
+07/22/24 09:51:11.742    1700 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrr rDDDDrrr rr+DrrrrDDrrrrDrr Dr rrrrrrr
+07/22/24 09:51:55.598    5202 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:51:56.242       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:51:56.909       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrr DDrDDDrr rDDrrrDrrDDrrrrr Dr rrrrrrr
+07/22/24 09:52:55.605    6980 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:52:56.266       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:53:55.592    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:53:56.249       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:53:56.914       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrD rrDrDDrr DrDrrDrrDDDDrrDr Dr rrrrrrr
+07/22/24 09:54:19.726    2660 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrD rDrrrrr+r DrDrDDrrDrDDrDrr Dr rrrrrrr
+07/22/24 09:54:29.531    1091 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDDrrrr DDrrDrrr rr+rrrDDr rDrrrDDrrDDDDD-rr Dr rrrrrrr
+07/22/24 09:54:55.592    3066 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:54:56.251       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:55:23.750    3220 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDrD DrDrDDDr rDDDDD-rDDrrrrr+Dr Dr rrrrrrr
+07/22/24 09:55:55.616    3761 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:55:56.274       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:56:19.750    2740 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDr rrrDrrDr DrrDDDDrDrDrrrrr Dr rrrrrrr
+07/22/24 09:56:55.618    4243 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:56:56.275       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:56:56.950       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDr rrDDDrDr DDrrrrr+rDDDDrrDr Dr rrrrrrr
+07/22/24 09:57:55.633    6979 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:57:56.291       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:58:35.791    4660 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDr Drrrrr+rr rrr+DDDrrDDDDD-DDr Dr rrrrrrr
+07/22/24 09:58:55.623    2320 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:58:56.285       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:59:55.632    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 09:59:56.291       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 09:59:56.964       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDr DrDDDDrr DrDrDrrrrr+rDDDrr Dr rrrrrrr
+07/22/24 09:59:59.792     259 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDr DDDDD-rrr DDDDD-DDrrrrr+Drrr Dr rrrrrrr
+07/22/24 10:00:55.642    6640 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:00:56.299       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 10:01:31.765    4180 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDD rDrDDDrr rrDDrDrDDrDrrrrr Dr rrrrrrr
+07/22/24 10:01:55.633    2803 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:01:56.292       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 10:02:55.651    7060 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:02:56.315       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 10:02:56.988       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDD DrDrrrDr DrDDDDD-DDrDDDrrr Dr rrrrrrr
+07/22/24 10:03:55.666    6979 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:03:56.325       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr DDrrDrrr rr+rDrrrD rDrDrDrrDDrrrrDr Dr rrrrrrr
+07/22/24 10:03:59.819     340 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDrDDD DD-rrrr+rr rDDDrrDDrrDDDrrr Dr rrrrrrr
+07/22/24 10:04:01.025       3 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rDrrD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rDrDDr DDrDrrrr r+rrrrr+rr rDDDrrrDDDDD-Drrr Dr rrrrrrr
+07/22/24 10:04:15.801    1695 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDDrrr rr+DrrDrr DrrrDrDDrrDrDrrr Dr rrrrrrr
+07/22/24 10:04:27.837    1302 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rrrrD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DrrrDDDrrrDrrrDr Dr rrrrrrr
+07/22/24 10:04:55.547    3264 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:04:56.225       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr rrrr+rrrr r+rrDrrrr r+DDrrDrrrrr+Drrrr Dr rrrrrrr
+07/22/24 10:05:55.952    7025 D rD DDDD-DrrDDDrrrr DDDDrrrr r+D rrDrrD rrrrr+rrr rr+rrrDrr rrr+rrrrD rrrrr+rrr rr+rrrrr+r DDrrDrrr rr+rrrrr+r rrrr+rrrr r+rrrrr+rr DrrrDDDrrrDrrrDr Dr rrrrrrr
+07/22/24 10:05:56.484       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:05:57.167       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr rrrr+rrrr r+rrDrrrr r+DDrrDrrrrr+Drrrr Dr rrrrrrr
+07/22/24 10:05:57.902       3 D rD rDrrDrrDDDDrrr DDDDrrrr r+D rrrrDD rrDDrrrr DDrrDrrr rr+rrrDDr rDrrrDDrrDDDDD-rr Dr rrrrrrr
+07/22/24 10:05:58.580       3 D rD rDrrDrrDDrrrrr +DDDD-rrrr +rD rrrrDr rrrDDrrr rr+DrrDrr DrrrDrDDrrDrDrrr Dr rrrrrrr
+07/22/24 10:05:59.684       3 D rD rDrrrrDrDrrrDD DDD-Drrrr r+D rrDrrr rr+rrrDrD rDDrDDDr rrrr+rDrD rDDrDDDr rrrr+rrrD rrrDDrrr rr+rrrrr+D rrrDDrrr rr+rDDDrrrrDDrDDr Dr rrrrrrr
+07/22/24 10:06:00.787       3 D rD rDrrrrDrDrrrDr DDDDrrrr r+D rrDrrr rr+rDrDDD DD-rrrr+rr rrr+rDDrr DrrDrDrr rrr+rDDrr DrrDrDrr rrr+rDDrr DrrDrDrr DrrDrrrrDDDDrrDr Dr rrrrrrr
+07/22/24 10:06:01.903       3 D rD rDrrrrDrDrrrrD DDDD-rrrr +rD rrDrrr rr+rDrDDD DD-rrrr+rr rrr+rDDrr DrrDrDrr rrr+rrDrD rDDrDDDr rrrr+rrrD rrrDDrrr rr+DrrrrDrrrDrrrr Dr rrrrrrr
+07/22/24 10:06:02.812       3 D rD rDrrrrDrDrrrrr +DDDD-rrrr +rD rrrDrD rrrDrDDD DD-rrrr+rr rrr+rrrrr +rrrrr+rDD DrDrDDrr rDDDDrrrDDDDrDDr Dr rrrrrrr
+07/22/24 10:06:54.985    6198 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:06:55.654       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr rrrr+rrrr r+rrDrrrr r+DDrrDrrrrr+Drrrr Dr rrrrrrr
+07/22/24 10:07:54.684    7019 D rD DDrrrrDDrDrrrr DDDDrrrr r+r rrrr+rr rrr+rrDDrrrDDrDrr Dr rrrrrrr
+07/22/24 10:07:55.364       3 D rD DDrrrrDDrDrrrr DDDDrrrr r+D rrrrDr rrrr+rrrr r+rrDrrrr r+DDrrDrrrrr+Drrrr Dr rrrrrrr
+ ÿ'   EnvBusMon V0.28
+   Database 1.10 (Working) 24-Jan-2012
+07/22/24 09:05:30.000 [PWR DWN]
+07/22/24 09:05:30.000 [PWR UP]
+07/22/24 09:05:30.091 [IDLE]
+ >>TX Msg:
+07/22/24 09:05:42.676    1368 Factory Test Mode, 00h (make unique), Query               M 3c20 00 Q 
+
+07/22/24 09:05:42.710 [IDLE]
+07/22/24 09:06:02.450    2229 Device Status, water heater, Report                       M 3e70 F0 R 00 04 11 00 00 C8 00 00 00 
+07/22/24 09:06:03.675       3 Device Status, water heater, Report                       M 3e70 F0 R 00 04 02 00 00 C8 00 00 00 
+    Sequence = WAITPSWOPEN
+07/22/24 09:06:04.888       3 Device Status, water heater, Report                       M 3e70 F0 R 00 04 03 00 00 C8 00 00 00 
+    Sequence = WAITPSWCLOSE
+07/22/24 09:06:05.945       3 Factory Test Mode, 00h (make unique), Report              M 3c20 00 R 00 32 32 98 94 D0 00 
+07/22/24 09:06:06.483       3 Alarm, system wide, Query                                 M 3120 00 Q 
+07/22/24 09:06:07.699       3 Device Status, water heater, Report                       M 3e70 F0 R 00 04 04 00 00 C8 00 00 00 
+    Sequence = PREPURGE
+07/22/24 09:06:08.552       3 Alarm, system wide, Report                                M 3120 00 R 00 00 00 00 
+  !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
+07/22/24 09:06:08.283       3 VOC Sensor, water heater, Report                          M 1278 F0 R 25 C8 06 
+07/22/24 09:06:08.966       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 08 5C 
+07/22/24 09:06:09.505       3 Node Identification 1, 00h (unique device), Query         M 10e0 00 Q 
+07/22/24 09:06:11.716       3 Device Status, water heater, Report                       M 3e70 F0 R 00 84 06 00 00 C8 00 00 00 
+    Defrost = Defrost (cmpHeat)
+    BurnerStart = TurnOn (gas/oil)
+    FanOverun = Ovrrun (fancntr)
+    Sequence = IGNACTV
+07/22/24 09:06:13.350       3 Node Identification 1, 00h (unique device), Report        M 10e0 00 R 00 00 00 00 00 00 00 00 57 56 34 34 36 32 43 
+07/22/24 09:06:14.499       3 Node Identification 2, system wide, Report                M 10e1 00 R 00 01 01 03 00 02 FF FF 
+07/22/24 09:06:16.310       3 Node Identification 3, system wide, Report                M 10e2 00 R FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+07/22/24 09:06:17.421       3 DHW Setpoint Diff Range, water heater, Report             M 10a3 F0 R 05 6E 05 6E 01 18 01 18 
+07/22/24 09:06:18.520       3 DHW Setpoint Limit Range, water heater, Report            M 10a2 F0 R 17 CA 0C 94 0C 94 0C 94 
+07/22/24 09:06:19.621       3 DHW Setpoint Range, water heater, Report                  M 10a1 F0 R 17 CA 0C 94 05 6E 01 18 
+07/22/24 09:06:20.519       3 DHW Cylinder Setpoint, water heater, Report               M 10a0 F0 R 17 CA 00 03 AC 
+07/22/24 09:06:20.552 [IDLE]
+07/22/24 09:06:51.500    3577 Device Status, water heater, Report                       M 3e70 F0 R C8 04 07 00 00 C8 0C 80 00 
+    State = 100.000000 %
+    Defrost = NoDefrost (cmpheat)
+    BurnerStart = NoTurnOn (gas/oil)
+    FanOverun = NoOvrrun (fancntr)
+    Sequence = PROVEFLAME
+    CADRes_FlameCrrnt = 3200 ohms/nA
+07/22/24 09:06:51.533 [IDLE]
+07/22/24 09:06:54.741     249 Device Status, water heater, Report                       M 3e70 F0 R C8 04 08 00 00 C8 23 DC 00 
+    Sequence = RUNNING
+    CADRes_FlameCrrnt = 9180 ohms/nA
+07/22/24 09:06:54.775 [IDLE]
+07/22/24 09:06:55.839      71 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:06:56.500       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:06:56.533 [IDLE]
+07/22/24 09:07:55.820    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:07:56.484       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:07:56.518 [IDLE]
+07/22/24 09:08:54.831    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:08:56.481       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:08:57.158       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 08 CA 
+    DHWTemp = 72.510000 deg F
+07/22/24 09:08:57.192 [IDLE]
+07/22/24 09:09:19.988    2659 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 06 
+    DHWTemp = 73.590000 deg F
+07/22/24 09:09:20.016 [IDLE]
+07/22/24 09:09:55.840    4241 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:09:56.496       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:09:56.529 [IDLE]
+07/22/24 09:10:27.981    3700 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 6A 
+    DHWTemp = 75.390000 deg F
+07/22/24 09:10:28.016 [IDLE]
+07/22/24 09:10:54.834    3282 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:10:55.494       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:10:55.527 [IDLE]
+07/22/24 09:11:27.986    3700 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 09 D8 
+    DHWTemp = 77.370000 deg F
+07/22/24 09:11:28.016 [IDLE]
+07/22/24 09:11:55.848    3282 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:11:56.508       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:11:57.183       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A 1E 
+    DHWTemp = 78.630000 deg F
+07/22/24 09:11:57.216 [IDLE]
+07/22/24 09:12:55.853    6979 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:12:56.506       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:12:56.539 [IDLE]
+07/22/24 09:12:59.989     340 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A 3C 
+    DHWTemp = 79.170000 deg F
+07/22/24 09:13:00.025 [IDLE]
+07/22/24 09:13:55.856    6642 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:13:56.518       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:13:56.551 [IDLE]
+07/22/24 09:14:08.016    1300 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A A0 
+    DHWTemp = 80.970000 deg F
+07/22/24 09:14:08.049 [IDLE]
+07/22/24 09:14:54.881    5680 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:14:56.536       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:14:57.232       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0A A0 
+07/22/24 09:14:57.265 [IDLE]
+07/22/24 09:15:55.866    6977 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:15:56.525       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:15:56.558 [IDLE]
+07/22/24 09:16:03.024     820 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B 04 
+    DHWTemp = 82.770000 deg F
+07/22/24 09:16:03.058 [IDLE]
+07/22/24 09:16:55.848    6161 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:16:56.505       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:16:56.538 [IDLE]
+07/22/24 09:17:19.979    2740 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B 72 
+    DHWTemp = 84.750000 deg F
+07/22/24 09:17:20.016 [IDLE]
+07/22/24 09:17:21.024      41 VOC Sensor, water heater, Report                          M 1278 F0 R 26 C8 06 
+    VOCValue = 19.000000 Kohms
+    VOCValue = 19.000000 %
+07/22/24 09:17:21.058 [IDLE]
+07/22/24 09:17:55.833    4117 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:17:56.490       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:17:57.158       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B 68 
+    DHWTemp = 84.570000 deg F
+07/22/24 09:17:57.192 [IDLE]
+07/22/24 09:18:55.824    6979 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:18:56.482       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:18:56.515 [IDLE]
+07/22/24 09:19:11.991    1780 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0B F4 
+    DHWTemp = 87.090000 deg F
+07/22/24 09:19:12.025 [IDLE]
+07/22/24 09:19:55.815    5199 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:19:56.473       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:19:56.506 [IDLE]
+07/22/24 09:20:29.749    3909 VOC Sensor, water heater, Report                          M 1278 F0 R 27 C8 06 
+    VOCValue = 19.500000 Kohms
+    VOCValue = 19.500000 %
+07/22/24 09:20:29.783 [IDLE]
+07/22/24 09:20:51.946    2586 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C 62 
+    DHWTemp = 89.070000 deg F
+07/22/24 09:20:51.979 [IDLE]
+07/22/24 09:20:55.800     402 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:20:56.456       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:20:57.142       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C 58 
+    DHWTemp = 88.890000 deg F
+07/22/24 09:20:57.175 [IDLE]
+07/22/24 09:21:51.931    6498 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0C C6 
+    DHWTemp = 90.870000 deg F
+07/22/24 09:21:51.965 [IDLE]
+07/22/24 09:21:55.784     402 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:21:56.441       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:21:56.474 [Iÿ'DLE]
+07/22/24 09:22:52.226    6609 VOC Sensor, water heater, Report                          M 1278 F0 R 28 C8 06 
+    VOCValue = 20.000000 Kohms
+    VOCValue = 20.000000 %
+07/22/24 09:22:52.260 [IDLE]
+07/22/24 09:22:55.790     366 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:22:56.448       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:22:56.481 [IDLE]
+07/22/24 09:23:43.930    5620 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 2A 
+    DHWTemp = 92.670000 deg F
+07/22/24 09:23:43.963 [IDLE]
+07/22/24 09:23:55.791    1362 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:23:56.448       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:23:57.133       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 20 
+    DHWTemp = 92.490000 deg F
+07/22/24 09:23:57.166 [IDLE]
+07/22/24 09:24:55.796    6978 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:24:56.449       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:24:56.482 [IDLE]
+07/22/24 09:25:03.232     729 VOC Sensor, water heater, Report                          M 1278 F0 R 29 C8 06 
+    VOCValue = 20.500000 Kohms
+    VOCValue = 20.500000 %
+07/22/24 09:25:03.265 [IDLE]
+07/22/24 09:25:27.946    2887 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0D 98 
+    DHWTemp = 94.650000 deg F
+07/22/24 09:25:27.980 [IDLE]
+07/22/24 09:25:55.790    3281 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:25:56.450       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:25:56.484 [IDLE]
+07/22/24 09:26:19.940    2740 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E 06 
+    DHWTemp = 96.630000 deg F
+07/22/24 09:26:19.974 [IDLE]
+07/22/24 09:26:55.774    4241 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:26:56.436       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:26:57.124       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E 24 
+    DHWTemp = 97.170000 deg F
+07/22/24 09:26:57.157 [IDLE]
+07/22/24 09:27:21.451    2837 VOC Sensor, water heater, Report                          M 1278 F0 R 2A C8 06 
+    VOCValue = 21.000000 Kohms
+    VOCValue = 21.000000 %
+07/22/24 09:27:21.485 [IDLE]
+07/22/24 09:27:43.917    2617 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E 74 
+    DHWTemp = 98.610000 deg F
+07/22/24 09:27:43.950 [IDLE]
+07/22/24 09:27:55.764    1361 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:27:56.425       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:27:56.458 [IDLE]
+07/22/24 09:28:55.751    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:28:56.416       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:28:56.449 [IDLE]
+07/22/24 09:29:27.905    3700 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0E EC 
+    DHWTemp = 100.770000 deg F
+07/22/24 09:29:27.938 [IDLE]
+07/22/24 09:29:55.777    3282 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:29:56.431       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:29:57.133       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F 0A 
+    DHWTemp = 101.310000 deg F
+07/22/24 09:29:57.166 [IDLE]
+07/22/24 09:30:55.783    6976 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:30:56.439       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:30:56.472 [IDLE]
+07/22/24 09:31:19.931    2740 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F 5A 
+    DHWTemp = 102.750000 deg F
+07/22/24 09:31:19.965 [IDLE]
+07/22/24 09:31:39.696    2290 VOC Sensor, water heater, Report                          M 1278 F0 R 2B C8 06 
+    VOCValue = 21.500000 Kohms
+    VOCValue = 21.500000 %
+07/22/24 09:31:39.729 [IDLE]
+07/22/24 09:31:47.923     907 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F BE 
+    DHWTemp = 104.550000 deg F
+07/22/24 09:31:47.956 [IDLE]
+07/22/24 09:31:55.768     880 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:31:56.423       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:31:56.456 [IDLE]
+07/22/24 09:32:55.773    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:32:56.432       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:32:57.116       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 0F 8C 
+    DHWTemp = 103.650000 deg F
+07/22/24 09:32:57.150 [IDLE]
+07/22/24 09:33:55.757    6978 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:33:56.417       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:33:56.450 [IDLE]
+07/22/24 09:34:19.192    2649 VOC Sensor, water heater, Report                          M 1278 F0 R 2C C8 06 
+    VOCValue = 22.000000 Kohms
+    VOCValue = 22.000000 %
+07/22/24 09:34:19.225 [IDLE]
+07/22/24 09:34:51.916    3846 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 22 
+    DHWTemp = 106.350000 deg F
+07/22/24 09:34:51.950 [IDLE]
+07/22/24 09:34:55.759     400 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:34:56.419       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:34:56.452 [IDLE]
+07/22/24 09:35:56.413    7059 Device Status, water heater, Report                       M 3e70 F0 R C8 04 08 00 00 C8 2E 22 00 
+    CADRes_FlameCrrnt = 11810 ohms/nA
+07/22/24 09:35:56.942       3 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:35:57.600       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:35:58.335       3 VOC Sensor, water heater, Report                          M 1278 F0 R 2C C8 06 
+07/22/24 09:35:59.025       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 5E 
+    DHWTemp = 107.430000 deg F
+07/22/24 09:36:00.133       3 DHW Setpoint Diff Range, water heater, Report             M 10a3 F0 R 05 6E 05 6E 01 18 01 18 
+07/22/24 09:36:01.231       3 DHW Setpoint Limit Range, water heater, Report            M 10a2 F0 R 17 CA 0C 94 0C 94 0C 94 
+07/22/24 09:36:02.326       3 DHW Setpoint Range, water heater, Report                  M 10a1 F0 R 17 CA 0C 94 05 6E 01 18 
+07/22/24 09:36:03.232       3 DHW Cylinder Setpoint, water heater, Report               M 10a0 F0 R 17 CA 00 03 AC 
+07/22/24 09:36:03.266 [IDLE]
+07/22/24 09:36:31.892    3363 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 10 A4 
+    DHWTemp = 108.690000 deg F
+07/22/24 09:36:31.925 [IDLE]
+07/22/24 09:36:55.757    2803 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:36:56.417       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:36:56.450 [IDLE]
+07/22/24 09:37:55.736    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:37:56.394       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:37:56.428 [IDLE]
+07/22/24 09:38:17.928    2499 VOC Sensor, water heater, Report                          M 1278 F0 R 2D C8 06 
+    VOCValue = 22.500000 Kohms
+    VOCValue = 22.500000 %
+07/22/24 09:38:17.962 [IDLE]
+07/22/24 09:38:23.883     636 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 08 
+    DHWTemp = 110.490000 deg F
+07/22/24 09:38:23.916 [IDLE]
+07/22/24 09:38:55.730    3761 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:38:56.389       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:38:57.049       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 12 
+    DHWTemp = 110.670000 deg F
+07/22/24 09:38:57.083 [IDLE]
+07/22/24 09:39:39.862    5060 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 6C 
+    DHWTemp = 112.290000 deg F
+07/22/24 09:39:39.896 [IDLE]
+07/22/24 09:39:55.719    1842 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:39:56.383       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:39:56.417 [IDLE]
+07/22/24 09:40:35.857    4660 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 11 E4 
+    DHWTemp = 114.450000 deg F
+07/22/24 09:40:35.890 [IDLE]
+07/22/24 09:40:55.730    2323 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:40:56.389       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:40:56.423 [IDLE]
+07/22/24 09:41:55.716    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:41:56.373       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:41:57.041       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 2A 
+    DHWTemp = 115.710000 deg F
+07/22/24 09:41:57.075 [IDLE]
+07/22/24 09:42:07.842    1220 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 52 
+    DHWTemp = 116.430000 deg F
+07/22/24 09:42:07.876 [IDLE]
+07/22/24 09:42:55.707    5683 ÿ'DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:42:56.367       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:42:56.401 [IDLE]
+07/22/24 09:43:55.700    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:43:56.360       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:43:56.394 [IDLE]
+07/22/24 09:44:07.900    1300 VOC Sensor, water heater, Report                          M 1278 F0 R 2E C8 06 
+    VOCValue = 23.000000 Kohms
+    VOCValue = 23.000000 %
+07/22/24 09:44:07.934 [IDLE]
+07/22/24 09:44:43.833    4235 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 B6 
+    DHWTemp = 118.230000 deg F
+07/22/24 09:44:43.866 [IDLE]
+07/22/24 09:44:55.699    1363 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:44:56.356       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:44:57.025       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 12 DE 
+    DHWTemp = 118.950000 deg F
+07/22/24 09:44:57.058 [IDLE]
+07/22/24 09:45:51.794    6499 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 13 1A 
+    DHWTemp = 120.030000 deg F
+07/22/24 09:45:51.827 [IDLE]
+07/22/24 09:45:55.666     403 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:45:56.323       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:45:56.356 [IDLE]
+07/22/24 09:46:55.651    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:46:56.308       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:46:56.341 [IDLE]
+07/22/24 09:47:43.761    5620 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 13 88 
+    DHWTemp = 122.010000 deg F
+07/22/24 09:47:43.794 [IDLE]
+07/22/24 09:47:55.620    1362 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:47:56.282       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:47:56.954       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 13 A6 
+    DHWTemp = 122.550000 deg F
+07/22/24 09:47:56.987 [IDLE]
+07/22/24 09:48:47.759    6019 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 14 14 
+    DHWTemp = 124.530000 deg F
+07/22/24 09:48:47.792 [IDLE]
+07/22/24 09:48:55.619     882 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:48:56.274       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:48:56.307 [IDLE]
+07/22/24 09:49:35.557    4629 VOC Sensor, water heater, Report                          M 1278 F0 R 2E C8 06 
+07/22/24 09:49:35.591 [IDLE]
+07/22/24 09:49:55.625    2346 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:49:56.283       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:49:56.317 [IDLE]
+07/22/24 09:50:55.609    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:50:56.266       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:50:56.931       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 14 6E 
+    DHWTemp = 126.150000 deg F
+07/22/24 09:50:56.964 [IDLE]
+07/22/24 09:51:11.742    1700 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 14 78 
+    DHWTemp = 126.330000 deg F
+07/22/24 09:51:11.775 [IDLE]
+07/22/24 09:51:55.598    5202 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:51:56.242       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:51:56.909       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 14 DC 
+    DHWTemp = 128.130000 deg F
+07/22/24 09:51:56.943 [IDLE]
+07/22/24 09:52:55.605    6980 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:52:56.266       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:52:56.299 [IDLE]
+07/22/24 09:53:55.592    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:53:56.249       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:53:56.914       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 15 2C 
+    DHWTemp = 129.570000 deg F
+07/22/24 09:53:56.947 [IDLE]
+07/22/24 09:54:19.726    2660 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 15 40 
+    DHWTemp = 129.930000 deg F
+07/22/24 09:54:19.760 [IDLE]
+07/22/24 09:54:29.531    1091 VOC Sensor, water heater, Report                          M 1278 F0 R 30 C8 06 
+    VOCValue = 24.000000 Kohms
+    VOCValue = 24.000000 %
+07/22/24 09:54:29.564 [IDLE]
+07/22/24 09:54:55.592    3066 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:54:56.251       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:54:56.284 [IDLE]
+07/22/24 09:55:23.750    3220 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 15 AE 
+    DHWTemp = 131.910000 deg F
+07/22/24 09:55:23.783 [IDLE]
+07/22/24 09:55:55.616    3761 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:55:56.274       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:55:56.307 [IDLE]
+07/22/24 09:56:19.750    2740 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 16 12 
+    DHWTemp = 133.710000 deg F
+07/22/24 09:56:19.784 [IDLE]
+07/22/24 09:56:55.618    4243 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:56:56.275       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:56:56.950       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 16 3A 
+    DHWTemp = 134.430000 deg F
+07/22/24 09:56:56.984 [IDLE]
+07/22/24 09:57:55.633    6979 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:57:56.291       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:57:56.324 [IDLE]
+07/22/24 09:58:35.791    4660 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 16 80 
+    DHWTemp = 135.690000 deg F
+07/22/24 09:58:35.825 [IDLE]
+07/22/24 09:58:55.623    2320 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:58:56.285       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:58:56.318 [IDLE]
+07/22/24 09:59:55.632    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 09:59:56.291       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 09:59:56.964       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 16 BC 
+    DHWTemp = 136.770000 deg F
+07/22/24 09:59:57.000 [IDLE]
+07/22/24 09:59:59.792     259 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 16 F8 
+    DHWTemp = 137.850000 deg F
+07/22/24 09:59:59.825 [IDLE]
+07/22/24 10:00:55.642    6640 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:00:56.299       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 10:00:56.333 [IDLE]
+07/22/24 10:01:31.765    4180 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 17 5C 
+    DHWTemp = 139.650000 deg F
+07/22/24 10:01:31.798 [IDLE]
+07/22/24 10:01:55.633    2803 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:01:56.292       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 10:01:56.326 [IDLE]
+07/22/24 10:02:55.651    7060 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:02:56.315       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 10:02:56.988       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 17 A2 
+    DHWTemp = 140.910000 deg F
+07/22/24 10:02:57.016 [IDLE]
+07/22/24 10:03:55.666    6979 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:03:56.325       3 DHW Demand, water heater, Report                          M 30d0 F0 R C8 11 
+07/22/24 10:03:56.358 [IDLE]
+07/22/24 10:03:59.819     340 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 17 C0 
+    DHWTemp = 141.450000 deg F
+07/22/24 10:04:01.025       3 Device Status, water heater, Report                       M 3e70 F0 R 00 04 09 00 00 C8 16 D0 00 
+    State = 0.000000 %
+    Sequence = POSTPURGE
+    CADRes_FlameCrrnt = 5840 ohms/nA
+07/22/24 10:04:01.058 [IDLE]
+07/22/24 10:04:15.801    1695 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 18 24 
+    DHWTemp = 143.250000 deg F
+07/22/24 10:04:15.834 [IDLE]
+07/22/24 10:04:27.837    1302 Device Status, water heater, Report                       M 3e70 F0 R 00 04 01 00 00 C8 00 00 00 
+    Sequence = IDLE
+    CADRes_FlameCrrnt = 0 ohms/nA
+07/22/24 10:04:27.870 [IDLE]
+07/22/24 10:04:55.547    3264 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:04:56.225       3 DHW Demand, water heater, Report                          M 30d0 F0 R 00 10 
+    Demand = 0.000000 %
+    On/Off = Off
+07/22/24 10:04:56.258 [IDLE]
+07/22/24 10:05:55.952    7025 Device Status, water heater, Report                       M 3e70 F0 R 00 04 01 00 00 C8 00 00 00 
+07/22/24 10:05:56.484       3 DHWÿÞ Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:05:57.167       3 DHW Demand, water heater, Report                          M 30d0 F0 R 00 10 
+07/22/24 10:05:57.902       3 VOC Sensor, water heater, Report                          M 1278 F0 R 30 C8 06 
+07/22/24 10:05:58.580       3 DHW Cylinder Temperature, water heater, Report            M 1260 F0 R 18 24 
+07/22/24 10:05:59.684       3 DHW Setpoint Diff Range, water heater, Report             M 10a3 F0 R 05 6E 05 6E 01 18 01 18 
+07/22/24 10:06:00.787       3 DHW Setpoint Limit Range, water heater, Report            M 10a2 F0 R 17 C0 0C 94 0C 94 0C 94 
+    MaxSetptMax = 141.450000 deg F
+07/22/24 10:06:01.903       3 DHW Setpoint Range, water heater, Report                  M 10a1 F0 R 17 C0 0C 94 05 6E 01 18 
+    MaxSetpt = 141.450000 deg F
+07/22/24 10:06:02.812       3 DHW Cylinder Setpoint, water heater, Report               M 10a0 F0 R 17 C0 00 03 AC 
+    SSOTemp = 141.450000 deg F
+07/22/24 10:06:02.846 [IDLE]
+07/22/24 10:06:54.985    6198 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:06:55.654       3 DHW Demand, water heater, Report                          M 30d0 F0 R 00 10 
+07/22/24 10:06:55.687 [IDLE]
+07/22/24 10:07:54.684    7019 DHW Demand, water heater, Query                           M 30d0 F0 Q 
+07/22/24 10:07:55.364       3 DHW Demand, water heater, Report                          M 30d0 F0 R 00 10 
+07/22/24 10:07:55.397 [IDLE]
+        y  d  Y07/22/24 09:06:08.552   !!!ERROR, field 'Reserved' has an invalid value.  See App Spec.
