@@ -1,0 +1,614 @@
+NAME
+	YKGX - LabVIEW driver for YOKOGAWA GX10/GX20/GP10/GP20/GM10.
+
+SYNOPSIS
+	Communication driver to Yokogawa GX/GP/GM series on LabVIEW.
+	
+DESCRIPTION
+	This driver provides communication to Yokogawa GX/GP/GM Series on LabVIEW.
+	There are many interface supported, Ethernet, RS-232C(GX/GP),
+	RS-422/485, USB(GM) and Bluetooth(GM).
+	
+FILES
+	Yokogawa GX Series Readme.txt
+		This file.
+	Yokogawa GX Series Readme.html
+		Readme file.
+	Public\
+		Library of VIs.
+	Private\
+		Library of VIs that the end user should not access directly.
+	Examples\
+		Example VIs.
+	dir.mnu
+		Pallet file.
+	Yokogawa GX Series.aliases
+	Yokogawa GX Series.lvlib
+	Yokogawa GX Series.lvlps
+	Yokogawa GX Series.lvproj
+		Files used by LabVIEW.
+
+VIS
+	Initialize.vi
+		Establishes communication with the instrument and optionally performs
+		an instrument identification query.
+
+	Close.vi
+		Closes the I/O interface with the instrument.
+
+	VI Tree.vi
+		Displays all the user-callable VIs of the instrument driver in an
+		organized table.
+
+	[Action-Status]
+	Clear Computation.vi
+		Clears the computation data dropout display.
+
+	Clear Data.vi
+		Clears the measured/computed data, initializes setup data.
+		
+	Control TransAO.vi
+		Control transfer output of AO channels.
+		
+	Reset Computation.vi
+		Resets computation.
+		
+	Reset Match Time Timer.vi
+		Reset the match time timer.
+	
+	Reset Timer.vi
+		Reset the relative time timer.
+		
+	Set Batch Comment.vi
+		Sets the batch comment.
+
+	Set Batch Name.vi
+		Sets the batch name.
+
+	Set Batch Text.vi
+		Sets the batch text.
+		
+	Set ManualAO.vi
+		Sets manual output of AO channels.
+		
+	Start Computation.vi
+		Starts computation.
+
+	Stop Computation.vi
+		Stops computation.
+
+	Write Display Message.vi
+		Displays the message to the screen and writes the message into the
+		display data and event data.
+
+	[Data]
+	Abort.vi
+		Aborts an acquisition and returns the oscilloscope to the Idle state.
+
+	Get Internal Dir.vi
+		Gets the file list in the internal memory of specified path.
+
+	Initialte.vi
+		Initiates a waveform acquisition.
+
+	Read Measurement Data (Analog 1Chan).vi
+		Reads the analog measurement data by ASCII or Binary.
+
+	Read Measurement Data (Analog NChan).vi
+		Reads the analog measurement data by ASCII or Binary.
+
+	Read Measurement Data (Digital 1Chan).vi
+		Reads the digital measurement data by ASCII or Binary.
+
+	Read Measurement Data (Digital NChan).vi
+		Reads the digital measurement data by ASCII or Binary.
+
+	Read Measurement Data (Raw 1Chan).vi
+		Reads the raw measurement data by Binary.
+
+	Read Measurement Data (Raw NChan).vi
+		Reads the raw measurement data by Binary.
+
+	Read Measurement Data (Unit 1Chan).vi
+		Reads the channel number, data status, decimal position, and unit.
+
+	Read Measurement Data (Unit NChan).vi
+		Reads the channel number, data status, decimal position, and unit.
+
+	Read Measurement Data.vi
+		Selects the type of read measurement data.
+
+	[Utility]
+	Close RS422A.vi
+		Closes RS-422A/485.
+
+	Open RSS422A.vi
+		Opens RS-422A/485.
+
+	Revision Query.vi
+		Queries the current instrument firmware revision and instrument driver
+		revision.
+
+	[Configure]
+	Configure AI Module.vi
+		Sets the mode and A/D integration time and the burnout limits for the
+		general signal range of an AI module.
+
+	Configure AI Moving Average.vi
+		Sets the moving average of an AI channel.
+
+	Configure Alarm Basic.vi
+		Sets the alarm basic.
+
+	Configure Alarm Com.vi
+		Sets the alarm of a communication channel.
+
+	Configure Alarm Delay Com.vi
+		Sets the alarm delay of a com channel.
+
+	Configure Alarm Delay IO.vi
+		Sets the alarm delay time for IO channels.
+
+	Configure Alarm Delay Math.vi
+		Sets the alarm delay of a math channel.
+
+	Configure Alarm Hysteresis Com.vi
+		Sets the alarm hysteresis of a com channel.
+
+	Configure Alarm Hysteresis IO.vi
+		Sets the alarm hysteresis for the IO channel.
+
+	Configure Alarm Hysteresis Math.vi
+		Sets the alarm hysteresis of a math channel.
+
+	Configure Alarm IO.vi
+		Sets the alarm for AI and DI channels.
+
+	Configure Alarm Mark Com.vi
+		Sets the alarm point mark of com channels.
+
+	Configure Alarm Mark IO.vi
+		Sets the alarm point mark of IO channels.
+
+	Configure Alarm Mark Math.vi
+		Sets the alarm point mark of math channels.
+
+	Configure Alarm Math.vi
+		Sets the alarm of the mathematical channel.
+
+	Configure Bar Graph (Com).vi
+		Sets the bar graph display of a com channel.
+
+	Configure Bar Graph (IO).vi
+		Sets the bar graph display of an I/O channel.
+
+	Configure Bar Graph (Math).vi
+		Sets the bar graph display of a math channel.
+
+	Configure Bar Graph Direction.vi
+		Sets the bar graph display direction.
+
+	Configure Batch Text.vi
+		Sets the batch text.
+
+	Configure Batch.vi
+		Sets the batch function.
+
+	Configure Burnout RJC.vi
+		Sets the burnout detection and RJC.
+
+	Configure Calender.vi
+		Sets the calendar display format.
+
+	Configure Calib Factor(IO).vi
+		Sets the calibration correction(Correction Factor) for AI channels.
+	
+	Configure Calib Linear(IO).vi
+		Sets the calibration correction(Correction Factor) for AI channels.
+
+	Configure Channel (AIDI Delta).vi
+		Sets the input range as Contact.
+
+	Configure Channel (AIDI Normal).vi
+		Sets the input range as Contact.
+
+	Configure Channel (AIDI Scale).vi
+		Sets the input range as Contact.
+		
+	Configure Channel (AO).vi
+		Sets the output range of AO channels.
+
+	Configure Channel (Com).vi
+		Sets the input range of com channels.
+
+	Configure Channel (DI Delta).vi
+		Sets the input range of DI channels.
+
+	Configure Channel (DI Normal).vi
+		Sets the input range of DI channels.
+
+	Configure Channel (DI Pulse).vi
+		Sets the input range of DI channels.
+
+	Configure Channel (DI Scale).vi
+		Sets the input range of DI channels.
+
+	Configure Channel (GS Scale).vi
+		Sets the input range as GS.
+
+	Configure Channel (GS Sqrt).vi
+		Sets the input range as GS.
+
+	Configure Channel (mA Delta).vi
+		Sets the input range as current.
+
+	Configure Channel (mA GS Scale).vi
+		Sets the input range as current GS.
+
+	Configure Channel (mA GS Sqrt).vi
+		Sets the input range as current GS.
+
+	Configure Channel (mA Normal).vi
+		Sets the input range as current.
+
+	Configure Channel (mA Scale).vi
+		Sets the input range as current.
+
+	Configure Channel (mA Sqrt).vi
+		Sets the input range as current.
+
+	Configure Channel (Math).vi
+		Sets the computing equation.
+
+	Configure Channel (Off) AI.vi
+		Sets the input range as off (skip).
+		
+	Configure Channel (Off) AO.vi
+		Sets the output range as off (skip).
+
+	Configure Channel (Off) Com.vi
+		Sets the communication channel as off (skip).
+
+	Configure Channel (Off) DI.vi
+		Sets the input range as off (skip).
+
+	Configure Channel (Off) mA.vi
+		Sets the input range as off (skip).
+
+	Configure Channel (Off) Math.vi
+		Sets the Math channel as off (skip).
+		
+	Configure Channel (Off) Pulse.vi
+		Sets the input range as off (skip).
+		
+	Configure Channel (Pulse Delta).vi
+		Sets the input range of Pulse channels.
+	
+	Configure Channel (Pulse Normal).vi
+		Sets the input range of Pulse channels.
+		
+	Configure Channel (Pulse Scale).vi
+		Sets the input range of Pulse channels.
+
+	Configure Channel (RTD Delta).vi
+		Sets the input range as Resistance Temperature Detector (RTD).
+
+	Configure Channel (RTD Normal).vi
+		Sets the input range as Resistance Temperature Detector (RTD).
+
+	Configure Channel (RTD Scale).vi
+		Sets the input range as Resistance Temperature Detector (RTD).
+
+	Configure Channel (TC Delta).vi
+		Sets the input range as thermocouple.
+
+	Configure Channel (TC Normal).vi
+		Sets the input range as thermocouple.
+
+	Configure Channel (TC Scale).vi
+		Sets the input range as thermocouple.
+
+	Configure Channel (Volt Delta).vi
+		Sets the input range as voltage.
+
+	Configure Channel (Volt Log).vi
+		Sets the input range as voltage.
+
+	Configure Channel (Volt Normal).vi
+		Sets the input range as voltage.
+
+	Configure Channel (Volt Scale).vi
+		Sets the input range as voltage.
+
+	Configure Channel (Volt Sqrt).vi
+		Sets the input range as voltage.
+
+	Configure Channel Display Com.vi
+		Sets the zone, channel display color and the scale.
+
+	Configure Channel Display IO.vi
+		Sets the zone, channel display color and the scale.
+
+	Configure Channel Display Math.vi
+		Sets the zone, channel display color and the scale.
+
+	Configure CheckSum.vi
+		Sets the check sum.
+
+	Configure Computation Constant.vi
+		Sets the computation constant.
+
+	Configure Data Save.vi
+		Sets the configuation of saving data.
+
+	Configure Date Basic.vi
+		Sets the gradual time adjustment feature.
+
+	Configure Date Format.vi
+		Sets the date format.
+
+	Configure DI Module.vi
+		Sets operation mode of DI module.
+
+	Configure Display Basic.vi
+		Sets the display background color, scroll time and auto jump.
+
+	Configure Display Data.vi
+		Sets the display data recording mode.
+
+	Configure DO Alarm.vi
+		Sets the DO alarm output related settings.
+
+	Configure DO Fail.vi
+		Sets the DO fail output related settings.
+
+	Configure DO Manual.vi
+		Sets the DO manual output related settings.
+
+	Configure DST.vi
+		Sets the daylight saving time.
+
+	Configure Event Action.vi
+		Sets an event action.
+
+	Configure Event Data.vi
+		Sets the event data recording mode.
+
+	Configure Fail Relay.vi
+		Sets the relay (DO channel) operation and the instrument status to
+		output from the fail relay.
+
+	Configure Group.vi
+		Sets the group.
+
+	Configure Internal Switch.vi
+		Sets the internal switch operation.
+
+	Configure Interval.vi
+		Sets the scan interval.
+
+	Configure Language.vi
+		Sets the language to use, temperature unit and decimal point type.
+
+	Configure Match Time Timer.vi
+		Sets a match time timer.
+
+	Configure Math Basic.vi
+		Sets the basic operation of math channels.
+
+	Configure Math Rolling Average.vi
+		Sets rolling average on a math channel.
+
+	Configure Memory Confirm.vi
+		Sets the record confirmation action.
+		
+	Configure Memory.vi
+		Sets the type of data to record.
+
+	Configure Message Basic.vi
+		Sets the message writing operation.
+
+	Configure Message.vi
+		Sets the message.
+		
+	Configure Multi Batch Text.vi
+		Sets the multi batch text.
+		
+	Configure Multi Data Save.vi
+		Set data save (/BT Option)
+		
+	Configure Multi Group.vi
+		Sets the group (/BT Option).
+	
+	Configure Multi Trip Line.vi
+		Sets the trip line for a display group. (/BT Option)
+
+	Configure Partial Com.vi
+		Sets the partial expanded display on Com channel.
+
+	Configure Partial IO.vi
+		Sets the partial expanded display on I/O channel.
+
+	Configure Partial Math.vi
+		Sets the partial expanded display on Math channel.
+
+	Configure Preset Action (AO).vi
+		Sets preset action of AO channel.
+		
+	Configure Record Data (Display).vi
+		Sets channel for recording display data.
+
+	Configure Record Data (Event).vi
+		Sets the channel for recording event data.
+
+	Configure Record Data (Manual).vi
+		Sets the channel for recording manual sampled data.
+		
+	Configure Report Basic.vi
+		Sets report basic.
+
+	Configure Report Channel.vi
+		Assigns a channel to a report channel.
+
+	Configure Report Type.vi
+		Sets the type of report to create.
+
+	Configure Scale Band Com.vi
+		Sets the green band of com channel.
+
+	Configure Scale Band IO.vi
+		Sets the green band of IO channel.
+
+	Configure Scale Band Math.vi
+		Sets the green band of math channel.
+
+	Configure Scale Over.vi
+		Sets method at scale over.
+		
+	Configure Schedule Text.vi
+		Sets the notification contents.
+		
+	Configure Schedule.vi
+		Sets caliburation reminder.
+
+	Configure Tag Com.vi
+		Sets the tag of com channel.
+
+	Configure Tag IO.vi
+		Sets the tag of IO channel.
+
+	Configure Tag Math.vi
+		Sets the tag of math channel.
+
+	Configure Time Zone.vi
+		Sets the time zone.
+
+	Configure Timer (Absolute).vi
+		Sets the absolute timer.
+
+	Configure Timer (Relative).vi
+		Sets a Relative timer.
+
+	Configure TLOG.vi
+		Sets the TLOG timer.
+
+	Configure Trend Line.vi
+		Sets the trend waveform line width and the grid in the display area.
+
+	Configure Trend Partial.vi
+		Sets enable or disable the partial expanded trend display.
+
+	Configure Trend Rate.vi
+		Sets the trend interval switching.
+
+	Configure Trend Scale.vi
+		Sets the scale.
+
+	Configure Trend Wave.vi
+		Sets the trend waveform display mode.
+
+	Configure Trip Line.vi
+		Sets the trip line for a display group.
+
+	Configure Value (Com).vi
+		Sets the preset operation of a communication channel.
+
+	Configure Value (IO).vi
+		Sets the upper/lower limit display characters of DI channel or DO channel.
+
+	Configure Watchdog (Com).vi
+		Sets the watchdog timer of a communication channel.
+
+	Configure Channel (OHM Delta).vi
+		Sets the input range as OHM (for 4 wire RTD).
+
+	Configure Channel (OHM Normal).vi
+		Sets the input range as OHM (for 4 wire RTD).
+
+	Configure Channel (OHM Scale).vi
+		Sets the input range as OHM (for 4 wire RTD).
+
+	Configure Scan Group.vi
+		Sets the scan interval group to specified module.
+
+	Configure Scan Group No to Display Group.vi
+		Sets the scan interval group No. to Display Group.
+
+	Configure Master Scan Interval Group.vi
+		Sets  scan master interval group.
+
+	Configure PID Module.vi
+		Sets integration time, burnout lower upper limits to specified PID module.
+
+	Configure AI Filter.vi
+		Sets the first-order lag filter of the high-speed AI channel.
+
+	Configure Variable Constant.vi
+		Sets Variable Constants.
+
+	Configure Control AI Burnout.vi
+		Sets the action of burnout  for AI channel in PID mdule.
+
+	Configure Control AI RJC.vi
+		Set the reference junction compensation temperature of AI of PID module.
+
+	Configure Control AI Filter.vi
+		Set the first-order lag filter of the AI channel of the PID module.
+
+	Configure Control AO Range.vi
+		Set AO channel Range of PID module.
+
+	Configure Control AO Split.vi
+		Set AO channel Split of the PID Module.
+
+	Configure Control PV Range.vi
+		Set PV range.
+
+	Configure Control Relay.vi
+		Set Relay Actions
+
+	Configure\Configure Control AI Calib.vi
+		Set input value correction of AI channel of PID module.
+
+	Configure Control AI Range(DI Scale).vi
+		Set DI range of AI channel in PID module.
+
+	Configure Control AI Range(GS Scale).vi
+		Set GS Scale range of AI channel in PID module.
+
+	Configure Control AI Range(GS Sqrt).vi
+		Set GS Sqrt range of AI channel in PID module.
+
+	Configure Control AI Range(TC).vi
+		Set TC range of AI channel in PID module.
+
+	Configure Control AI Range(Volt Scale).vi
+		Set Volt range of AI channel in PID module.
+
+	Configure Control AI Range(Volt Sqrt).vi
+		Set Volt range of AI channel in PID module.
+
+	Configure Control AI Range(RTD).vi
+		Set RTD range of AI channel in PID module.
+
+
+SEE ALSO
+	http://www.yokogawa.com/
+
+NOTES
+	This driver which use VISA was created on LabVIEW 2016.
+	Windows7 Japanese Edition.
+
+	THIS SOFTWARE IS PROVIDED BY YOKOGAWA ELEC. ``AS IS'' AND ANY EXPRESS OR
+	IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+	MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+	EVENT SHALL YOKOGAWA ELEC. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+	SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ 	PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ 	BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILIT, WHETHER IN
+	CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+	ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+	POSSIBILITY OF SUCH DAMAGE.
+
+-----------------------------------------------------------------------	-
+(c)2013-2017 Yokogawa Electric Corporation

@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Instrument Driver Readme</title>
+</head>
+<body>
+<h2>Yokogawa GX/GP/GM Series Instrument Driver Readme</h2>
+To rate this driver, go to the driver download page on the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.
+<h4>1. Overview</h4>
+Instrument Driver Technology: LabVIEW Plug and Play (project-style)<br>
+Manufacturer: Yokogawa Electric Corporation<br>
+Supported Language(s): LabVIEW<br>
+Supported Model(s): Yokogawa GX10, GP10, GX20, GP20, GM10<br>
+Model(s) Tested: Yokogawa GM10, GX20<br>
+Interface(s): LAN, RS-232C, RS-422A, USB, Bluetooth<br>
+Firmware Revision Tested: R4.02.01<br>
+<br>
+Certified: No<br>
+NI Supported: No<br>
+Source Code Available: Yes<br>
+<br>
+Driver Revision: 4.2.1<br>
+Original Release Date: 06/2013<br>
+Current Revision Date: 06/2018
+<h4>2. Required Software</h4>
+Some software components need to be installed before using this instrument driver. The minimum versions of these components are listed below, and can be downloaded from the Download Site.<br>
+<br>
+VISA 5.0 or later<br>
+<br>
+For more details, refer to the <em>LabVIEW Help</em> under <em>Help Å‚ VI, Function, &amp; How-To Help</em>.
+<h4>3. Known Issues</h4>
+
+<br>Configure Calib Factor (IO) and Configure Calib Linear (IO) VIs connector pane patterns were changed to 5x3x3x5 from previous 4x2x2x4.<br>
+
+<h4>4. Revision History</h4>
+The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
+<br>
+REV 1.0, 06/2013<br>
+Created by: S. Togawa, Yokogawa, Tokyo, Japan.<br>
+Original release.<br>
+<br>
+REV 1.1.2, 08/2013<br>
+Created by: S. Togawa, Yokogawa, Tokyo, Japan.<br>
+- Update the Get Internal Dir.vi to fix bug that the "File Number" indicator didn't work.<br>
+- Update the Read File Data.vi to fix bug that setting data format was wrong.<br>
+- Update the palette menu files to fix registration leakage and mistake of position.<br>
+- Change the VIs name of Examples to remove prohibited characters.<br>
+- Remove duplicate files.<br>
+- Update many VIs to fix their documents and internal structure.<br>
+<br>
+REV 2.1.1, 07/2014<br>
+Created by: S. Togawa, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R2.01.01.<br>
+- Add following VIs.<br>
+-- Public/Configure/Configure Channel (Volt Log).vi<br>
+-- Public/Configure/Configure Channel (mA Normal).vi<br>
+-- Public/Configure/Configure Channel (mA Delta).vi<br>
+-- Public/Configure/Configure Channel (mA Scale).vi<br>
+-- Public/Configure/Configure Channel (mA Sqrt).vi<br>
+-- Public/Configure/Configure Channel (mA GS Scale).vi<br>
+-- Public/Configure/Configure Channel (mA GS Sqrt).vi<br>
+-- Public/Configure/Configure Channel (Off) mA.vi<br>
+-- Public/Configure/Configure Memory Confirm.vi<br>
+-- Public/Configure/Configure Report Type.vi<br>
+-- Public/Configure/Configure Report Channel.vi<br>
+- Update following VIs.<br>
+-- Public/Configure/Configure Channel (GS Scale).vi to fix bug that in some conditions bias value is set to wrong value.<br>
+-- Public/Configure/Configure Channel (GS Sqrt).vi to fix bug that in some conditions bias value is set to wrong value.<br>
+-- Public/Configure/Configure AI Module.vi to support current input type AI Module and setting burnout limits.<br>
+-- Public/Configure/Configure Alarm IO.vi to support double-type alarm value.<br>
+-- Public/Configure/Configure Scale Band IO.vi to support double-type limit value.<br>
+-- Public/Configure/Configure Alarm Basic.vi to support individual alarm ACK.<br>
+-- Public/Configure/Configure Event Action.vi to support new events and actions.<br>
+-- Public/Action-Status/Send Manual Operation.vi to support individual alarm ACK.<br>
+-- Public/Utility/Open RS422A.vi to support password authentification.<br>
+-- Public/Utility/Close RS422A.vi to support password authentification.<br>
+-- Public/Initialize.vi to support password authentification in serial line and user ID of advanced security (AS1).<br>
+-- Public/Close.vi to support password authentification in serial line.<br>
+<br>
+REV 2.2.1, 02/2015<br>
+Created by: S. Togawa, Yokogawa, Tokyo, Japan.<br>
+- Support GM10.<br>
+- Support firmware R2.02.01. <br>
+- Add following VIs.<br>
+-- Public/Configure/Configure Channel (DI Pulse).vi<br>
+-- Public/Configure/Configure DO Fail.vi<br>
+- Update following VIs.<br>
+-- Public/Configure/Configure Alarm Basic.vi to fix buf that in some conditions VI fails setting parameters.<br>
+-- Public/Configure/Configure DI Module.vi to support pulse input chattering filter.<br>
+-- Public/Configure/Configure Event Action.vi to support action "Saving configuration".<br>
+-- Public/Configure/Configure Math Basic.vi to support START and STOP keys on GM10.<br>
+-- Public/Initialize.vi to support USB and Bluetooth on GM10.<br>
+- Update some VIs to avoid sending command and parameter that is not supported by GM10.<br>
+- Update Examples/*.vi (In past release, examples of alpha version is contained by mistake.)<br>
+<br>
+REV 2.3.1, 10/2015<br>
+Created by: T. Kumaki, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R2.03.01. <br>
+- Update following VIs.<br>
+-- Examples/Yokogawa GX20 Start Compute Example Ether_RS232C.vi to add advanced to communicate.<br>
+-- Examples/Yokogawa GX20 Start Compute Example RS422.vi to add advanced to communicate.<br>
+-- Private/Convert DST to String.vi to fix bug that it outputs an error when Month is Feb.<br>
+-- Public/Configure/Configure Burnout RJC.vi to fix bug that External RJC Value Barrett is an integer not only can be entered.<br>
+-- Public/Configure/Configure Calib (IO).vi to confine Linearizer Input/Output input at only integer.<br>
+-- Public/Configure/Configure Channel (AIDI Scale).vi to fix bug that it outputs an error when Enable Channel is False.<br>
+-- Public/Configure/Configure Channel (Com).vi to correct that Decimal Place input is from 0 to 5.<br>
+-- Public/Configure/Configure Channel (Math).vi to correct that Decimal Place input is from 0 to 5.<br>
+-- Public/Configure/Configure Channel (RTD Delta).vi to fix bug that it can't input "Pt46G" and "Pt100G" at RTD Type Barrett.<br>
+-- Public/Configure/Configure Channel (TC Delta).vi to improve input settings at Lower Span and Upper Span Barrett.<br>
+-- Public/Configure/Configure Channel (TC Normal).vi to improve input settings at Lower Span and Upper Span Barrett.<br>
+-- Public/Configure/Configure Channel (TC Scale).vi to improve input settings at Lower Span and Upper Span Barrett.<br>
+-- Public/Configure/Configure DO Fail.vi to delete button Energize/De-Energize.<br>
+-- Public/Configure/Configure Event Action.vi to fix bug that it outputs an error when Event Type is Timer.<br>
+-- Public/Configure/Configure Message Basic.vi to support GM /AS option.<br>
+- Update some VIs to support UTF-8.<br>
+- Update some VIs to correct a misspelled word.<br>
+<br>
+REV 3.1.1, 12/2015<br>
+Created by: T. Kumaki, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R3.01.01. <br>
+- Add following VIs.<br>
+-- Public/Action-Status/Reset Timer.vi<br>
+-- Public/Action-Status/Reset Match Time Timer.vi<br>
+-- Public/Configure/Configure Calib Factor(IO).vi<br>
+-- Public/Configure/Configure Calib Linear(IO).vi<br>
+-- Public/Configure/Configure Channel (Pulse Normal).vi<br>
+-- Public/Configure/Configure Channel (Pulse Delta).vi<br>
+-- Public/Configure/Configure Channel (Pulse Scale).vi<br>
+-- Public/Configure/Configure Channel (Off) Pulse.vi<br>
+-- Public/Configure/Configure Multi Batch Text.vi<br>
+-- Public/Configure/Configure Multi Data Save.vi<br>
+-- Public/Configure/Configure Multi Group.vi<br>
+-- Public/Configure/Configure Multi Trip Line.vi<br>
+-- Public/Configure/Configure Report Basic.vi<br>
+-- Public/Configure/Configure Schedule.vi<br>
+-- Public/Configure/Configure Schedule Text.vi<br>
+- Update following VIs.<br>
+-- Public/Action-Status/Reset Computation.vi to add batch group number item.<br>
+-- Public/Action-Status/Send Manual Operation.vi to add batch group number item.<br>
+-- Public/Action-Status/Write Display Message.vi to add batch group number item.<br>
+-- Public/Configure/Configure Batch.vi to add recording start display item.<br>
+-- Public/Configure/Configure Event Action.vi to add batch group number item.<br>
+-- Public/Configure/Configure Match Time Timer.vi to change the range of match time timer number from 1 to 12.<br>
+-- Public/Configure/Configure Math Basic.vi to add PSUM overflow handing item.<br>
+-- Public/Configure/Configure Timer (Absolute).vi to fix bug that it outputs an error when the interval is 12h.<br>
+-- Public/Configure/Configure Timer (Relative).vi to change the range of timer number from 1 to 12.<br>
+-- Public/Configure/Configure TLOG.vi to change the range of timer number from 1 to 12.<br>
+-- Public/Configure/Configure Channel (RTD Scale).vi to fix bug that span will not be able to enter only up to the first decimal place.<br>
+-- Public/Configure/Configure Computation Constant.vi to improve that the computation constant can be displayed until a valid digit number 8 digits.<br>
+-- Public/Data/Low Level/Abort.vi to add batch group number item.<br>
+-- Public/Data/Low Level/Initiate.vi to add batch group number item.<br>
+- Delete following VI.<br>
+-- Public/Configure/Configure Calib (IO).vi to divide into Configure Calib Linear(IO).vi and Configure Calib Factor(IO).vi.<br>
+<br>
+REV 3.2.1, 03/2016<br>
+Created by: T. Kumaki, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R3.02.01. <br>
+- Add following VIs.<br>
+-- Public/Action-Status/Control TransAO.vi<br>
+-- Public/Action-Status/Reset Computation<br>
+-- Public/Action-Status/Set ManualAO.vi<br>
+-- Public/Action-Status/Start Computation<br>
+-- Public/Action-Status/Stop Computation<br>
+-- Public/Action-Status/Write Display Message<br>
+-- Public/Configure/Configure Channel (AO).vi<br>
+-- Public/Configure/Configure Channel (Off) AO.vi<br>
+-- Public/Configure/Configure Preset Action (AO).vi<br>
+<br>
+REV 4.1.1, 06/2017<br>
+Created by: Y. Li, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R4.01.01. <br>
+- Add following VIs.<br>
+-- Public/Configure/Configure Channel (OHM Delta).vi<br>
+-- Public/Configure/Configure Channel (OHM Normal).vi<br>
+-- Public/Configure/Configure Channel (OHM Scale).vi<br>
+-- Public/Configure/Configure Scan Group.vi<br>
+-- Public/Configure/Configure Scan Group No to Display Group.vi<br>
+-- Public/Configure/Configure Master Scan Interval Group.vi<br>
+-- Public/Configure/Configure PID Module.vi<br>
+-- Public/Configure/Configure AI Filter.vi<br>
+-- Public/Configure/Configure Variable Constant.vi<br>
+-- Public/Configure/Configure Control AI Burnout.vi<br>
+-- Public/Configure/Configure Control AI RJC.vi<br>
+-- Public/Configure/Configure Control AI Filter.vi<br>
+-- Public/Configure/Configure Control AO Range.vi<br>
+-- Public/Configure/Configure Control AO Split.vi<br>
+-- Public/Configure/Configure Control PV Range.vi<br>
+-- Public/Configure/Configure Control Relay.vi<br>
+-- Public/Configure/Configure Control AI Calib.vi<br>
+-- Public/Configure/Configure Control AI Range(DI Scale).vi<br>
+-- Public/Configure/Configure Control AI Range(GS Scale).vi<br>
+-- Public/Configure/Configure Control AI Range(GS Sqrt).vi<br>
+-- Public/Configure/Configure Control AI Range(TC).vi<br>
+-- Public/Configure/Configure Control AI Range(Volt Scale).vi<br>
+-- Public/Configure/Configure Control AI Range(Volt Sqrt).vi<br>
+-- Public/Configure/Configure Control AI Range(RTD).vi<br>
+- Update following VIs.<br>
+-- Public/Configure/Configure Interval.vi to add intervals for high speed measurement.<br>
+-- Public/Configure/Configure AI Module.vi to add 4 channels mode for high speed AI modules.<br>
+-- Public/Configure/Configure Internal Switch.vi to add the action when power on.<br>
+-- Public/Configure/Configure Event Data.vi to add intervals for recording hight speed measurement.<br>
+-- Public/Configure/Configure Event Action.vi to add the event action that loading program pattern file by user function key.<br>
+<br>
+REV 4.2.1, 06/2018<br>
+Created by: T. Kumaki, Yokogawa, Tokyo, Japan.<br>
+- Support firmware R4.02.01. <br>
+- Add following VIs.<br>
+-- Public/Configure/Configure Calib Factor (Com).vi<br>
+-- Public/Configure/Configure Calib Linear (Com).vi<br>
+- Update following VIs.<br>
+-- Public/Configure/Configure Alarm Com.vi to add D alarm in alarm type.<br>
+-- Public/Configure/Configure Event Action.vi to add the wireless input unit error in event detail.<br>
+-- Public/Configure/Configure Fail Relay.vi to add the wireless input unit error.<br>
+</body>
+</html>
