@@ -52,7 +52,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2B89F790-A29C-4DA3-BD22-5EDB83B91F2D}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Envirocom Decoder.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Envirocom Decoder/Envirocom Decoder.exe</Property>
@@ -61,7 +61,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Envirocom Decoder/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{92857AEE-48F6-4EDD-BCDC-066780CBC84A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A3CB6A0-5942-43A0-9872-11B5F9AAADE8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/EnviraCom Decode Main.vi</Property>
@@ -71,7 +71,8 @@
 				<Property Name="TgtF_companyName" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">1.0.0.0 - Initial Release
-1.0.0.3 - Adding decoding for VOC Sensor and Hot Water Temp</Property>
+1.0.0.3 - Adding decoding for VOC Sensor and Hot Water Temp
+1.0.0.4 - Fixing a U8 to U16 conversion that causes issues with temperature conversion</Property>
 				<Property Name="TgtF_internalName" Type="Str">Envirocom Decoder</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 GE Appliances, a Haier Company</Property>
 				<Property Name="TgtF_productName" Type="Str">Envirocom Decoder</Property>
