@@ -428,6 +428,15 @@
 			<Item Name="Heise Barometric Pressure 901A" Type="Folder" URL="../../../Drivers/Heise Barometric Pressure 901A">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Viasala Indigo 520" Type="Folder" URL="../../../Drivers/Viasala Indigo 520">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Tidal Engineering" Type="Folder" URL="../../../Drivers/Tidal Engineering">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Tenney" Type="Folder" URL="../../Tenney">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="UTILITY" Type="Folder">
 			<Item Name="GEA2 Commands" Type="Folder">
@@ -886,6 +895,7 @@
 				<Item Name="NI_PID_autopid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_autopid.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -930,7 +940,6 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="HEWH Temperature Filter.vi" Type="VI" URL="../Support VIs/HEWH Temperature Filter.vi"/>
 			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../Support VIs/HEWH Filter All Temps.vi"/>
 			<Item Name="Deadband Simulator.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Deadband Simulator.vi"/>
 			<Item Name="Plant System.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Plant System.vi"/>
@@ -1571,7 +1580,33 @@ Adding averaging to the corrected gas rate and the btu/hr
 Adding two different PID values for Purge and Draw. Hoping to help stability during a draw
 
 2.39.21.131
-Updated ERDs for HPWH</Property>
+Updated ERDs for HPWH
+
+2.39.21.132
+Adding Chamber control and Viasala humidity sensors (prelim version)
+
+2.39.21.134
+Fixing inverter column issue
+
+2.39.21.135
+Disabling the Tenney Data
+
+2.39.21.136
+Adding 10 minute averaging to humidity sensors
+
+2.39.21.137
+Updating to allow for 1 sec scans for 15 seconds on each draw. This is for DOE update
+
+2.39.21.138
+Adding Queue Based SM to handle Viasala and Tenney
+
+2.39.21.139
+30 min average update
+
+2.39.21.140
+1. Allowing for Humidity and Temperature Seperation Per Station on Viasala
+2. Adding backwards compatibility for stations without Viasala and Chamber Control
+3. Improving the algorithm for the temperature decline method</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1580,7 +1615,7 @@ Updated ERDs for HPWH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">132</Property>
+				<Property Name="Bld_version.build" Type="Int">141</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">21</Property>
@@ -1592,7 +1627,7 @@ Updated ERDs for HPWH</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F2C328A0-A507-492D-B4B9-56A03E6637D3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B2841C73-BF2E-4991-B2E9-683E7DB7149E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1850,6 +1885,7 @@ Digit 4: Final Release Number</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0C8B65ED-A7E3-41BC-A054-D9096498BD7B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{567CE730-D58F-4DB7-A472-040165585C7F}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">1.0.0.0 - Initial Release
 1.0.0.1 - Fixed data clean up section to filter "junk" data at beginning of file 
@@ -1893,7 +1929,18 @@ Adding Minimum UEF and Bin Selection per the CFR. Makes it easier to know if we 
 Changed Intertek Water Properties to CSA/AHRI water properties. Added code to show the CFR Minimum and BIN allocation
 
 1.0.0.39
-Updated to detect for a proper reset on Wh at beginning of test. </Property>
+Updated to detect for a proper reset on Wh at beginning of test. 
+
+1.0.0.40
+Updated the ANAB sheet. Added LabID to the Test Report name, added calculator version to the sheet, added Qe to the summary page, added the FHR tab and analysis data
+
+1.0.0.41
+Adding HP Ambient and Humidity Checks
+Updating 5 sec after each draw to 15 sec per the DOE
+Fixed uninitialized shift register problem
+
+1.0.0.42
+1. Fixing several issues with the FHD. This was a major update.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1902,7 +1949,7 @@ Updated to detect for a proper reset on Wh at beginning of test. </Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1911,7 +1958,7 @@ Updated to detect for a proper reset on Wh at beginning of test. </Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74C81A3D-514D-4AD5-B41E-6B1E24A8FA58}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{448D90BE-66D5-4BAD-82A4-18736117EEED}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
