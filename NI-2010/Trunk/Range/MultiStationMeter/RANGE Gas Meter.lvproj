@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -283,6 +283,94 @@
 				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
 				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
+				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
+				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
+				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
+				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
+				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
+				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
+				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
+				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
+				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
+				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Handle Open Word or Excel File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Toolkit/Handle Open Word or Excel File.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="ex_SmoothingDesign.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/ex_SmoothingDesign.vi"/>
+				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_GetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_GetAllExpressAttribs.vi"/>
+				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -304,6 +392,92 @@
 			<Item Name="Inficon Modbus Addresses.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Modbus Addresses.ctl"/>
 			<Item Name="Inficon Data.ctl" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/Type Definitions/Inficon Data.ctl"/>
 			<Item Name="Inficon 32 Bit Data.vi" Type="VI" URL="../../../../Drivers/Inficon Fusion Micro GC/SubVIs/Inficon 32 Bit Data.vi"/>
+			<Item Name="DOE Test Fixture Hardware.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Test Fixture Hardware.ctl"/>
+			<Item Name="UTILITY Power Inputs Control.ctl" Type="VI" URL="../../../Utility/Type Definitions/UTILITY Power Inputs Control.ctl"/>
+			<Item Name="IND560 Configuration.ctl" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Type Definitions/IND560 Configuration.ctl"/>
+			<Item Name="HEWH Agilent Cluster.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Agilent Cluster.ctl"/>
+			<Item Name="UTILITY TC Coefficients.ctl" Type="VI" URL="../../../Utility/Type Definitions/UTILITY TC Coefficients.ctl"/>
+			<Item Name="HEWH Output Information.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Output Information.ctl"/>
+			<Item Name="HEWH Draw Pattern Setup.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Draw Pattern Setup.ctl"/>
+			<Item Name="PRAT Test.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/PRAT Test.ctl"/>
+			<Item Name="File Setup.lvlib" Type="Library" URL="../../../Utility/Save File/File Setup.lvlib"/>
+			<Item Name="DOE Appliance Common.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Appliance Common.ctl"/>
+			<Item Name="Custom Pallet String.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet String.ctl"/>
+			<Item Name="DPT IMC Data.ctl" Type="VI" URL="../../../Utility/Save File/File Setup (Public)/Type Definition/DPT IMC Data.ctl"/>
+			<Item Name="DOE Dryer Standard.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Dryer Standard.ctl"/>
+			<Item Name="Save File.lvlib" Type="Library" URL="../../../Utility/Save File/Save File.lvlib"/>
+			<Item Name="UTILITY Save Data.vi" Type="VI" URL="../../../Utility/UTILITY Save Data.vi"/>
+			<Item Name="UTILITY Write Header.vi" Type="VI" URL="../../../Utility/UTILITY Write Header.vi"/>
+			<Item Name="Save File Appliance Display.ctl" Type="VI" URL="../../../Utility/Save File/Public/Type Definitions/Save File Appliance Display.ctl"/>
+			<Item Name="Save File Type.ctl" Type="VI" URL="../../../Utility/Save File/Private/Type Definitions/Save File Type.ctl"/>
+			<Item Name="Calibration.vi" Type="VI" URL="../../../Utility/Calibration/Main/Calibration.vi"/>
+			<Item Name="Calibration.ctl" Type="VI" URL="../../../Utility/Calibration/Type Definitions/Calibration.ctl"/>
+			<Item Name="Calibration Time.ctl" Type="VI" URL="../../../Utility/Calibration/Type Definitions/Calibration Time.ctl"/>
+			<Item Name="Calibration SN.ctl" Type="VI" URL="../../../Utility/Calibration/Type Definitions/Calibration SN.ctl"/>
+			<Item Name="Calibration Equipment.vi" Type="VI" URL="../../../Utility/Calibration/Main/Calibration Equipment.vi"/>
+			<Item Name="Calibration Read Dates.vi" Type="VI" URL="../../../Utility/Calibration/Main/Calibration Read Dates.vi"/>
+			<Item Name="Calibration Convert String to Dates.vi" Type="VI" URL="../../../Utility/Calibration/Support VIs/Calibration Convert String to Dates.vi"/>
+			<Item Name="UTILITY Convert String to TimeStamp.vi" Type="VI" URL="../../../Utility/UTILITY Convert String to TimeStamp.vi"/>
+			<Item Name="UTILITY Date and Time.ctl" Type="VI" URL="../../../Utility/Type Definitions/UTILITY Date and Time.ctl"/>
+			<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="../../../Utility/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+			<Item Name="Calibration Convert String to String.vi" Type="VI" URL="../../../Utility/Calibration/Support VIs/Calibration Convert String to String.vi"/>
+			<Item Name="UTILTIY Remove Blank Rows.vi" Type="VI" URL="../../../Utility/UTILTIY Remove Blank Rows.vi"/>
+			<Item Name="UTILITY Date String Days.vi" Type="VI" URL="../../../Utility/UTILITY Date String Days.vi"/>
+			<Item Name="UTILITY Array Get 1D String Column From 2D.vi" Type="VI" URL="../../../Utility/UTILITY Array Get 1D String Column From 2D.vi"/>
+			<Item Name="UTILITY Delete Empty String Cells 2D.vi" Type="VI" URL="../../../Utility/UTILITY Delete Empty String Cells 2D.vi"/>
+			<Item Name="UTILITY Delete Empty String Cells.vi" Type="VI" URL="../../../Utility/UTILITY Delete Empty String Cells.vi"/>
+			<Item Name="UTILITY 1D String to 1D DBL.vi" Type="VI" URL="../../../Utility/UTILITY 1D String to 1D DBL.vi"/>
+			<Item Name="Agilent 34970 Array to Scan List.vi" Type="VI" URL="../../../../Drivers/Agilent 34972/Examples/Agilent 34970 Array to Scan List.vi"/>
+			<Item Name="Custom Pallet Forward.ctl" Type="VI" URL="../../../Utility/Custom Pallet Controls/Custom Pallet Forward.ctl"/>
+			<Item Name="UTILITY Get Excel Data From Worksheet.vi" Type="VI" URL="../../../Utility/UTILITY Get Excel Data From Worksheet.vi"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="UTILITY IP and Computer Name.vi" Type="VI" URL="../../../Utility/UTILITY IP and Computer Name.vi"/>
+			<Item Name="Setra Main.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/Setra Main.vi"/>
+			<Item Name="Setra Commands.ctl" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/Type Definitions/Setra Commands.ctl"/>
+			<Item Name="Setra Initialize.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Initialize.vi"/>
+			<Item Name="Setra Read Write.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Read Write.vi"/>
+			<Item Name="Setra Data Parse.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Data Parse.vi"/>
+			<Item Name="Setra Close.vi" Type="VI" URL="../../../../Drivers/Setra SuperCount 75lb/SubVIs/Setra Close.vi"/>
+			<Item Name="DOE Dryer RMC Calculation Equation.vi" Type="VI" URL="../../../Washer DOE/Support VIs/DOE Dryer RMC Calculation Equation.vi"/>
+			<Item Name="UTILITY Local.vi" Type="VI" URL="../../../Utility/UTILITY Local.vi"/>
+			<Item Name="Save File Menu.rtm" Type="Document" URL="../../../Utility/Save File/File Setup (Private)/Save File Menu.rtm"/>
+			<Item Name="UTILITY Create Default File.vi" Type="VI" URL="../../../Utility/UTILITY Create Default File.vi"/>
+			<Item Name="DOE Main Control.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Main Control.ctl"/>
+			<Item Name="GEA2.ctl" Type="VI" URL="../../../Washer DOE/Configuration/GEA2.ctl"/>
+			<Item Name="DOE Capacity Measurments.ctl" Type="VI" URL="../../../Washer DOE/Type Definitions/DOE Capacity Measurments.ctl"/>
+			<Item Name="IND560 Serial Tester.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/IND560 Serial Tester.vi"/>
+			<Item Name="IND560 Serial Initialize.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial Initialize.vi"/>
+			<Item Name="IND560 Serial Get Data.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial Get Data.vi"/>
+			<Item Name="IND560 Serial Scale Commands.ctl" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Type Definitions/IND560 Serial Scale Commands.ctl"/>
+			<Item Name="IND560 Serial Read.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial Read.vi"/>
+			<Item Name="IND560 Serial FGV Filter.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial FGV Filter.vi"/>
+			<Item Name="IND560 Serial Parse.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial Parse.vi"/>
+			<Item Name="IND560 Serial Close.vi" Type="VI" URL="../../../../Drivers/IND560 Scale Monitor/Support VIs/IND560 Serial Close.vi"/>
+			<Item Name="GSE 350 Main.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/GSE 350 Main.vi"/>
+			<Item Name="GSE 350 Initialize.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Initialize.vi"/>
+			<Item Name="GSE 350 Send Receive.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Send Receive.vi"/>
+			<Item Name="GSE 350 Read Data.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Read Data.vi"/>
+			<Item Name="GSE 350 Build Full Data String.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Build Full Data String.vi"/>
+			<Item Name="GSE 350 Extract Negative Value.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Extract Negative Value.vi"/>
+			<Item Name="GSE 350 Parse Data Stream.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Parse Data Stream.vi"/>
+			<Item Name="GSE 350 Extract Component Data.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Extract Component Data.vi"/>
+			<Item Name="GSE 350 Close.vi" Type="VI" URL="../../../../Drivers/GSE 350 Scale Display/SubVIs/GSE 350 Close.vi"/>
+			<Item Name="Terminate Draw Conditions.ctl" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/Terminate Draw Conditions.ctl"/>
+			<Item Name="HEWH Start Conditions.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Start Conditions.ctl"/>
+			<Item Name="Check Special Condtions.ctl" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/Check Special Condtions.ctl"/>
+			<Item Name="HEWH Special Condition Check.ctl" Type="VI" URL="../../../Hybrid Water Heater/Support VIs/Draw Water Specific/Type Definitions/HEWH Special Condition Check.ctl"/>
+			<Item Name="HEWH Draw Flag ENUM.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Draw Flag ENUM.ctl"/>
+			<Item Name="HEWH Specific DAQ.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Specific DAQ.ctl"/>
+			<Item Name="HEWH Power Data.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Power Data.ctl"/>
+			<Item Name="HEWH Power Elements.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Power Elements.ctl"/>
+			<Item Name="UTILITY Power Analyzer.ctl" Type="VI" URL="../../../Utility/Type Definitions/UTILITY Power Analyzer.ctl"/>
+			<Item Name="Viasala Indigo 520 Data.ctl" Type="VI" URL="../../../../Drivers/Viasala Indigo 520/Type Definitions/Viasala Indigo 520 Data.ctl"/>
+			<Item Name="Tenney Environmental Chamber Data.ctl" Type="VI" URL="../../../../Drivers/Tidal Engineering/Type Definitions/Tenney Environmental Chamber Data.ctl"/>
+			<Item Name="HEWH Calc and Calibration.ctl" Type="VI" URL="../../../Hybrid Water Heater/Type Definitions/HEWH Calc and Calibration.ctl"/>
+			<Item Name="Station ID Selector.ctl" Type="VI" URL="../../../Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/Station ID Selector.ctl"/>
+			<Item Name="HEWH Module 4 Relay Status.ctl" Type="VI" URL="../../../Hybrid Water Heater/Custom Instrument Control/MW100/Type Definitions/HEWH Module 4 Relay Status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RANGE Gas Meter" Type="EXE">
@@ -378,46 +552,40 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 21.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 f1</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{7C216C83-85F9-4A5F-9938-2D839206554D}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2023 Q1</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023</Property>
 				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
 				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 23.1</Property>
 				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2023</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
 				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI mDNS Responder 23.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
 				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
-				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 Non-English Support.</Property>
-				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
-				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI TDM Streaming 23.1</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
 				<Property Name="DistPart[4].productID" Type="Str">{AD9959BC-B6A6-4044-A5E3-E8365361E38E}</Property>
 				<Property Name="DistPart[4].productName" Type="Str">NI-DAQmx Runtime with Configuration Support 21.3</Property>
@@ -433,7 +601,7 @@ file parameters, added Tare, added custom Gas Mixtures, input button to change g
 				<Property Name="INST_productName" Type="Str">RANGE Gas Meter</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_arpCompany" Type="Str">General Electric</Property>
 				<Property Name="MSI_arpContact" Type="Str">Corey Sweatt</Property>
 				<Property Name="MSI_arpPhone" Type="Str">502-452-4708</Property>
