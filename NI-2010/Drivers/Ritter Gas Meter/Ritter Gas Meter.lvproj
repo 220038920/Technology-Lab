@@ -304,6 +304,8 @@
 			<Item Name="Ritter STP Correction.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/Ritter STP Correction.vi"/>
 			<Item Name="Ritter Temperature Vapor Pressure Conversion.vi" Type="VI" URL="../../../Trunk/Hybrid Water Heater/Support VIs/Ritter Temperature Vapor Pressure Conversion.vi"/>
 			<Item Name="UTILITY E-Time.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY E-Time.vi"/>
+			<Item Name="Viasala Indigo 520 Data.ctl" Type="VI" URL="../../Viasala Indigo 520/Type Definitions/Viasala Indigo 520 Data.ctl"/>
+			<Item Name="Tenney Environmental Chamber Data.ctl" Type="VI" URL="../../Tidal Engineering/Type Definitions/Tenney Environmental Chamber Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Ritter Example" Type="EXE">
