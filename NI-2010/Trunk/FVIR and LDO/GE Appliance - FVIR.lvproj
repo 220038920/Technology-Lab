@@ -479,7 +479,6 @@
 			</Item>
 			<Item Name="Agilent 34970.lvlib" Type="Library" URL="../../../Drivers/Agilent 34972/Agilent 34970.lvlib"/>
 			<Item Name="Agilent 34970 Read Continuous.vi" Type="VI" URL="../../../Drivers/Agilent 34972/Examples/Agilent 34970 Read Continuous.vi"/>
-			<Item Name="Agilent 34970 Temperature Resistance Conversion.vi" Type="VI" URL="../../../Drivers/Agilent 34972/Examples/Agilent 34970 Temperature Resistance Conversion.vi"/>
 			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../Utility/UTILITY Counter.vi"/>
 			<Item Name="EnviraCom_Initialization.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_Initialization.vi"/>
 			<Item Name="EnviraCom_ON_OFF.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_ON_OFF.vi"/>
