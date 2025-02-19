@@ -681,6 +681,30 @@
 		<Item Name="White Box Testing" Type="Folder" URL="../White Box Testing">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Alicat Gas Meter Data.ctl" Type="VI" URL="../Type Definitions/Alicat Gas Meter Data.ctl"/>
+		<Item Name="HEWH_Ritter_GasMeter.vi" Type="VI" URL="../Support VIs/HEWH_Ritter_GasMeter.vi"/>
+		<Item Name="HEWH_HeiseBarometer.vi" Type="VI" URL="../Support VIs/HEWH_HeiseBarometer.vi"/>
+		<Item Name="HEWH_Inficon_LP.vi" Type="VI" URL="../Support VIs/HEWH_Inficon_LP.vi"/>
+		<Item Name="HEWH_Emerson_WaterFlowMeter.vi" Type="VI" URL="../Support VIs/HEWH_Emerson_WaterFlowMeter.vi"/>
+		<Item Name="HEWH_Laurel_WaterFlowMeter.vi" Type="VI" URL="../Support VIs/HEWH_Laurel_WaterFlowMeter.vi"/>
+		<Item Name="HEWH_WT300.vi" Type="VI" URL="../Support VIs/HEWH_WT300.vi"/>
+		<Item Name="HEWH Agilent Channel List.vi" Type="VI" URL="../Support VIs/HEWH Agilent Channel List.vi"/>
+		<Item Name="HEWH Agilent Data Output.vi" Type="VI" URL="../Support VIs/HEWH Agilent Data Output.vi"/>
+		<Item Name="HEWH Agilent Data.ctl" Type="VI" URL="../Type Definitions/HEWH Agilent Data.ctl"/>
+		<Item Name="HEWH GEA3.vi" Type="VI" URL="../Support VIs/HEWH GEA3.vi"/>
+		<Item Name="HEWH GEA3 Data.ctl" Type="VI" URL="../Type Definitions/HEWH GEA3 Data.ctl"/>
+		<Item Name="HEWH GEA3_StationB.vi" Type="VI" URL="../Support VIs/HEWH GEA3_StationB.vi"/>
+		<Item Name="HEWH GEA3_StationC.vi" Type="VI" URL="../Support VIs/HEWH GEA3_StationC.vi"/>
+		<Item Name="HEWH GEA3_StationD.vi" Type="VI" URL="../Support VIs/HEWH GEA3_StationD.vi"/>
+		<Item Name="HEWH MW100.vi" Type="VI" URL="../Support VIs/HEWH MW100.vi"/>
+		<Item Name="HEWH_Elapsed Timer.vi" Type="VI" URL="../Support VIs/HEWH_Elapsed Timer.vi"/>
+		<Item Name="HEWH Elapsed Timer Grouping.vi" Type="VI" URL="../Support VIs/HEWH Elapsed Timer Grouping.vi"/>
+		<Item Name="HEWH Timer.ctl" Type="VI" URL="../Type Definitions/HEWH Timer.ctl"/>
+		<Item Name="Inficon_Manual_HHV.vi" Type="VI" URL="../Support VIs/Inficon_Manual_HHV.vi"/>
+		<Item Name="Burner State.ctl" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/Type Definitions/Burner State.ctl"/>
+		<Item Name="UTILITY String to VISA.vi" Type="VI" URL="../../Utility/UTILITY String to VISA.vi"/>
+		<Item Name="HEWH Full Station IDs.ctl" Type="VI" URL="../Type Definitions/HEWH Full Station IDs.ctl"/>
+		<Item Name="HEWH GEA3 Board ID.ctl" Type="VI" URL="../Type Definitions/HEWH GEA3 Board ID.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
@@ -896,6 +920,13 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -919,14 +950,6 @@
 			<Item Name="HCC Filename Setup.ctl" Type="VI" URL="../../Washer HCC/Washer HCC NEWFI/Type Definitions/HCC Filename Setup.ctl"/>
 			<Item Name="Fluke 525B.vi" Type="VI" URL="../../../Drivers/Fluke 5XXX Series Multicalibrators/Public/Fluke 525B.vi"/>
 			<Item Name="Fluke 5XXX Series Multicalibrators.lvlib" Type="Library" URL="../../../Drivers/Fluke 5XXX Series Multicalibrators/Fluke 5XXX Series Multicalibrators.lvlib"/>
-			<Item Name="DWE Search 2D Array (Bool).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (Bool).vi"/>
-			<Item Name="DWE Search 2D Array (U32).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (U32).vi"/>
-			<Item Name="DWE Search 2D Array (U16).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (U16).vi"/>
-			<Item Name="DWE Search 2D Array (I32).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (I32).vi"/>
-			<Item Name="DWE Search 2D Array (I16).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (I16).vi"/>
-			<Item Name="DWE Search 2D Array (DBL).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (DBL).vi"/>
-			<Item Name="DWE Search 2D Array.vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array.vi"/>
-			<Item Name="DWE Search 2D Array (String).vi" Type="VI" URL="../../DishWasher Electronics/SubVIs/2D Array/DWE Search 2D Array (String).vi"/>
 			<Item Name="DOE Data Save Modifier.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Data Save Modifier.ctl"/>
 			<Item Name="DOE Dryer RMC Calculation Equation.vi" Type="VI" URL="../../Washer DOE/Support VIs/DOE Dryer RMC Calculation Equation.vi"/>
 			<Item Name="DOE Appliance Common.ctl" Type="VI" URL="../../Washer DOE/Type Definitions/DOE Appliance Common.ctl"/>
@@ -943,6 +966,17 @@
 			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../Support VIs/HEWH Filter All Temps.vi"/>
 			<Item Name="Deadband Simulator.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Deadband Simulator.vi"/>
 			<Item Name="Plant System.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Plant System.vi"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../../FVIR and LDO/support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../../FVIR and LDO/support/Check Loop Error.vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../../FVIR and LDO/support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="HEWH_Alicat_GasMeter.vi" Type="VI" URL="../Support VIs/HEWH_Alicat_GasMeter.vi"/>
+			<Item Name="HEWH_Inficon.vi" Type="VI" URL="../Support VIs/HEWH_Inficon.vi"/>
+			<Item Name="HEWH_Ultramat_23.vi" Type="VI" URL="../Support VIs/HEWH_Ultramat_23.vi"/>
+			<Item Name="HEWH_Agilent_34972A.vi" Type="VI" URL="../Support VIs/HEWH_Agilent_34972A.vi"/>
+			<Item Name="EnviraCom_ON_OFF.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_ON_OFF.vi"/>
+			<Item Name="EnviraCom_Initialization.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_Initialization.vi"/>
+			<Item Name="HEWH_EnviraCom_Main.vi" Type="VI" URL="../Support VIs/HEWH_EnviraCom_Main.vi"/>
+			<Item Name="HEWH_VESTA_Main.vi" Type="VI" URL="../Support VIs/HEWH_VESTA_Main.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Heat Up Macro" Type="EXE">
@@ -1606,7 +1640,14 @@ Adding Queue Based SM to handle Viasala and Tenney
 2.39.21.140
 1. Allowing for Humidity and Temperature Seperation Per Station on Viasala
 2. Adding backwards compatibility for stations without Viasala and Chamber Control
-3. Improving the algorithm for the temperature decline method</Property>
+3. Improving the algorithm for the temperature decline method
+
+2.39.21.141
+1. Adding 5 minute limit for the temperature decline method
+2. Fixing a shift register issue
+
+2.39.21.142
+1. Adding CPU and Board Temps to ERDs</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH Reliability</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1615,7 +1656,7 @@ Adding Queue Based SM to handle Viasala and Tenney
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B06493B4-9B0D-47D8-B724-6D803285766F}</Property>
-				<Property Name="Bld_version.build" Type="Int">141</Property>
+				<Property Name="Bld_version.build" Type="Int">143</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">39</Property>
 				<Property Name="Bld_version.patch" Type="Int">21</Property>
@@ -1627,7 +1668,7 @@ Adding Queue Based SM to handle Viasala and Tenney
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/General Electric-Co-logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B2841C73-BF2E-4991-B2E9-683E7DB7149E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00D73135-6C4A-4F75-A1A2-37DC7A3673E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/HEWH RLT PRAT.vi</Property>
@@ -1940,7 +1981,10 @@ Updating 5 sec after each draw to 15 sec per the DOE
 Fixed uninitialized shift register problem
 
 1.0.0.42
-1. Fixing several issues with the FHD. This was a major update.</Property>
+1. Fixing several issues with the FHD. This was a major update.
+
+1.0.0.43
+1. Very temp update on voltage check on PV</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1949,7 +1993,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -1958,7 +2002,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{448D90BE-66D5-4BAD-82A4-18736117EEED}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{30F50A7C-BCD1-40F8-B61A-979DFC7C51DB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
