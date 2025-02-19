@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -32,6 +32,7 @@
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="FMA1600A Gas Type.ctl" Type="VI" URL="../../Omega FMA-1600A Series Gas Flow Meter/Type Definitions/FMA1600A Gas Type.ctl"/>
 			<Item Name="Ultramat 23 AFCO Calculations Sub.vi" Type="VI" URL="../SubVIs/Ultramat 23 AFCO Calculations Sub.vi"/>
 			<Item Name="Ultramat 23 AFCO Calculations.vi" Type="VI" URL="../SubVIs/Ultramat 23 AFCO Calculations.vi"/>
 			<Item Name="Ultramat 23 Create Data Array.vi" Type="VI" URL="../SubVIs/Ultramat 23 Create Data Array.vi"/>
