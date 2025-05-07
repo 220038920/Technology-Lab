@@ -705,6 +705,7 @@
 		<Item Name="UTILITY String to VISA.vi" Type="VI" URL="../../Utility/UTILITY String to VISA.vi"/>
 		<Item Name="HEWH Full Station IDs.ctl" Type="VI" URL="../Type Definitions/HEWH Full Station IDs.ctl"/>
 		<Item Name="HEWH GEA3 Board ID.ctl" Type="VI" URL="../Type Definitions/HEWH GEA3 Board ID.ctl"/>
+		<Item Name="Upper Most Element.ctl" Type="VI" URL="../Type Definitions/Upper Most Element.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
