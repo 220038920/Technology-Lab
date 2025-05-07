@@ -42,3 +42,45 @@ test_conditions = [
 for delta_T1, delta_T2, burner_status in test_conditions:
     category = categorize_condition(delta_T1, delta_T2, burner_status)
     print(f"ΔT1: {delta_T1}, ΔT2: {delta_T2}, Burner Status: {burner_status} => {category}")
+
+
+if(Main_Burner_Flag == 0) {
+    Power_Mode_Out = Power_Mode_In;
+    Send_Timer_Message = 0;
+}
+
+else {
+if (Power_Mode_In == 0) {
+    // Full Power Mode: Stay in full power unless temperature is fully inside low power range
+    if (water_Temp >= TEMP_HIGH_LIMIT - HYSTERESIS) {
+        Power_Mode_Out = 0;  // Stay in Full Power Mode (Hysteresis applied)
+    }
+    else if (water_Temp >= TEMP_LOW_LIMIT) {
+        Power_Mode_Out = 1;  // Switch to Low Power Mode
+    }
+    else {
+        Power_Mode_Out = 0;  // Remain in Full Power Mode
+    }
+}
+else if (Power_Mode_In == 1) {
+    // Low Power Mode: Stay in low power unless temperature exceeds high limit or drops below low hysteresis
+    if (water_Temp > TEMP_HIGH_LIMIT) {
+        Power_Mode_Out = 0;  // Switch to Full Power Mode
+    }
+    else if (water_Temp < (TEMP_LOW_LIMIT - HYSTERESIS)) {
+        Power_Mode_Out = 0;  // Switch to Full Power Mode
+    }
+    else {
+        Power_Mode_Out = 1;  // Stay in Low Power Mode
+    }
+}
+
+ // Check if low power mode was just activated (Power_Mode_Out == 1).
+// If so, trigger a timer reset.
+if (Power_Mode_In == 0 && Power_Mode_Out == 1  ) {
+        Send_Timer_Message = 1; // Set reset flag
+    }
+else {
+        Send_Timer_Message = 0; // Do not reset
+    }
+}
