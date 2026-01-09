@@ -1985,7 +1985,12 @@ Fixed uninitialized shift register problem
 1. Fixing several issues with the FHD. This was a major update.
 
 1.0.0.43
-1. Very temp update on voltage check on PV</Property>
+1. Very temp update on voltage check on PV
+
+2.0.0.1
+1. Major Overhaul, moving alot of the code to C-Type to allow for easier checking. Removed most redundant code and streamlining. 
+2.0.0.2
+1. Updating the partial draw calculation. Simplified the routine and fixed a condition where the numberator of the factor calculation cannot go negative. </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1994,8 +1999,8 @@ Fixed uninitialized shift register problem
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">44</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -2003,7 +2008,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{30F50A7C-BCD1-40F8-B61A-979DFC7C51DB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C284FF96-B89B-4636-BF6A-B949A649D638}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
@@ -2036,10 +2041,10 @@ Digit 4: Final Release Number</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GE Energy Analysis Tool Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Project HEWH Test Program</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
+			<Item Name="GE Water Heating Energy Analysis Tool Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">GE Water Heating Energy Analysis Tool</Property>
+				<Property Name="Destination[0].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{C2579ACE-3C29-427C-B882-B86A3FD731A5}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
@@ -2086,13 +2091,13 @@ Digit 4: Final Release Number</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">GE Appliances, a Haier Company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/GE Energy Analysis Tool/GE Energy Analysis Tool Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/GE Water Heating Energy Analysis Tool/GE Water Heating Energy Analysis Tool Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">GE Energy Analysis Tool Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
+				<Property Name="INST_buildSpecName" Type="Str">GE Water Heating Energy Analysis Tool Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">GE Energy Analysis Tool</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
+				<Property Name="INST_productName" Type="Str">GE Water Heating Energy Analysis Tool</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.19</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_arpCompany" Type="Str">GE Appliances, a Haier Company</Property>
@@ -2106,12 +2111,12 @@ Digit 4: Final Release Number</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{925B30E4-6427-4D91-8C41-8AEE6BD2E9C3}</Property>
+				<Property Name="Source[0].dest" Type="Str">{C2579ACE-3C29-427C-B882-B86A3FD731A5}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{C2579ACE-3C29-427C-B882-B86A3FD731A5}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">UEF Calculator</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">GE Water Heating Energy Analysis Tool</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">GE Water Heating Energy Analysis Tool</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{D7610F1A-473B-43BE-B586-C7C692A2B3B4}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
