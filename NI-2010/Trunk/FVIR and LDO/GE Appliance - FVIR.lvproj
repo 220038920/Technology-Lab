@@ -482,6 +482,7 @@
 			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../Utility/UTILITY Counter.vi"/>
 			<Item Name="EnviraCom_Initialization.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_Initialization.vi"/>
 			<Item Name="EnviraCom_ON_OFF.vi" Type="VI" URL="../../../Drivers/Resideo Power Vent Valve/EnviraCom Communication/SubVIs/EnviraCom_ON_OFF.vi"/>
+			<Item Name="Tenney Message Queue.lvlib" Type="Library" URL="../../Tenney/support/Message Queue/Tenney Message Queue.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GE Appliance - FVIR &amp; LDO" Type="EXE">
@@ -507,7 +508,8 @@
 1.0.0.55 - Adding File Path Visual to Main Screen
 1.0.0.56 - Adding higher scan rate speed for FVIR and adding Enviracom for LDO
 1.0.0.57 - Fixing Modbus Loop Rate
-1.0.0.58 - Updating FVIR Intellifaucet Temp from 70 to 73. Need to included config file. Will do later</Property>
+1.0.0.58 - Updating FVIR Intellifaucet Temp from 70 to 73. Need to included config file. Will do later
+1.0.0.60 - Adding manual HHV control</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GE Appliance - FVIR &amp; LDO</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -516,7 +518,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14988FD7-1974-4075-A1B1-A43EDA48C9CB}</Property>
-				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.build" Type="Int">61</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GE Appliance - FVIR &amp; LDO.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/GE Appliance - FVIR &amp; LDO.exe</Property>
@@ -525,7 +527,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/GE Appliance - FVIR &amp; LDO/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD253ED6-AC6A-4CBB-9C8B-A5F1A80B7708}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48F6BAB4-B66B-4110-82EC-D419A0CC6D45}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
