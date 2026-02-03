@@ -84,7 +84,6 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Tenney Environmental Chamber Data.ctl" Type="VI" URL="../../../../../Users/220038920/OneDrive - GE Appliances/Desktop/Chamber Temp Alteration/controls/Tenney Environmental Chamber Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TESynC GUI" Type="EXE">
