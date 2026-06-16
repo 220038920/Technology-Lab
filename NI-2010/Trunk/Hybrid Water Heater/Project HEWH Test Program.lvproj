@@ -1990,7 +1990,9 @@ Fixed uninitialized shift register problem
 2.0.0.1
 1. Major Overhaul, moving alot of the code to C-Type to allow for easier checking. Removed most redundant code and streamlining. 
 2.0.0.2
-1. Updating the partial draw calculation. Simplified the routine and fixed a condition where the numberator of the factor calculation cannot go negative. </Property>
+1. Updating the partial draw calculation. Simplified the routine and fixed a condition where the numberator of the factor calculation cannot go negative. 
+
+2.0.0.3 - Starting to clean up the tolerance calculations. They are correct, but working to make it easier to maintain.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HEWH UEF - Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1999,7 +2001,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
@@ -2008,7 +2010,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C284FF96-B89B-4636-BF6A-B949A649D638}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D3654C9C-626B-4714-889F-F107DA5DA8EC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Macros/UEF/HEWH UEF - Main.vi</Property>
