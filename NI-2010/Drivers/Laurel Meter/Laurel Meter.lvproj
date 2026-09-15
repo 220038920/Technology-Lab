@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -89,6 +89,7 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
 				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="DOE Calculate Rinse Gallons.vi" Type="VI" URL="../../../Trunk/Washer DOE/Support VIs/DOE Calculate Rinse Gallons.vi"/>
 			<Item Name="DOE Test Fixture Hardware.ctl" Type="VI" URL="../../../Trunk/Washer DOE/Type Definitions/DOE Test Fixture Hardware.ctl"/>
@@ -112,6 +113,8 @@
 			<Item Name="Emerson 5700 32 Bit Data.vi" Type="VI" URL="../../Emerson 5700 Transmitter/SubVIs/Emerson 5700 32 Bit Data.vi"/>
 			<Item Name="UTILITY Modbus 32bit Number Combine.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Modbus 32bit Number Combine.vi"/>
 			<Item Name="UTILITY Counter.vi" Type="VI" URL="../../../Trunk/Utility/UTILITY Counter.vi"/>
+			<Item Name="Inficon IP Address.ctl" Type="VI" URL="../../Inficon Fusion Micro GC/Type Definitions/Inficon IP Address.ctl"/>
+			<Item Name="Round_Three_Decimals.vi" Type="VI" URL="../../../Trunk/Utility/Round_Three_Decimals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laurel Collect Continuous" Type="EXE">
