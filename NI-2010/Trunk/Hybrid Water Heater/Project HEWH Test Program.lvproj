@@ -965,7 +965,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="HEWH Filter All Temps.vi" Type="VI" URL="../Support VIs/HEWH Filter All Temps.vi"/>
-			<Item Name="Deadband Simulator.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Deadband Simulator.vi"/>
 			<Item Name="Plant System.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/control/PID/subVIs/Plant System.vi"/>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../../FVIR and LDO/support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../../FVIR and LDO/support/Check Loop Error.vi"/>
@@ -2001,7 +2000,7 @@ Fixed uninitialized shift register problem
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC34C592-7E89-4B2D-92E6-544FAE1EB331}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">UEF Calculator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/HEWH UEF - Main/UEF Calculator.exe</Property>
